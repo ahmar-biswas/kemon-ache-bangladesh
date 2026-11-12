@@ -6,10 +6,16 @@ export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 export const RAW_DIR = resolve(ROOT, 'data/raw');
 export const PROCESSED_DIR = resolve(ROOT, 'data/processed');
 
-export const rawPath = (code: string, kind: 'data' | 'meta') => resolve(RAW_DIR, `${code}.BGD.${kind}.json`);
+export const rawPath = (code: string, kind: 'data' | 'meta') => resolve(RAW_DIR, `${code}.${kind}.json`);
 export const processedPath = (id: string) => resolve(PROCESSED_DIR, `${id}.json`);
+export const medianPath = (id: string) => resolve(PROCESSED_DIR, 'median', `${id}.json`);
 export const metaPath = () => resolve(PROCESSED_DIR, 'meta.json');
-export const countryMetaPath = () => resolve(RAW_DIR, 'country.BGD.meta.json');
+export const indicatorsPath = () => resolve(PROCESSED_DIR, 'indicators.json');
+export const countriesPath = () => resolve(PROCESSED_DIR, 'countries.json');
+/** WDI country metadata (currency, special notes) for Bangladesh and the default peers. */
+export const countryMetaPath = () => resolve(RAW_DIR, 'countries.meta.json');
+/** The World Bank country list (regions and income groups). */
+export const countryListPath = () => resolve(RAW_DIR, 'countries.list.json');
 
 export function readJson<T>(path: string): T | null {
   if (!existsSync(path)) return null;

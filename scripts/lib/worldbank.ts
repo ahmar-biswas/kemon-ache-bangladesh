@@ -1,48 +1,85 @@
 // Fetching from the World Bank API (v2) and turning the answer into our record schema.
-import type { DataRecord } from '../../src/data/types.ts';
-import {
-  COUNTRY,
-  COUNTRY_ISO2,
-  EXPECTED_CURRENCY_UNIT,
-  WDI_SOURCE_ID,
-  type IndicatorConfig,
-} from '../indicators.ts';
+import type { CountryInfo, DataRecord } from '../../src/data/types.ts';
+import { COUNTRY, EXPECTED_CURRENCY_UNIT, WDI_SOURCE_ID, type IndicatorConfig } from '../indicators.ts';
 
 import { readCached, writeCached } from './http-cache.ts';
 
 const API = 'https://api.worldbank.org/v2';
 
-/** WDI country metadata for Bangladesh (currency unit, special notes). This endpoint is slow (a minute or more). */
-export const COUNTRY_META_URL = `${API}/sources/${WDI_SOURCE_ID}/country/${COUNTRY}/metadata?format=json`;
+/** Every country and aggregate the World Bank lists, with region and income group. Fast. */
+export const COUNTRY_LIST_URL = `${API}/country?format=json&per_page=400`;
+/** Human-readable page explaining the income classification. */
+export const CLASSIFICATION_URL =
+  'https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups';
+
+/** WDI country metadata (currency unit, special notes) for the given countries. This endpoint is slow. */
+export const countryMetaUrl = (countries: readonly string[]) =>
+  `${API}/sources/${WDI_SOURCE_ID}/country/${countries.join(';')}/metadata?format=json`;
 
 export interface CountryMeta {
-  currencyUnit: string;
+  currencyUnit: string | null;
   specialNotes: string | null;
 }
 
-/** Reads the WDI country metadata answer. Throws if its shape is not as expected. */
-export function parseCountryMeta(raw: RawResponse): CountryMeta {
+/** Reads the WDI country metadata answer. Throws if its shape is not as expected or a country is missing. */
+export function parseCountryMeta(raw: RawResponse, expected: readonly string[]): Map<string, CountryMeta> {
   const r = raw.response as {
     source?: { concept?: { variable?: { id: string; metatype?: { id: string; value: string }[] }[] }[] }[];
   };
-  const variable = r?.source?.[0]?.concept?.[0]?.variable?.find((v) => v.id === COUNTRY);
-  if (!variable?.metatype) throw new Error(`Country metadata for ${COUNTRY}: unexpected response shape`);
-  const get = (id: string) => variable.metatype!.find((m) => m.id === id)?.value ?? null;
-  const currencyUnit = get('CurrencyUnit');
-  if (!currencyUnit) throw new Error(`Country metadata for ${COUNTRY}: no CurrencyUnit`);
-  const notes = get('SpecialNotes');
-  return { currencyUnit, specialNotes: notes && notes.trim() !== '' ? notes : null };
+  const variables = r?.source?.[0]?.concept?.[0]?.variable;
+  if (!Array.isArray(variables)) throw new Error('Country metadata: unexpected response shape');
+  const out = new Map<string, CountryMeta>();
+  for (const v of variables) {
+    if (!v.metatype) continue;
+    const get = (id: string) => {
+      const value = v.metatype!.find((m) => m.id === id)?.value;
+      return value && value.trim() !== '' ? value : null;
+    };
+    out.set(v.id, { currencyUnit: get('CurrencyUnit'), specialNotes: get('SpecialNotes') });
+  }
+  for (const id of expected) if (!out.has(id)) throw new Error(`Country metadata: no entry for ${id}`);
+  if (!out.get(COUNTRY)?.currencyUnit) throw new Error(`Country metadata for ${COUNTRY}: no CurrencyUnit`);
+  return out;
+}
+
+interface WbCountry {
+  id: string;
+  iso2Code: string;
+  name: string;
+  region: { id: string; value: string };
+  incomeLevel: { id: string; value: string };
+}
+
+/** Real countries only (aggregates such as "South Asia" have region "NA"). */
+export function parseCountryList(raw: RawResponse): CountryInfo[] {
+  const [page, rows] = unwrap<WbCountry>(raw.response, 'country list');
+  if (rows.length !== page.total) throw new Error(`country list: got ${rows.length} rows; World Bank says ${page.total}`);
+  const countries = rows
+    .filter((c) => c.region.id !== 'NA')
+    .map((c) => ({
+      id: c.id,
+      iso2: c.iso2Code,
+      name: c.name,
+      region: c.region.value.trim(),
+      income_group: c.incomeLevel.id,
+      income_group_name: c.incomeLevel.value.trim(),
+    }));
+  for (const c of countries) {
+    if (!/^[A-Z]{3}$/.test(c.id) || !/^[A-Z0-9]{2}$/.test(c.iso2)) throw new Error(`country list: odd codes ${c.id}/${c.iso2}`);
+  }
+  if (countries.length < 150) throw new Error(`country list: only ${countries.length} countries; expected about 217`);
+  return countries.sort((a, b) => a.id.localeCompare(b.id));
 }
 
 export const urls = (code: string) => ({
-  /** The JSON we fetch: every year for Bangladesh, with footnotes (paging is added by fetchAllPages). */
-  data: `${API}/country/${COUNTRY}/indicator/${code}?format=json&footnote=y`,
+  /** The JSON we fetch: every year for the given countries, with footnotes (paging is added by fetchAllPages). */
+  data: (countries: readonly string[]) => `${API}/country/${countries.join(';')}/indicator/${code}?format=json&footnote=y`,
   /** The indicator's own metadata (name, source organisation). */
   meta: `${API}/indicator/${code}?format=json`,
   /** Shorter API link stored in each record for readers who want the raw numbers. */
-  apiForRecord: `${API}/country/${COUNTRY}/indicator/${code}?format=json`,
-  /** Human-readable World Bank page for this indicator, filtered to Bangladesh. */
-  page: `https://data.worldbank.org/indicator/${code}?locations=${COUNTRY_ISO2}`,
+  apiForRecord: (iso3: string) => `${API}/country/${iso3}/indicator/${code}?format=json`,
+  /** Human-readable World Bank page for this indicator, showing the given countries (two-letter codes). */
+  page: (iso2s: readonly string[]) => `https://data.worldbank.org/indicator/${code}?locations=${iso2s.join('-')}`,
   /** Official definition page. */
   definition: `https://databank.worldbank.org/metadataglossary/world-development-indicators/series/${code}`,
 });
@@ -54,10 +91,14 @@ export interface RawResponse {
   response: unknown;
 }
 
-/** Hard limits for every request. */
-export const REQUEST_TIMEOUT_MS = 60_000;
-export const MAX_ATTEMPTS = 3;
-/** Wait before retry n is RETRY_WAIT_MS × n (20 s, then 40 s). Tests set KAB_RETRY_WAIT_MS=0. */
+/**
+ * Hard limits for every request. The World Bank's own server can take over a minute for
+ * a request Cloudflare has no copy of (DECISIONS.md 17, 23). A request that times out
+ * usually finishes on their side and is then stored by Cloudflare, so a retry is fast.
+ */
+export const REQUEST_TIMEOUT_MS = Number(process.env.KAB_TIMEOUT_MS ?? 120_000);
+export const MAX_ATTEMPTS = 4;
+/** Wait before retry n is RETRY_WAIT_MS × n (20 s, 40 s, 60 s). Tests set KAB_RETRY_WAIT_MS=0. */
 const RETRY_WAIT_MS = Number(process.env.KAB_RETRY_WAIT_MS ?? 20_000);
 
 const log = (msg: string) => {
@@ -84,7 +125,7 @@ export async function fetchJson(url: string): Promise<Fetched> {
   let lastError: unknown;
   for (let i = 1; i <= MAX_ATTEMPTS; i++) {
     const started = Date.now();
-    const short = url.replace(API, '');
+    const short = url.replace(API, '').slice(0, 140);
     try {
       const res = await fetch(url, { signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
       // Cloudflare sits in front of the API. "HIT" = answered from its copy (fast);
@@ -100,8 +141,6 @@ export async function fetchJson(url: string): Promise<Fetched> {
     } catch (err) {
       lastError = err;
       log(`    ${short}: attempt ${i}/${MAX_ATTEMPTS} failed after ${Date.now() - started} ms: ${errorText(err)}`);
-      // A timed-out request often keeps running on the World Bank's server and is then
-      // stored by Cloudflare, so waiting a while before retrying usually gets a fast copy.
       if (i < MAX_ATTEMPTS) await new Promise((r) => setTimeout(r, RETRY_WAIT_MS * i));
     }
   }
@@ -118,8 +157,7 @@ function errorText(err: unknown): string {
 }
 
 /**
- * Fetches every page of a World Bank list. Small pages are used because the API
- * sometimes answers 502 for large requests; each page has its own retries.
+ * Fetches every page of a World Bank list; each page has its own retries.
  * Returns the list of page answers, unchanged.
  */
 export async function fetchAllPages(baseUrl: string, perPage = 20): Promise<{ answers: unknown[]; retrievedAt: string }> {
@@ -170,27 +208,34 @@ export function todayInDhaka(now = new Date()): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Dhaka' }).format(now);
 }
 
+export interface NormaliseContext {
+  /** Countries requested (ISO3). Every row must belong to one of them. */
+  countries: readonly string[];
+  /** ISO3 → ISO2, for website links. */
+  iso2: ReadonlyMap<string, string>;
+  /** WDI country metadata for at least Bangladesh and the default peers. */
+  countryMeta: ReadonlyMap<string, CountryMeta>;
+}
+
 export interface NormaliseResult {
+  /** Every published value for every requested country. */
   records: DataRecord[];
   sourceLastUpdated: string | null;
+  /** The World Bank's series name, as published. */
+  seriesName: string;
+  /** Values read from the series name (config.paramsFromName). */
+  params: Record<string, string>;
 }
 
 /**
  * Turn the two cached responses into records. Throws (never guesses) if anything
  * about the answer is not what we expect.
  */
-export function normalise(
-  config: IndicatorConfig,
-  metaRaw: RawResponse,
-  dataRaw: RawResponse,
-  country: CountryMeta,
-): NormaliseResult {
-  if (config.unit === 'taka_current' && country.currencyUnit !== EXPECTED_CURRENCY_UNIT) {
-    throw new Error(
-      `${config.code}: World Bank currency unit for ${COUNTRY} is "${country.currencyUnit}", not "${EXPECTED_CURRENCY_UNIT}"`,
-    );
+export function normalise(config: IndicatorConfig, metaRaw: RawResponse, dataRaw: RawResponse, ctx: NormaliseContext): NormaliseResult {
+  const bgdCurrency = ctx.countryMeta.get(COUNTRY)?.currencyUnit;
+  if ((config.unit === 'taka_current' || config.unit === 'taka_constant') && bgdCurrency !== EXPECTED_CURRENCY_UNIT) {
+    throw new Error(`${config.code}: World Bank currency unit for ${COUNTRY} is "${bgdCurrency}", not "${EXPECTED_CURRENCY_UNIT}"`);
   }
-  const countryNotes = config.nationalAccounts && country.specialNotes ? [country.specialNotes] : [];
   const [, metaRows] = unwrap<WbIndicatorMeta>(metaRaw.response, `${config.code} metadata`);
   const meta = metaRows[0];
   if (!meta || meta.id !== config.code) throw new Error(`${config.code}: metadata missing`);
@@ -202,6 +247,12 @@ export function normalise(
   }
   if (meta.source.id !== WDI_SOURCE_ID) {
     throw new Error(`${config.code}: source is "${meta.source.value}", expected World Development Indicators`);
+  }
+  const params: Record<string, string> = {};
+  for (const [key, re] of Object.entries(config.paramsFromName ?? {})) {
+    const m = re.exec(meta.name);
+    if (!m?.[1]) throw new Error(`${config.code}: could not read {${key}} from the series name "${meta.name}"`);
+    params[key] = m[1];
   }
 
   // dataRaw.response is a list of page answers (see fetchAllPages). Check that every
@@ -219,34 +270,40 @@ export function normalise(
   });
   if (pages.length !== first.pages) throw new Error(`${config.code}: got ${pages.length} of ${first.pages} pages`);
   if (rows.length !== first.total) throw new Error(`${config.code}: got ${rows.length} rows; World Bank says ${first.total}`);
-  const page = first;
 
+  const wanted = new Set(ctx.countries);
   const u = urls(config.code);
   const records: DataRecord[] = [];
+  const seen = new Set<string>();
   for (const row of rows) {
-    if (row.indicator.id !== config.code || row.countryiso3code !== COUNTRY) {
+    if (row.indicator.id !== config.code || !wanted.has(row.countryiso3code)) {
       throw new Error(`${config.code}: unexpected row ${JSON.stringify(row).slice(0, 200)}`);
     }
+    if (!/^\d{4}$/.test(row.date)) throw new Error(`${config.code}: unexpected date "${row.date}"`);
+    const key = `${row.countryiso3code}-${row.date}`;
+    if (seen.has(key)) throw new Error(`${config.code}: two rows for ${key}`);
+    seen.add(key);
     // Missing years stay missing. We never fill them.
     if (row.value === null) continue;
-    const year = Number(row.date);
-    if (!/^\d{4}$/.test(row.date)) throw new Error(`${config.code}: unexpected date "${row.date}"`);
+    const iso2 = ctx.iso2.get(row.countryiso3code);
+    if (!iso2) throw new Error(`${config.code}: no two-letter code for ${row.countryiso3code}`);
+    const special = config.nationalAccounts ? ctx.countryMeta.get(row.countryiso3code)?.specialNotes : null;
     records.push({
       indicator_id: config.id,
-      country: COUNTRY,
-      year,
+      country: row.countryiso3code,
+      year: Number(row.date),
       value: row.value,
       unit: config.unit,
       source_name: `World Bank, ${meta.source.value}`,
       original_source: meta.sourceOrganization,
-      source_url: u.page,
+      source_url: u.page([iso2]),
       definition_url: u.definition,
-      api_url: u.apiForRecord,
+      api_url: u.apiForRecord(row.countryiso3code),
       retrieved_at: dataRaw.retrieved_at,
-      notes: [...countryNotes, ...(row.footnote && row.footnote.trim() !== '' ? [row.footnote] : [])],
+      notes: [...(special ? [special] : []), ...(row.footnote && row.footnote.trim() !== '' ? [row.footnote] : [])],
       measured_by: null,
     });
   }
-  records.sort((a, b) => a.year - b.year);
-  return { records, sourceLastUpdated: page.lastupdated ?? null };
+  records.sort((a, b) => a.country.localeCompare(b.country) || a.year - b.year);
+  return { records, sourceLastUpdated: first.lastupdated ?? null, seriesName: meta.name, params };
 }

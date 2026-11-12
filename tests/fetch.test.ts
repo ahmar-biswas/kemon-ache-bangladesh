@@ -75,7 +75,7 @@ describe('fetchAllPages', () => {
         [{ id: 'SP.DYN.LE00.IN', name: lifeExpectancy.expectedName, source: { id: '2', value: 'World Development Indicators' }, sourceOrganization: 'Test' }],
       ],
     };
-    const { records } = normalise(lifeExpectancy, metaRaw, dataRaw, { currencyUnit: 'Bangladeshi taka', specialNotes: null });
+    const { records } = normalise(lifeExpectancy, metaRaw, dataRaw, { countries: ['BGD'], iso2: new Map([['BGD', 'BD']]), countryMeta: new Map([['BGD', { currencyUnit: 'Bangladeshi taka', specialNotes: null }]]) });
     // 45 years asked for, 1 of them empty → 44 records, oldest first.
     expect(records).toHaveLength(44);
     expect(records[0]!.year).toBe(1981);
@@ -98,7 +98,7 @@ describe('missing values are skipped, never filled in', () => {
       lifeExpectancy,
       metaRaw,
       { retrieved_at: retrievedAt, request_url: BASE, response: answers },
-      { currencyUnit: 'Bangladeshi taka', specialNotes: null },
+      { countries: ['BGD'], iso2: new Map([['BGD', 'BD']]), countryMeta: new Map([['BGD', { currencyUnit: 'Bangladeshi taka', specialNotes: null }]]) },
     );
     expect(records.find((r) => r.year === 2025)).toBeUndefined();
     expect(Math.max(...records.map((r) => r.year))).toBe(2024);

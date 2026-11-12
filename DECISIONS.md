@@ -54,3 +54,14 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     
     After the fixes in 18–20 it fetched fully: 39 records, 1987–2025. It stays a watch item for M2: if the World Bank server is slow again, a refresh may need a second run. Nothing is ever filled in to get around a failed fetch.
 22. **Toggle without JavaScript.** The toggle uses real `<a href>` links, but the site is still a client-side app, so pages need JavaScript to render. Pre-rendering static HTML for each page is planned for later (see PROGRESS.md open items).
+
+## Milestone 2 (in progress, 2026-11-13)
+
+23. **Longer request limits.** Each request may take up to 120 s and is tried up to 4 times (waits 20, 40, 60 s), because the World Bank server took 30–150 s per uncached request on 2026-11-13.
+24. **Response cache kept for 7 days (temporary).** So a paused M2 fetch can resume without downloading again. The stored "retrieved" date is still the real download date. Must go back to same day only before the weekly refresh (M9).
+25. **One request per series for many countries.** Bangladesh, the 7 default peers and every lower-middle-income country are fetched together (`country/A;B;C/indicator/CODE`). Published data files keep Bangladesh and the peers. The others are used only as inputs to the median.
+26. **Peer income groups are read from the World Bank country list, not assumed.** On 2026-11-13, Sri Lanka, Viet Nam and the Philippines are upper-middle income. They stay in the default peer set because the spec names them. Question for Ahmar (see PROGRESS.md).
+27. **Lower-middle-income median.** For each year, the median of the countries in the group that have a value for that exact year. Years are never mixed. A year needs at least 10 countries (`MEDIAN_MIN_COUNTRIES`, to confirm with Ahmar). Every median record lists its input countries and values, and is labelled "Calculated by this site". The group uses the current classification for all years.
+28. **Favourable direction only from UN SDG targets.** Lower: under-5 mortality (3.2), stunting (2.2), international poverty (1.1). Higher: adult literacy (4.6). All others are "context". Target text is quoted word for word from sdgs.un.org.
+29. **Taka series are Bangladesh only.** Other countries' local-currency values are in their own currencies, so cross-country comparison uses GDP per person in PPP international dollars (rule 7).
+30. **Placeholder rename.** `{100+value}` in the inflation explanation is stored as `{value_plus_100}`, because placeholders must be plain names.
