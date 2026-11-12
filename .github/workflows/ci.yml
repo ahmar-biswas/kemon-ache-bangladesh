@@ -1,0 +1,30 @@
+# Runs on every push and pull request. Any failing step blocks the change.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - name: Type check
+        run: npm run typecheck
+      - name: Translation check (every key has Bangla)
+        run: npm run check:i18n
+      - name: Data check (every record has a source, values pass validation)
+        run: npm run check:data
+      - name: Unit tests and source check (every shown value has a source line)
+        run: npm test
+      - name: Build
+        run: npx vite build

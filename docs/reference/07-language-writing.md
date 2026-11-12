@@ -1,0 +1,7 @@
+## 7. Language toggle and writing rules
+
+- Toggle in the top-right of the header on every page: `English | বাংলা`. The active language is visibly selected. It is a real link (`/en/...` ↔ `/bn/...`), works without JavaScript for navigation, and keeps the same page, scroll position of the top, and chart settings (selected countries) where possible.
+- Reading level: aim for about class 8. Short sentences. Explain a term the first time it appears on a page, with an "(?)" info link to its definition.
+- Bangla: use clear, standard Bangla (সাধু ভাষা is not wanted; use চলিত). Avoid unnecessary English loanwords where a common Bangla word exists, but keep widely used terms (জিডিপি, টাকা, ডলার). The Bangla text in this document is a **first draft written for review by a native speaker**. Flag any Bangla string the builder is unsure of in `BANGLA_REVIEW.md` rather than guessing.
+- Country names in Bangla: use the standard Bangla names (e.g., ভারত, পাকিস্তান, শ্রীলঙ্কা, নেপাল, ভিয়েতনাম, ফিলিপাইন, কম্বোডিয়া). Maintain a `countries.bn.json` and flag unsure ones.
+- Snapshot sentences (the one-line summaries) are produced from **fixed templates filled with real values**, in both languages. Examples of template shapes: "{indicator} was {value} in {year}, {up from/down from/the same as} {old_value} in {old_year}." and "{value} in {year}, {higher than/lower than} {n} of {m} comparison countries with data." Choose the direction word by comparing the two numbers. No adjectives, no judgement.

@@ -1,0 +1,1176 @@
+{
+  "retrieved_at": "2026-11-13",
+  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CN?format=json&footnote=y",
+  "response": [
+    [
+      {
+        "page": 1,
+        "pages": 4,
+        "per_page": 20,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2025",
+          "value": 313912.205827026,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2024",
+          "value": 288233.784370441,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2023",
+          "value": 261907.070276325,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2022",
+          "value": 234478.780005988,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2021",
+          "value": 210557.612424095,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2020",
+          "value": 190649.854023521,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2019",
+          "value": 178968.760235507,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2018",
+          "value": 161399.09600419,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2017",
+          "value": 143311.080692977,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2016",
+          "value": 129083.773460293,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2015",
+          "value": 95104.2832443441,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2014",
+          "value": 85061.5645198055,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2013",
+          "value": 76592.7792363103,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2012",
+          "value": 68046.9047285911,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2011",
+          "value": 59627.7351426329,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2010",
+          "value": 52400.0209957845,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2009",
+          "value": 46732.5806004882,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2008",
+          "value": 42059.5615041797,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2007",
+          "value": 37151.3198408874,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2006",
+          "value": 32945.1699364752,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        }
+      ]
+    ],
+    [
+      {
+        "page": 2,
+        "pages": 4,
+        "per_page": 20,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2005",
+          "value": 29511.2310691523,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2004",
+          "value": 26821.9971754798,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2003",
+          "value": 24708.7559567756,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2002",
+          "value": 22620.8972342757,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2001",
+          "value": 21295.6598846204,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2000",
+          "value": 19956.504438865,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1999",
+          "value": 18659.6404996167,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1998",
+          "value": 17507.0064315769,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1997",
+          "value": 16195.4659862014,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1996",
+          "value": 15211.4436510034,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1995",
+          "value": 12440.2389690994,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1994",
+          "value": 11252.1815748278,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1993",
+          "value": 10612.6249742238,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1992",
+          "value": 10309.6332340142,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1991",
+          "value": 9712.71866130284,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1990",
+          "value": 9312.46851522466,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1989",
+          "value": 8442.48311255282,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1988",
+          "value": 7734.52598608223,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1987",
+          "value": 7176.48712013499,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1986",
+          "value": 6364.46981559181,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        }
+      ]
+    ],
+    [
+      {
+        "page": 3,
+        "pages": 4,
+        "per_page": 20,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1985",
+          "value": 5777.72469030483,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1984",
+          "value": 4835.87552440595,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1983",
+          "value": 4388.63292350026,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1982",
+          "value": 3999.9027307229,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1981",
+          "value": 3664.10435167207,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1980",
+          "value": 3190.05205755216,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1979",
+          "value": 2756.80935602172,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1978",
+          "value": 2393.86273790255,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1977",
+          "value": 1823.7238232366,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1976",
+          "value": 1881.39170643588,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1975",
+          "value": 2217.26255864621,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1974",
+          "value": 1314.28161144001,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1973",
+          "value": 853.511325895529,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1972",
+          "value": 526.642591148856,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1971",
+          "value": 597.763022875927,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1970",
+          "value": 625.047172055782,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1969",
+          "value": 604.225496151351,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1968",
+          "value": 549.191843857802,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1967",
+          "value": 548.207432141325,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1966",
+          "value": 501.225862458526,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        }
+      ]
+    ],
+    [
+      {
+        "page": 4,
+        "pages": 4,
+        "per_page": 20,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1965",
+          "value": 473.299905801958,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1964",
+          "value": 444.375829410427,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1963",
+          "value": 451.883396624567,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1962",
+          "value": 444.429221649271,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1961",
+          "value": 433.769177421239,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1960",
+          "value": 395.91013157585,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        }
+      ]
+    ]
+  ]
+}
