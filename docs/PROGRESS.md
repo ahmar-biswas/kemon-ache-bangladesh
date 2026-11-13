@@ -21,7 +21,7 @@
 - **Hosting** (GitHub Pages or Cloudflare Pages) and `refresh-data.yml` are for M9.
 
 ## Open questions for Ahmar
-- Bangla strings in BANGLA_REVIEW.md (10 from M1, 17 more from M2).
+- Bangla strings in BANGLA_REVIEW.md: the 10 from M1 are still open (the M2 ones were reviewed on 2026-11-13).
 - **Peers:** Sri Lanka, Viet Nam and the Philippines are now upper-middle income (World Bank list, 2026-11-13). Keep them as default peers (the spec names them), or change the set / the "Why these countries?" wording?
 - **Median minimum:** a year gets an LMIC median only if at least 10 countries have a value for that year. OK? (Poverty and literacy medians exist for 17 years; stunting for 18.)
 - **Survey citations in notes** (about 110, mostly stunting): the report title is shown as published (in English) after a translated "Source" label, instead of translating each title. OK under rule 7?

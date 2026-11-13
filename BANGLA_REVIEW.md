@@ -16,25 +16,25 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `src/lib/format.ts` (formatUsd) | US$২১.৪ বিলিয়ন | Is "US$" before Bangla digits acceptable, or should it be "২১.৪ বিলিয়ন মার্কিন ডলার"? |
 | `site.tagline` | বাংলাদেশ নিয়ে প্রকাশিত পরিসংখ্যান, প্রতিটির সঙ্গে তার উৎস। | Natural? |
 
-## Added in Milestone 2
+## Added in Milestone 2 (reviewed by Ahmar on 2026-11-13: all accepted, with the four changes below)
 
 | Key / place | Draft | Question |
 |---|---|---|
 | `indicator.gdp_pc_taka_constant.name` | মাথাপিছু জিডিপি, স্থির মূল্যে টাকায় | Is "স্থির মূল্যে" the usual term for "constant prices"? |
 | `indicator.gdp_pc_ppp.name` | …আন্তর্জাতিক ডলারে (ক্রয়ক্ষমতার সমতা) | Is "ক্রয়ক্ষমতার সমতা" clear for PPP? |
 | `indicator.youth_unemployment.name` | যুব বেকারত্ব… (আইএলওর মডেলভিত্তিক হিসাব) | "মডেলভিত্তিক হিসাব" for "modelled estimate"? |
-| `indicator.stunting.name` | পাঁচ বছরের কম বয়সী শিশুদের খর্বতা | Is "খর্বতা" understood, or use "বয়সের তুলনায় খাটো হওয়া"? |
+| `indicator.stunting.name` | পাঁচ বছরের কম বয়সী শিশুদের বয়সের তুলনায় খাটো হওয়া | **Changed by Ahmar:** "বয়সের তুলনায় খাটো হওয়া" instead of "খর্বতা" (also in `direction.target.stunting`). |
 | `indicator.oop.name` | স্বাস্থ্য ব্যয়ে মানুষের নিজের পকেট থেকে সরাসরি খরচ | Natural for "out-of-pocket"? |
 | `indicator.secondary_enrol_*` | মাধ্যমিক বিদ্যালয়ে ভর্তির হার (মোট) | "মোট" for "gross"? "মেয়ে / ছেলে" or "ছাত্রী / ছাত্র"? |
-| `median.label` | নিম্ন-মধ্যম আয়ের দেশগুলোর মধ্যমা | Is "মধ্যমা" (median) familiar to general readers? |
+| `median.label` | নিম্ন-মধ্যম আয়ের দেশগুলোর মিডিয়ান | **Changed by Ahmar:** the English word "median" written in Bangla (মিডিয়ান) instead of "মধ্যমা". |
 | `derived.calculated_by_site` | এই সাইটের হিসাব | Clear for "Calculated by this site"? |
 | `derived.median_formula` | … {count}টি দেশের মাঝের মান | Natural? |
 | `direction.target.*` (4 SDG targets) | Long translations of UN target texts | Is there an official Bangla version of the SDG targets we should copy instead? |
 | `explain.*` (32 texts) | From section 11 (draft) | Already listed as drafts in the spec; review all. |
-| `countries.bn.json`: CIV | কোত দিভোয়ার | Spelling? |
+| `countries.bn.json`: CIV | আইভরি কোস্ট | **Changed by Ahmar:** "Ivory Coast" in Bangla. |
 | `countries.bn.json`: STP | সাঁউ তুমি ও প্রিন্সিপি | Spelling? |
 | `countries.bn.json`: TLS | তিমুর-লেস্তে | Or "পূর্ব তিমুর"? |
-| `countries.bn.json`: PSE | পশ্চিম তীর ও গাজা | Follows the World Bank's name "West Bank and Gaza". Keep, or "ফিলিস্তিন"? |
+| `countries.bn.json`: PSE | ফিলিস্তিন | **Changed by Ahmar:** "Filistin" in Bangla (the World Bank's English name is "West Bank and Gaza"). |
 | `countries.bn.json`: COG | কঙ্গো প্রজাতন্ত্র | World Bank name "Congo, Rep.". OK? |
 | `countries.bn.json`: SWZ | এসওয়াতিনি | Spelling? |
 | `note.pip_*` (4 keys) | {survey} জরিপের তথ্যের ভিত্তিতে। প্রতিটি খানার আলাদা / শ্রেণিবদ্ধ ভোগব্যয়ের (আয়ের) তথ্য থেকে হিসাব করা। | Is this clear for "unit-record" vs "grouped" data? Is "ভোগব্যয়" right for "consumption"? |
