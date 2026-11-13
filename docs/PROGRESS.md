@@ -22,7 +22,7 @@
 
 ## Open questions for Ahmar
 - **M6 review:** check /economy, a subsection page and an indicator page at phone and laptop width, in both languages; and the new Bangla strings in BANGLA_REVIEW.md (Milestone 6).
-- **M7 must:** add the P1 Economy measures to  and remove the "added in the next update" notes (DECISIONS 102), and add Sources and About to the header menu.
+- **M7 must:** add the P1 Economy measures to `src/data/site.ts` and remove the "added in the next update" notes (DECISIONS 102), and add Sources and About to the header menu.
 - **Countries greyed out for an untranslated source note** (DECISIONS 92): about 40 for the GDP-based measures, about 9 for poverty. OK to translate the remaining note patterns in M7/M8?
 - **167 new Bangla country names** (BANGLA_REVIEW.md, Milestone 5).
 - **M4 review:** check the homepage at laptop and phone size, and try the slicer and the Details switches.
