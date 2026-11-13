@@ -1,12 +1,12 @@
 {
   "retrieved_at": "2026-11-13",
-  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/FP.CPI.TOTL.ZG?format=json&footnote=y",
+  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CN?format=json&footnote=y",
   "response": [
     [
       {
         "page": 1,
-        "pages": 4,
-        "per_page": 20,
+        "pages": 1,
+        "per_page": 20000,
         "total": 66,
         "sourceid": "2",
         "lastupdated": "2026-11-11"
@@ -14,8 +14,8 @@
       [
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -23,16 +23,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2025",
-          "value": 8.7687628116114,
+          "value": 313912.205827026,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -40,16 +40,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2024",
-          "value": 10.4657482763412,
+          "value": 288233.784370441,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -57,16 +57,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2023",
-          "value": 9.8835030377921,
+          "value": 261907.070276325,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -74,16 +74,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2022",
-          "value": 7.69695437176898,
+          "value": 234478.780005988,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -91,16 +91,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2021",
-          "value": 5.54565430773473,
+          "value": 210557.612424095,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -108,16 +108,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2020",
-          "value": 5.69107474746211,
+          "value": 190649.854023521,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -125,16 +125,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2019",
-          "value": 5.59199639930629,
+          "value": 178968.760235507,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -142,16 +142,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2018",
-          "value": 5.54362139486476,
+          "value": 161399.09600419,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -159,16 +159,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2017",
-          "value": 5.70207015717238,
+          "value": 143311.080692977,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -176,16 +176,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2016",
-          "value": 5.51352572692995,
+          "value": 129083.773460293,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -193,16 +193,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2015",
-          "value": 6.19428022984983,
+          "value": 95104.2832443441,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -210,16 +210,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2014",
-          "value": 6.99163889220848,
+          "value": 85061.5645198055,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -227,16 +227,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2013",
-          "value": 7.53040640913172,
+          "value": 76592.7792363103,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -244,16 +244,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2012",
-          "value": 6.21750422069283,
+          "value": 68046.9047285911,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -261,16 +261,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2011",
-          "value": 11.3951651552399,
+          "value": 59627.7351426329,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -278,16 +278,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2010",
-          "value": 8.12667639169917,
+          "value": 52400.0209957845,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -295,16 +295,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2009",
-          "value": 5.42347236174679,
+          "value": 46732.5806004882,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -312,16 +312,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2008",
-          "value": 8.90194489465153,
+          "value": 42059.5615041797,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -329,16 +329,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2007",
-          "value": 9.10698496905382,
+          "value": 37151.3198408874,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -346,28 +346,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2006",
-          "value": 6.76526117054757,
+          "value": 32945.1699364752,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 2,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -375,16 +363,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2005",
-          "value": 7.04661816222038,
+          "value": 29511.2310691523,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -392,16 +380,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2004",
-          "value": 7.58753638504689,
+          "value": 26821.9971754798,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -409,16 +397,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2003",
-          "value": 5.66870773441476,
+          "value": 24708.7559567756,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -426,16 +414,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2002",
-          "value": 3.33256493271912,
+          "value": 22620.8972342757,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -443,16 +431,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2001",
-          "value": 2.0071737421384,
+          "value": 21295.6598846204,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -460,16 +448,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2000",
-          "value": 2.20825620937535,
+          "value": 19956.504438865,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -477,16 +465,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1999",
-          "value": 6.10669589841958,
+          "value": 18659.6404996167,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -494,16 +482,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1998",
-          "value": 8.40223795613228,
+          "value": 17507.0064315769,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -511,16 +499,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1997",
-          "value": 5.30560105668801,
+          "value": 16195.4659862014,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -528,16 +516,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1996",
-          "value": 2.37712902953223,
+          "value": 15211.4436510034,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -545,16 +533,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1995",
-          "value": 10.2978117947206,
+          "value": 12440.2389690994,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -562,16 +550,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1994",
-          "value": 5.31374007936497,
+          "value": 11252.1815748278,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -579,16 +567,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1993",
-          "value": 3.01481859989798,
+          "value": 10612.6249742238,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -596,16 +584,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1992",
-          "value": 3.63407691798491,
+          "value": 10309.6332340142,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -613,16 +601,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1991",
-          "value": 6.35736412278234,
+          "value": 9712.71866130284,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -630,16 +618,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1990",
-          "value": 6.12671846981457,
+          "value": 9312.46851522466,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -647,16 +635,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1989",
-          "value": 6.04547975596243,
+          "value": 8442.48311255282,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -664,16 +652,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1988",
-          "value": 7.41276595744666,
+          "value": 7734.52598608223,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -681,16 +669,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1987",
-          "value": 9.87469609126632,
+          "value": 7176.48712013499,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -698,28 +686,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1986",
-          "value": null,
+          "value": 6364.46981559181,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 3,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -727,16 +703,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1985",
-          "value": null,
+          "value": 5777.72469030483,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -744,16 +720,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1984",
-          "value": null,
+          "value": 4835.87552440595,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -761,16 +737,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1983",
-          "value": null,
+          "value": 4388.63292350026,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -778,16 +754,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1982",
-          "value": null,
+          "value": 3999.9027307229,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -795,16 +771,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1981",
-          "value": null,
+          "value": 3664.10435167207,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -812,16 +788,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1980",
-          "value": null,
+          "value": 3190.05205755216,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -829,16 +805,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1979",
-          "value": null,
+          "value": 2756.80935602172,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -846,16 +822,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1978",
-          "value": null,
+          "value": 2393.86273790255,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -863,16 +839,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1977",
-          "value": null,
+          "value": 1823.7238232366,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -880,16 +856,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1976",
-          "value": null,
+          "value": 1881.39170643588,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -897,16 +873,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1975",
-          "value": null,
+          "value": 2217.26255864621,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -914,16 +890,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1974",
-          "value": null,
+          "value": 1314.28161144001,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -931,16 +907,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1973",
-          "value": null,
+          "value": 853.511325895529,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -948,16 +924,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1972",
-          "value": null,
+          "value": 526.642591148856,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -965,16 +941,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1971",
-          "value": null,
+          "value": 597.763022875927,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -982,16 +958,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1970",
-          "value": null,
+          "value": 625.047172055782,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -999,16 +975,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1969",
-          "value": null,
+          "value": 604.225496151351,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1016,16 +992,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1968",
-          "value": null,
+          "value": 549.191843857802,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1033,16 +1009,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1967",
-          "value": null,
+          "value": 548.207432141325,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1050,28 +1026,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1966",
-          "value": null,
+          "value": 501.225862458526,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 4,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1079,16 +1043,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1965",
-          "value": null,
+          "value": 473.299905801958,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1096,16 +1060,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1964",
-          "value": null,
+          "value": 444.375829410427,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1113,16 +1077,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1963",
-          "value": null,
+          "value": 451.883396624567,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1130,16 +1094,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1962",
-          "value": null,
+          "value": 444.429221649271,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1147,16 +1111,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1961",
-          "value": null,
+          "value": 433.769177421239,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         },
         {
           "indicator": {
-            "id": "FP.CPI.TOTL.ZG",
-            "value": "Inflation, consumer prices (annual %)"
+            "id": "NY.GDP.PCAP.CN",
+            "value": "GDP per capita (current LCU)"
           },
           "country": {
             "id": "BD",
@@ -1164,10 +1128,10 @@
           },
           "countryiso3code": "BGD",
           "date": "1960",
-          "value": null,
+          "value": 395.91013157585,
           "unit": "",
           "obs_status": "",
-          "decimal": 1,
+          "decimal": 0,
           "footnote": ""
         }
       ]

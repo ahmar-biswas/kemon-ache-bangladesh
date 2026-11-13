@@ -1,12 +1,12 @@
 {
   "retrieved_at": "2026-11-13",
-  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CN?format=json&footnote=y",
+  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.KN?format=json&footnote=y",
   "response": [
     [
       {
         "page": 1,
-        "pages": 4,
-        "per_page": 20,
+        "pages": 1,
+        "per_page": 20000,
         "total": 66,
         "sourceid": "2",
         "lastupdated": "2026-11-11"
@@ -14,8 +14,8 @@
       [
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -23,7 +23,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2025",
-          "value": 313912.205827026,
+          "value": 197100.109325739,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -31,8 +31,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -40,7 +40,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2024",
-          "value": 288233.784370441,
+          "value": 192784.756031555,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -48,8 +48,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -57,7 +57,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2023",
-          "value": 261907.070276325,
+          "value": 187233.291958995,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -65,8 +65,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -74,7 +74,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2022",
-          "value": 234478.780005988,
+          "value": 179186.554040884,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -82,8 +82,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -91,7 +91,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2021",
-          "value": 210557.612424095,
+          "value": 169030.405039032,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -99,8 +99,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -108,7 +108,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2020",
-          "value": 190649.854023521,
+          "value": 159356.367337233,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -116,8 +116,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -125,7 +125,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2019",
-          "value": 178968.760235507,
+          "value": 155338.569163005,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -133,8 +133,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -142,7 +142,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2018",
-          "value": 161399.09600419,
+          "value": 145213.358628597,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -150,8 +150,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -159,7 +159,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2017",
-          "value": 143311.080692977,
+          "value": 136424.900703757,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -167,8 +167,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -184,8 +184,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -193,7 +193,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2015",
-          "value": 95104.2832443441,
+          "value": 121591.52773581,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -201,8 +201,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -210,7 +210,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2014",
-          "value": 85061.5645198055,
+          "value": 115138.59071845,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -218,8 +218,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -227,7 +227,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2013",
-          "value": 76592.7792363103,
+          "value": 109552.451403575,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -235,8 +235,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -244,7 +244,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2012",
-          "value": 68046.9047285911,
+          "value": 104312.402962838,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -252,8 +252,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -261,7 +261,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2011",
-          "value": 59627.7351426329,
+          "value": 98869.1798408913,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -269,8 +269,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -278,7 +278,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2010",
-          "value": 52400.0209957845,
+          "value": 93713.5270729492,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -286,8 +286,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -295,7 +295,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2009",
-          "value": 46732.5806004882,
+          "value": 89549.080252641,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -303,8 +303,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -312,7 +312,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2008",
-          "value": 42059.5615041797,
+          "value": 86046.3367660402,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -320,8 +320,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -329,7 +329,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2007",
-          "value": 37151.3198408874,
+          "value": 81979.676149241,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -337,8 +337,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -346,28 +346,16 @@
           },
           "countryiso3code": "BGD",
           "date": "2006",
-          "value": 32945.1699364752,
+          "value": 77402.6976959472,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 2,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -375,7 +363,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2005",
-          "value": 29511.2310691523,
+          "value": 73408.9367486143,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -383,8 +371,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -392,7 +380,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2004",
-          "value": 26821.9971754798,
+          "value": 69779.4867535747,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -400,8 +388,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -409,7 +397,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2003",
-          "value": 24708.7559567756,
+          "value": 67214.3474020292,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -417,8 +405,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -426,7 +414,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2002",
-          "value": 22620.8972342757,
+          "value": 65113.5720928042,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -434,8 +422,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -443,7 +431,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2001",
-          "value": 21295.6598846204,
+          "value": 63685.2018031983,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -451,8 +439,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -460,7 +448,7 @@
           },
           "countryiso3code": "BGD",
           "date": "2000",
-          "value": 19956.504438865,
+          "value": 61626.6982524953,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -468,8 +456,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -477,7 +465,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1999",
-          "value": 18659.6404996167,
+          "value": 59607.9477842628,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -485,8 +473,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -494,7 +482,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1998",
-          "value": 17507.0064315769,
+          "value": 58040.4536110336,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -502,8 +490,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -511,7 +499,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1997",
-          "value": 16195.4659862014,
+          "value": 56235.3263774783,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -519,8 +507,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -528,7 +516,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1996",
-          "value": 15211.4436510034,
+          "value": 54825.7434751319,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -536,8 +524,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -545,7 +533,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1995",
-          "value": 12440.2389690994,
+          "value": 53421.0140801369,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -553,8 +541,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -562,7 +550,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1994",
-          "value": 11252.1815748278,
+          "value": 51771.6250698347,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -570,8 +558,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -579,7 +567,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1993",
-          "value": 10612.6249742238,
+          "value": 50765.6699603733,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -587,8 +575,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -596,7 +584,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1992",
-          "value": 10309.6332340142,
+          "value": 49392.999692494,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -604,8 +592,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -613,7 +601,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1991",
-          "value": 9712.71866130284,
+          "value": 47734.7709835918,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -621,8 +609,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -630,7 +618,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1990",
-          "value": 9312.46851522466,
+          "value": 47016.9184182589,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -638,8 +626,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -647,7 +635,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1989",
-          "value": 8442.48311255282,
+          "value": 45409.0715540452,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -655,8 +643,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -664,7 +652,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1988",
-          "value": 7734.52598608223,
+          "value": 45069.9245786133,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -672,8 +660,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -681,7 +669,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1987",
-          "value": 7176.48712013499,
+          "value": 44952.7926329647,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -689,8 +677,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -698,28 +686,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1986",
-          "value": 6364.46981559181,
+          "value": 44299.3944280157,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 3,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -727,7 +703,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1985",
-          "value": 5777.72469030483,
+          "value": 43534.9428865183,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -735,8 +711,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -744,7 +720,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1984",
-          "value": 4835.87552440595,
+          "value": 43177.4209948915,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -752,8 +728,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -761,7 +737,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1983",
-          "value": 4388.63292350026,
+          "value": 42270.1637510423,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -769,8 +745,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -778,7 +754,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1982",
-          "value": 3999.9027307229,
+          "value": 41796.010481174,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -786,8 +762,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -795,7 +771,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1981",
-          "value": 3664.10435167207,
+          "value": 42060.6783912358,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -803,8 +779,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -812,7 +788,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1980",
-          "value": 3190.05205755216,
+          "value": 40242.3115688443,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -820,8 +796,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -829,7 +805,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1979",
-          "value": 2756.80935602172,
+          "value": 40882.1038057663,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -837,8 +813,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -846,7 +822,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1978",
-          "value": 2393.86273790255,
+          "value": 39960.1598678407,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -854,8 +830,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -863,7 +839,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1977",
-          "value": 1823.7238232366,
+          "value": 38242.1217617215,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -871,8 +847,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -880,7 +856,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1976",
-          "value": 1881.39170643588,
+          "value": 38184.9234294828,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -888,8 +864,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -897,7 +873,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1975",
-          "value": 2217.26255864621,
+          "value": 37067.788598957,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -905,8 +881,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -914,7 +890,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1974",
-          "value": 1314.28161144001,
+          "value": 39674.6402833131,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -922,8 +898,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -931,7 +907,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1973",
-          "value": 853.511325895529,
+          "value": 37241.748971851,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -939,8 +915,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -948,7 +924,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1972",
-          "value": 526.642591148856,
+          "value": 37089.9160670225,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -956,8 +932,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -965,7 +941,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1971",
-          "value": 597.763022875927,
+          "value": 43951.916626874,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -973,8 +949,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -982,7 +958,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1970",
-          "value": 625.047172055782,
+          "value": 47319.901256151,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -990,8 +966,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -999,7 +975,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1969",
-          "value": 604.225496151351,
+          "value": 45977.0063846725,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1007,8 +983,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1016,7 +992,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1968",
-          "value": 549.191843857802,
+          "value": 46732.0869795743,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1024,8 +1000,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1033,7 +1009,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1967",
-          "value": 548.207432141325,
+          "value": 43956.9067212038,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1041,8 +1017,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1050,28 +1026,16 @@
           },
           "countryiso3code": "BGD",
           "date": "1966",
-          "value": 501.225862458526,
+          "value": 46134.6425738716,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
           "footnote": ""
-        }
-      ]
-    ],
-    [
-      {
-        "page": 4,
-        "pages": 4,
-        "per_page": 20,
-        "total": 66,
-        "sourceid": "2",
-        "lastupdated": "2026-11-11"
-      },
-      [
+        },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1079,7 +1043,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1965",
-          "value": 473.299905801958,
+          "value": 46307.1230355438,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1087,8 +1051,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1096,7 +1060,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1964",
-          "value": 444.375829410427,
+          "value": 46925.7095478468,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1104,8 +1068,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1113,7 +1077,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1963",
-          "value": 451.883396624567,
+          "value": 43546.3664190801,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1121,8 +1085,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1130,7 +1094,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1962",
-          "value": 444.429221649271,
+          "value": 45039.6995555086,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1138,8 +1102,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1147,7 +1111,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1961",
-          "value": 433.769177421239,
+          "value": 43969.1501884962,
           "unit": "",
           "obs_status": "",
           "decimal": 0,
@@ -1155,8 +1119,8 @@
         },
         {
           "indicator": {
-            "id": "NY.GDP.PCAP.CN",
-            "value": "GDP per capita (current LCU)"
+            "id": "NY.GDP.PCAP.KN",
+            "value": "GDP per capita (constant LCU)"
           },
           "country": {
             "id": "BD",
@@ -1164,7 +1128,7 @@
           },
           "countryiso3code": "BGD",
           "date": "1960",
-          "value": 395.91013157585,
+          "value": 42642.7807279795,
           "unit": "",
           "obs_status": "",
           "decimal": 0,

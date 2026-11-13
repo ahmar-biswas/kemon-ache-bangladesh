@@ -1,0 +1,31 @@
+{
+  "retrieved_at": "2026-11-13",
+  "request_url": "https://api.worldbank.org/v2/indicator/NY.GDP.PCAP.KN?format=json",
+  "response": [
+    {
+      "page": 1,
+      "pages": 1,
+      "per_page": "50",
+      "total": 1
+    },
+    [
+      {
+        "id": "NY.GDP.PCAP.KN",
+        "name": "GDP per capita (constant LCU)",
+        "unit": "",
+        "source": {
+          "id": "2",
+          "value": "World Development Indicators"
+        },
+        "sourceNote": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general population to achieve a per capita estimate.This indicator is expressed in constant prices, meaning the series has been adjusted to account for price changes over time. The reference year for this adjustment varies by country. This series is expressed in local currency units.",
+        "sourceOrganization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "topics": [
+          {
+            "id": "3",
+            "value": "Economy & Growth"
+          }
+        ]
+      }
+    ]
+  ]
+}

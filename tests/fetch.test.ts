@@ -125,7 +125,7 @@ describe('fetchJson', () => {
     const fake = vi.fn(async () => new Response('Bad Gateway', { status: 502, statusText: 'Bad Gateway' }));
     vi.stubGlobal('fetch', fake);
 
-    await expect(fetchJson(`${BASE}&per_page=50&page=1`)).rejects.toThrow(/after 3 attempts.*HTTP 502/);
+    await expect(fetchJson(`${BASE}&per_page=50&page=1`)).rejects.toThrow(new RegExp(`after ${MAX_ATTEMPTS} attempts.*HTTP 502`));
     expect(fake).toHaveBeenCalledTimes(MAX_ATTEMPTS);
     expect(readdirSync(cacheDir)).toEqual([]);
   });

@@ -1,8 +1,9 @@
 // One headline value with its notes and source line. Unstyled until Milestone 3.
 import type { DataRecord } from '../data/types.ts';
-import { NOTE_KEYS } from '../data/notes.ts';
-import { t, type Lang } from '../i18n/index.ts';
+import { matchNote, noteParams } from '../data/notes.ts';
+import { t, type Lang, type MessageKey } from '../i18n/index.ts';
 import { formatValue } from '../lib/formatValue.ts';
+import { toBanglaDigits } from '../lib/format.ts';
 import { SourceLine } from './SourceLine.tsx';
 
 interface Props {
@@ -31,12 +32,17 @@ export function Figure({ label, record, lang }: Props) {
       <p className="figure-value" data-value="">
         {formatValue(record, lang)}
       </p>
-      {record.notes.map((note) => {
-        const key = NOTE_KEYS[note];
-        if (!key) throw new Error(`No translation key for note: ${note.slice(0, 80)}…`);
+      {record.notes.map((note, i) => {
+        const msg = matchNote(note);
+        if (!msg) throw new Error(`No translation pattern for note: ${note.slice(0, 80)}…`);
+        const params = noteParams(
+          msg,
+          (s) => (lang === 'bn' ? toBanglaDigits(s) : s),
+          (n) => t(lang, `month.${n}` as MessageKey),
+        );
         return (
-          <p className="figure-note" key={key}>
-            {t(lang, 'source.notes', { note: t(lang, key) })}
+          <p className="figure-note" key={i}>
+            {t(lang, 'source.notes', { note: t(lang, msg.key, params) })}
           </p>
         );
       })}

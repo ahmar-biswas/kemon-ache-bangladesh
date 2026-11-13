@@ -8,5 +8,4 @@ three peer countries have data in the last ten years (section 5.3).
 |---|---|---|---|
 | (none yet) | | | |
 
-Milestone 1 checked three codes against the live API on 2026-11-13. All three work and have
-recent Bangladesh data: SP.DYN.LE00.IN, NY.GDP.PCAP.CN, FP.CPI.TOTL.ZG.
+Milestone 1 checked three codes against the live API on 2026-11-13. Milestone 2 checked all 16 P0 series the same day (the refresh fails if a series name differs from scripts/indicators.ts). Every P0 indicator has Bangladesh data and at least 6 of the 7 peers since 2016, so none is dropped. See docs/DATA_AVAILABILITY.md.

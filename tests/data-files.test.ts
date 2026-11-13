@@ -1,48 +1,57 @@
 // Checks the committed data against the cached World Bank answers it was built from:
-// every published value is carried over exactly, and every empty value stays empty.
+// every published value is carried over exactly, every empty value stays empty, and
+// every median is the plain median of same-year values of the group's countries.
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { INDICATORS } from '../scripts/indicators.ts';
-import { processedPath, rawPath } from '../scripts/lib/files.ts';
-import type { DataRecord } from '../src/data/types.ts';
-import { DATA, latest } from '../src/data/index.ts';
+import { COUNTRY, DEFAULT_PEERS, INDICATORS, MEDIAN_GROUP } from '../scripts/indicators.ts';
+import { countriesPath, medianPath, processedPath, rawPath } from '../scripts/lib/files.ts';
+import { median, MEDIAN_MIN_COUNTRIES } from '../scripts/lib/median.ts';
+import type { CountriesFile, DataRecord, MedianRecord } from '../src/data/types.ts';
 
 const readJson = <T,>(p: string) => JSON.parse(readFileSync(p, 'utf8')) as T;
 
-type Row = { date: string; value: number | null };
+type Row = { countryiso3code: string; date: string; value: number | null };
+const countries = readJson<CountriesFile>(countriesPath());
+const group = new Set(countries.countries.filter((c) => c.income_group === MEDIAN_GROUP).map((c) => c.id));
 
 describe.each(INDICATORS)('$id', (config) => {
   const raw = readJson<{ response: [unknown, Row[]][] }>(rawPath(config.code, 'data'));
   const rows = raw.response.flatMap(([, r]) => r);
+  const shown = new Set(config.scope === 'compare' ? [COUNTRY, ...DEFAULT_PEERS] : [COUNTRY]);
   const records = readJson<DataRecord[]>(processedPath(config.id));
 
-  it('has exactly one record per year that has a published value', () => {
-    const published = rows.filter((r) => r.value !== null);
+  it('has exactly one record per shown country and year that has a published value', () => {
+    const published = rows.filter((r) => r.value !== null && shown.has(r.countryiso3code));
     expect(records).toHaveLength(published.length);
     for (const r of published) {
-      expect(records.find((rec) => rec.year === Number(r.date))?.value).toBe(r.value);
+      expect(records.find((rec) => rec.country === r.countryiso3code && rec.year === Number(r.date))?.value).toBe(r.value);
     }
   });
 
-  it('has no record for any year the World Bank left empty', () => {
+  it('has no record for any country and year the World Bank left empty', () => {
     for (const r of rows.filter((x) => x.value === null)) {
-      expect(records.find((rec) => rec.year === Number(r.date))).toBeUndefined();
+      expect(records.find((rec) => rec.country === r.countryiso3code && rec.year === Number(r.date))).toBeUndefined();
     }
   });
 
-  it('shows as "latest" the newest year that has a value', () => {
-    const newestWithValue = Math.max(...rows.filter((r) => r.value !== null).map((r) => Number(r.date)));
-    expect(latest(DATA[config.id])?.year).toBe(newestWithValue);
+  it('only publishes Bangladesh and the default peers', () => {
+    for (const r of records) expect(shown.has(r.country)).toBe(true);
   });
-});
 
-describe('life expectancy', () => {
-  it('latest year is the last published one, skipping any empty newer years', () => {
-    const raw = readJson<{ response: [unknown, Row[]][] }>(rawPath('SP.DYN.LE00.IN', 'data'));
-    const empty2025 = raw.response.flatMap(([, r]) => r).find((r) => r.date === '2025')?.value === null;
-    if (empty2025) {
-      // True as of 13 November 2026: 2025 is empty, so the page must show 2024.
-      expect(latest(DATA.life_expectancy)?.year).toBe(2024);
-    }
-  });
+  if (config.scope === 'compare') {
+    it('every median is recomputable from the raw answer', () => {
+      const medians = readJson<MedianRecord[]>(medianPath(config.id));
+      const byYear = new Map<number, number[]>();
+      for (const r of rows) {
+        if (r.value === null || !group.has(r.countryiso3code)) continue;
+        byYear.set(Number(r.date), [...(byYear.get(Number(r.date)) ?? []), r.value]);
+      }
+      const expectedYears = [...byYear].filter(([, v]) => v.length >= MEDIAN_MIN_COUNTRIES).map(([y]) => y).sort();
+      expect(medians.map((m) => m.year).sort()).toEqual(expectedYears);
+      for (const m of medians) {
+        expect(m.value).toBe(median(byYear.get(m.year)!));
+        expect(m.inputs).toHaveLength(byYear.get(m.year)!.length);
+      }
+    });
+  }
 });

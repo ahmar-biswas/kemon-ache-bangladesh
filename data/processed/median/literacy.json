@@ -1,0 +1,1198 @@
+[
+  {
+    "indicator_id": "literacy",
+    "year": 2000,
+    "value": 68.99500274658206,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CIV",
+        "value": 48.7400016784668
+      },
+      {
+        "country": "CMR",
+        "value": 68.4100036621094
+      },
+      {
+        "country": "COM",
+        "value": 68.25
+      },
+      {
+        "country": "GHA",
+        "value": 57.9000015258789
+      },
+      {
+        "country": "KEN",
+        "value": 82.2300033569336
+      },
+      {
+        "country": "LAO",
+        "value": 69.5800018310547
+      },
+      {
+        "country": "LSO",
+        "value": 86.25
+      },
+      {
+        "country": "MMR",
+        "value": 89.9400024414062
+      },
+      {
+        "country": "MRT",
+        "value": 51.2099990844727
+      },
+      {
+        "country": "PNG",
+        "value": 57.3400001525879
+      },
+      {
+        "country": "SWZ",
+        "value": 81.6600036621094
+      },
+      {
+        "country": "TGO",
+        "value": 53.1800003051758
+      },
+      {
+        "country": "TJK",
+        "value": 99.4499969482422
+      },
+      {
+        "country": "UZB",
+        "value": 98.6399993896484
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=CI-CM-KM-GH-KE-LA-LS-MM-MR-PG-SZ-TG-TJ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2001,
+    "value": 72.70500183105469,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 67.4100036621094
+      },
+      {
+        "country": "BGD",
+        "value": 47.4900016784668
+      },
+      {
+        "country": "BOL",
+        "value": 86.7200012207031
+      },
+      {
+        "country": "HND",
+        "value": 80.0100021362305
+      },
+      {
+        "country": "IND",
+        "value": 61.0099983215332
+      },
+      {
+        "country": "LAO",
+        "value": 68.7300033569336
+      },
+      {
+        "country": "NAM",
+        "value": 84.9400024414062
+      },
+      {
+        "country": "NIC",
+        "value": 76.6800003051758
+      },
+      {
+        "country": "NPL",
+        "value": 48.6100006103516
+      },
+      {
+        "country": "STP",
+        "value": 84.9100036621094
+      },
+      {
+        "country": "TLS",
+        "value": 37.5999984741211
+      },
+      {
+        "country": "VEN",
+        "value": 92.9800033569336
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=AO-BD-BO-HN-IN-LA-NA-NI-NP-ST-TL-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2007,
+    "value": 86.5999984741211,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 90.2900009155273
+      },
+      {
+        "country": "CMR",
+        "value": 70.6800003051758
+      },
+      {
+        "country": "HND",
+        "value": 83.5899963378906
+      },
+      {
+        "country": "LBN",
+        "value": 89.6100006103516
+      },
+      {
+        "country": "PAK",
+        "value": 52.1399993896484
+      },
+      {
+        "country": "PSE",
+        "value": 93.7600021362305
+      },
+      {
+        "country": "TJK",
+        "value": 98.0293057466938
+      },
+      {
+        "country": "TLS",
+        "value": 50.5999984741211
+      },
+      {
+        "country": "TUN",
+        "value": 77.1900024414062
+      },
+      {
+        "country": "VEN",
+        "value": 95.1500015258789
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BO-CM-HN-LB-PK-PS-TJ-TL-TN-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2009,
+    "value": 91.1699981689453,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 91.1699981689453
+      },
+      {
+        "country": "KGZ",
+        "value": 99.2399978637695
+      },
+      {
+        "country": "KHM",
+        "value": 76.1399993896484
+      },
+      {
+        "country": "LBN",
+        "value": 91.1800003051758
+      },
+      {
+        "country": "MAR",
+        "value": 56.0800018310547
+      },
+      {
+        "country": "PAK",
+        "value": 54.8899993896484
+      },
+      {
+        "country": "PSE",
+        "value": 94.4300003051758
+      },
+      {
+        "country": "SEN",
+        "value": 48.0400009155273
+      },
+      {
+        "country": "TGO",
+        "value": 57.0900001525879
+      },
+      {
+        "country": "TJK",
+        "value": 99.7298704511844
+      },
+      {
+        "country": "VEN",
+        "value": 95.5100021362305
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BO-KG-KH-LB-MA-PK-PS-SN-TG-TJ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2010,
+    "value": 71.3450012207031,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 71.1900024414062
+      },
+      {
+        "country": "EGY",
+        "value": 72.0500030517578
+      },
+      {
+        "country": "GHA",
+        "value": 71.5
+      },
+      {
+        "country": "GIN",
+        "value": 25.3099994659424
+      },
+      {
+        "country": "HND",
+        "value": 84.7600021362305
+      },
+      {
+        "country": "IND",
+        "value": 68.325817300837
+      },
+      {
+        "country": "PAK",
+        "value": 55.3800010681152
+      },
+      {
+        "country": "PNG",
+        "value": 68.9689096424639
+      },
+      {
+        "country": "PSE",
+        "value": 94.7200012207031
+      },
+      {
+        "country": "TGO",
+        "value": 57.2000007629395
+      },
+      {
+        "country": "TLS",
+        "value": 58.310001373291
+      },
+      {
+        "country": "TUN",
+        "value": 79.129997253418
+      },
+      {
+        "country": "VEN",
+        "value": 95.3924213233743
+      },
+      {
+        "country": "ZMB",
+        "value": 83.1399993896484
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=CM-EG-GH-GN-HN-IN-PK-PG-PS-TG-TL-TN-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2011,
+    "value": 68.19000244140625,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 44.6881229256471
+      },
+      {
+        "country": "BGD",
+        "value": 58.7700004577637
+      },
+      {
+        "country": "BOL",
+        "value": 92.2300033569336
+      },
+      {
+        "country": "HND",
+        "value": 85.120002746582
+      },
+      {
+        "country": "IND",
+        "value": 69.3000030517578
+      },
+      {
+        "country": "MAR",
+        "value": 67.0800018310547
+      },
+      {
+        "country": "NAM",
+        "value": 88.2699966430664
+      },
+      {
+        "country": "NPL",
+        "value": 59.6300010681152
+      },
+      {
+        "country": "PAK",
+        "value": 54.7400016784668
+      },
+      {
+        "country": "PSE",
+        "value": 95.0299987792969
+      },
+      {
+        "country": "SEN",
+        "value": 51.810001373291
+      },
+      {
+        "country": "TGO",
+        "value": 60.4099998474121
+      },
+      {
+        "country": "TUN",
+        "value": 79.6500015258789
+      },
+      {
+        "country": "VEN",
+        "value": 94.7699966430664
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-BO-HN-IN-MA-NA-NP-PK-PS-SN-TG-TN-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2012,
+    "value": 78.0999984741211,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 57.8600006103516
+      },
+      {
+        "country": "BOL",
+        "value": 94.4599990844727
+      },
+      {
+        "country": "BTN",
+        "value": 55.3199996948242
+      },
+      {
+        "country": "EGY",
+        "value": 73.870002746582
+      },
+      {
+        "country": "HND",
+        "value": 85.3600006103516
+      },
+      {
+        "country": "HTI",
+        "value": 73.953334886651
+      },
+      {
+        "country": "IND",
+        "value": 69.8279300354369
+      },
+      {
+        "country": "MAR",
+        "value": 69.1600036621094
+      },
+      {
+        "country": "NIC",
+        "value": 85.6105708963441
+      },
+      {
+        "country": "PAK",
+        "value": 56.7599983215332
+      },
+      {
+        "country": "PSE",
+        "value": 95.6699981689453
+      },
+      {
+        "country": "STP",
+        "value": 90.1399993896484
+      },
+      {
+        "country": "TUN",
+        "value": 80.2200012207031
+      },
+      {
+        "country": "TZA",
+        "value": 78.0999984741211
+      },
+      {
+        "country": "VEN",
+        "value": 95.9871889937429
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BD-BO-BT-EG-HN-HT-IN-MA-NI-PK-PS-ST-TN-TZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2013,
+    "value": 67.25500106811519,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 45.0800018310547
+      },
+      {
+        "country": "BGD",
+        "value": 61.0200004577637
+      },
+      {
+        "country": "EGY",
+        "value": 72.4400024414062
+      },
+      {
+        "country": "HND",
+        "value": 85.4599990844727
+      },
+      {
+        "country": "KHM",
+        "value": 79.6500015258789
+      },
+      {
+        "country": "MRT",
+        "value": 62.0699996948242
+      },
+      {
+        "country": "PAK",
+        "value": 55.5900001525879
+      },
+      {
+        "country": "PSE",
+        "value": 96.0500030517578
+      },
+      {
+        "country": "SEN",
+        "value": 43.5299987792969
+      },
+      {
+        "country": "UZB",
+        "value": 99.9899978637695
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-EG-HN-KH-MR-PK-PS-SN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2014,
+    "value": 78.0599975585938,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 66.0299987792969
+      },
+      {
+        "country": "BGD",
+        "value": 61.0900001525879
+      },
+      {
+        "country": "CIV",
+        "value": 43.9099998474121
+      },
+      {
+        "country": "COM",
+        "value": 73.6494960644007
+      },
+      {
+        "country": "GIN",
+        "value": 32
+      },
+      {
+        "country": "HND",
+        "value": 87.1999969482422
+      },
+      {
+        "country": "KHM",
+        "value": 78.0599975585938
+      },
+      {
+        "country": "MAR",
+        "value": 64.2600021362305
+      },
+      {
+        "country": "MMR",
+        "value": 90.3600006103516
+      },
+      {
+        "country": "NIC",
+        "value": 87.327180649097
+      },
+      {
+        "country": "PAK",
+        "value": 56.9799995422363
+      },
+      {
+        "country": "PSE",
+        "value": 96.2099990844727
+      },
+      {
+        "country": "TUN",
+        "value": 79.0400009155273
+      },
+      {
+        "country": "TZA",
+        "value": 79.8949432291161
+      },
+      {
+        "country": "UZB",
+        "value": 99.9800033569336
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=AO-BD-CI-KM-GN-HN-KH-MA-MM-NI-PK-PS-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2015,
+    "value": 77.8899993896484,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 66.2399978637695
+      },
+      {
+        "country": "BGD",
+        "value": 65.1399993896484
+      },
+      {
+        "country": "BOL",
+        "value": 92.4599990844727
+      },
+      {
+        "country": "GHA",
+        "value": 60.1981035367761
+      },
+      {
+        "country": "HND",
+        "value": 87.9100036621094
+      },
+      {
+        "country": "KHM",
+        "value": 80.5299987792969
+      },
+      {
+        "country": "LAO",
+        "value": 84.6600036621094
+      },
+      {
+        "country": "MRT",
+        "value": 65.1100006103516
+      },
+      {
+        "country": "PSE",
+        "value": 96.4800033569336
+      },
+      {
+        "country": "SEN",
+        "value": 43.5900001525879
+      },
+      {
+        "country": "TGO",
+        "value": 63.75
+      },
+      {
+        "country": "TLS",
+        "value": 64.4499969482422
+      },
+      {
+        "country": "TZA",
+        "value": 77.8899993896484
+      },
+      {
+        "country": "UZB",
+        "value": 99.9800033569336
+      },
+      {
+        "country": "VEN",
+        "value": 96.6100006103516
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=AO-BD-BO-GH-HN-KH-LA-MR-PS-SN-TG-TL-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2016,
+    "value": 84.7799987792969,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 72.7600021362305
+      },
+      {
+        "country": "CIV",
+        "value": 50.0400009155273
+      },
+      {
+        "country": "HND",
+        "value": 88.9899978637695
+      },
+      {
+        "country": "LSO",
+        "value": 97.2699966430664
+      },
+      {
+        "country": "MMR",
+        "value": 84.7799987792969
+      },
+      {
+        "country": "NAM",
+        "value": 88.1304979203867
+      },
+      {
+        "country": "NGA",
+        "value": 58.2200012207031
+      },
+      {
+        "country": "NPL",
+        "value": 65.5
+      },
+      {
+        "country": "PSE",
+        "value": 96.7200012207031
+      },
+      {
+        "country": "SEN",
+        "value": 46.0999984741211
+      },
+      {
+        "country": "TLS",
+        "value": 65.7799987792969
+      },
+      {
+        "country": "UZB",
+        "value": 99.9899978637695
+      },
+      {
+        "country": "VEN",
+        "value": 97.129997253418
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BD-CI-HN-LS-MM-NA-NG-NP-PS-SN-TL-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2017,
+    "value": 67.43769844569306,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 38.8699989318848
+      },
+      {
+        "country": "BGD",
+        "value": 72.8899993896484
+      },
+      {
+        "country": "BTN",
+        "value": 66.5599975585938
+      },
+      {
+        "country": "EGY",
+        "value": 71.1699981689453
+      },
+      {
+        "country": "GHA",
+        "value": 64.4899978637695
+      },
+      {
+        "country": "HTI",
+        "value": 68.0100021362305
+      },
+      {
+        "country": "LAO",
+        "value": 73.7200012207031
+      },
+      {
+        "country": "NPL",
+        "value": 66.8653947551556
+      },
+      {
+        "country": "PAK",
+        "value": 59.1300010681152
+      },
+      {
+        "country": "PNG",
+        "value": 70.0599975585938
+      },
+      {
+        "country": "PSE",
+        "value": 96.9199981689453
+      },
+      {
+        "country": "SEN",
+        "value": 51.9000015258789
+      },
+      {
+        "country": "TGO",
+        "value": 60.9537021917226
+      },
+      {
+        "country": "VEN",
+        "value": 97.1837183128414
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-BT-EG-GH-HT-LA-NP-PK-PG-PS-SN-TG-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2018,
+    "value": 82.86000061035155,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 73.9100036621094
+      },
+      {
+        "country": "CMR",
+        "value": 72.5500030517578
+      },
+      {
+        "country": "GIN",
+        "value": 39.6199989318848
+      },
+      {
+        "country": "HND",
+        "value": 87.2099990844727
+      },
+      {
+        "country": "IND",
+        "value": 73.6883524760717
+      },
+      {
+        "country": "KIR",
+        "value": 97.9599990844727
+      },
+      {
+        "country": "LBN",
+        "value": 92.6699981689453
+      },
+      {
+        "country": "LSO",
+        "value": 86.2399978637695
+      },
+      {
+        "country": "MMR",
+        "value": 95.8142859113662
+      },
+      {
+        "country": "NAM",
+        "value": 88.2832376600657
+      },
+      {
+        "country": "PAK",
+        "value": 57.0099983215332
+      },
+      {
+        "country": "PSE",
+        "value": 97.2200012207031
+      },
+      {
+        "country": "SEN",
+        "value": 46.6100006103516
+      },
+      {
+        "country": "TUN",
+        "value": 79.4800033569336
+      },
+      {
+        "country": "UZB",
+        "value": 99.9899978637695
+      },
+      {
+        "country": "ZMB",
+        "value": 71.129997253418
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BD-CM-GN-HN-IN-KI-LB-LS-MM-NA-PK-PS-SN-TN-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2019,
+    "value": 87.4400024414062,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 49
+      },
+      {
+        "country": "BGD",
+        "value": 74.6800003051758
+      },
+      {
+        "country": "CIV",
+        "value": 56.9592400560829
+      },
+      {
+        "country": "HND",
+        "value": 88.5100021362305
+      },
+      {
+        "country": "IND",
+        "value": 74.8938629973395
+      },
+      {
+        "country": "KHM",
+        "value": 87.6600036621094
+      },
+      {
+        "country": "LBN",
+        "value": 92.0099744752418
+      },
+      {
+        "country": "LSO",
+        "value": 92.3961659464955
+      },
+      {
+        "country": "MMR",
+        "value": 89.0699996948242
+      },
+      {
+        "country": "NPL",
+        "value": 68.7099990844727
+      },
+      {
+        "country": "PAK",
+        "value": 58
+      },
+      {
+        "country": "PSE",
+        "value": 97.379997253418
+      },
+      {
+        "country": "SEN",
+        "value": 46.8300018310547
+      },
+      {
+        "country": "STP",
+        "value": 87.4400024414062
+      },
+      {
+        "country": "TGO",
+        "value": 66.5400009155273
+      },
+      {
+        "country": "TUN",
+        "value": 80.5500030517578
+      },
+      {
+        "country": "UZB",
+        "value": 100
+      },
+      {
+        "country": "VUT",
+        "value": 92.4744486976738
+      },
+      {
+        "country": "ZWE",
+        "value": 93.2300033569336
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-CI-HN-IN-KH-LB-LS-MM-NP-PK-PS-SN-ST-TG-TN-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2020,
+    "value": 82.5510430822563,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 74.9100036621094
+      },
+      {
+        "country": "BOL",
+        "value": 93.8499984741211
+      },
+      {
+        "country": "IND",
+        "value": 75.5270629470344
+      },
+      {
+        "country": "KHM",
+        "value": 82.5510430822563
+      },
+      {
+        "country": "KIR",
+        "value": 98.6079816424987
+      },
+      {
+        "country": "MMR",
+        "value": 93.527395549521
+      },
+      {
+        "country": "MRT",
+        "value": 59.5299987792969
+      },
+      {
+        "country": "PSE",
+        "value": 97.5100021362305
+      },
+      {
+        "country": "TZA",
+        "value": 82.2361019196766
+      },
+      {
+        "country": "VUT",
+        "value": 89.7930993872856
+      },
+      {
+        "country": "ZMB",
+        "value": 81.7530087399265
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BD-BO-IN-KH-KI-MM-MR-PS-TZ-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2021,
+    "value": 76.20983117668605,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 43.8300018310547
+      },
+      {
+        "country": "BGD",
+        "value": 76.3600006103516
+      },
+      {
+        "country": "CIV",
+        "value": 50
+      },
+      {
+        "country": "COM",
+        "value": 75.6201980162165
+      },
+      {
+        "country": "EGY",
+        "value": 82.0803858167894
+      },
+      {
+        "country": "GHA",
+        "value": 76.4899978637695
+      },
+      {
+        "country": "IND",
+        "value": 76.0596617430205
+      },
+      {
+        "country": "KHM",
+        "value": 71.9300003051758
+      },
+      {
+        "country": "NGA",
+        "value": 63.1599998474121
+      },
+      {
+        "country": "PAK",
+        "value": 58.8600006103516
+      },
+      {
+        "country": "PSE",
+        "value": 97.6840000894857
+      },
+      {
+        "country": "TUN",
+        "value": 83.6800003051758
+      },
+      {
+        "country": "UZB",
+        "value": 100
+      },
+      {
+        "country": "ZMB",
+        "value": 79.9494621864846
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-CI-KM-EG-GH-IN-KH-NG-PK-PS-TN-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "literacy",
+    "year": 2022,
+    "value": 79.22658097493425,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 51.3800010681152
+      },
+      {
+        "country": "BGD",
+        "value": 79
+      },
+      {
+        "country": "BTN",
+        "value": 64.9100036621094
+      },
+      {
+        "country": "EGY",
+        "value": 79.4531619498685
+      },
+      {
+        "country": "HND",
+        "value": 88.2192789618317
+      },
+      {
+        "country": "IND",
+        "value": 76.3199996948242
+      },
+      {
+        "country": "PNG",
+        "value": 87.0046890533686
+      },
+      {
+        "country": "PSE",
+        "value": 97.8399963378906
+      },
+      {
+        "country": "SWZ",
+        "value": 90.75
+      },
+      {
+        "country": "TGO",
+        "value": 72.5999984741211
+      },
+      {
+        "country": "TLS",
+        "value": 69.4000015258789
+      },
+      {
+        "country": "TZA",
+        "value": 78.2099990844727
+      },
+      {
+        "country": "UZB",
+        "value": 100
+      },
+      {
+        "country": "ZMB",
+        "value": 79.9841479741156
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BJ-BD-BT-EG-HN-IN-PG-PS-SZ-TG-TL-TZ-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

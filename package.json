@@ -17,7 +17,8 @@
     "check:sources": "vitest run tests/sources.test.tsx",
     "check:data": "tsx scripts/validate-data.ts",
     "check": "npm run typecheck && npm run check:i18n && npm run check:data && npm test",
-    "data:refresh": "tsx scripts/refresh.ts"
+    "data:refresh": "tsx scripts/refresh.ts",
+    "data:availability": "tsx scripts/data-availability.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

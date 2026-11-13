@@ -1,0 +1,1070 @@
+[
+  {
+    "indicator_id": "poverty_intl",
+    "year": 1998,
+    "value": 43.3,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CIV",
+        "value": 42.9
+      },
+      {
+        "country": "GHA",
+        "value": 65.3
+      },
+      {
+        "country": "HND",
+        "value": 32.3
+      },
+      {
+        "country": "KGZ",
+        "value": 43.7
+      },
+      {
+        "country": "MAR",
+        "value": 17.5
+      },
+      {
+        "country": "NIC",
+        "value": 34.7
+      },
+      {
+        "country": "PAK",
+        "value": 50.3
+      },
+      {
+        "country": "UZB",
+        "value": 79.8
+      },
+      {
+        "country": "VEN",
+        "value": 14.9
+      },
+      {
+        "country": "ZMB",
+        "value": 56.6
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=CI-GH-HN-KG-MA-NI-PK-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2000,
+    "value": 30.7,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 27
+      },
+      {
+        "country": "BGD",
+        "value": 41.4
+      },
+      {
+        "country": "BOL",
+        "value": 28.3
+      },
+      {
+        "country": "KGZ",
+        "value": 66.2
+      },
+      {
+        "country": "MAR",
+        "value": 16.8
+      },
+      {
+        "country": "MRT",
+        "value": 30.7
+      },
+      {
+        "country": "STP",
+        "value": 17.3
+      },
+      {
+        "country": "SWZ",
+        "value": 65
+      },
+      {
+        "country": "TUN",
+        "value": 10.5
+      },
+      {
+        "country": "TZA",
+        "value": 86.9
+      },
+      {
+        "country": "UZB",
+        "value": 93.8
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=AO-BD-BO-KG-MA-MR-ST-SZ-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2001,
+    "value": 43.25,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 22.3
+      },
+      {
+        "country": "CMR",
+        "value": 30.8
+      },
+      {
+        "country": "HND",
+        "value": 26.5
+      },
+      {
+        "country": "HTI",
+        "value": 75.1
+      },
+      {
+        "country": "KGZ",
+        "value": 61.5
+      },
+      {
+        "country": "NIC",
+        "value": 26.3
+      },
+      {
+        "country": "PAK",
+        "value": 56.2
+      },
+      {
+        "country": "SEN",
+        "value": 63.9
+      },
+      {
+        "country": "TLS",
+        "value": 55.7
+      },
+      {
+        "country": "VEN",
+        "value": 14.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-CM-HN-HT-KG-NI-PK-SN-TL-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2002,
+    "value": 43.9,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 23.9
+      },
+      {
+        "country": "CIV",
+        "value": 43.9
+      },
+      {
+        "country": "DJI",
+        "value": 32.3
+      },
+      {
+        "country": "GIN",
+        "value": 50.3
+      },
+      {
+        "country": "HND",
+        "value": 29
+      },
+      {
+        "country": "KGZ",
+        "value": 58.1
+      },
+      {
+        "country": "LAO",
+        "value": 43.1
+      },
+      {
+        "country": "LSO",
+        "value": 74.9
+      },
+      {
+        "country": "UZB",
+        "value": 93.1
+      },
+      {
+        "country": "VEN",
+        "value": 22.1
+      },
+      {
+        "country": "ZMB",
+        "value": 68
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-CI-DJ-GN-HN-KG-LA-LS-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2003,
+    "value": 53.5,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 70.5
+      },
+      {
+        "country": "BTN",
+        "value": 23.1
+      },
+      {
+        "country": "HND",
+        "value": 34
+      },
+      {
+        "country": "KGZ",
+        "value": 56.6
+      },
+      {
+        "country": "NAM",
+        "value": 47.6
+      },
+      {
+        "country": "NGA",
+        "value": 51.1
+      },
+      {
+        "country": "NPL",
+        "value": 55.9
+      },
+      {
+        "country": "TJK",
+        "value": 56
+      },
+      {
+        "country": "UZB",
+        "value": 93.3
+      },
+      {
+        "country": "VEN",
+        "value": 27.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BJ-BT-HN-KG-NA-NG-NP-TJ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2004,
+    "value": 30.5,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 13.2
+      },
+      {
+        "country": "COM",
+        "value": 24.3
+      },
+      {
+        "country": "EGY",
+        "value": 4.1
+      },
+      {
+        "country": "HND",
+        "value": 33.3
+      },
+      {
+        "country": "IND",
+        "value": 46.4
+      },
+      {
+        "country": "KGZ",
+        "value": 32.5
+      },
+      {
+        "country": "MRT",
+        "value": 28.5
+      },
+      {
+        "country": "PAK",
+        "value": 40.9
+      },
+      {
+        "country": "PSE",
+        "value": 1.8
+      },
+      {
+        "country": "TJK",
+        "value": 37.2
+      },
+      {
+        "country": "VEN",
+        "value": 22.8
+      },
+      {
+        "country": "ZMB",
+        "value": 68.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-KM-EG-HN-IN-KG-MR-PK-PS-TJ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2005,
+    "value": 34.45,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 32.3
+      },
+      {
+        "country": "BOL",
+        "value": 18.7
+      },
+      {
+        "country": "COG",
+        "value": 54.5
+      },
+      {
+        "country": "GHA",
+        "value": 60.9
+      },
+      {
+        "country": "HND",
+        "value": 31.3
+      },
+      {
+        "country": "KEN",
+        "value": 44.6
+      },
+      {
+        "country": "KGZ",
+        "value": 36.6
+      },
+      {
+        "country": "NIC",
+        "value": 16.5
+      },
+      {
+        "country": "PAK",
+        "value": 40.8
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "SEN",
+        "value": 53.6
+      },
+      {
+        "country": "SLB",
+        "value": 62.2
+      },
+      {
+        "country": "TUN",
+        "value": 5.9
+      },
+      {
+        "country": "VEN",
+        "value": 18.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD-BO-CG-GH-HN-KE-KG-NI-PK-PS-SN-SB-TN-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2007,
+    "value": 29.549999999999997,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 12.1
+      },
+      {
+        "country": "BTN",
+        "value": 12
+      },
+      {
+        "country": "CMR",
+        "value": 36
+      },
+      {
+        "country": "GIN",
+        "value": 44
+      },
+      {
+        "country": "HND",
+        "value": 22
+      },
+      {
+        "country": "KGZ",
+        "value": 23.3
+      },
+      {
+        "country": "LAO",
+        "value": 36
+      },
+      {
+        "country": "PAK",
+        "value": 34.9
+      },
+      {
+        "country": "PSE",
+        "value": 2.9
+      },
+      {
+        "country": "TJK",
+        "value": 24.2
+      },
+      {
+        "country": "TLS",
+        "value": 60.1
+      },
+      {
+        "country": "TZA",
+        "value": 61.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-BT-CM-GN-HN-KG-LA-PK-PS-TJ-TL-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2009,
+    "value": 16.9,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 10
+      },
+      {
+        "country": "HND",
+        "value": 18.1
+      },
+      {
+        "country": "IND",
+        "value": 34.6
+      },
+      {
+        "country": "KGZ",
+        "value": 9.8
+      },
+      {
+        "country": "NAM",
+        "value": 38.6
+      },
+      {
+        "country": "NIC",
+        "value": 13.9
+      },
+      {
+        "country": "PNG",
+        "value": 52.2
+      },
+      {
+        "country": "PSE",
+        "value": 0.6
+      },
+      {
+        "country": "SWZ",
+        "value": 58.2
+      },
+      {
+        "country": "TJK",
+        "value": 15.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-HN-IN-KG-NA-NI-PG-PS-SZ-TJ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2010,
+    "value": 20.85,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 25.1
+      },
+      {
+        "country": "EGY",
+        "value": 1.5
+      },
+      {
+        "country": "HND",
+        "value": 19.6
+      },
+      {
+        "country": "KGZ",
+        "value": 12.6
+      },
+      {
+        "country": "NGA",
+        "value": 38.5
+      },
+      {
+        "country": "NPL",
+        "value": 22.1
+      },
+      {
+        "country": "PAK",
+        "value": 26.7
+      },
+      {
+        "country": "PSE",
+        "value": 0.6
+      },
+      {
+        "country": "STP",
+        "value": 18.9
+      },
+      {
+        "country": "TUN",
+        "value": 3.1
+      },
+      {
+        "country": "VUT",
+        "value": 25.7
+      },
+      {
+        "country": "ZMB",
+        "value": 71.4
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD-EG-HN-KG-NG-NP-PK-PS-ST-TN-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2011,
+    "value": 27.1,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 68.4
+      },
+      {
+        "country": "BOL",
+        "value": 6.9
+      },
+      {
+        "country": "COG",
+        "value": 39.2
+      },
+      {
+        "country": "HND",
+        "value": 20.1
+      },
+      {
+        "country": "IND",
+        "value": 27.1
+      },
+      {
+        "country": "KGZ",
+        "value": 9.3
+      },
+      {
+        "country": "LBN",
+        "value": 0.1
+      },
+      {
+        "country": "PAK",
+        "value": 25.9
+      },
+      {
+        "country": "PSE",
+        "value": 0.4
+      },
+      {
+        "country": "SEN",
+        "value": 53.3
+      },
+      {
+        "country": "TGO",
+        "value": 65.5
+      },
+      {
+        "country": "TZA",
+        "value": 51.5
+      },
+      {
+        "country": "ZWE",
+        "value": 35.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BJ-BO-CG-HN-IN-KG-LB-PK-PS-SN-TG-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2012,
+    "value": 22.85,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 7.9
+      },
+      {
+        "country": "BTN",
+        "value": 3.6
+      },
+      {
+        "country": "DJI",
+        "value": 26.4
+      },
+      {
+        "country": "EGY",
+        "value": 1.2
+      },
+      {
+        "country": "GHA",
+        "value": 41.8
+      },
+      {
+        "country": "GIN",
+        "value": 21.3
+      },
+      {
+        "country": "HND",
+        "value": 24
+      },
+      {
+        "country": "HTI",
+        "value": 40.4
+      },
+      {
+        "country": "KGZ",
+        "value": 10.5
+      },
+      {
+        "country": "LAO",
+        "value": 21.7
+      },
+      {
+        "country": "NGA",
+        "value": 37.4
+      },
+      {
+        "country": "SLB",
+        "value": 40.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-BT-DJ-EG-GH-GN-HN-HT-KG-LA-NG-SB",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2015,
+    "value": 19.9,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 65.8
+      },
+      {
+        "country": "BOL",
+        "value": 6.2
+      },
+      {
+        "country": "CIV",
+        "value": 46.6
+      },
+      {
+        "country": "EGY",
+        "value": 1.2
+      },
+      {
+        "country": "HND",
+        "value": 19.9
+      },
+      {
+        "country": "KEN",
+        "value": 37.7
+      },
+      {
+        "country": "KGZ",
+        "value": 11
+      },
+      {
+        "country": "MMR",
+        "value": 18.2
+      },
+      {
+        "country": "NAM",
+        "value": 22.9
+      },
+      {
+        "country": "NGA",
+        "value": 35.8
+      },
+      {
+        "country": "PAK",
+        "value": 16.9
+      },
+      {
+        "country": "TGO",
+        "value": 61.7
+      },
+      {
+        "country": "TJK",
+        "value": 13.3
+      },
+      {
+        "country": "TUN",
+        "value": 0.7
+      },
+      {
+        "country": "ZMB",
+        "value": 67.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BJ-BO-CI-EG-HN-KE-KG-MM-NA-NG-PK-TG-TJ-TN-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2017,
+    "value": 11.65,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 6.4
+      },
+      {
+        "country": "BTN",
+        "value": 2.6
+      },
+      {
+        "country": "DJI",
+        "value": 25.4
+      },
+      {
+        "country": "EGY",
+        "value": 3.1
+      },
+      {
+        "country": "HND",
+        "value": 19.3
+      },
+      {
+        "country": "KGZ",
+        "value": 8.2
+      },
+      {
+        "country": "LSO",
+        "value": 41.9
+      },
+      {
+        "country": "MMR",
+        "value": 10.3
+      },
+      {
+        "country": "STP",
+        "value": 13
+      },
+      {
+        "country": "ZWE",
+        "value": 44.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BO-BT-DJ-EG-HN-KG-LS-MM-ST-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2018,
+    "value": 19.8,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 39.3
+      },
+      {
+        "country": "BEN",
+        "value": 37.2
+      },
+      {
+        "country": "BOL",
+        "value": 4.7
+      },
+      {
+        "country": "CIV",
+        "value": 21.7
+      },
+      {
+        "country": "GIN",
+        "value": 11.7
+      },
+      {
+        "country": "HND",
+        "value": 19.8
+      },
+      {
+        "country": "KGZ",
+        "value": 5.9
+      },
+      {
+        "country": "LAO",
+        "value": 15.7
+      },
+      {
+        "country": "NGA",
+        "value": 34.2
+      },
+      {
+        "country": "PAK",
+        "value": 16.5
+      },
+      {
+        "country": "SEN",
+        "value": 19.1
+      },
+      {
+        "country": "TGO",
+        "value": 35.3
+      },
+      {
+        "country": "TZA",
+        "value": 51.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=AO-BJ-BO-CI-GN-HN-KG-LA-NG-PK-SN-TG-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2021,
+    "value": 13.5,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 27.2
+      },
+      {
+        "country": "BOL",
+        "value": 3.1
+      },
+      {
+        "country": "CIV",
+        "value": 20.8
+      },
+      {
+        "country": "CMR",
+        "value": 26.7
+      },
+      {
+        "country": "EGY",
+        "value": 1.4
+      },
+      {
+        "country": "KEN",
+        "value": 46.4
+      },
+      {
+        "country": "KGZ",
+        "value": 5.6
+      },
+      {
+        "country": "SEN",
+        "value": 17.9
+      },
+      {
+        "country": "TGO",
+        "value": 34.7
+      },
+      {
+        "country": "TJK",
+        "value": 9.1
+      },
+      {
+        "country": "TUN",
+        "value": 0.7
+      },
+      {
+        "country": "UZB",
+        "value": 4.4
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BJ-BO-CI-CM-EG-KE-KG-SN-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "year": 2022,
+    "value": 5.55,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 5.9
+      },
+      {
+        "country": "BOL",
+        "value": 3.3
+      },
+      {
+        "country": "BTN",
+        "value": 0
+      },
+      {
+        "country": "IND",
+        "value": 5.3
+      },
+      {
+        "country": "KEN",
+        "value": 45.5
+      },
+      {
+        "country": "KGZ",
+        "value": 4.5
+      },
+      {
+        "country": "LBN",
+        "value": 5.8
+      },
+      {
+        "country": "NGA",
+        "value": 41.8
+      },
+      {
+        "country": "NPL",
+        "value": 2.4
+      },
+      {
+        "country": "TJK",
+        "value": 8.9
+      },
+      {
+        "country": "UZB",
+        "value": 4.4
+      },
+      {
+        "country": "ZMB",
+        "value": 71.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

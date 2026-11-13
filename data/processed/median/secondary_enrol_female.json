@@ -1,0 +1,6410 @@
+[
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1970,
+    "value": 6.71401000022888,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 0.155239999294281
+      },
+      {
+        "country": "HND",
+        "value": 11.5904703140259
+      },
+      {
+        "country": "KEN",
+        "value": 10.9343004226685
+      },
+      {
+        "country": "KIR",
+        "value": 8.5838098526001
+      },
+      {
+        "country": "LSO",
+        "value": 12.84840965271
+      },
+      {
+        "country": "NGA",
+        "value": 2.82265996932983
+      },
+      {
+        "country": "NIC",
+        "value": 17.1722602844238
+      },
+      {
+        "country": "PNG",
+        "value": 4.89413022994995
+      },
+      {
+        "country": "SLB",
+        "value": 4.30857992172241
+      },
+      {
+        "country": "SWZ",
+        "value": 13.8895196914673
+      },
+      {
+        "country": "TZA",
+        "value": 1.60971999168396
+      },
+      {
+        "country": "VUT",
+        "value": 5.02963018417358
+      },
+      {
+        "country": "ZMB",
+        "value": 7.8953800201416
+      },
+      {
+        "country": "ZWE",
+        "value": 5.53263998031616
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BT-HN-KE-KI-LS-NG-NI-PG-SB-SZ-TZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1971,
+    "value": 6.1253399848938,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 5.51217985153198
+      },
+      {
+        "country": "BEN",
+        "value": 2.4175500869751
+      },
+      {
+        "country": "BOL",
+        "value": 24.0463199615479
+      },
+      {
+        "country": "BTN",
+        "value": 0.395179986953735
+      },
+      {
+        "country": "CIV",
+        "value": 3.89908003807068
+      },
+      {
+        "country": "CMR",
+        "value": 4.65688991546631
+      },
+      {
+        "country": "COG",
+        "value": 9.47778987884521
+      },
+      {
+        "country": "COM",
+        "value": 1.731369972229
+      },
+      {
+        "country": "EGY",
+        "value": 20.1725997924805
+      },
+      {
+        "country": "GHA",
+        "value": 31.538200378418
+      },
+      {
+        "country": "GIN",
+        "value": 4.98400020599365
+      },
+      {
+        "country": "IND",
+        "value": 13.9304103851318
+      },
+      {
+        "country": "KEN",
+        "value": 11.5060501098633
+      },
+      {
+        "country": "KHM",
+        "value": 5.74760007858276
+      },
+      {
+        "country": "KIR",
+        "value": 8.95876979827881
+      },
+      {
+        "country": "LAO",
+        "value": 1.9947999715805
+      },
+      {
+        "country": "LBN",
+        "value": 32.8478317260742
+      },
+      {
+        "country": "LSO",
+        "value": 7.89107990264893
+      },
+      {
+        "country": "MAR",
+        "value": 7.17562007904053
+      },
+      {
+        "country": "MMR",
+        "value": 16.1918106079102
+      },
+      {
+        "country": "NGA",
+        "value": 3.05300998687744
+      },
+      {
+        "country": "NIC",
+        "value": 17.4115505218506
+      },
+      {
+        "country": "PAK",
+        "value": 6.1253399848938
+      },
+      {
+        "country": "SEN",
+        "value": 5.05045986175537
+      },
+      {
+        "country": "SLB",
+        "value": 5.39694023132324
+      },
+      {
+        "country": "STP",
+        "value": 11.5001697540283
+      },
+      {
+        "country": "SWZ",
+        "value": 15.5636301040649
+      },
+      {
+        "country": "TGO",
+        "value": 2.80121994018555
+      },
+      {
+        "country": "TUN",
+        "value": 13.0993003845215
+      },
+      {
+        "country": "TZA",
+        "value": 1.65220999717712
+      },
+      {
+        "country": "VEN",
+        "value": 31.3349304199219
+      },
+      {
+        "country": "VUT",
+        "value": 5.44018983840942
+      },
+      {
+        "country": "ZWE",
+        "value": 5.79987001419067
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BO-BT-CI-CM-CG-KM-EG-GH-GN-IN-KE-KH-KI-LA-LB-LS-MA-MM-NG-NI-PK-SN-SB-ST-SZ-TG-TN-TZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1972,
+    "value": 8.126484870910645,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 6.19859981536865
+      },
+      {
+        "country": "BTN",
+        "value": 0.486530005931854
+      },
+      {
+        "country": "CIV",
+        "value": 4.55866003036499
+      },
+      {
+        "country": "CMR",
+        "value": 5.35355997085571
+      },
+      {
+        "country": "COG",
+        "value": 11.8241300582886
+      },
+      {
+        "country": "EGY",
+        "value": 21.6005306243896
+      },
+      {
+        "country": "IND",
+        "value": 14.3205099105835
+      },
+      {
+        "country": "KEN",
+        "value": 12.5396795272827
+      },
+      {
+        "country": "KIR",
+        "value": 8.96675968170166
+      },
+      {
+        "country": "LAO",
+        "value": 2.46661996841431
+      },
+      {
+        "country": "LSO",
+        "value": 8.71662998199463
+      },
+      {
+        "country": "MAR",
+        "value": 7.54174995422363
+      },
+      {
+        "country": "MMR",
+        "value": 16.5891494750977
+      },
+      {
+        "country": "NGA",
+        "value": 3.43134999275208
+      },
+      {
+        "country": "NIC",
+        "value": 19.1187400817871
+      },
+      {
+        "country": "PAK",
+        "value": 6.38436985015869
+      },
+      {
+        "country": "SEN",
+        "value": 5.5259199142456
+      },
+      {
+        "country": "STP",
+        "value": 13.8749799728394
+      },
+      {
+        "country": "SWZ",
+        "value": 17.7595500946045
+      },
+      {
+        "country": "TGO",
+        "value": 3.72796988487244
+      },
+      {
+        "country": "TUN",
+        "value": 13.2516403198242
+      },
+      {
+        "country": "TZA",
+        "value": 1.53514003753662
+      },
+      {
+        "country": "VEN",
+        "value": 34.1695899963379
+      },
+      {
+        "country": "VUT",
+        "value": 5.60496997833252
+      },
+      {
+        "country": "ZMB",
+        "value": 8.71121978759766
+      },
+      {
+        "country": "ZWE",
+        "value": 6.1474199295044
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BT-CI-CM-CG-EG-IN-KE-KI-LA-LS-MA-MM-NG-NI-PK-SN-ST-SZ-TG-TN-TZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1973,
+    "value": 9.503695011138916,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 3.59817004203796
+      },
+      {
+        "country": "BGD",
+        "value": 9.61913013458252
+      },
+      {
+        "country": "CIV",
+        "value": 4.94438982009888
+      },
+      {
+        "country": "CMR",
+        "value": 6.11967992782593
+      },
+      {
+        "country": "COG",
+        "value": 16.2596607208252
+      },
+      {
+        "country": "COM",
+        "value": 2.88736009597778
+      },
+      {
+        "country": "EGY",
+        "value": 22.9584293365479
+      },
+      {
+        "country": "GHA",
+        "value": 30.0028896331787
+      },
+      {
+        "country": "IND",
+        "value": 14.7917604446411
+      },
+      {
+        "country": "KEN",
+        "value": 13.1540498733521
+      },
+      {
+        "country": "KIR",
+        "value": 9.38825988769531
+      },
+      {
+        "country": "LAO",
+        "value": 3.1483199596405
+      },
+      {
+        "country": "LBN",
+        "value": 35.3127517700195
+      },
+      {
+        "country": "LSO",
+        "value": 11.1380395889282
+      },
+      {
+        "country": "NGA",
+        "value": 4.08526992797852
+      },
+      {
+        "country": "NIC",
+        "value": 19.5618095397949
+      },
+      {
+        "country": "PAK",
+        "value": 7.05777978897095
+      },
+      {
+        "country": "SWZ",
+        "value": 20.2853298187256
+      },
+      {
+        "country": "TGO",
+        "value": 3.98751997947693
+      },
+      {
+        "country": "TUN",
+        "value": 13.2253704071045
+      },
+      {
+        "country": "TZA",
+        "value": 1.64689004421234
+      },
+      {
+        "country": "VEN",
+        "value": 37.0473289489746
+      },
+      {
+        "country": "VUT",
+        "value": 5.82206010818481
+      },
+      {
+        "country": "ZWE",
+        "value": 6.47863006591797
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-CI-CM-CG-KM-EG-GH-IN-KE-KI-LA-LB-LS-NG-NI-PK-SZ-TG-TN-TZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1974,
+    "value": 8.85352039337158,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 4.04016017913818
+      },
+      {
+        "country": "BTN",
+        "value": 0.986599981784821
+      },
+      {
+        "country": "CIV",
+        "value": 4.9777398109436
+      },
+      {
+        "country": "CMR",
+        "value": 6.8517599105835
+      },
+      {
+        "country": "COG",
+        "value": 21.2844200134277
+      },
+      {
+        "country": "EGY",
+        "value": 24.2893905639648
+      },
+      {
+        "country": "GHA",
+        "value": 27.2152996063232
+      },
+      {
+        "country": "KEN",
+        "value": 14.2291202545166
+      },
+      {
+        "country": "KIR",
+        "value": 10.3481397628784
+      },
+      {
+        "country": "MAR",
+        "value": 8.85352039337158
+      },
+      {
+        "country": "NIC",
+        "value": 22.1039791107178
+      },
+      {
+        "country": "PAK",
+        "value": 7.28391981124878
+      },
+      {
+        "country": "PNG",
+        "value": 7.3570499420166
+      },
+      {
+        "country": "SWZ",
+        "value": 23.2139797210693
+      },
+      {
+        "country": "TGO",
+        "value": 4.68896007537842
+      },
+      {
+        "country": "TUN",
+        "value": 13.3393802642822
+      },
+      {
+        "country": "TZA",
+        "value": 1.92480003833771
+      },
+      {
+        "country": "VEN",
+        "value": 39.9475212097168
+      },
+      {
+        "country": "VUT",
+        "value": 6.62953996658325
+      },
+      {
+        "country": "ZMB",
+        "value": 8.9780797958374
+      },
+      {
+        "country": "ZWE",
+        "value": 6.61384010314941
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BT-CI-CM-CG-EG-GH-KE-KI-MA-NI-PK-PG-SZ-TG-TN-TZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1975,
+    "value": 9.61026000976562,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 4.97946977615356
+      },
+      {
+        "country": "CMR",
+        "value": 7.5533299446106
+      },
+      {
+        "country": "COG",
+        "value": 25.3283996582031
+      },
+      {
+        "country": "EGY",
+        "value": 26.2443408966064
+      },
+      {
+        "country": "GHA",
+        "value": 25.7612705230713
+      },
+      {
+        "country": "IND",
+        "value": 15.8069801330566
+      },
+      {
+        "country": "KEN",
+        "value": 15.6257400512695
+      },
+      {
+        "country": "KIR",
+        "value": 9.60186958312988
+      },
+      {
+        "country": "LSO",
+        "value": 13.1544198989868
+      },
+      {
+        "country": "MAR",
+        "value": 9.61026000976562
+      },
+      {
+        "country": "NIC",
+        "value": 24.5387706756592
+      },
+      {
+        "country": "PAK",
+        "value": 8.01058959960938
+      },
+      {
+        "country": "PNG",
+        "value": 7.61877012252808
+      },
+      {
+        "country": "SLB",
+        "value": 5.17170000076294
+      },
+      {
+        "country": "SWZ",
+        "value": 26.0874004364014
+      },
+      {
+        "country": "TGO",
+        "value": 5.75884008407593
+      },
+      {
+        "country": "TUN",
+        "value": 13.3394603729248
+      },
+      {
+        "country": "TZA",
+        "value": 2.00136995315552
+      },
+      {
+        "country": "VEN",
+        "value": 42.0661087036133
+      },
+      {
+        "country": "VUT",
+        "value": 8.19587993621826
+      },
+      {
+        "country": "ZWE",
+        "value": 7.01782989501953
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-CM-CG-EG-GH-IN-KE-KI-LS-MA-NI-PK-PG-SB-SZ-TG-TN-TZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1976,
+    "value": 11.8220596313477,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 8.26931953430176
+      },
+      {
+        "country": "CMR",
+        "value": 8.57567977905273
+      },
+      {
+        "country": "COG",
+        "value": 29.0449905395508
+      },
+      {
+        "country": "EGY",
+        "value": 29.0969200134277
+      },
+      {
+        "country": "GHA",
+        "value": 24.9522495269775
+      },
+      {
+        "country": "IND",
+        "value": 16.0188694000244
+      },
+      {
+        "country": "LSO",
+        "value": 14.1554698944092
+      },
+      {
+        "country": "MAR",
+        "value": 11.8220596313477
+      },
+      {
+        "country": "MMR",
+        "value": 19.5440101623535
+      },
+      {
+        "country": "PAK",
+        "value": 7.89373016357422
+      },
+      {
+        "country": "PNG",
+        "value": 7.52498006820679
+      },
+      {
+        "country": "SWZ",
+        "value": 27.5053596496582
+      },
+      {
+        "country": "TGO",
+        "value": 7.6531400680542
+      },
+      {
+        "country": "TUN",
+        "value": 14.1834096908569
+      },
+      {
+        "country": "TZA",
+        "value": 2.25436997413635
+      },
+      {
+        "country": "VUT",
+        "value": 9.25623989105225
+      },
+      {
+        "country": "ZWE",
+        "value": 7.13118982315063
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-IN-LS-MA-MM-PK-PG-SZ-TG-TN-TZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1977,
+    "value": 11.4013204574585,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 4.63320016860962
+      },
+      {
+        "country": "BGD",
+        "value": 7.1838698387146
+      },
+      {
+        "country": "BTN",
+        "value": 1.23210000991821
+      },
+      {
+        "country": "CMR",
+        "value": 9.85287952423096
+      },
+      {
+        "country": "COG",
+        "value": 34.7077217102051
+      },
+      {
+        "country": "EGY",
+        "value": 32.1518287658691
+      },
+      {
+        "country": "GHA",
+        "value": 24.4449996948242
+      },
+      {
+        "country": "IND",
+        "value": 16.5331306457519
+      },
+      {
+        "country": "KIR",
+        "value": 11.9575004577637
+      },
+      {
+        "country": "LAO",
+        "value": 7.59859991073608
+      },
+      {
+        "country": "LSO",
+        "value": 15.0473003387451
+      },
+      {
+        "country": "MAR",
+        "value": 12.7425899505615
+      },
+      {
+        "country": "MMR",
+        "value": 18.3830604553223
+      },
+      {
+        "country": "NGA",
+        "value": 4.9546799659729
+      },
+      {
+        "country": "NIC",
+        "value": 29.098819732666
+      },
+      {
+        "country": "PAK",
+        "value": 8.12726020812988
+      },
+      {
+        "country": "PNG",
+        "value": 7.24882984161377
+      },
+      {
+        "country": "STP",
+        "value": 24.576509475708
+      },
+      {
+        "country": "SWZ",
+        "value": 30.3410205841064
+      },
+      {
+        "country": "TGO",
+        "value": 9.02935981750488
+      },
+      {
+        "country": "TUN",
+        "value": 15.1316604614258
+      },
+      {
+        "country": "TZA",
+        "value": 2.31451988220215
+      },
+      {
+        "country": "VUT",
+        "value": 10.8451404571533
+      },
+      {
+        "country": "ZWE",
+        "value": 7.31689977645874
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BT-CM-CG-EG-GH-IN-KI-LA-LS-MA-MM-NG-NI-PK-PG-ST-SZ-TG-TN-TZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1978,
+    "value": 12.7359652519226,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 10.9180898666382
+      },
+      {
+        "country": "COG",
+        "value": 38.6479606628418
+      },
+      {
+        "country": "EGY",
+        "value": 33.937370300293
+      },
+      {
+        "country": "GHA",
+        "value": 24.2173004150391
+      },
+      {
+        "country": "IND",
+        "value": 16.9460506439209
+      },
+      {
+        "country": "KIR",
+        "value": 16.875280380249
+      },
+      {
+        "country": "LAO",
+        "value": 10.2690601348877
+      },
+      {
+        "country": "LSO",
+        "value": 15.2427597045898
+      },
+      {
+        "country": "MAR",
+        "value": 14.1967802047729
+      },
+      {
+        "country": "MMR",
+        "value": 18.2384204864502
+      },
+      {
+        "country": "NGA",
+        "value": 6.24382019042969
+      },
+      {
+        "country": "PAK",
+        "value": 8.22607040405273
+      },
+      {
+        "country": "SEN",
+        "value": 6.67640018463135
+      },
+      {
+        "country": "TGO",
+        "value": 10.5033102035522
+      },
+      {
+        "country": "TUN",
+        "value": 16.202169418335
+      },
+      {
+        "country": "TZA",
+        "value": 2.34138989448547
+      },
+      {
+        "country": "VUT",
+        "value": 11.2751502990723
+      },
+      {
+        "country": "ZWE",
+        "value": 7.13414001464844
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CM-CG-EG-GH-IN-KI-LA-LS-MA-MM-NG-PK-SN-TG-TN-TZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1979,
+    "value": 12.5408148765564,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 6.96787977218628
+      },
+      {
+        "country": "CMR",
+        "value": 11.680290222168
+      },
+      {
+        "country": "COG",
+        "value": 41.2868003845215
+      },
+      {
+        "country": "EGY",
+        "value": 35.607780456543
+      },
+      {
+        "country": "GHA",
+        "value": 23.9108505249023
+      },
+      {
+        "country": "KIR",
+        "value": 21.4773998260498
+      },
+      {
+        "country": "LAO",
+        "value": 12.5903797149658
+      },
+      {
+        "country": "LSO",
+        "value": 18.5171508789062
+      },
+      {
+        "country": "MAR",
+        "value": 15.8574199676514
+      },
+      {
+        "country": "NGA",
+        "value": 7.41481018066406
+      },
+      {
+        "country": "NIC",
+        "value": 31.9666309356689
+      },
+      {
+        "country": "PAK",
+        "value": 8.21078014373779
+      },
+      {
+        "country": "SEN",
+        "value": 6.44223022460938
+      },
+      {
+        "country": "TGO",
+        "value": 12.491250038147
+      },
+      {
+        "country": "TUN",
+        "value": 17.1790103912354
+      },
+      {
+        "country": "TZA",
+        "value": 2.45231008529663
+      },
+      {
+        "country": "ZMB",
+        "value": 10.7876996994019
+      },
+      {
+        "country": "ZWE",
+        "value": 6.7017297744751
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-KI-LA-LS-MA-NG-NI-PK-SN-TG-TN-TZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1980,
+    "value": 17.1787605285644,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 9.25722026824951
+      },
+      {
+        "country": "CMR",
+        "value": 12.275429725647
+      },
+      {
+        "country": "COG",
+        "value": 42.8841781616211
+      },
+      {
+        "country": "EGY",
+        "value": 36.6363182067871
+      },
+      {
+        "country": "GHA",
+        "value": 25.0627002716064
+      },
+      {
+        "country": "GIN",
+        "value": 8.27476978302002
+      },
+      {
+        "country": "HND",
+        "value": 30.0862102508545
+      },
+      {
+        "country": "IND",
+        "value": 18.5898609161377
+      },
+      {
+        "country": "KEN",
+        "value": 23.5332202911377
+      },
+      {
+        "country": "KIR",
+        "value": 24.0328502655029
+      },
+      {
+        "country": "LAO",
+        "value": 14.0099496841431
+      },
+      {
+        "country": "LSO",
+        "value": 19.6683006286621
+      },
+      {
+        "country": "MAR",
+        "value": 17.1787605285644
+      },
+      {
+        "country": "NGA",
+        "value": 8.66201019287109
+      },
+      {
+        "country": "NIC",
+        "value": 39.2228088378906
+      },
+      {
+        "country": "PAK",
+        "value": 8.31978034973145
+      },
+      {
+        "country": "SEN",
+        "value": 6.61227989196777
+      },
+      {
+        "country": "TGO",
+        "value": 13.83141040802
+      },
+      {
+        "country": "TUN",
+        "value": 17.8962593078613
+      },
+      {
+        "country": "VUT",
+        "value": 11.2860298156738
+      },
+      {
+        "country": "ZMB",
+        "value": 11.0093603134155
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-GN-HN-IN-KE-KI-LA-LS-MA-NG-NI-PK-SN-TG-TN-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1981,
+    "value": 12.9647197723389,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 6.40982007980347
+      },
+      {
+        "country": "CIV",
+        "value": 10.6323699951172
+      },
+      {
+        "country": "CMR",
+        "value": 12.9647197723389
+      },
+      {
+        "country": "COG",
+        "value": 51.4995307922363
+      },
+      {
+        "country": "COM",
+        "value": 16.684549331665
+      },
+      {
+        "country": "EGY",
+        "value": 38.2852516174316
+      },
+      {
+        "country": "GHA",
+        "value": 25.2753601074219
+      },
+      {
+        "country": "GIN",
+        "value": 8.59852027893066
+      },
+      {
+        "country": "IND",
+        "value": 19.9322395324707
+      },
+      {
+        "country": "KEN",
+        "value": 23.2545299530029
+      },
+      {
+        "country": "KGZ",
+        "value": 104.064056396484
+      },
+      {
+        "country": "KIR",
+        "value": 19.4744606018066
+      },
+      {
+        "country": "LAO",
+        "value": 15.081729888916
+      },
+      {
+        "country": "LSO",
+        "value": 21.5308990478516
+      },
+      {
+        "country": "MAR",
+        "value": 18.5268306732178
+      },
+      {
+        "country": "MRT",
+        "value": 4.35024976730347
+      },
+      {
+        "country": "NGA",
+        "value": 11.4766502380371
+      },
+      {
+        "country": "NPL",
+        "value": 7.1537299156189
+      },
+      {
+        "country": "PAK",
+        "value": 8.35217952728271
+      },
+      {
+        "country": "SEN",
+        "value": 7.04670000076294
+      },
+      {
+        "country": "TUN",
+        "value": 18.4240093231201
+      },
+      {
+        "country": "TZA",
+        "value": 2.20738005638123
+      },
+      {
+        "country": "VUT",
+        "value": 11.0939102172852
+      },
+      {
+        "country": "ZMB",
+        "value": 11.0782499313354
+      },
+      {
+        "country": "ZWE",
+        "value": 12.6869602203369
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CI-CM-CG-KM-EG-GH-GN-IN-KE-KG-KI-LA-LS-MA-MR-NG-NP-PK-SN-TN-TZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1982,
+    "value": 19.584379196167,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 6.51938009262085
+      },
+      {
+        "country": "CMR",
+        "value": 13.5205202102661
+      },
+      {
+        "country": "COG",
+        "value": 54.9832496643066
+      },
+      {
+        "country": "EGY",
+        "value": 40.1291084289551
+      },
+      {
+        "country": "GHA",
+        "value": 25.0062198638916
+      },
+      {
+        "country": "GIN",
+        "value": 7.99843978881836
+      },
+      {
+        "country": "HND",
+        "value": 34.9059410095215
+      },
+      {
+        "country": "IND",
+        "value": 20.8033905029297
+      },
+      {
+        "country": "KEN",
+        "value": 23.1094799041748
+      },
+      {
+        "country": "KIR",
+        "value": 19.584379196167
+      },
+      {
+        "country": "LBN",
+        "value": 59.1573295593262
+      },
+      {
+        "country": "LSO",
+        "value": 21.9583892822266
+      },
+      {
+        "country": "MAR",
+        "value": 20.6340198516846
+      },
+      {
+        "country": "NGA",
+        "value": 14.7009201049805
+      },
+      {
+        "country": "NIC",
+        "value": 36.5323715209961
+      },
+      {
+        "country": "NPL",
+        "value": 8.59434032440186
+      },
+      {
+        "country": "PAK",
+        "value": 8.47612953186035
+      },
+      {
+        "country": "SEN",
+        "value": 7.61922979354858
+      },
+      {
+        "country": "TGO",
+        "value": 13.8007802963257
+      },
+      {
+        "country": "TUN",
+        "value": 20.9651508331299
+      },
+      {
+        "country": "TZA",
+        "value": 2.1653299331665
+      },
+      {
+        "country": "ZMB",
+        "value": 11.2175903320312
+      },
+      {
+        "country": "ZWE",
+        "value": 18.3941402435303
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-CM-CG-EG-GH-GN-HN-IN-KE-KI-LB-LS-MA-NG-NI-NP-PK-SN-TG-TN-TZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1983,
+    "value": 14.5800695419312,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 6.08132982254028
+      },
+      {
+        "country": "BTN",
+        "value": 3.67282009124756
+      },
+      {
+        "country": "CIV",
+        "value": 10.2021503448486
+      },
+      {
+        "country": "CMR",
+        "value": 14.5800695419312
+      },
+      {
+        "country": "EGY",
+        "value": 41.8516082763672
+      },
+      {
+        "country": "GHA",
+        "value": 25.2148494720459
+      },
+      {
+        "country": "GIN",
+        "value": 7.71556997299194
+      },
+      {
+        "country": "HND",
+        "value": 35.1521606445312
+      },
+      {
+        "country": "IND",
+        "value": 23.7430591583252
+      },
+      {
+        "country": "KEN",
+        "value": 24.3035202026367
+      },
+      {
+        "country": "KIR",
+        "value": 19.6511096954346
+      },
+      {
+        "country": "LSO",
+        "value": 24.5059204101562
+      },
+      {
+        "country": "MAR",
+        "value": 22.4720191955566
+      },
+      {
+        "country": "NGA",
+        "value": 14.4543199539185
+      },
+      {
+        "country": "NIC",
+        "value": 41.2925300598145
+      },
+      {
+        "country": "NPL",
+        "value": 10.0293102264404
+      },
+      {
+        "country": "PAK",
+        "value": 8.5797004699707
+      },
+      {
+        "country": "SEN",
+        "value": 7.65077018737793
+      },
+      {
+        "country": "TGO",
+        "value": 11.9808301925659
+      },
+      {
+        "country": "TUN",
+        "value": 24.0099697113037
+      },
+      {
+        "country": "TZA",
+        "value": 2.19795989990234
+      },
+      {
+        "country": "VUT",
+        "value": 11.9388303756714
+      },
+      {
+        "country": "ZWE",
+        "value": 24.4981708526611
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BT-CI-CM-EG-GH-GN-HN-IN-KE-KI-LS-MA-NG-NI-NP-PK-SN-TG-TN-TZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1984,
+    "value": 22.276844978332548,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 11.9425497055054
+      },
+      {
+        "country": "BTN",
+        "value": 4.01456022262573
+      },
+      {
+        "country": "CIV",
+        "value": 10.3054399490356
+      },
+      {
+        "country": "CMR",
+        "value": 15.5680904388428
+      },
+      {
+        "country": "COG",
+        "value": 50.8018913269043
+      },
+      {
+        "country": "EGY",
+        "value": 43.4039306640625
+      },
+      {
+        "country": "GHA",
+        "value": 25.5994396209717
+      },
+      {
+        "country": "GIN",
+        "value": 7.91334009170532
+      },
+      {
+        "country": "HND",
+        "value": 37.1299018859863
+      },
+      {
+        "country": "IND",
+        "value": 23.5547504425049
+      },
+      {
+        "country": "KEN",
+        "value": 26.2507190704346
+      },
+      {
+        "country": "KIR",
+        "value": 20.9989395141602
+      },
+      {
+        "country": "LSO",
+        "value": 24.9331398010254
+      },
+      {
+        "country": "MAR",
+        "value": 23.9931793212891
+      },
+      {
+        "country": "NGA",
+        "value": 14.6766300201416
+      },
+      {
+        "country": "NIC",
+        "value": 38.8118591308594
+      },
+      {
+        "country": "NPL",
+        "value": 11.2294101715088
+      },
+      {
+        "country": "PAK",
+        "value": 8.98966979980469
+      },
+      {
+        "country": "PNG",
+        "value": 9.26103973388672
+      },
+      {
+        "country": "SEN",
+        "value": 7.55028009414673
+      },
+      {
+        "country": "TGO",
+        "value": 9.70205974578857
+      },
+      {
+        "country": "TUN",
+        "value": 26.8474006652832
+      },
+      {
+        "country": "VEN",
+        "value": 58.5436592102051
+      },
+      {
+        "country": "ZWE",
+        "value": 30.6983299255371
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BT-CI-CM-CG-EG-GH-GN-HN-IN-KE-KI-LS-MA-NG-NI-NP-PK-PG-SN-TG-TN-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1985,
+    "value": 25.293830871582,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 10.1443996429443
+      },
+      {
+        "country": "BGD",
+        "value": 11.3557500839233
+      },
+      {
+        "country": "CMR",
+        "value": 16.9498901367188
+      },
+      {
+        "country": "COG",
+        "value": 51.5429000854492
+      },
+      {
+        "country": "EGY",
+        "value": 45.0459098815918
+      },
+      {
+        "country": "GHA",
+        "value": 25.3984699249268
+      },
+      {
+        "country": "GIN",
+        "value": 7.684730052948
+      },
+      {
+        "country": "KEN",
+        "value": 32.8199195861816
+      },
+      {
+        "country": "KIR",
+        "value": 23.8549995422363
+      },
+      {
+        "country": "LBN",
+        "value": 52.6753692626953
+      },
+      {
+        "country": "LSO",
+        "value": 25.293830871582
+      },
+      {
+        "country": "MAR",
+        "value": 25.3042793273926
+      },
+      {
+        "country": "NIC",
+        "value": 39.0494995117188
+      },
+      {
+        "country": "NPL",
+        "value": 11.9045696258545
+      },
+      {
+        "country": "PAK",
+        "value": 9.59914016723633
+      },
+      {
+        "country": "SEN",
+        "value": 7.84673023223877
+      },
+      {
+        "country": "TGO",
+        "value": 8.16275978088379
+      },
+      {
+        "country": "TUN",
+        "value": 29.8822593688965
+      },
+      {
+        "country": "TZA",
+        "value": 2.56554007530212
+      },
+      {
+        "country": "VEN",
+        "value": 60.5239181518555
+      },
+      {
+        "country": "ZWE",
+        "value": 34.067569732666
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-CM-CG-EG-GH-GN-KE-KI-LB-LS-MA-NI-NP-PK-SN-TG-TN-TZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1986,
+    "value": 22.97909927368165,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 8.5462703704834
+      },
+      {
+        "country": "BGD",
+        "value": 12.2568302154541
+      },
+      {
+        "country": "CMR",
+        "value": 17.3018093109131
+      },
+      {
+        "country": "COG",
+        "value": 56.4929504394531
+      },
+      {
+        "country": "COM",
+        "value": 25.4398803710938
+      },
+      {
+        "country": "EGY",
+        "value": 47.5058403015137
+      },
+      {
+        "country": "GIN",
+        "value": 6.76151990890503
+      },
+      {
+        "country": "IND",
+        "value": 25.6606597900391
+      },
+      {
+        "country": "KEN",
+        "value": 33.5067596435547
+      },
+      {
+        "country": "KGZ",
+        "value": 101.292129516602
+      },
+      {
+        "country": "KIR",
+        "value": 25.338960647583
+      },
+      {
+        "country": "LAO",
+        "value": 17.4301300048828
+      },
+      {
+        "country": "LSO",
+        "value": 26.1441707611084
+      },
+      {
+        "country": "MAR",
+        "value": 27.0601406097412
+      },
+      {
+        "country": "MMR",
+        "value": 23.6949691772461
+      },
+      {
+        "country": "NGA",
+        "value": 22.2632293701172
+      },
+      {
+        "country": "NIC",
+        "value": 38.6893196105957
+      },
+      {
+        "country": "NPL",
+        "value": 13.4385404586792
+      },
+      {
+        "country": "PAK",
+        "value": 10.2498903274536
+      },
+      {
+        "country": "PNG",
+        "value": 9.38259029388428
+      },
+      {
+        "country": "SEN",
+        "value": 8.43363952636719
+      },
+      {
+        "country": "SLB",
+        "value": 14.4083995819092
+      },
+      {
+        "country": "TGO",
+        "value": 8.2739200592041
+      },
+      {
+        "country": "TUN",
+        "value": 32.7091903686523
+      },
+      {
+        "country": "TZA",
+        "value": 2.81667995452881
+      },
+      {
+        "country": "VEN",
+        "value": 60.829288482666
+      },
+      {
+        "country": "ZMB",
+        "value": 14.4006004333496
+      },
+      {
+        "country": "ZWE",
+        "value": 36.2980117797852
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-CM-CG-KM-EG-GN-IN-KE-KG-KI-LA-LS-MA-MM-NG-NI-NP-PK-PG-SN-SB-TG-TN-TZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1987,
+    "value": 25.5316600799561,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 7.99348020553589
+      },
+      {
+        "country": "BGD",
+        "value": 12.2431602478027
+      },
+      {
+        "country": "CMR",
+        "value": 19.0820198059082
+      },
+      {
+        "country": "COG",
+        "value": 59.1716117858887
+      },
+      {
+        "country": "COM",
+        "value": 25.7026195526123
+      },
+      {
+        "country": "EGY",
+        "value": 49.513858795166
+      },
+      {
+        "country": "GHA",
+        "value": 27.9626502990723
+      },
+      {
+        "country": "GIN",
+        "value": 5.57029008865356
+      },
+      {
+        "country": "IND",
+        "value": 25.5316600799561
+      },
+      {
+        "country": "KEN",
+        "value": 35.8304100036621
+      },
+      {
+        "country": "KIR",
+        "value": 27.8245105743408
+      },
+      {
+        "country": "LSO",
+        "value": 28.9917297363281
+      },
+      {
+        "country": "MAR",
+        "value": 28.4088191986084
+      },
+      {
+        "country": "MMR",
+        "value": 24.6682605743408
+      },
+      {
+        "country": "MRT",
+        "value": 8.65349960327148
+      },
+      {
+        "country": "NGA",
+        "value": 23.2112102508545
+      },
+      {
+        "country": "NIC",
+        "value": 41.3543014526367
+      },
+      {
+        "country": "NPL",
+        "value": 14.6731100082397
+      },
+      {
+        "country": "PAK",
+        "value": 10.6089096069336
+      },
+      {
+        "country": "PNG",
+        "value": 9.72679042816162
+      },
+      {
+        "country": "TGO",
+        "value": 8.05130004882812
+      },
+      {
+        "country": "TUN",
+        "value": 33.145450592041
+      },
+      {
+        "country": "TZA",
+        "value": 3.09295988082886
+      },
+      {
+        "country": "VEN",
+        "value": 59.8490791320801
+      },
+      {
+        "country": "ZWE",
+        "value": 38.8058700561523
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-CM-CG-KM-EG-GH-GN-IN-KE-KI-LS-MA-MM-MR-NG-NI-NP-PK-PG-TG-TN-TZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1988,
+    "value": 25.9419498443604,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 12.460729598999
+      },
+      {
+        "country": "CMR",
+        "value": 20.0617198944092
+      },
+      {
+        "country": "COG",
+        "value": 56.023738861084
+      },
+      {
+        "country": "EGY",
+        "value": 50.0360412597656
+      },
+      {
+        "country": "GHA",
+        "value": 28.9971103668213
+      },
+      {
+        "country": "IND",
+        "value": 25.9419498443604
+      },
+      {
+        "country": "KEN",
+        "value": 35.8310890197754
+      },
+      {
+        "country": "KIR",
+        "value": 29.761079788208
+      },
+      {
+        "country": "LAO",
+        "value": 19.6478996276856
+      },
+      {
+        "country": "LSO",
+        "value": 29.9989204406738
+      },
+      {
+        "country": "MAR",
+        "value": 29.3909797668457
+      },
+      {
+        "country": "MMR",
+        "value": 24.8242206573486
+      },
+      {
+        "country": "MRT",
+        "value": 8.97768974304199
+      },
+      {
+        "country": "NIC",
+        "value": 41.4041404724121
+      },
+      {
+        "country": "NPL",
+        "value": 16.0839595794678
+      },
+      {
+        "country": "PAK",
+        "value": 10.9302997589111
+      },
+      {
+        "country": "PNG",
+        "value": 10.0165100097656
+      },
+      {
+        "country": "SEN",
+        "value": 8.87016010284424
+      },
+      {
+        "country": "STP",
+        "value": 32.8777389526367
+      },
+      {
+        "country": "TGO",
+        "value": 9.50539016723633
+      },
+      {
+        "country": "TUN",
+        "value": 34.3970603942871
+      },
+      {
+        "country": "TZA",
+        "value": 3.53852009773254
+      },
+      {
+        "country": "VEN",
+        "value": 59.5143814086914
+      },
+      {
+        "country": "ZMB",
+        "value": 14.5736103057861
+      },
+      {
+        "country": "ZWE",
+        "value": 39.2739105224609
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-IN-KE-KI-LA-LS-MA-MM-MR-NI-NP-PK-PG-SN-ST-TG-TN-TZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1989,
+    "value": 26.26731491088865,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 12.6721801757812
+      },
+      {
+        "country": "CMR",
+        "value": 20.7283191680908
+      },
+      {
+        "country": "COG",
+        "value": 47.9353294372559
+      },
+      {
+        "country": "EGY",
+        "value": 49.7233505249023
+      },
+      {
+        "country": "GHA",
+        "value": 26.2761402130127
+      },
+      {
+        "country": "GIN",
+        "value": 5.14786005020142
+      },
+      {
+        "country": "IND",
+        "value": 26.4870090484619
+      },
+      {
+        "country": "KGZ",
+        "value": 96.3957672119141
+      },
+      {
+        "country": "KIR",
+        "value": 31.0385303497314
+      },
+      {
+        "country": "LSO",
+        "value": 29.5027408599854
+      },
+      {
+        "country": "MAR",
+        "value": 28.8928394317627
+      },
+      {
+        "country": "MMR",
+        "value": 26.2584896087646
+      },
+      {
+        "country": "MRT",
+        "value": 8.82997035980225
+      },
+      {
+        "country": "NGA",
+        "value": 20.5889892578125
+      },
+      {
+        "country": "NIC",
+        "value": 39.6863708496094
+      },
+      {
+        "country": "NPL",
+        "value": 17.6188907623291
+      },
+      {
+        "country": "PAK",
+        "value": 11.4283895492554
+      },
+      {
+        "country": "PNG",
+        "value": 10.366379737854
+      },
+      {
+        "country": "SEN",
+        "value": 9.34873962402344
+      },
+      {
+        "country": "TGO",
+        "value": 8.51212978363037
+      },
+      {
+        "country": "TUN",
+        "value": 37.7038688659668
+      },
+      {
+        "country": "TZA",
+        "value": 3.85975003242493
+      },
+      {
+        "country": "VEN",
+        "value": 58.9205284118652
+      },
+      {
+        "country": "ZWE",
+        "value": 39.4471893310547
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-GN-IN-KG-KI-LS-MA-MM-MR-NG-NI-NP-PK-PG-SN-TG-TN-TZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1990,
+    "value": 20.8903694152832,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 13.2974004745483
+      },
+      {
+        "country": "CMR",
+        "value": 21.0174293518066
+      },
+      {
+        "country": "COG",
+        "value": 40.8979110717773
+      },
+      {
+        "country": "EGY",
+        "value": 60.5174598693848
+      },
+      {
+        "country": "GHA",
+        "value": 26.7361793518066
+      },
+      {
+        "country": "GIN",
+        "value": 4.83135986328125
+      },
+      {
+        "country": "KGZ",
+        "value": 98.282096862793
+      },
+      {
+        "country": "KIR",
+        "value": 34.4397392272949
+      },
+      {
+        "country": "LAO",
+        "value": 18.5669898986816
+      },
+      {
+        "country": "LSO",
+        "value": 29.1979198455811
+      },
+      {
+        "country": "MAR",
+        "value": 30.3793296813965
+      },
+      {
+        "country": "MMR",
+        "value": 20.8903694152832
+      },
+      {
+        "country": "MRT",
+        "value": 8.39807033538818
+      },
+      {
+        "country": "NAM",
+        "value": 42.8034515380859
+      },
+      {
+        "country": "NGA",
+        "value": 20.6709098815918
+      },
+      {
+        "country": "NPL",
+        "value": 19.0673103332519
+      },
+      {
+        "country": "PAK",
+        "value": 11.7535200119019
+      },
+      {
+        "country": "PNG",
+        "value": 10.5227403640747
+      },
+      {
+        "country": "SEN",
+        "value": 9.70792961120605
+      },
+      {
+        "country": "SLB",
+        "value": 10.3172998428345
+      },
+      {
+        "country": "TGO",
+        "value": 10.1842002868652
+      },
+      {
+        "country": "TUN",
+        "value": 38.2366485595703
+      },
+      {
+        "country": "ZWE",
+        "value": 41.0496597290039
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-CM-CG-EG-GH-GN-KG-KI-LA-LS-MA-MM-MR-NA-NG-NP-PK-PG-SN-SB-TG-TN-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1991,
+    "value": 23.6334209442139,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 22.7686290740967
+      },
+      {
+        "country": "EGY",
+        "value": 61.8559799194336
+      },
+      {
+        "country": "GIN",
+        "value": 5.03239011764526
+      },
+      {
+        "country": "HND",
+        "value": 35.4440498352051
+      },
+      {
+        "country": "KGZ",
+        "value": 97.9946136474609
+      },
+      {
+        "country": "KIR",
+        "value": 36.3975715637207
+      },
+      {
+        "country": "LSO",
+        "value": 28.0279006958008
+      },
+      {
+        "country": "MAR",
+        "value": 29.2688808441162
+      },
+      {
+        "country": "MMR",
+        "value": 23.6334209442139
+      },
+      {
+        "country": "MRT",
+        "value": 8.53170013427734
+      },
+      {
+        "country": "NAM",
+        "value": 48.820068359375
+      },
+      {
+        "country": "NPL",
+        "value": 21.0445709228516
+      },
+      {
+        "country": "PAK",
+        "value": 14.7662897109985
+      },
+      {
+        "country": "PNG",
+        "value": 10.898759841919
+      },
+      {
+        "country": "SLB",
+        "value": 11.1083898544312
+      },
+      {
+        "country": "TGO",
+        "value": 9.61944007873535
+      },
+      {
+        "country": "TUN",
+        "value": 38.8878402709961
+      },
+      {
+        "country": "TZA",
+        "value": 4.53627014160156
+      },
+      {
+        "country": "VEN",
+        "value": 59.477668762207
+      },
+      {
+        "country": "VUT",
+        "value": 19.114990234375
+      },
+      {
+        "country": "ZWE",
+        "value": 39.6953315734863
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CM-EG-GN-HN-KG-KI-LS-MA-MM-MR-NA-NP-PK-PG-SB-TG-TN-TZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1992,
+    "value": 27.71809482574465,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 23.5933990478516
+      },
+      {
+        "country": "COG",
+        "value": 40.9720001220703
+      },
+      {
+        "country": "EGY",
+        "value": 59.2126388549805
+      },
+      {
+        "country": "KGZ",
+        "value": 96.2938919067383
+      },
+      {
+        "country": "KIR",
+        "value": 39.9170303344727
+      },
+      {
+        "country": "LAO",
+        "value": 15.7756004333496
+      },
+      {
+        "country": "LBN",
+        "value": 53.9308891296387
+      },
+      {
+        "country": "LSO",
+        "value": 29.4544792175293
+      },
+      {
+        "country": "MAR",
+        "value": 29.6276893615723
+      },
+      {
+        "country": "MMR",
+        "value": 25.98171043396
+      },
+      {
+        "country": "MRT",
+        "value": 9.25125026702881
+      },
+      {
+        "country": "NAM",
+        "value": 55.351001739502
+      },
+      {
+        "country": "NPL",
+        "value": 23.9676895141602
+      },
+      {
+        "country": "PAK",
+        "value": 16.9511699676514
+      },
+      {
+        "country": "PNG",
+        "value": 10.672739982605
+      },
+      {
+        "country": "SEN",
+        "value": 10.2477798461914
+      },
+      {
+        "country": "SLB",
+        "value": 11.7499904632568
+      },
+      {
+        "country": "TGO",
+        "value": 9.27151012420654
+      },
+      {
+        "country": "TUN",
+        "value": 40.1723213195801
+      },
+      {
+        "country": "TZA",
+        "value": 4.58686017990112
+      },
+      {
+        "country": "VEN",
+        "value": 60.5091285705566
+      },
+      {
+        "country": "ZWE",
+        "value": 35.1681709289551
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CM-CG-EG-KG-KI-LA-LB-LS-MA-MM-MR-NA-NP-PK-PG-SN-SB-TG-TN-TZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1993,
+    "value": 28.17932510375975,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "EGY",
+        "value": 60.1440200805664
+      },
+      {
+        "country": "GIN",
+        "value": 6.00087976455688
+      },
+      {
+        "country": "IND",
+        "value": 34.2808685302734
+      },
+      {
+        "country": "LAO",
+        "value": 16.733850479126
+      },
+      {
+        "country": "LSO",
+        "value": 30.1007099151611
+      },
+      {
+        "country": "MAR",
+        "value": 30.3146591186523
+      },
+      {
+        "country": "MMR",
+        "value": 26.2579402923584
+      },
+      {
+        "country": "MRT",
+        "value": 9.56289005279541
+      },
+      {
+        "country": "NAM",
+        "value": 59.1876907348633
+      },
+      {
+        "country": "NPL",
+        "value": 25.7196502685547
+      },
+      {
+        "country": "PNG",
+        "value": 11.6331195831299
+      },
+      {
+        "country": "SLB",
+        "value": 12.5614404678345
+      },
+      {
+        "country": "TUN",
+        "value": 42.8750190734863
+      },
+      {
+        "country": "TZA",
+        "value": 4.58472013473511
+      },
+      {
+        "country": "VEN",
+        "value": 61.2524909973145
+      },
+      {
+        "country": "ZWE",
+        "value": 31.1848392486572
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=EG-GN-IN-LA-LS-MA-MM-MR-NA-NP-PG-SB-TN-TZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1994,
+    "value": 27.4272708892822,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "EGY",
+        "value": 64.4234619140625
+      },
+      {
+        "country": "GIN",
+        "value": 6.31918001174927
+      },
+      {
+        "country": "IND",
+        "value": 35.1110305786133
+      },
+      {
+        "country": "LAO",
+        "value": 18.4106101989746
+      },
+      {
+        "country": "LBN",
+        "value": 54.3551483154297
+      },
+      {
+        "country": "LSO",
+        "value": 32.5241088867188
+      },
+      {
+        "country": "MAR",
+        "value": 31.3470191955566
+      },
+      {
+        "country": "MMR",
+        "value": 27.4272708892822
+      },
+      {
+        "country": "MRT",
+        "value": 10.494270324707
+      },
+      {
+        "country": "NAM",
+        "value": 63.5885314941406
+      },
+      {
+        "country": "NPL",
+        "value": 27.0995292663574
+      },
+      {
+        "country": "PNG",
+        "value": 12.0843696594238
+      },
+      {
+        "country": "SLB",
+        "value": 13.6186800003052
+      },
+      {
+        "country": "TGO",
+        "value": 10.2197399139404
+      },
+      {
+        "country": "TUN",
+        "value": 48.024730682373
+      },
+      {
+        "country": "TZA",
+        "value": 4.5757098197937
+      },
+      {
+        "country": "ZWE",
+        "value": 31.6523399353027
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=EG-GN-IN-LA-LB-LS-MA-MM-MR-NA-NP-PG-SB-TG-TN-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1995,
+    "value": 31.9147701263428,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 21.2405796051025
+      },
+      {
+        "country": "EGY",
+        "value": 63.9867515563965
+      },
+      {
+        "country": "GHA",
+        "value": 27.6621704101562
+      },
+      {
+        "country": "IND",
+        "value": 34.9399299621582
+      },
+      {
+        "country": "KIR",
+        "value": 43.4123001098633
+      },
+      {
+        "country": "LAO",
+        "value": 19.1085300445557
+      },
+      {
+        "country": "LBN",
+        "value": 58.3276405334473
+      },
+      {
+        "country": "MAR",
+        "value": 31.9147701263428
+      },
+      {
+        "country": "MRT",
+        "value": 11.0881004333496
+      },
+      {
+        "country": "NAM",
+        "value": 62.5458984375
+      },
+      {
+        "country": "NPL",
+        "value": 29.6029396057129
+      },
+      {
+        "country": "PNG",
+        "value": 10.9477596282959
+      },
+      {
+        "country": "PSE",
+        "value": 64.1797637939453
+      },
+      {
+        "country": "TGO",
+        "value": 11.3640699386597
+      },
+      {
+        "country": "TUN",
+        "value": 52.2373809814453
+      },
+      {
+        "country": "TZA",
+        "value": 4.59810018539429
+      },
+      {
+        "country": "ZWE",
+        "value": 33.3154602050781
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CM-EG-GH-IN-KI-LA-LB-MA-MR-NA-NP-PG-PS-TG-TN-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1996,
+    "value": 33.799150466918945,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "COG",
+        "value": 41.7246208190918
+      },
+      {
+        "country": "EGY",
+        "value": 61.943000793457
+      },
+      {
+        "country": "GIN",
+        "value": 7.08435010910034
+      },
+      {
+        "country": "IND",
+        "value": 35.078441619873
+      },
+      {
+        "country": "KIR",
+        "value": 46.6187896728516
+      },
+      {
+        "country": "LAO",
+        "value": 19.2940196990967
+      },
+      {
+        "country": "LBN",
+        "value": 59.0603103637695
+      },
+      {
+        "country": "LSO",
+        "value": 32.8634910583496
+      },
+      {
+        "country": "MAR",
+        "value": 32.3791809082031
+      },
+      {
+        "country": "MRT",
+        "value": 10.6874303817749
+      },
+      {
+        "country": "NAM",
+        "value": 62.1587600708008
+      },
+      {
+        "country": "NPL",
+        "value": 33.1102409362793
+      },
+      {
+        "country": "PSE",
+        "value": 66.5981903076172
+      },
+      {
+        "country": "SEN",
+        "value": 10.5976295471191
+      },
+      {
+        "country": "TGO",
+        "value": 12.0838499069214
+      },
+      {
+        "country": "TUN",
+        "value": 56.5829010009766
+      },
+      {
+        "country": "TZA",
+        "value": 4.67303991317749
+      },
+      {
+        "country": "ZWE",
+        "value": 34.4880599975586
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CG-EG-GN-IN-KI-LA-LB-LS-MA-MR-NA-NP-PS-SN-TG-TN-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1997,
+    "value": 33.3411750793457,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CMR",
+        "value": 21.7688694000244
+      },
+      {
+        "country": "EGY",
+        "value": 65.6067428588867
+      },
+      {
+        "country": "IND",
+        "value": 36.1356315612793
+      },
+      {
+        "country": "LAO",
+        "value": 20.7420692443848
+      },
+      {
+        "country": "LBN",
+        "value": 60.0095481872559
+      },
+      {
+        "country": "LSO",
+        "value": 33.706600189209
+      },
+      {
+        "country": "MAR",
+        "value": 32.9757499694824
+      },
+      {
+        "country": "MRT",
+        "value": 10.912389755249
+      },
+      {
+        "country": "NAM",
+        "value": 63.2981605529785
+      },
+      {
+        "country": "PSE",
+        "value": 69.4230194091797
+      },
+      {
+        "country": "SEN",
+        "value": 10.4060297012329
+      },
+      {
+        "country": "TGO",
+        "value": 12.5790195465088
+      },
+      {
+        "country": "TUN",
+        "value": 58.6094818115234
+      },
+      {
+        "country": "TZA",
+        "value": 4.9411997795105
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=CM-EG-IN-LA-LB-LS-MA-MR-NA-PS-SN-TG-TN-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1998,
+    "value": 32.6510581970215,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 10.49534034729
+      },
+      {
+        "country": "BGD",
+        "value": 40.3776588439941
+      },
+      {
+        "country": "BOL",
+        "value": 67.6245727539062
+      },
+      {
+        "country": "BTN",
+        "value": 20.7445507049561
+      },
+      {
+        "country": "CMR",
+        "value": 21.3220100402832
+      },
+      {
+        "country": "KHM",
+        "value": 11.7400102615356
+      },
+      {
+        "country": "KIR",
+        "value": 46.9309501647949
+      },
+      {
+        "country": "LAO",
+        "value": 22.955099105835
+      },
+      {
+        "country": "LBN",
+        "value": 66.0208511352539
+      },
+      {
+        "country": "LSO",
+        "value": 33.8018112182617
+      },
+      {
+        "country": "MAR",
+        "value": 32.6510581970215
+      },
+      {
+        "country": "MRT",
+        "value": 13.6636695861816
+      },
+      {
+        "country": "NAM",
+        "value": 62.9569396972656
+      },
+      {
+        "country": "NIC",
+        "value": 50.0719718933105
+      },
+      {
+        "country": "PNG",
+        "value": 16.862829208374
+      },
+      {
+        "country": "SEN",
+        "value": 10.5444498062134
+      },
+      {
+        "country": "SWZ",
+        "value": 45.4903602600098
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BD-BO-BT-CM-KH-KI-LA-LB-LS-MA-MR-NA-NI-PG-SN-SZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 1999,
+    "value": 33.4299812316895,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 10.1982202529907
+      },
+      {
+        "country": "BEN",
+        "value": 12.1437301635742
+      },
+      {
+        "country": "BGD",
+        "value": 44.5714988708496
+      },
+      {
+        "country": "BOL",
+        "value": 73.0842666625977
+      },
+      {
+        "country": "BTN",
+        "value": 23.9160003662109
+      },
+      {
+        "country": "CIV",
+        "value": 14.5966100692749
+      },
+      {
+        "country": "CMR",
+        "value": 24.5069007873535
+      },
+      {
+        "country": "COM",
+        "value": 27.9826793670654
+      },
+      {
+        "country": "EGY",
+        "value": 73.1013336181641
+      },
+      {
+        "country": "GHA",
+        "value": 28.6711101531982
+      },
+      {
+        "country": "GIN",
+        "value": 7.33798980712891
+      },
+      {
+        "country": "IND",
+        "value": 35.1614608764648
+      },
+      {
+        "country": "KEN",
+        "value": 39.29296875
+      },
+      {
+        "country": "KGZ",
+        "value": 78.6652069091797
+      },
+      {
+        "country": "KHM",
+        "value": 11.4472999572754
+      },
+      {
+        "country": "KIR",
+        "value": 61.6027297973633
+      },
+      {
+        "country": "LAO",
+        "value": 25.4991493225098
+      },
+      {
+        "country": "LBN",
+        "value": 65.2065582275391
+      },
+      {
+        "country": "LSO",
+        "value": 32.6779708862305
+      },
+      {
+        "country": "MAR",
+        "value": 33.4299812316895
+      },
+      {
+        "country": "MMR",
+        "value": 35.7727813720703
+      },
+      {
+        "country": "MRT",
+        "value": 14.4426698684692
+      },
+      {
+        "country": "NAM",
+        "value": 63.7579612731934
+      },
+      {
+        "country": "NGA",
+        "value": 21.5846195220947
+      },
+      {
+        "country": "NIC",
+        "value": 55.631591796875
+      },
+      {
+        "country": "NPL",
+        "value": 26.8124408721924
+      },
+      {
+        "country": "PSE",
+        "value": 74.3831100463867
+      },
+      {
+        "country": "SEN",
+        "value": 11.4213695526123
+      },
+      {
+        "country": "SLB",
+        "value": 20.5533199310303
+      },
+      {
+        "country": "SWZ",
+        "value": 44.5222816467285
+      },
+      {
+        "country": "TGO",
+        "value": 16.7169094085693
+      },
+      {
+        "country": "TJK",
+        "value": 63.469898223877
+      },
+      {
+        "country": "TUN",
+        "value": 70.7458801269531
+      },
+      {
+        "country": "UZB",
+        "value": 86.367561340332
+      },
+      {
+        "country": "VEN",
+        "value": 61.7432899475098
+      },
+      {
+        "country": "VUT",
+        "value": 28.1737995147705
+      },
+      {
+        "country": "ZWE",
+        "value": 36.1072006225586
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-CI-CM-KM-EG-GH-GN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PS-SN-SB-SZ-TG-TJ-TN-UZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2000,
+    "value": 38.9118194580078,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 12.1040000915527
+      },
+      {
+        "country": "BEN",
+        "value": 12.5444002151489
+      },
+      {
+        "country": "BGD",
+        "value": 47.110969543457
+      },
+      {
+        "country": "BOL",
+        "value": 70.1280364990234
+      },
+      {
+        "country": "BTN",
+        "value": 27.6800708770752
+      },
+      {
+        "country": "EGY",
+        "value": 75.2516632080078
+      },
+      {
+        "country": "GHA",
+        "value": 28.9962100982666
+      },
+      {
+        "country": "IND",
+        "value": 38.9118194580078
+      },
+      {
+        "country": "KEN",
+        "value": 39.7841300964355
+      },
+      {
+        "country": "KGZ",
+        "value": 80.0949630737305
+      },
+      {
+        "country": "KHM",
+        "value": 12.7743301391602
+      },
+      {
+        "country": "KIR",
+        "value": 68.3258666992188
+      },
+      {
+        "country": "LAO",
+        "value": 27.401819229126
+      },
+      {
+        "country": "LBN",
+        "value": 65.9806900024414
+      },
+      {
+        "country": "LSO",
+        "value": 32.2869987487793
+      },
+      {
+        "country": "MAR",
+        "value": 35.1672592163086
+      },
+      {
+        "country": "MMR",
+        "value": 41.076789855957
+      },
+      {
+        "country": "MRT",
+        "value": 15.1392002105713
+      },
+      {
+        "country": "NAM",
+        "value": 66.3425064086914
+      },
+      {
+        "country": "NGA",
+        "value": 21.7487506866455
+      },
+      {
+        "country": "NIC",
+        "value": 56.8607711791992
+      },
+      {
+        "country": "NPL",
+        "value": 28.1299896240234
+      },
+      {
+        "country": "PSE",
+        "value": 77.6240234375
+      },
+      {
+        "country": "SEN",
+        "value": 11.979640007019
+      },
+      {
+        "country": "SLB",
+        "value": 16.835599899292
+      },
+      {
+        "country": "SWZ",
+        "value": 42.7815818786621
+      },
+      {
+        "country": "TGO",
+        "value": 19.6559391021729
+      },
+      {
+        "country": "TJK",
+        "value": 63.1059913635254
+      },
+      {
+        "country": "TUN",
+        "value": 74.7923202514648
+      },
+      {
+        "country": "UZB",
+        "value": 83.9072113037109
+      },
+      {
+        "country": "VEN",
+        "value": 64.4638214111328
+      },
+      {
+        "country": "VUT",
+        "value": 36.3795394897461
+      },
+      {
+        "country": "ZWE",
+        "value": 36.0074195861816
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-EG-GH-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PS-SN-SB-SZ-TG-TJ-TN-UZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2001,
+    "value": 37.45265007019045,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 13.2332096099853
+      },
+      {
+        "country": "BEN",
+        "value": 13.908769607544
+      },
+      {
+        "country": "BGD",
+        "value": 50.0232887268066
+      },
+      {
+        "country": "BOL",
+        "value": 73.2119827270508
+      },
+      {
+        "country": "BTN",
+        "value": 31.5314197540283
+      },
+      {
+        "country": "CMR",
+        "value": 29.9767608642578
+      },
+      {
+        "country": "EGY",
+        "value": 77.1041793823242
+      },
+      {
+        "country": "GHA",
+        "value": 27.9841899871826
+      },
+      {
+        "country": "GIN",
+        "value": 10.4426498413086
+      },
+      {
+        "country": "IND",
+        "value": 38.7999687194824
+      },
+      {
+        "country": "KEN",
+        "value": 40.212100982666
+      },
+      {
+        "country": "KGZ",
+        "value": 80.1173477172852
+      },
+      {
+        "country": "KHM",
+        "value": 14.5757503509522
+      },
+      {
+        "country": "KIR",
+        "value": 81.1455535888672
+      },
+      {
+        "country": "LAO",
+        "value": 29.2967090606689
+      },
+      {
+        "country": "LBN",
+        "value": 64.3623809814453
+      },
+      {
+        "country": "LSO",
+        "value": 33.5986404418945
+      },
+      {
+        "country": "MAR",
+        "value": 36.7545204162598
+      },
+      {
+        "country": "MMR",
+        "value": 39.8251609802246
+      },
+      {
+        "country": "MRT",
+        "value": 17.7171096801758
+      },
+      {
+        "country": "NAM",
+        "value": 70.4965362548828
+      },
+      {
+        "country": "NGA",
+        "value": 23.8450603485107
+      },
+      {
+        "country": "NIC",
+        "value": 60.0477981567383
+      },
+      {
+        "country": "NPL",
+        "value": 30.6444206237793
+      },
+      {
+        "country": "PSE",
+        "value": 80.3880081176758
+      },
+      {
+        "country": "SEN",
+        "value": 12.332010269165
+      },
+      {
+        "country": "SLB",
+        "value": 20.6115093231201
+      },
+      {
+        "country": "SWZ",
+        "value": 42.9482002258301
+      },
+      {
+        "country": "TGO",
+        "value": 21.8023300170898
+      },
+      {
+        "country": "TJK",
+        "value": 63.6778411865234
+      },
+      {
+        "country": "TUN",
+        "value": 77.1083908081055
+      },
+      {
+        "country": "VEN",
+        "value": 68.3014984130859
+      },
+      {
+        "country": "VUT",
+        "value": 32.9031410217285
+      },
+      {
+        "country": "ZWE",
+        "value": 38.1507797241211
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-CM-EG-GH-GN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PS-SN-SB-SZ-TG-TJ-TN-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2002,
+    "value": 37.0708808898926,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 14.7315998077393
+      },
+      {
+        "country": "BEN",
+        "value": 15.1186399459839
+      },
+      {
+        "country": "BGD",
+        "value": 51.7350006103516
+      },
+      {
+        "country": "BOL",
+        "value": 78.0644607543945
+      },
+      {
+        "country": "CMR",
+        "value": 22.2719993591309
+      },
+      {
+        "country": "COG",
+        "value": 31.5139694213867
+      },
+      {
+        "country": "COM",
+        "value": 31.1893806457519
+      },
+      {
+        "country": "GHA",
+        "value": 29.3423309326172
+      },
+      {
+        "country": "GIN",
+        "value": 12.3354597091675
+      },
+      {
+        "country": "IND",
+        "value": 41.3250694274902
+      },
+      {
+        "country": "KEN",
+        "value": 40.7447204589844
+      },
+      {
+        "country": "KGZ",
+        "value": 79.4984893798828
+      },
+      {
+        "country": "KHM",
+        "value": 17.9505195617676
+      },
+      {
+        "country": "KIR",
+        "value": 85.8114471435547
+      },
+      {
+        "country": "LAO",
+        "value": 31.9144496917725
+      },
+      {
+        "country": "LBN",
+        "value": 66.052490234375
+      },
+      {
+        "country": "LSO",
+        "value": 34.8072319030762
+      },
+      {
+        "country": "MAR",
+        "value": 38.5802192687988
+      },
+      {
+        "country": "MMR",
+        "value": 41.0750617980957
+      },
+      {
+        "country": "MRT",
+        "value": 17.8554096221924
+      },
+      {
+        "country": "NAM",
+        "value": 68.4618530273438
+      },
+      {
+        "country": "NGA",
+        "value": 24.8241996765137
+      },
+      {
+        "country": "NIC",
+        "value": 64.3938293457031
+      },
+      {
+        "country": "NPL",
+        "value": 34.2659187316895
+      },
+      {
+        "country": "PSE",
+        "value": 82.0936126708984
+      },
+      {
+        "country": "SEN",
+        "value": 13.5592498779297
+      },
+      {
+        "country": "SLB",
+        "value": 26.704740524292
+      },
+      {
+        "country": "SWZ",
+        "value": 43.8290100097656
+      },
+      {
+        "country": "TGO",
+        "value": 25.0553398132324
+      },
+      {
+        "country": "TJK",
+        "value": 65.0725173950195
+      },
+      {
+        "country": "TUN",
+        "value": 78.3930435180664
+      },
+      {
+        "country": "VEN",
+        "value": 72.3493194580078
+      },
+      {
+        "country": "VUT",
+        "value": 36.6023406982422
+      },
+      {
+        "country": "ZWE",
+        "value": 37.539421081543
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-CM-CG-KM-GH-GN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PS-SN-SB-SZ-TG-TJ-TN-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2003,
+    "value": 40.987190246582,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.833459854126
+      },
+      {
+        "country": "BGD",
+        "value": 51.6876182556152
+      },
+      {
+        "country": "BOL",
+        "value": 80.8071975708008
+      },
+      {
+        "country": "CMR",
+        "value": 28.0853691101074
+      },
+      {
+        "country": "COG",
+        "value": 30.9671497344971
+      },
+      {
+        "country": "COM",
+        "value": 34.5227088928223
+      },
+      {
+        "country": "EGY",
+        "value": 76.3958587646484
+      },
+      {
+        "country": "GHA",
+        "value": 30.6779098510742
+      },
+      {
+        "country": "GIN",
+        "value": 14.1111297607422
+      },
+      {
+        "country": "IND",
+        "value": 45.5992889404297
+      },
+      {
+        "country": "KEN",
+        "value": 43.9185981750488
+      },
+      {
+        "country": "KGZ",
+        "value": 84.7630462646484
+      },
+      {
+        "country": "KHM",
+        "value": 21.7320804595947
+      },
+      {
+        "country": "KIR",
+        "value": 93.3157577514648
+      },
+      {
+        "country": "LAO",
+        "value": 34.5732192993164
+      },
+      {
+        "country": "LBN",
+        "value": 68.1703186035156
+      },
+      {
+        "country": "LSO",
+        "value": 35.6447906494141
+      },
+      {
+        "country": "MAR",
+        "value": 40.5255088806152
+      },
+      {
+        "country": "MMR",
+        "value": 41.4488716125488
+      },
+      {
+        "country": "MRT",
+        "value": 19.2371807098389
+      },
+      {
+        "country": "NAM",
+        "value": 67.7303466796875
+      },
+      {
+        "country": "NPL",
+        "value": 35.8331108093262
+      },
+      {
+        "country": "PSE",
+        "value": 84.433952331543
+      },
+      {
+        "country": "STP",
+        "value": 39.3140983581543
+      },
+      {
+        "country": "SWZ",
+        "value": 43.1537284851074
+      },
+      {
+        "country": "TGO",
+        "value": 27.0041999816894
+      },
+      {
+        "country": "TJK",
+        "value": 67.4764785766602
+      },
+      {
+        "country": "TUN",
+        "value": 79.2942810058594
+      },
+      {
+        "country": "UZB",
+        "value": 93.6033630371094
+      },
+      {
+        "country": "VEN",
+        "value": 73.3737564086914
+      },
+      {
+        "country": "VUT",
+        "value": 34.7020416259766
+      },
+      {
+        "country": "ZWE",
+        "value": 35.9403114318848
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-CM-CG-KM-EG-GH-GN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NP-PS-ST-SZ-TG-TJ-TN-UZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2004,
+    "value": 44.0865783691406,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.0808696746826
+      },
+      {
+        "country": "BGD",
+        "value": 46.7358283996582
+      },
+      {
+        "country": "BOL",
+        "value": 83.8102722167969
+      },
+      {
+        "country": "CMR",
+        "value": 24.1630897521973
+      },
+      {
+        "country": "COG",
+        "value": 39.0756301879883
+      },
+      {
+        "country": "COM",
+        "value": 36.0644111633301
+      },
+      {
+        "country": "EGY",
+        "value": 75.9371719360352
+      },
+      {
+        "country": "GHA",
+        "value": 32.5887718200684
+      },
+      {
+        "country": "GIN",
+        "value": 15.3069696426392
+      },
+      {
+        "country": "IND",
+        "value": 47.2715797424316
+      },
+      {
+        "country": "KEN",
+        "value": 45.2924499511719
+      },
+      {
+        "country": "KGZ",
+        "value": 83.4454879760742
+      },
+      {
+        "country": "KHM",
+        "value": 25.3631000518799
+      },
+      {
+        "country": "KIR",
+        "value": 93.2632217407227
+      },
+      {
+        "country": "LAO",
+        "value": 36.436149597168
+      },
+      {
+        "country": "LBN",
+        "value": 69.5652008056641
+      },
+      {
+        "country": "LSO",
+        "value": 38.172981262207
+      },
+      {
+        "country": "MAR",
+        "value": 43.4972381591797
+      },
+      {
+        "country": "MMR",
+        "value": 44.0865783691406
+      },
+      {
+        "country": "MRT",
+        "value": 20.1336193084717
+      },
+      {
+        "country": "NAM",
+        "value": 67.1026916503906
+      },
+      {
+        "country": "NGA",
+        "value": 30.0385608673096
+      },
+      {
+        "country": "NIC",
+        "value": 68.6075820922852
+      },
+      {
+        "country": "PSE",
+        "value": 87.8212738037109
+      },
+      {
+        "country": "SEN",
+        "value": 16.6612892150879
+      },
+      {
+        "country": "STP",
+        "value": 40.7657203674316
+      },
+      {
+        "country": "SWZ",
+        "value": 45.834659576416
+      },
+      {
+        "country": "TGO",
+        "value": 28.7924709320068
+      },
+      {
+        "country": "TJK",
+        "value": 68.9734802246094
+      },
+      {
+        "country": "TLS",
+        "value": 57.4367485046387
+      },
+      {
+        "country": "UZB",
+        "value": 94.2597122192383
+      },
+      {
+        "country": "VEN",
+        "value": 75.9502868652344
+      },
+      {
+        "country": "VUT",
+        "value": 37.1137084960938
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-CM-CG-KM-EG-GH-GN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-PS-SN-ST-SZ-TG-TJ-TL-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2005,
+    "value": 45.9471015930176,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 46.4920997619629
+      },
+      {
+        "country": "BOL",
+        "value": 85.2724075317383
+      },
+      {
+        "country": "BTN",
+        "value": 42.8833503723145
+      },
+      {
+        "country": "CMR",
+        "value": 24.6076393127441
+      },
+      {
+        "country": "GHA",
+        "value": 34.3779106140137
+      },
+      {
+        "country": "GIN",
+        "value": 19.3124198913574
+      },
+      {
+        "country": "IND",
+        "value": 50.2120513916016
+      },
+      {
+        "country": "KEN",
+        "value": 45.9471015930176
+      },
+      {
+        "country": "KGZ",
+        "value": 82.1718826293945
+      },
+      {
+        "country": "KIR",
+        "value": 89.7085266113281
+      },
+      {
+        "country": "LAO",
+        "value": 37.047550201416
+      },
+      {
+        "country": "LBN",
+        "value": 70.1318969726562
+      },
+      {
+        "country": "LSO",
+        "value": 40.7864608764648
+      },
+      {
+        "country": "MAR",
+        "value": 45.7038993835449
+      },
+      {
+        "country": "MMR",
+        "value": 45.826358795166
+      },
+      {
+        "country": "MRT",
+        "value": 20.7180900573731
+      },
+      {
+        "country": "NAM",
+        "value": 65.8467407226562
+      },
+      {
+        "country": "NGA",
+        "value": 30.5882091522217
+      },
+      {
+        "country": "NIC",
+        "value": 71.9072418212891
+      },
+      {
+        "country": "NPL",
+        "value": 40.9631500244141
+      },
+      {
+        "country": "PSE",
+        "value": 89.1882629394531
+      },
+      {
+        "country": "SEN",
+        "value": 18.9345207214356
+      },
+      {
+        "country": "SLB",
+        "value": 27.2854099273682
+      },
+      {
+        "country": "STP",
+        "value": 44.7436714172363
+      },
+      {
+        "country": "SWZ",
+        "value": 48.8366012573242
+      },
+      {
+        "country": "TGO",
+        "value": 30.9342098236084
+      },
+      {
+        "country": "TJK",
+        "value": 69.2418670654297
+      },
+      {
+        "country": "TLS",
+        "value": 59.5954513549805
+      },
+      {
+        "country": "TUN",
+        "value": 87.7173919677734
+      },
+      {
+        "country": "UZB",
+        "value": 86.4646072387695
+      },
+      {
+        "country": "VEN",
+        "value": 78.2394714355469
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CM-GH-GN-IN-KE-KG-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2006,
+    "value": 47.4095191955566,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 46.8596611022949
+      },
+      {
+        "country": "BOL",
+        "value": 84.9520263671875
+      },
+      {
+        "country": "BTN",
+        "value": 45.8921585083008
+      },
+      {
+        "country": "CMR",
+        "value": 21.4851398468018
+      },
+      {
+        "country": "GHA",
+        "value": 36.2336196899414
+      },
+      {
+        "country": "GIN",
+        "value": 22.1961803436279
+      },
+      {
+        "country": "HND",
+        "value": 64.3261108398438
+      },
+      {
+        "country": "IND",
+        "value": 51.390209197998
+      },
+      {
+        "country": "KEN",
+        "value": 46.934700012207
+      },
+      {
+        "country": "KGZ",
+        "value": 82.4580535888672
+      },
+      {
+        "country": "KHM",
+        "value": 34.3806800842285
+      },
+      {
+        "country": "KIR",
+        "value": 89.5072708129883
+      },
+      {
+        "country": "LAO",
+        "value": 36.8837394714355
+      },
+      {
+        "country": "LBN",
+        "value": 70.9933471679688
+      },
+      {
+        "country": "LSO",
+        "value": 42.6532783508301
+      },
+      {
+        "country": "MAR",
+        "value": 48.9838714599609
+      },
+      {
+        "country": "MMR",
+        "value": 47.8843383789062
+      },
+      {
+        "country": "MRT",
+        "value": 20.9435291290283
+      },
+      {
+        "country": "NAM",
+        "value": 65.4616622924805
+      },
+      {
+        "country": "NGA",
+        "value": 29.7225399017334
+      },
+      {
+        "country": "NIC",
+        "value": 72.6188430786133
+      },
+      {
+        "country": "NPL",
+        "value": 39.2674293518066
+      },
+      {
+        "country": "PAK",
+        "value": 23.8528308868408
+      },
+      {
+        "country": "PSE",
+        "value": 91.1926574707031
+      },
+      {
+        "country": "SEN",
+        "value": 20.7912902832031
+      },
+      {
+        "country": "SLB",
+        "value": 31.7271194458008
+      },
+      {
+        "country": "SWZ",
+        "value": 52.9540214538574
+      },
+      {
+        "country": "TGO",
+        "value": 32.7757911682129
+      },
+      {
+        "country": "TJK",
+        "value": 69.8144989013672
+      },
+      {
+        "country": "TUN",
+        "value": 90.072380065918
+      },
+      {
+        "country": "UZB",
+        "value": 87.5898895263672
+      },
+      {
+        "country": "VEN",
+        "value": 80.8675308227539
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CM-GH-GN-HN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PS-SN-SB-SZ-TG-TJ-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2007,
+    "value": 50.2554206848145,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 47.5436897277832
+      },
+      {
+        "country": "BOL",
+        "value": 84.8977508544922
+      },
+      {
+        "country": "BTN",
+        "value": 50.2554206848145
+      },
+      {
+        "country": "CMR",
+        "value": 29.0990791320801
+      },
+      {
+        "country": "GHA",
+        "value": 40.4977607727051
+      },
+      {
+        "country": "HND",
+        "value": 66.7260818481445
+      },
+      {
+        "country": "IND",
+        "value": 54.4490394592285
+      },
+      {
+        "country": "KEN",
+        "value": 47.2512016296387
+      },
+      {
+        "country": "KGZ",
+        "value": 82.8428421020508
+      },
+      {
+        "country": "KHM",
+        "value": 37.6149711608887
+      },
+      {
+        "country": "KIR",
+        "value": 88.7881927490234
+      },
+      {
+        "country": "LAO",
+        "value": 37.8355903625488
+      },
+      {
+        "country": "LBN",
+        "value": 72.4031066894531
+      },
+      {
+        "country": "LSO",
+        "value": 46.9338684082031
+      },
+      {
+        "country": "MAR",
+        "value": 52.1271018981934
+      },
+      {
+        "country": "MMR",
+        "value": 48.29541015625
+      },
+      {
+        "country": "NAM",
+        "value": 66.3780670166016
+      },
+      {
+        "country": "NGA",
+        "value": 26.4539299011231
+      },
+      {
+        "country": "NIC",
+        "value": 75.9113464355469
+      },
+      {
+        "country": "NPL",
+        "value": 39.5153884887695
+      },
+      {
+        "country": "PAK",
+        "value": 25.1138095855713
+      },
+      {
+        "country": "PSE",
+        "value": 91.6056976318359
+      },
+      {
+        "country": "SLB",
+        "value": 32.7333793640137
+      },
+      {
+        "country": "STP",
+        "value": 48.4593505859375
+      },
+      {
+        "country": "SWZ",
+        "value": 53.4239311218262
+      },
+      {
+        "country": "TGO",
+        "value": 29.8247108459473
+      },
+      {
+        "country": "TJK",
+        "value": 70.9309921264648
+      },
+      {
+        "country": "UZB",
+        "value": 89.1888122558594
+      },
+      {
+        "country": "VEN",
+        "value": 83.1648788452148
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CM-GH-HN-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-NA-NG-NI-NP-PK-PS-SB-ST-SZ-TG-TJ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2008,
+    "value": 54.1733512878418,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 19.9174499511719
+      },
+      {
+        "country": "BGD",
+        "value": 47.0520896911621
+      },
+      {
+        "country": "BOL",
+        "value": 84.6359786987305
+      },
+      {
+        "country": "BTN",
+        "value": 54.2678604125977
+      },
+      {
+        "country": "CMR",
+        "value": 33.4918212890625
+      },
+      {
+        "country": "GHA",
+        "value": 42.8381881713867
+      },
+      {
+        "country": "GIN",
+        "value": 24.3607196807861
+      },
+      {
+        "country": "HND",
+        "value": 67.0854873657227
+      },
+      {
+        "country": "IND",
+        "value": 58.1668281555176
+      },
+      {
+        "country": "KEN",
+        "value": 54.2933616638184
+      },
+      {
+        "country": "KHM",
+        "value": 40.8487091064453
+      },
+      {
+        "country": "KIR",
+        "value": 85.3749771118164
+      },
+      {
+        "country": "LAO",
+        "value": 39.2269515991211
+      },
+      {
+        "country": "LBN",
+        "value": 72.9855270385742
+      },
+      {
+        "country": "LSO",
+        "value": 51.0167694091797
+      },
+      {
+        "country": "MAR",
+        "value": 54.1733512878418
+      },
+      {
+        "country": "MRT",
+        "value": 17.1987209320068
+      },
+      {
+        "country": "NGA",
+        "value": 30.5725002288818
+      },
+      {
+        "country": "NIC",
+        "value": 74.748046875
+      },
+      {
+        "country": "NPL",
+        "value": 45.707649230957
+      },
+      {
+        "country": "PAK",
+        "value": 25.1925296783447
+      },
+      {
+        "country": "PSE",
+        "value": 91.2910003662109
+      },
+      {
+        "country": "SEN",
+        "value": 27.028829574585
+      },
+      {
+        "country": "STP",
+        "value": 45.365550994873
+      },
+      {
+        "country": "TJK",
+        "value": 73.0743865966797
+      },
+      {
+        "country": "TLS",
+        "value": 57.0424880981445
+      },
+      {
+        "country": "TUN",
+        "value": 94.3590087890625
+      },
+      {
+        "country": "UZB",
+        "value": 87.9145126342773
+      },
+      {
+        "country": "VEN",
+        "value": 84.4423980712891
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BD-BO-BT-CM-GH-GN-HN-IN-KE-KH-KI-LA-LB-LS-MA-MR-NG-NI-NP-PK-PS-SN-ST-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2009,
+    "value": 56.9432411193848,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 21.1587905883789
+      },
+      {
+        "country": "BGD",
+        "value": 49.7001609802246
+      },
+      {
+        "country": "BOL",
+        "value": 83.5469284057617
+      },
+      {
+        "country": "BTN",
+        "value": 61.660530090332
+      },
+      {
+        "country": "CMR",
+        "value": 37.8445510864258
+      },
+      {
+        "country": "EGY",
+        "value": 63.2690315246582
+      },
+      {
+        "country": "GHA",
+        "value": 44.4520797729492
+      },
+      {
+        "country": "IND",
+        "value": 58.6507301330566
+      },
+      {
+        "country": "KEN",
+        "value": 54.5718307495117
+      },
+      {
+        "country": "KGZ",
+        "value": 88.7243728637695
+      },
+      {
+        "country": "LAO",
+        "value": 40.9841690063477
+      },
+      {
+        "country": "LBN",
+        "value": 75.2082824707031
+      },
+      {
+        "country": "LSO",
+        "value": 56.7846603393555
+      },
+      {
+        "country": "MAR",
+        "value": 56.9432411193848
+      },
+      {
+        "country": "MMR",
+        "value": 51.3885917663574
+      },
+      {
+        "country": "MRT",
+        "value": 17.876070022583
+      },
+      {
+        "country": "NGA",
+        "value": 34.5709915161133
+      },
+      {
+        "country": "NPL",
+        "value": 46.5078506469727
+      },
+      {
+        "country": "PAK",
+        "value": 25.688850402832
+      },
+      {
+        "country": "PSE",
+        "value": 91.1607971191406
+      },
+      {
+        "country": "STP",
+        "value": 52.2087516784668
+      },
+      {
+        "country": "SWZ",
+        "value": 57.9981803894043
+      },
+      {
+        "country": "TJK",
+        "value": 74.3436737060547
+      },
+      {
+        "country": "TLS",
+        "value": 66.6238479614258
+      },
+      {
+        "country": "TUN",
+        "value": 91.7849884033203
+      },
+      {
+        "country": "UZB",
+        "value": 89.0407485961914
+      },
+      {
+        "country": "VEN",
+        "value": 85.081657409668
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BD-BO-BT-CM-EG-GH-IN-KE-KG-LA-LB-LS-MA-MM-MR-NG-NP-PK-PS-ST-SZ-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2010,
+    "value": 62.7447319030762,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.98756980896
+      },
+      {
+        "country": "BGD",
+        "value": 52.0766891151976
+      },
+      {
+        "country": "BOL",
+        "value": 87.5005794020571
+      },
+      {
+        "country": "BTN",
+        "value": 67.4368286132812
+      },
+      {
+        "country": "EGY",
+        "value": 64.1232833862305
+      },
+      {
+        "country": "HND",
+        "value": 73.3693008422852
+      },
+      {
+        "country": "IND",
+        "value": 62.3437995910645
+      },
+      {
+        "country": "KGZ",
+        "value": 87.3795815410487
+      },
+      {
+        "country": "LAO",
+        "value": 42.871711730957
+      },
+      {
+        "country": "LBN",
+        "value": 74.984394389501
+      },
+      {
+        "country": "LSO",
+        "value": 62.8373908996582
+      },
+      {
+        "country": "MAR",
+        "value": 59.2141571815954
+      },
+      {
+        "country": "MMR",
+        "value": 53.1574516296387
+      },
+      {
+        "country": "MRT",
+        "value": 18.2780303955078
+      },
+      {
+        "country": "NAM",
+        "value": 71.5850049614779
+      },
+      {
+        "country": "NGA",
+        "value": 39.0084915161133
+      },
+      {
+        "country": "NIC",
+        "value": 74.4894104003906
+      },
+      {
+        "country": "NPL",
+        "value": 55.0515098571777
+      },
+      {
+        "country": "PAK",
+        "value": 25.4582159212789
+      },
+      {
+        "country": "PSE",
+        "value": 90.614418241199
+      },
+      {
+        "country": "SEN",
+        "value": 34.5189208984375
+      },
+      {
+        "country": "SLB",
+        "value": 47.2111701965332
+      },
+      {
+        "country": "STP",
+        "value": 50.9835586547852
+      },
+      {
+        "country": "SWZ",
+        "value": 62.7447319030762
+      },
+      {
+        "country": "TJK",
+        "value": 74.2631072998047
+      },
+      {
+        "country": "TLS",
+        "value": 68.6269372897248
+      },
+      {
+        "country": "TUN",
+        "value": 90.7552108764648
+      },
+      {
+        "country": "TZA",
+        "value": 28.6016407012939
+      },
+      {
+        "country": "UZB",
+        "value": 89.7888793945312
+      },
+      {
+        "country": "VEN",
+        "value": 85.0954513549805
+      },
+      {
+        "country": "VUT",
+        "value": 54.8430037539749
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BD-BO-BT-EG-HN-IN-KG-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PS-SN-SB-ST-SZ-TJ-TL-TN-TZ-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2011,
+    "value": 64.624397277832,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.3924407958984
+      },
+      {
+        "country": "BEN",
+        "value": 35.1887283325195
+      },
+      {
+        "country": "BGD",
+        "value": 52.972846971647
+      },
+      {
+        "country": "BOL",
+        "value": 85.4463613535963
+      },
+      {
+        "country": "BTN",
+        "value": 72.9664916992188
+      },
+      {
+        "country": "CMR",
+        "value": 45.500515576506
+      },
+      {
+        "country": "EGY",
+        "value": 72.4007186889648
+      },
+      {
+        "country": "GHA",
+        "value": 52.0960388183594
+      },
+      {
+        "country": "GIN",
+        "value": 28.5025997161865
+      },
+      {
+        "country": "HND",
+        "value": 72.8045272827148
+      },
+      {
+        "country": "IND",
+        "value": 64.624397277832
+      },
+      {
+        "country": "KGZ",
+        "value": 87.4421175040858
+      },
+      {
+        "country": "LAO",
+        "value": 42.4216904826615
+      },
+      {
+        "country": "LBN",
+        "value": 78.0964568809092
+      },
+      {
+        "country": "LSO",
+        "value": 65.863037109375
+      },
+      {
+        "country": "MAR",
+        "value": 61.6058418206276
+      },
+      {
+        "country": "MRT",
+        "value": 20.1222400665283
+      },
+      {
+        "country": "NAM",
+        "value": 75.9020999319308
+      },
+      {
+        "country": "NGA",
+        "value": 39.6406402587891
+      },
+      {
+        "country": "NPL",
+        "value": 59.230411529541
+      },
+      {
+        "country": "PAK",
+        "value": 25.3949380688813
+      },
+      {
+        "country": "PSE",
+        "value": 90.4789097664676
+      },
+      {
+        "country": "SEN",
+        "value": 40.7124286126975
+      },
+      {
+        "country": "SLB",
+        "value": 47.1220817565918
+      },
+      {
+        "country": "STP",
+        "value": 52.2642288208008
+      },
+      {
+        "country": "SWZ",
+        "value": 64.7975387573242
+      },
+      {
+        "country": "TJK",
+        "value": 75.5782928466797
+      },
+      {
+        "country": "TLS",
+        "value": 71.4300991899046
+      },
+      {
+        "country": "TUN",
+        "value": 90.9749908447266
+      },
+      {
+        "country": "UZB",
+        "value": 89.2128524780273
+      },
+      {
+        "country": "VEN",
+        "value": 85.9672698974609
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-CM-EG-GH-GN-HN-IN-KG-LA-LB-LS-MA-MR-NA-NG-NP-PK-PS-SN-SB-ST-SZ-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2012,
+    "value": 67.23086547851565,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 54.6677284240723
+      },
+      {
+        "country": "BOL",
+        "value": 86.9054153516049
+      },
+      {
+        "country": "BTN",
+        "value": 79.2052764892578
+      },
+      {
+        "country": "CMR",
+        "value": 48.7718363160742
+      },
+      {
+        "country": "COG",
+        "value": 46.8735198974609
+      },
+      {
+        "country": "EGY",
+        "value": 72.635009765625
+      },
+      {
+        "country": "GHA",
+        "value": 53.1241347690324
+      },
+      {
+        "country": "HND",
+        "value": 71.1991729736328
+      },
+      {
+        "country": "IND",
+        "value": 67.4936981201172
+      },
+      {
+        "country": "KGZ",
+        "value": 87.004163224052
+      },
+      {
+        "country": "LAO",
+        "value": 45.525951385498
+      },
+      {
+        "country": "LBN",
+        "value": 76.1323848482182
+      },
+      {
+        "country": "LSO",
+        "value": 68.1460800170898
+      },
+      {
+        "country": "MAR",
+        "value": 63.780614962939
+      },
+      {
+        "country": "MRT",
+        "value": 23.9687918780301
+      },
+      {
+        "country": "NAM",
+        "value": 77.4235835218031
+      },
+      {
+        "country": "NGA",
+        "value": 42.4270210266113
+      },
+      {
+        "country": "NPL",
+        "value": 64.4251327514648
+      },
+      {
+        "country": "PAK",
+        "value": 25.7528705596924
+      },
+      {
+        "country": "PNG",
+        "value": 32.6879479913319
+      },
+      {
+        "country": "PSE",
+        "value": 89.7635136812524
+      },
+      {
+        "country": "SEN",
+        "value": 44.9835760823554
+      },
+      {
+        "country": "SLB",
+        "value": 47.6625213623047
+      },
+      {
+        "country": "STP",
+        "value": 59.7818183898926
+      },
+      {
+        "country": "SWZ",
+        "value": 66.9680328369141
+      },
+      {
+        "country": "TJK",
+        "value": 78.0864105224609
+      },
+      {
+        "country": "TLS",
+        "value": 71.6261633919338
+      },
+      {
+        "country": "UZB",
+        "value": 91.5890082905573
+      },
+      {
+        "country": "VEN",
+        "value": 88.2607498168945
+      },
+      {
+        "country": "ZWE",
+        "value": 73.0986641244537
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CM-CG-EG-GH-HN-IN-KG-LA-LB-LS-MA-MR-NA-NG-NP-PK-PG-PS-SN-SB-ST-SZ-TJ-TL-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2013,
+    "value": 67.1050796508789,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 41.857421875
+      },
+      {
+        "country": "BGD",
+        "value": 57.4183984304764
+      },
+      {
+        "country": "BOL",
+        "value": 88.5871712557106
+      },
+      {
+        "country": "BTN",
+        "value": 84.4945220947266
+      },
+      {
+        "country": "CMR",
+        "value": 50.4201711277728
+      },
+      {
+        "country": "COM",
+        "value": 60.1044710048694
+      },
+      {
+        "country": "EGY",
+        "value": 73.2182236825859
+      },
+      {
+        "country": "GHA",
+        "value": 64.3019790649414
+      },
+      {
+        "country": "HND",
+        "value": 68.2308197021484
+      },
+      {
+        "country": "IND",
+        "value": 69.2553634643555
+      },
+      {
+        "country": "KGZ",
+        "value": 87.8419677828729
+      },
+      {
+        "country": "LAO",
+        "value": 49.4297722584981
+      },
+      {
+        "country": "LBN",
+        "value": 74.7805921960167
+      },
+      {
+        "country": "LSO",
+        "value": 65.9366836547852
+      },
+      {
+        "country": "MRT",
+        "value": 27.9143759343964
+      },
+      {
+        "country": "NAM",
+        "value": 79.1245312674155
+      },
+      {
+        "country": "NGA",
+        "value": 50.3317909240723
+      },
+      {
+        "country": "NPL",
+        "value": 67.1050796508789
+      },
+      {
+        "country": "PAK",
+        "value": 26.3995425354199
+      },
+      {
+        "country": "PSE",
+        "value": 89.3845067710673
+      },
+      {
+        "country": "SEN",
+        "value": 48.301600402966
+      },
+      {
+        "country": "STP",
+        "value": 66.1306762695312
+      },
+      {
+        "country": "SWZ",
+        "value": 69.7378005981445
+      },
+      {
+        "country": "TJK",
+        "value": 79.1657104492188
+      },
+      {
+        "country": "TLS",
+        "value": 69.9035409795258
+      },
+      {
+        "country": "TZA",
+        "value": 31.0077818769829
+      },
+      {
+        "country": "UZB",
+        "value": 91.6004685595298
+      },
+      {
+        "country": "VEN",
+        "value": 96.2343673706055
+      },
+      {
+        "country": "ZWE",
+        "value": 50.8856201171875
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-BT-CM-KM-EG-GH-HN-IN-KG-LA-LB-LS-MR-NA-NG-NP-PK-PS-SN-ST-SZ-TJ-TL-TZ-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2014,
+    "value": 63.5484732484643,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 43.0372085571289
+      },
+      {
+        "country": "BOL",
+        "value": 89.1304081626405
+      },
+      {
+        "country": "BTN",
+        "value": 92.2578125
+      },
+      {
+        "country": "CIV",
+        "value": 34.3625665088411
+      },
+      {
+        "country": "CMR",
+        "value": 54.1409312621764
+      },
+      {
+        "country": "COM",
+        "value": 63.5484732484643
+      },
+      {
+        "country": "EGY",
+        "value": 73.200144841154
+      },
+      {
+        "country": "GHA",
+        "value": 61.2572744110292
+      },
+      {
+        "country": "GIN",
+        "value": 30.6022090911865
+      },
+      {
+        "country": "HND",
+        "value": 53.6911043455277
+      },
+      {
+        "country": "IND",
+        "value": 74.7539901733398
+      },
+      {
+        "country": "KGZ",
+        "value": 89.5127032733476
+      },
+      {
+        "country": "LAO",
+        "value": 55.2351608276367
+      },
+      {
+        "country": "LBN",
+        "value": 62.1051842337746
+      },
+      {
+        "country": "LSO",
+        "value": 66.7313219029994
+      },
+      {
+        "country": "MMR",
+        "value": 58.9736404418945
+      },
+      {
+        "country": "MRT",
+        "value": 28.0396485304939
+      },
+      {
+        "country": "NAM",
+        "value": 79.8738123230912
+      },
+      {
+        "country": "NGA",
+        "value": 40.3631896972656
+      },
+      {
+        "country": "NPL",
+        "value": 69.3774108886719
+      },
+      {
+        "country": "PAK",
+        "value": 28.5600893522118
+      },
+      {
+        "country": "PSE",
+        "value": 89.2406335817968
+      },
+      {
+        "country": "SEN",
+        "value": 50.5133794878854
+      },
+      {
+        "country": "STP",
+        "value": 77.0031433105469
+      },
+      {
+        "country": "SWZ",
+        "value": 73.5833206176758
+      },
+      {
+        "country": "TLS",
+        "value": 72.1954898017811
+      },
+      {
+        "country": "TZA",
+        "value": 29.0062999725342
+      },
+      {
+        "country": "UZB",
+        "value": 91.3187707069968
+      },
+      {
+        "country": "VEN",
+        "value": 94.9835891723633
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BO-BT-CI-CM-KM-EG-GH-GN-HN-IN-KG-LA-LB-LS-MM-MR-NA-NG-NP-PK-PS-SN-ST-SZ-TL-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2015,
+    "value": 67.8270774378415,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 46.0378799438477
+      },
+      {
+        "country": "BGD",
+        "value": 62.5832710266113
+      },
+      {
+        "country": "BOL",
+        "value": 89.9740673277194
+      },
+      {
+        "country": "BTN",
+        "value": 92.4895401000977
+      },
+      {
+        "country": "CIV",
+        "value": 37.982068610823
+      },
+      {
+        "country": "CMR",
+        "value": 55.5473133749889
+      },
+      {
+        "country": "GHA",
+        "value": 64.5307806759859
+      },
+      {
+        "country": "HND",
+        "value": 55.1216519478842
+      },
+      {
+        "country": "IND",
+        "value": 74.3924407958984
+      },
+      {
+        "country": "KEN",
+        "value": 70.187444140127
+      },
+      {
+        "country": "KGZ",
+        "value": 89.3803392348644
+      },
+      {
+        "country": "LAO",
+        "value": 59.772232688381
+      },
+      {
+        "country": "LBN",
+        "value": 60.3778897955521
+      },
+      {
+        "country": "LSO",
+        "value": 67.8270774378415
+      },
+      {
+        "country": "MRT",
+        "value": 28.8231465861958
+      },
+      {
+        "country": "NAM",
+        "value": 81.7415343444417
+      },
+      {
+        "country": "NGA",
+        "value": 41.8675918579102
+      },
+      {
+        "country": "NPL",
+        "value": 70.6879119873047
+      },
+      {
+        "country": "PAK",
+        "value": 30.3251040463428
+      },
+      {
+        "country": "PSE",
+        "value": 89.9287548247777
+      },
+      {
+        "country": "STP",
+        "value": 85.4740676879883
+      },
+      {
+        "country": "SWZ",
+        "value": 76.7041397094727
+      },
+      {
+        "country": "TLS",
+        "value": 75.7349709712488
+      },
+      {
+        "country": "TZA",
+        "value": 25.9106006622314
+      },
+      {
+        "country": "UZB",
+        "value": 91.938963197135
+      },
+      {
+        "country": "VEN",
+        "value": 92.9153289794922
+      },
+      {
+        "country": "VUT",
+        "value": 56.5349197387695
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-BT-CI-CM-GH-HN-IN-KE-KG-LA-LB-LS-MR-NA-NG-NP-PK-PS-ST-SZ-TL-TZ-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2016,
+    "value": 72.6988253121111,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 42.9851256990708
+      },
+      {
+        "country": "BEN",
+        "value": 47.7052116394043
+      },
+      {
+        "country": "BGD",
+        "value": 66.9120125277375
+      },
+      {
+        "country": "BOL",
+        "value": 89.7963617272291
+      },
+      {
+        "country": "BTN",
+        "value": 93.3539505004883
+      },
+      {
+        "country": "CIV",
+        "value": 40.5872787120579
+      },
+      {
+        "country": "CMR",
+        "value": 56.4790090222202
+      },
+      {
+        "country": "EGY",
+        "value": 74.7882619375541
+      },
+      {
+        "country": "GHA",
+        "value": 65.3783920673892
+      },
+      {
+        "country": "HND",
+        "value": 55.2523310583486
+      },
+      {
+        "country": "IND",
+        "value": 75.823371887207
+      },
+      {
+        "country": "KEN",
+        "value": 73.1205739030308
+      },
+      {
+        "country": "KGZ",
+        "value": 90.2972623073403
+      },
+      {
+        "country": "LAO",
+        "value": 62.2666985609989
+      },
+      {
+        "country": "LBN",
+        "value": 62.351438954916
+      },
+      {
+        "country": "LSO",
+        "value": 65.0972290039062
+      },
+      {
+        "country": "MMR",
+        "value": 72.2770767211914
+      },
+      {
+        "country": "MRT",
+        "value": 30.5243563459821
+      },
+      {
+        "country": "NAM",
+        "value": 82.4628831856333
+      },
+      {
+        "country": "NGA",
+        "value": 37.2762603759766
+      },
+      {
+        "country": "NPL",
+        "value": 73.9553375244141
+      },
+      {
+        "country": "PAK",
+        "value": 31.73991038953
+      },
+      {
+        "country": "PSE",
+        "value": 90.2320188949519
+      },
+      {
+        "country": "STP",
+        "value": 87.7800827026367
+      },
+      {
+        "country": "SWZ",
+        "value": 82.1736533366008
+      },
+      {
+        "country": "TLS",
+        "value": 80.4793824903514
+      },
+      {
+        "country": "TUN",
+        "value": 95.4877166748047
+      },
+      {
+        "country": "TZA",
+        "value": 25.6934364827346
+      },
+      {
+        "country": "UZB",
+        "value": 92.4681516255333
+      },
+      {
+        "country": "VEN",
+        "value": 89.12158203125
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-CI-CM-EG-GH-HN-IN-KE-KG-LA-LB-LS-MM-MR-NA-NG-NP-PK-PS-ST-SZ-TL-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2017,
+    "value": 74.2236328125,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 66.8206080291299
+      },
+      {
+        "country": "BOL",
+        "value": 88.5199336270253
+      },
+      {
+        "country": "BTN",
+        "value": 93.6836013793945
+      },
+      {
+        "country": "CIV",
+        "value": 43.9337901584799
+      },
+      {
+        "country": "COM",
+        "value": 59.3382174230061
+      },
+      {
+        "country": "EGY",
+        "value": 75.3094821649971
+      },
+      {
+        "country": "GHA",
+        "value": 64.9647509332356
+      },
+      {
+        "country": "HND",
+        "value": 54.7623596191406
+      },
+      {
+        "country": "IND",
+        "value": 74.2236328125
+      },
+      {
+        "country": "KGZ",
+        "value": 89.7482653344435
+      },
+      {
+        "country": "KHM",
+        "value": 51.2054747282757
+      },
+      {
+        "country": "LAO",
+        "value": 63.5469120681911
+      },
+      {
+        "country": "LBN",
+        "value": 66.1201281851679
+      },
+      {
+        "country": "LSO",
+        "value": 68.1387518596821
+      },
+      {
+        "country": "MAR",
+        "value": 74.2546979867675
+      },
+      {
+        "country": "MMR",
+        "value": 77.0976104736328
+      },
+      {
+        "country": "MRT",
+        "value": 30.7430804973383
+      },
+      {
+        "country": "NAM",
+        "value": 82.9187287944073
+      },
+      {
+        "country": "NPL",
+        "value": 77.7481231689453
+      },
+      {
+        "country": "PAK",
+        "value": 31.2563221783058
+      },
+      {
+        "country": "PSE",
+        "value": 91.1514747935572
+      },
+      {
+        "country": "STP",
+        "value": 95.1290435791016
+      },
+      {
+        "country": "TGO",
+        "value": 51.5055745468098
+      },
+      {
+        "country": "TLS",
+        "value": 84.7672794199171
+      },
+      {
+        "country": "TZA",
+        "value": 26.6423516825531
+      },
+      {
+        "country": "UZB",
+        "value": 93.5591792866064
+      },
+      {
+        "country": "VEN",
+        "value": 87.9344787597656
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CI-KM-EG-GH-HN-IN-KG-KH-LA-LB-LS-MA-MM-MR-NA-NP-PK-PS-ST-TG-TL-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2018,
+    "value": 69.0192069270982,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 69.0192069270982
+      },
+      {
+        "country": "BOL",
+        "value": 87.8603570044998
+      },
+      {
+        "country": "BTN",
+        "value": 94.7654841059746
+      },
+      {
+        "country": "CIV",
+        "value": 46.3947128556196
+      },
+      {
+        "country": "COM",
+        "value": 64.5565253389451
+      },
+      {
+        "country": "EGY",
+        "value": 75.9067103552346
+      },
+      {
+        "country": "GHA",
+        "value": 66.9166894213064
+      },
+      {
+        "country": "IND",
+        "value": 75.5565032958984
+      },
+      {
+        "country": "KGZ",
+        "value": 91.0594350779724
+      },
+      {
+        "country": "KHM",
+        "value": 53.0927446861047
+      },
+      {
+        "country": "LAO",
+        "value": 63.8298251272908
+      },
+      {
+        "country": "LBN",
+        "value": 68.2192125483757
+      },
+      {
+        "country": "MAR",
+        "value": 75.2608385790025
+      },
+      {
+        "country": "MMR",
+        "value": 81.8814926147461
+      },
+      {
+        "country": "MRT",
+        "value": 34.754930908232
+      },
+      {
+        "country": "NAM",
+        "value": 82.4447917914626
+      },
+      {
+        "country": "NGA",
+        "value": 39.4427909851074
+      },
+      {
+        "country": "PAK",
+        "value": 33.7539426003326
+      },
+      {
+        "country": "PNG",
+        "value": 40.4233467116333
+      },
+      {
+        "country": "PSE",
+        "value": 91.43948440818
+      },
+      {
+        "country": "TLS",
+        "value": 87.2436736474694
+      },
+      {
+        "country": "TZA",
+        "value": 29.1602013185307
+      },
+      {
+        "country": "UZB",
+        "value": 94.8141255682856
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CI-KM-EG-GH-IN-KG-KH-LA-LB-MA-MM-MR-NA-NG-PK-PG-PS-TL-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2019,
+    "value": 70.2943846951293,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 68.6082490748818
+      },
+      {
+        "country": "BOL",
+        "value": 88.0304372690611
+      },
+      {
+        "country": "BTN",
+        "value": 97.6848520202403
+      },
+      {
+        "country": "CIV",
+        "value": 49.4831223999723
+      },
+      {
+        "country": "EGY",
+        "value": 76.911298614293
+      },
+      {
+        "country": "GHA",
+        "value": 70.2943846951293
+      },
+      {
+        "country": "HND",
+        "value": 68.4164123535156
+      },
+      {
+        "country": "IND",
+        "value": 75.6416931152344
+      },
+      {
+        "country": "KGZ",
+        "value": 91.5009835275856
+      },
+      {
+        "country": "KHM",
+        "value": 53.3177080845995
+      },
+      {
+        "country": "LAO",
+        "value": 62.7755100424821
+      },
+      {
+        "country": "LBN",
+        "value": 69.5287831759035
+      },
+      {
+        "country": "MAR",
+        "value": 76.5740050948519
+      },
+      {
+        "country": "MRT",
+        "value": 37.5735638620028
+      },
+      {
+        "country": "NAM",
+        "value": 83.3997206880115
+      },
+      {
+        "country": "NPL",
+        "value": 84.223991394043
+      },
+      {
+        "country": "PAK",
+        "value": 35.5736865644319
+      },
+      {
+        "country": "PNG",
+        "value": 41.5678577082811
+      },
+      {
+        "country": "PSE",
+        "value": 92.1069779946866
+      },
+      {
+        "country": "SEN",
+        "value": 47.6122826558931
+      },
+      {
+        "country": "TLS",
+        "value": 89.6775720031834
+      },
+      {
+        "country": "TZA",
+        "value": 31.1972029418227
+      },
+      {
+        "country": "UZB",
+        "value": 96.2599029541016
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CI-EG-GH-HN-IN-KG-KH-LA-LB-MA-MR-NA-NP-PK-PG-PS-SN-TL-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2020,
+    "value": 72.2022768856428,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 39.4178810119629
+      },
+      {
+        "country": "BGD",
+        "value": 71.128750711381
+      },
+      {
+        "country": "BOL",
+        "value": 88.4047972829548
+      },
+      {
+        "country": "BTN",
+        "value": 97.5008417517849
+      },
+      {
+        "country": "CIV",
+        "value": 51.9265625097734
+      },
+      {
+        "country": "EGY",
+        "value": 78.4118910481273
+      },
+      {
+        "country": "GHA",
+        "value": 73.2758030599046
+      },
+      {
+        "country": "HND",
+        "value": 62.3465596528451
+      },
+      {
+        "country": "IND",
+        "value": 76.5541213427966
+      },
+      {
+        "country": "KGZ",
+        "value": 92.1680769300161
+      },
+      {
+        "country": "KHM",
+        "value": 54.5285415649414
+      },
+      {
+        "country": "LAO",
+        "value": 60.6465219892194
+      },
+      {
+        "country": "LBN",
+        "value": 70.2938677645431
+      },
+      {
+        "country": "MAR",
+        "value": 78.1902667388164
+      },
+      {
+        "country": "MRT",
+        "value": 36.1789325617578
+      },
+      {
+        "country": "NAM",
+        "value": 87.2617411950085
+      },
+      {
+        "country": "NGA",
+        "value": 43.9140815734863
+      },
+      {
+        "country": "NPL",
+        "value": 87.491828918457
+      },
+      {
+        "country": "PNG",
+        "value": 40.4603408609418
+      },
+      {
+        "country": "PSE",
+        "value": 92.3509100224999
+      },
+      {
+        "country": "SEN",
+        "value": 48.7408134468399
+      },
+      {
+        "country": "TJK",
+        "value": 84.0353803669802
+      },
+      {
+        "country": "TLS",
+        "value": 89.3942621030436
+      },
+      {
+        "country": "TZA",
+        "value": 32.1652787700855
+      },
+      {
+        "country": "UZB",
+        "value": 90.407816338473
+      },
+      {
+        "country": "VUT",
+        "value": 62.0561790466309
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-BT-CI-EG-GH-HN-IN-KG-KH-LA-LB-MA-MR-NA-NG-NP-PG-PS-SN-TJ-TL-TZ-UZ-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2021,
+    "value": 73.1335269236005,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 49.4286274279557
+      },
+      {
+        "country": "BEN",
+        "value": 40.2546501159668
+      },
+      {
+        "country": "BGD",
+        "value": 75.089641669915
+      },
+      {
+        "country": "BOL",
+        "value": 90.1926069467688
+      },
+      {
+        "country": "BTN",
+        "value": 100.878047817838
+      },
+      {
+        "country": "CIV",
+        "value": 54.4109890656109
+      },
+      {
+        "country": "CMR",
+        "value": 42.6115884063623
+      },
+      {
+        "country": "EGY",
+        "value": 80.3491927630684
+      },
+      {
+        "country": "GHA",
+        "value": 75.6377570946198
+      },
+      {
+        "country": "HND",
+        "value": 60.2124453124399
+      },
+      {
+        "country": "IND",
+        "value": 78.4542146302356
+      },
+      {
+        "country": "KEN",
+        "value": 79.6603133999262
+      },
+      {
+        "country": "KGZ",
+        "value": 93.1961318508701
+      },
+      {
+        "country": "KHM",
+        "value": 59.1888520896695
+      },
+      {
+        "country": "KIR",
+        "value": 93.4636603502039
+      },
+      {
+        "country": "LAO",
+        "value": 58.3834691492585
+      },
+      {
+        "country": "LBN",
+        "value": 71.177412177286
+      },
+      {
+        "country": "MAR",
+        "value": 79.2970919837523
+      },
+      {
+        "country": "NAM",
+        "value": 87.1498788500333
+      },
+      {
+        "country": "NGA",
+        "value": 45.1787605285645
+      },
+      {
+        "country": "NPL",
+        "value": 85.6409873713909
+      },
+      {
+        "country": "PAK",
+        "value": 36.7848892672203
+      },
+      {
+        "country": "PNG",
+        "value": 48.9409565731442
+      },
+      {
+        "country": "PSE",
+        "value": 92.9705244906805
+      },
+      {
+        "country": "SEN",
+        "value": 50.1069716907194
+      },
+      {
+        "country": "TGO",
+        "value": 56.962123807999
+      },
+      {
+        "country": "TJK",
+        "value": 84.6863463051504
+      },
+      {
+        "country": "TZA",
+        "value": 29.2047595977783
+      },
+      {
+        "country": "UZB",
+        "value": 96.6067427080091
+      },
+      {
+        "country": "VUT",
+        "value": 64.2566909790039
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BJ-BD-BO-BT-CI-CM-EG-GH-HN-IN-KE-KG-KH-KI-LA-LB-MA-NA-NG-NP-PK-PG-PS-SN-TG-TJ-TZ-UZ-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2022,
+    "value": 80.4518698611689,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 40.2818489074707
+      },
+      {
+        "country": "BGD",
+        "value": 72.2731144156835
+      },
+      {
+        "country": "BOL",
+        "value": 90.3370506966397
+      },
+      {
+        "country": "BTN",
+        "value": 98.562791614893
+      },
+      {
+        "country": "CIV",
+        "value": 52.166846663702
+      },
+      {
+        "country": "CMR",
+        "value": 43.2072311629303
+      },
+      {
+        "country": "COM",
+        "value": 56.4125595092773
+      },
+      {
+        "country": "GHA",
+        "value": 77.9574778013858
+      },
+      {
+        "country": "HND",
+        "value": 59.2098503112793
+      },
+      {
+        "country": "IND",
+        "value": 80.4518698611689
+      },
+      {
+        "country": "KEN",
+        "value": 83.4337197590316
+      },
+      {
+        "country": "KHM",
+        "value": 59.850293235261
+      },
+      {
+        "country": "KIR",
+        "value": 95.0484764542936
+      },
+      {
+        "country": "LAO",
+        "value": 55.9171927545616
+      },
+      {
+        "country": "LBN",
+        "value": 68.0329956698082
+      },
+      {
+        "country": "MAR",
+        "value": 83.2706329144956
+      },
+      {
+        "country": "NAM",
+        "value": 86.1980083129179
+      },
+      {
+        "country": "NPL",
+        "value": 84.9171356280891
+      },
+      {
+        "country": "PAK",
+        "value": 37.4490104990348
+      },
+      {
+        "country": "PSE",
+        "value": 92.7547421358175
+      },
+      {
+        "country": "SEN",
+        "value": 51.0293572947889
+      },
+      {
+        "country": "TJK",
+        "value": 85.1438254472206
+      },
+      {
+        "country": "UZB",
+        "value": 96.8054259764286
+      },
+      {
+        "country": "VEN",
+        "value": 100.249549865723
+      },
+      {
+        "country": "VUT",
+        "value": 82.8080237164725
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BJ-BD-BO-BT-CI-CM-KM-GH-HN-IN-KE-KH-KI-LA-LB-MA-NA-NP-PK-PS-SN-TJ-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2023,
+    "value": 78.7503140925354,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 48.1175394651696
+      },
+      {
+        "country": "BGD",
+        "value": 71.5461976300242
+      },
+      {
+        "country": "BOL",
+        "value": 91.2883197233107
+      },
+      {
+        "country": "BTN",
+        "value": 94.91450020137
+      },
+      {
+        "country": "CIV",
+        "value": 63.094766197367
+      },
+      {
+        "country": "CMR",
+        "value": 42.4944197803389
+      },
+      {
+        "country": "EGY",
+        "value": 83.0465220652019
+      },
+      {
+        "country": "HND",
+        "value": 59.4406700134277
+      },
+      {
+        "country": "IND",
+        "value": 78.7503140925354
+      },
+      {
+        "country": "KEN",
+        "value": 84.7505339840655
+      },
+      {
+        "country": "KGZ",
+        "value": 92.1027509613575
+      },
+      {
+        "country": "KHM",
+        "value": 60.3343523907692
+      },
+      {
+        "country": "KIR",
+        "value": 100.551571980143
+      },
+      {
+        "country": "LAO",
+        "value": 53.2568302183413
+      },
+      {
+        "country": "LBN",
+        "value": 66.7372772721446
+      },
+      {
+        "country": "MAR",
+        "value": 87.2227171713839
+      },
+      {
+        "country": "NAM",
+        "value": 86.2067962132394
+      },
+      {
+        "country": "NGA",
+        "value": 47.4061508178711
+      },
+      {
+        "country": "NIC",
+        "value": 70.6665573120117
+      },
+      {
+        "country": "NPL",
+        "value": 90.7214299008772
+      },
+      {
+        "country": "PAK",
+        "value": 39.5879695501278
+      },
+      {
+        "country": "PNG",
+        "value": 48.1780291095574
+      },
+      {
+        "country": "PSE",
+        "value": 92.1529721719084
+      },
+      {
+        "country": "SEN",
+        "value": 50.2150531512901
+      },
+      {
+        "country": "TGO",
+        "value": 59.0849653049812
+      },
+      {
+        "country": "TJK",
+        "value": 83.7874636593437
+      },
+      {
+        "country": "UZB",
+        "value": 97.0191649872622
+      },
+      {
+        "country": "VEN",
+        "value": 101.692710876465
+      },
+      {
+        "country": "VUT",
+        "value": 134.925790252936
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=AO-BD-BO-BT-CI-CM-EG-HN-IN-KE-KG-KH-KI-LA-LB-MA-NA-NG-NI-NP-PK-PG-PS-SN-TG-TJ-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "secondary_enrol_female",
+    "year": 2024,
+    "value": 82.8936127916098,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 70.4720309842244
+      },
+      {
+        "country": "BOL",
+        "value": 90.2157592773438
+      },
+      {
+        "country": "BTN",
+        "value": 94.0369291275477
+      },
+      {
+        "country": "CIV",
+        "value": 64.4785040152839
+      },
+      {
+        "country": "EGY",
+        "value": 83.9216814420657
+      },
+      {
+        "country": "GHA",
+        "value": 76.4284133911133
+      },
+      {
+        "country": "HND",
+        "value": 56.205606327767
+      },
+      {
+        "country": "IND",
+        "value": 78.7182686071249
+      },
+      {
+        "country": "KGZ",
+        "value": 92.5232415743903
+      },
+      {
+        "country": "KHM",
+        "value": 63.098667348683
+      },
+      {
+        "country": "KIR",
+        "value": 94.4197769165039
+      },
+      {
+        "country": "LAO",
+        "value": 50.9977217073246
+      },
+      {
+        "country": "LBN",
+        "value": 67.5449829101562
+      },
+      {
+        "country": "MAR",
+        "value": 91.2537211746273
+      },
+      {
+        "country": "NAM",
+        "value": 86.3728889011327
+      },
+      {
+        "country": "NPL",
+        "value": 90.8899312933145
+      },
+      {
+        "country": "PAK",
+        "value": 46.4835415439493
+      },
+      {
+        "country": "TJK",
+        "value": 82.8936127916098
+      },
+      {
+        "country": "UZB",
+        "value": 96.4939184204858
+      },
+      {
+        "country": "VEN",
+        "value": 102.248580932617
+      },
+      {
+        "country": "ZMB",
+        "value": 59.0707702636719
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD-BO-BT-CI-EG-GH-HN-IN-KG-KH-KI-LA-LB-MA-NA-NP-PK-TJ-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

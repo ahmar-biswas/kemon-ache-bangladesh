@@ -1,0 +1,1226 @@
+[
+  {
+    "indicator_id": "stunting",
+    "year": 1991,
+    "value": 46.3,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 73.6
+      },
+      {
+        "country": "CMR",
+        "value": 31.6
+      },
+      {
+        "country": "EGY",
+        "value": 34.9
+      },
+      {
+        "country": "HND",
+        "value": 42.7
+      },
+      {
+        "country": "IND",
+        "value": 61.9
+      },
+      {
+        "country": "MMR",
+        "value": 53.6
+      },
+      {
+        "country": "PAK",
+        "value": 53.9
+      },
+      {
+        "country": "SEN",
+        "value": 34.4
+      },
+      {
+        "country": "TZA",
+        "value": 49.9
+      },
+      {
+        "country": "VEN",
+        "value": 18.2
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-CM-EG-HN-IN-MM-PK-SN-TZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 1992,
+    "value": 38.85,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 71.5
+      },
+      {
+        "country": "COM",
+        "value": 38.5
+      },
+      {
+        "country": "EGY",
+        "value": 31.1
+      },
+      {
+        "country": "IND",
+        "value": 57.1
+      },
+      {
+        "country": "LSO",
+        "value": 39.2
+      },
+      {
+        "country": "MAR",
+        "value": 30.1
+      },
+      {
+        "country": "NAM",
+        "value": 35.6
+      },
+      {
+        "country": "PAK",
+        "value": 42.7
+      },
+      {
+        "country": "VEN",
+        "value": 18.3
+      },
+      {
+        "country": "ZMB",
+        "value": 46.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-KM-EG-IN-LS-MA-NA-PK-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 1994,
+    "value": 37.1,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 67.3
+      },
+      {
+        "country": "BOL",
+        "value": 34.4
+      },
+      {
+        "country": "CIV",
+        "value": 30.9
+      },
+      {
+        "country": "GIN",
+        "value": 35.3
+      },
+      {
+        "country": "HND",
+        "value": 45.7
+      },
+      {
+        "country": "HTI",
+        "value": 37.1
+      },
+      {
+        "country": "KEN",
+        "value": 41.1
+      },
+      {
+        "country": "LAO",
+        "value": 52.9
+      },
+      {
+        "country": "MMR",
+        "value": 58.7
+      },
+      {
+        "country": "VEN",
+        "value": 17.9
+      },
+      {
+        "country": "ZWE",
+        "value": 28.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-BO-CI-GN-HN-HT-KE-LA-MM-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 1996,
+    "value": 40.2,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 61.1
+      },
+      {
+        "country": "BEN",
+        "value": 32.4
+      },
+      {
+        "country": "BGD",
+        "value": 63.8
+      },
+      {
+        "country": "COM",
+        "value": 38.7
+      },
+      {
+        "country": "DJI",
+        "value": 31.7
+      },
+      {
+        "country": "HND",
+        "value": 43.3
+      },
+      {
+        "country": "KHM",
+        "value": 58.6
+      },
+      {
+        "country": "MRT",
+        "value": 49.8
+      },
+      {
+        "country": "NPL",
+        "value": 55.6
+      },
+      {
+        "country": "PSE",
+        "value": 7.8
+      },
+      {
+        "country": "SEN",
+        "value": 28.2
+      },
+      {
+        "country": "TGO",
+        "value": 40.2
+      },
+      {
+        "country": "TZA",
+        "value": 49.6
+      },
+      {
+        "country": "UZB",
+        "value": 37.2
+      },
+      {
+        "country": "VEN",
+        "value": 19.3
+      },
+      {
+        "country": "VUT",
+        "value": 25.7
+      },
+      {
+        "country": "ZMB",
+        "value": 48.6
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AO-BJ-BD-KM-DJ-HN-KH-MR-NP-PS-SN-TG-TZ-UZ-VE-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 1998,
+    "value": 31.2,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 59.3
+      },
+      {
+        "country": "BOL",
+        "value": 33.2
+      },
+      {
+        "country": "CIV",
+        "value": 31.2
+      },
+      {
+        "country": "CMR",
+        "value": 36.6
+      },
+      {
+        "country": "EGY",
+        "value": 26.3
+      },
+      {
+        "country": "GHA",
+        "value": 30.6
+      },
+      {
+        "country": "KEN",
+        "value": 36.8
+      },
+      {
+        "country": "NIC",
+        "value": 30.5
+      },
+      {
+        "country": "NPL",
+        "value": 61.1
+      },
+      {
+        "country": "TGO",
+        "value": 28.8
+      },
+      {
+        "country": "VEN",
+        "value": 19.2
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-BO-CI-CM-EG-GH-KE-NI-NP-TG-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2000,
+    "value": 37.55,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 51.1
+      },
+      {
+        "country": "COM",
+        "value": 46.9
+      },
+      {
+        "country": "EGY",
+        "value": 24.4
+      },
+      {
+        "country": "HTI",
+        "value": 28.8
+      },
+      {
+        "country": "KEN",
+        "value": 40.8
+      },
+      {
+        "country": "KHM",
+        "value": 49
+      },
+      {
+        "country": "LAO",
+        "value": 47.5
+      },
+      {
+        "country": "MMR",
+        "value": 40.8
+      },
+      {
+        "country": "MRT",
+        "value": 38.6
+      },
+      {
+        "country": "NAM",
+        "value": 29.3
+      },
+      {
+        "country": "PSE",
+        "value": 10.7
+      },
+      {
+        "country": "SEN",
+        "value": 26
+      },
+      {
+        "country": "SWZ",
+        "value": 36.5
+      },
+      {
+        "country": "TJK",
+        "value": 42.1
+      },
+      {
+        "country": "TUN",
+        "value": 16.8
+      },
+      {
+        "country": "VEN",
+        "value": 17.4
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-KM-EG-HT-KE-KH-LA-MM-MR-NA-PS-SN-SZ-TJ-TN-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2003,
+    "value": 35.8,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 47.8
+      },
+      {
+        "country": "BOL",
+        "value": 32.4
+      },
+      {
+        "country": "EGY",
+        "value": 20.2
+      },
+      {
+        "country": "GHA",
+        "value": 35.5
+      },
+      {
+        "country": "KEN",
+        "value": 35.8
+      },
+      {
+        "country": "MAR",
+        "value": 23.1
+      },
+      {
+        "country": "MMR",
+        "value": 42.7
+      },
+      {
+        "country": "NGA",
+        "value": 42.5
+      },
+      {
+        "country": "TJK",
+        "value": 42.4
+      },
+      {
+        "country": "TLS",
+        "value": 54.8
+      },
+      {
+        "country": "VEN",
+        "value": 17.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-BO-EG-GH-KE-MA-MM-NG-TJ-TL-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2005,
+    "value": 34.2,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 46.2
+      },
+      {
+        "country": "COG",
+        "value": 31.2
+      },
+      {
+        "country": "EGY",
+        "value": 23.9
+      },
+      {
+        "country": "GIN",
+        "value": 39.3
+      },
+      {
+        "country": "KEN",
+        "value": 40.3
+      },
+      {
+        "country": "KHM",
+        "value": 42.8
+      },
+      {
+        "country": "NIC",
+        "value": 21.5
+      },
+      {
+        "country": "PNG",
+        "value": 43.9
+      },
+      {
+        "country": "SEN",
+        "value": 19.9
+      },
+      {
+        "country": "TJK",
+        "value": 33.1
+      },
+      {
+        "country": "VEN",
+        "value": 16.2
+      },
+      {
+        "country": "ZWE",
+        "value": 35.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-CG-EG-GN-KE-KH-NI-PG-SN-TJ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2006,
+    "value": 29.6,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 45.1
+      },
+      {
+        "country": "CMR",
+        "value": 37.6
+      },
+      {
+        "country": "GHA",
+        "value": 27.9
+      },
+      {
+        "country": "HND",
+        "value": 29.8
+      },
+      {
+        "country": "HTI",
+        "value": 29.6
+      },
+      {
+        "country": "IND",
+        "value": 47.8
+      },
+      {
+        "country": "KGZ",
+        "value": 18.1
+      },
+      {
+        "country": "LAO",
+        "value": 47.7
+      },
+      {
+        "country": "NPL",
+        "value": 49.1
+      },
+      {
+        "country": "PSE",
+        "value": 13.6
+      },
+      {
+        "country": "SWZ",
+        "value": 29.2
+      },
+      {
+        "country": "TGO",
+        "value": 29.9
+      },
+      {
+        "country": "TUN",
+        "value": 9
+      },
+      {
+        "country": "UZB",
+        "value": 19.6
+      },
+      {
+        "country": "VEN",
+        "value": 16.2
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-CM-GH-HN-HT-IN-KG-LA-NP-PS-SZ-TG-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2007,
+    "value": 33.4,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 29.2
+      },
+      {
+        "country": "BGD",
+        "value": 43.2
+      },
+      {
+        "country": "CIV",
+        "value": 39
+      },
+      {
+        "country": "GIN",
+        "value": 34
+      },
+      {
+        "country": "MRT",
+        "value": 31.5
+      },
+      {
+        "country": "NAM",
+        "value": 29.2
+      },
+      {
+        "country": "NIC",
+        "value": 23.1
+      },
+      {
+        "country": "SLB",
+        "value": 32.8
+      },
+      {
+        "country": "TJK",
+        "value": 39.3
+      },
+      {
+        "country": "TLS",
+        "value": 57.2
+      },
+      {
+        "country": "VEN",
+        "value": 15.6
+      },
+      {
+        "country": "ZMB",
+        "value": 45.8
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AO-BD-CI-GN-MR-NA-NI-SB-TJ-TL-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2008,
+    "value": 29.549999999999997,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 37.4
+      },
+      {
+        "country": "BOL",
+        "value": 27.1
+      },
+      {
+        "country": "BTN",
+        "value": 34.9
+      },
+      {
+        "country": "EGY",
+        "value": 30.7
+      },
+      {
+        "country": "GHA",
+        "value": 28.4
+      },
+      {
+        "country": "KEN",
+        "value": 35.5
+      },
+      {
+        "country": "KHM",
+        "value": 39.5
+      },
+      {
+        "country": "MRT",
+        "value": 23.6
+      },
+      {
+        "country": "SWZ",
+        "value": 40.4
+      },
+      {
+        "country": "TGO",
+        "value": 26.9
+      },
+      {
+        "country": "VEN",
+        "value": 14.6
+      },
+      {
+        "country": "VUT",
+        "value": 25.7
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BJ-BO-BT-EG-GH-KE-KH-MR-SZ-TG-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2011,
+    "value": 31,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 41.3
+      },
+      {
+        "country": "CIV",
+        "value": 27.2
+      },
+      {
+        "country": "CMR",
+        "value": 32.6
+      },
+      {
+        "country": "COG",
+        "value": 24.4
+      },
+      {
+        "country": "DJI",
+        "value": 31
+      },
+      {
+        "country": "GHA",
+        "value": 22.8
+      },
+      {
+        "country": "KEN",
+        "value": 26.3
+      },
+      {
+        "country": "LAO",
+        "value": 44.2
+      },
+      {
+        "country": "MAR",
+        "value": 14.9
+      },
+      {
+        "country": "MRT",
+        "value": 29.7
+      },
+      {
+        "country": "NGA",
+        "value": 35.8
+      },
+      {
+        "country": "NPL",
+        "value": 40.1
+      },
+      {
+        "country": "PAK",
+        "value": 43.6
+      },
+      {
+        "country": "SEN",
+        "value": 26.7
+      },
+      {
+        "country": "TZA",
+        "value": 35
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-CI-CM-CG-DJ-GH-KE-LA-MA-MR-NG-NP-PK-SN-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2012,
+    "value": 23.2,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 37
+      },
+      {
+        "country": "BOL",
+        "value": 18.2
+      },
+      {
+        "country": "CIV",
+        "value": 29.9
+      },
+      {
+        "country": "COM",
+        "value": 31.1
+      },
+      {
+        "country": "GIN",
+        "value": 31.1
+      },
+      {
+        "country": "HND",
+        "value": 22.6
+      },
+      {
+        "country": "HTI",
+        "value": 22
+      },
+      {
+        "country": "KGZ",
+        "value": 17.9
+      },
+      {
+        "country": "MRT",
+        "value": 23.2
+      },
+      {
+        "country": "NIC",
+        "value": 17.3
+      },
+      {
+        "country": "SEN",
+        "value": 15.5
+      },
+      {
+        "country": "TGO",
+        "value": 26.2
+      },
+      {
+        "country": "TJK",
+        "value": 26.9
+      },
+      {
+        "country": "TUN",
+        "value": 10.1
+      },
+      {
+        "country": "ZWE",
+        "value": 30.5
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-BO-CI-KM-GN-HN-HT-KG-MR-NI-SN-TG-TJ-TN-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2013,
+    "value": 33.15,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 42
+      },
+      {
+        "country": "DJI",
+        "value": 28
+      },
+      {
+        "country": "HTI",
+        "value": 21.9
+      },
+      {
+        "country": "NAM",
+        "value": 22.7
+      },
+      {
+        "country": "PAK",
+        "value": 45
+      },
+      {
+        "country": "SEN",
+        "value": 16.5
+      },
+      {
+        "country": "TLS",
+        "value": 51.7
+      },
+      {
+        "country": "TZA",
+        "value": 37.4
+      },
+      {
+        "country": "VUT",
+        "value": 28.9
+      },
+      {
+        "country": "ZMB",
+        "value": 40
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD-DJ-HT-NA-PK-SN-TL-TZ-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2014,
+    "value": 27.6,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 34
+      },
+      {
+        "country": "BGD",
+        "value": 36.2
+      },
+      {
+        "country": "CMR",
+        "value": 31.7
+      },
+      {
+        "country": "COG",
+        "value": 21.2
+      },
+      {
+        "country": "EGY",
+        "value": 22.3
+      },
+      {
+        "country": "GHA",
+        "value": 18.8
+      },
+      {
+        "country": "IND",
+        "value": 38.7
+      },
+      {
+        "country": "KEN",
+        "value": 26.2
+      },
+      {
+        "country": "KGZ",
+        "value": 12.9
+      },
+      {
+        "country": "KHM",
+        "value": 32.4
+      },
+      {
+        "country": "LSO",
+        "value": 33.4
+      },
+      {
+        "country": "NGA",
+        "value": 33.6
+      },
+      {
+        "country": "NPL",
+        "value": 37.1
+      },
+      {
+        "country": "PSE",
+        "value": 7.4
+      },
+      {
+        "country": "SEN",
+        "value": 14.2
+      },
+      {
+        "country": "STP",
+        "value": 17.2
+      },
+      {
+        "country": "SWZ",
+        "value": 25.5
+      },
+      {
+        "country": "TGO",
+        "value": 27.6
+      },
+      {
+        "country": "TLS",
+        "value": 49.2
+      },
+      {
+        "country": "TZA",
+        "value": 34.7
+      },
+      {
+        "country": "ZWE",
+        "value": 27.6
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BJ-BD-CM-CG-EG-GH-IN-KE-KG-KH-LS-NG-NP-PS-SN-ST-SZ-TG-TL-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2015,
+    "value": 33.75,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 37.6
+      },
+      {
+        "country": "BGD",
+        "value": 35
+      },
+      {
+        "country": "IND",
+        "value": 37.9
+      },
+      {
+        "country": "LAO",
+        "value": 35.5
+      },
+      {
+        "country": "MRT",
+        "value": 27.9
+      },
+      {
+        "country": "NGA",
+        "value": 33
+      },
+      {
+        "country": "SEN",
+        "value": 17.5
+      },
+      {
+        "country": "SLB",
+        "value": 31.7
+      },
+      {
+        "country": "TZA",
+        "value": 34.5
+      },
+      {
+        "country": "ZWE",
+        "value": 27.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AO-BD-IN-LA-MR-NG-SN-SB-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2018,
+    "value": 30.3,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 32.2
+      },
+      {
+        "country": "BGD",
+        "value": 30.9
+      },
+      {
+        "country": "CMR",
+        "value": 28.9
+      },
+      {
+        "country": "GIN",
+        "value": 30.3
+      },
+      {
+        "country": "KGZ",
+        "value": 11.8
+      },
+      {
+        "country": "KIR",
+        "value": 15.2
+      },
+      {
+        "country": "LSO",
+        "value": 34.6
+      },
+      {
+        "country": "MMR",
+        "value": 26.7
+      },
+      {
+        "country": "MRT",
+        "value": 22.8
+      },
+      {
+        "country": "NGA",
+        "value": 36.8
+      },
+      {
+        "country": "PAK",
+        "value": 37.6
+      },
+      {
+        "country": "SEN",
+        "value": 18.8
+      },
+      {
+        "country": "TUN",
+        "value": 8.4
+      },
+      {
+        "country": "TZA",
+        "value": 31.8
+      },
+      {
+        "country": "ZMB",
+        "value": 34.6
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BJ-BD-CM-GN-KG-KI-LS-MM-MR-NG-PK-SN-TN-TZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "stunting",
+    "year": 2021,
+    "value": 20,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 34.1
+      },
+      {
+        "country": "CIV",
+        "value": 23.4
+      },
+      {
+        "country": "EGY",
+        "value": 12.8
+      },
+      {
+        "country": "KGZ",
+        "value": 8.6
+      },
+      {
+        "country": "KHM",
+        "value": 21.9
+      },
+      {
+        "country": "LBN",
+        "value": 7
+      },
+      {
+        "country": "MRT",
+        "value": 17.4
+      },
+      {
+        "country": "NGA",
+        "value": 33.8
+      },
+      {
+        "country": "SWZ",
+        "value": 20
+      },
+      {
+        "country": "TZA",
+        "value": 32.7
+      },
+      {
+        "country": "UZB",
+        "value": 6.5
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BJ-CI-EG-KG-KH-LB-MR-NG-SZ-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

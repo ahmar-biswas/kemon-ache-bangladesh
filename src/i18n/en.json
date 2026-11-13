@@ -18,7 +18,6 @@
   "source.original": "Originally from: {name}",
   "source.notes": "Note from the source: {note}",
   "source.name.wb_wdi": "World Bank, World Development Indicators",
-  "note.wb_bgd_national_accounts_fy": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY).",
   "month.1": "January",
   "month.2": "February",
   "month.3": "March",
@@ -90,5 +89,14 @@
   "explain.physicians": "The number of doctors for every 1,000 people.",
   "explain.beds": "The number of hospital beds for every 1,000 people.",
   "explain.oop": "Of every 100 taka spent on health care, about {value} taka are paid directly by people themselves, not by the government or insurance.",
-  "explain.health_spend_gdp": "The total spent on health by government, households and others, as a share of the whole economy."
+  "explain.health_spend_gdp": "The total spent on health by government, households and others, as a share of the whole economy.",
+  "note.uncertainty_bound": "Uncertainty bound is {low} - {high}",
+  "note.pip_unit_consumption": "Based on data from {survey}. Estimated from unit-record consumption data.",
+  "note.pip_grouped_consumption": "Based on data from {survey}. Estimated from grouped consumption data.",
+  "note.pip_unit_income": "Based on data from {survey}. Estimated from unit-record income data.",
+  "note.pip_grouped_income": "Based on data from {survey}. Estimated from grouped income data.",
+  "note.source_citation": "Source: {citation}",
+  "note.wb_national_accounts_fy": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: {month} {day}). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY).",
+  "note.wb_alternative_conversion": "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period {from}-{to}. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors.",
+  "note.uis_estimation": "UIS Estimation"
 }

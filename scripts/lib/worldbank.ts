@@ -203,6 +203,16 @@ function unwrap<T>(response: unknown, what: string): [WbPage, T[]] {
   return [response[0] as WbPage, response[1] as T[]];
 }
 
+/**
+ * "income" or "consumption", as the publisher's own footnote states it (Poverty and Inequality
+ * Platform notes such as "Estimated from unit-record consumption data."). Null if the
+ * footnote does not say. Never guessed from the country.
+ */
+export function measuredBy(footnote: string | undefined): 'income' | 'consumption' | null {
+  const m = /Estimated from (?:unit-record|grouped) (consumption|income) data\./.exec(footnote ?? '');
+  return m ? (m[1] as 'income' | 'consumption') : null;
+}
+
 /** "2026-11-11" style date in Bangladesh time. */
 export function todayInDhaka(now = new Date()): string {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Dhaka' }).format(now);
@@ -301,7 +311,7 @@ export function normalise(config: IndicatorConfig, metaRaw: RawResponse, dataRaw
       api_url: u.apiForRecord(row.countryiso3code),
       retrieved_at: dataRaw.retrieved_at,
       notes: [...(special ? [special] : []), ...(row.footnote && row.footnote.trim() !== '' ? [row.footnote] : [])],
-      measured_by: null,
+      measured_by: measuredBy(row.footnote),
     });
   }
   records.sort((a, b) => a.country.localeCompare(b.country) || a.year - b.year);

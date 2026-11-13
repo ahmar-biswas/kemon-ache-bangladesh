@@ -1,0 +1,1260 @@
+[
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 1983,
+    "value": 47.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HHES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 1985,
+    "value": 41.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HHES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 1988,
+    "value": 51.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HHES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 1991,
+    "value": 51.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HHES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 1995,
+    "value": 43.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HHES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 2000,
+    "value": 41.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 2005,
+    "value": 32.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 2010,
+    "value": 25.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 2016,
+    "value": 19.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "BGD",
+    "year": 2022,
+    "value": 5.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 1977,
+    "value": 59.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 1983,
+    "value": 50.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 1987,
+    "value": 51.8,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS-SCH1. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 1993,
+    "value": 47.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS-SCH1. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 2004,
+    "value": 46.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS-SCH1. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 2009,
+    "value": 34.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS-SCH1. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 2011,
+    "value": 27.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from NSS-SCH2. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 2022,
+    "value": 5.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HCES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "IND",
+    "year": 2023,
+    "value": 2.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=IN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HCES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 1985,
+    "value": 28.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from LFSS. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 1990,
+    "value": 23.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 1995,
+    "value": 23,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from SES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2002,
+    "value": 20.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2006,
+    "value": 12.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2009,
+    "value": 7.8,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2012,
+    "value": 6.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2016,
+    "value": 3.8,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "LKA",
+    "year": 2019,
+    "value": 2.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=LK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "NPL",
+    "year": 1984,
+    "value": 83,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=NP",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from MHBS. Estimated from grouped income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "NPL",
+    "year": 1995,
+    "value": 71.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=NP",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from LSS-I. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "NPL",
+    "year": 2003,
+    "value": 55.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=NP",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from LSS-II. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "NPL",
+    "year": 2010,
+    "value": 22.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=NP",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from LSS-III. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "NPL",
+    "year": 2022,
+    "value": 2.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=NP",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from LSS-IV. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 1987,
+    "value": 80.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 1990,
+    "value": 79.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 1996,
+    "value": 45.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from IHS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 1998,
+    "value": 50.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2001,
+    "value": 56.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from PIHS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2004,
+    "value": 40.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2005,
+    "value": 40.8,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2007,
+    "value": 34.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2010,
+    "value": 26.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2011,
+    "value": 25.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2013,
+    "value": 21.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2015,
+    "value": 16.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2018,
+    "value": 16.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PAK",
+    "year": 2024,
+    "value": 23,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PK",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from HIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 1985,
+    "value": 43.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 1988,
+    "value": 41,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 1991,
+    "value": 40.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 1994,
+    "value": 38.8,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from grouped consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 1997,
+    "value": 30.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2000,
+    "value": 25.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2003,
+    "value": 24.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2006,
+    "value": 26.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2009,
+    "value": 22,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2012,
+    "value": 21.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2015,
+    "value": 14.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2018,
+    "value": 8.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2021,
+    "value": 8.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "PHL",
+    "year": 2023,
+    "value": 5.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=PH",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from FIES. Estimated from unit-record income data."
+    ],
+    "measured_by": "income"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 1992,
+    "value": 57.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 1997,
+    "value": 38.1,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2002,
+    "value": 43.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2004,
+    "value": 30.9,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2006,
+    "value": 23.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2008,
+    "value": 17.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2010,
+    "value": 5.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2012,
+    "value": 3.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2014,
+    "value": 3.4,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2016,
+    "value": 2.5,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2018,
+    "value": 2.2,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2020,
+    "value": 1.3,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  },
+  {
+    "indicator_id": "poverty_intl",
+    "country": "VNM",
+    "year": 2022,
+    "value": 1.6,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=VN",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+    "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.DDAY?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "Based on data from VHLSS. Estimated from unit-record consumption data."
+    ],
+    "measured_by": "consumption"
+  }
+]

@@ -132,6 +132,7 @@ try {
         unit: config.unit,
         source_series_name: n.seriesName,
         definition_url: u.definition,
+        explanation_id: config.explanationId ?? config.id,
         scope: config.scope,
         favourable_direction: config.favourable_direction,
         direction_source_url: config.direction_source_url,

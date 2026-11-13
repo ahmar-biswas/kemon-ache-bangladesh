@@ -62,6 +62,8 @@ export interface IndicatorMeta {
   /** The World Bank's own series name, as published (contains the unit). */
   source_series_name: string;
   definition_url: string;
+  /** Translation key suffix of the plain-language explanation: explain.<explanation_id>. */
+  explanation_id: string;
   /**
    * "compare": Bangladesh, the default peers and the lower-middle-income median.
    * "bangladesh": Bangladesh only (e.g. local-currency series, which differ by country).

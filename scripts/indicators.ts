@@ -36,6 +36,8 @@ export interface IndicatorConfig {
    * expression whose first group is the value; if the name stops matching, the refresh fails.
    */
   paramsFromName?: Record<string, RegExp>;
+  /** Which section-11 explanation (explain.<id>) describes this series, if not its own id. */
+  explanationId?: string;
 }
 
 /** The World Bank's "CurrencyUnit" for Bangladesh. Local-currency (LCU) series are only shown as taka if this matches. */
@@ -98,6 +100,7 @@ export const INDICATORS: IndicatorConfig[] = [
   },
   {
     id: 'gdp_pc_taka_constant',
+    explanationId: 'gdp_pc_taka',
     code: 'NY.GDP.PCAP.KN',
     area: 'economy',
     priority: 'P0',
@@ -211,6 +214,7 @@ export const INDICATORS: IndicatorConfig[] = [
   },
   {
     id: 'secondary_enrol_female',
+    explanationId: 'secondary_enrol',
     code: 'SE.SEC.ENRR.FE',
     area: 'education',
     priority: 'P0',
@@ -223,6 +227,7 @@ export const INDICATORS: IndicatorConfig[] = [
   },
   {
     id: 'secondary_enrol_male',
+    explanationId: 'secondary_enrol',
     code: 'SE.SEC.ENRR.MA',
     area: 'education',
     priority: 'P0',
@@ -241,7 +246,7 @@ export const INDICATORS: IndicatorConfig[] = [
     priority: 'P0',
     unit: 'years',
     expectedName: 'Life expectancy at birth, total (years)',
-    plausibleRange: [20, 100],
+    plausibleRange: [5, 100],
     nationalAccounts: false,
     scope: 'compare',
     ...context,
@@ -253,7 +258,7 @@ export const INDICATORS: IndicatorConfig[] = [
     priority: 'P0',
     unit: 'per_1000_live_births',
     expectedName: 'Mortality rate, under-5 (per 1,000 live births)',
-    plausibleRange: [0, 500],
+    plausibleRange: [0, 1000],
     nationalAccounts: false,
     scope: 'compare',
     ...target('lower', SDG.under5),

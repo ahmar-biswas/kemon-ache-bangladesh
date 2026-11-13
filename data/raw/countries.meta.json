@@ -1,0 +1,863 @@
+{
+  "retrieved_at": "2026-11-13",
+  "request_url": "https://api.worldbank.org/v2/sources/2/country/BGD;IND;PAK;LKA;NPL;VNM;PHL;KHM/metadata?format=json",
+  "response": {
+    "page": 1,
+    "pages": 1,
+    "per_page": "5000",
+    "total": 200,
+    "source": [
+      {
+        "id": "2",
+        "name": "World Development Indicators",
+        "concept": [
+          {
+            "id": "Country",
+            "variable": [
+              {
+                "id": "BGD",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "BD"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Bangladeshi taka"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Enhanced General Data Dissemination System (e-GDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Lower middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2019"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "Multiple Indicator Cluster Survey 2019"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2011"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2022"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2015"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IDA"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "People's Republic of Bangladesh"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2016"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "South Asia"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Bangladesh"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Integrated household survey (IHS), 2016"
+                  },
+                  {
+                    "id": "SpecialNotes",
+                    "value": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 1993 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Bangladesh"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "BD"
+                  }
+                ]
+              },
+              {
+                "id": "IND",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "IN"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Indian rupee"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Consolidated central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Special Data Dissemination Standard (SDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Lower middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2016"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "National Family Survey 2019-2021"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2014"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2011"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2018"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IBRD"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Republic of India"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2022/23"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "South Asia"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "India"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Integrated household survey (IHS), 2011/12"
+                  },
+                  {
+                    "id": "SpecialNotes",
+                    "value": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: March 31). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 2008 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "India"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "IN"
+                  }
+                ]
+              },
+              {
+                "id": "KHM",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "KH"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Cambodian riel"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Enhanced General Data Dissemination System (e-GDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Lower middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2013"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "Demographic and Health Survey 2021-2022"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2000"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2019"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2016"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IDA"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Kingdom of Cambodia"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2014"
+                  },
+                  {
+                    "id": "Nationalaccountsreferenceyear",
+                    "value": "2014"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "East Asia & Pacific"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Cambodia"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Integrated household survey (IHS), 2012"
+                  },
+                  {
+                    "id": "SpecialNotes",
+                    "value": "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1963-2004. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 1993 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Cambodia"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "KH"
+                  }
+                ]
+              },
+              {
+                "id": "LKA",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "LK"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Sri Lankan rupee"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Special Data Dissemination Standard (SDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Upper middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2013"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "National  Survey on Self-Reported  Health 2014"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2012"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2024"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2017"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IDA"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Democratic Socialist Republic of Sri Lanka"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2015"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "South Asia"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Sri Lanka"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Expenditure survey/budget survey (ES/BS), 2016"
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 2008 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Sri Lanka"
+                  },
+                  {
+                    "id": "Vitalregistrationcomplete",
+                    "value": "Yes"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "LK"
+                  }
+                ]
+              },
+              {
+                "id": "NPL",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "NP"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM5 (Converted into BPM6 by IMF)"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Nepalese rupee"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Enhanced General Data Dissemination System (e-GDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Lower middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2021"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "Demographic and Health Survey 2022"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2011"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2021"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2017"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IDA"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Nepal"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2011"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "South Asia"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Nepal"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Living Standards Measurement Study Survey (LSMS), 2010/11"
+                  },
+                  {
+                    "id": "SpecialNotes",
+                    "value": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: July 14). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 2008 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Nepal"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "NP"
+                  }
+                ]
+              },
+              {
+                "id": "PAK",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "PK"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Pakistani rupee"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Enhanced General Data Dissemination System (e-GDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Lower middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2010"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "Maternal Mortality Survey 2019"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2006"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2017"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2018"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "Blend"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Islamic Republic of Pakistan"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2016"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "Middle East & North Africa"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Pakistan"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Integrated household survey (IHS), 2014/15"
+                  },
+                  {
+                    "id": "SpecialNotes",
+                    "value": "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 2008 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Pakistan"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "PK"
+                  }
+                ]
+              },
+              {
+                "id": "PHL",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "PH"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Philippine peso"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "GovernmentAccountingconcept",
+                    "value": "Budgetary central government"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Special Data Dissemination Standard (SDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Upper middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2012"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "National Demographic and Health Survey 2022"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2012"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2024"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2018"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IBRD"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Republic of the Philippines"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2018"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "East Asia & Pacific"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Philippines"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at producer prices (VAP)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Expenditure survey/budget survey (ES/BS), 2015"
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 2008 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Philippines"
+                  },
+                  {
+                    "id": "Vitalregistrationcomplete",
+                    "value": "Yes"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "PH"
+                  }
+                ]
+              },
+              {
+                "id": "VNM",
+                "metatype": [
+                  {
+                    "id": "2-alphacode",
+                    "value": "VN"
+                  },
+                  {
+                    "id": "BalanceofPaymentsManualinuse",
+                    "value": "BPM6"
+                  },
+                  {
+                    "id": "CurrencyUnit",
+                    "value": "Vietnamese dong"
+                  },
+                  {
+                    "id": "ExternaldebtReportingstatus",
+                    "value": "Actual"
+                  },
+                  {
+                    "id": "IMFdatadisseminationstandard",
+                    "value": "Enhanced General Data Dissemination System (e-GDDS)"
+                  },
+                  {
+                    "id": "IncomeGroup",
+                    "value": "Upper middle income"
+                  },
+                  {
+                    "id": "Latestagriculturalcensus",
+                    "value": "2020"
+                  },
+                  {
+                    "id": "Latesthouseholdsurvey",
+                    "value": "Multiple Indicator Cluster Survey 2020-2021"
+                  },
+                  {
+                    "id": "Latestindustrialdata",
+                    "value": "2013"
+                  },
+                  {
+                    "id": "Latestpopulationcensus",
+                    "value": "2019"
+                  },
+                  {
+                    "id": "Latesttradedata",
+                    "value": "2017"
+                  },
+                  {
+                    "id": "Lendingcategory",
+                    "value": "IBRD"
+                  },
+                  {
+                    "id": "LongName",
+                    "value": "Socialist Republic of Viet Nam"
+                  },
+                  {
+                    "id": "Nationalaccountsbaseyear",
+                    "value": "2010"
+                  },
+                  {
+                    "id": "PPPsurveyyear",
+                    "value": "2021, 2017, 2011"
+                  },
+                  {
+                    "id": "Region",
+                    "value": "East Asia & Pacific"
+                  },
+                  {
+                    "id": "ShortName",
+                    "value": "Viet Nam"
+                  },
+                  {
+                    "id": "SNApricevaluation",
+                    "value": "Value added at basic prices (VAB)"
+                  },
+                  {
+                    "id": "SourceofmostrecentIncomeandexpendituredata",
+                    "value": "Integrated household survey (IHS), 2016"
+                  },
+                  {
+                    "id": "SystemofNationalAccounts",
+                    "value": "Country uses the 1993 System of National Accounts methodology"
+                  },
+                  {
+                    "id": "Systemoftrade",
+                    "value": "General trade system"
+                  },
+                  {
+                    "id": "TableName",
+                    "value": "Viet Nam"
+                  },
+                  {
+                    "id": "Vitalregistrationcomplete",
+                    "value": "Yes"
+                  },
+                  {
+                    "id": "WB-2code",
+                    "value": "VN"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
