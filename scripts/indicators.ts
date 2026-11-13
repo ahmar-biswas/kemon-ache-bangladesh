@@ -171,8 +171,11 @@ export const INDICATORS: IndicatorConfig[] = [
     nationalAccounts: false,
     scope: 'compare',
     ...target('lower', SDG.poverty),
-    // "$3.00 a day (2021 PPP)": the line and its price year, as the World Bank writes them.
-    paramsFromName: { line: /^Poverty headcount ratio at (\$[\d.]+ a day \(\d{4} PPP\)) \(% of population\)$/ },
+    // "$3.00 a day (2021 PPP)": the daily amount and its price year, as the World Bank writes them.
+    paramsFromName: {
+      line: /^Poverty headcount ratio at (\$[\d.]+) a day \(\d{4} PPP\) \(% of population\)$/,
+      ppp_year: /^Poverty headcount ratio at \$[\d.]+ a day \((\d{4}) PPP\) \(% of population\)$/,
+    },
   },
   {
     id: 'share_low20',

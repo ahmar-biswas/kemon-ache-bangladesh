@@ -1,7 +1,7 @@
 // Rules for the translation files. Used by scripts/check-i18n.ts (CI) and by tests.
 
 /** Keys whose English and Bangla values are deliberately the same (the language toggle shows each name in its own script). */
-export const SAME_IN_BOTH_LANGUAGES = new Set(['lang.name.en', 'lang.name.bn']);
+export const SAME_IN_BOTH_LANGUAGES = new Set(['lang.name.en', 'lang.name.bn', 'peers.value_year']);
 
 const placeholders = (s: string) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort();
 

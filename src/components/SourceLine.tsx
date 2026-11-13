@@ -18,13 +18,13 @@ export function SourceLine({ record, lang }: Props) {
 
   return (
     <p className="source-line" data-source-line="">
-      {t(lang, 'source.label')}:{' '}
-      <a href={record.source_url} target="_blank" rel="noopener noreferrer">
-        {t(lang, nameKey)}
-      </a>
-      {' · '}
-      <span data-source-year="">{t(lang, 'source.data_year', { year: formatYear(record.year, lang) })}</span>
-      {' · '}
+      <span>
+        {t(lang, 'source.label')}:{' '}
+        <a href={record.source_url} target="_blank" rel="noopener noreferrer">
+          {t(lang, nameKey)}
+        </a>
+      </span>{' '}
+      <span data-source-year="">{t(lang, 'source.data_year', { year: formatYear(record.year, lang) })}</span>{' '}
       <span data-source-retrieved="">
         {t(lang, 'source.retrieved', { date: formatDate(record.retrieved_at, lang) })}
       </span>

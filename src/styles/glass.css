@@ -1,0 +1,59 @@
+/* Liquid glass (8.5). Always glass: the sticky header, switches, the comparison bar and
+   tooltips. Tiles are paper and become glass only on capable desktops (see components.css).
+   Every glass surface falls back to opaque --muslin paper. */
+.glass {
+  position: relative;
+  isolation: isolate;
+  background: var(--glass-fill);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--glass-shadow);
+}
+.glass::before { /* specular highlight */
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(120% 80% at 8% 0%, var(--glass-specular), transparent 55%);
+}
+
+/* Phones: less blur (8.14). */
+@media (max-width: 767px) {
+  .glass {
+    -webkit-backdrop-filter: blur(10px) saturate(140%);
+    backdrop-filter: blur(10px) saturate(140%);
+  }
+}
+
+/* Fallbacks: no backdrop-filter, reduced transparency, forced colours, data saver, low-end. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass { background: var(--muslin); }
+}
+@media (prefers-reduced-transparency: reduce), (forced-colors: active), (prefers-reduced-data: reduce) {
+  .glass {
+    background: var(--muslin);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border-color: var(--sutaa);
+  }
+  .glass::before { display: none; }
+}
+.save-data .glass, .lite .glass {
+  background: var(--muslin);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border-color: var(--sutaa);
+}
+.save-data .glass::before, .lite .glass::before { display: none; }
+
+/* The flag switch keeps its green track in every fallback: opaque tint instead of glass. */
+@media (prefers-reduced-transparency: reduce), (prefers-reduced-data: reduce) {
+  .flag-switch.glass { background: var(--dhan-tint); }
+}
+.save-data .flag-switch.glass, .lite .flag-switch.glass { background: var(--dhan-tint); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .flag-switch.glass { background: var(--dhan-tint); }
+}

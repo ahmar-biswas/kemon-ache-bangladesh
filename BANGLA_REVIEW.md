@@ -42,3 +42,22 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `note.source_citation` | উৎস (প্রকাশিত শিরোনাম অনুযায়ী): {citation} | The report title stays in English. OK? |
 | `note.wb_alternative_conversion` | Long translation of a World Bank note on exchange rates (Cambodia) | Check "বিকল্প রূপান্তর হার", "ভারযুক্ত গড়". |
 | `note.uis_estimation` | ইউনেস্কো পরিসংখ্যান ইনস্টিটিউটের (UIS) প্রাক্কলন | OK? |
+
+## Added in Milestone 3
+
+| Key / place | Draft | Question |
+|---|---|---|
+| `peers.context_note` | বেশি না কম হওয়া কাম্য, তা পরিস্থিতির ওপর নির্ভর করে। | Natural? ("Whether higher or lower is preferable depends on the situation.") |
+| `peers.target_lower` / `_higher` | লক্ষ্যের দিক: কম / বেশি | Clear? |
+| `badge.ahead` / `badge.behind` | {m}টি তুলনার দেশের মধ্যে {n}টির চেয়ে এগিয়ে / পিছিয়ে | Natural word order? |
+| `badge.level` | মাঝামাঝি অবস্থানে | OK for "Level with the middle"? |
+| `badge.formula_*` | Long sentences explaining the count | Clear at class-8 level? |
+| `unit.per_1000_live_births.label` | ৩০.৫ প্রতি ১,০০০ জীবিত জন্মে (number first, then the unit) | Reads well, or should the number come after the unit? |
+| `unit.dollar_amount` | ৩.০০ ডলার | OK for the poverty line "$3.00"? |
+| `caveat.consumption` / `caveat.income` | ব্যয় (ভোগ) দিয়ে মাপা / আয় দিয়ে মাপা | Natural? |
+| `caveat.gross` | মোট হিসাব: এটি ১০০%-এর বেশি হতে পারে | OK? |
+| `chart.show_as` | যেভাবে দেখাবে | Label for the Chart / Table switch. Natural? |
+| `money.show_in` | যে মুদ্রায় দেখাবে | Natural? |
+| `design.*` | Design preview page text | Low priority: the page is for review only. |
+| `nav.skip` | মূল লেখায় যান | OK for "Skip to content"? |
+| `notfound.*` | এই পাতাটি নেই … হোম পেজে যান | Natural? |

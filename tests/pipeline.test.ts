@@ -88,7 +88,7 @@ describe('normalise', () => {
 
   it('reads the poverty line from the series name', () => {
     const p = normalise(poverty, metaFor(poverty.code, poverty.expectedName), dataFor(poverty.code, []), ctx());
-    expect(p.params).toEqual({ line: '$3.00 a day (2021 PPP)' });
+    expect(p.params).toEqual({ line: '$3.00', ppp_year: '2021' });
   });
 
   it('fails on a row for a country that was not asked for', () => {

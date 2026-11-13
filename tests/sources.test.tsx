@@ -1,7 +1,7 @@
 // Source check (hard rules R1, R2, R7): renders every page in both languages and fails
 // if any shown value lacks a source line with a real link, data year and retrieved date.
 import { afterEach, describe, expect, it } from 'vitest';
-import { cleanup, render } from '@testing-library/react';
+import { cleanup, render, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router';
 import { App } from '../src/App.tsx';
 import { Figure } from '../src/components/Figure.tsx';
@@ -11,19 +11,24 @@ import { LANGS } from '../src/i18n/index.ts';
 afterEach(cleanup);
 
 /** Every page in the site. Add new routes here as they are built. */
-const PAGES = ['/'];
+const PAGES = ['/', '/design-preview'];
+/** Pages with no figures, checked for language and placeholders only. */
+const TEXT_ONLY_PAGES = ['/no-such-page'];
 
-function renderAt(path: string) {
-  return render(
+/** Renders a page and waits until it has finished loading (some pages are loaded lazily). */
+async function renderAt(path: string) {
+  const result = render(
     <MemoryRouter initialEntries={[path]}>
       <App />
     </MemoryRouter>,
   );
+  await waitFor(() => expect(result.container.querySelector('main h1')).not.toBeNull(), { timeout: 5000 });
+  return result;
 }
 
 describe.each(LANGS)('pages in %s', (lang) => {
-  it.each(PAGES)('%s: every value has a full source line', (page) => {
-    const { container } = renderAt(`/${lang}${page}`);
+  it.each(PAGES)('%s: every value has a full source line', async (page) => {
+    const { container } = await renderAt(`/${lang}${page}`);
     const values = container.querySelectorAll('[data-value]');
     expect(values.length).toBeGreaterThan(0);
 
@@ -40,15 +45,15 @@ describe.each(LANGS)('pages in %s', (lang) => {
     }
   });
 
-  it.each(PAGES)('%s: no unfilled {placeholders}', (page) => {
-    const { container } = renderAt(`/${lang}${page}`);
+  it.each([...PAGES, ...TEXT_ONLY_PAGES])('%s: no unfilled {placeholders}', async (page) => {
+    const { container } = await renderAt(`/${lang}${page}`);
     expect(container.textContent).not.toMatch(/\{\w+\}/);
   });
 });
 
 describe('Bangla pages', () => {
-  it.each(PAGES)('%s: shows no English digits', (page) => {
-    const { container } = renderAt(`/bn${page}`);
+  it.each([...PAGES, ...TEXT_ONLY_PAGES])('%s: shows no English digits', async (page) => {
+    const { container } = await renderAt(`/bn${page}`);
     expect(container.textContent).not.toMatch(/[0-9]/);
   });
 });

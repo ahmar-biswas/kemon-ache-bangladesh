@@ -2,9 +2,8 @@
 // The real homepage design comes in Milestone 4.
 import { useOutletContext } from 'react-router';
 import { Figure } from '../components/Figure.tsx';
-import { DATA, META, latest } from '../data/index.ts';
+import { DATA, latest } from '../data/index.ts';
 import { t, type Lang, type MessageKey } from '../i18n/index.ts';
-import { formatDate } from '../lib/format.ts';
 
 const SHOWN: { id: string; label: MessageKey }[] = [
   { id: 'life_expectancy', label: 'indicator.life_expectancy.name' },
@@ -15,13 +14,12 @@ const SHOWN: { id: string; label: MessageKey }[] = [
 export function Home() {
   const lang = useOutletContext<Lang>();
   return (
-    <>
+    <div className="wrap">
       <h1>{t(lang, 'home.heading')}</h1>
-      <p>{t(lang, 'home.intro')}</p>
+      <p className="secondary">{t(lang, 'home.intro')}</p>
       {SHOWN.map(({ id, label }) => (
         <Figure key={id} label={t(lang, label)} record={latest(DATA[id])} lang={lang} />
       ))}
-      <p className="last-checked">{t(lang, 'home.last_checked', { date: formatDate(META.last_checked, lang) })}</p>
-    </>
+    </div>
   );
 }

@@ -1,0 +1,87 @@
+/* Design tokens: docs/reference/08-design-system.md, sections 8.2, 8.3 and 8.8.
+   Colour values are copied exactly from 8.2. Components use these variables only:
+   no raw colour values outside this file (checked by tests/design-tokens.test.ts). */
+:root {
+  /* Surfaces and ink */
+  --chal: #F6F6EF;            /* page base, rice white */
+  --muslin: #FBFBF6;          /* raised paper: tiles, tables, charts */
+  --kali: #16211C;            /* primary text */
+  --kali-2: #46524B;          /* secondary text */
+  --kali-3: #5C6862;          /* muted text, 4.5:1 on --chal */
+  --sutaa: rgba(22, 33, 28, .14); /* hairlines, stitch lines, grid */
+
+  /* Brand: identity only, never meaning */
+  --dhan: #006A4E;            /* flag green: brand, links, focus ring */
+  --dhan-chart: #007A5A;      /* Bangladesh in charts */
+  --dhan-tint: #E1EEE7;       /* selected and hover fills */
+  --dhan-glow: rgba(0, 106, 78, .12);
+  --lal: #F42A41;             /* the red disc and the background wash only */
+  --lal-deep: #C2182B;        /* the rare red text or icon */
+  --lal-glow: rgba(244, 42, 65, .10);
+
+  /* Chart series, in this fixed order. Never cycle; never a seventh. */
+  --series-1: var(--dhan-chart);
+  --paat: #C9831A;            --series-2: var(--paat);
+  --padma: #2B6CB0;           --series-3: var(--padma);
+  --rickshaw: #B5446E;        --series-4: var(--rickshaw);
+  --nil: #6B4FA0;             --series-5: var(--nil);
+  --sindoor: #D2542A;         --series-6: var(--sindoor);
+  --peer-grey: #9AA39D;       /* comparison countries not highlighted */
+
+  /* Glass recipe parts (8.5) */
+  --glass-fill: linear-gradient(135deg, rgba(255, 255, 255, .72), rgba(255, 255, 255, .46));
+  --glass-edge: rgba(255, 255, 255, .7);
+  --glass-highlight: rgba(255, 255, 255, .9);
+  --glass-specular: rgba(255, 255, 255, .65);
+  --glass-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .9),
+    inset 0 -1px 0 rgba(0, 106, 78, .10),
+    0 1px 2px rgba(22, 33, 28, .06),
+    0 14px 32px -14px rgba(0, 106, 78, .24);
+  --glass-blur: blur(16px) saturate(150%);
+  --paper-shadow: 0 1px 2px rgba(22, 33, 28, .05), 0 6px 18px -12px rgba(0, 106, 78, .18);
+  --contour-stroke: rgba(0, 106, 78, .08);
+  --disc-highlight: rgba(255, 255, 255, .55);
+  --disc-glow: rgba(244, 42, 65, .35);
+  --track-green: rgba(0, 106, 78, .22);
+
+  /* Fonts (8.3). Fallbacks follow the spec. */
+  --font-display-bn: 'Tiro Bangla', 'Noto Serif Bengali', serif;
+  --font-body-bn: 'Anek Bangla', 'Noto Sans Bengali', sans-serif;
+  --font-display-en: 'Newsreader Variable', 'Anek Bangla', Georgia, serif; /* Anek supplies ৳ (already loaded for the switch label) */
+  --font-body-en: 'Atkinson Hyperlegible Next Variable', 'Anek Bangla', system-ui, sans-serif; /* Anek supplies ৳ */
+
+  /* Type scale, ratio about 1.25 (px) */
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-22: 1.375rem;
+  --fs-28: 1.75rem;
+  --fs-36: 2.25rem;
+  --fs-48: 3rem;
+  --fs-64: 4rem;
+
+  /* Spacing scale */
+  --s-4: 4px;
+  --s-8: 8px;
+  --s-12: 12px;
+  --s-16: 16px;
+  --s-24: 24px;
+  --s-32: 32px;
+  --s-48: 48px;
+  --s-72: 72px;
+  --s-112: 112px;
+
+  /* Radii vary by role (8.5) */
+  --r-chip: 6px;
+  --r-tile: 14px;
+  --r-hero: 28px;
+  --r-pill: 999px;
+
+  /* Motion */
+  --spring: cubic-bezier(.34, 1.36, .64, 1);
+  --t-switch: 220ms;
+
+  --content-max: 1240px;
+  --focus-ring: 3px solid var(--dhan);
+}

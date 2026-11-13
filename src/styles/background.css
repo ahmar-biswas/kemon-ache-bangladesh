@@ -1,0 +1,68 @@
+/* The layered background (8.4), back to front:
+   1. base --chal (body)   2. hue wash   3. delta contours   4. paper grain.
+   (5. the jamdani weave is not here: it lives only in the header, footer and empty states.)
+   One fixed layer behind the page; no background-attachment: fixed (slow on phones). */
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  background: var(--chal);
+}
+
+/* 2. Hue wash: a breath of green from the top-left and red from the bottom-right. */
+.backdrop::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(60% 55% at 0% 0%, var(--dhan-glow), transparent 70%),
+    radial-gradient(55% 50% at 100% 100%, var(--lal-glow), transparent 70%);
+  opacity: 1; /* the glow tokens are already at 12% and 10% */
+}
+
+/* 3. Delta contours (inline SVG, stroke = currentColor). */
+.backdrop__delta {
+  position: absolute;
+  inset: 0;
+  color: var(--contour-stroke);
+}
+.backdrop__delta svg { width: 100%; height: 100%; display: block; }
+
+/* 4. Paper grain: tiny tiling PNG, multiplied at about 3.5%. */
+.backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/grain.png');
+  background-size: 64px 64px;
+  opacity: .035;
+  mix-blend-mode: multiply;
+}
+
+/* Data savers and low-end phones: plain paper, no contours, no grain. */
+@media (prefers-reduced-data: reduce) {
+  .backdrop__delta, .backdrop::after { display: none; }
+}
+.save-data .backdrop__delta, .save-data .backdrop::after,
+.lite .backdrop__delta, .lite .backdrop::after { display: none; }
+
+@media (forced-colors: active) {
+  .backdrop::before, .backdrop::after, .backdrop__delta { display: none; }
+}
+
+@media print {
+  .backdrop { display: none; }
+}
+
+/* 5. Jamdani weave band: header, footer and empty states only. Drawn by <Jamdani />. */
+.jamdani {
+  display: block;
+  width: 100%;
+  height: 14px;
+  color: var(--dhan);
+  opacity: .1;                   /* the motif itself is at about 4% visual weight */
+}
+.save-data .jamdani, .lite .jamdani { display: none; }
+@media (prefers-reduced-data: reduce) { .jamdani { display: none; } }
