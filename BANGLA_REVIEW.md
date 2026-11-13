@@ -121,3 +121,9 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `events.kind.shock` | বৈশ্বিক ও জাতীয় ধাক্কা | Is "ধাক্কা" right for "shock", or something like "সংকট" (which may sound like a judgement)? |
 | `src/i18n/countries.bn.json` | 167 new country names, e.g. সংযুক্ত আরব আমিরাত, কঙ্গো গণতান্ত্রিক প্রজাতন্ত্র, হংকং (চীনের বিশেষ প্রশাসনিক অঞ্চল), চেকিয়া, তুরস্ক | Usual Bangla spellings? Especially the territories and the two Congos. |
 | `data/events.json` | Event labels, e.g. ষষ্ঠ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি); নির্বাচন স্থগিত ও জরুরি অবস্থা ঘোষণা; পরদিন নতুন তত্ত্বাবধায়ক সরকার নিয়োগ | Natural and neutral? Source names: আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন), বাংলাদেশ আবহাওয়া অধিদপ্তর. |
+
+## Milestone 6: GDP per person in 2025 prices (2026-11-14)
+- trend.in_prices_name: "{year} সালের দামে {name}"
+- trend.rebased_note: "{year} সালের দামে দেখানো হয়েছে: এতে দাম বাড়া-কমার প্রভাব ছাড়া বছরগুলো তুলনা করা যায়, আর {year} সালের মানটি টাইলের সংখ্যার সঙ্গে মিলে যায়।"
+- trend.rebased_formula: "প্রতি বছরের প্রকাশিত স্থির মূল্যের টাকার মান × {factor}। …" ("স্থির মূল্য" for constant prices: OK?)
+- trend.input_constant / trend.input_current: "ইনপুট: {name}"

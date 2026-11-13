@@ -1,16 +1,18 @@
 // "Bangladesh over time" for one measure (section 12, 3; DECISIONS.md 87, 88): the line
 // chart (or table), the event switches (only once the events list is approved), CSV, how to
-// read it, and the source line (R1). Money is shown in constant taka.
+// read it, and the source line (R1). Money is shown in constant taka, re-expressed in the
+// prices of the latest year so its last point matches the tile (DECISIONS.md 106).
 import { useEffect, useMemo, useState } from 'react';
 import { COUNTRIES } from '../../data/details.ts';
 import { approvedEvents, loadTrend } from '../../data/measure.ts';
 import { matchNote } from '../../data/notes.ts';
+import { rebaseToLatestPrices, rebasedCsv, type Rebased } from '../../data/rebase.ts';
 import { segments, toCsv } from '../../data/picker.ts';
 import type { DataRecord, EventKind, IndicatorMeta } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
 import { countryName, indicatorName } from '../../lib/display.ts';
 import { downloadCsv } from '../../lib/download.ts';
-import { formatYear } from '../../lib/format.ts';
+import { formatNumber, formatYear } from '../../lib/format.ts';
 import { formatValue } from '../../lib/formatValue.ts';
 import { noteText } from '../../lib/noteText.ts';
 import { FlagSwitch } from '../FlagSwitch.tsx';
@@ -28,6 +30,8 @@ interface Props {
 
 export function TrendView({ lang, meta, trend }: Props) {
   const [points, setPoints] = useState<DataRecord[] | 'missing' | null>(null);
+  const [published, setPublished] = useState<DataRecord[]>([]);
+  const [rebased, setRebased] = useState<Rebased | null>(null);
   const [view, setView] = useState<0 | 1>(0);
   const [kinds, setKinds] = useState<Record<EventKind, boolean>>({ political: true, shock: true });
   const all = useMemo(() => approvedEvents(), []);
@@ -35,11 +39,22 @@ export function TrendView({ lang, meta, trend }: Props) {
   useEffect(() => {
     let alive = true;
     setPoints(null);
-    void loadTrend(trend.id).then((p) => alive && setPoints(p && p.length > 0 ? p : 'missing'));
+    setRebased(null);
+    const constant = trend.id !== meta.id;
+    void Promise.all([loadTrend(trend.id), constant ? loadTrend(meta.id) : Promise.resolve(null)]).then(([p, current]) => {
+      if (!alive) return;
+      if (!p || p.length === 0) return setPoints('missing');
+      const r = constant && current ? rebaseToLatestPrices(p, current) : null;
+      // A constant series that can't be put in the tile's prices is not shown in other prices.
+      if (constant && !r) return setPoints('missing');
+      setPublished(p);
+      setRebased(r);
+      setPoints(r ? r.points : p);
+    });
     return () => {
       alive = false;
     };
-  }, [trend.id]);
+  }, [trend.id, meta.id]);
 
   if (points === null) return <Loading lang={lang} />;
   if (points === 'missing') {
@@ -52,7 +67,9 @@ export function TrendView({ lang, meta, trend }: Props) {
 
   const first = points[0]!;
   const last = points[points.length - 1]!;
-  const title = indicatorName(trend.id, lang);
+  const title = rebased
+    ? t(lang, 'trend.in_prices_name', { name: t(lang, `indicator.${meta.id}.short` as never), year: formatYear(rebased.year, lang) })
+    : indicatorName(trend.id, lang);
   const events = all.filter((e) => kinds[e.kind]);
   const gaps = segments(points).length > 1;
   const range = { from: formatYear(first.year, lang), to: formatYear(last.year, lang) };
@@ -61,7 +78,7 @@ export function TrendView({ lang, meta, trend }: Props) {
 
   return (
     <div className="measure__body">
-      {trend.id !== meta.id && <p className="measure__note">{t(lang, 'trend.in_constant', { name: title })}</p>}
+      {rebased && <p className="measure__note">{t(lang, 'trend.rebased_note', { year: formatYear(rebased.year, lang) })}</p>}
 
       <section className="chart-frame measure__frame" data-figure="">
         <div className="chart-frame__head">
@@ -75,7 +92,15 @@ export function TrendView({ lang, meta, trend }: Props) {
               ]}
               selected={view}
             />
-            <button type="button" className="text-button" onClick={() => downloadCsv(`${trend.code}-bangladesh.csv`, toCsv(points, (id) => countryName(id, lang, COUNTRIES)))}>
+            <button
+              type="button"
+              className="text-button"
+              onClick={() =>
+                rebased
+                  ? downloadCsv(`${trend.code}-bangladesh-${rebased.year}-prices.csv`, rebasedCsv(rebased, published))
+                  : downloadCsv(`${trend.code}-bangladesh.csv`, toCsv(points, (id) => countryName(id, lang, COUNTRIES)))
+              }
+            >
               {t(lang, 'chart.download_csv')}
             </button>
           </div>
@@ -134,7 +159,25 @@ export function TrendView({ lang, meta, trend }: Props) {
             {t(lang, 'source.notes', { note: noteText(note, lang) })}
           </p>
         ))}
-        <SourceLine record={last} lang={lang} />
+        {rebased ? (
+          <>
+            <p className="measure__caveat" data-derived="">
+              {t(lang, 'derived.calculated_by_site')}:{' '}
+              {t(lang, 'trend.rebased_formula', {
+                year: formatYear(rebased.year, lang),
+                factor: formatNumber(rebased.factor, lang, 3),
+                current: formatValue(rebased.current, lang),
+                constant: formatValue(rebased.constant, lang),
+              })}
+            </p>
+            <p className="measure__caveat muted">{t(lang, 'trend.input_constant', { name: indicatorName(trend.id, lang) })}</p>
+            <SourceLine record={last} lang={lang} />
+            <p className="measure__caveat muted">{t(lang, 'trend.input_current', { name: indicatorName(meta.id, lang) })}</p>
+            <SourceLine record={rebased.current} lang={lang} />
+          </>
+        ) : (
+          <SourceLine record={last} lang={lang} />
+        )}
       </section>
 
       <section className="measure__read">

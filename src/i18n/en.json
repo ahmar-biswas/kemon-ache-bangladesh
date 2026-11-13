@@ -321,7 +321,6 @@
   "compare.read_bars": "Each bar is one country's latest published value, longest at the top; bars start at zero. The year beside each bar is that country's own data year.",
   "compare.read_dots": "Each dot is one country's latest published value, highest at the top; the axis does not start at zero, so small differences are visible. The year beside each dot is that country's own data year.",
   "trend.chart_title": "{name}, {from} to {to}",
-  "trend.in_constant": "Shown as {name}, so that the years can be compared without price changes.",
   "trend.gaps": "Breaks in the line are years with no published value. They are left empty, never filled in.",
   "trend.read": "The line joins Bangladesh's published values year by year, from the earliest year available. Move along the chart, or use the arrow keys, to see each year's value.",
   "events.show": "Show events",
@@ -337,5 +336,10 @@
   "note.wb_accounts_usd": "National accounts data are provided in the US dollar.",
   "note.wb_emu_multiplier": "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on {month} {day}, {year}: 1 euro = {rate} {currency}. Please note that historical data before {before} are not actual euros and are not comparable or suitable for aggregation across countries.",
   "picker.group_link.south_asia": "SAARC member states",
-  "picker.group_link.neighbours": "BIMSTEC member states"
+  "picker.group_link.neighbours": "BIMSTEC member states",
+  "trend.in_prices_name": "{name} in {year} prices",
+  "trend.rebased_note": "Shown in {year} prices: the years can be compared without price changes, and the {year} value is the same as the figure on the tile.",
+  "trend.rebased_formula": "each year's published value in constant taka × {factor}. {factor} is the {year} value in current taka ({current}) ÷ the {year} value in constant taka ({constant}). The shape of the line, and every change from year to year, is the published constant-taka series.",
+  "trend.input_constant": "Input: {name}",
+  "trend.input_current": "Input: {name}"
 }

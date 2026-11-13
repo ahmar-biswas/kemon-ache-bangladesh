@@ -264,3 +264,21 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
 100. **Ahmar's M5 review (2026-11-14):**
     - **The two view buttons sit inside each measure's tile,** top right beside its name. On narrow tiles they wrap under the name.
     - **A soft wash under the "over time" line:** the line's green (`--dhan-chart`, 24% opacity) starts right at the line and fades to nothing at the bottom of the chart. Each run of consecutive years gets its own area, so a gap in the data stays a gap. The fade is a mask made of one slice per pair of years, so it starts at the line everywhere; in a mask the slices replace each other rather than adding up, so no seams show. The wash is decoration in the brand colour and carries no meaning (8.9, R5).
+
+## Milestone 6 (agreed with Ahmar, 2026-11-14)
+
+101. **Pages and menu.** The header menu reads Home · Economy · Education · Health · Compare, plus the flag switch. On phones, a menu button opens a full-width list. Sources and About join the menu in M7, when those pages exist. Every page below Home has breadcrumbs.
+102. **Subsections with no data yet (Ahmar's choice).** All four Economy subsection pages are built now, with the measures we already have. Most of their measures are P1 and are fetched in M7. "Money from abroad & reserves" has none yet, so it shows a plain note that its measures come in the next update. The note is removed in M7, before launch. Measures not yet fetched are left out; they are never shown as "Data not available", because that would say the source has no data.
+103. **Electricity, safe water and PM2.5 (Ahmar's choice):** these are not in the navigation map. On the area pages all three sit under Health, as living conditions. The homepage keeps electricity in its Economy tile.
+104. **Indicator page and Compare page are built in M6 (Ahmar's choice):**
+    - `/indicator/<id>`: the M5 views ("Compare with other countries", "Bangladesh over time") laid out as one page.
+    - `/compare`: pick any measure and any countries.
+    - Tiles, chart series labels and table rows link to the indicator page.
+    - Homepage area cards link to their area pages. Equality links to /economy/poverty-and-inequality.
+105. **Subsection charts:** one chart per measure. Bangladesh is the green line; the default peers are thin `--peer-grey` lines with direct labels at the line ends (8.2: more than six countries, so the peers are grey). Hovering or focusing a peer highlights its line. Each chart has Chart | Table, CSV and a source line.
+106. **One basis for GDP per person (Ahmar, 2026-11-14).** The tile showed ৳3.14 lakh (current taka, 2025), but "Bangladesh over time" ended at ৳1.97 lakh (the published constant-taka series, base-year prices).
+    - **The fix:** the over-time line is now the published constant-taka series multiplied by one factor: the 2025 value in current taka ÷ the 2025 value in constant taka (× 1.593). It is drawn "in 2025 prices" and ends at the tile's own figure.
+    - **What stays the same:** the shape of the line and every year-to-year change are those of the published constant series (spec 06: trends without price changes).
+    - **Labelling:** "Calculated by this site", with the formula, both inputs and both source lines shown under the chart (R4). The CSV carries the calculated value, the published constant value and the formula for every year. The base year follows the data: always the latest year with both values (`src/data/rebase.ts`).
+    - **Checked everywhere:** every other measure already showed the same Bangladesh value and year on the tile, in "The full picture", in the compare view and at the end of the over-time line. A new CI test (`tests/consistency.test.ts`) now fails the build if any of them disagree.
+    - **Expected differences:** the compare view of GDP per person is in international dollars (PPP), as rule 7 requires for comparing countries. It is labelled as a different unit.
