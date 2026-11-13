@@ -7,6 +7,10 @@ import { COUNTRY, DEFAULT_PEERS, INDICATORS } from './indicators.ts';
 import {
   allRawPath,
   countriesPath,
+  countryNotesPath,
+  detailsPath,
+  trendPath,
+  worldPath,
   countryListPath,
   countryMetaPath,
   externalRawPath,
@@ -25,10 +29,12 @@ import { EXTERNAL, fetchExternal, rankRecords, validateExternal } from './lib/ex
 import { buildLatest } from './lib/latest.ts';
 import { buildMedians, groupMembers } from './lib/median.ts';
 import { MIN_RANKED, buildRank, compactAll, validateRank } from './lib/ranks.ts';
+import { buildDetails, buildTrend, buildWorld, validateWorld } from './lib/world.ts';
 import { compareWithPrevious, validateMedians, validateRecords, validateTargets } from './lib/validate.ts';
 import {
   CLASSIFICATION_URL,
   COUNTRY_LIST_URL,
+  COUNTRY_META_ALL_URL,
   countryMetaUrl,
   fetchAllPages,
   fetchJson,
@@ -89,6 +95,26 @@ try {
   const countryMetaRaw = await fetchRaw(metaUrl);
   const countryMeta = parseCountryMeta(countryMetaRaw, shown);
 
+  // 2b. Special notes for every country (one fast answer), for the country picker's caveats.
+  console.log('Fetching special notes for every country…');
+  const allMetaRaw = await fetchRaw(COUNTRY_META_ALL_URL);
+  const allMeta = parseCountryMeta(allMetaRaw, shown);
+  const specialNotes = new Map<string, string>();
+  for (const c of countries) {
+    const note = allMeta.get(c.id)?.specialNotes;
+    if (note) specialNotes.set(c.id, note);
+  }
+  for (const id of shown) {
+    if ((countryMeta.get(id)?.specialNotes ?? null) !== (specialNotes.get(id) ?? null)) {
+      problems.push(`Country notes for ${id} differ between the two World Bank answers`);
+    }
+  }
+  stage(countryNotesPath(), {
+    request_url: COUNTRY_META_ALL_URL,
+    retrieved_at: allMetaRaw.retrieved_at,
+    special_notes: Object.fromEntries([...specialNotes].sort(([a], [b]) => a.localeCompare(b))),
+  });
+
   const countriesFile: CountriesFile = {
     source_name: 'World Bank, country and lending groups',
     classification_url: CLASSIFICATION_URL,
@@ -140,6 +166,7 @@ try {
       if (config.scope === 'compare') stage(medianPath(config.id), medians);
       allRecords[config.id] = records;
       allMedians[config.id] = medians;
+      stage(trendPath(config.id), buildTrend(records));
 
       // Global rank (calculated by this site): every country's value for recent years.
       if (config.scope === 'compare') {
@@ -147,6 +174,14 @@ try {
         const a = await fetchAllPages(allUrl, 20_000);
         const compact = compactAll(config, { retrieved_at: a.retrievedAt, request_url: allUrl, response: a.answers });
         stage(allRawPath(config.code), compact);
+        // Every country's newest value, for the "Compare with other countries" picker.
+        const sample = records[0];
+        if (sample) {
+          const world = buildWorld({ config, all: compact, countries, since: sinceYear, sample, specialNotes });
+          problems.push(...validateWorld(config, world, records));
+          stage(worldPath(config.id), world);
+          console.log(`  ${world.rows.length} countries have a value since ${sinceYear}.`);
+        }
         const bgdLatest = Math.max(...records.filter((r) => r.country === COUNTRY).map((r) => r.year));
         const rank = buildRank(config, compact, countries, bgdLatest, `World Bank, ${n.seriesName}`);
         if (rank) {
@@ -230,6 +265,7 @@ try {
     }),
   );
 
+  stage(detailsPath(), buildDetails(allRecords, allMedians, sinceYear));
   stage(countriesPath(), countriesFile);
   stage(indicatorsPath(), indicatorMetas);
   // Raw answers are saved only when something they produced changed.

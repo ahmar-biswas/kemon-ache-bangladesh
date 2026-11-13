@@ -213,3 +213,63 @@ export interface LatestFile {
   names: Record<string, string>;
   indicators: Record<string, LatestIndicator>;
 }
+
+/** One country's newest value in the last 10 years (data/processed/world/<id>.json). */
+export interface WorldRow {
+  country: string;
+  year: number;
+  value: number;
+  /** The publisher's notes for this value, word for word (rule R8). */
+  notes: string[];
+  measured_by: string | null;
+  /** World Bank page for this indicator and this country. */
+  source_url: string;
+}
+
+/**
+ * Every country's newest value for one measure: what the "Compare with other countries"
+ * picker can offer. Copied from the World Bank answer; nothing is computed except picking
+ * each country's newest year.
+ */
+export interface WorldFile {
+  indicator_id: string;
+  code: string;
+  unit: Unit;
+  /** Values older than this year are not offered (section 5.5: "the last 10 years"). */
+  since: number;
+  source_name: string;
+  original_source: string;
+  definition_url: string;
+  api_url: string;
+  retrieved_at: string;
+  rows: WorldRow[];
+}
+
+/** Latest records and medians for "The full picture" (data/processed/details.json). */
+export interface DetailsFile {
+  records: Record<string, DataRecord[]>;
+  medians: Record<string, MedianRecord[]>;
+}
+
+export type EventKind = 'political' | 'shock';
+
+/** One dated event for "Bangladesh over time" (data/events.json, DECISIONS.md 88). */
+export interface EventItem {
+  id: string;
+  /** Exact date, YYYY-MM-DD. */
+  date: string;
+  kind: EventKind;
+  /** Neutral, factual label. */
+  label: { en: string; bn: string };
+  source_name: { en: string; bn: string };
+  source_url: string;
+  /** Date the source page was checked. */
+  checked_at: string;
+}
+
+export interface EventsFile {
+  /** Markers are drawn only when this is true: Ahmar approves the whole list first. */
+  approved: boolean;
+  approved_at: string | null;
+  events: EventItem[];
+}

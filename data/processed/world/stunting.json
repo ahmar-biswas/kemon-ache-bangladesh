@@ -1,0 +1,1257 @@
+{
+  "indicator_id": "stunting",
+  "code": "SH.STA.STNT.ZS",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "UNICEF, WHO, World Bank: Joint child Malnutrition Estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology., UN Children's Fund (UNICEF), note: Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology;\nWorld Health Organization (WHO), note: Joint child Malnutrition Estimates (JME); Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology;\nWorld Bank (WB), note: Joint child Malnutrition Estimates (JME); Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.STNT.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.STA.STNT.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2022,
+      "value": 44.6,
+      "notes": [
+        "Source: Afghanistan Multiple Indicator Cluster Survey 2022-23, Summary Findings Report. Kabul, Afghanistan: UNICEF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AF"
+    },
+    {
+      "country": "ALB",
+      "year": 2017,
+      "value": 11.3,
+      "notes": [
+        "Source: Albania Demographic and Health Survey 2017-18. Tirana, Albania: Institute of Statistics, Institute of Public Health, and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AL"
+    },
+    {
+      "country": "ARG",
+      "year": 2018,
+      "value": 8.7,
+      "notes": [
+        "Source: Segunda Encuesta Nacional de Nutricion y Salud, Argentina 2018-2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2016,
+      "value": 9.4,
+      "notes": [
+        "Source: Armenia Demographic and Health Survey 2015-16. Rockville, Maryland, USA: National Statistical Service, Ministry of Health, and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AM"
+    },
+    {
+      "country": "AZE",
+      "year": 2023,
+      "value": 6.6,
+      "notes": [
+        "Source: The Republic of Azerbaijan Multiple Indicator Cluster Survey 2023, Survey Findings  Report. Baku, Azerbaijan: The State Statistical Committee of the Republic of Azerbaijan and UNICEF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2024,
+      "value": 52.8,
+      "notes": [
+        "Source: Enquete Nationale sur la Situation Nutritrionnelle et de Mortalite Au Burundi (ENSNMB 2024) basée sur la méthodologie SMART"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2023,
+      "value": 1.9,
+      "notes": [
+        "Source: Enquete de la Consummation Alimentaire 2022-2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2021,
+      "value": 34.1,
+      "notes": [
+        "Source: Enquête par Grappes à Indicateurs  Multiples, Bénin, 2021-2022, Rapport des résultats de l’enquête. Cotonou, Bénin : INStaD"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2021,
+      "value": 21.1,
+      "notes": [
+        "Source: Enquete Nationale du Nutrition, Burkina Faso 2021"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2022,
+      "value": 23.6,
+      "notes": [
+        "Source: Bangladesh Demographic and  Health Survey 2022: Final Report. Dhaka, Bangladesh, and Rockville, Maryland, USA: NIPORT and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD"
+    },
+    {
+      "country": "BLR",
+      "year": 2023,
+      "value": 1.2,
+      "notes": [
+        "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BY"
+    },
+    {
+      "country": "BOL",
+      "year": 2016,
+      "value": 16.1,
+      "notes": [
+        "Source: Bolivia Encuesta de Demografia y Salud - EDSA 2016: Indicadores Priorizados"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2019,
+      "value": 8,
+      "notes": [
+        "Source: Estudo Nacional de Alimentação e Nutrição Infantil (ENANI), Brasil 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BR"
+    },
+    {
+      "country": "BTN",
+      "year": 2023,
+      "value": 17.9,
+      "notes": [
+        "Source: 5th National Health Survey: Integrated Stepwise Household Survey  2023. Thimphu, Bhutan: Ministry of Health; 2024"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BT"
+    },
+    {
+      "country": "CAF",
+      "year": 2022,
+      "value": 37.9,
+      "notes": [
+        "Source: Enquête nationale sur la situation nutritionnelle et de mortalité rétrospective selon la méthodologie SMART en République Centrafricaine 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CF"
+    },
+    {
+      "country": "CHN",
+      "year": 2017,
+      "value": 4.8,
+      "notes": [
+        "Source: China Nutrition and Health Surveillance of Children and Lactating Women 2016–2017"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2021,
+      "value": 23.4,
+      "notes": [
+        "Source: Enquête Démographique et de Santé de Côte d’Ivoire, 2021. Rockville, Maryland, USA : INS/Côte d’Ivoire et ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2018,
+      "value": 28.9,
+      "notes": [
+        "Source: Enquête Démographique et de Santé du Cameroun 2018. Yaoundé, Cameroun et Rockville, Maryland, USA : INS et ICF. 2020"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2023,
+      "value": 44.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CD"
+    },
+    {
+      "country": "COL",
+      "year": 2016,
+      "value": 12.7,
+      "notes": [
+        "Source: Colombia National Survey of the Nutritional Situation 2015"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2022,
+      "value": 18.2,
+      "notes": [
+        "Source: Enquête par Grappes à Indicateurs Multiples MICS6 2022, Rapport  sur les résultats de l’enquête. Moroni, Comores : INSEED COMORES."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2018,
+      "value": 6,
+      "notes": [
+        "Source: Inquérito Demográfico e de Saúde Reprodutiva, IDSR-III, Cabo Verde 2018. Praia, Cabo Verde e Columbia, Maryland, USA"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2018,
+      "value": 9,
+      "notes": [
+        "Source: Encuesta de Mujeres, Niñez y Adolescencia (EMNA), Informe de resultados de la encuesta. San José, Costa Rica. 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2019,
+      "value": 7.1,
+      "notes": [
+        "Source: Cuba Encuesta de Indicadores Múltiples por Conglomerados 2019, Informe de resultados de la encuesta. La Habana, Cuba: Dirección de Registros Médicos y Estadísticas de Salud."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=CU"
+    },
+    {
+      "country": "DEU",
+      "year": 2016,
+      "value": 1.3,
+      "notes": [
+        "Source: German Health Interview and Examination Survey for Children and Adolescents KiGGS Wave 2: 2014-2017"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2023,
+      "value": 25.5,
+      "notes": [
+        "Source: Dijbouti Rapport de l’enquête multisectorielle, juillet 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=DJ"
+    },
+    {
+      "country": "DOM",
+      "year": 2019,
+      "value": 6.7,
+      "notes": [
+        "Source: Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR-MICS) 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2019,
+      "value": 9.8,
+      "notes": [
+        "Source: Enquête par grappes à indicateurs multiples [MICS] 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2024,
+      "value": 17.4,
+      "notes": [
+        "Source: Encuesta Nacional de Desnutrición Infantil - ENDI Ronda 2, Ecuador 2023-2024"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2021,
+      "value": 12.8,
+      "notes": [
+        "Source: Egypt Family Health Survey (EFHS) 2021"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=EG"
+    },
+    {
+      "country": "ETH",
+      "year": 2019,
+      "value": 36.8,
+      "notes": [
+        "Source: Ethiopia Mini Demographic and Health  Survey 2019: Final Report. Rockville, Maryland, USA: EPHI and ICF, 2021."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "value": 2.8,
+      "notes": [
+        "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2021,
+      "value": 7.2,
+      "notes": [
+        "Source: Fiji Multiple Indicator Cluster Survey 2021, Fact Sheet. Suva, Fiji: Fiji Bureau of  Statistics."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=FJ"
+    },
+    {
+      "country": "GAB",
+      "year": 2020,
+      "value": 14.4,
+      "notes": [
+        "Source: Enquête Démographique et de Santé au Gabon, 2019– 21. Libreville, Gabon et Rockville, Maryland, USA : DGS et ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2019,
+      "value": 2,
+      "notes": [
+        "Source: National Child Measurement Programme, England 2018/19 School Year [NS]"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2018,
+      "value": 5.8,
+      "notes": [
+        "Source: Georgia Multiple Indicator Cluster Survey 2018, Survey Findings Report. Tbilisi, Georgia: National Statistics Office of Georgia."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2022,
+      "value": 17.4,
+      "notes": [
+        "Source: Ghana Demographic and Health Survey 2022. Accra, Ghana, and Rockville, Maryland, USA: GSS and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2022,
+      "value": 26.1,
+      "notes": [
+        "Source: Guinea Enquete Nationale Nutrition basée sur la méthodologie SMART, 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2020,
+      "value": 17.5,
+      "notes": [
+        "Source: The Gambia Demographic and Health Survey 2019- 20. Banjul, The Gambia and Rockville, Maryland, USA: GBoS and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2019,
+      "value": 28.1,
+      "notes": [
+        "Source: Enquête nutritionnel SMART. Evaluation de la situation nutritionnelle en Guinée Bissau, 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GW"
+    },
+    {
+      "country": "GTM",
+      "year": 2021,
+      "value": 46,
+      "notes": [
+        "Source: Informe de la Linea de Base de la Gran Cruzada Nacional por la Nutricion 2021/2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2019,
+      "value": 9.5,
+      "notes": [
+        "Source: Guyana Multiple Indicator Cluster Survey 2019-2020, Survey Findings  Report. Georgetown, Guyana: UNICEF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2019,
+      "value": 18.7,
+      "notes": [
+        "Source: Encuesta Nacional de Demografía y Salud/ Encuesta de Indicadores Múltiples por Conglomerados. Honduras 2019. Tegucigalpa."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=HN"
+    },
+    {
+      "country": "HTI",
+      "year": 2023,
+      "value": 22,
+      "notes": [
+        "Source: Haiti 2023 National nutrition Standardized Monitoring and Assessment of Relief and Transitions (SMART) survey"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=HT"
+    },
+    {
+      "country": "IDN",
+      "year": 2023,
+      "value": 22,
+      "notes": [
+        "Source: Survei Kesehatan Indonesia Tahun 2023 (SKI-2023)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2020,
+      "value": 35.5,
+      "notes": [
+        "Source: National Family Health Survey (NFHS-5), 2019-21: India. Mumbai: IIPS"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=IN"
+    },
+    {
+      "country": "IRN",
+      "year": 2017,
+      "value": 4.8,
+      "notes": [
+        "Source: Children Anthropometry, Nutrition and Development Survey 2017, Ministry of Health. 2021. Tehran, Iran"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2018,
+      "value": 12.6,
+      "notes": [
+        "Source: Iraq Multiple Indicator Cluster Survey 2018, Survey Findings Report. Baghdad, Iraq: CSO & KRSO"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=IQ"
+    },
+    {
+      "country": "JAM",
+      "year": 2018,
+      "value": 4.6,
+      "notes": [
+        "Source: Jamaica survey of living conditions 2018. The Planning Institute of Jamaica (PIOJ)  and the Statistical Institute of Jamaica Statistical Institute of Jamaica (STATIN), 2020"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2023,
+      "value": 8.2,
+      "notes": [
+        "Source: Jordan Population and Family and Health Survey 2023.  Amman, Jordan, and Rockville, Maryland, USA: DoS and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=JO"
+    },
+    {
+      "country": "KEN",
+      "year": 2022,
+      "value": 17.6,
+      "notes": [
+        "Source: Kenya Demographic and Health Survey 2022. Nairobi, Kenya, and Rockville, Maryland,  USA: KNBS and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2023,
+      "value": 14.1,
+      "notes": [
+        "Source: Kyrgyz Republic Multiple Indicator Cluster Survey 2023, Survey Findings Report. Bishkek, Kyrgyzstan: National Statistical Committee of the Kyrgyz Republic and UNICEF, 2024"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2021,
+      "value": 21.9,
+      "notes": [
+        "Source: Cambodia Demographic and Health Survey 2021–22 Final Report. Phnom Penh, Cambodia, and Rockville,  Maryland, USA: NIS, MoH, and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2018,
+      "value": 15.2,
+      "notes": [
+        "Source: Kiribati 2018-2019 Social Development Indicator Survey"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KI"
+    },
+    {
+      "country": "KOR",
+      "year": 2020,
+      "value": 0.9,
+      "notes": [
+        "Source: South Korea National Health and Nutrition Examination Survey 2019-2021"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2023,
+      "value": 3.2,
+      "notes": [
+        "Source: Kuwait Nutrition Surveillance System [KNSS] 2023. Kuwait city, Kuwait: Food & Nutrition Administration"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2023,
+      "value": 32.8,
+      "notes": [
+        "Source: Lao Social Indicator Survey III, 2023,  Survey Findings Report. Vientiane, Lao PDR: Lao Statistics Bureau and UNICEF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2023,
+      "value": 13.9,
+      "notes": [
+        "Source: Lebanese Integrated Micronutrient and Anthropometry Survey 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2019,
+      "value": 29.8,
+      "notes": [
+        "Source: Liberia Demographic and Health Survey 2019-20. Monrovia, Liberia and Rockville, Maryland, USA/ Liberia Institute of Statistics and Geo-Information Services (LISGIS), Ministry of Health [Liberia], and ICF. 2021."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2022,
+      "value": 7.9,
+      "notes": [
+        "Source: National Nutrition Survey for Mothers, Pregnant Women and Children Under Five in Libya 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LY"
+    },
+    {
+      "country": "LKA",
+      "year": 2024,
+      "value": 10.5,
+      "notes": [
+        "Source: Sri Lanka 2024 Nutrition Month Survey"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2024,
+      "value": 35.6,
+      "notes": [
+        "Source: Lesotho Demographic and Health Survey 2023–24: Final Report. Maseru, Lesotho, and Rockville, Maryland, USA: Ministry of Health and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2023,
+      "value": 1,
+      "notes": [
+        "Source: Lithuania Child Health Monitoring Information System 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LT"
+    },
+    {
+      "country": "LVA",
+      "year": 2021,
+      "value": 0.5,
+      "notes": [
+        "Source: Study on Physical Activity, Diet Habits and Body Mass Index of Pre-School Children in Latvia (5-6 years olds)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2019,
+      "value": 14.2,
+      "notes": [
+        "Source: Enquête Nationale sur la Nutrition, Diversité alimentaire, Carence  en Fer, Carence en Vitamine A, Carence en Iode, 2019."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MA"
+    },
+    {
+      "country": "MDG",
+      "year": 2021,
+      "value": 39.8,
+      "notes": [
+        "Source: Enquête Démographique et de Santé à Madagascar,  2021. Antananarivo, Madagascar et Rockville, Maryland, USA : INSTAT et ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2017,
+      "value": 15.3,
+      "notes": [
+        "Source: Maldives Demographic and Health Survey 2016-17. Malé, Maldives, and Rockville, Maryland, USA: MOH and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2022,
+      "value": 12.5,
+      "notes": [
+        "Source: Encuesta Nacional de Salud y Nutrición Continua, Mexico 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2017,
+      "value": 34.8,
+      "notes": [
+        "Source: Republic of the Marshall Islands Integrated Child Health and Nutrition Survey 2017, Final Report. Majuro, Republic of the Marshall Islands: RMI Ministry of Health and Human Services, RMI Economic, Policy Planning and Statistic Office, 2017"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2019,
+      "value": 4.3,
+      "notes": [
+        "Source: 2018-2019 North Macedonia Multiple Indicator Cluster Survey, Survey  Findings  Report. Skopje, North Macedonia: State Statistical Office and UNICEF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2024,
+      "value": 25.1,
+      "notes": [
+        "Source: Enquête Démographique et de Santé au Mali 2023–2024. Rapport Final. Bamako, Mali, et Rockville, Maryland, USA : INSTAT, CPS/SS-DSPF, et ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2022,
+      "value": 3.3,
+      "notes": [
+        "Source: A Study on Childhood Obesity in Malta, with a special focus on 4-5 year old children. Data was collected as part of the reform funded under Component 4 of the Recovery and Resilience Plan for Malta"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2018,
+      "value": 26.7,
+      "notes": [
+        "Source: Myanmar Micronutrient and Food Consumption Survey (MMFCS) 2017-2018"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2018,
+      "value": 7.2,
+      "notes": [
+        "Source: 2018 Montenegro multiple indicator cluster survey (MICS): Final report. Podgorica, Montenegro: MONSTAT and UNICEF, 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2023,
+      "value": 8.8,
+      "notes": [
+        "Source: Mongolia 2023 Multiple Indicator Cluster Survey"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2022,
+      "value": 36.7,
+      "notes": [
+        "Source: Inquérito Demográfico e de Saúde em Moçambique 2022–23. Maputo, Moçambique e Rockville, Maryland, EUA: INE e ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2022,
+      "value": 25.1,
+      "notes": [
+        "Source: Rapport de l’enquête nutritionnelle SMART, Republique Islamique de Mauritania, Octobre 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MR"
+    },
+    {
+      "country": "MWI",
+      "year": 2020,
+      "value": 35.5,
+      "notes": [
+        "Source: Malawi Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Zomba, Malawi: National Statistical Office"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2022,
+      "value": 21.2,
+      "notes": [
+        "Source: Malaysia National Health and Morbidity Survey 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=MY"
+    },
+    {
+      "country": "NER",
+      "year": 2022,
+      "value": 47.7,
+      "notes": [
+        "Source: Enquete Nutritionnelle et de Mortalite Retrospective au Niger - Date de la collecte des données du 20 Août au 26 septembre 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2021,
+      "value": 33.8,
+      "notes": [
+        "Source: National Food Consumption and Micronutrient Survey 2021.  Final Report. Abuja and Ibadan, Nigeria: FGoN and IITA. 550 pp."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=NG"
+    },
+    {
+      "country": "NPL",
+      "year": 2022,
+      "value": 24.8,
+      "notes": [
+        "Source: Nepal Demographic and Health Survey 2022. Kathmandu, Nepal: Ministry of Health and Population [Nepal]"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2023,
+      "value": 15.7,
+      "notes": [
+        "Source: Nauru Multiple Indicator Cluster Survey 2023, Survey Findings Report.  Nauru: Nauru Bureau of Statistics"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=NR"
+    },
+    {
+      "country": "OMN",
+      "year": 2017,
+      "value": 11.4,
+      "notes": [
+        "Source: Oman National Nutrition Survey 2017. Muscat, Oman, 2018"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2018,
+      "value": 37.6,
+      "notes": [
+        "Source: Pakistan Demographic and Health Survey 2017-18. Islamabad, Pakistan, and Rockville, Maryland, USA: NIPS and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2019,
+      "value": 15.9,
+      "notes": [
+        "Source: Encuesta Nacional de Salud de Panamá 2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2023,
+      "value": 11.5,
+      "notes": [
+        "Source: Peru Encuesta Demográfica y de Salud Familiar-ENDES 2023 Nacional y Departamental"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2021,
+      "value": 26.7,
+      "notes": [
+        "Source: Philippines 2021 Expanded National Nutritional Survey"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PH"
+    },
+    {
+      "country": "POL",
+      "year": 2018,
+      "value": 1,
+      "notes": [
+        "Source: Narodowego Programu Zdrowia, 2017-2019"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PL"
+    },
+    {
+      "country": "PRK",
+      "year": 2017,
+      "value": 19.1,
+      "notes": [
+        "Source: DPR Korea Multiple Indicator Cluster Survey 2017, Survey Findings Report. Pyongyang, DPR Korea: Central Bureau of Statistics and UNICEF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2016,
+      "value": 3.2,
+      "notes": [
+        "Source: Inquérito Alimentar Nacional e de Atividade Física, IAN-AF 2015-2016"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2016,
+      "value": 5.6,
+      "notes": [
+        "Source: Encuesta de Indicadores Multiples por Conglomerados MICS Paraguay 2016"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2020,
+      "value": 8.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2023,
+      "value": 6.2,
+      "notes": [
+        "Source: Health Center Data from Primary Health Care Corporation Qatar [2023 Extract]"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=QA"
+    },
+    {
+      "country": "RWA",
+      "year": 2020,
+      "value": 33.1,
+      "notes": [
+        "Source: Rwanda Demographic and Health Survey 2019-20 Final Report. Kigali, Rwanda, and Rockville, Maryland, USA: NISR and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2020,
+      "value": 10.8,
+      "notes": [
+        "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2020 Extract]"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SA"
+    },
+    {
+      "country": "SEN",
+      "year": 2023,
+      "value": 17.5,
+      "notes": [
+        "Source: Enquête Démographique et de Santé Continue (Enquête Continue 2023) et Rockville, Maryland, USA : ANSD et ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SN"
+    },
+    {
+      "country": "SLE",
+      "year": 2021,
+      "value": 26.3,
+      "notes": [
+        "Source: Sierra Leone Nationla Nutrition Survey 2021. Freetown: UNICEF, 2021"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2021,
+      "value": 10,
+      "notes": [
+        "Source: Encuesta Nacional de Salud (ENS), El Salvador 2021.  Instituto Nacional de Salud, 2022."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SV"
+    },
+    {
+      "country": "SRB",
+      "year": 2019,
+      "value": 5.4,
+      "notes": [
+        "Source: Serbia Multiple Indicator Cluster Survey 2019, Survey Findings Reports. Belgrade, Serbia: Statistical Office of the Republic of Serbia and UNICEF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=RS"
+    },
+    {
+      "country": "STP",
+      "year": 2019,
+      "value": 11.7,
+      "notes": [
+        "Source: Inquérito de Indicadores Múltiplos 2019, Relatório final. São Tomé, São Tomé e Príncipe: Instituto Nacional de Estatística e Fundo das Nações Unidas para a Infância"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2018,
+      "value": 8.3,
+      "notes": [
+        "Source: Suriname Multiple Indicator Cluster Survey 2018, Survey Findings Report. Paramaribo, Suriname: Ministry of Social Affairs and Public Housing"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SR"
+    },
+    {
+      "country": "SWZ",
+      "year": 2021,
+      "value": 20,
+      "notes": [
+        "Source: Eswatini Multiple Indicator Cluster Survey 2021-2022, Survey Findings  Report. Mbabane, Eswatini: Central Statistical Office (CSO)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=SZ"
+    },
+    {
+      "country": "TCA",
+      "year": 2020,
+      "value": 4.6,
+      "notes": [
+        "Source: Turks & Caicos Islands Multiple Indicator Cluster Survey 2019-2020, Survey  Findings Report. Grand Turk, Turks & Caicos Islands: Department of Statistics"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TC"
+    },
+    {
+      "country": "TCD",
+      "year": 2022,
+      "value": 31.9,
+      "notes": [
+        "Source: Enquête nationale de nutrition et de mortalité retrospective SMART, Tchad 2022"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2017,
+      "value": 23.8,
+      "notes": [
+        "Source: MICS6 TOGO, 2017, Rapport final. Lomé, Togo"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2022,
+      "value": 12.4,
+      "notes": [
+        "Source: Thailand Multiple Indicator Cluster Survey 2022, Survey Findings Report. Bangkok, Thailand: National Statistical Office of Thailand"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2023,
+      "value": 13.7,
+      "notes": [
+        "Source: Tajikistan Demographic and Health Survey 2023. Dushanbe, Republic of Tajikistan and Rockville, Maryland, USA: Agency on Statistics under the President of the Republic of Tajikistan and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2019,
+      "value": 7.2,
+      "notes": [
+        "Source: Multiple Indicator Cluster Survey, 2019. Survey Report. Ashgabat, Turkmenistan, State Committee for Statistics of Turkmenistan and UNICEF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2020,
+      "value": 46.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2019,
+      "value": 2.2,
+      "notes": [
+        "Source: Tonga Multiple Indicator Cluster Survey 2019, Survey Findings Report. Nuku’alofa, Tonga: Tonga Statistics Department"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TO"
+    },
+    {
+      "country": "TUN",
+      "year": 2018,
+      "value": 8.4,
+      "notes": [
+        "Source: Enquête par grappes à indicateurs multiples (MICS), 2018, Rapport Final. Tunisie: le Ministère du Développement de l’Investissement et de la Coopération Internationale (MDICI)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2018,
+      "value": 6,
+      "notes": [
+        "Source: 2018 Turkey Demographic and Health Survey. Hacettepe University Institute of Population Studies, T.R. Presidency of Turkey Directorate of Strategy and Budget and TÜBITAK, Ankara, Turkey."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2019,
+      "value": 5.7,
+      "notes": [
+        "Source: Tuvalu Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Funafuti, Tuvalu: Central Statistics Division"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2022,
+      "value": 30,
+      "notes": [
+        "Source: Tanzania Demographic and Health Survey and Malaria Indicator Survey 2022 Final Report. Dodoma, Tanzania, and Rockville, Maryland, USA: MoH, NBS, OCGS, and ICF."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2022,
+      "value": 24.4,
+      "notes": [
+        "Source: Uganda Demographic and Health Survey 2022. Kampala, Uganda: UBOS. 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=UG"
+    },
+    {
+      "country": "URY",
+      "year": 2018,
+      "value": 6.9,
+      "notes": [
+        "Source: Encuesta de Nutrición, Desarrollo Infantil y Salud (ENDIS), Tercera Ola Uruguay 2018"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "value": 3.8,
+      "notes": [
+        "Source: United States National Health and Nutrition Examination Survey August 2021- August 2023. Hyattsville, United States: National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2021,
+      "value": 6.5,
+      "notes": [
+        "Source: 2021-2022 Uzbekistan Multiple Indicator Cluster Survey, Survey Findings Report. Republic of Uzbekistan,  Tashkent: State Committee of the Republic of Uzbekistan on Statistics and United Nations Children’s Fund  (UNICEF)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=UZ"
+    },
+    {
+      "country": "VNM",
+      "year": 2023,
+      "value": 18.2,
+      "notes": [
+        "Source: Viet Nam National Nutrition Surveillance Network, 2023"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=VN"
+    },
+    {
+      "country": "WSM",
+      "year": 2019,
+      "value": 7.3,
+      "notes": [
+        "Source: Samoa Demographic and Health – Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Apia, Samoa: Samoa Bureau of Statistics."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2022,
+      "value": 48.5,
+      "notes": [
+        "Source: Yemen Multiple Indicator Cluster  Survey 2022-2023, Survey Findings Report. Yemen: Central Statistical Organization and United Nations Children’s Fund."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2017,
+      "value": 21.3,
+      "notes": [
+        "Source: South Africa National Income Dynamics Study 2017, Wave 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2018,
+      "value": 34.6,
+      "notes": [
+        "Source: Zambia Demographic and Health Survey 2018. Lusaka, Zambia, and Rockville, Maryland, USA: Zambia Statistics Agency, Ministry of Health, and ICF"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2024,
+      "value": 25.9,
+      "notes": [
+        "Source: Zimbabwe 2024 Rural Livelihoods Assessment Report and Zimbabwe 2024 Urban Nutrition Assessment Report"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=ZW"
+    }
+  ]
+}

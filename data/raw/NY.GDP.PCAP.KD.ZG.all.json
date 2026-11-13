@@ -1,5 +1,5 @@
 {
-  "request_url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD.ZG?format=json&date=2016:2026",
+  "request_url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD.ZG?format=json&date=2016:2026&footnote=y",
   "retrieved_at": "2026-11-13",
   "total_rows": 2660,
   "rows": [
@@ -11106,22 +11106,26 @@
     {
       "c": "TKM",
       "y": 2016,
-      "v": 3.81940190706788
+      "v": 3.81940190706788,
+      "n": "Based on official data. Official data is not aligned with IMF GDDS standards."
     },
     {
       "c": "TKM",
       "y": 2017,
-      "v": 4.04622979985758
+      "v": 4.04622979985758,
+      "n": "Based on official data. Official data is not aligned with IMF GDDS standards."
     },
     {
       "c": "TKM",
       "y": 2018,
-      "v": 3.83691417565801
+      "v": 3.83691417565801,
+      "n": "Based on official data. Official data is not aligned with IMF GDDS standards."
     },
     {
       "c": "TKM",
       "y": 2019,
-      "v": 4.0121953580019
+      "v": 4.0121953580019,
+      "n": "Based on official data. Official data is not aligned with IMF GDDS standards."
     },
     {
       "c": "TKM",

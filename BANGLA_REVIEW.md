@@ -95,3 +95,29 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `details.status` | এখানকার অফিশিয়াল লক্ষ্যওয়ালা {m}টি মাপকাঠির {a}টিতে … | OK? |
 | `view.full_picture` | পুরো ছবিটা | Ahmar asked for a natural Bangla equivalent of "the full picture", not a literal one. Is "পুরো ছবিটা" right, or something like "আদ্যোপান্ত" / "বিস্তারিত চিত্র"? |
 | `details.close` | সারসংক্ষেপে ফিরুন | OK? |
+
+## Added in Milestone 5
+
+| Key / place | Draft | Question |
+|---|---|---|
+| `measure.compare` | অন্য দেশের সঙ্গে তুলনা | OK? |
+| `measure.trend` | সময়ের সঙ্গে বাংলাদেশ | OK? |
+| `measure.back` | পুরো ছবিটায় ফিরুন | OK? |
+| `picker.preset.south_asia` | দক্ষিণ এশিয়া (সার্ক) | OK? |
+| `picker.preset.neighbours` | বঙ্গোপসাগরের প্রতিবেশী (বিমসটেক) | OK? |
+| `picker.preset.income` | কাছাকাছি আয়ের দেশ | OK? |
+| `picker.why_text` | এগুলো দক্ষিণ ও দক্ষিণ-পূর্ব এশিয়ার কয়েকটি দেশ, যাদের সঙ্গে এই সাইট সব মাপকাঠিতে একইভাবে তুলনা করে। বিশ্বব্যা… | OK? |
+| `picker.note_untranslated` | এই মানের সঙ্গে উৎসের যে টীকা আছে তা এখনো বাংলায় নেই, তাই মানটি দেখানো হচ্ছে না | OK? |
+| `picker.note.income_trimmed` | বাংলাদেশের সঙ্গে একই আয়ের স্তরের যত দেশের তথ্য আছে, তার সবগুলো এখানে ধরে না। তাই মাথাপিছু জিডিপি (পিপিপি) বাং… | OK? |
+| `compare.rank_line` | দেখানো {n}টি দেশের মধ্যে বাংলাদেশ {rank} নম্বরে (১ = সর্বোচ্চ মান)। | OK? |
+| `compare.row_label` | {rank} নম্বর: {country}, {value} ({year}) | OK? |
+| `compare.read_dots` | প্রতিটি বিন্দু একটি দেশের সর্বশেষ প্রকাশিত মান; সবচেয়ে বেশিটি সবার ওপরে। ছোট পার্থক্যও যাতে চোখে পড়ে, তাই অক… | OK? |
+| `trend.in_constant` | দাম বাড়া-কমার প্রভাব বাদ দিয়ে বছরগুলো তুলনা করা যায় বলে এখানে দেখানো হয়েছে {name}। | OK? |
+| `trend.gaps` | রেখার ফাঁকগুলো এমন বছর, যার কোনো প্রকাশিত মান নেই। সেগুলো ফাঁকাই রাখা হয়েছে, আন্দাজে পূরণ করা হয়নি। | OK? |
+| `events.kind.shock` | বৈশ্বিক ও জাতীয় ধাক্কা | OK? |
+| `events.disclaimer` | ঘটনাগুলো প্রেক্ষাপট হিসেবে দেখানো হয়েছে। কোনো ঘটনা কোনো পরিবর্তনের কারণ, চার্টটি তা বলে না। | OK? |
+| `note.wb_fiscal_year_cy` | অর্থবছর শেষ: {day} {month}; জাতীয় হিসাবের তথ্যের প্রতিবেদনকাল: পঞ্জিকাবর্ষ (CY)। | OK? |
+| `note.wb_emu_multiplier` | ইউরো অঞ্চলের (EMU) সদস্যদের জাতীয় মুদ্রাকে ইউরোতে রূপান্তর করতে একটি সরল গুণক ব্যবহার করা হয়। ইইউ কাউন্সিল {… | OK? |
+| `events.kind.shock` | বৈশ্বিক ও জাতীয় ধাক্কা | Is "ধাক্কা" right for "shock", or something like "সংকট" (which may sound like a judgement)? |
+| `src/i18n/countries.bn.json` | 167 new country names, e.g. সংযুক্ত আরব আমিরাত, কঙ্গো গণতান্ত্রিক প্রজাতন্ত্র, হংকং (চীনের বিশেষ প্রশাসনিক অঞ্চল), চেকিয়া, তুরস্ক | Usual Bangla spellings? Especially the territories and the two Congos. |
+| docs/EVENTS_REVIEW.md | Bangla labels for the candidate events | Neutral and natural? |

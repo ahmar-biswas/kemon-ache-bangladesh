@@ -1,5 +1,5 @@
 {
-  "request_url": "https://api.worldbank.org/v2/country/all/indicator/SH.H2O.SMDW.ZS?format=json&date=2016:2026",
+  "request_url": "https://api.worldbank.org/v2/country/all/indicator/SH.H2O.SMDW.ZS?format=json&date=2016:2026&footnote=y",
   "retrieved_at": "2026-11-13",
   "total_rows": 2660,
   "rows": [

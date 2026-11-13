@@ -1,0 +1,614 @@
+[
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1990,
+    "value": 940.654470863744,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1991,
+    "value": 987.313199393388,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1992,
+    "value": 1044.89188611749,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1993,
+    "value": 1099.38588805752,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1994,
+    "value": 1145.11016610355,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1995,
+    "value": 1206.36646699769,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1996,
+    "value": 1260.7548951696,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1997,
+    "value": 1315.46923328946,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1998,
+    "value": 1372.95383928336,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 1999,
+    "value": 1429.98645246751,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2000,
+    "value": 1511.90500583586,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2001,
+    "value": 1597.58740615663,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2002,
+    "value": 1658.80230931052,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2003,
+    "value": 1746.12725781019,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2004,
+    "value": 1861.51256286906,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2005,
+    "value": 2019.73839561771,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2006,
+    "value": 2195.29485462256,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2007,
+    "value": 2388.10025150358,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2008,
+    "value": 2554.85788229705,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2009,
+    "value": 2675.2594592947,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2010,
+    "value": 2833.69544359604,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2011,
+    "value": 3051.26983271811,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2012,
+    "value": 3434.27815090447,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2013,
+    "value": 3691.10431102117,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2014,
+    "value": 3972.50647733491,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2015,
+    "value": 4212.23578089428,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2016,
+    "value": 4579.13228682862,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2017,
+    "value": 4882.60692615639,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2018,
+    "value": 5490.15881865179,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2019,
+    "value": 6047.12401504125,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2020,
+    "value": 6640.58437331062,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2021,
+    "value": 7441.06913961254,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2022,
+    "value": 8449.20977931373,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2023,
+    "value": 9155.31731992295,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2024,
+    "value": 9660.77962818873,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "gdp_pc_ppp",
+    "country": "BGD",
+    "year": 2025,
+    "value": 10153.7083791829,
+    "unit": "intl_dollar_current",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+    "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+    "retrieved_at": "2026-11-13",
+    "notes": [
+      "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+    ],
+    "measured_by": null
+  }
+]

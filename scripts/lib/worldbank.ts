@@ -16,6 +16,9 @@ export const CLASSIFICATION_URL =
 export const countryMetaUrl = (countries: readonly string[]) =>
   `${API}/sources/${WDI_SOURCE_ID}/country/${countries.join(';')}/metadata?format=json`;
 
+/** The same metadata for every country in one answer (fast, unlike the per-country form). */
+export const COUNTRY_META_ALL_URL = `${API}/sources/${WDI_SOURCE_ID}/country/all/metadata?format=json&per_page=20000`;
+
 export interface CountryMeta {
   currencyUnit: string | null;
   specialNotes: string | null;
@@ -24,8 +27,11 @@ export interface CountryMeta {
 /** Reads the WDI country metadata answer. Throws if its shape is not as expected or a country is missing. */
 export function parseCountryMeta(raw: RawResponse, expected: readonly string[]): Map<string, CountryMeta> {
   const r = raw.response as {
+    page?: number;
+    pages?: number;
     source?: { concept?: { variable?: { id: string; metatype?: { id: string; value: string }[] }[] }[] }[];
   };
+  if (r?.pages !== undefined && r.pages !== 1) throw new Error(`Country metadata: got 1 of ${r.pages} pages`);
   const variables = r?.source?.[0]?.concept?.[0]?.variable;
   if (!Array.isArray(variables)) throw new Error('Country metadata: unexpected response shape');
   const out = new Map<string, CountryMeta>();
@@ -74,8 +80,8 @@ export function parseCountryList(raw: RawResponse): CountryInfo[] {
 export const urls = (code: string) => ({
   /** The JSON we fetch: every year for the given countries, with footnotes (paging is added by fetchAllPages). */
   data: (countries: readonly string[]) => `${API}/country/${countries.join(';')}/indicator/${code}?format=json&footnote=y`,
-  /** Every country and aggregate, recent years only (for global ranks). */
-  allRecent: (from: number, to: number) => `${API}/country/all/indicator/${code}?format=json&date=${from}:${to}`,
+  /** Every country and aggregate, recent years only, with footnotes (global ranks; the country picker). */
+  allRecent: (from: number, to: number) => `${API}/country/all/indicator/${code}?format=json&date=${from}:${to}&footnote=y`,
   /** The indicator's own metadata (name, source organisation). */
   meta: `${API}/indicator/${code}?format=json`,
   /** Shorter API link stored in each record for readers who want the raw numbers. */

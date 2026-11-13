@@ -28,7 +28,9 @@ describe('colour tokens match the spec table (8.2)', () => {
 
 describe('no raw colours outside tokens.css (8.2)', () => {
   const files = [
-    ...readdirSync(resolve(ROOT, 'src/components')).map((f) => `src/components/${f}`),
+    ...readdirSync(resolve(ROOT, 'src/components'), { recursive: true, encoding: 'utf8' })
+      .filter((f) => /\.tsx?$/.test(f))
+      .map((f) => `src/components/${f.replace(/\\/g, '/')}`),
     ...readdirSync(resolve(ROOT, 'src/pages')).map((f) => `src/pages/${f}`),
     ...readdirSync(resolve(ROOT, 'src/styles')).filter((f) => f !== 'tokens.css').map((f) => `src/styles/${f}`),
   ];

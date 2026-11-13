@@ -57,6 +57,19 @@ const NOTE_PATTERNS: NotePattern[] = [
     params: { from: 'text', to: 'text' },
   },
   { re: /^UIS Estimation$/, key: 'note.uis_estimation', params: {} },
+  // WDI country notes met when any country can be picked (Milestone 5).
+  {
+    re: /^Fiscal year end: (?<month>[A-Z][a-z]+) (?<day>\d{1,2}); reporting period for national accounts data: CY\.$/,
+    key: 'note.wb_fiscal_year_cy',
+    params: { month: 'month', day: 'number' },
+  },
+  { re: /^National accounts data are provided in the US dollar\.$/, key: 'note.wb_accounts_usd', params: {} },
+  {
+    // The former currency's name is a name and is shown as published.
+    re: /^A simple multiplier is used to convert the national currencies of EMU members to euros\. The following irrevocable euro conversion rate was adopted by the EU Council on (?<month>[A-Z][a-z]+) (?<day>\d{1,2}), (?<year>\d{4}): 1 euro = (?<rate>[\d.]+) (?<currency>[A-Za-z ]+)\. Please note that historical data before (?<before>\d{4}) are not actual euros and are not comparable or suitable for aggregation across countries\.$/,
+    key: 'note.wb_emu_multiplier',
+    params: { month: 'month', day: 'number', year: 'text', rate: 'number', currency: 'text', before: 'text' },
+  },
 ];
 
 export interface NoteMessage {

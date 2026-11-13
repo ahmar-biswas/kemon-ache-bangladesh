@@ -1,207 +1,247 @@
 {
-  "request_url": "https://api.worldbank.org/v2/country/all/indicator/SH.STA.STNT.ZS?format=json&date=2016:2026",
+  "request_url": "https://api.worldbank.org/v2/country/all/indicator/SH.STA.STNT.ZS?format=json&date=2016:2026&footnote=y",
   "retrieved_at": "2026-11-13",
   "total_rows": 2660,
   "rows": [
     {
       "c": "AFG",
       "y": 2018,
-      "v": 38.2
+      "v": 38.2,
+      "n": "Source: Afghanistan Health Survey 2018"
     },
     {
       "c": "AFG",
       "y": 2022,
-      "v": 44.6
+      "v": 44.6,
+      "n": "Source: Afghanistan Multiple Indicator Cluster Survey 2022-23, Summary Findings Report. Kabul, Afghanistan: UNICEF"
     },
     {
       "c": "ALB",
       "y": 2017,
-      "v": 11.3
+      "v": 11.3,
+      "n": "Source: Albania Demographic and Health Survey 2017-18. Tirana, Albania: Institute of Statistics, Institute of Public Health, and ICF"
     },
     {
       "c": "ARG",
       "y": 2018,
-      "v": 8.7
+      "v": 8.7,
+      "n": "Source: Segunda Encuesta Nacional de Nutricion y Salud, Argentina 2018-2019"
     },
     {
       "c": "ARM",
       "y": 2016,
-      "v": 9.4
+      "v": 9.4,
+      "n": "Source: Armenia Demographic and Health Survey 2015-16. Rockville, Maryland, USA: National Statistical Service, Ministry of Health, and ICF"
     },
     {
       "c": "AZE",
       "y": 2023,
-      "v": 6.6
+      "v": 6.6,
+      "n": "Source: The Republic of Azerbaijan Multiple Indicator Cluster Survey 2023, Survey Findings  Report. Baku, Azerbaijan: The State Statistical Committee of the Republic of Azerbaijan and UNICEF."
     },
     {
       "c": "BDI",
       "y": 2016,
-      "v": 55.9
+      "v": 55.9,
+      "n": "Source: Troisième Enquête Démographique et de Santé. Bujumbura, Burundi : ISTEEBU, MSPLS, et ICF"
     },
     {
       "c": "BDI",
       "y": 2018,
-      "v": 56.6
+      "v": 56.6,
+      "n": "Source: Enquete Nationale sur la Situation Nutritionnelle et la Mortalite sur la Mortalite Basee Sur La Methodologie SMART, Burundi; Rapport Principal"
     },
     {
       "c": "BDI",
       "y": 2019,
-      "v": 54
+      "v": 54,
+      "n": "Source: Enquete Nationale sur la Situation Nutritionnelle et la Securite Alimentaire au Burundi (ENSNSAB), Decembre 2018"
     },
     {
       "c": "BDI",
       "y": 2020,
-      "v": 50.9
+      "v": 50.9,
+      "n": "Source: Enquete Nationale sur la Situation Nutritionnelle et Mortalite au Burundi (ENSNMB), Edition 2020"
     },
     {
       "c": "BDI",
       "y": 2022,
-      "v": 55.8
+      "v": 55.8,
+      "n": "Source:  Enquete Nationale sur la Situation Nutritrionnelle et de Mortalite Au Burundi (ENSNMB 2022) basée sur la méthodologie SMART, mars 2022"
     },
     {
       "c": "BDI",
       "y": 2023,
-      "v": 58
+      "v": 58,
+      "n": "Source: Enquête ménage pour le suivi et l’évaluation de l’impact de l’appui au système de remboursement du Paquet Minimum des Services de santé, édition 2023 (PMS 2023)"
     },
     {
       "c": "BDI",
       "y": 2024,
-      "v": 52.8
+      "v": 52.8,
+      "n": "Source: Enquete Nationale sur la Situation Nutritrionnelle et de Mortalite Au Burundi (ENSNMB 2024) basée sur la méthodologie SMART"
     },
     {
       "c": "BEL",
       "y": 2023,
-      "v": 1.9
+      "v": 1.9,
+      "n": "Source: Enquete de la Consummation Alimentaire 2022-2023"
     },
     {
       "c": "BEN",
       "y": 2018,
-      "v": 32.2
+      "v": 32.2,
+      "n": "Source: Enquête Démographique et de Santé au Bénin, 2017-2018. Cotonou, Bénin et Rockville, Maryland, USA : INSAE et ICF"
     },
     {
       "c": "BEN",
       "y": 2021,
-      "v": 34.1
+      "v": 34.1,
+      "n": "Source: Enquête par Grappes à Indicateurs  Multiples, Bénin, 2021-2022, Rapport des résultats de l’enquête. Cotonou, Bénin : INStaD"
     },
     {
       "c": "BFA",
       "y": 2016,
-      "v": 26.8
+      "v": 26.8,
+      "n": "Source: Enquete Nutritionnelle Nationale 2016, Rapport Final, Decembre 2016, Burkina Faso"
     },
     {
       "c": "BFA",
       "y": 2017,
-      "v": 21.1
+      "v": 21.1,
+      "n": "Source: Enquête Nutritionnelle Nationale, Burkina Faso 2017"
     },
     {
       "c": "BFA",
       "y": 2018,
-      "v": 24.9
+      "v": 24.9,
+      "n": "Source: Enquete Nutritionnelle Nationale, Burkina Faso 2018"
     },
     {
       "c": "BFA",
       "y": 2019,
-      "v": 23.8
+      "v": 23.8,
+      "n": "Source: Enquete Nutritionnelle Nationale, Burkina Faso 2019"
     },
     {
       "c": "BFA",
       "y": 2020,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: Enquete Nutritionnelle Nationale, Burkina Faso 2020"
     },
     {
       "c": "BFA",
       "y": 2021,
-      "v": 21.1
+      "v": 21.1,
+      "n": "Source: Enquete Nationale du Nutrition, Burkina Faso 2021"
     },
     {
       "c": "BGD",
       "y": 2018,
-      "v": 30.9
+      "v": 30.9,
+      "n": "Source: Bangladesh Demographic and Health Survey 2017-18. Dhaka, Bangladesh, and Rockville, Maryland, USA: NIPORT and ICF"
     },
     {
       "c": "BGD",
       "y": 2019,
-      "v": 28
+      "v": 28,
+      "n": "Source: Bangladesh Multiple Indicator Cluster Survey 2019, Survey Findings Report. Dhaka, Bangladesh: Bangladesh Bureau of Statistics (BBS)"
     },
     {
       "c": "BGD",
       "y": 2022,
-      "v": 23.6
+      "v": 23.6,
+      "n": "Source: Bangladesh Demographic and  Health Survey 2022: Final Report. Dhaka, Bangladesh, and Rockville, Maryland, USA: NIPORT and ICF."
     },
     {
       "c": "BLR",
       "y": 2019,
-      "v": 1.1
+      "v": 1.1,
+      "n": "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2019"
     },
     {
       "c": "BLR",
       "y": 2020,
-      "v": 1.2
+      "v": 1.2,
+      "n": "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2020"
     },
     {
       "c": "BLR",
       "y": 2021,
-      "v": 1.2
+      "v": 1.2,
+      "n": "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2021"
     },
     {
       "c": "BLR",
       "y": 2022,
-      "v": 1.2
+      "v": 1.2,
+      "n": "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2022"
     },
     {
       "c": "BLR",
       "y": 2023,
-      "v": 1.2
+      "v": 1.2,
+      "n": "Source: Child Malnutrition Data from State Statistical Reporting Form, Belarus 2023"
     },
     {
       "c": "BOL",
       "y": 2016,
-      "v": 16.1
+      "v": 16.1,
+      "n": "Source: Bolivia Encuesta de Demografia y Salud - EDSA 2016: Indicadores Priorizados"
     },
     {
       "c": "BRA",
       "y": 2019,
-      "v": 8
+      "v": 8,
+      "n": "Source: Estudo Nacional de Alimentação e Nutrição Infantil (ENANI), Brasil 2019"
     },
     {
       "c": "BTN",
       "y": 2023,
-      "v": 17.9
+      "v": 17.9,
+      "n": "Source: 5th National Health Survey: Integrated Stepwise Household Survey  2023. Thimphu, Bhutan: Ministry of Health; 2024"
     },
     {
       "c": "CAF",
       "y": 2018,
-      "v": 37.5
+      "v": 37.5,
+      "n": "Source: Enquete Nationale sur la Situation Nutritionnelle et la Mortalite en Republique Centrafricaine, 2018"
     },
     {
       "c": "CAF",
       "y": 2019,
-      "v": 40.2
+      "v": 40.2,
+      "n": "Source: Enquete Nationale sur la Situation Nutritionnelle et la Mortalite en Republique Centrafricaine, 2019"
     },
     {
       "c": "CAF",
       "y": 2022,
-      "v": 37.9
+      "v": 37.9,
+      "n": "Source: Enquête nationale sur la situation nutritionnelle et de mortalité rétrospective selon la méthodologie SMART en République Centrafricaine 2022"
     },
     {
       "c": "CHN",
       "y": 2017,
-      "v": 4.8
+      "v": 4.8,
+      "n": "Source: China Nutrition and Health Surveillance of Children and Lactating Women 2016–2017"
     },
     {
       "c": "CIV",
       "y": 2016,
-      "v": 21.6
+      "v": 21.6,
+      "n": "Source: Enquête par grappes à indicateurs multiples - Côte d’Ivoire 2016, Rapport Final, Septembre 2017"
     },
     {
       "c": "CIV",
       "y": 2021,
-      "v": 23.4
+      "v": 23.4,
+      "n": "Source: Enquête Démographique et de Santé de Côte d’Ivoire, 2021. Rockville, Maryland, USA : INS/Côte d’Ivoire et ICF."
     },
     {
       "c": "CMR",
       "y": 2018,
-      "v": 28.9
+      "v": 28.9,
+      "n": "Source: Enquête Démographique et de Santé du Cameroun 2018. Yaoundé, Cameroun et Rockville, Maryland, USA : INS et ICF. 2020"
     },
     {
       "c": "COD",
@@ -216,837 +256,1004 @@
     {
       "c": "COL",
       "y": 2016,
-      "v": 12.7
+      "v": 12.7,
+      "n": "Source: Colombia National Survey of the Nutritional Situation 2015"
     },
     {
       "c": "COM",
       "y": 2022,
-      "v": 18.2
+      "v": 18.2,
+      "n": "Source: Enquête par Grappes à Indicateurs Multiples MICS6 2022, Rapport  sur les résultats de l’enquête. Moroni, Comores : INSEED COMORES."
     },
     {
       "c": "CPV",
       "y": 2018,
-      "v": 6
+      "v": 6,
+      "n": "Source: Inquérito Demográfico e de Saúde Reprodutiva, IDSR-III, Cabo Verde 2018. Praia, Cabo Verde e Columbia, Maryland, USA"
     },
     {
       "c": "CRI",
       "y": 2018,
-      "v": 9
+      "v": 9,
+      "n": "Source: Encuesta de Mujeres, Niñez y Adolescencia (EMNA), Informe de resultados de la encuesta. San José, Costa Rica. 2019"
     },
     {
       "c": "CUB",
       "y": 2019,
-      "v": 7.1
+      "v": 7.1,
+      "n": "Source: Cuba Encuesta de Indicadores Múltiples por Conglomerados 2019, Informe de resultados de la encuesta. La Habana, Cuba: Dirección de Registros Médicos y Estadísticas de Salud."
     },
     {
       "c": "DEU",
       "y": 2016,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: German Health Interview and Examination Survey for Children and Adolescents KiGGS Wave 2: 2014-2017"
     },
     {
       "c": "DJI",
       "y": 2019,
-      "v": 20.9
+      "v": 20.9,
+      "n": "Source: Enquête sur l’état nutritionnel avec la Méthodologie SMART, Djibouti Avril 2019"
     },
     {
       "c": "DJI",
       "y": 2023,
-      "v": 25.5
+      "v": 25.5,
+      "n": "Source: Dijbouti Rapport de l’enquête multisectorielle, juillet 2023"
     },
     {
       "c": "DOM",
       "y": 2019,
-      "v": 6.7
+      "v": 6.7,
+      "n": "Source: Encuesta Nacional de Hogares de Propósitos Múltiples (ENHOGAR-MICS) 2019"
     },
     {
       "c": "DZA",
       "y": 2019,
-      "v": 9.8
+      "v": 9.8,
+      "n": "Source: Enquête par grappes à indicateurs multiples [MICS] 2019"
     },
     {
       "c": "ECU",
       "y": 2023,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: Encuesta Nacional de Desnutrición Infantil - ENDI, Ecuador 2022-2023"
     },
     {
       "c": "ECU",
       "y": 2024,
-      "v": 17.4
+      "v": 17.4,
+      "n": "Source: Encuesta Nacional de Desnutrición Infantil - ENDI Ronda 2, Ecuador 2023-2024"
     },
     {
       "c": "EGY",
       "y": 2021,
-      "v": 12.8
+      "v": 12.8,
+      "n": "Source: Egypt Family Health Survey (EFHS) 2021"
     },
     {
       "c": "ETH",
       "y": 2016,
-      "v": 38.3
+      "v": 38.3,
+      "n": "Source: Ethiopia Demographic and Health Survey 2016. Addis Ababa, Ethiopia, and Rockville, Maryland, USA: CSA and ICF."
     },
     {
       "c": "ETH",
       "y": 2019,
-      "v": 36.8
+      "v": 36.8,
+      "n": "Source: Ethiopia Mini Demographic and Health  Survey 2019: Final Report. Rockville, Maryland, USA: EPHI and ICF, 2021."
     },
     {
       "c": "FIN",
       "y": 2016,
-      "v": 1.7
+      "v": 1.7,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2016"
     },
     {
       "c": "FIN",
       "y": 2017,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2017"
     },
     {
       "c": "FIN",
       "y": 2018,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2018"
     },
     {
       "c": "FIN",
       "y": 2019,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2019"
     },
     {
       "c": "FIN",
       "y": 2020,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2020"
     },
     {
       "c": "FIN",
       "y": 2021,
-      "v": 1.3
+      "v": 1.3,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2021"
     },
     {
       "c": "FIN",
       "y": 2022,
-      "v": 1.8
+      "v": 1.8,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2022"
     },
     {
       "c": "FIN",
       "y": 2023,
-      "v": 2.8
+      "v": 2.8,
+      "n": "Source: Terveystarkastukset lastenneuvolassa & kouluterveydenhuollossa, 2023"
     },
     {
       "c": "FJI",
       "y": 2021,
-      "v": 7.2
+      "v": 7.2,
+      "n": "Source: Fiji Multiple Indicator Cluster Survey 2021, Fact Sheet. Suva, Fiji: Fiji Bureau of  Statistics."
     },
     {
       "c": "GAB",
       "y": 2020,
-      "v": 14.4
+      "v": 14.4,
+      "n": "Source: Enquête Démographique et de Santé au Gabon, 2019– 21. Libreville, Gabon et Rockville, Maryland, USA : DGS et ICF"
     },
     {
       "c": "GBR",
       "y": 2016,
-      "v": 2
+      "v": 2,
+      "n": "Source: National Child Measurement Programme - England, 2015-16"
     },
     {
       "c": "GBR",
       "y": 2017,
-      "v": 1.9
+      "v": 1.9,
+      "n": "Source: National Child Measurement Programme - England, 2016-17"
     },
     {
       "c": "GBR",
       "y": 2018,
-      "v": 2
+      "v": 2,
+      "n": "Source: National Child Measurement Programme, England - 2017/18 School Year [PAS]"
     },
     {
       "c": "GBR",
       "y": 2019,
-      "v": 2
+      "v": 2,
+      "n": "Source: National Child Measurement Programme, England 2018/19 School Year [NS]"
     },
     {
       "c": "GEO",
       "y": 2018,
-      "v": 5.8
+      "v": 5.8,
+      "n": "Source: Georgia Multiple Indicator Cluster Survey 2018, Survey Findings Report. Tbilisi, Georgia: National Statistics Office of Georgia."
     },
     {
       "c": "GHA",
       "y": 2017,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: Multiple Indicator Cluster Survey (MICS2017/18), Survey Findings Report. Accra, Ghana: GSS"
     },
     {
       "c": "GHA",
       "y": 2022,
-      "v": 17.4
+      "v": 17.4,
+      "n": "Source: Ghana Demographic and Health Survey 2022. Accra, Ghana, and Rockville, Maryland, USA: GSS and ICF."
     },
     {
       "c": "GIN",
       "y": 2016,
-      "v": 32.4
+      "v": 32.4,
+      "n": "Source: Enquête par grappes à indicateurs multiples (MICS, 2016), Rapport final, Conakry, Guinée. 2017"
     },
     {
       "c": "GIN",
       "y": 2018,
-      "v": 30.3
+      "v": 30.3,
+      "n": "Source: Enquête Démographique et de Santé en Guinée 2018. Conakry, Guinée, et Rockville, Maryland, USA : INS et ICF"
     },
     {
       "c": "GIN",
       "y": 2022,
-      "v": 26.1
+      "v": 26.1,
+      "n": "Source: Guinea Enquete Nationale Nutrition basée sur la méthodologie SMART, 2022"
     },
     {
       "c": "GMB",
       "y": 2018,
-      "v": 19
+      "v": 19,
+      "n": "Source: The Gambia Multiple Indicator Cluster Survey 2018, Survey Findings Report. Banjul, The Gambia: The Gambia Bureau of Statistics"
     },
     {
       "c": "GMB",
       "y": 2020,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: The Gambia Demographic and Health Survey 2019- 20. Banjul, The Gambia and Rockville, Maryland, USA: GBoS and ICF"
     },
     {
       "c": "GNB",
       "y": 2019,
-      "v": 28.1
+      "v": 28.1,
+      "n": "Source: Enquête nutritionnel SMART. Evaluation de la situation nutritionnelle en Guinée Bissau, 2019"
     },
     {
       "c": "GTM",
       "y": 2021,
-      "v": 46
+      "v": 46,
+      "n": "Source: Informe de la Linea de Base de la Gran Cruzada Nacional por la Nutricion 2021/2022"
     },
     {
       "c": "GUY",
       "y": 2019,
-      "v": 9.5
+      "v": 9.5,
+      "n": "Source: Guyana Multiple Indicator Cluster Survey 2019-2020, Survey Findings  Report. Georgetown, Guyana: UNICEF"
     },
     {
       "c": "HND",
       "y": 2019,
-      "v": 18.7
+      "v": 18.7,
+      "n": "Source: Encuesta Nacional de Demografía y Salud/ Encuesta de Indicadores Múltiples por Conglomerados. Honduras 2019. Tegucigalpa."
     },
     {
       "c": "HTI",
       "y": 2017,
-      "v": 21.9
+      "v": 21.9,
+      "n": "Source: Enquête Mortalité, Morbidité et Utilisation des Services (EMMUS-VI 2016-2017) Pétion-Ville, Haïti, et Rockville, Maryland, USA : IHE et ICF"
     },
     {
       "c": "HTI",
       "y": 2023,
-      "v": 22
+      "v": 22,
+      "n": "Source: Haiti 2023 National nutrition Standardized Monitoring and Assessment of Relief and Transitions (SMART) survey"
     },
     {
       "c": "IDN",
       "y": 2018,
-      "v": 30
+      "v": 30,
+      "n": "Source: National report on basic health research, RISKESDAS, 2018. Jakarta, Indonesia, 2019."
     },
     {
       "c": "IDN",
       "y": 2019,
-      "v": 26.6
+      "v": 26.6,
+      "n": "Source: Survei Status Gizi Indonesia – SSGI 2019"
     },
     {
       "c": "IDN",
       "y": 2021,
-      "v": 24.4
+      "v": 24.4,
+      "n": "Source: Survei Status Gizi Indonesia – SSGI 2021"
     },
     {
       "c": "IDN",
       "y": 2022,
-      "v": 21.6
+      "v": 21.6,
+      "n": "Source: Survei Status Gizi Indonesia – SSGI 2022"
     },
     {
       "c": "IDN",
       "y": 2023,
-      "v": 22
+      "v": 22,
+      "n": "Source: Survei Kesehatan Indonesia Tahun 2023 (SKI-2023)"
     },
     {
       "c": "IND",
       "y": 2017,
-      "v": 36.1
+      "v": 36.1,
+      "n": "Source: Comprehensive National Nutrition Survey (CNNS) National Report. New Delhi"
     },
     {
       "c": "IND",
       "y": 2020,
-      "v": 35.5
+      "v": 35.5,
+      "n": "Source: National Family Health Survey (NFHS-5), 2019-21: India. Mumbai: IIPS"
     },
     {
       "c": "IRN",
       "y": 2017,
-      "v": 4.8
+      "v": 4.8,
+      "n": "Source: Children Anthropometry, Nutrition and Development Survey 2017, Ministry of Health. 2021. Tehran, Iran"
     },
     {
       "c": "IRQ",
       "y": 2018,
-      "v": 12.6
+      "v": 12.6,
+      "n": "Source: Iraq Multiple Indicator Cluster Survey 2018, Survey Findings Report. Baghdad, Iraq: CSO & KRSO"
     },
     {
       "c": "JAM",
       "y": 2016,
-      "v": 9.3
+      "v": 9.3,
+      "n": "Source: Jamaica survey of living conditions 2016. The Planning Institute of Jamaica (PIOJ)  and the Statistical Institute of Jamaica Statistical Institute of Jamaica (STATIN), 2019"
     },
     {
       "c": "JAM",
       "y": 2018,
-      "v": 4.6
+      "v": 4.6,
+      "n": "Source: Jamaica survey of living conditions 2018. The Planning Institute of Jamaica (PIOJ)  and the Statistical Institute of Jamaica Statistical Institute of Jamaica (STATIN), 2020"
     },
     {
       "c": "JOR",
       "y": 2019,
-      "v": 7.4
+      "v": 7.4,
+      "n": "Source: Jordan National Micronutrient and Nutritional Survey 2019. Amman, Jordan; 2021."
     },
     {
       "c": "JOR",
       "y": 2023,
-      "v": 8.2
+      "v": 8.2,
+      "n": "Source: Jordan Population and Family and Health Survey 2023.  Amman, Jordan, and Rockville, Maryland, USA: DoS and ICF"
     },
     {
       "c": "KEN",
       "y": 2016,
-      "v": 28.6
+      "v": 28.6,
+      "n": "Source: Kenya 2015-16 Integrated Household Budget Survey (KIHBS)"
     },
     {
       "c": "KEN",
       "y": 2022,
-      "v": 17.6
+      "v": 17.6,
+      "n": "Source: Kenya Demographic and Health Survey 2022. Nairobi, Kenya, and Rockville, Maryland,  USA: KNBS and ICF"
     },
     {
       "c": "KGZ",
       "y": 2018,
-      "v": 11.8
+      "v": 11.8,
+      "n": "Source: Kyrgyzstan Multiple Indicator Cluster Survey 2018, Survey Findings Report. Bishkek, Kyrgyzstan: National Statistical Committee of the Kyrgyz Republic and UNICEF."
     },
     {
       "c": "KGZ",
       "y": 2021,
-      "v": 8.6
+      "v": 8.6,
+      "n": "Source: National Integrated Micronutrient and Anthropometry Survey 2021. Bishkek,  Kyrgyz Republic; 2022"
     },
     {
       "c": "KGZ",
       "y": 2023,
-      "v": 14.1
+      "v": 14.1,
+      "n": "Source: Kyrgyz Republic Multiple Indicator Cluster Survey 2023, Survey Findings Report. Bishkek, Kyrgyzstan: National Statistical Committee of the Kyrgyz Republic and UNICEF, 2024"
     },
     {
       "c": "KHM",
       "y": 2021,
-      "v": 21.9
+      "v": 21.9,
+      "n": "Source: Cambodia Demographic and Health Survey 2021–22 Final Report. Phnom Penh, Cambodia, and Rockville,  Maryland, USA: NIS, MoH, and ICF."
     },
     {
       "c": "KIR",
       "y": 2018,
-      "v": 15.2
+      "v": 15.2,
+      "n": "Source: Kiribati 2018-2019 Social Development Indicator Survey"
     },
     {
       "c": "KOR",
       "y": 2017,
-      "v": 2.3
+      "v": 2.3,
+      "n": "Source: South Korea National Health and Nutrition Examination Survey, 2016-2018"
     },
     {
       "c": "KOR",
       "y": 2020,
-      "v": 0.9
+      "v": 0.9,
+      "n": "Source: South Korea National Health and Nutrition Examination Survey 2019-2021"
     },
     {
       "c": "KWT",
       "y": 2016,
-      "v": 6.3
+      "v": 6.3,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2016. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2017,
-      "v": 5.8
+      "v": 5.8,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2017. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2018,
-      "v": 7
+      "v": 7,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2018. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2019,
-      "v": 4.6
+      "v": 4.6,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2019. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2020,
-      "v": 3.8
+      "v": 3.8,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2020. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2021,
-      "v": 4.3
+      "v": 4.3,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2021. Kuwait city, Kuwait: Food & Nutrition Administration,"
     },
     {
       "c": "KWT",
       "y": 2022,
-      "v": 4.6
+      "v": 4.6,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2022. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "KWT",
       "y": 2023,
-      "v": 3.2
+      "v": 3.2,
+      "n": "Source: Kuwait Nutrition Surveillance System [KNSS] 2023. Kuwait city, Kuwait: Food & Nutrition Administration"
     },
     {
       "c": "LAO",
       "y": 2017,
-      "v": 33.1
+      "v": 33.1,
+      "n": "Source: Lao Social Indicator Survey II 2017, Survey Findings Report. Vientiane, Lao PDR: Lao Statistics Bureau and UNICEF"
     },
     {
       "c": "LAO",
       "y": 2023,
-      "v": 32.8
+      "v": 32.8,
+      "n": "Source: Lao Social Indicator Survey III, 2023,  Survey Findings Report. Vientiane, Lao PDR: Lao Statistics Bureau and UNICEF"
     },
     {
       "c": "LBN",
       "y": 2021,
-      "v": 7
+      "v": 7,
+      "n": "Source: Lebanon 2021 National Nutrition SMART Survey"
     },
     {
       "c": "LBN",
       "y": 2023,
-      "v": 13.9
+      "v": 13.9,
+      "n": "Source: Lebanese Integrated Micronutrient and Anthropometry Survey 2023"
     },
     {
       "c": "LBR",
       "y": 2016,
-      "v": 30.1
+      "v": 30.1,
+      "n": "Source: Liberia 2016 National Nutrition and Mortality Survey"
     },
     {
       "c": "LBR",
       "y": 2019,
-      "v": 29.8
+      "v": 29.8,
+      "n": "Source: Liberia Demographic and Health Survey 2019-20. Monrovia, Liberia and Rockville, Maryland, USA/ Liberia Institute of Statistics and Geo-Information Services (LISGIS), Ministry of Health [Liberia], and ICF. 2021."
     },
     {
       "c": "LBY",
       "y": 2022,
-      "v": 7.9
+      "v": 7.9,
+      "n": "Source: National Nutrition Survey for Mothers, Pregnant Women and Children Under Five in Libya 2022"
     },
     {
       "c": "LKA",
       "y": 2016,
-      "v": 17.3
+      "v": 17.3,
+      "n": "Source: Sri Lanka Demographic and Health Survey 2016"
     },
     {
       "c": "LKA",
       "y": 2019,
-      "v": 8.4
+      "v": 8.4,
+      "n": "Source: Sri Lanka 2019 Nutrition Month Survey"
     },
     {
       "c": "LKA",
       "y": 2020,
-      "v": 8.2
+      "v": 8.2,
+      "n": "Source: Sri Lanka 2020 Nutrition Month Survey"
     },
     {
       "c": "LKA",
       "y": 2021,
-      "v": 7.4
+      "v": 7.4,
+      "n": "Source: Sri Lanka 2021 Nutrition Month Survey"
     },
     {
       "c": "LKA",
       "y": 2022,
-      "v": 9.2
+      "v": 9.2,
+      "n": "Source: Sri Lanka 2022 Nutrition Month Survey"
     },
     {
       "c": "LKA",
       "y": 2023,
-      "v": 10.3
+      "v": 10.3,
+      "n": "Source: Sri Lanka 2023 Nutrition Month Survey"
     },
     {
       "c": "LKA",
       "y": 2024,
-      "v": 10.5
+      "v": 10.5,
+      "n": "Source: Sri Lanka 2024 Nutrition Month Survey"
     },
     {
       "c": "LSO",
       "y": 2018,
-      "v": 34.6
+      "v": 34.6,
+      "n": "Source: Lesotho Multiple Indicator Cluster Survey 2018, Survey Findings Report. Maseru, Lesotho: Bureau of Statistics."
     },
     {
       "c": "LSO",
       "y": 2024,
-      "v": 35.6
+      "v": 35.6,
+      "n": "Source: Lesotho Demographic and Health Survey 2023–24: Final Report. Maseru, Lesotho, and Rockville, Maryland, USA: Ministry of Health and ICF."
     },
     {
       "c": "LTU",
       "y": 2021,
-      "v": 0.7
+      "v": 0.7,
+      "n": "Source: Lithuania Child Health Monitoring Information System 2021"
     },
     {
       "c": "LTU",
       "y": 2022,
-      "v": 0.9
+      "v": 0.9,
+      "n": "Source: Lithuania Child Health Monitoring Information System 2022"
     },
     {
       "c": "LTU",
       "y": 2023,
-      "v": 1
+      "v": 1,
+      "n": "Source: Lithuania Child Health Monitoring Information System 2023"
     },
     {
       "c": "LVA",
       "y": 2021,
-      "v": 0.5
+      "v": 0.5,
+      "n": "Source: Study on Physical Activity, Diet Habits and Body Mass Index of Pre-School Children in Latvia (5-6 years olds)"
     },
     {
       "c": "MAR",
       "y": 2017,
-      "v": 15.1
+      "v": 15.1,
+      "n": "Source: Enquête Nationale sur la Population et la Santé Familiale (ENPSF) -2017-2018"
     },
     {
       "c": "MAR",
       "y": 2019,
-      "v": 14.2
+      "v": 14.2,
+      "n": "Source: Enquête Nationale sur la Nutrition, Diversité alimentaire, Carence  en Fer, Carence en Vitamine A, Carence en Iode, 2019."
     },
     {
       "c": "MDG",
       "y": 2018,
-      "v": 41.6
+      "v": 41.6,
+      "n": "Source: Enquête par grappes à indicateurs multiples-MICS Madagascar 2018, Rapport final. Antananarivo, Madagascar : INSTAT et UNICEF 2019"
     },
     {
       "c": "MDG",
       "y": 2021,
-      "v": 39.8
+      "v": 39.8,
+      "n": "Source: Enquête Démographique et de Santé à Madagascar,  2021. Antananarivo, Madagascar et Rockville, Maryland, USA : INSTAT et ICF."
     },
     {
       "c": "MDV",
       "y": 2017,
-      "v": 15.3
+      "v": 15.3,
+      "n": "Source: Maldives Demographic and Health Survey 2016-17. Malé, Maldives, and Rockville, Maryland, USA: MOH and ICF"
     },
     {
       "c": "MEX",
       "y": 2016,
-      "v": 10
+      "v": 10,
+      "n": "Source: Encuesta Nacional de Salud y Nutrición de Medio Camino ENSANUT MC 2016. Cuernavaca, México: Instituto Nacional de Salud Pública, 2016"
     },
     {
       "c": "MEX",
       "y": 2019,
-      "v": 14.1
+      "v": 14.1,
+      "n": "Source: Encuesta nacional de salud y nutrición 2018. Cuernavaca, México: Instituto Nacional de Salud Pública, 2019"
     },
     {
       "c": "MEX",
       "y": 2020,
-      "v": 13.9
+      "v": 13.9,
+      "n": "Source: Encuesta Nacional de Salud y Nutrición Continua COVID-19, Mexico 2020"
     },
     {
       "c": "MEX",
       "y": 2021,
-      "v": 12.8
+      "v": 12.8,
+      "n": "Source: Encuesta Nacional de Salud y Nutrición Continua, Mexico 2021"
     },
     {
       "c": "MEX",
       "y": 2022,
-      "v": 12.5
+      "v": 12.5,
+      "n": "Source: Encuesta Nacional de Salud y Nutrición Continua, Mexico 2022"
     },
     {
       "c": "MHL",
       "y": 2017,
-      "v": 34.8
+      "v": 34.8,
+      "n": "Source: Republic of the Marshall Islands Integrated Child Health and Nutrition Survey 2017, Final Report. Majuro, Republic of the Marshall Islands: RMI Ministry of Health and Human Services, RMI Economic, Policy Planning and Statistic Office, 2017"
     },
     {
       "c": "MKD",
       "y": 2019,
-      "v": 4.3
+      "v": 4.3,
+      "n": "Source: 2018-2019 North Macedonia Multiple Indicator Cluster Survey, Survey  Findings  Report. Skopje, North Macedonia: State Statistical Office and UNICEF."
     },
     {
       "c": "MLI",
       "y": 2016,
-      "v": 26.4
+      "v": 26.4,
+      "n": "Source: Enquête Nutritionnelle et de Mortalité Rétrospective, Mali, 2016"
     },
     {
       "c": "MLI",
       "y": 2017,
-      "v": 24.6
+      "v": 24.6,
+      "n": "Source: Enquête Nationale Nutritionnelle Anthropométrique et de Mortalité rétrospective suivant la méthodologie SMART, Mali 2017"
     },
     {
       "c": "MLI",
       "y": 2018,
-      "v": 26.9
+      "v": 26.9,
+      "n": "Source: Enquête Démographique et de Santé au Mali 2018. Bamako, Mali et Rockville, Maryland, USA : INSTAT, CPS/SS-DS-PF et ICF"
     },
     {
       "c": "MLI",
       "y": 2019,
-      "v": 26.4
+      "v": 26.4,
+      "n": "Source: Enquête Nationale Nutritionnelle Anthropométrique et de Mortalité rétrospective suivant la méthodologie SMART, Mali 2019"
     },
     {
       "c": "MLI",
       "y": 2020,
-      "v": 23
+      "v": 23,
+      "n": "Source: 10ème Enquête Nutritionnelle Anthropométrique et de Mortalité Rétrospective basée sur la méthodologie SMART au Mali (SMART-2020 Mali)"
     },
     {
       "c": "MLI",
       "y": 2021,
-      "v": 22.1
+      "v": 22.1,
+      "n": "Source: Rapport Finale de l'Enquete Nutritionnelle Anthropometrique et de Mortality Retrospective 11e Edition au Mali"
     },
     {
       "c": "MLI",
       "y": 2022,
-      "v": 21.8
+      "v": 21.8,
+      "n": "Source: Enquête Nutritionnelle Anthropometrique et de Mortalite Retrospective en Septembre 2022 - 12e Edition Au Mali"
     },
     {
       "c": "MLI",
       "y": 2024,
-      "v": 25.1
+      "v": 25.1,
+      "n": "Source: Enquête Démographique et de Santé au Mali 2023–2024. Rapport Final. Bamako, Mali, et Rockville, Maryland, USA : INSTAT, CPS/SS-DSPF, et ICF."
     },
     {
       "c": "MLT",
       "y": 2022,
-      "v": 3.3
+      "v": 3.3,
+      "n": "Source: A Study on Childhood Obesity in Malta, with a special focus on 4-5 year old children. Data was collected as part of the reform funded under Component 4 of the Recovery and Resilience Plan for Malta"
     },
     {
       "c": "MMR",
       "y": 2016,
-      "v": 29.4
+      "v": 29.4,
+      "n": "Source: Myanmar Demographic and Health Survey 2015-16: Final Report. 2016"
     },
     {
       "c": "MMR",
       "y": 2018,
-      "v": 26.7
+      "v": 26.7,
+      "n": "Source: Myanmar Micronutrient and Food Consumption Survey (MMFCS) 2017-2018"
     },
     {
       "c": "MNE",
       "y": 2018,
-      "v": 7.2
+      "v": 7.2,
+      "n": "Source: 2018 Montenegro multiple indicator cluster survey (MICS): Final report. Podgorica, Montenegro: MONSTAT and UNICEF, 2019"
     },
     {
       "c": "MNG",
       "y": 2016,
-      "v": 7.3
+      "v": 7.3,
+      "n": "Source: Nutrition Status of the Population of Mongolia: Fifth National Nutrition Survey Report"
     },
     {
       "c": "MNG",
       "y": 2018,
-      "v": 9.4
+      "v": 9.4,
+      "n": "Source: Social Indicator Sample Survey-2018, Survey Findings Report. Ulaanbaatar, Mongolia: National Statistical Office of Mongolia"
     },
     {
       "c": "MNG",
       "y": 2023,
-      "v": 8.8
+      "v": 8.8,
+      "n": "Source: Mongolia 2023 Multiple Indicator Cluster Survey"
     },
     {
       "c": "MOZ",
       "y": 2020,
-      "v": 37.5
+      "v": 37.5,
+      "n": "Source: Relatório final do Inquérito ao Orçamento Familiar - IOF, 2019/20"
     },
     {
       "c": "MOZ",
       "y": 2022,
-      "v": 36.7
+      "v": 36.7,
+      "n": "Source: Inquérito Demográfico e de Saúde em Moçambique 2022–23. Maputo, Moçambique e Rockville, Maryland, EUA: INE e ICF."
     },
     {
       "c": "MRT",
       "y": 2018,
-      "v": 22.8
+      "v": 22.8,
+      "n": "Source: Rapport de l’enquête nutritionnelle nationale SMART Aout 2018"
     },
     {
       "c": "MRT",
       "y": 2019,
-      "v": 19.4
+      "v": 19.4,
+      "n": "Source: Rapport de l’enquête nutritionnelle nationale SMART, Mauritanie Juillet 2019"
     },
     {
       "c": "MRT",
       "y": 2020,
-      "v": 25.8
+      "v": 25.8,
+      "n": "Source: Enquête Démographique et  de Santé en Mauritanie 2019-2021. Nouakchott, Mauritanie et Rockville, Maryland, USA : ONS, MS, et ICF."
     },
     {
       "c": "MRT",
       "y": 2021,
-      "v": 17.4
+      "v": 17.4,
+      "n": "Source: Enquête nutritionnelle nationale SMART, Mauritanie 2021"
     },
     {
       "c": "MRT",
       "y": 2022,
-      "v": 25.1
+      "v": 25.1,
+      "n": "Source: Rapport de l’enquête nutritionnelle SMART, Republique Islamique de Mauritania, Octobre 2022"
     },
     {
       "c": "MWI",
       "y": 2016,
-      "v": 38.3
+      "v": 38.3,
+      "n": "Source: Report of the Seven Nutrition Surveys Conducted in Flood Affected Livelihood Zones of Malawi - Assessment Period November - December 2016"
     },
     {
       "c": "MWI",
       "y": 2017,
-      "v": 39.3
+      "v": 39.3,
+      "n": "Source: Report of the Seven Nutrition Surveys Conducted in Flood Affected Livelihood Zones of Malawi - Assessment Period May 2017"
     },
     {
       "c": "MWI",
       "y": 2018,
-      "v": 39
+      "v": 39,
+      "n": "Source: Report of the Seven Nutrition Surveys Conducted in Flood Affected Livelihood Zones of Malawi - Assessment Period January - February 2018"
     },
     {
       "c": "MWI",
       "y": 2019,
-      "v": 34
+      "v": 34,
+      "n": "Source: Malawi Fifth Integrated Household Survey 2019-2020"
     },
     {
       "c": "MWI",
       "y": 2020,
-      "v": 35.5
+      "v": 35.5,
+      "n": "Source: Malawi Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Zomba, Malawi: National Statistical Office"
     },
     {
       "c": "MYS",
       "y": 2016,
-      "v": 20.8
+      "v": 20.8,
+      "n": "Source: Malaysia National Health and Morbidity Survey 2016"
     },
     {
       "c": "MYS",
       "y": 2019,
-      "v": 25.5
+      "v": 25.5,
+      "n": "Source: Malaysia National Health and Morbidity Survey (NHMS) 2019"
     },
     {
       "c": "MYS",
       "y": 2022,
-      "v": 21.2
+      "v": 21.2,
+      "n": "Source: Malaysia National Health and Morbidity Survey 2022"
     },
     {
       "c": "NER",
       "y": 2016,
-      "v": 41.3
+      "v": 41.3,
+      "n": "Source: Evaluation Nationale De La Situation Nutritionnelle par la Methodologie SMART Au Niger 2016"
     },
     {
       "c": "NER",
       "y": 2018,
-      "v": 48.5
+      "v": 48.5,
+      "n": "Source: Rapport final de l'enquête nationale de nutrition avec la méthodologie SMART, 2018"
     },
     {
       "c": "NER",
       "y": 2019,
-      "v": 47.1
+      "v": 47.1,
+      "n": "Source: Enquête nationale de nutrition avec la méthodologie SMART - 2019, Niger"
     },
     {
       "c": "NER",
       "y": 2020,
-      "v": 45.3
+      "v": 45.3,
+      "n": "Source: Enquête nationale de nutrition avec la méthodologie SMART, Niger Septembre/Octobre 2020"
     },
     {
       "c": "NER",
       "y": 2021,
-      "v": 44.4
+      "v": 44.4,
+      "n": "Source: Enquête Nutritionnelle et de Mortalite Retrospective au Niger, Decembre 2021"
     },
     {
       "c": "NER",
       "y": 2022,
-      "v": 47.7
+      "v": 47.7,
+      "n": "Source: Enquete Nutritionnelle et de Mortalite Retrospective au Niger - Date de la collecte des données du 20 Août au 26 septembre 2022"
     },
     {
       "c": "NGA",
       "y": 2016,
-      "v": 43.6
+      "v": 43.6,
+      "n": "Source: Multiple Indicator Cluster Survey 2016-17, Final Report. Abuja, Nigeria: National Bureau of Statistics and United Nations Children’s Fund. 2017"
     },
     {
       "c": "NGA",
       "y": 2018,
-      "v": 36.8
+      "v": 36.8,
+      "n": "Source: Nigeria Demographic and Health Survey 2018. Abuja, Nigeria, and Rockville, Maryland, USA: NPC and ICF. 2019"
     },
     {
       "c": "NGA",
       "y": 2020,
-      "v": 31.5
+      "v": 31.5,
+      "n": "Source: Nigeria National Nutrition and Health Survey 2019"
     },
     {
       "c": "NGA",
       "y": 2021,
-      "v": 33.8
+      "v": 33.8,
+      "n": "Source: National Food Consumption and Micronutrient Survey 2021.  Final Report. Abuja and Ibadan, Nigeria: FGoN and IITA. 550 pp."
     },
     {
       "c": "NPL",
       "y": 2016,
-      "v": 35.8
+      "v": 35.8,
+      "n": "Source: Nepal Demographic and Health Survey 2016. Kathmandu, Nepal: Ministry of Health, Nepal. 2017"
     },
     {
       "c": "NPL",
       "y": 2019,
-      "v": 31.5
+      "v": 31.5,
+      "n": "Source: Nepal Multiple Indicator Cluster Survey 2019, Survey Findings Report. Kathmandu, Nepal: Central Bureau of Statistics and UNICEF Nepal."
     },
     {
       "c": "NPL",
       "y": 2022,
-      "v": 24.8
+      "v": 24.8,
+      "n": "Source: Nepal Demographic and Health Survey 2022. Kathmandu, Nepal: Ministry of Health and Population [Nepal]"
     },
     {
       "c": "NRU",
       "y": 2023,
-      "v": 15.7
+      "v": 15.7,
+      "n": "Source: Nauru Multiple Indicator Cluster Survey 2023, Survey Findings Report.  Nauru: Nauru Bureau of Statistics"
     },
     {
       "c": "OMN",
       "y": 2017,
-      "v": 11.4
+      "v": 11.4,
+      "n": "Source: Oman National Nutrition Survey 2017. Muscat, Oman, 2018"
     },
     {
       "c": "PAK",
       "y": 2018,
-      "v": 37.6
+      "v": 37.6,
+      "n": "Source: Pakistan Demographic and Health Survey 2017-18. Islamabad, Pakistan, and Rockville, Maryland, USA: NIPS and ICF"
     },
     {
       "c": "PAN",
       "y": 2019,
-      "v": 15.9
+      "v": 15.9,
+      "n": "Source: Encuesta Nacional de Salud de Panamá 2019"
     },
     {
       "c": "PER",
       "y": 2016,
-      "v": 13.1
+      "v": 13.1,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2016 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2017,
-      "v": 12.8
+      "v": 12.8,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2017 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2018,
-      "v": 12.2
+      "v": 12.2,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2018 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2019,
-      "v": 13.1
+      "v": 13.1,
+      "n": "Source: Vigilancia Alimentaria y Nutricional por etapas de vida – VIANEV 2019"
     },
     {
       "c": "PER",
       "y": 2020,
-      "v": 11.4
+      "v": 11.4,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2020 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2021,
-      "v": 11.5
+      "v": 11.5,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2021 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2022,
-      "v": 11.7
+      "v": 11.7,
+      "n": "Source: Encuesta Demográfica y de Salud Familiar-ENDES 2022 Nacional y Departamental"
     },
     {
       "c": "PER",
       "y": 2023,
-      "v": 11.5
+      "v": 11.5,
+      "n": "Source: Peru Encuesta Demográfica y de Salud Familiar-ENDES 2023 Nacional y Departamental"
     },
     {
       "c": "PHL",
       "y": 2018,
-      "v": 29.9
+      "v": 29.9,
+      "n": "Source: Philippine Nutrition Facts and Figures: 2018 Expanded National Nutrition Survey (ENNS). FNRI Bldg., DOST Compound, Gen. Santos Avenue, Bicutan, Taguig City, Metro Manila, Philippines."
     },
     {
       "c": "PHL",
       "y": 2019,
-      "v": 28.7
+      "v": 28.7,
+      "n": "Source: Philippines 2019 Expanded National Nutrition Survey (ENNS)"
     },
     {
       "c": "PHL",
       "y": 2021,
-      "v": 26.7
+      "v": 26.7,
+      "n": "Source: Philippines 2021 Expanded National Nutritional Survey"
     },
     {
       "c": "POL",
       "y": 2018,
-      "v": 1
+      "v": 1,
+      "n": "Source: Narodowego Programu Zdrowia, 2017-2019"
     },
     {
       "c": "PRK",
       "y": 2017,
-      "v": 19.1
+      "v": 19.1,
+      "n": "Source: DPR Korea Multiple Indicator Cluster Survey 2017, Survey Findings Report. Pyongyang, DPR Korea: Central Bureau of Statistics and UNICEF"
     },
     {
       "c": "PRT",
       "y": 2016,
-      "v": 3.2
+      "v": 3.2,
+      "n": "Source: Inquérito Alimentar Nacional e de Atividade Física, IAN-AF 2015-2016"
     },
     {
       "c": "PRY",
       "y": 2016,
-      "v": 5.6
+      "v": 5.6,
+      "n": "Source: Encuesta de Indicadores Multiples por Conglomerados MICS Paraguay 2016"
     },
     {
       "c": "PSE",
@@ -1056,192 +1263,230 @@
     {
       "c": "QAT",
       "y": 2021,
-      "v": 5.4
+      "v": 5.4,
+      "n": "Source: Health Center Data from Primary Health Care Corporation Qatar [2021 Extract]"
     },
     {
       "c": "QAT",
       "y": 2022,
-      "v": 6.3
+      "v": 6.3,
+      "n": "Source: Health Center Data from Primary Health Care Corporation Qatar [2022 Extract]"
     },
     {
       "c": "QAT",
       "y": 2023,
-      "v": 6.2
+      "v": 6.2,
+      "n": "Source: Health Center Data from Primary Health Care Corporation Qatar [2023 Extract]"
     },
     {
       "c": "RWA",
       "y": 2018,
-      "v": 34.8
+      "v": 34.8,
+      "n": "Source: Comprehensive Food Security and Vulnerability Analysis, Rwanda 2018"
     },
     {
       "c": "RWA",
       "y": 2020,
-      "v": 33.1
+      "v": 33.1,
+      "n": "Source: Rwanda Demographic and Health Survey 2019-20 Final Report. Kigali, Rwanda, and Rockville, Maryland, USA: NISR and ICF."
     },
     {
       "c": "SAU",
       "y": 2016,
-      "v": 17.1
+      "v": 17.1,
+      "n": "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2016 Extract]"
     },
     {
       "c": "SAU",
       "y": 2017,
-      "v": 17.2
+      "v": 17.2,
+      "n": "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2017 Extract]"
     },
     {
       "c": "SAU",
       "y": 2018,
-      "v": 11.6
+      "v": 11.6,
+      "n": "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2018 Extract]"
     },
     {
       "c": "SAU",
       "y": 2019,
-      "v": 13.2
+      "v": 13.2,
+      "n": "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2019 Extract]"
     },
     {
       "c": "SAU",
       "y": 2020,
-      "v": 10.8
+      "v": 10.8,
+      "n": "Source: Saudi Arabia Ministry of Health Primary Healthcare Centers sited nutritional Surveillance Program [2020 Extract]"
     },
     {
       "c": "SEN",
       "y": 2016,
-      "v": 17.1
+      "v": 17.1,
+      "n": "Source: Senegal : Enquête Démographique et de Santé Continue (EDS-Continue 2016). Rockville, Maryland, USA : ANSD et ICF"
     },
     {
       "c": "SEN",
       "y": 2017,
-      "v": 16.5
+      "v": 16.5,
+      "n": "Source: Enquête Continue du Sénégal, Cinquième Phase 2017 : Rapport de synthèse. Rockville, Maryland, USA : ANSD et ICF"
     },
     {
       "c": "SEN",
       "y": 2018,
-      "v": 18.8
+      "v": 18.8,
+      "n": "Source: Sénégal : Enquête Démographique et de Santé Continue (EDS-Continue 2018). Rockville, Maryland, USA : ANSD et ICF."
     },
     {
       "c": "SEN",
       "y": 2019,
-      "v": 17.9
+      "v": 17.9,
+      "n": "Source: Sénégal : Enquête Démographique et de Santé Continue (EDS-Continue 2019). Rockville, Maryland, USA : ANSD et ICF"
     },
     {
       "c": "SEN",
       "y": 2023,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: Enquête Démographique et de Santé Continue (Enquête Continue 2023) et Rockville, Maryland, USA : ANSD et ICF"
     },
     {
       "c": "SLE",
       "y": 2017,
-      "v": 31
+      "v": 31,
+      "n": "Source: Sierra Leone Multiple Indicator Cluster Survey 2017, Survey Findings Report. Freetown, Sierra Leone: Statistics Sierra Leone"
     },
     {
       "c": "SLE",
       "y": 2019,
-      "v": 29.5
+      "v": 29.5,
+      "n": "Source: Sierra Leone Demographic and Health Survey 2019. Freetown, Sierra Leone, and Rockville, Maryland, USA: Stats SL and ICF"
     },
     {
       "c": "SLE",
       "y": 2021,
-      "v": 26.3
+      "v": 26.3,
+      "n": "Source: Sierra Leone Nationla Nutrition Survey 2021. Freetown: UNICEF, 2021"
     },
     {
       "c": "SLV",
       "y": 2021,
-      "v": 10
+      "v": 10,
+      "n": "Source: Encuesta Nacional de Salud (ENS), El Salvador 2021.  Instituto Nacional de Salud, 2022."
     },
     {
       "c": "SRB",
       "y": 2019,
-      "v": 5.4
+      "v": 5.4,
+      "n": "Source: Serbia Multiple Indicator Cluster Survey 2019, Survey Findings Reports. Belgrade, Serbia: Statistical Office of the Republic of Serbia and UNICEF"
     },
     {
       "c": "STP",
       "y": 2019,
-      "v": 11.7
+      "v": 11.7,
+      "n": "Source: Inquérito de Indicadores Múltiplos 2019, Relatório final. São Tomé, São Tomé e Príncipe: Instituto Nacional de Estatística e Fundo das Nações Unidas para a Infância"
     },
     {
       "c": "SUR",
       "y": 2018,
-      "v": 8.3
+      "v": 8.3,
+      "n": "Source: Suriname Multiple Indicator Cluster Survey 2018, Survey Findings Report. Paramaribo, Suriname: Ministry of Social Affairs and Public Housing"
     },
     {
       "c": "SWZ",
       "y": 2021,
-      "v": 20
+      "v": 20,
+      "n": "Source: Eswatini Multiple Indicator Cluster Survey 2021-2022, Survey Findings  Report. Mbabane, Eswatini: Central Statistical Office (CSO)."
     },
     {
       "c": "TCA",
       "y": 2020,
-      "v": 4.6
+      "v": 4.6,
+      "n": "Source: Turks & Caicos Islands Multiple Indicator Cluster Survey 2019-2020, Survey  Findings Report. Grand Turk, Turks & Caicos Islands: Department of Statistics"
     },
     {
       "c": "TCD",
       "y": 2017,
-      "v": 32.1
+      "v": 32.1,
+      "n": "Source: Enquete Nationale de Nutrition chez les Enfants de 0  à 59 mois, Periode: Juillet - Août, 2017"
     },
     {
       "c": "TCD",
       "y": 2018,
-      "v": 31.9
+      "v": 31.9,
+      "n": "Source: Enquete Nationale De Nutrition et de Mortalite Retrospecive chez les Enfants et la Population Generale selon la Méthodologie SMART 2018"
     },
     {
       "c": "TCD",
       "y": 2019,
-      "v": 37.8
+      "v": 37.8,
+      "n": "Source: MICS6-Tchad, 2019, Rapport final. N’Djamena, Tchad."
     },
     {
       "c": "TCD",
       "y": 2020,
-      "v": 30.5
+      "v": 30.5,
+      "n": "Source: Rapport final de l’enquête nationale de nutrition 2020 réalisée par la méthodologie SMART"
     },
     {
       "c": "TCD",
       "y": 2021,
-      "v": 31.1
+      "v": 31.1,
+      "n": "Source: Enquete Nationale de Nutrition SMART 2021, Chad"
     },
     {
       "c": "TCD",
       "y": 2022,
-      "v": 31.9
+      "v": 31.9,
+      "n": "Source: Enquête nationale de nutrition et de mortalité retrospective SMART, Tchad 2022"
     },
     {
       "c": "TGO",
       "y": 2017,
-      "v": 23.8
+      "v": 23.8,
+      "n": "Source: MICS6 TOGO, 2017, Rapport final. Lomé, Togo"
     },
     {
       "c": "THA",
       "y": 2016,
-      "v": 10.5
+      "v": 10.5,
+      "n": "Source: Thailand Multiple Indicator Cluster Survey 2015- 2016, Final Report, NSO and UNICEF, Bangkok, 2016"
     },
     {
       "c": "THA",
       "y": 2019,
-      "v": 13.4
+      "v": 13.4,
+      "n": "Source: Thailand Multiple Indicator Cluster Survey 2019, Survey Findings Report. Bangkok, Thailand: National Statistical Office of Thailand."
     },
     {
       "c": "THA",
       "y": 2022,
-      "v": 12.4
+      "v": 12.4,
+      "n": "Source: Thailand Multiple Indicator Cluster Survey 2022, Survey Findings Report. Bangkok, Thailand: National Statistical Office of Thailand"
     },
     {
       "c": "TJK",
       "y": 2016,
-      "v": 19.6
+      "v": 19.6,
+      "n": "Source: National Micronutrient Status Survey in Tajikistan 2016"
     },
     {
       "c": "TJK",
       "y": 2017,
-      "v": 17.5
+      "v": 17.5,
+      "n": "Source: Tajikistan Demographic and Health Survey 2017. Dushanbe, Republic of Tajikistan, and Rockville, Maryland, USA: Statistical Agency under the President of the Republic of Tajikistan (SA)"
     },
     {
       "c": "TJK",
       "y": 2023,
-      "v": 13.7
+      "v": 13.7,
+      "n": "Source: Tajikistan Demographic and Health Survey 2023. Dushanbe, Republic of Tajikistan and Rockville, Maryland, USA: Agency on Statistics under the President of the Republic of Tajikistan and ICF."
     },
     {
       "c": "TKM",
       "y": 2019,
-      "v": 7.2
+      "v": 7.2,
+      "n": "Source: Multiple Indicator Cluster Survey, 2019. Survey Report. Ashgabat, Turkmenistan, State Committee for Statistics of Turkmenistan and UNICEF."
     },
     {
       "c": "TLS",
@@ -1251,167 +1496,200 @@
     {
       "c": "TON",
       "y": 2019,
-      "v": 2.2
+      "v": 2.2,
+      "n": "Source: Tonga Multiple Indicator Cluster Survey 2019, Survey Findings Report. Nuku’alofa, Tonga: Tonga Statistics Department"
     },
     {
       "c": "TUN",
       "y": 2018,
-      "v": 8.4
+      "v": 8.4,
+      "n": "Source: Enquête par grappes à indicateurs multiples (MICS), 2018, Rapport Final. Tunisie: le Ministère du Développement de l’Investissement et de la Coopération Internationale (MDICI)"
     },
     {
       "c": "TUR",
       "y": 2018,
-      "v": 6
+      "v": 6,
+      "n": "Source: 2018 Turkey Demographic and Health Survey. Hacettepe University Institute of Population Studies, T.R. Presidency of Turkey Directorate of Strategy and Budget and TÜBITAK, Ankara, Turkey."
     },
     {
       "c": "TUV",
       "y": 2019,
-      "v": 5.7
+      "v": 5.7,
+      "n": "Source: Tuvalu Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Funafuti, Tuvalu: Central Statistics Division"
     },
     {
       "c": "TZA",
       "y": 2018,
-      "v": 31.8
+      "v": 31.8,
+      "n": "Source: Tanzania National Nutrition Survey using SMART Methodology (TNNS) 2018. Dar es Salaam, Tanzania: MoHCDGEC, MoH, TFNC, NBS, OCGS, and UNICEF."
     },
     {
       "c": "TZA",
       "y": 2021,
-      "v": 32.7
+      "v": 32.7,
+      "n": "Source: Tanzania 2020-2022 National Panel Survey, Wave 5"
     },
     {
       "c": "TZA",
       "y": 2022,
-      "v": 30
+      "v": 30,
+      "n": "Source: Tanzania Demographic and Health Survey and Malaria Indicator Survey 2022 Final Report. Dodoma, Tanzania, and Rockville, Maryland, USA: MoH, NBS, OCGS, and ICF."
     },
     {
       "c": "UGA",
       "y": 2016,
-      "v": 28.9
+      "v": 28.9,
+      "n": "Source: Uganda Demographic and Health Survey 2016. Kampala, Uganda and Rockville, Maryland, USA: UBOS and ICF. 2018"
     },
     {
       "c": "UGA",
       "y": 2018,
-      "v": 23.9
+      "v": 23.9,
+      "n": "Source: Uganda National Panel Survey 2018-2019"
     },
     {
       "c": "UGA",
       "y": 2020,
-      "v": 25.4
+      "v": 25.4,
+      "n": "Source: Uganda National Panel Survey 2019-2020"
     },
     {
       "c": "UGA",
       "y": 2022,
-      "v": 24.4
+      "v": 24.4,
+      "n": "Source: Uganda Demographic and Health Survey 2022. Kampala, Uganda: UBOS. 2023"
     },
     {
       "c": "URY",
       "y": 2016,
-      "v": 10.8
+      "v": 10.8,
+      "n": "Source: Encuesta de Nutrición, Desarrollo Infantil y Salud 2015-2016, Informe de la Segunda ronda  Mayo de 2018"
     },
     {
       "c": "URY",
       "y": 2018,
-      "v": 6.9
+      "v": 6.9,
+      "n": "Source: Encuesta de Nutrición, Desarrollo Infantil y Salud (ENDIS), Tercera Ola Uruguay 2018"
     },
     {
       "c": "USA",
       "y": 2016,
-      "v": 3.5
+      "v": 3.5,
+      "n": "Source: United States National Health and Nutrition Examination Survey 2015-2016. Hyattsville, United States: National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC)."
     },
     {
       "c": "USA",
       "y": 2018,
-      "v": 3.4
+      "v": 3.4,
+      "n": "Source: United States National Health and Nutrition Examination Survey 2017-2018. Hyattsville, United States: National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC)"
     },
     {
       "c": "USA",
       "y": 2022,
-      "v": 3.8
+      "v": 3.8,
+      "n": "Source: United States National Health and Nutrition Examination Survey August 2021- August 2023. Hyattsville, United States: National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC)"
     },
     {
       "c": "UZB",
       "y": 2017,
-      "v": 10.8
+      "v": 10.8,
+      "n": "Source: Uzbekistan 2017 Nutrition Survey, Tashkent, Uzbekistan, UNICEF 2019"
     },
     {
       "c": "UZB",
       "y": 2021,
-      "v": 6.5
+      "v": 6.5,
+      "n": "Source: 2021-2022 Uzbekistan Multiple Indicator Cluster Survey, Survey Findings Report. Republic of Uzbekistan,  Tashkent: State Committee of the Republic of Uzbekistan on Statistics and United Nations Children’s Fund  (UNICEF)"
     },
     {
       "c": "VNM",
       "y": 2016,
-      "v": 24.3
+      "v": 24.3,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2016"
     },
     {
       "c": "VNM",
       "y": 2017,
-      "v": 23.8
+      "v": 23.8,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2017"
     },
     {
       "c": "VNM",
       "y": 2018,
-      "v": 23.2
+      "v": 23.2,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2018"
     },
     {
       "c": "VNM",
       "y": 2019,
-      "v": 22.4
+      "v": 22.4,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2019"
     },
     {
       "c": "VNM",
       "y": 2020,
-      "v": 19.5
+      "v": 19.5,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2020"
     },
     {
       "c": "VNM",
       "y": 2022,
-      "v": 18.9
+      "v": 18.9,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2022"
     },
     {
       "c": "VNM",
       "y": 2023,
-      "v": 18.2
+      "v": 18.2,
+      "n": "Source: Viet Nam National Nutrition Surveillance Network, 2023"
     },
     {
       "c": "WSM",
       "y": 2019,
-      "v": 7.3
+      "v": 7.3,
+      "n": "Source: Samoa Demographic and Health – Multiple Indicator Cluster Survey 2019-20, Survey Findings Report. Apia, Samoa: Samoa Bureau of Statistics."
     },
     {
       "c": "YEM",
       "y": 2021,
-      "v": 45.1
+      "v": 45.1,
+      "n": "Source: The Report of Nutrition and Mortality Surveys conducted between August 2021 and January 2022 following SMART Methodology"
     },
     {
       "c": "YEM",
       "y": 2022,
-      "v": 48.5
+      "v": 48.5,
+      "n": "Source: Yemen Multiple Indicator Cluster  Survey 2022-2023, Survey Findings Report. Yemen: Central Statistical Organization and United Nations Children’s Fund."
     },
     {
       "c": "ZAF",
       "y": 2016,
-      "v": 27.4
+      "v": 27.4,
+      "n": "Source: South Africa Demographic and Health Survey 2016. Pretoria, South Africa, and Rockville, Maryland, USA: NDoH, Stats SA, SAMRC, and ICF"
     },
     {
       "c": "ZAF",
       "y": 2017,
-      "v": 21.3
+      "v": 21.3,
+      "n": "Source: South Africa National Income Dynamics Study 2017, Wave 5"
     },
     {
       "c": "ZMB",
       "y": 2018,
-      "v": 34.6
+      "v": 34.6,
+      "n": "Source: Zambia Demographic and Health Survey 2018. Lusaka, Zambia, and Rockville, Maryland, USA: Zambia Statistics Agency, Ministry of Health, and ICF"
     },
     {
       "c": "ZWE",
       "y": 2019,
-      "v": 23.5
+      "v": 23.5,
+      "n": "Source: Zimbabwe Multiple Indicator  Cluster Survey 2019, Survey Findings Report. Harare, Zimbabwe: ZIMSTAT and UNICEF"
     },
     {
       "c": "ZWE",
       "y": 2024,
-      "v": 25.9
+      "v": 25.9,
+      "n": "Source: Zimbabwe 2024 Rural Livelihoods Assessment Report and Zimbabwe 2024 Urban Nutrition Assessment Report"
     }
   ]
 }

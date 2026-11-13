@@ -40,3 +40,13 @@ export const rankPath = (id: string) => resolve(PROCESSED_DIR, 'ranks', `${id}.j
 export const latestPath = () => resolve(PROCESSED_DIR, 'latest.json');
 /** Hand-checked official goals (data/targets.json). */
 export const targetsPath = () => resolve(ROOT, 'data', 'targets.json');
+/** WDI special notes for every country (compact copy), for the country picker's caveats. */
+export const countryNotesPath = () => resolve(RAW_DIR, 'countries.notes.json');
+/** Every country's latest value in the last 10 years, for one measure (the country picker). */
+export const worldPath = (id: string) => resolve(PROCESSED_DIR, 'world', `${id}.json`);
+/** Bangladesh's full history for one measure ("Bangladesh over time"). */
+export const trendPath = (id: string) => resolve(PROCESSED_DIR, 'trend', `${id}.json`);
+/** What "The full picture" shows before a measure is opened: latest records and medians only. */
+export const detailsPath = () => resolve(PROCESSED_DIR, 'details.json');
+/** Hand-checked events for "Bangladesh over time" (shown only once approved). */
+export const eventsPath = () => resolve(ROOT, 'data', 'events.json');

@@ -8,83 +8,60 @@
 // line, position badge and formula, world rank, source lines) and the area's status count
 // (a count of facts, not a score). The measures rise in one after another once it has opened.
 // Escape or "Back to the summary" closes it. Loaded only when first needed (R10).
-import { useCallback, useEffect, useLayoutEffect, useRef } from 'react';
+//
+// Each measure has two buttons (Milestone 5, DECISIONS.md 87): "Compare with other countries"
+// and "Bangladesh over time". Each opens on top of this view, from the measure's tile, with the
+// same sideways animation; its own data loads only then (DECISIONS.md 89).
+import { lazy, Suspense, useCallback, useRef, useState } from 'react';
 import { position } from '../data/compare.ts';
-import { COUNTRIES, MEDIANS, RECORDS, indicatorMeta } from '../data/all.ts';
+import { COUNTRIES, MEDIANS, RECORDS, compareIdFor, indicatorMeta } from '../data/details.ts';
 import type { AreaConfig } from '../data/dashboard.ts';
 import type { LatestFile, LatestPoint } from '../data/types.ts';
 import { t, type Lang } from '../i18n/index.ts';
+import { indicatorName } from '../lib/display.ts';
 import { formatNumber } from '../lib/format.ts';
+import { clipOf, useSideways, type Origin } from '../lib/useSideways.ts';
+import { Loading } from './Loading.tsx';
+import type { MeasureMode } from './measure/MeasureView.tsx';
 import { AreaIcon } from './Motifs.tsx';
 import { Tile } from './Tile.tsx';
+
+const MeasureView = lazy(() => import('./measure/MeasureView.tsx').then((m) => ({ default: m.MeasureView })));
 
 interface Props {
   lang: Lang;
   area: AreaConfig;
   latest: LatestFile;
   /** The clicked tile's place inside the four-tile area (px from each edge), or null. */
-  origin: { top: number; right: number; bottom: number; left: number } | null;
+  origin: Origin | null;
   onClose: () => void;
 }
 
-const OPEN_MS = 640;
-const CLOSE_MS = 420;
-const SOOTHE = 'cubic-bezier(.22, 1, .36, 1)';
-const RADIUS = 14;
-
-const clip = (o: { top: number; right: number; bottom: number; left: number }) =>
-  `inset(${o.top}px ${o.right}px ${o.bottom}px ${o.left}px round ${RADIUS}px)`;
-const FULL = `inset(0px 0px 0px 0px round ${RADIUS}px)`;
-
-/** Wide layout (tiles side by side or 2 × 2): the panel covers the tiles and can widen from one. */
-const overlays = () => window.matchMedia?.('(min-width: 900px)').matches ?? false;
-const reduced = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
-
 export function DetailsPanel({ lang, area, latest, origin, onClose }: Props) {
   const ref = useRef<HTMLElement>(null);
-  const closing = useRef(false);
+  const [measure, setMeasure] = useState<{ id: string; mode: MeasureMode; origin: Origin | null; from: HTMLElement } | null>(null);
+  // While a measure's view is open, Escape belongs to it.
+  const requestClose = useSideways(ref, origin, onClose, measure !== null);
 
-  // Open: from the tile's strip to the full width (top and bottom stay where they are).
-  useLayoutEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    el.focus({ preventScroll: true });
-    if (reduced()) return;
-    if (origin && overlays() && typeof el.animate === 'function') {
-      el.animate([{ clipPath: clip(origin) }, { clipPath: FULL }], { duration: OPEN_MS, easing: SOOTHE });
-    } else if (typeof el.animate === 'function') {
-      el.animate([{ opacity: 0, transform: 'translateX(-24px)' }, { opacity: 1, transform: 'none' }], { duration: OPEN_MS, easing: SOOTHE });
+  const openMeasure = useCallback((id: string, mode: MeasureMode, button: HTMLElement) => {
+    const panel = ref.current;
+    const tile = button.closest<HTMLElement>('.details__item');
+    let from: Origin | null = null;
+    if (panel && tile) {
+      // The tile's place inside the panel's box (which the measure view covers exactly).
+      const p = panel.getBoundingClientRect();
+      const r = tile.getBoundingClientRect();
+      const top = Math.max(0, r.top - p.top);
+      const bottom = Math.max(0, p.bottom - r.bottom);
+      from = { top, right: Math.max(0, p.right - r.right), bottom, left: Math.max(0, r.left - p.left) };
     }
-  }, [origin]);
-
-  // Close: shrink back into the tile, then hand control back.
-  const requestClose = useCallback(() => {
-    const el = ref.current;
-    if (closing.current) return;
-    closing.current = true;
-    if (!el || reduced() || typeof el.animate !== 'function') return onClose();
-    el.classList.add('is-closing');
-    const anim =
-      origin && overlays()
-        ? el.animate([{ clipPath: FULL }, { clipPath: clip(origin) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
-        : el.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-24px)' }], { duration: CLOSE_MS, easing: 'ease-in', fill: 'forwards' });
-    // Finish once, whichever comes first: the animation's end, or a timer (animations pause
-    // in hidden tabs, and the panel must still close).
-    let done = false;
-    const finish = () => {
-      if (done) return;
-      done = true;
-      onClose();
-    };
-    anim.onfinish = finish;
-    window.setTimeout(finish, CLOSE_MS + 120);
-  }, [origin, onClose]);
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && requestClose();
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [requestClose]);
+    setMeasure({ id, mode, origin: from, from: button });
+  }, []);
+  const closeMeasure = useCallback(() => {
+    const back = measure?.from;
+    setMeasure(null);
+    if (back) requestAnimationFrame(() => back.focus({ preventScroll: true }));
+  }, [measure]);
 
   const ids = [area.headline, ...area.more];
   const positions = ids
@@ -94,10 +71,13 @@ export function DetailsPanel({ lang, area, latest, origin, onClose }: Props) {
   const n = (v: number) => formatNumber(v, lang, 0);
 
   return (
+    <>
     <section
       ref={ref}
       tabIndex={-1}
-      className={`details details--${area.icon}`}
+      className={`details details--${area.icon}${measure ? ' is-covered' : ''}`}
+      aria-hidden={measure ? true : undefined}
+      inert={measure ? true : undefined}
       aria-labelledby={`details-${area.icon}`}
     >
       <header className="details__head">
@@ -129,6 +109,16 @@ export function DetailsPanel({ lang, area, latest, origin, onClose }: Props) {
           const cmpMeta = cmpId ? indicatorMeta(cmpId) : undefined;
           return (
             <div key={id} className="details__item" style={{ ['--i' as string]: i }}>
+              <div className="details__views" role="group" aria-label={t(lang, 'measure.views', { name: indicatorName(id, lang) })}>
+                {compareIdFor(meta) && (
+                  <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'compare', e.currentTarget)}>
+                    {t(lang, 'measure.compare')}
+                  </button>
+                )}
+                <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'trend', e.currentTarget)}>
+                  {t(lang, 'measure.trend')}
+                </button>
+              </div>
               <Tile
                 lang={lang}
                 meta={meta}
@@ -146,5 +136,25 @@ export function DetailsPanel({ lang, area, latest, origin, onClose }: Props) {
         })}
       </div>
     </section>
+      {measure && (
+        <Suspense
+          fallback={
+            <div className="details measure" style={measure.origin ? { clipPath: clipOf(measure.origin) } : undefined}>
+              <Loading lang={lang} />
+            </div>
+          }
+        >
+          <MeasureView
+            key={`${measure.id}-${measure.mode}`}
+            lang={lang}
+            meta={indicatorMeta(measure.id)!}
+            mode={measure.mode}
+            target={latest.indicators[measure.id]?.target ?? null}
+            origin={measure.origin}
+            onClose={closeMeasure}
+          />
+        </Suspense>
+      )}
+    </>
   );
 }

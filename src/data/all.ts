@@ -6,7 +6,7 @@ import countriesJson from '../../data/processed/countries.json';
 import indicatorsJson from '../../data/processed/indicators.json';
 
 const records = import.meta.glob<DataRecord[]>(
-  ['../../data/processed/*.json', '!**/countries.json', '!**/indicators.json', '!**/meta.json'],
+  ['../../data/processed/*.json', '!**/countries.json', '!**/indicators.json', '!**/meta.json', '!**/latest.json', '!**/details.json'],
   { eager: true, import: 'default' },
 );
 const medians = import.meta.glob<MedianRecord[]>('../../data/processed/median/*.json', { eager: true, import: 'default' });

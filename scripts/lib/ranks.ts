@@ -4,6 +4,7 @@
 // (1, 2, 2, 4). Nothing is filled in: a country with no value that year is simply not counted.
 import type { CountryInfo, RankDetail } from '../../src/data/types.ts';
 import { COUNTRY, type IndicatorConfig } from '../indicators.ts';
+import { rankHighestFirst } from '../../src/data/picker.ts';
 import type { RawResponse } from './worldbank.ts';
 
 /** One published value (compact copy of the World Bank answer for all countries, recent years). */
@@ -11,6 +12,8 @@ export interface CompactRow {
   c: string;
   y: number;
   v: number;
+  /** The publisher's footnote for this value, word for word (absent when there is none). */
+  n?: string;
 }
 
 /** The saved copy (data/raw/<CODE>.all.json): request, date, and every non-empty value. */
@@ -26,6 +29,7 @@ interface WbRow {
   countryiso3code: string;
   date: string;
   value: number | null;
+  footnote?: string;
 }
 
 /** Turns the page answers into the compact copy. Checks pages add up, like normalise does. */
@@ -40,27 +44,18 @@ export function compactAll(config: IndicatorConfig, raw: RawResponse): AllCountr
   for (const r of rows) {
     if (r.indicator.id !== config.code) throw new Error(`${config.code} all countries: unexpected row for ${r.indicator.id}`);
     if (r.value === null || !r.countryiso3code) continue;
-    out.push({ c: r.countryiso3code, y: Number(r.date), v: r.value });
+    const note = r.footnote?.trim() ? r.footnote : undefined;
+    out.push({ c: r.countryiso3code, y: Number(r.date), v: r.value, ...(note ? { n: note } : {}) });
   }
   out.sort((a, b) => a.c.localeCompare(b.c) || a.y - b.y);
   return { request_url: raw.request_url, retrieved_at: raw.retrieved_at, total_rows: total, rows: out };
 }
 
-/** Competition ranking, highest value first. */
 /** A global rank is shown only if at least this many countries have a value for that year. */
 export const MIN_RANKED = 20;
 
-export function rankHighestFirst(values: { country: string; value: number }[]) {
-  const sorted = [...values].sort((a, b) => b.value - a.value || a.country.localeCompare(b.country));
-  let lastValue = Number.NaN;
-  let lastRank = 0;
-  return sorted.map((v, i) => {
-    const rank = v.value === lastValue ? lastRank : i + 1;
-    lastValue = v.value;
-    lastRank = rank;
-    return { ...v, rank };
-  });
-}
+// One ranking rule for the whole site: the same function the charts use.
+export { rankHighestFirst };
 
 export function buildRank(
   config: IndicatorConfig,

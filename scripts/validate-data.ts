@@ -8,9 +8,11 @@ import { SOURCE_KEYS } from '../src/data/sources.ts';
 import { hasKey } from '../src/i18n/index.ts';
 import { COUNTRY, DEFAULT_PEERS, INDICATORS, MEDIAN_GROUP } from './indicators.ts';
 import { EXTERNAL } from './lib/external.ts';
-import { ROOT, countriesPath, indicatorsPath, latestPath, medianPath, metaPath, processedPath, rankPath, readJson, targetsPath } from './lib/files.ts';
+import { ROOT, countriesPath, detailsPath, eventsPath, indicatorsPath, latestPath, medianPath, metaPath, processedPath, rankPath, readJson, targetsPath, trendPath, worldPath } from './lib/files.ts';
 import { rankHighestFirst, validateRank } from './lib/ranks.ts';
 import { validateMedians, validateRecords, validateTargets } from './lib/validate.ts';
+import { buildTrend, validateEvents, validateWorld } from './lib/world.ts';
+import type { EventsFile, WorldFile } from '../src/data/types.ts';
 
 const problems: string[] = [];
 const countriesBn = JSON.parse(readFileSync(resolve(ROOT, 'src/i18n/countries.bn.json'), 'utf8')) as Record<string, string>;
@@ -18,8 +20,8 @@ const countriesBn = JSON.parse(readFileSync(resolve(ROOT, 'src/i18n/countries.bn
 const countries = readJson<CountriesFile>(countriesPath());
 if (!countries) problems.push('data/processed/countries.json is missing');
 const groupIds = new Set(countries?.countries.filter((c) => c.income_group === MEDIAN_GROUP).map((c) => c.id) ?? []);
-// Every country the site can name (shown, or an input to the median) needs a Bangla name.
-for (const id of new Set([COUNTRY, ...DEFAULT_PEERS, ...groupIds])) {
+// Every country the site can name needs a Bangla name: any country can be picked (M5).
+for (const id of new Set([COUNTRY, ...DEFAULT_PEERS, ...groupIds, ...(countries?.countries.map((c) => c.id) ?? [])])) {
   if (!countriesBn[id]?.trim()) problems.push(`src/i18n/countries.bn.json: no Bangla name for ${id}`);
 }
 
@@ -38,6 +40,19 @@ for (const config of INDICATORS) {
   }
   for (const note of new Set(records.flatMap((r) => r.notes))) {
     if (!matchNote(note)) problems.push(`${config.id}: note has no translation in src/data/notes.ts: "${note.slice(0, 100)}…"`);
+  }
+  // Milestone 5 files: Bangladesh's history, and every country's latest value.
+  const trend = readJson<DataRecord[]>(trendPath(config.id));
+  if (!trend) problems.push(`${config.id}: data/processed/trend/${config.id}.json is missing`);
+  else if (JSON.stringify(trend) !== JSON.stringify(buildTrend(records))) problems.push(`${config.id}: trend file does not match the data file`);
+  if (config.scope === 'compare') {
+    const world = readJson<WorldFile>(worldPath(config.id));
+    if (!world) problems.push(`${config.id}: data/processed/world/${config.id}.json is missing`);
+    else {
+      problems.push(...validateWorld(config, world, records));
+      if (world.unit !== config.unit) problems.push(`${config.id} world: unit "${world.unit}" but expected "${config.unit}"`);
+      if (!(world.source_name in SOURCE_KEYS)) problems.push(`${config.id} world: source "${world.source_name}" has no translated name`);
+    }
   }
   if (config.scope === 'compare') {
     const medians = readJson<MedianRecord[]>(medianPath(config.id));
@@ -95,6 +110,11 @@ for (const t of targets) if (!hasKey(t.label_key)) problems.push(`targets.json $
 const latest = readJson<LatestFile>(latestPath());
 if (!latest) problems.push('data/processed/latest.json is missing');
 else for (const m of metas) if (!latest.indicators[m.id]) problems.push(`latest.json: no entry for ${m.id}`);
+
+if (!readJson(detailsPath())) problems.push('data/processed/details.json is missing');
+const events = readJson<EventsFile>(eventsPath());
+if (!events) problems.push('data/events.json is missing');
+else problems.push(...validateEvents(events));
 
 const meta = readJson<DataMeta>(metaPath());
 if (!meta) problems.push('data/processed/meta.json is missing');

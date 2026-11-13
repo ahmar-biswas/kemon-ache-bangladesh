@@ -1,0 +1,1885 @@
+{
+  "indicator_id": "gdp_pc_growth",
+  "code": "NY.GDP.PCAP.KD.ZG",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.KD.ZG",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.PCAP.KD.ZG?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "ABW",
+      "year": 2024,
+      "value": 6.18175077559285,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AW"
+    },
+    {
+      "country": "AFG",
+      "year": 2024,
+      "value": -0.975915304703463,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: March 20). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY).\n\nIn addition, the World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1960-2006. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2025,
+      "value": 0.0844684076458151,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1994-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2025,
+      "value": 5.00582719956736,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2025,
+      "value": 2.65776092136174,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2024,
+      "value": -0.766014064229807,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2025,
+      "value": 4.01402236988311,
+      "notes": [
+        "Due to the limitations of the Atlas method in classifying countries experiencing persistent high inflation, this economy remains classified as upper-middle-income.\nThe World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1971-2018. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2025,
+      "value": 5.35238280364143,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AM"
+    },
+    {
+      "country": "ASM",
+      "year": 2022,
+      "value": 3.59327606262792,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AS"
+    },
+    {
+      "country": "ATG",
+      "year": 2025,
+      "value": 4.51099369921818,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2025,
+      "value": -0.191544720344581,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2025,
+      "value": 0.285965556994498,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 13.7603 Austrian schilling. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2025,
+      "value": 1.01259270392453,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2025,
+      "value": 1.7611109501225,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1983-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2025,
+      "value": 0.279800186935191,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Belgian franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2025,
+      "value": 5.5081087133525,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2025,
+      "value": 2.99493943486739,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2025,
+      "value": 2.23843076756387,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2025,
+      "value": 3.22647677659302,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2026: 1 euro = 1.95583 Bulgarian Lev. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2025,
+      "value": 2.72509987815381,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2024,
+      "value": 2.90387123462988,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2025,
+      "value": 2.91433522626807,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2025,
+      "value": 1.819968531776,
+      "notes": [
+        "Data before 2015 were adjusted to reflect the new denomination effective from July 1, 2016 (BYN), a decrease of 10,000 times (1 BYN = 10,000 BYR)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2025,
+      "value": 1.32658870222943,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BZ"
+    },
+    {
+      "country": "BMU",
+      "year": 2024,
+      "value": 1.98596161949381,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BM"
+    },
+    {
+      "country": "BOL",
+      "year": 2025,
+      "value": -2.90063448441337,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2025,
+      "value": 1.89458783745351,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2025,
+      "value": 2.64331268678124,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2025,
+      "value": -0.109535164452723,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2025,
+      "value": 7.30576455805061,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2025,
+      "value": -2.32173162960181,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2025,
+      "value": 1.03862629845366,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2025,
+      "value": 0.791681826896635,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2025,
+      "value": 0.332425570126517,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CH"
+    },
+    {
+      "country": "CHI",
+      "year": 2023,
+      "value": 3.42060523333167,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=JG"
+    },
+    {
+      "country": "CHL",
+      "year": 2025,
+      "value": 1.96836668792395,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2025,
+      "value": 5.13829164139675,
+      "notes": [
+        "On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong, and on 20 December 1999, China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China.\n\nThe World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1978-1993. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2025,
+      "value": 3.96926488985672,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2025,
+      "value": 0.590263610869485,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2025,
+      "value": 2.42596784907103,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1999-2004. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2025,
+      "value": 0.674917226843235,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2025,
+      "value": 1.60595920382266,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2025,
+      "value": 1.84834438727457,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2025,
+      "value": 5.80332221747327,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2025,
+      "value": 4.09282266939263,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2024,
+      "value": -0.699961142159495,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CU"
+    },
+    {
+      "country": "CUW",
+      "year": 2024,
+      "value": 4.14273671054548,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CW"
+    },
+    {
+      "country": "CYM",
+      "year": 2024,
+      "value": 1.77902437118955,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KY"
+    },
+    {
+      "country": "CYP",
+      "year": 2025,
+      "value": 2.3484337138903,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.585274 Cyprus pounds. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2025,
+      "value": 2.75148320535214,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2025,
+      "value": 0.270006343901656,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 1.95583 Deutsche Mark. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries. GDP data before 1991 are calculated by applying backward GDP growth rates of the former Federal Republic of Germany starting from the first official GDP value for the unified Germany (1991)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2025,
+      "value": 5.11452662845488,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2025,
+      "value": 3.57496672818243,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2025,
+      "value": 2.3772870123953,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2025,
+      "value": 1.293661274082,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2025,
+      "value": 2.45643243285815,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2025,
+      "value": 2.85021075952048,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2025,
+      "value": 2.78005160543854,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30) for the years 1980 and after. The data from 1973 to 1979 refer to the calendar year data. Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY).\n\nIn addition, the World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1965-2021. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors.\n\nThe national accounts data for Egypt has been updated to reflect local constant prices in the year 2022, moving from the previous reference of 2017."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=EG"
+    },
+    {
+      "country": "ESP",
+      "year": 2025,
+      "value": 1.77013824549053,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 166.386 Spanish peseta. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2025,
+      "value": 1.01609649856567,
+      "notes": [
+        "The following irrevocable euro conversion rate entered into force on January 1, 2011: 1 euro = 15.6466 Estonian kroon. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2025,
+      "value": 7.00658189199632,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: July 7). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY). The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated by using an inflation-adjustment method. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 2015-2024. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2025,
+      "value": -0.297135625498385,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 5.94573 Finnish markka. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2025,
+      "value": 2.7121998383011,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2025,
+      "value": 0.593421268268841,
+      "notes": [
+        "The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 6.55957 French franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=FR"
+    },
+    {
+      "country": "FRO",
+      "year": 2024,
+      "value": 0.397081062964816,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=FO"
+    },
+    {
+      "country": "FSM",
+      "year": 2025,
+      "value": 0.597667410706975,
+      "notes": [
+        "Fiscal year ends on September 30; reporting period for national accounts data: FY. The source for national accounts data is the Pacific and Virgin Islands Training Initiative."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2025,
+      "value": 0.331924216765373,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2025,
+      "value": 1.08786759604824,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2025,
+      "value": 4.09646855399109,
+      "notes": [
+        "Includes self-governed areas only, which mostly exclude Abkhazia and South Ossetia, but small areas in Abkhazia and South Ossetia are included before 2008 or 2009 because of the changes in self-governed areas."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2025,
+      "value": 4.03001049809495,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1974-1987. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2025,
+      "value": 4.9925479076793,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2025,
+      "value": 3.56273284761694,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2025,
+      "value": 3.55252971991914,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2025,
+      "value": -8.07696238295122,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2025,
+      "value": 1.9865406569992,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 340.75 Greek drachma. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2025,
+      "value": 4.32655990102558,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GD"
+    },
+    {
+      "country": "GRL",
+      "year": 2023,
+      "value": 0.504111002291438,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GL"
+    },
+    {
+      "country": "GTM",
+      "year": 2025,
+      "value": 2.70911437104778,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1985-2003. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GT"
+    },
+    {
+      "country": "GUM",
+      "year": 2022,
+      "value": 4.17726586538778,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GU"
+    },
+    {
+      "country": "GUY",
+      "year": 2025,
+      "value": 18.6366832712208,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=GY"
+    },
+    {
+      "country": "HKG",
+      "year": 2025,
+      "value": 3.83541836993533,
+      "notes": [
+        "On 1 July 1997 China resumed its exercise of sovereignty over Hong Kong. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China. Agriculture value added includes mining and quarrying."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=HK"
+    },
+    {
+      "country": "HND",
+      "year": 2025,
+      "value": 2.05319699380316,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1988-1989. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2025,
+      "value": 3.1363113364947,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2023: 1 euro = 7.53450 Croatian kuna. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2025,
+      "value": -3.80407652802471,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: September 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2025,
+      "value": 1.01465440483528,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2025,
+      "value": 4.28652455694656,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY. Data for Indonesia include Timor-Leste through 1999 unless otherwise noted."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ID"
+    },
+    {
+      "country": "IMN",
+      "year": 2023,
+      "value": -2.0736556737203,
+      "notes": [
+        "Classification for years after 2012 was adjusted and figures were re-estimated by the World Bank, based on the detailed data published by the Cabinet Office, and are not consistent with data for 2011 and before."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IM"
+    },
+    {
+      "country": "IND",
+      "year": 2025,
+      "value": 6.6165688365585,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: March 31). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2025,
+      "value": 10.5232551843197,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 0.787564 Irish pound. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2025,
+      "value": -3.71965760617967,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: March 20). Also, the World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to 1972-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2025,
+      "value": -4.19241534132514,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2025,
+      "value": -0.242811566226194,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2025,
+      "value": 1.70485885012617,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2025,
+      "value": 0.602806059262818,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 1936.27 Italian lira. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2025,
+      "value": 0.155655214064467,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2025,
+      "value": 3.11393458304539,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2025,
+      "value": 1.69235502736154,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2025,
+      "value": 5.21659445318726,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2025,
+      "value": 2.63289431353732,
+      "notes": [
+        "Fiscal year end: June 30; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2025,
+      "value": 9.26239975435819,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2025,
+      "value": 4.11461115788671,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1963-2004. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2025,
+      "value": 2.71735255722947,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2025,
+      "value": 2.51569342755708,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2025,
+      "value": 1.13698114634992,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2025,
+      "value": 3.40677373406191,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2025,
+      "value": 3.16696670840642,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1960-2020. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2024,
+      "value": -7.59953414966085,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1984-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2025,
+      "value": 2.84724354890147,
+      "notes": [
+        "National accounts data are provided in the US dollar."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2025,
+      "value": 12.1932042706465,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2025,
+      "value": -0.797598585137095,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2025,
+      "value": 5.72529222294247,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2025,
+      "value": 0.864833753647872,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2025,
+      "value": 2.90240527639017,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2015: 1 euro = 3.45280 Lithuanian litas. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2025,
+      "value": -0.820922037442116,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 40.3399 Luxembourg franc. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2025,
+      "value": 3.1515721924612,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2014: 1 euro = 0.702804 Latvian lats. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries. Based on data from EUROSTAT, the new reference year is 2010."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=LV"
+    },
+    {
+      "country": "MAC",
+      "year": 2025,
+      "value": 4.83893143027348,
+      "notes": [
+        "On 20 December 1999 China resumed its exercise of sovereignty over Macao. Unless otherwise noted, data for China do not include data for Hong Kong SAR, China; Macao SAR, China; or Taiwan, China."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MO"
+    },
+    {
+      "country": "MAF",
+      "year": 2021,
+      "value": 11.2897229582813,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MF"
+    },
+    {
+      "country": "MAR",
+      "year": 2025,
+      "value": 3.63054771517801,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2024,
+      "value": 9.42342942977361,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2025,
+      "value": 4.22916834786508,
+      "notes": [
+        "Excluding Transnistria. For 1950-94, World Bank estimates using UN World Population Prospects' growth rates of whole Moldova."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2025,
+      "value": 0.562138075333138,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2025,
+      "value": 5.93419190830417,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2025,
+      "value": -0.26591634448161,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2025,
+      "value": 5.85210372629017,
+      "notes": [
+        "Fiscal year ends on September 30; reporting period for national accounts data: FY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2025,
+      "value": 3.6831388072964,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2025,
+      "value": 2.58125250732783,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2025,
+      "value": 2.01451484227326,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2008: 1 euro = 0.4293 Maltese lira. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries. National accounts data source from 1995 to 2015 is Eurostat; prior to 1995 is UN."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2025,
+      "value": -2.63809868547972,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: September 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY).  \n\nIn addition, the World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1960-2014. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2025,
+      "value": 2.809847957069,
+      "notes": [
+        "Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators continue to include data for Montenegro through 2005."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2025,
+      "value": 5.52100531357551,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1991-2004. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MN"
+    },
+    {
+      "country": "MNP",
+      "year": 2022,
+      "value": 18.9235637680801,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MP"
+    },
+    {
+      "country": "MOZ",
+      "year": 2025,
+      "value": -3.3149717543654,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2025,
+      "value": 1.17779889655245,
+      "notes": [
+        "National account data were adjusted to reflect the new banknote (1 new ouguiya = 10 old ouguiya)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2025,
+      "value": 3.32059861954176,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2025,
+      "value": -0.686849668516146,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2025,
+      "value": 3.94303451852645,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2025,
+      "value": -0.331679377239283,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NA"
+    },
+    {
+      "country": "NCL",
+      "year": 2024,
+      "value": -14.3184777138481,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NC"
+    },
+    {
+      "country": "NER",
+      "year": 2025,
+      "value": 3.61405715985865,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2025,
+      "value": 1.89029058621935,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to 1970-2020. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2025,
+      "value": 3.55555975864928,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1988-2006. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2025,
+      "value": 1.25483261232941,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 2.20371 Netherlands guilder. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2025,
+      "value": 0.390027440234192,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2025,
+      "value": 4.54686122541752,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: July 14). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2025,
+      "value": 1.4803088803083,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2025,
+      "value": -0.19182451888318,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2025,
+      "value": -1.57439941297214,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2025,
+      "value": 2.09334109987897,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2025,
+      "value": 3.08080357716555,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2025,
+      "value": 2.35722027667993,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1988-2009. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2025,
+      "value": 3.55914007476458,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2025,
+      "value": 6.4789352268116,
+      "notes": [
+        "Fiscal year ends on September 30; reporting period for national accounts data: FY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2025,
+      "value": 3.8092237087566,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2025,
+      "value": 3.92342277811697,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PL"
+    },
+    {
+      "country": "PRI",
+      "year": 2025,
+      "value": 0.874753321291848,
+      "notes": [
+        "Fiscal year end: June 30; reporting period for national accounts data: FY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PR"
+    },
+    {
+      "country": "PRT",
+      "year": 2025,
+      "value": 0.825647953518541,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate was adopted by the EU Council on January 1, 1999: 1 euro = 200.482 Portuguese escudo. Please note that historical data before 1999 are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2025,
+      "value": 5.36644048728706,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1982-1988. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors. Kindly note that GDP per capita and GNI per capita reported are calculated from the UN WPP data which likely creates discrepancy with the official per capita figures, calculated from the latest population census results."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2025,
+      "value": 1.94584290015811,
+      "notes": [
+        "National accounts data are provided in the US dollar."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PS"
+    },
+    {
+      "country": "PYF",
+      "year": 2024,
+      "value": 0.879141456817294,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=PF"
+    },
+    {
+      "country": "QAT",
+      "year": 2025,
+      "value": -1.05876296559582,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2025,
+      "value": 0.844739865314082,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1987-1992. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2025,
+      "value": 1.1143529548842,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2025,
+      "value": 7.0277233018782,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2025,
+      "value": -0.226897401723321,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2025,
+      "value": 0.64402105445447,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 2018-2020. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2025,
+      "value": 4.25931413755755,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2025,
+      "value": 3.74871378758077,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2025,
+      "value": 1.21441464169847,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2025,
+      "value": 2.50015605748742,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2025,
+      "value": 3.46015288359463,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2023,
+      "value": 0.0905855641196212,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SM"
+    },
+    {
+      "country": "SOM",
+      "year": 2025,
+      "value": -0.391747312911576,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1977-2017. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2025,
+      "value": 2.61201014096326,
+      "notes": [
+        "Montenegro declared independence from Serbia and Montenegro on June 3, 2006. Where available, data for each country are shown separately. However, for Serbia, some indicators, such as those series for which data appear only for Serbia and not Montenegro--e.g., aid, environment, external debt, balance of payments, various social indicators excluding population--continue to include data for Montenegro through 2005. Moreover, data from 1999 onward for Serbia for most indicators exclude data for Kosovo, 1999 being the year when Kosovo became a territory under international administration pursuant to UN Security Council Resolution 1244 (1999); any exceptions are noted. Kosovo became a World Bank member on June 29, 2009; available data are shown separately for Kosovo. In 2011, the Statistical Office of Serbia improved the methodology of national accounts data for 2003 onward. Specifically, the classification of sectors was revised."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=RS"
+    },
+    {
+      "country": "STP",
+      "year": 2025,
+      "value": -0.955477215252273,
+      "notes": [
+        "National account data were adjusted to reflect the new banknote (1 new Dobra STN = 1000 old Dobra STD)"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2025,
+      "value": 0.929600141453506,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to 1989-2021. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2025,
+      "value": 0.961148796579153,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2009: 1 euro = 30.126 Slovak koruna. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2025,
+      "value": 0.889867414583748,
+      "notes": [
+        "A simple multiplier is used to convert the national currencies of EMU members to euros. The following irrevocable euro conversion rate entered into force on January 1, 2007: 1 euro = 239.64 Slovenian tolar. Please note that historical data are not actual euros and are not comparable or suitable for aggregation across countries."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2025,
+      "value": 1.28528640204073,
+      "notes": [
+        "Fiscal year end: June 30; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2025,
+      "value": 3.08642991125257,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY. Authorities revised national accounts from 1999 to 2015."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SZ"
+    },
+    {
+      "country": "SXM",
+      "year": 2025,
+      "value": 2.0510894064613,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SX"
+    },
+    {
+      "country": "SYC",
+      "year": 2025,
+      "value": 4.61179204220666,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2022,
+      "value": -3.90490484495091,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 2011-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SY"
+    },
+    {
+      "country": "TCA",
+      "year": 2024,
+      "value": 4.87181797375062,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TC"
+    },
+    {
+      "country": "TCD",
+      "year": 2025,
+      "value": 2.04780376097817,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2025,
+      "value": 4.02034813190872,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2025,
+      "value": 2.51134361626457,
+      "notes": [
+        "Fiscal year end: September 30; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2025,
+      "value": 6.43226137350786,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2025,
+      "value": 4.56505264866701,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated by using an inflation-adjustment method. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 2019-2025. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2025,
+      "value": 5.62707069855799,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2025,
+      "value": 3.22906826550479,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2025,
+      "value": -0.746495546326813,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2025,
+      "value": 1.89995917167896,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2025,
+      "value": 3.17044473186495,
+      "notes": [
+        "Due to the limitations of the Atlas method in classifying countries experiencing persistent high inflation, this economy remains classified as upper-middle-income."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2025,
+      "value": 3.28836017215532,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2025,
+      "value": 2.89095957066445,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2025,
+      "value": 3.49725229634556,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY). In addition, the World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to 1960-2009. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2025,
+      "value": -1.32161434081765,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2025,
+      "value": 1.84184818056804,
+      "notes": [
+        "General Government final consumption expenditure includes Non-Profit Institutions Serving Households final concumption expenditure"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "value": 1.62901328272834,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2025,
+      "value": 5.68950787978028,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2025,
+      "value": 4.10818502429764,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2025,
+      "value": 1.17406663494002,
+      "notes": [
+        "National Accounts data for the period 1960–2014 are sourced from the Central Bank of Venezuela. Estimates for 2015–2024 are derived from the IMF World Economic Outlook (WEO), following methodological consultations with the IMF’s Latin America and the Caribbean (LAC) and Statistics Departments. Final estimates were reviewed by the World Bank Group's Prosperity Vertical."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=VE"
+    },
+    {
+      "country": "VIR",
+      "year": 2022,
+      "value": -0.883383819313323,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=VI"
+    },
+    {
+      "country": "VNM",
+      "year": 2025,
+      "value": 7.36938819098758,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2025,
+      "value": 0.780778397940367,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2025,
+      "value": 3.59288172853812,
+      "notes": [
+        "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=WS"
+    },
+    {
+      "country": "XKX",
+      "year": 2025,
+      "value": 4.74031521100724,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=XK"
+    },
+    {
+      "country": "YEM",
+      "year": 2018,
+      "value": -2.186490192267,
+      "notes": [
+        "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2025,
+      "value": -0.0412236373188222,
+      "notes": [
+        "Fiscal year end: March 31; reporting period for national accounts data: CY."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2025,
+      "value": 0.921973669109249,
+      "notes": [
+        "National accounts data were rebased to reflect the January 1, 2013, introduction of the new Zambian kwacha at a rate of 1,000 old kwacha = 1 new kwacha."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2025,
+      "value": 6.08867578227839,
+      "notes": [
+        "National Accounts data are reported in Zimbabwe Gold (ZIG).\nThe World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=ZW"
+    }
+  ]
+}

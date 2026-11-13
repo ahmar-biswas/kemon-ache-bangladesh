@@ -1,0 +1,1533 @@
+{
+  "indicator_id": "inflation",
+  "code": "FP.CPI.TOTL.ZG",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FP.CPI.TOTL.ZG",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/FP.CPI.TOTL.ZG?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "ABW",
+      "year": 2019,
+      "value": 4.25746204335427,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AW"
+    },
+    {
+      "country": "AFG",
+      "year": 2024,
+      "value": -6.60118564073725,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2025,
+      "value": 20.1620197572331,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2025,
+      "value": 2.14618551167387,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AL"
+    },
+    {
+      "country": "ARE",
+      "year": 2025,
+      "value": 1.250865245598,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2024,
+      "value": 219.883929014578,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2025,
+      "value": 3.30693341072903,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2025,
+      "value": 1.36873527521953,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2025,
+      "value": 2.87403791660173,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2025,
+      "value": 3.52719439956928,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2025,
+      "value": 5.62208788068338,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2025,
+      "value": 34.1339985744831,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2025,
+      "value": 2.46605755272817,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2025,
+      "value": 1.10155247902977,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2025,
+      "value": -0.586235316330578,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2025,
+      "value": 8.7687628116114,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2025,
+      "value": 4.58084355235697,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2025,
+      "value": -0.137708855447901,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2025,
+      "value": 1.10879778651364,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2025,
+      "value": 3.97821271880433,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2025,
+      "value": 6.59877945951182,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2025,
+      "value": 1.06281547952896,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2025,
+      "value": 19.5171208047329,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2025,
+      "value": 5.01675279604836,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2025,
+      "value": 0.846576563196289,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2025,
+      "value": -0.302994414446814,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2025,
+      "value": 3.55513663074987,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2025,
+      "value": 2.65985038423427,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2025,
+      "value": 1.00198012768088,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2025,
+      "value": 2.07232411149103,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2025,
+      "value": 0.154376978290185,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2025,
+      "value": 4.21294031801535,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2025,
+      "value": 0.0595646916565402,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2025,
+      "value": 0.125038772593103,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2025,
+      "value": 3.40373458279055,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2016,
+      "value": 2.88585107289988,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2025,
+      "value": 2.40069559361747,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2025,
+      "value": 5.14222911946201,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2025,
+      "value": 3.24909332306432,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2025,
+      "value": 2.34333897365162,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2025,
+      "value": -0.073671440596217,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CR"
+    },
+    {
+      "country": "CUW",
+      "year": 2019,
+      "value": 2.62220783425058,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CW"
+    },
+    {
+      "country": "CYM",
+      "year": 2016,
+      "value": -0.62525835861814,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KY"
+    },
+    {
+      "country": "CYP",
+      "year": 2025,
+      "value": 0.126528851920188,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2025,
+      "value": 2.45996367838864,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2025,
+      "value": 2.17178770949721,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2025,
+      "value": -0.31373179953348,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2025,
+      "value": 2.53385126107135,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2025,
+      "value": 1.8900606245861,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2025,
+      "value": 3.87311768048129,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2025,
+      "value": 1.41835151429016,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2025,
+      "value": 0.710469324989076,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2025,
+      "value": 14.0735136645933,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EG"
+    },
+    {
+      "country": "ESP",
+      "year": 2025,
+      "value": 2.67326741144651,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2025,
+      "value": 4.82894582449954,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2025,
+      "value": 13.2296432836808,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2025,
+      "value": 0.332787049734142,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2025,
+      "value": -1.38326833934223,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2025,
+      "value": 0.943824761520197,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2022,
+      "value": 5.40874375479066,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2025,
+      "value": 1.7676660900348,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2025,
+      "value": 3.88306881625999,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2025,
+      "value": 3.86921321939689,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2025,
+      "value": 14.2046755548989,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2025,
+      "value": 3.57096573355343,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2024,
+      "value": 11.5610532897511,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2025,
+      "value": 0.874929691038717,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2024,
+      "value": 2.92140227309103,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2025,
+      "value": 2.48162694360829,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2025,
+      "value": 0.610311975893832,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2025,
+      "value": 1.48841591086168,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2025,
+      "value": 3.32982339132475,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GY"
+    },
+    {
+      "country": "HKG",
+      "year": 2025,
+      "value": 1.43633540372673,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HK"
+    },
+    {
+      "country": "HND",
+      "year": 2025,
+      "value": 4.59657982325258,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2025,
+      "value": 3.69153459605728,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2025,
+      "value": 28.6427976686095,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2025,
+      "value": 4.41198445905566,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2025,
+      "value": 1.91333443295079,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2025,
+      "value": 2.39884954182294,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2025,
+      "value": 2.21044788475856,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2025,
+      "value": 42.1712244965444,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2025,
+      "value": 0.303454715219381,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2025,
+      "value": 4.09085056006515,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2025,
+      "value": 3.04141321556539,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2025,
+      "value": 1.5316735709312,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2025,
+      "value": 4.00459048079238,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2025,
+      "value": 1.76646490894205,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2025,
+      "value": 3.17253034260247,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2025,
+      "value": 11.3789456104214,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2025,
+      "value": 4.0693076061457,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2025,
+      "value": 8.21496013406325,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2025,
+      "value": 2.35127105896507,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2025,
+      "value": 6.51130441863551,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2023,
+      "value": 3.55711230848243,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2025,
+      "value": 2.12309421458659,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2025,
+      "value": 2.36195936682045,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2025,
+      "value": 7.74226936553694,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2025,
+      "value": 14.597595869611,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2025,
+      "value": 8.31564329402951,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2025,
+      "value": 1.84166666666702,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2025,
+      "value": 2.02709512086273,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2025,
+      "value": -4.76386036960982,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2025,
+      "value": 4.27011140706665,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2025,
+      "value": 3.79132375529774,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2025,
+      "value": 2.25723817871725,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2025,
+      "value": 3.74577316751945,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LV"
+    },
+    {
+      "country": "MAC",
+      "year": 2025,
+      "value": 0.333311677308541,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MO"
+    },
+    {
+      "country": "MAR",
+      "year": 2025,
+      "value": 0.701902154839544,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MA"
+    },
+    {
+      "country": "MDA",
+      "year": 2025,
+      "value": 7.75904124001158,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2025,
+      "value": 8.05052431791227,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2025,
+      "value": 4.00578494118751,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2025,
+      "value": 3.80957950037393,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MX"
+    },
+    {
+      "country": "MKD",
+      "year": 2025,
+      "value": 4.07249176848347,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2025,
+      "value": 3.27823540357584,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2025,
+      "value": 2.36351752252186,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2019,
+      "value": 8.82506696804558,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2025,
+      "value": 3.89921045747158,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2025,
+      "value": 8.60536487369694,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2025,
+      "value": 4.36846950146149,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2025,
+      "value": 1.54796926167072,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2025,
+      "value": 3.67359279962943,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2025,
+      "value": 28.3702565330281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2025,
+      "value": 1.38060872293691,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2025,
+      "value": 3.51074539609587,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NA"
+    },
+    {
+      "country": "NCL",
+      "year": 2016,
+      "value": 0.578317435520754,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NC"
+    },
+    {
+      "country": "NER",
+      "year": 2025,
+      "value": -4.45470804102568,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2025,
+      "value": 23.0101235833333,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2025,
+      "value": 2.08132127098375,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2025,
+      "value": 3.20363967869003,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2025,
+      "value": 3.03967027305512,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2025,
+      "value": 2.65334269811436,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NP"
+    },
+    {
+      "country": "NZL",
+      "year": 2025,
+      "value": 2.8397963180572,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2025,
+      "value": 0.967741935483927,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2025,
+      "value": 3.54555214890892,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2025,
+      "value": -0.187950146495633,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2025,
+      "value": 1.53125450314272,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2025,
+      "value": 1.6587364525509,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2025,
+      "value": -0.418410041841039,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2025,
+      "value": 4.42141364166485,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2025,
+      "value": 3.81419531520146,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PL"
+    },
+    {
+      "country": "PRT",
+      "year": 2025,
+      "value": 2.33601620316701,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2025,
+      "value": 4.0380642333938,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2025,
+      "value": 9.80840118100493,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2024,
+      "value": 1.26734310292375,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2025,
+      "value": 7.18903362292063,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2025,
+      "value": 8.71986939402666,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2025,
+      "value": 5.91300016882599,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2025,
+      "value": 2.03559944812264,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2022,
+      "value": 138.80846024176,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2025,
+      "value": 1.45900719841384,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2025,
+      "value": 0.902998495002676,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2025,
+      "value": 3.36462189317824,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2025,
+      "value": 7.48750166612985,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2025,
+      "value": 0.257570528307202,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2025,
+      "value": 2.29519525025037,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SM"
+    },
+    {
+      "country": "SRB",
+      "year": 2025,
+      "value": 3.89036786060009,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2024,
+      "value": 91.4408220769045,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2025,
+      "value": 11.0474362281814,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2025,
+      "value": 9.2054681878919,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2025,
+      "value": 4.00042823495829,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2025,
+      "value": 2.37420873927207,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2025,
+      "value": 0.679015259300199,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2019,
+      "value": 2.59801620311077,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SZ"
+    },
+    {
+      "country": "SXM",
+      "year": 2017,
+      "value": 2.19201010962985,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SX"
+    },
+    {
+      "country": "SYC",
+      "year": 2025,
+      "value": 0.297589655467555,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2019,
+      "value": 13.417565322857,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2025,
+      "value": -3.91198124406589,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2025,
+      "value": 0.433183451279108,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2025,
+      "value": -0.133634356480206,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2025,
+      "value": 3.38875846243549,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TJ"
+    },
+    {
+      "country": "TLS",
+      "year": 2025,
+      "value": 0.428322848346937,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2025,
+      "value": 5.59276642101026,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2025,
+      "value": 0.994489987904821,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2025,
+      "value": 5.15100197572676,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2025,
+      "value": 34.8811700293777,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TR"
+    },
+    {
+      "country": "TZA",
+      "year": 2025,
+      "value": 3.32697361316105,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2025,
+      "value": 3.58082784438066,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2025,
+      "value": 12.7303341026902,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2025,
+      "value": 4.65032720433323,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 2.94952520485207,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2025,
+      "value": 8.79630890491107,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2025,
+      "value": 0.815322893749171,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2016,
+      "value": 254.948534781816,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VE"
+    },
+    {
+      "country": "VNM",
+      "year": 2025,
+      "value": 3.30999314219739,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2025,
+      "value": 0.656455142231905,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2025,
+      "value": 2.2119620764675,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=WS"
+    },
+    {
+      "country": "XKX",
+      "year": 2025,
+      "value": 3.85953869869505,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=XK"
+    },
+    {
+      "country": "ZAF",
+      "year": 2025,
+      "value": 3.20550474112603,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2025,
+      "value": 13.9099095827735,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2022,
+      "value": 104.705170628667,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZW"
+    }
+  ]
+}

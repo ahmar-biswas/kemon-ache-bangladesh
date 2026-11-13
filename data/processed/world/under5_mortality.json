@@ -1,0 +1,1961 @@
+{
+  "indicator_id": "under5_mortality",
+  "code": "SH.DYN.MORT",
+  "unit": "per_1000_live_births",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org, publisher: UNICEF, WHO, World Bank, United Nations Population Division;\nWorld Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nWorld Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nUnited Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.DYN.MORT",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.DYN.MORT?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2024,
+      "value": 53,
+      "notes": [
+        "Uncertainty bound is 39.7 - 71.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2024,
+      "value": 49,
+      "notes": [
+        "Uncertainty bound is 33.3 - 75.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2024,
+      "value": 9.2,
+      "notes": [
+        "Uncertainty bound is 7.8 - 10.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2024,
+      "value": 2.5,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2024,
+      "value": 4.8,
+      "notes": [
+        "Uncertainty bound is 4.1 - 5.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2024,
+      "value": 9.5,
+      "notes": [
+        "Uncertainty bound is 8.4 - 10.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2024,
+      "value": 9.6,
+      "notes": [
+        "Uncertainty bound is 7.7 - 12.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2024,
+      "value": 9.1,
+      "notes": [
+        "Uncertainty bound is 6.4 - 13"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2024,
+      "value": 3.6,
+      "notes": [
+        "Uncertainty bound is 3.4 - 3.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2024,
+      "value": 3.3,
+      "notes": [
+        "Uncertainty bound is 3.1 - 3.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2024,
+      "value": 17.9,
+      "notes": [
+        "Uncertainty bound is 11.4 - 28.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2024,
+      "value": 47.1,
+      "notes": [
+        "Uncertainty bound is 26.7 - 81.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2024,
+      "value": 3.7,
+      "notes": [
+        "Uncertainty bound is 3.5 - 3.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2024,
+      "value": 74.7,
+      "notes": [
+        "Uncertainty bound is 55.1 - 102.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2024,
+      "value": 74.9,
+      "notes": [
+        "Uncertainty bound is 46.8 - 119.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2024,
+      "value": 30.5,
+      "notes": [
+        "Uncertainty bound is 28.6 - 33.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2024,
+      "value": 5.7,
+      "notes": [
+        "Uncertainty bound is 5.3 - 6.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2024,
+      "value": 8.8,
+      "notes": [
+        "Uncertainty bound is 7.8 - 9.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2024,
+      "value": 12.4,
+      "notes": [
+        "Uncertainty bound is 9.7 - 16"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2024,
+      "value": 6.9,
+      "notes": [
+        "Uncertainty bound is 6.2 - 7.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2024,
+      "value": 2.3,
+      "notes": [
+        "Uncertainty bound is 1.8 - 3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2024,
+      "value": 12.7,
+      "notes": [
+        "Uncertainty bound is 11.1 - 14.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2024,
+      "value": 15.7,
+      "notes": [
+        "Uncertainty bound is 11.7 - 21.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2024,
+      "value": 14.2,
+      "notes": [
+        "Uncertainty bound is 12.2 - 16.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2024,
+      "value": 9.8,
+      "notes": [
+        "Uncertainty bound is 6 - 16.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2024,
+      "value": 9.9,
+      "notes": [
+        "Uncertainty bound is 8.7 - 11.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2024,
+      "value": 17.2,
+      "notes": [
+        "Uncertainty bound is 12 - 24.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2024,
+      "value": 33.3,
+      "notes": [
+        "Uncertainty bound is 9.6 - 111"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2024,
+      "value": 89.7,
+      "notes": [
+        "Uncertainty bound is 64.8 - 123.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2024,
+      "value": 5.4,
+      "notes": [
+        "Uncertainty bound is 5.2 - 5.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2024,
+      "value": 3.9,
+      "notes": [
+        "Uncertainty bound is 3.6 - 4.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2024,
+      "value": 6.8,
+      "notes": [
+        "Uncertainty bound is 6.5 - 7.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2024,
+      "value": 5.7,
+      "notes": [
+        "Uncertainty bound is 5.2 - 6.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2024,
+      "value": 64.5,
+      "notes": [
+        "Uncertainty bound is 50.6 - 81.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2024,
+      "value": 64.8,
+      "notes": [
+        "Uncertainty bound is 46.1 - 89.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2024,
+      "value": 89.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2024,
+      "value": 39.1,
+      "notes": [
+        "Uncertainty bound is 20.2 - 76.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2024,
+      "value": 11.5,
+      "notes": [
+        "Uncertainty bound is 7.1 - 19"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2024,
+      "value": 39,
+      "notes": [
+        "Uncertainty bound is 28.6 - 52.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2024,
+      "value": 11.1,
+      "notes": [
+        "Uncertainty bound is 9.6 - 13"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2024,
+      "value": 10.4,
+      "notes": [
+        "Uncertainty bound is 9.9 - 11"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2024,
+      "value": 8.6,
+      "notes": [
+        "Uncertainty bound is 7.4 - 10.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2024,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 3.9 - 6.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2024,
+      "value": 2.6,
+      "notes": [
+        "Uncertainty bound is 2.4 - 2.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2024,
+      "value": 3.7,
+      "notes": [
+        "Uncertainty bound is 3.6 - 3.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2024,
+      "value": 48.9,
+      "notes": [
+        "Uncertainty bound is 25.4 - 92.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2024,
+      "value": 35.7,
+      "notes": [
+        "Uncertainty bound is 30.8 - 41.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2024,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3.6 - 4.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2024,
+      "value": 30.6,
+      "notes": [
+        "Uncertainty bound is 21 - 44.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2024,
+      "value": 21.6,
+      "notes": [
+        "Uncertainty bound is 19 - 24.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2024,
+      "value": 12.9,
+      "notes": [
+        "Uncertainty bound is 11.3 - 14.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2024,
+      "value": 22.4,
+      "notes": [
+        "Uncertainty bound is 16.3 - 30.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2024,
+      "value": 34.3,
+      "notes": [
+        "Uncertainty bound is 18.5 - 65.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2024,
+      "value": 3.2,
+      "notes": [
+        "Uncertainty bound is 3 - 3.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2024,
+      "value": 2,
+      "notes": [
+        "Uncertainty bound is 1.7 - 2.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2024,
+      "value": 44.5,
+      "notes": [
+        "Uncertainty bound is 31.3 - 63.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2024,
+      "value": 2.4,
+      "notes": [
+        "Uncertainty bound is 2.1 - 2.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2024,
+      "value": 29.1,
+      "notes": [
+        "Uncertainty bound is 23.6 - 35.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2024,
+      "value": 4.3,
+      "notes": [
+        "Uncertainty bound is 4.1 - 4.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2024,
+      "value": 22.4,
+      "notes": [
+        "Uncertainty bound is 9.8 - 51.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2024,
+      "value": 32.6,
+      "notes": [
+        "Uncertainty bound is 22.5 - 48.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2024,
+      "value": 4.7,
+      "notes": [
+        "Uncertainty bound is 4.4 - 4.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2024,
+      "value": 8.6,
+      "notes": [
+        "Uncertainty bound is 8.1 - 9.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2024,
+      "value": 35.9,
+      "notes": [
+        "Uncertainty bound is 27.6 - 46.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2024,
+      "value": 92.1,
+      "notes": [
+        "Uncertainty bound is 68.8 - 124.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2024,
+      "value": 42.4,
+      "notes": [
+        "Uncertainty bound is 30 - 59.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2024,
+      "value": 67.3,
+      "notes": [
+        "Uncertainty bound is 36.8 - 117.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2024,
+      "value": 68,
+      "notes": [
+        "Uncertainty bound is 35 - 128.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2024,
+      "value": 3.8,
+      "notes": [
+        "Uncertainty bound is 3.5 - 4.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2024,
+      "value": 18,
+      "notes": [
+        "Uncertainty bound is 13.7 - 23.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2024,
+      "value": 20.5,
+      "notes": [
+        "Uncertainty bound is 13.5 - 30.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2024,
+      "value": 25.2,
+      "notes": [
+        "Uncertainty bound is 13.9 - 46.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2024,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 10.4 - 21.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2024,
+      "value": 5.6,
+      "notes": [
+        "Uncertainty bound is 5 - 6.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2024,
+      "value": 52.8,
+      "notes": [
+        "Uncertainty bound is 34.2 - 82.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2024,
+      "value": 3.7,
+      "notes": [
+        "Uncertainty bound is 3.3 - 4.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2024,
+      "value": 17.7,
+      "notes": [
+        "Uncertainty bound is 14.6 - 21.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2024,
+      "value": 26.6,
+      "notes": [
+        "Uncertainty bound is 24.1 - 29.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2024,
+      "value": 3.9,
+      "notes": [
+        "Uncertainty bound is 3.3 - 4.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2024,
+      "value": 11.3,
+      "notes": [
+        "Uncertainty bound is 6.1 - 20.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2024,
+      "value": 21.8,
+      "notes": [
+        "Uncertainty bound is 14.8 - 31.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2024,
+      "value": 2.8,
+      "notes": [
+        "Uncertainty bound is 2.2 - 3.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2024,
+      "value": 3.3,
+      "notes": [
+        "Uncertainty bound is 3.1 - 3.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2024,
+      "value": 2.7,
+      "notes": [
+        "Uncertainty bound is 2.5 - 2.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2024,
+      "value": 17.8,
+      "notes": [
+        "Uncertainty bound is 16.5 - 19.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2024,
+      "value": 12.9,
+      "notes": [
+        "Uncertainty bound is 9.5 - 18.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2024,
+      "value": 2.4,
+      "notes": [
+        "Uncertainty bound is 2.4 - 2.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2024,
+      "value": 9.4,
+      "notes": [
+        "Uncertainty bound is 8.9 - 10"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2024,
+      "value": 38.8,
+      "notes": [
+        "Uncertainty bound is 31.7 - 47.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2024,
+      "value": 16.8,
+      "notes": [
+        "Uncertainty bound is 15.4 - 18.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2024,
+      "value": 18.4,
+      "notes": [
+        "Uncertainty bound is 8.6 - 39"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2024,
+      "value": 53.1,
+      "notes": [
+        "Uncertainty bound is 33 - 85.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2024,
+      "value": 15.9,
+      "notes": [
+        "Uncertainty bound is 9.7 - 25.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2024,
+      "value": 2.8,
+      "notes": [
+        "Uncertainty bound is 2.6 - 3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2024,
+      "value": 8.1,
+      "notes": [
+        "Uncertainty bound is 7.6 - 8.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2024,
+      "value": 29.4,
+      "notes": [
+        "Uncertainty bound is 21.6 - 39.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2024,
+      "value": 17.6,
+      "notes": [
+        "Uncertainty bound is 15.8 - 19.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2024,
+      "value": 86.4,
+      "notes": [
+        "Uncertainty bound is 66.1 - 108.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2024,
+      "value": 9.8,
+      "notes": [
+        "Uncertainty bound is 5.3 - 17.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2024,
+      "value": 17.2,
+      "notes": [
+        "Uncertainty bound is 14.9 - 20"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2024,
+      "value": 5.9,
+      "notes": [
+        "Uncertainty bound is 4.9 - 7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2024,
+      "value": 60,
+      "notes": [
+        "Uncertainty bound is 42.3 - 82.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2024,
+      "value": 3.4,
+      "notes": [
+        "Uncertainty bound is 2.9 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2024,
+      "value": 2.2,
+      "notes": [
+        "Uncertainty bound is 1.7 - 2.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2024,
+      "value": 2.5,
+      "notes": [
+        "Uncertainty bound is 2.1 - 3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2024,
+      "value": 15.7,
+      "notes": [
+        "Uncertainty bound is 10 - 24.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2024,
+      "value": 2.7,
+      "notes": [
+        "Uncertainty bound is 1.6 - 4.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2024,
+      "value": 16.5,
+      "notes": [
+        "Uncertainty bound is 13.3 - 22.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2024,
+      "value": 62.4,
+      "notes": [
+        "Uncertainty bound is 47.9 - 82"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2024,
+      "value": 5.4,
+      "notes": [
+        "Uncertainty bound is 4.3 - 6.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2024,
+      "value": 13.1,
+      "notes": [
+        "Uncertainty bound is 10.8 - 15.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2024,
+      "value": 26.7,
+      "notes": [
+        "Uncertainty bound is 14.6 - 48.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2024,
+      "value": 2.8,
+      "notes": [
+        "Uncertainty bound is 2.3 - 3.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2024,
+      "value": 73,
+      "notes": [
+        "Uncertainty bound is 61.3 - 85.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2024,
+      "value": 5.3,
+      "notes": [
+        "Uncertainty bound is 4.2 - 6.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2024,
+      "value": 36.9,
+      "notes": [
+        "Uncertainty bound is 22 - 60.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2024,
+      "value": 2.4,
+      "notes": [
+        "Uncertainty bound is 2 - 2.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2024,
+      "value": 13.4,
+      "notes": [
+        "Uncertainty bound is 12.6 - 14.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2024,
+      "value": 59.4,
+      "notes": [
+        "Uncertainty bound is 46.3 - 76.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2024,
+      "value": 36.9,
+      "notes": [
+        "Uncertainty bound is 25.9 - 53.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2024,
+      "value": 15.4,
+      "notes": [
+        "Uncertainty bound is 13.9 - 17"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2024,
+      "value": 48.8,
+      "notes": [
+        "Uncertainty bound is 36.6 - 65.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2024,
+      "value": 8.3,
+      "notes": [
+        "Uncertainty bound is 7.5 - 9.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2024,
+      "value": 39.5,
+      "notes": [
+        "Uncertainty bound is 30.5 - 57.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2024,
+      "value": 110.7,
+      "notes": [
+        "Uncertainty bound is 82.9 - 147.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2024,
+      "value": 115.6,
+      "notes": [
+        "Uncertainty bound is 98.8 - 136.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2024,
+      "value": 11.2,
+      "notes": [
+        "Uncertainty bound is 10.7 - 11.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2024,
+      "value": 3.9,
+      "notes": [
+        "Uncertainty bound is 3.7 - 4.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2024,
+      "value": 2.5,
+      "notes": [
+        "Uncertainty bound is 2.3 - 2.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2024,
+      "value": 25.1,
+      "notes": [
+        "Uncertainty bound is 19.5 - 32.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2024,
+      "value": 8.3,
+      "notes": [
+        "Uncertainty bound is 4.7 - 15.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2024,
+      "value": 4.7,
+      "notes": [
+        "Uncertainty bound is 4.1 - 5.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2024,
+      "value": 10.3,
+      "notes": [
+        "Uncertainty bound is 9.3 - 11.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2024,
+      "value": 56,
+      "notes": [
+        "Uncertainty bound is 44 - 70.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2024,
+      "value": 15.3,
+      "notes": [
+        "Uncertainty bound is 14.4 - 16.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2024,
+      "value": 12.9,
+      "notes": [
+        "Uncertainty bound is 9.7 - 17.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2024,
+      "value": 26.5,
+      "notes": [
+        "Uncertainty bound is 19.4 - 36.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2024,
+      "value": 21.4,
+      "notes": [
+        "Uncertainty bound is 9 - 36.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2024,
+      "value": 39.4,
+      "notes": [
+        "Uncertainty bound is 24.2 - 63"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2024,
+      "value": 4.2,
+      "notes": [
+        "Uncertainty bound is 4.1 - 4.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PL"
+    },
+    {
+      "country": "PRK",
+      "year": 2024,
+      "value": 16.7,
+      "notes": [
+        "Uncertainty bound is 13.1 - 21.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2024,
+      "value": 3.2,
+      "notes": [
+        "Uncertainty bound is 3 - 3.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2024,
+      "value": 16.3,
+      "notes": [
+        "Uncertainty bound is 7.6 - 36"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2024,
+      "value": 37.9,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2024,
+      "value": 5.9,
+      "notes": [
+        "Uncertainty bound is 5.4 - 6.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2024,
+      "value": 7.3,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2024,
+      "value": 5.2,
+      "notes": [
+        "Uncertainty bound is 4.9 - 5.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2024,
+      "value": 37.7,
+      "notes": [
+        "Uncertainty bound is 26.7 - 53.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2024,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 4.1 - 8.9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2024,
+      "value": 61.6,
+      "notes": [
+        "Uncertainty bound is 39 - 96.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2024,
+      "value": 36.5,
+      "notes": [
+        "Uncertainty bound is 28.5 - 46.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2024,
+      "value": 2.7,
+      "notes": [
+        "Uncertainty bound is 2.4 - 3.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2024,
+      "value": 20,
+      "notes": [
+        "Uncertainty bound is 13.1 - 30.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2024,
+      "value": 90.5,
+      "notes": [
+        "Uncertainty bound is 68 - 120.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2024,
+      "value": 10,
+      "notes": [
+        "Uncertainty bound is 6.1 - 17.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2024,
+      "value": 1.3,
+      "notes": [
+        "Uncertainty bound is 0.6 - 2.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SM"
+    },
+    {
+      "country": "SOM",
+      "year": 2024,
+      "value": 101.1,
+      "notes": [
+        "Uncertainty bound is 46.4 - 222.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2024,
+      "value": 5.4,
+      "notes": [
+        "Uncertainty bound is 5 - 5.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2024,
+      "value": 96.7,
+      "notes": [
+        "Uncertainty bound is 24.9 - 283.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2024,
+      "value": 13.6,
+      "notes": [
+        "Uncertainty bound is 7.2 - 25.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2024,
+      "value": 15.8,
+      "notes": [
+        "Uncertainty bound is 9.1 - 28.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2024,
+      "value": 6.3,
+      "notes": [
+        "Uncertainty bound is 5.9 - 6.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2024,
+      "value": 2.3,
+      "notes": [
+        "Uncertainty bound is 2 - 2.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2024,
+      "value": 2.4,
+      "notes": [
+        "Uncertainty bound is 2.2 - 2.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2024,
+      "value": 45.1,
+      "notes": [
+        "Uncertainty bound is 28.5 - 72.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2024,
+      "value": 14,
+      "notes": [
+        "Uncertainty bound is 10.4 - 18.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2024,
+      "value": 18.4,
+      "notes": [
+        "Uncertainty bound is 9.2 - 28.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=SY"
+    },
+    {
+      "country": "TCA",
+      "year": 2024,
+      "value": 4.7,
+      "notes": [
+        "Uncertainty bound is 1.4 - 14"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TC"
+    },
+    {
+      "country": "TCD",
+      "year": 2024,
+      "value": 97.3,
+      "notes": [
+        "Uncertainty bound is 63.3 - 147.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2024,
+      "value": 56.1,
+      "notes": [
+        "Uncertainty bound is 38.7 - 81"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2024,
+      "value": 9,
+      "notes": [
+        "Uncertainty bound is 7.9 - 11.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2024,
+      "value": 28.1,
+      "notes": [
+        "Uncertainty bound is 18.7 - 42.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2024,
+      "value": 39,
+      "notes": [
+        "Uncertainty bound is 23.1 - 65.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2024,
+      "value": 47.6,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2024,
+      "value": 9.5,
+      "notes": [
+        "Uncertainty bound is 6.1 - 14.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2024,
+      "value": 18.8,
+      "notes": [
+        "Uncertainty bound is 11.7 - 30.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2024,
+      "value": 12.1,
+      "notes": [
+        "Uncertainty bound is 11.2 - 13.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2024,
+      "value": 9.6,
+      "notes": [
+        "Uncertainty bound is 8.3 - 11.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2024,
+      "value": 19.2,
+      "notes": [
+        "Uncertainty bound is 10 - 36.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2024,
+      "value": 37,
+      "notes": [
+        "Uncertainty bound is 28.5 - 47.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2024,
+      "value": 48.7,
+      "notes": [
+        "Uncertainty bound is 40 - 58.5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2024,
+      "value": 7.9,
+      "notes": [
+        "Uncertainty bound is 6.9 - 9.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2024,
+      "value": 7.4,
+      "notes": [
+        "Uncertainty bound is 6.8 - 8.1"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 6.5,
+      "notes": [
+        "Uncertainty bound is 6.2 - 6.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2024,
+      "value": 13.4,
+      "notes": [
+        "Uncertainty bound is 12.2 - 15.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2024,
+      "value": 11.3,
+      "notes": [
+        "Uncertainty bound is 9.1 - 14"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2024,
+      "value": 24.2,
+      "notes": [
+        "Uncertainty bound is 15.1 - 38.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=VE"
+    },
+    {
+      "country": "VGB",
+      "year": 2024,
+      "value": 12.4,
+      "notes": [
+        "Uncertainty bound is 6.5 - 23.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=VG"
+    },
+    {
+      "country": "VNM",
+      "year": 2024,
+      "value": 17.3,
+      "notes": [
+        "Uncertainty bound is 15.2 - 19.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2024,
+      "value": 17.1,
+      "notes": [
+        "Uncertainty bound is 11.5 - 24.8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2024,
+      "value": 14.9,
+      "notes": [
+        "Uncertainty bound is 9.5 - 23.4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=WS"
+    },
+    {
+      "country": "XKX",
+      "year": 2024,
+      "value": 8.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=XK"
+    },
+    {
+      "country": "YEM",
+      "year": 2024,
+      "value": 38.1,
+      "notes": [
+        "Uncertainty bound is 29.5 - 49.6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2024,
+      "value": 35.1,
+      "notes": [
+        "Uncertainty bound is 30.1 - 41.3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2024,
+      "value": 48.4,
+      "notes": [
+        "Uncertainty bound is 39 - 60.7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2024,
+      "value": 64.7,
+      "notes": [
+        "Uncertainty bound is 44 - 93.2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=ZW"
+    }
+  ]
+}

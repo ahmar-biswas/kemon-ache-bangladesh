@@ -1,0 +1,1557 @@
+{
+  "indicator_id": "oop",
+  "code": "SH.XPD.OOPC.CH.ZS",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.OOPC.CH.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.XPD.OOPC.CH.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2023,
+      "value": 77.1395874,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2023,
+      "value": 32.54667664,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2023,
+      "value": 48.27462769,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2023,
+      "value": 11.1459446,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2023,
+      "value": 9.66616821,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2023,
+      "value": 24.46961784,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2023,
+      "value": 80.47196198,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2023,
+      "value": 20.80756378,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2023,
+      "value": 15.84897614,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2024,
+      "value": 16.46478271,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2023,
+      "value": 64.63206482,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2023,
+      "value": 24.48983002,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2023,
+      "value": 21.50983047,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2023,
+      "value": 42.40531921,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2023,
+      "value": 43.82195663,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2023,
+      "value": 79.30711365,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2023,
+      "value": 35.50430679,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2023,
+      "value": 28.65578461,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2023,
+      "value": 27.48377991,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2023,
+      "value": 30.96058273,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2023,
+      "value": 28.48183441,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2023,
+      "value": 26.78139114,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2023,
+      "value": 27.31554413,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2023,
+      "value": 26.23070717,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2023,
+      "value": 49.49338913,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2023,
+      "value": 7.41179371,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2023,
+      "value": 25.46281624,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2023,
+      "value": 4.25866175,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2023,
+      "value": 45.02304077,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2024,
+      "value": 15.27733707,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2023,
+      "value": 22.02737427,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2024,
+      "value": 39.14786911,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2023,
+      "value": 32.17354584,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2023,
+      "value": 31.99314499,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2023,
+      "value": 67.65119171,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2023,
+      "value": 38.00354767,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2023,
+      "value": 27.97068977,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2024,
+      "value": 14.73741817,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2023,
+      "value": 56.56671524,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2023,
+      "value": 25.73987579,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2023,
+      "value": 24.12618256,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2023,
+      "value": 16.58238792,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2023,
+      "value": 17.9429245,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2024,
+      "value": 14.06390572,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2024,
+      "value": 10.7067318,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2023,
+      "value": 28.84145355,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2023,
+      "value": 29.32637405,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2024,
+      "value": 13.86858845,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2023,
+      "value": 25.05566978,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2023,
+      "value": 45.00216675,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2023,
+      "value": 30.88848877,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2023,
+      "value": 57.19506836,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2023,
+      "value": 48.44565201,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2023,
+      "value": 20.85539818,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2024,
+      "value": 21.38176537,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2023,
+      "value": 46.26859283,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "value": 14.09493542,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2023,
+      "value": 8.31420898,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2024,
+      "value": 9.22742558,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2023,
+      "value": 2.58105636,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2023,
+      "value": 17.27153969,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2024,
+      "value": 14.55540943,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2023,
+      "value": 58.75926208,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2023,
+      "value": 26.67723274,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2023,
+      "value": 54.41574097,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2023,
+      "value": 33.7826767,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2023,
+      "value": 61.5587883,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2023,
+      "value": 65.98317719,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2023,
+      "value": 34.30307007,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2023,
+      "value": 48.48131943,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2023,
+      "value": 57.18184662,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2023,
+      "value": 26.32743073,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2023,
+      "value": 53.06166458,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2023,
+      "value": 9.37740326,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2023,
+      "value": 52.40410995,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2023,
+      "value": 23.05996895,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2023,
+      "value": 31.0836544,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2023,
+      "value": 43.88510513,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2024,
+      "value": 10.60706902,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2023,
+      "value": 43.14528656,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2023,
+      "value": 53.9823761,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2024,
+      "value": 14.87985802,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2023,
+      "value": 20.48583984,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2024,
+      "value": 22.30979538,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2023,
+      "value": 20.2454052,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2023,
+      "value": 34.4679451,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2023,
+      "value": 12.23568153,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2023,
+      "value": 27.64227867,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2023,
+      "value": 24.24565315,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2023,
+      "value": 42.26472855,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2023,
+      "value": 60.60118866,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2023,
+      "value": 2.9085722,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2023,
+      "value": 41.80017853,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2024,
+      "value": 33.73815536,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2023,
+      "value": 10.00349617,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2023,
+      "value": 44.84078598,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2023,
+      "value": 29.70126343,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2023,
+      "value": 63.23887634,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2023,
+      "value": 19.17657852,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2023,
+      "value": 37.14485931,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LC"
+    },
+    {
+      "country": "LIE",
+      "year": 2023,
+      "value": 19.7171917,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LI"
+    },
+    {
+      "country": "LKA",
+      "year": 2023,
+      "value": 54.81069946,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2023,
+      "value": 13.19708443,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2024,
+      "value": 31.42526817,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2024,
+      "value": 8.50457287,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2023,
+      "value": 35.05759811,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2023,
+      "value": 37.25432968,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2023,
+      "value": 8.45358086,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2023,
+      "value": 27.468853,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2023,
+      "value": 27.42209625,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2023,
+      "value": 18.04885292,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2023,
+      "value": 41.23572922,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2023,
+      "value": 1.05294764,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2023,
+      "value": 39.57205582,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2023,
+      "value": 47.22994995,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2023,
+      "value": 30.92565918,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2023,
+      "value": 71.12589264,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2023,
+      "value": 26.33176041,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2023,
+      "value": 48.79919434,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2023,
+      "value": 10.37066555,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2023,
+      "value": 43.7736702,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2023,
+      "value": 45.2427063,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2023,
+      "value": 12.00286865,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2023,
+      "value": 37.09352112,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2023,
+      "value": 7.49171019,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2023,
+      "value": 51.48022842,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2023,
+      "value": 71.90481567,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2023,
+      "value": 37.6333313,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2024,
+      "value": 11.78772259,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2023,
+      "value": 13.68724823,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2023,
+      "value": 59.38827515,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2023,
+      "value": 0.73174924,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2024,
+      "value": 12.68764019,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2023,
+      "value": 6.31094599,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2023,
+      "value": 52.93231964,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2023,
+      "value": 40.45503235,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2023,
+      "value": 26.98286247,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2023,
+      "value": 44.36006165,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2023,
+      "value": 12.10223293,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2023,
+      "value": 8.55412769,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2024,
+      "value": 16.20527458,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PL"
+    },
+    {
+      "country": "PRT",
+      "year": 2024,
+      "value": 28.19350624,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2023,
+      "value": 36.32289886,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2023,
+      "value": 42.07169342,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2023,
+      "value": 7.42945814,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2023,
+      "value": 22.96146011,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2023,
+      "value": 28.39422226,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2023,
+      "value": 4.0999999,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2023,
+      "value": 14.11603928,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2023,
+      "value": 57.36631393,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2023,
+      "value": 44.32556534,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2023,
+      "value": 25.41850281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2023,
+      "value": 3.16049337,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2023,
+      "value": 54.4692421,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2023,
+      "value": 32.4943924,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2023,
+      "value": 13.09178734,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SM"
+    },
+    {
+      "country": "SOM",
+      "year": 2023,
+      "value": 30.77948952,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2023,
+      "value": 32.13853073,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2023,
+      "value": 27.14476204,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2023,
+      "value": 16.66314888,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2023,
+      "value": 19.71665573,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2023,
+      "value": 20.15309143,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2024,
+      "value": 11.7449913,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2024,
+      "value": 13.3813858,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2023,
+      "value": 11.01838779,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2023,
+      "value": 27.95942497,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2023,
+      "value": 72.40081787,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2023,
+      "value": 51.67914963,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2023,
+      "value": 64.34121704,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2023,
+      "value": 9.93404865,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2023,
+      "value": 62.36102676,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2023,
+      "value": 77.39328003,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2023,
+      "value": 6.99333382,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2023,
+      "value": 5.86377478,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2023,
+      "value": 45.27397919,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2023,
+      "value": 37.93983841,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2023,
+      "value": 19.04723167,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2023,
+      "value": 0.04458594,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2023,
+      "value": 27.93128014,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2023,
+      "value": 32.17179489,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2021,
+      "value": 45.29367447,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2023,
+      "value": 17.09811211,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "value": 10.92723846,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2023,
+      "value": 64.05923462,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2023,
+      "value": 26.57362938,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2023,
+      "value": 29.6867485,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=VE"
+    },
+    {
+      "country": "VNM",
+      "year": 2023,
+      "value": 39.20284653,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2023,
+      "value": 8.38081264,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2023,
+      "value": 13.41968632,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2023,
+      "value": 69.12571716,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2023,
+      "value": 6.69263172,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2023,
+      "value": 10.28683281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2023,
+      "value": 10.63479233,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=ZW"
+    }
+  ]
+}

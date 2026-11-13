@@ -1,0 +1,1221 @@
+{
+  "indicator_id": "safe_water",
+  "code": "SH.H2O.SMDW.ZS",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene, World Health Organization (WHO), uri: washdata.org, note: Aggregate data by groups are computed based on the groupings for the World Bank fiscal year in which the data was released by the WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene., publisher: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org), date accessed: 2025-09-30, date published: 2025-08-25;\nUN Children's Fund (UNICEF), uri: washdata.org, note: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.H2O.SMDW.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.H2O.SMDW.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-13",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2024,
+      "value": 30.5547223111169,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AF"
+    },
+    {
+      "country": "ALB",
+      "year": 2024,
+      "value": 70.7937363898968,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2024,
+      "value": 90.6400018060858,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2024,
+      "value": 98.6413172332089,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AE"
+    },
+    {
+      "country": "ARM",
+      "year": 2024,
+      "value": 82.0728191880242,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AM"
+    },
+    {
+      "country": "ASM",
+      "year": 2024,
+      "value": 90.5383360522023,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AS"
+    },
+    {
+      "country": "AUT",
+      "year": 2024,
+      "value": 98.8915357232143,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2024,
+      "value": 57.8118283196096,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=AZ"
+    },
+    {
+      "country": "BEL",
+      "year": 2024,
+      "value": 99.5471345182049,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2024,
+      "value": 17.6968322374867,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ"
+    },
+    {
+      "country": "BGD",
+      "year": 2024,
+      "value": 59.1254259857148,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2024,
+      "value": 96.2070781494387,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2024,
+      "value": 98.9039755631804,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BH"
+    },
+    {
+      "country": "BIH",
+      "year": 2024,
+      "value": 86.400107879006,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2024,
+      "value": 93.0597552933534,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BY"
+    },
+    {
+      "country": "BRA",
+      "year": 2024,
+      "value": 88.6239660721414,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BR"
+    },
+    {
+      "country": "BTN",
+      "year": 2024,
+      "value": 65.5942159692749,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2024,
+      "value": 63.2910412393649,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2024,
+      "value": 6.21748768966731,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2024,
+      "value": 96.890322656349,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2024,
+      "value": 96.6999968881937,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2024,
+      "value": 97.8170551998161,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CL"
+    },
+    {
+      "country": "CIV",
+      "year": 2024,
+      "value": 36.4489381559953,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CI"
+    },
+    {
+      "country": "COD",
+      "year": 2024,
+      "value": 11.8726481819387,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2021,
+      "value": 45.8748419970802,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2024,
+      "value": 74.33929919179,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CO"
+    },
+    {
+      "country": "CRI",
+      "year": 2024,
+      "value": 80.5000742430698,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CR"
+    },
+    {
+      "country": "CYP",
+      "year": 2024,
+      "value": 99.7211088299984,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2024,
+      "value": 98.1448728385564,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2024,
+      "value": 99.9172979459354,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=DE"
+    },
+    {
+      "country": "DNK",
+      "year": 2024,
+      "value": 99.9188271389611,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2024,
+      "value": 45.3324070681699,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2024,
+      "value": 69.0291825248964,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2024,
+      "value": 69.8869997038501,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2024,
+      "value": 78.9401588327765,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=EG"
+    },
+    {
+      "country": "ESP",
+      "year": 2024,
+      "value": 99.4584646653876,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2024,
+      "value": 98.9439097263954,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2024,
+      "value": 13.547200922558,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2024,
+      "value": 99.646796710852,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2024,
+      "value": 42.1107501060855,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2024,
+      "value": 99.7127014746794,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=FR"
+    },
+    {
+      "country": "GBR",
+      "year": 2024,
+      "value": 99.8229506760395,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2024,
+      "value": 70.526609726787,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2024,
+      "value": 42.9413892027374,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GH"
+    },
+    {
+      "country": "GIB",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GI"
+    },
+    {
+      "country": "GMB",
+      "year": 2024,
+      "value": 48.1790034938582,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2024,
+      "value": 23.9850167901073,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GW"
+    },
+    {
+      "country": "GRC",
+      "year": 2024,
+      "value": 96.6861554835288,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2017,
+      "value": 89.9176799999318,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2024,
+      "value": 48.7871950677385,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GT"
+    },
+    {
+      "country": "GUM",
+      "year": 2024,
+      "value": 93.9971537831548,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GU"
+    },
+    {
+      "country": "GUY",
+      "year": 2024,
+      "value": 67.1744374324054,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=GY"
+    },
+    {
+      "country": "HKG",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=HK"
+    },
+    {
+      "country": "HND",
+      "year": 2024,
+      "value": 65.5162211788382,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2024,
+      "value": 87.2682692486734,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=HR"
+    },
+    {
+      "country": "HUN",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2024,
+      "value": 30.4609773643609,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ID"
+    },
+    {
+      "country": "IMN",
+      "year": 2024,
+      "value": 99.9105964912281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IM"
+    },
+    {
+      "country": "IND",
+      "year": 2024,
+      "value": 76.4421942140842,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2024,
+      "value": 96.1250111631294,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2024,
+      "value": 94.4122052108484,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2024,
+      "value": 59.8272461307615,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2024,
+      "value": 99.4619876940454,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2024,
+      "value": 96.7584358284994,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=IT"
+    },
+    {
+      "country": "JOR",
+      "year": 2024,
+      "value": 88.9502985282712,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2024,
+      "value": 98.7270242077337,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2024,
+      "value": 91.5454182335736,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KZ"
+    },
+    {
+      "country": "KGZ",
+      "year": 2024,
+      "value": 73.8812993002318,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2024,
+      "value": 29.9855761398875,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2024,
+      "value": 15.0879416013618,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KI"
+    },
+    {
+      "country": "KOR",
+      "year": 2024,
+      "value": 99.2826694575636,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2024,
+      "value": 35.1877230763634,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2024,
+      "value": 47.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LB"
+    },
+    {
+      "country": "LIE",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LI"
+    },
+    {
+      "country": "LKA",
+      "year": 2024,
+      "value": 46.9329705143603,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2024,
+      "value": 31.320241708541,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2024,
+      "value": 96.7335742559147,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2024,
+      "value": 99.6530550152333,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2024,
+      "value": 97.0114068663046,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=LV"
+    },
+    {
+      "country": "MAC",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MO"
+    },
+    {
+      "country": "MAF",
+      "year": 2024,
+      "value": 96.6254814641877,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MF"
+    },
+    {
+      "country": "MAR",
+      "year": 2024,
+      "value": 79.9818072279602,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2024,
+      "value": 75.8158908711072,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2024,
+      "value": 22.0559944937861,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MG"
+    },
+    {
+      "country": "MEX",
+      "year": 2024,
+      "value": 42.9666311513801,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MX"
+    },
+    {
+      "country": "MKD",
+      "year": 2024,
+      "value": 80.7905414925805,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MK"
+    },
+    {
+      "country": "MLT",
+      "year": 2024,
+      "value": 99.8267685287143,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2024,
+      "value": 59.7239750772507,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2024,
+      "value": 85.5009117879106,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2024,
+      "value": 43.360722296887,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MN"
+    },
+    {
+      "country": "MNP",
+      "year": 2024,
+      "value": 81.4545454545454,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MP"
+    },
+    {
+      "country": "MOZ",
+      "year": 2024,
+      "value": 27.5429456975996,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MZ"
+    },
+    {
+      "country": "MWI",
+      "year": 2024,
+      "value": 18.1816539742083,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2024,
+      "value": 94.700361858312,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=MY"
+    },
+    {
+      "country": "NCL",
+      "year": 2024,
+      "value": 96.8652854148107,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NC"
+    },
+    {
+      "country": "NGA",
+      "year": 2024,
+      "value": 29.904599188308,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NG"
+    },
+    {
+      "country": "NLD",
+      "year": 2024,
+      "value": 99.9595063956065,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2024,
+      "value": 99.0624830632163,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2024,
+      "value": 16.4868856683866,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2024,
+      "value": 18.6631621110857,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2024,
+      "value": 91.1011744135751,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2024,
+      "value": 44.9737364064737,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PK"
+    },
+    {
+      "country": "PER",
+      "year": 2024,
+      "value": 49.4283962319206,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2024,
+      "value": 48.4840577441825,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2024,
+      "value": 90.7752173469518,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PW"
+    },
+    {
+      "country": "POL",
+      "year": 2024,
+      "value": 88.6755462509034,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PL"
+    },
+    {
+      "country": "PRI",
+      "year": 2024,
+      "value": 98.9402618391431,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PR"
+    },
+    {
+      "country": "PRK",
+      "year": 2023,
+      "value": 66.6121349621259,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2024,
+      "value": 95.2173479483637,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2024,
+      "value": 64.3647197417661,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2024,
+      "value": 80.6420172046077,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PS"
+    },
+    {
+      "country": "PYF",
+      "year": 2024,
+      "value": 90.448717948718,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=PF"
+    },
+    {
+      "country": "QAT",
+      "year": 2024,
+      "value": 95.345241877961,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2024,
+      "value": 82.182992939047,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2024,
+      "value": 76.2607294162414,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=RU"
+    },
+    {
+      "country": "SEN",
+      "year": 2024,
+      "value": 27.1931407050582,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2024,
+      "value": 100,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SG"
+    },
+    {
+      "country": "SLE",
+      "year": 2024,
+      "value": 10.8953836036255,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SL"
+    },
+    {
+      "country": "SMR",
+      "year": 2024,
+      "value": 99.9999961845643,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SM"
+    },
+    {
+      "country": "SRB",
+      "year": 2024,
+      "value": 74.9672634764971,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=RS"
+    },
+    {
+      "country": "STP",
+      "year": 2024,
+      "value": 36.6800380926738,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2024,
+      "value": 55.8472410362348,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2024,
+      "value": 99.5715569148418,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2024,
+      "value": 99.5745942010052,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2024,
+      "value": 99.7607966673045,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2024,
+      "value": 38.2165357028722,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2024,
+      "value": 64.7022316280556,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=SC"
+    },
+    {
+      "country": "TCA",
+      "year": 2024,
+      "value": 47.0499187664591,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TC"
+    },
+    {
+      "country": "TCD",
+      "year": 2024,
+      "value": 6.34082647389426,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2024,
+      "value": 20.5232352790187,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TG"
+    },
+    {
+      "country": "TJK",
+      "year": 2024,
+      "value": 65.1080715172931,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2024,
+      "value": 94.8535459177809,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TM"
+    },
+    {
+      "country": "TON",
+      "year": 2024,
+      "value": 29.5984543183511,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2024,
+      "value": 69.3692626736132,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2024,
+      "value": 64.9781072145301,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TN"
+    },
+    {
+      "country": "TUV",
+      "year": 2024,
+      "value": 8.72255043279915,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2024,
+      "value": 31.3253989476029,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2024,
+      "value": 18.0971227782691,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2024,
+      "value": 87.8683769430978,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=UA"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 97.5676884437325,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2024,
+      "value": 81.9295048040968,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=UZ"
+    },
+    {
+      "country": "VIR",
+      "year": 2024,
+      "value": 98.6774837370682,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=VI"
+    },
+    {
+      "country": "VNM",
+      "year": 2024,
+      "value": 58.5808391368178,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2024,
+      "value": 19.1970839884387,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2024,
+      "value": 62.50194060138,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=WS"
+    },
+    {
+      "country": "ZAF",
+      "year": 2024,
+      "value": 68.0075638755656,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ZA"
+    },
+    {
+      "country": "ZWE",
+      "year": 2024,
+      "value": 25.460563358156,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=ZW"
+    }
+  ]
+}

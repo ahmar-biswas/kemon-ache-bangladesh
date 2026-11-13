@@ -8,6 +8,7 @@ import './styles/background.css';
 import './styles/glass.css';
 import './styles/components.css';
 import './styles/dashboard.css';
+import './styles/measure.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
