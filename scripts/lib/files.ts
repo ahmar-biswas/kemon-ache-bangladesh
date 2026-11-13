@@ -29,3 +29,14 @@ export function writeJson(path: string, value: unknown): void {
   writeFileSync(tmp, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
   renameSync(tmp, path);
 }
+
+/** Compact copy of every country's values for recent years (for global ranks). */
+export const allRawPath = (code: string) => resolve(RAW_DIR, `${code}.all.json`);
+/** Saved copy of a published-rank source (UNDP, TI, WHR). */
+export const externalRawPath = (id: string) => resolve(RAW_DIR, 'external', `${id}.json`);
+/** A calculated global rank with every input. */
+export const rankPath = (id: string) => resolve(PROCESSED_DIR, 'ranks', `${id}.json`);
+/** Small file with only what the homepage shows. */
+export const latestPath = () => resolve(PROCESSED_DIR, 'latest.json');
+/** Hand-checked official goals (data/targets.json). */
+export const targetsPath = () => resolve(ROOT, 'data', 'targets.json');

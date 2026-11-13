@@ -1,0 +1,173 @@
+{
+  "indicator_id": "stunting",
+  "kind": "calculated",
+  "year": 2022,
+  "rank": 13,
+  "out_of": 32,
+  "order": "highest_first",
+  "source_name": "World Bank, Prevalence of stunting, height for age (% of children under 5)",
+  "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?year=2022",
+  "retrieved_at": "2026-11-13",
+  "values": [
+    {
+      "country": "BDI",
+      "value": 55.8,
+      "rank": 1
+    },
+    {
+      "country": "YEM",
+      "value": 48.5,
+      "rank": 2
+    },
+    {
+      "country": "NER",
+      "value": 47.7,
+      "rank": 3
+    },
+    {
+      "country": "AFG",
+      "value": 44.6,
+      "rank": 4
+    },
+    {
+      "country": "CAF",
+      "value": 37.9,
+      "rank": 5
+    },
+    {
+      "country": "MOZ",
+      "value": 36.7,
+      "rank": 6
+    },
+    {
+      "country": "TCD",
+      "value": 31.9,
+      "rank": 7
+    },
+    {
+      "country": "TZA",
+      "value": 30,
+      "rank": 8
+    },
+    {
+      "country": "GIN",
+      "value": 26.1,
+      "rank": 9
+    },
+    {
+      "country": "MRT",
+      "value": 25.1,
+      "rank": 10
+    },
+    {
+      "country": "NPL",
+      "value": 24.8,
+      "rank": 11
+    },
+    {
+      "country": "UGA",
+      "value": 24.4,
+      "rank": 12
+    },
+    {
+      "country": "BGD",
+      "value": 23.6,
+      "rank": 13
+    },
+    {
+      "country": "MLI",
+      "value": 21.8,
+      "rank": 14
+    },
+    {
+      "country": "IDN",
+      "value": 21.6,
+      "rank": 15
+    },
+    {
+      "country": "MYS",
+      "value": 21.2,
+      "rank": 16
+    },
+    {
+      "country": "VNM",
+      "value": 18.9,
+      "rank": 17
+    },
+    {
+      "country": "COM",
+      "value": 18.2,
+      "rank": 18
+    },
+    {
+      "country": "KEN",
+      "value": 17.6,
+      "rank": 19
+    },
+    {
+      "country": "GHA",
+      "value": 17.4,
+      "rank": 20
+    },
+    {
+      "country": "MEX",
+      "value": 12.5,
+      "rank": 21
+    },
+    {
+      "country": "THA",
+      "value": 12.4,
+      "rank": 22
+    },
+    {
+      "country": "PER",
+      "value": 11.7,
+      "rank": 23
+    },
+    {
+      "country": "LKA",
+      "value": 9.2,
+      "rank": 24
+    },
+    {
+      "country": "LBY",
+      "value": 7.9,
+      "rank": 25
+    },
+    {
+      "country": "QAT",
+      "value": 6.3,
+      "rank": 26
+    },
+    {
+      "country": "KWT",
+      "value": 4.6,
+      "rank": 27
+    },
+    {
+      "country": "USA",
+      "value": 3.8,
+      "rank": 28
+    },
+    {
+      "country": "MLT",
+      "value": 3.3,
+      "rank": 29
+    },
+    {
+      "country": "FIN",
+      "value": 1.8,
+      "rank": 30
+    },
+    {
+      "country": "BLR",
+      "value": 1.2,
+      "rank": 31
+    },
+    {
+      "country": "LTU",
+      "value": 0.9,
+      "rank": 32
+    }
+  ]
+}

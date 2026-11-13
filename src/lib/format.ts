@@ -62,6 +62,8 @@ export function formatTaka(value: number, lang: Lang, decimals = 0): string {
 export function formatTakaWords(value: number, lang: Lang, decimals = 2): string {
   assertFinite(value);
   const abs = Math.abs(value);
+  // Lakh crore (10^12), as GDP is usually said in Bangladesh: ৳55.12 lakh crore.
+  if (abs >= 1e12) return `৳${formatNumber(value / 1e12, lang, decimals)} ${t(lang, 'number.lakh_crore')}`;
   if (abs >= 1e7) return `৳${formatNumber(value / 1e7, lang, decimals)} ${t(lang, 'number.crore')}`;
   if (abs >= 1e5) return `৳${formatNumber(value / 1e5, lang, decimals)} ${t(lang, 'number.lakh')}`;
   return formatTaka(value, lang, 0);
@@ -88,4 +90,24 @@ export function formatDate(isoDate: string, lang: Lang): string {
   if (month < 1 || month > 12) throw new Error(`Bad month in ${isoDate}`);
   const monthName = t(lang, `month.${month}` as MessageKey);
   return `${localiseDigits(String(Number(d)), lang)} ${monthName} ${formatYear(Number(y), lang)}`;
+}
+
+/** A short date for compact source lines: 13 Nov 2026 / ১৩ নভে. ২০২৬. */
+export function formatDateShort(isoDate: string, lang: Lang): string {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(isoDate);
+  if (!match) throw new Error(`Not an ISO date (YYYY-MM-DD): ${isoDate}`);
+  const [, y, m, d] = match;
+  const month = Number(m);
+  if (month < 1 || month > 12) throw new Error(`Bad month in ${isoDate}`);
+  const monthName = t(lang, `month.short.${month}` as MessageKey);
+  return `${localiseDigits(String(Number(d)), lang)} ${monthName} ${formatYear(Number(y), lang)}`;
+}
+
+/** Large plain amounts in words: 1.78 trillion / ১.৭৮ ট্রিলিয়ন, 12.3 billion. Below a billion, grouped digits. */
+export function formatLargeWords(value: number, lang: Lang, decimals = 2): string {
+  assertFinite(value);
+  const abs = Math.abs(value);
+  if (abs >= 1e12) return `${formatNumber(value / 1e12, lang, decimals)} ${t(lang, 'number.trillion')}`;
+  if (abs >= 1e9) return `${formatNumber(value / 1e9, lang, decimals)} ${t(lang, 'number.billion')}`;
+  return formatNumber(value, lang, 0);
 }

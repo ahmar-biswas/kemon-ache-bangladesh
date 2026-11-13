@@ -7,6 +7,7 @@ import './styles/base.css';
 import './styles/background.css';
 import './styles/glass.css';
 import './styles/components.css';
+import './styles/dashboard.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

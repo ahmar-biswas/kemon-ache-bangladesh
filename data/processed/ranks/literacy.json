@@ -1,0 +1,238 @@
+{
+  "indicator_id": "literacy",
+  "kind": "calculated",
+  "year": 2022,
+  "rank": 32,
+  "out_of": 45,
+  "order": "highest_first",
+  "source_name": "World Bank, Literacy rate, adult total (% of people ages 15 and above)",
+  "source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?year=2022",
+  "retrieved_at": "2026-11-13",
+  "values": [
+    {
+      "country": "TUV",
+      "value": 100,
+      "rank": 1
+    },
+    {
+      "country": "UZB",
+      "value": 100,
+      "rank": 1
+    },
+    {
+      "country": "SMR",
+      "value": 99.9100036621094,
+      "rank": 3
+    },
+    {
+      "country": "TKM",
+      "value": 99.9000015258789,
+      "rank": 4
+    },
+    {
+      "country": "ARM",
+      "value": 99.8199996948242,
+      "rank": 5
+    },
+    {
+      "country": "GEO",
+      "value": 99.5699996948242,
+      "rank": 6
+    },
+    {
+      "country": "SRB",
+      "value": 99.3399963378906,
+      "rank": 7
+    },
+    {
+      "country": "URY",
+      "value": 98.8499984741211,
+      "rank": 8
+    },
+    {
+      "country": "MNG",
+      "value": 98.7300033569336,
+      "rank": 9
+    },
+    {
+      "country": "ARE",
+      "value": 98.2900009155273,
+      "rank": 10
+    },
+    {
+      "country": "BHR",
+      "value": 97.870002746582,
+      "rank": 11
+    },
+    {
+      "country": "PSE",
+      "value": 97.8399963378906,
+      "rank": 12
+    },
+    {
+      "country": "OMN",
+      "value": 97.3399963378906,
+      "rank": 13
+    },
+    {
+      "country": "ECU",
+      "value": 96.2600021362305,
+      "rank": 14
+    },
+    {
+      "country": "VNM",
+      "value": 96.129997253418,
+      "rank": 15
+    },
+    {
+      "country": "MYS",
+      "value": 95.7699966430664,
+      "rank": 16
+    },
+    {
+      "country": "COL",
+      "value": 95.31030793119,
+      "rank": 17
+    },
+    {
+      "country": "MEX",
+      "value": 95.120002746582,
+      "rank": 18
+    },
+    {
+      "country": "BRA",
+      "value": 94.376866160108,
+      "rank": 19
+    },
+    {
+      "country": "DOM",
+      "value": 93.7022375646963,
+      "rank": 20
+    },
+    {
+      "country": "LKA",
+      "value": 92.4899978637695,
+      "rank": 21
+    },
+    {
+      "country": "THA",
+      "value": 91.0999984741211,
+      "rank": 22
+    },
+    {
+      "country": "SWZ",
+      "value": 90.75,
+      "rank": 23
+    },
+    {
+      "country": "SLV",
+      "value": 89.3537151570456,
+      "rank": 24
+    },
+    {
+      "country": "IRN",
+      "value": 88.5942297159365,
+      "rank": 25
+    },
+    {
+      "country": "HND",
+      "value": 88.2192789618317,
+      "rank": 26
+    },
+    {
+      "country": "BLZ",
+      "value": 87.879997253418,
+      "rank": 27
+    },
+    {
+      "country": "PNG",
+      "value": 87.0046890533686,
+      "rank": 28
+    },
+    {
+      "country": "GTM",
+      "value": 83.0299987792969,
+      "rank": 29
+    },
+    {
+      "country": "ZMB",
+      "value": 79.9841479741156,
+      "rank": 30
+    },
+    {
+      "country": "EGY",
+      "value": 79.4531619498685,
+      "rank": 31
+    },
+    {
+      "country": "BGD",
+      "value": 79,
+      "rank": 32
+    },
+    {
+      "country": "RWA",
+      "value": 78.7600021362305,
+      "rank": 33
+    },
+    {
+      "country": "TZA",
+      "value": 78.2099990844727,
+      "rank": 34
+    },
+    {
+      "country": "IND",
+      "value": 76.3199996948242,
+      "rank": 35
+    },
+    {
+      "country": "TGO",
+      "value": 72.5999984741211,
+      "rank": 36
+    },
+    {
+      "country": "TLS",
+      "value": 69.4000015258789,
+      "rank": 37
+    },
+    {
+      "country": "BTN",
+      "value": 64.9100036621094,
+      "rank": 38
+    },
+    {
+      "country": "GNB",
+      "value": 63.9300003051758,
+      "rank": 39
+    },
+    {
+      "country": "MOZ",
+      "value": 61.6653441678133,
+      "rank": 40
+    },
+    {
+      "country": "ETH",
+      "value": 60.4599990844727,
+      "rank": 41
+    },
+    {
+      "country": "SOM",
+      "value": 54.1199989318848,
+      "rank": 42
+    },
+    {
+      "country": "BEN",
+      "value": 51.3800010681152,
+      "rank": 43
+    },
+    {
+      "country": "BFA",
+      "value": 40.9199981689453,
+      "rank": 44
+    },
+    {
+      "country": "NER",
+      "value": 35.6100006103516,
+      "rank": 45
+    }
+  ]
+}

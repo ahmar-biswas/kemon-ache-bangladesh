@@ -72,7 +72,7 @@ export function deltaSvg(seed = 1971): string {
   return (
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">` +
     `<g fill="none" stroke="currentColor" stroke-width="0.6" stroke-linecap="round" vector-effect="non-scaling-stroke">` +
-    paths.map((d) => `<path d="${d}" vector-effect="non-scaling-stroke"/>`).join('') +
+    paths.map((d) => `<path d="${d}" pathLength="1" vector-effect="non-scaling-stroke"/>`).join('') +
     `</g></svg>\n`
   );
 }

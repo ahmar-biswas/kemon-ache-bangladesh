@@ -32,6 +32,8 @@ export function Layout() {
       <header className="site-header glass">
         <div className="wrap site-header__row">
           <Wordmark lang={lang} />
+          {/* Pages may place a control here (the homepage puts its country slicer here on wide screens). */}
+          <div className="site-header__slot" id="header-slot" />
           <LanguageToggle lang={lang} />
         </div>
         <Jamdani />

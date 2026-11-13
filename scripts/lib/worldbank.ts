@@ -74,6 +74,8 @@ export function parseCountryList(raw: RawResponse): CountryInfo[] {
 export const urls = (code: string) => ({
   /** The JSON we fetch: every year for the given countries, with footnotes (paging is added by fetchAllPages). */
   data: (countries: readonly string[]) => `${API}/country/${countries.join(';')}/indicator/${code}?format=json&footnote=y`,
+  /** Every country and aggregate, recent years only (for global ranks). */
+  allRecent: (from: number, to: number) => `${API}/country/all/indicator/${code}?format=json&date=${from}:${to}`,
   /** The indicator's own metadata (name, source organisation). */
   meta: `${API}/indicator/${code}?format=json`,
   /** Shorter API link stored in each record for readers who want the raw numbers. */

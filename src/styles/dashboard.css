@@ -1,0 +1,441 @@
+/* Homepage dashboard (Ahmar's M4 brief; DECISIONS.md 61). Tokens only.
+   Laptop (>= 1200 px wide): one screen, no scrolling at 1366 x 768 (about 1366 x 650 inside
+   the browser): slicer bar, four area columns, and the side list. Smaller screens stack. */
+
+:root { --soothe: cubic-bezier(.22, 1, .36, 1); }
+
+.dash {
+  display: grid;
+  gap: var(--s-12);
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: var(--s-12) var(--s-16) var(--s-24);
+  grid-template-areas: "bar" "areas" "side";
+  grid-template-columns: minmax(0, 1fr);
+}
+.dash__bar { grid-area: bar; min-width: 0; }
+.dash__areas { grid-area: areas; position: relative; display: grid; gap: var(--s-12); grid-template-columns: minmax(0, 1fr); }
+.dash__side { grid-area: side; min-width: 0; }
+
+@media (min-width: 700px) {
+  .dash__areas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1200px) {
+  /* The slicer moves into the header bar, so no bar row here. */
+  .dash {
+    grid-template-columns: minmax(0, 1fr) minmax(480px, 40%);
+    grid-template-areas: "areas side";
+    padding-block: var(--s-8) var(--s-12);
+    gap: var(--s-8) var(--s-12);
+  }
+  .dash__areas { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-8); align-content: start; }
+}
+
+/* Header slot (filled by the homepage's slicer on wide screens). */
+.site-header__slot { flex: 1; display: flex; justify-content: center; min-width: 0; }
+.site-header__slot:empty { display: none; }
+.site-header__slot .slicer__label { font-size: 0.8125rem; }
+
+/* ---------- Area tile ---------- */
+.area {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-8);
+  min-width: 0;
+  padding: var(--s-12) var(--s-12) var(--s-8);
+  background: var(--muslin);
+  border-radius: var(--r-tile);
+  box-shadow: var(--paper-shadow);
+}
+.area__head { display: grid; gap: 2px; }
+.area__title {
+  display: flex;
+  align-items: center;
+  gap: var(--s-8);
+  font-size: var(--fs-18);
+  line-height: 1.25;
+}
+.area__title:lang(bn), :lang(bn) .area__title { line-height: 1.4; }
+.area__status { font-size: 0.78125rem; line-height: 1.4; color: var(--kali-2); }
+.area__subtitle { font-size: 0.71875rem; line-height: 1.4; color: var(--kali-3); }
+.area__rows { display: flex; flex-direction: column; gap: var(--s-4); flex: 1; }
+.area__top { display: flex; align-items: center; justify-content: space-between; gap: var(--s-8); }
+/* Small flag switch (tile headings): 36 px with a mouse, 44 px on touch screens. */
+.flag-switch--small, .flag-switch--small .flag-switch__option { min-height: 34px; }
+.flag-switch--small .flag-switch__option { font-size: 0.78125rem; padding-inline: var(--s-12); }
+.flag-switch--small .flag-switch__option:first-of-type { padding-right: 24px; }
+.flag-switch--small .flag-switch__option:last-of-type { padding-left: 24px; }
+.flag-switch--small .flag-switch__disc { width: 13px; height: 13px; margin: -6.5px 0 0 -6.5px; }
+@media (pointer: coarse) {
+  .flag-switch--small, .flag-switch--small .flag-switch__option { min-height: 44px; }
+}
+
+/* ---------- One data point ---------- */
+/* Left: name, value, rank. Right: strip, goal and position. Below: source lines. */
+.metric__main, .metric__chart, .metric__sources { display: grid; gap: 1px; min-width: 0; }
+.metric__sources { grid-column: 1 / -1; }
+.metric {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  column-gap: var(--s-12);
+  row-gap: 1px;
+  align-items: start;
+  min-width: 0;
+  padding-top: var(--s-4);
+  background-image: linear-gradient(to right, var(--sutaa) 0 6px, transparent 6px 11px);
+  background-size: 11px 1px;
+  background-repeat: repeat-x;
+}
+.metric__name {
+  font-family: inherit;
+  font-size: 0.78125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--kali);
+  text-wrap: pretty;
+}
+.metric__name:lang(bn), :lang(bn) .metric__name { font-family: var(--font-body-bn); font-weight: 600; line-height: 1.45; }
+.metric__value { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: var(--s-4); line-height: 1.15; }
+.metric__num {
+  font-family: var(--font-display-en);
+  font-size: 1.3125rem;
+  font-weight: 500;
+  color: var(--kali);
+}
+.metric__num:lang(bn), :lang(bn) .metric__num { font-family: var(--font-display-bn); font-weight: 400; }
+.metric__unit, .metric__year { font-size: 0.71875rem; color: var(--kali-2); }
+.metric__year { color: var(--kali-3); }
+.metric__value--na { font-size: 0.8125rem; font-weight: 600; color: var(--kali-2); }
+.metric__compare {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  min-height: 1.3em;
+  font-size: 0.71875rem;
+  line-height: 1.3;
+  color: var(--kali-3);
+  transition: color 400ms var(--soothe);
+}
+.metric__compare.is-selected { color: var(--kali); }
+.metric__compare-dot {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--series-2);
+  animation: dot-in 450ms var(--soothe);
+}
+@keyframes dot-in { from { transform: scale(0); } to { transform: scale(1); } }
+.metric__note { font-size: 0.6875rem; color: var(--kali-3); }
+.metric__line, .metric__status, .metric__rank {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--s-8);
+  font-size: 0.71875rem;
+  line-height: 1.35;
+  color: var(--kali-2);
+}
+.metric__goal { color: var(--kali); }
+
+/* ---------- Mini strip ---------- */
+.mini { margin-block: 2px; }
+.mini__plot { position: relative; height: 26px; margin-inline: 6px; }
+.mini__axis {
+  position: absolute;
+  left: -6px;
+  right: -6px;
+  top: 15px;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--sutaa) 0 5px, transparent 5px 9px);
+  background-size: 9px 1px;
+  background-repeat: repeat-x;
+}
+.mini__median { position: absolute; top: 9px; width: 1.5px; height: 13px; margin-left: -0.75px; background: var(--kali-3); border-radius: 1px; }
+.mini__goal { position: absolute; top: 5px; height: 20px; width: 0; border-left: 1.5px dashed var(--kali-2); }
+.mini__goal-label {
+  position: absolute;
+  top: -6px;
+  left: 3px;
+  font-size: 0.625rem;
+  line-height: 1;
+  color: var(--kali-2);
+  white-space: nowrap;
+}
+.mini__goal.is-end .mini__goal-label { left: auto; right: 3px; }
+.mini__dot {
+  position: absolute;
+  top: 15px;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+}
+.mini__dot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  margin: -4.5px 0 0 -4.5px;
+  border-radius: 50%;
+  border: 1.5px solid var(--peer-grey);
+  background: var(--muslin);
+  box-shadow: 0 0 0 2px var(--muslin);
+  transition: transform 450ms var(--soothe), background-color 450ms var(--soothe), border-color 450ms var(--soothe);
+}
+.mini__dot.is-bgd::before { width: 11px; height: 11px; margin: -5.5px 0 0 -5.5px; border-color: var(--dhan-chart); background: var(--dhan-chart); }
+.mini__dot.is-selected::before { border-color: var(--series-2); background: var(--series-2); transform: scale(1.25); }
+.mini__tip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6;
+  padding: 3px var(--s-8);
+  border-radius: var(--r-chip);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  color: var(--kali);
+  pointer-events: none;
+}
+.mini__dot.is-start .mini__tip { left: 0; transform: none; }
+.mini__dot.is-end .mini__tip { left: auto; right: 0; transform: none; }
+.mini__dot:hover .mini__tip { display: block; }
+.mini__sel-label {
+  position: absolute;
+  top: -1px;
+  transform: translateX(-50%);
+  font-size: 0.625rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--kali);
+  white-space: nowrap;
+  animation: label-in 450ms var(--soothe);
+}
+.mini__sel-label.is-start { transform: translateX(-6px); }
+.mini__sel-label.is-end { transform: translateX(calc(-100% + 6px)); }
+@keyframes label-in { from { opacity: 0; translate: 0 3px; } to { opacity: 1; translate: 0 0; } }
+.mini__unit-note { color: var(--kali-3); font-style: normal; }
+.mini__ends { display: flex; justify-content: space-between; gap: var(--s-4); font-size: 0.625rem; line-height: 1.2; color: var(--kali-3); font-variant-numeric: tabular-nums; }
+
+/* ---------- Compact source line ---------- */
+.source-line--compact {
+  margin-top: 1px;
+  padding-top: 0;
+  column-gap: var(--s-8);
+  font-size: 0.65625rem;          /* 10.5 px: smaller than everything else in the row */
+  line-height: 1.35;
+  background: none;
+}
+.source-line--compact:lang(bn), :lang(bn) .source-line--compact { font-size: 0.65625rem; }
+.source-line + .source-line--compact { padding-top: 0; }
+
+/* ---------- Info button and pop-up ---------- */
+.info-button {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: 1px solid var(--sutaa);
+  border-radius: 50%;
+  background: var(--muslin);
+  font: 600 10px/1 var(--font-body-en);
+  color: var(--dhan);
+  cursor: pointer;
+  vertical-align: middle;
+}
+.info-button::after { content: ""; position: absolute; inset: -6px; } /* 28 px hit area */
+.info-pop {
+  max-width: min(320px, calc(100vw - 32px));
+  margin: auto;
+  padding: var(--s-12) var(--s-16);
+  border-radius: var(--r-tile);
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--kali);
+}
+.info-pop::backdrop { background: transparent; }
+
+/* ---------- Side list ---------- */
+.dash__side {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-8);
+  padding: var(--s-12);
+  background: var(--muslin);
+  border-radius: var(--r-tile);
+  box-shadow: var(--paper-shadow);
+}
+.side__title { font-size: var(--fs-18); line-height: 1.25; }
+.side__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-4) var(--s-12); }
+
+
+/* ---------- Slicer ---------- */
+.slicer { display: flex; align-items: center; gap: var(--s-12); min-width: 0; }
+.slicer__label { flex-shrink: 0; font-size: 0.875rem; font-weight: 600; color: var(--kali-2); }
+.slicer__rail {
+  position: relative;
+  display: inline-flex;
+  min-width: 0;
+  max-width: 100%;
+  padding: 4px;
+  border-radius: var(--r-pill);
+  background: var(--glass-fill), linear-gradient(90deg, var(--dhan-glow), var(--track-green));
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.slicer__rail::-webkit-scrollbar { display: none; }
+.slicer__thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 0;
+  z-index: 0;
+  border-radius: var(--r-pill);
+  background: var(--muslin);
+  box-shadow: var(--thumb-shadow);
+  cursor: grab;
+  touch-action: none;
+  transition: transform 520ms var(--soothe), width 520ms var(--soothe);
+}
+.slicer__thumb.is-dragging { cursor: grabbing; transition: none; }
+.slicer__chip {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 var(--s-12);
+  border: 0;
+  border-radius: var(--r-pill);
+  background: transparent;
+  font: inherit;
+  font-size: 0.8125rem;
+  color: var(--kali-2);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 300ms var(--soothe);
+}
+.slicer__chip:hover { color: var(--kali); }
+.slicer__chip.is-selected { color: var(--kali); font-weight: 600; }
+.slicer__chip:focus-visible { outline: var(--focus-ring); outline-offset: 1px; border-radius: var(--r-pill); }
+.slicer__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--peer-grey);
+  transition: background-color 400ms var(--soothe), border-color 400ms var(--soothe), transform 400ms var(--soothe);
+}
+.slicer__chip.is-selected .slicer__dot { background: var(--series-2); border-color: var(--series-2); transform: scale(1.2); }
+@media (pointer: coarse) { .slicer__chip { min-height: 44px; } }
+@media (forced-colors: active) { .slicer__thumb { border: 2px solid CanvasText; } }
+
+/* ---------- Details panel (over the four area tiles) ---------- */
+.details {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: var(--s-16);
+  align-content: start;
+  padding: var(--s-16);
+  border-radius: var(--r-hero);
+  outline: none;
+  animation: details-in 420ms var(--soothe);
+}
+@media (min-width: 1200px) {
+  .details { position: absolute; inset: 0; z-index: 10; overflow-y: auto; padding: var(--s-24); }
+}
+@keyframes details-in { from { opacity: 0; transform: translateY(8px) scale(.99); } to { opacity: 1; transform: none; } }
+.details__head h2 { display: flex; align-items: center; gap: var(--s-8); font-size: var(--fs-22); }
+.details__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-16); }
+@media (min-width: 900px) { .details__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .details__grid .tile--wide { grid-column: span 2; } }
+.details .tile { grid-column: auto; }
+.tile__goal, .tile__rank { font-size: 0.8125rem; color: var(--kali-2); }
+
+/* ---------- The one orchestrated motion: contours draw in on the first visit (8.11) ---------- */
+.draw-in .backdrop__delta path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: draw-line 1.6s var(--soothe) forwards;
+}
+@keyframes draw-line { to { stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .slicer__thumb, .mini__dot::before, .slicer__dot, .metric__compare { transition: none; }
+  .metric__compare-dot, .mini__sel-label, .details { animation: none; }
+  .draw-in .backdrop__delta path { animation: none; stroke-dasharray: none; }
+}
+
+/* Tight rows: rank text with its info button on one line; names on one line where they fit. */
+.metric__rank-text { display: inline-flex; align-items: center; gap: var(--s-4); white-space: nowrap; }
+.metric__line { gap: var(--s-8); }
+.metric__pos { white-space: nowrap; }
+.mini__unit-note--alone { font-size: 0.625rem; line-height: 1.2; text-align: center; }
+.area { padding: var(--s-8) var(--s-12) var(--s-8); gap: var(--s-4); }
+.dash__side { padding: var(--s-8) var(--s-12); gap: var(--s-4); }
+.side__title { font-size: var(--fs-16); }
+.metric--side .mini__plot { height: 24px; }
+
+/* Three columns per data point at laptop width: [name and value] [strip] [rank and position],
+   with the source line(s) underneath. Smaller screens keep two columns. */
+@media (min-width: 1200px) {
+  .metric {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr) max-content;
+    column-gap: var(--s-8);
+  }
+  .metric__side { display: grid; gap: 1px; justify-items: start; font-size: 0.71875rem; line-height: 1.35; color: var(--kali-2); padding-top: 2px; }
+  .metric--area .metric__main .metric__line, .metric__chart .metric__line { display: none; }
+}
+@media (max-width: 1199px) { .metric__side { display: none; } }
+
+/* Tighter type for one-screen fit (laptop). */
+@media (min-width: 1200px) {
+  .metric__name { line-height: 1.22; }
+  .metric__name:lang(bn), :lang(bn) .metric__name { line-height: 1.35; }
+  .metric__num { font-size: 1.1875rem; line-height: 1.1; }
+  .source-line--compact { line-height: 1.25; }
+  .area__status { font-size: 0.71875rem; }
+  .area__subtitle { font-size: 0.6875rem; }
+  .metric { padding-top: 3px; }
+}
+
+@media (min-width: 1200px) {
+  .dash { padding-block: var(--s-4) var(--s-8); }
+  .area__rows, .side__grid { gap: 0; }
+  .dash__side { padding: 6px var(--s-12) var(--s-4); gap: 2px; }
+  .side__title { font-size: 0.9375rem; line-height: 1.25; }
+  .area { padding-top: 6px; padding-bottom: var(--s-4); }
+}
+
+/* The dashboard sets its own spacing: no default page padding on the homepage. */
+.is-home main { padding-block: 0; }
+@media (min-width: 1200px) {
+  .dash__side { padding-top: 4px; }
+  .side__title { line-height: 1.15; }
+}
+@media (min-width: 1200px) {
+  .metric--side { padding-top: 2px; }
+  .site-header__slot .slicer__chip { padding-inline: 9px; font-size: 0.78125rem; }
+  .site-header__slot .slicer { gap: var(--s-8); }
+}
+@media (min-width: 1200px) { .dash { padding-bottom: 2px; } }
+/* Bangla compact rows (laptop): slightly tighter lines so the side list fits one screen.
+   Single-line labels only; vowel marks are not clipped (overflow stays visible). */
+@media (min-width: 1200px) {
+  :lang(bn) .metric--side .metric__name { line-height: 1.2; }
+  :lang(bn) .metric--side .metric__num { line-height: 1.05; }
+  :lang(bn) .metric--side .source-line--compact { line-height: 1.2; }
+}
+.slicer__chip.is-selected { cursor: grab; touch-action: none; }
+.slicer__rail.is-dragging, .slicer__rail.is-dragging .slicer__chip { cursor: grabbing; }
+.slicer__thumb { pointer-events: none; }
+.details__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-12); }
+.details__hint { font-size: 0.8125rem; margin-top: calc(-1 * var(--s-12)); }
+
+/* Compact source lines are flowing text (a flex row put gaps before each comma). */
+.source-line--compact { display: block; }

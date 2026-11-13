@@ -1,11 +1,12 @@
 // A headline tile (8.8, design contract): name, value, caveats, plain explanation with the
 // official definition link, the peer strip, the position badge (or the neutral note), and the
 // source line. The source line is never hidden (R1).
-import type { CountriesFile, DataRecord, IndicatorMeta, MedianRecord } from '../data/types.ts';
+import type { CountriesFile, DataRecord, IndicatorMeta, MedianRecord, RankSummary, Target } from '../data/types.ts';
 import { latestMedian, latestRecent } from '../data/compare.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { explanation, indicatorName } from '../lib/display.ts';
-import { valueParts } from '../lib/formatValue.ts';
+import { formatValue, valueParts } from '../lib/formatValue.ts';
+import { formatNumber, formatYear } from '../lib/format.ts';
 import { PeerStrip } from './PeerStrip.tsx';
 import { PositionBadge } from './PositionBadge.tsx';
 import { SourceLine } from './SourceLine.tsx';
@@ -23,9 +24,13 @@ interface Props extends TileData {
   countries: CountriesFile;
   since: number;
   wide?: boolean;
+  /** Bangladesh's global rank (Ahmar, M4), published or calculated by this site. */
+  rank?: RankSummary | null;
+  /** Official numeric goal, drawn as a goal line and stated with its source. */
+  target?: Target | null;
 }
 
-export function Tile({ meta, records, compare, medians, lang, countries, since, wide }: Props) {
+export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target }: Props) {
   const own = latestRecent(records, ['BGD'], 0).get('BGD');
   const cmp = compare ?? (meta.scope === 'compare' ? { meta, records, medians } : undefined);
   const peerIds = countries.default_peers;
@@ -43,6 +48,7 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
 
   const text = explanation(meta, own, lang);
   const parts = own ? valueParts(own, lang) : null;
+  const n = (v: number) => formatNumber(v, lang, 0);
 
   return (
     <article className={`tile${wide ? ' tile--wide' : ''}`} data-figure="">
@@ -89,10 +95,26 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
             direction={cmp.meta.favourable_direction}
             countries={countries}
             size={wide ? 'large' : 'small'}
+            target={target ?? undefined}
           />
           {years.size > 1 && <p className="tile__years muted">{t(lang, 'caveat.years_differ')}</p>}
           <PositionBadge lang={lang} direction={cmp.meta.favourable_direction} bangladesh={bgdCmp} peers={peers} countries={countries} />
           {compare && bgdCmp && <SourceLine record={bgdCmp} lang={lang} />}
+          {target && (
+            <p className="tile__goal">
+              {t(lang, target.label_key as never, { value: formatValue({ value: target.value, unit: target.unit }, lang) })}{' '}
+              <a href={target.source_url} target="_blank" rel="noopener noreferrer">
+                {target.source_name}
+              </a>
+            </p>
+          )}
+          {rank && (
+            <p className="tile__rank">
+              {rank.kind === 'calculated'
+                ? `${t(lang, 'rank.calculated', { rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}. ${t(lang, 'derived.calculated_by_site')}.`
+                : t(lang, 'rank.published', { rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}
+            </p>
+          )}
         </div>
       )}
 

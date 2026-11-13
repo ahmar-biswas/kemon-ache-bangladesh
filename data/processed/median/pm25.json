@@ -1,0 +1,6938 @@
+[
+  {
+    "indicator_id": "pm25",
+    "year": 1990,
+    "value": 25.6026468183991,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.6769644253321
+      },
+      {
+        "country": "BEN",
+        "value": 43.7777338078075
+      },
+      {
+        "country": "BGD",
+        "value": 64.6524235832391
+      },
+      {
+        "country": "BOL",
+        "value": 93.8442496914085
+      },
+      {
+        "country": "BTN",
+        "value": 29.9237985336991
+      },
+      {
+        "country": "CIV",
+        "value": 25.1307662402169
+      },
+      {
+        "country": "CMR",
+        "value": 52.5895269024696
+      },
+      {
+        "country": "COG",
+        "value": 33.3325811948247
+      },
+      {
+        "country": "COM",
+        "value": 10.0564874490776
+      },
+      {
+        "country": "DJI",
+        "value": 36.547397008077
+      },
+      {
+        "country": "EGY",
+        "value": 46.5345174231521
+      },
+      {
+        "country": "GHA",
+        "value": 38.3512002784784
+      },
+      {
+        "country": "GIN",
+        "value": 30.886996358437
+      },
+      {
+        "country": "HND",
+        "value": 39.2199557858912
+      },
+      {
+        "country": "HTI",
+        "value": 14.1796909160106
+      },
+      {
+        "country": "IND",
+        "value": 51.2032665473841
+      },
+      {
+        "country": "KEN",
+        "value": 14.8604788173593
+      },
+      {
+        "country": "KGZ",
+        "value": 20.6880874813649
+      },
+      {
+        "country": "KHM",
+        "value": 28.3658684288157
+      },
+      {
+        "country": "KIR",
+        "value": 4.65571197757691
+      },
+      {
+        "country": "LAO",
+        "value": 40.081047149581
+      },
+      {
+        "country": "LBN",
+        "value": 22.33202978435
+      },
+      {
+        "country": "LSO",
+        "value": 30.6256396050694
+      },
+      {
+        "country": "MAR",
+        "value": 14.6250982069952
+      },
+      {
+        "country": "MMR",
+        "value": 45.0015470029771
+      },
+      {
+        "country": "MRT",
+        "value": 48.1348987573464
+      },
+      {
+        "country": "NAM",
+        "value": 16.3085798089561
+      },
+      {
+        "country": "NGA",
+        "value": 64.734109284699
+      },
+      {
+        "country": "NIC",
+        "value": 25.6026468183991
+      },
+      {
+        "country": "NPL",
+        "value": 42.5594940846862
+      },
+      {
+        "country": "PAK",
+        "value": 58.4949510833753
+      },
+      {
+        "country": "PNG",
+        "value": 16.0218759164467
+      },
+      {
+        "country": "PSE",
+        "value": 21.2937992114336
+      },
+      {
+        "country": "SEN",
+        "value": 45.3947987510854
+      },
+      {
+        "country": "SLB",
+        "value": 9.15973106105958
+      },
+      {
+        "country": "STP",
+        "value": 15.9663049683279
+      },
+      {
+        "country": "SWZ",
+        "value": 19.6960955608935
+      },
+      {
+        "country": "TGO",
+        "value": 43.2563753450622
+      },
+      {
+        "country": "TJK",
+        "value": 21.170885193042
+      },
+      {
+        "country": "TLS",
+        "value": 16.605908218013
+      },
+      {
+        "country": "TUN",
+        "value": 17.0922990158399
+      },
+      {
+        "country": "TZA",
+        "value": 16.8706424488862
+      },
+      {
+        "country": "UZB",
+        "value": 36.950946054028
+      },
+      {
+        "country": "VEN",
+        "value": 24.0708661679137
+      },
+      {
+        "country": "VUT",
+        "value": 9.30120988067376
+      },
+      {
+        "country": "ZMB",
+        "value": 21.7282721226055
+      },
+      {
+        "country": "ZWE",
+        "value": 16.2174675414026
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1991,
+    "value": 25.5295578067305,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.367735013089
+      },
+      {
+        "country": "BEN",
+        "value": 41.911185553105
+      },
+      {
+        "country": "BGD",
+        "value": 63.8746684638831
+      },
+      {
+        "country": "BOL",
+        "value": 93.9060139381223
+      },
+      {
+        "country": "BTN",
+        "value": 29.4940933650966
+      },
+      {
+        "country": "CIV",
+        "value": 23.7924566464742
+      },
+      {
+        "country": "CMR",
+        "value": 50.8142443959735
+      },
+      {
+        "country": "COG",
+        "value": 33.7506346287268
+      },
+      {
+        "country": "COM",
+        "value": 9.89198652087815
+      },
+      {
+        "country": "DJI",
+        "value": 35.3965455912279
+      },
+      {
+        "country": "EGY",
+        "value": 48.6582442222188
+      },
+      {
+        "country": "GHA",
+        "value": 36.2087431851242
+      },
+      {
+        "country": "GIN",
+        "value": 30.2781205237132
+      },
+      {
+        "country": "HND",
+        "value": 38.4392712467941
+      },
+      {
+        "country": "HTI",
+        "value": 14.1060885561724
+      },
+      {
+        "country": "IND",
+        "value": 50.1661937890725
+      },
+      {
+        "country": "KEN",
+        "value": 14.6037598103469
+      },
+      {
+        "country": "KGZ",
+        "value": 20.9458012637528
+      },
+      {
+        "country": "KHM",
+        "value": 27.5843165419336
+      },
+      {
+        "country": "KIR",
+        "value": 4.64581802473462
+      },
+      {
+        "country": "LAO",
+        "value": 39.6075889478625
+      },
+      {
+        "country": "LBN",
+        "value": 23.0982367462123
+      },
+      {
+        "country": "LSO",
+        "value": 30.8393151131895
+      },
+      {
+        "country": "MAR",
+        "value": 14.6112799481479
+      },
+      {
+        "country": "MMR",
+        "value": 44.2032332665651
+      },
+      {
+        "country": "MRT",
+        "value": 48.5471665966588
+      },
+      {
+        "country": "NAM",
+        "value": 16.1689605666893
+      },
+      {
+        "country": "NGA",
+        "value": 63.6946878943326
+      },
+      {
+        "country": "NIC",
+        "value": 25.5295578067305
+      },
+      {
+        "country": "NPL",
+        "value": 41.6613979381683
+      },
+      {
+        "country": "PAK",
+        "value": 57.1043539490827
+      },
+      {
+        "country": "PNG",
+        "value": 15.6892191388787
+      },
+      {
+        "country": "PSE",
+        "value": 22.2088956794847
+      },
+      {
+        "country": "SEN",
+        "value": 45.6117063547894
+      },
+      {
+        "country": "SLB",
+        "value": 9.06033625057697
+      },
+      {
+        "country": "STP",
+        "value": 15.3187421771844
+      },
+      {
+        "country": "SWZ",
+        "value": 19.8748107225273
+      },
+      {
+        "country": "TGO",
+        "value": 41.3675496258111
+      },
+      {
+        "country": "TJK",
+        "value": 21.2693877175419
+      },
+      {
+        "country": "TLS",
+        "value": 16.2065386131262
+      },
+      {
+        "country": "TUN",
+        "value": 16.5642039071974
+      },
+      {
+        "country": "TZA",
+        "value": 16.4386050454719
+      },
+      {
+        "country": "UZB",
+        "value": 38.0779536645586
+      },
+      {
+        "country": "VEN",
+        "value": 24.0218336140855
+      },
+      {
+        "country": "VUT",
+        "value": 9.22521765381854
+      },
+      {
+        "country": "ZMB",
+        "value": 21.2884604295426
+      },
+      {
+        "country": "ZWE",
+        "value": 16.0049376983885
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1992,
+    "value": 25.5819266176816,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.3447558436431
+      },
+      {
+        "country": "BEN",
+        "value": 42.1999574587466
+      },
+      {
+        "country": "BGD",
+        "value": 63.8693390691615
+      },
+      {
+        "country": "BOL",
+        "value": 91.7358735728021
+      },
+      {
+        "country": "BTN",
+        "value": 29.6218026001771
+      },
+      {
+        "country": "CIV",
+        "value": 23.8818761697925
+      },
+      {
+        "country": "CMR",
+        "value": 51.1801531416189
+      },
+      {
+        "country": "COG",
+        "value": 34.1390342748295
+      },
+      {
+        "country": "COM",
+        "value": 10.0576892640582
+      },
+      {
+        "country": "DJI",
+        "value": 35.8665133876742
+      },
+      {
+        "country": "EGY",
+        "value": 48.9089445519871
+      },
+      {
+        "country": "GHA",
+        "value": 36.2382419475188
+      },
+      {
+        "country": "GIN",
+        "value": 30.208389061569
+      },
+      {
+        "country": "HND",
+        "value": 38.3555599266436
+      },
+      {
+        "country": "HTI",
+        "value": 14.2929409000805
+      },
+      {
+        "country": "IND",
+        "value": 50.1221696951975
+      },
+      {
+        "country": "KEN",
+        "value": 15.014624560298
+      },
+      {
+        "country": "KGZ",
+        "value": 21.0887857830666
+      },
+      {
+        "country": "KHM",
+        "value": 27.4292958884034
+      },
+      {
+        "country": "KIR",
+        "value": 4.68415120472875
+      },
+      {
+        "country": "LAO",
+        "value": 39.369334809712
+      },
+      {
+        "country": "LBN",
+        "value": 23.3146639525296
+      },
+      {
+        "country": "LSO",
+        "value": 30.6303581267865
+      },
+      {
+        "country": "MAR",
+        "value": 15.0169329263807
+      },
+      {
+        "country": "MMR",
+        "value": 43.8313343106857
+      },
+      {
+        "country": "MRT",
+        "value": 49.0033334245488
+      },
+      {
+        "country": "NAM",
+        "value": 16.2292843109323
+      },
+      {
+        "country": "NGA",
+        "value": 64.0635829698221
+      },
+      {
+        "country": "NIC",
+        "value": 25.5819266176816
+      },
+      {
+        "country": "NPL",
+        "value": 41.6295825067754
+      },
+      {
+        "country": "PAK",
+        "value": 56.9798991880733
+      },
+      {
+        "country": "PNG",
+        "value": 15.6264809362835
+      },
+      {
+        "country": "PSE",
+        "value": 22.3455503080555
+      },
+      {
+        "country": "SEN",
+        "value": 45.8009387659883
+      },
+      {
+        "country": "SLB",
+        "value": 9.06848616556654
+      },
+      {
+        "country": "STP",
+        "value": 15.3251300607687
+      },
+      {
+        "country": "SWZ",
+        "value": 19.8817172654425
+      },
+      {
+        "country": "TGO",
+        "value": 41.5712255587953
+      },
+      {
+        "country": "TJK",
+        "value": 21.5284139325299
+      },
+      {
+        "country": "TLS",
+        "value": 16.0897408547292
+      },
+      {
+        "country": "TUN",
+        "value": 16.929847996533
+      },
+      {
+        "country": "TZA",
+        "value": 16.7853443501877
+      },
+      {
+        "country": "UZB",
+        "value": 38.0786816607584
+      },
+      {
+        "country": "VEN",
+        "value": 24.0599473734128
+      },
+      {
+        "country": "VUT",
+        "value": 9.2199927256462
+      },
+      {
+        "country": "ZMB",
+        "value": 21.4051778979452
+      },
+      {
+        "country": "ZWE",
+        "value": 16.0259571583321
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1993,
+    "value": 25.6342954286327,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.3217766741972
+      },
+      {
+        "country": "BEN",
+        "value": 42.4887293643883
+      },
+      {
+        "country": "BGD",
+        "value": 63.8640096744399
+      },
+      {
+        "country": "BOL",
+        "value": 89.5657332074819
+      },
+      {
+        "country": "BTN",
+        "value": 29.7495118352575
+      },
+      {
+        "country": "CIV",
+        "value": 23.9712956931107
+      },
+      {
+        "country": "CMR",
+        "value": 51.5460618872644
+      },
+      {
+        "country": "COG",
+        "value": 34.5274339209322
+      },
+      {
+        "country": "COM",
+        "value": 10.2233920072383
+      },
+      {
+        "country": "DJI",
+        "value": 36.3364811841206
+      },
+      {
+        "country": "EGY",
+        "value": 49.1596448817554
+      },
+      {
+        "country": "GHA",
+        "value": 36.2677407099134
+      },
+      {
+        "country": "GIN",
+        "value": 30.1386575994249
+      },
+      {
+        "country": "HND",
+        "value": 38.2718486064932
+      },
+      {
+        "country": "HTI",
+        "value": 14.4797932439886
+      },
+      {
+        "country": "IND",
+        "value": 50.0781456013225
+      },
+      {
+        "country": "KEN",
+        "value": 15.4254893102492
+      },
+      {
+        "country": "KGZ",
+        "value": 21.2317703023804
+      },
+      {
+        "country": "KHM",
+        "value": 27.2742752348733
+      },
+      {
+        "country": "KIR",
+        "value": 4.72248438472288
+      },
+      {
+        "country": "LAO",
+        "value": 39.1310806715615
+      },
+      {
+        "country": "LBN",
+        "value": 23.5310911588468
+      },
+      {
+        "country": "LSO",
+        "value": 30.4214011403836
+      },
+      {
+        "country": "MAR",
+        "value": 15.4225859046135
+      },
+      {
+        "country": "MMR",
+        "value": 43.4594353548064
+      },
+      {
+        "country": "MRT",
+        "value": 49.4595002524387
+      },
+      {
+        "country": "NAM",
+        "value": 16.2896080551754
+      },
+      {
+        "country": "NGA",
+        "value": 64.4324780453115
+      },
+      {
+        "country": "NIC",
+        "value": 25.6342954286327
+      },
+      {
+        "country": "NPL",
+        "value": 41.5977670753824
+      },
+      {
+        "country": "PAK",
+        "value": 56.8554444270639
+      },
+      {
+        "country": "PNG",
+        "value": 15.5637427336882
+      },
+      {
+        "country": "PSE",
+        "value": 22.4822049366264
+      },
+      {
+        "country": "SEN",
+        "value": 45.9901711771871
+      },
+      {
+        "country": "SLB",
+        "value": 9.07663608055611
+      },
+      {
+        "country": "STP",
+        "value": 15.3315179443529
+      },
+      {
+        "country": "SWZ",
+        "value": 19.8886238083576
+      },
+      {
+        "country": "TGO",
+        "value": 41.7749014917796
+      },
+      {
+        "country": "TJK",
+        "value": 21.7874401475178
+      },
+      {
+        "country": "TLS",
+        "value": 15.9729430963322
+      },
+      {
+        "country": "TUN",
+        "value": 17.2954920858687
+      },
+      {
+        "country": "TZA",
+        "value": 17.1320836549034
+      },
+      {
+        "country": "UZB",
+        "value": 38.0794096569583
+      },
+      {
+        "country": "VEN",
+        "value": 24.0980611327401
+      },
+      {
+        "country": "VUT",
+        "value": 9.21476779747386
+      },
+      {
+        "country": "ZMB",
+        "value": 21.5218953663478
+      },
+      {
+        "country": "ZWE",
+        "value": 16.0469766182757
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1994,
+    "value": 25.6866642395837,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.2987975047513
+      },
+      {
+        "country": "BEN",
+        "value": 42.7775012700299
+      },
+      {
+        "country": "BGD",
+        "value": 63.8586802797183
+      },
+      {
+        "country": "BOL",
+        "value": 87.3955928421617
+      },
+      {
+        "country": "BTN",
+        "value": 29.877221070338
+      },
+      {
+        "country": "CIV",
+        "value": 24.060715216429
+      },
+      {
+        "country": "CMR",
+        "value": 51.9119706329098
+      },
+      {
+        "country": "COG",
+        "value": 34.9158335670349
+      },
+      {
+        "country": "COM",
+        "value": 10.3890947504183
+      },
+      {
+        "country": "DJI",
+        "value": 36.8064489805669
+      },
+      {
+        "country": "EGY",
+        "value": 49.4103452115237
+      },
+      {
+        "country": "GHA",
+        "value": 36.2972394723079
+      },
+      {
+        "country": "GIN",
+        "value": 30.0689261372808
+      },
+      {
+        "country": "HND",
+        "value": 38.1881372863427
+      },
+      {
+        "country": "HTI",
+        "value": 14.6666455878967
+      },
+      {
+        "country": "IND",
+        "value": 50.0341215074474
+      },
+      {
+        "country": "KEN",
+        "value": 15.8363540602003
+      },
+      {
+        "country": "KGZ",
+        "value": 21.3747548216941
+      },
+      {
+        "country": "KHM",
+        "value": 27.1192545813431
+      },
+      {
+        "country": "KIR",
+        "value": 4.76081756471701
+      },
+      {
+        "country": "LAO",
+        "value": 38.892826533411
+      },
+      {
+        "country": "LBN",
+        "value": 23.7475183651641
+      },
+      {
+        "country": "LSO",
+        "value": 30.2124441539806
+      },
+      {
+        "country": "MAR",
+        "value": 15.8282388828463
+      },
+      {
+        "country": "MMR",
+        "value": 43.087536398927
+      },
+      {
+        "country": "MRT",
+        "value": 49.9156670803287
+      },
+      {
+        "country": "NAM",
+        "value": 16.3499317994184
+      },
+      {
+        "country": "NGA",
+        "value": 64.8013731208009
+      },
+      {
+        "country": "NIC",
+        "value": 25.6866642395837
+      },
+      {
+        "country": "NPL",
+        "value": 41.5659516439895
+      },
+      {
+        "country": "PAK",
+        "value": 56.7309896660545
+      },
+      {
+        "country": "PNG",
+        "value": 15.5010045310929
+      },
+      {
+        "country": "PSE",
+        "value": 22.6188595651972
+      },
+      {
+        "country": "SEN",
+        "value": 46.1794035883859
+      },
+      {
+        "country": "SLB",
+        "value": 9.08478599554567
+      },
+      {
+        "country": "STP",
+        "value": 15.3379058279372
+      },
+      {
+        "country": "SWZ",
+        "value": 19.8955303512728
+      },
+      {
+        "country": "TGO",
+        "value": 41.9785774247639
+      },
+      {
+        "country": "TJK",
+        "value": 22.0464663625058
+      },
+      {
+        "country": "TLS",
+        "value": 15.8561453379352
+      },
+      {
+        "country": "TUN",
+        "value": 17.6611361752043
+      },
+      {
+        "country": "TZA",
+        "value": 17.4788229596192
+      },
+      {
+        "country": "UZB",
+        "value": 38.0801376531581
+      },
+      {
+        "country": "VEN",
+        "value": 24.1361748920674
+      },
+      {
+        "country": "VUT",
+        "value": 9.20954286930152
+      },
+      {
+        "country": "ZMB",
+        "value": 21.6386128347505
+      },
+      {
+        "country": "ZWE",
+        "value": 16.0679960782192
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1995,
+    "value": 25.4881174052956,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.7033178497108
+      },
+      {
+        "country": "BEN",
+        "value": 38.7556328549847
+      },
+      {
+        "country": "BGD",
+        "value": 62.3084994357281
+      },
+      {
+        "country": "BOL",
+        "value": 89.6892617009014
+      },
+      {
+        "country": "BTN",
+        "value": 28.8901014980531
+      },
+      {
+        "country": "CIV",
+        "value": 21.294676505626
+      },
+      {
+        "country": "CMR",
+        "value": 47.9954968742739
+      },
+      {
+        "country": "COG",
+        "value": 35.3635407887377
+      },
+      {
+        "country": "COM",
+        "value": 9.89439015084007
+      },
+      {
+        "country": "DJI",
+        "value": 34.0347783504243
+      },
+      {
+        "country": "EGY",
+        "value": 53.407098479889
+      },
+      {
+        "country": "GHA",
+        "value": 31.9828265232056
+      },
+      {
+        "country": "GIN",
+        "value": 28.9209059299771
+      },
+      {
+        "country": "HND",
+        "value": 36.7104795282989
+      },
+      {
+        "country": "HTI",
+        "value": 14.332588524313
+      },
+      {
+        "country": "IND",
+        "value": 48.0040000846993
+      },
+      {
+        "country": "KEN",
+        "value": 14.9120512962259
+      },
+      {
+        "country": "KGZ",
+        "value": 21.7471978671566
+      },
+      {
+        "country": "KHM",
+        "value": 25.7111714611086
+      },
+      {
+        "country": "KIR",
+        "value": 4.70269647903842
+      },
+      {
+        "country": "LAO",
+        "value": 38.1841642681236
+      },
+      {
+        "country": "LBN",
+        "value": 25.063505082572
+      },
+      {
+        "country": "LSO",
+        "value": 30.8487521566228
+      },
+      {
+        "country": "MAR",
+        "value": 15.3949493869202
+      },
+      {
+        "country": "MMR",
+        "value": 41.8628078819811
+      },
+      {
+        "country": "MRT",
+        "value": 50.284035931065
+      },
+      {
+        "country": "NAM",
+        "value": 16.010369570642
+      },
+      {
+        "country": "NGA",
+        "value": 62.3536352645803
+      },
+      {
+        "country": "NIC",
+        "value": 25.4881174052956
+      },
+      {
+        "country": "NPL",
+        "value": 39.8015747823468
+      },
+      {
+        "country": "PAK",
+        "value": 54.0742501584784
+      },
+      {
+        "country": "PNG",
+        "value": 14.8984291785521
+      },
+      {
+        "country": "PSE",
+        "value": 24.3123978727288
+      },
+      {
+        "country": "SEN",
+        "value": 46.4239863845958
+      },
+      {
+        "country": "SLB",
+        "value": 8.87784645959095
+      },
+      {
+        "country": "STP",
+        "value": 14.0363923620661
+      },
+      {
+        "country": "SWZ",
+        "value": 20.2460541316251
+      },
+      {
+        "country": "TGO",
+        "value": 37.9972500532786
+      },
+      {
+        "country": "TJK",
+        "value": 21.9844451965184
+      },
+      {
+        "country": "TLS",
+        "value": 15.1742038865584
+      },
+      {
+        "country": "TUN",
+        "value": 16.2393018685851
+      },
+      {
+        "country": "TZA",
+        "value": 16.2680088480762
+      },
+      {
+        "country": "UZB",
+        "value": 40.3334248780191
+      },
+      {
+        "country": "VEN",
+        "value": 23.9999960250838
+      },
+      {
+        "country": "VUT",
+        "value": 9.06278334376342
+      },
+      {
+        "country": "ZMB",
+        "value": 20.6422719802224
+      },
+      {
+        "country": "ZWE",
+        "value": 15.6219169322475
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1996,
+    "value": 25.7914018614859,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.2528391658595
+      },
+      {
+        "country": "BEN",
+        "value": 43.3550450813132
+      },
+      {
+        "country": "BGD",
+        "value": 63.8480214902751
+      },
+      {
+        "country": "BOL",
+        "value": 83.0553121115214
+      },
+      {
+        "country": "BTN",
+        "value": 30.1326395404989
+      },
+      {
+        "country": "CIV",
+        "value": 24.2395542630655
+      },
+      {
+        "country": "CMR",
+        "value": 52.6437881242007
+      },
+      {
+        "country": "COG",
+        "value": 35.6926328592403
+      },
+      {
+        "country": "COM",
+        "value": 10.7205002367785
+      },
+      {
+        "country": "DJI",
+        "value": 37.7463845734595
+      },
+      {
+        "country": "EGY",
+        "value": 49.9117458710603
+      },
+      {
+        "country": "GHA",
+        "value": 36.3562369970971
+      },
+      {
+        "country": "GIN",
+        "value": 29.9294632129925
+      },
+      {
+        "country": "HND",
+        "value": 38.0207146460418
+      },
+      {
+        "country": "HTI",
+        "value": 15.0403502757129
+      },
+      {
+        "country": "IND",
+        "value": 49.9460733196973
+      },
+      {
+        "country": "KEN",
+        "value": 16.6580835601026
+      },
+      {
+        "country": "KGZ",
+        "value": 21.6607238603216
+      },
+      {
+        "country": "KHM",
+        "value": 26.8092132742828
+      },
+      {
+        "country": "KIR",
+        "value": 4.83748392470528
+      },
+      {
+        "country": "LAO",
+        "value": 38.41631825711
+      },
+      {
+        "country": "LBN",
+        "value": 24.1803727777987
+      },
+      {
+        "country": "LSO",
+        "value": 29.7945301811747
+      },
+      {
+        "country": "MAR",
+        "value": 16.6395448393119
+      },
+      {
+        "country": "MMR",
+        "value": 42.3437384871683
+      },
+      {
+        "country": "MRT",
+        "value": 50.8280007361087
+      },
+      {
+        "country": "NAM",
+        "value": 16.4705792879045
+      },
+      {
+        "country": "NGA",
+        "value": 65.5391632717797
+      },
+      {
+        "country": "NIC",
+        "value": 25.7914018614859
+      },
+      {
+        "country": "NPL",
+        "value": 41.5023207812037
+      },
+      {
+        "country": "PAK",
+        "value": 56.4820801440357
+      },
+      {
+        "country": "PNG",
+        "value": 15.3755281259024
+      },
+      {
+        "country": "PSE",
+        "value": 22.8921688223389
+      },
+      {
+        "country": "SEN",
+        "value": 46.5578684107836
+      },
+      {
+        "country": "SLB",
+        "value": 9.10108582552481
+      },
+      {
+        "country": "STP",
+        "value": 15.3506815951057
+      },
+      {
+        "country": "SWZ",
+        "value": 19.9093434371032
+      },
+      {
+        "country": "TGO",
+        "value": 42.3859292907324
+      },
+      {
+        "country": "TJK",
+        "value": 22.5645187924818
+      },
+      {
+        "country": "TLS",
+        "value": 15.6225498211412
+      },
+      {
+        "country": "TUN",
+        "value": 18.3924243538755
+      },
+      {
+        "country": "TZA",
+        "value": 18.1723015690508
+      },
+      {
+        "country": "UZB",
+        "value": 38.0815936455579
+      },
+      {
+        "country": "VEN",
+        "value": 24.2124024107219
+      },
+      {
+        "country": "VUT",
+        "value": 9.19909301295683
+      },
+      {
+        "country": "ZMB",
+        "value": 21.8720477715557
+      },
+      {
+        "country": "ZWE",
+        "value": 16.1100349981064
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1997,
+    "value": 25.843770672437,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.2298599964136
+      },
+      {
+        "country": "BEN",
+        "value": 43.6438169869548
+      },
+      {
+        "country": "BGD",
+        "value": 63.8426920955535
+      },
+      {
+        "country": "BOL",
+        "value": 80.8851717462012
+      },
+      {
+        "country": "BTN",
+        "value": 30.2603487755793
+      },
+      {
+        "country": "CIV",
+        "value": 24.3289737863837
+      },
+      {
+        "country": "CMR",
+        "value": 53.0096968698461
+      },
+      {
+        "country": "COG",
+        "value": 36.081032505343
+      },
+      {
+        "country": "COM",
+        "value": 10.8862029799585
+      },
+      {
+        "country": "DJI",
+        "value": 38.2163523699058
+      },
+      {
+        "country": "EGY",
+        "value": 50.1624462008286
+      },
+      {
+        "country": "GHA",
+        "value": 36.3857357594916
+      },
+      {
+        "country": "GIN",
+        "value": 29.8597317508484
+      },
+      {
+        "country": "HND",
+        "value": 37.9370033258913
+      },
+      {
+        "country": "HTI",
+        "value": 15.227202619621
+      },
+      {
+        "country": "IND",
+        "value": 49.9020492258223
+      },
+      {
+        "country": "KEN",
+        "value": 17.0689483100537
+      },
+      {
+        "country": "KGZ",
+        "value": 21.8037083796354
+      },
+      {
+        "country": "KHM",
+        "value": 26.6541926207527
+      },
+      {
+        "country": "KIR",
+        "value": 4.87581710469941
+      },
+      {
+        "country": "LAO",
+        "value": 38.1780641189595
+      },
+      {
+        "country": "LBN",
+        "value": 24.3967999841159
+      },
+      {
+        "country": "LSO",
+        "value": 29.5855731947718
+      },
+      {
+        "country": "MAR",
+        "value": 17.0451978175448
+      },
+      {
+        "country": "MMR",
+        "value": 41.9718395312889
+      },
+      {
+        "country": "MRT",
+        "value": 51.2841675639987
+      },
+      {
+        "country": "NAM",
+        "value": 16.5309030321476
+      },
+      {
+        "country": "NGA",
+        "value": 65.9080583472691
+      },
+      {
+        "country": "NIC",
+        "value": 25.843770672437
+      },
+      {
+        "country": "NPL",
+        "value": 41.4705053498107
+      },
+      {
+        "country": "PAK",
+        "value": 56.3576253830263
+      },
+      {
+        "country": "PNG",
+        "value": 15.3127899233071
+      },
+      {
+        "country": "PSE",
+        "value": 23.0288234509098
+      },
+      {
+        "country": "SEN",
+        "value": 46.7471008219824
+      },
+      {
+        "country": "SLB",
+        "value": 9.10923574051438
+      },
+      {
+        "country": "STP",
+        "value": 15.3570694786899
+      },
+      {
+        "country": "SWZ",
+        "value": 19.9162499800184
+      },
+      {
+        "country": "TGO",
+        "value": 42.5896052237167
+      },
+      {
+        "country": "TJK",
+        "value": 22.8235450074697
+      },
+      {
+        "country": "TLS",
+        "value": 15.5057520627442
+      },
+      {
+        "country": "TUN",
+        "value": 18.7580684432112
+      },
+      {
+        "country": "TZA",
+        "value": 18.5190408737665
+      },
+      {
+        "country": "UZB",
+        "value": 38.0823216417577
+      },
+      {
+        "country": "VEN",
+        "value": 24.2505161700492
+      },
+      {
+        "country": "VUT",
+        "value": 9.19386808478449
+      },
+      {
+        "country": "ZMB",
+        "value": 21.9887652399584
+      },
+      {
+        "country": "ZWE",
+        "value": 16.13105445805
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1998,
+    "value": 25.896139483388,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.2068808269677
+      },
+      {
+        "country": "BEN",
+        "value": 43.9325888925964
+      },
+      {
+        "country": "BGD",
+        "value": 63.8373627008319
+      },
+      {
+        "country": "BOL",
+        "value": 78.715031380881
+      },
+      {
+        "country": "BTN",
+        "value": 30.3880580106598
+      },
+      {
+        "country": "CIV",
+        "value": 24.418393309702
+      },
+      {
+        "country": "CMR",
+        "value": 53.3756056154915
+      },
+      {
+        "country": "COG",
+        "value": 36.4694321514457
+      },
+      {
+        "country": "COM",
+        "value": 11.0519057231386
+      },
+      {
+        "country": "DJI",
+        "value": 38.6863201663521
+      },
+      {
+        "country": "EGY",
+        "value": 50.4131465305969
+      },
+      {
+        "country": "GHA",
+        "value": 36.4152345218862
+      },
+      {
+        "country": "GIN",
+        "value": 29.7900002887043
+      },
+      {
+        "country": "HND",
+        "value": 37.8532920057408
+      },
+      {
+        "country": "HTI",
+        "value": 15.414054963529
+      },
+      {
+        "country": "IND",
+        "value": 49.8580251319472
+      },
+      {
+        "country": "KEN",
+        "value": 17.4798130600049
+      },
+      {
+        "country": "KGZ",
+        "value": 21.9466928989492
+      },
+      {
+        "country": "KHM",
+        "value": 26.4991719672225
+      },
+      {
+        "country": "KIR",
+        "value": 4.91415028469354
+      },
+      {
+        "country": "LAO",
+        "value": 37.939809980809
+      },
+      {
+        "country": "LBN",
+        "value": 24.6132271904332
+      },
+      {
+        "country": "LSO",
+        "value": 29.3766162083689
+      },
+      {
+        "country": "MAR",
+        "value": 17.4508507957776
+      },
+      {
+        "country": "MMR",
+        "value": 41.5999405754095
+      },
+      {
+        "country": "MRT",
+        "value": 51.7403343918887
+      },
+      {
+        "country": "NAM",
+        "value": 16.5912267763906
+      },
+      {
+        "country": "NGA",
+        "value": 66.2769534227585
+      },
+      {
+        "country": "NIC",
+        "value": 25.896139483388
+      },
+      {
+        "country": "NPL",
+        "value": 41.4386899184178
+      },
+      {
+        "country": "PAK",
+        "value": 56.2331706220169
+      },
+      {
+        "country": "PNG",
+        "value": 15.2500517207119
+      },
+      {
+        "country": "PSE",
+        "value": 23.1654780794806
+      },
+      {
+        "country": "SEN",
+        "value": 46.9363332331812
+      },
+      {
+        "country": "SLB",
+        "value": 9.11738565550395
+      },
+      {
+        "country": "STP",
+        "value": 15.3634573622742
+      },
+      {
+        "country": "SWZ",
+        "value": 19.9231565229335
+      },
+      {
+        "country": "TGO",
+        "value": 42.793281156701
+      },
+      {
+        "country": "TJK",
+        "value": 23.0825712224577
+      },
+      {
+        "country": "TLS",
+        "value": 15.3889543043472
+      },
+      {
+        "country": "TUN",
+        "value": 19.1237125325468
+      },
+      {
+        "country": "TZA",
+        "value": 18.8657801784823
+      },
+      {
+        "country": "UZB",
+        "value": 38.0830496379576
+      },
+      {
+        "country": "VEN",
+        "value": 24.2886299293765
+      },
+      {
+        "country": "VUT",
+        "value": 9.18864315661214
+      },
+      {
+        "country": "ZMB",
+        "value": 22.105482708361
+      },
+      {
+        "country": "ZWE",
+        "value": 16.1520739179936
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 1999,
+    "value": 25.9485082943391,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.1839016575218
+      },
+      {
+        "country": "BEN",
+        "value": 44.2213607982381
+      },
+      {
+        "country": "BGD",
+        "value": 63.8320333061103
+      },
+      {
+        "country": "BOL",
+        "value": 76.5448910155609
+      },
+      {
+        "country": "BTN",
+        "value": 30.5157672457402
+      },
+      {
+        "country": "CIV",
+        "value": 24.5078128330202
+      },
+      {
+        "country": "CMR",
+        "value": 53.7415143611369
+      },
+      {
+        "country": "COG",
+        "value": 36.8578317975484
+      },
+      {
+        "country": "COM",
+        "value": 11.2176084663187
+      },
+      {
+        "country": "DJI",
+        "value": 39.1562879627984
+      },
+      {
+        "country": "EGY",
+        "value": 50.6638468603652
+      },
+      {
+        "country": "GHA",
+        "value": 36.4447332842808
+      },
+      {
+        "country": "GIN",
+        "value": 29.7202688265601
+      },
+      {
+        "country": "HND",
+        "value": 37.7695806855903
+      },
+      {
+        "country": "HTI",
+        "value": 15.6009073074371
+      },
+      {
+        "country": "IND",
+        "value": 49.8140010380722
+      },
+      {
+        "country": "KEN",
+        "value": 17.890677809956
+      },
+      {
+        "country": "KGZ",
+        "value": 22.0896774182629
+      },
+      {
+        "country": "KHM",
+        "value": 26.3441513136924
+      },
+      {
+        "country": "KIR",
+        "value": 4.95248346468768
+      },
+      {
+        "country": "LAO",
+        "value": 37.7015558426585
+      },
+      {
+        "country": "LBN",
+        "value": 24.8296543967505
+      },
+      {
+        "country": "LSO",
+        "value": 29.1676592219659
+      },
+      {
+        "country": "MAR",
+        "value": 17.8565037740104
+      },
+      {
+        "country": "MMR",
+        "value": 41.2280416195302
+      },
+      {
+        "country": "MRT",
+        "value": 52.1965012197786
+      },
+      {
+        "country": "NAM",
+        "value": 16.6515505206337
+      },
+      {
+        "country": "NGA",
+        "value": 66.6458484982479
+      },
+      {
+        "country": "NIC",
+        "value": 25.9485082943391
+      },
+      {
+        "country": "NPL",
+        "value": 41.4068744870249
+      },
+      {
+        "country": "PAK",
+        "value": 56.1087158610076
+      },
+      {
+        "country": "PNG",
+        "value": 15.1873135181166
+      },
+      {
+        "country": "PSE",
+        "value": 23.3021327080515
+      },
+      {
+        "country": "SEN",
+        "value": 47.1255656443801
+      },
+      {
+        "country": "SLB",
+        "value": 9.12553557049352
+      },
+      {
+        "country": "STP",
+        "value": 15.3698452458584
+      },
+      {
+        "country": "SWZ",
+        "value": 19.9300630658487
+      },
+      {
+        "country": "TGO",
+        "value": 42.9969570896852
+      },
+      {
+        "country": "TJK",
+        "value": 23.3415974374457
+      },
+      {
+        "country": "TLS",
+        "value": 15.2721565459502
+      },
+      {
+        "country": "TUN",
+        "value": 19.4893566218824
+      },
+      {
+        "country": "TZA",
+        "value": 19.2125194831981
+      },
+      {
+        "country": "UZB",
+        "value": 38.0837776341574
+      },
+      {
+        "country": "VEN",
+        "value": 24.3267436887038
+      },
+      {
+        "country": "VUT",
+        "value": 9.1834182284398
+      },
+      {
+        "country": "ZMB",
+        "value": 22.2222001767636
+      },
+      {
+        "country": "ZWE",
+        "value": 16.1730933779371
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2000,
+    "value": 26.1263349279098,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.4471727308732
+      },
+      {
+        "country": "BEN",
+        "value": 46.665452864223
+      },
+      {
+        "country": "BGD",
+        "value": 64.5991296360229
+      },
+      {
+        "country": "BOL",
+        "value": 72.1428460382098
+      },
+      {
+        "country": "BTN",
+        "value": 31.2008908845033
+      },
+      {
+        "country": "CIV",
+        "value": 26.0249614733989
+      },
+      {
+        "country": "CMR",
+        "value": 56.248614358923
+      },
+      {
+        "country": "COG",
+        "value": 37.2165776558513
+      },
+      {
+        "country": "COM",
+        "value": 11.7135148808779
+      },
+      {
+        "country": "DJI",
+        "value": 41.2470749725392
+      },
+      {
+        "country": "EGY",
+        "value": 49.0415207208352
+      },
+      {
+        "country": "GHA",
+        "value": 38.6461879024236
+      },
+      {
+        "country": "GIN",
+        "value": 30.1896817369956
+      },
+      {
+        "country": "HND",
+        "value": 38.3828425843864
+      },
+      {
+        "country": "HTI",
+        "value": 16.0482143550912
+      },
+      {
+        "country": "IND",
+        "value": 50.7630256086335
+      },
+      {
+        "country": "KEN",
+        "value": 18.9691263168701
+      },
+      {
+        "country": "KGZ",
+        "value": 22.1179326745024
+      },
+      {
+        "country": "KHM",
+        "value": 26.8156618935143
+      },
+      {
+        "country": "KIR",
+        "value": 5.03904377751818
+      },
+      {
+        "country": "LAO",
+        "value": 37.6985057680764
+      },
+      {
+        "country": "LBN",
+        "value": 24.4963018475226
+      },
+      {
+        "country": "LSO",
+        "value": 28.5360697410404
+      },
+      {
+        "country": "MAR",
+        "value": 18.6816279893228
+      },
+      {
+        "country": "MMR",
+        "value": 41.2825574441838
+      },
+      {
+        "country": "MRT",
+        "value": 52.6965670362457
+      },
+      {
+        "country": "NAM",
+        "value": 16.9118172513865
+      },
+      {
+        "country": "NGA",
+        "value": 68.4230600395925
+      },
+      {
+        "country": "NIC",
+        "value": 26.1263349279098
+      },
+      {
+        "country": "NPL",
+        "value": 42.2413397707567
+      },
+      {
+        "country": "PAK",
+        "value": 57.2504034732813
+      },
+      {
+        "country": "PNG",
+        "value": 15.394493890494
+      },
+      {
+        "country": "PSE",
+        "value": 22.6603454971421
+      },
+      {
+        "country": "SEN",
+        "value": 47.2871228630735
+      },
+      {
+        "country": "SLB",
+        "value": 9.24123021095523
+      },
+      {
+        "country": "STP",
+        "value": 16.0301838041703
+      },
+      {
+        "country": "SWZ",
+        "value": 19.7651609900454
+      },
+      {
+        "country": "TGO",
+        "value": 45.2931346749042
+      },
+      {
+        "country": "TJK",
+        "value": 23.7611473429215
+      },
+      {
+        "country": "TLS",
+        "value": 15.4379306340429
+      },
+      {
+        "country": "TUN",
+        "value": 20.7487399091956
+      },
+      {
+        "country": "TZA",
+        "value": 20.3380354960434
+      },
+      {
+        "country": "UZB",
+        "value": 36.9582260160268
+      },
+      {
+        "country": "VEN",
+        "value": 24.4520037611865
+      },
+      {
+        "country": "VUT",
+        "value": 9.24896059895032
+      },
+      {
+        "country": "ZMB",
+        "value": 22.8954468066316
+      },
+      {
+        "country": "ZWE",
+        "value": 16.4276621408383
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2001,
+    "value": 25.803936044542,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 24.3136425768266
+      },
+      {
+        "country": "BEN",
+        "value": 38.11244474866
+      },
+      {
+        "country": "BGD",
+        "value": 64.1618253741628
+      },
+      {
+        "country": "BOL",
+        "value": 68.8114730581515
+      },
+      {
+        "country": "BTN",
+        "value": 30.3076040698504
+      },
+      {
+        "country": "CIV",
+        "value": 20.5468232712032
+      },
+      {
+        "country": "CMR",
+        "value": 47.1854377533032
+      },
+      {
+        "country": "COG",
+        "value": 39.8527970238748
+      },
+      {
+        "country": "COM",
+        "value": 12.6941017004379
+      },
+      {
+        "country": "DJI",
+        "value": 40.8641190820244
+      },
+      {
+        "country": "EGY",
+        "value": 49.9574653231969
+      },
+      {
+        "country": "GHA",
+        "value": 29.8112835954564
+      },
+      {
+        "country": "GIN",
+        "value": 26.6548275944908
+      },
+      {
+        "country": "HND",
+        "value": 34.7359131306932
+      },
+      {
+        "country": "HTI",
+        "value": 14.552958419015
+      },
+      {
+        "country": "IND",
+        "value": 50.4537854823933
+      },
+      {
+        "country": "KEN",
+        "value": 21.7647728598005
+      },
+      {
+        "country": "KGZ",
+        "value": 22.2501727897393
+      },
+      {
+        "country": "KHM",
+        "value": 25.7905994521283
+      },
+      {
+        "country": "KIR",
+        "value": 5.32742869689629
+      },
+      {
+        "country": "LAO",
+        "value": 37.1669933121952
+      },
+      {
+        "country": "LBN",
+        "value": 26.1068805095928
+      },
+      {
+        "country": "LSO",
+        "value": 29.4464898217418
+      },
+      {
+        "country": "MAR",
+        "value": 18.2021114211041
+      },
+      {
+        "country": "MMR",
+        "value": 41.7558914980277
+      },
+      {
+        "country": "MRT",
+        "value": 41.9393497812816
+      },
+      {
+        "country": "NAM",
+        "value": 17.4672796375505
+      },
+      {
+        "country": "NGA",
+        "value": 58.1213895225908
+      },
+      {
+        "country": "NIC",
+        "value": 25.6796881066035
+      },
+      {
+        "country": "NPL",
+        "value": 43.6416299876088
+      },
+      {
+        "country": "PAK",
+        "value": 56.554332613352
+      },
+      {
+        "country": "PNG",
+        "value": 14.1822308717311
+      },
+      {
+        "country": "PSE",
+        "value": 23.8535290115717
+      },
+      {
+        "country": "SEN",
+        "value": 37.386298225181
+      },
+      {
+        "country": "SLB",
+        "value": 10.0952786408614
+      },
+      {
+        "country": "STP",
+        "value": 14.9980476986343
+      },
+      {
+        "country": "SWZ",
+        "value": 17.2862997940998
+      },
+      {
+        "country": "TGO",
+        "value": 35.3104119281614
+      },
+      {
+        "country": "TJK",
+        "value": 23.6293965210049
+      },
+      {
+        "country": "TLS",
+        "value": 15.7934183516148
+      },
+      {
+        "country": "TUN",
+        "value": 20.4305538700966
+      },
+      {
+        "country": "TZA",
+        "value": 24.9393937862166
+      },
+      {
+        "country": "UZB",
+        "value": 36.5916696587327
+      },
+      {
+        "country": "VEN",
+        "value": 25.803936044542
+      },
+      {
+        "country": "VUT",
+        "value": 9.637264300495
+      },
+      {
+        "country": "ZMB",
+        "value": 25.4677074198447
+      },
+      {
+        "country": "ZWE",
+        "value": 20.5419189070541
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2002,
+    "value": 26.8182120440941,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 24.0566632119627
+      },
+      {
+        "country": "BEN",
+        "value": 40.4228029902921
+      },
+      {
+        "country": "BGD",
+        "value": 65.2444384481628
+      },
+      {
+        "country": "BOL",
+        "value": 71.1955453060466
+      },
+      {
+        "country": "BTN",
+        "value": 30.8358858199388
+      },
+      {
+        "country": "CIV",
+        "value": 24.6652096974011
+      },
+      {
+        "country": "CMR",
+        "value": 50.3019887807152
+      },
+      {
+        "country": "COG",
+        "value": 38.1830717877932
+      },
+      {
+        "country": "COM",
+        "value": 11.7566704177952
+      },
+      {
+        "country": "DJI",
+        "value": 39.6996117347376
+      },
+      {
+        "country": "EGY",
+        "value": 51.8442698872966
+      },
+      {
+        "country": "GHA",
+        "value": 35.1593626800221
+      },
+      {
+        "country": "GIN",
+        "value": 28.2763659431737
+      },
+      {
+        "country": "HND",
+        "value": 35.5103022431416
+      },
+      {
+        "country": "HTI",
+        "value": 15.6478610174017
+      },
+      {
+        "country": "IND",
+        "value": 51.2544544512511
+      },
+      {
+        "country": "KEN",
+        "value": 20.3545236162742
+      },
+      {
+        "country": "KGZ",
+        "value": 22.8295208044159
+      },
+      {
+        "country": "KHM",
+        "value": 26.8182120440941
+      },
+      {
+        "country": "KIR",
+        "value": 4.76245870407476
+      },
+      {
+        "country": "LAO",
+        "value": 37.4960518138561
+      },
+      {
+        "country": "LBN",
+        "value": 26.9375504045863
+      },
+      {
+        "country": "LSO",
+        "value": 29.5940988557262
+      },
+      {
+        "country": "MAR",
+        "value": 17.3902860144688
+      },
+      {
+        "country": "MMR",
+        "value": 42.9248176207148
+      },
+      {
+        "country": "MRT",
+        "value": 45.922028221614
+      },
+      {
+        "country": "NAM",
+        "value": 17.821132581929
+      },
+      {
+        "country": "NGA",
+        "value": 61.7052833837302
+      },
+      {
+        "country": "NIC",
+        "value": 25.6798615765626
+      },
+      {
+        "country": "NPL",
+        "value": 43.9354913551095
+      },
+      {
+        "country": "PAK",
+        "value": 57.8280038864152
+      },
+      {
+        "country": "PNG",
+        "value": 13.4675024435674
+      },
+      {
+        "country": "PSE",
+        "value": 24.5123651038486
+      },
+      {
+        "country": "SEN",
+        "value": 43.674232327864
+      },
+      {
+        "country": "SLB",
+        "value": 9.50451424224512
+      },
+      {
+        "country": "STP",
+        "value": 15.9952293667633
+      },
+      {
+        "country": "SWZ",
+        "value": 16.6647839844526
+      },
+      {
+        "country": "TGO",
+        "value": 39.0146897198957
+      },
+      {
+        "country": "TJK",
+        "value": 22.7363441991969
+      },
+      {
+        "country": "TLS",
+        "value": 16.4185014634922
+      },
+      {
+        "country": "TUN",
+        "value": 22.2279710417573
+      },
+      {
+        "country": "TZA",
+        "value": 22.1530914714233
+      },
+      {
+        "country": "UZB",
+        "value": 36.3669698036249
+      },
+      {
+        "country": "VEN",
+        "value": 25.46337418912
+      },
+      {
+        "country": "VUT",
+        "value": 8.67513816633943
+      },
+      {
+        "country": "ZMB",
+        "value": 23.1074612038561
+      },
+      {
+        "country": "ZWE",
+        "value": 17.6837732370339
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2003,
+    "value": 26.4224562069187,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.4318011631518
+      },
+      {
+        "country": "BEN",
+        "value": 32.7610204637739
+      },
+      {
+        "country": "BGD",
+        "value": 64.4362276968505
+      },
+      {
+        "country": "BOL",
+        "value": 65.23851093935
+      },
+      {
+        "country": "BTN",
+        "value": 31.6397493993183
+      },
+      {
+        "country": "CIV",
+        "value": 20.2058271910428
+      },
+      {
+        "country": "CMR",
+        "value": 48.3318278960266
+      },
+      {
+        "country": "COG",
+        "value": 39.7184970811992
+      },
+      {
+        "country": "COM",
+        "value": 11.955880070601
+      },
+      {
+        "country": "DJI",
+        "value": 36.4804504194382
+      },
+      {
+        "country": "EGY",
+        "value": 61.1019097323142
+      },
+      {
+        "country": "GHA",
+        "value": 28.9236361356992
+      },
+      {
+        "country": "GIN",
+        "value": 26.3257132393923
+      },
+      {
+        "country": "HND",
+        "value": 37.3740532889195
+      },
+      {
+        "country": "HTI",
+        "value": 15.0843084958859
+      },
+      {
+        "country": "IND",
+        "value": 52.5149836233186
+      },
+      {
+        "country": "KEN",
+        "value": 17.4830084357361
+      },
+      {
+        "country": "KGZ",
+        "value": 21.0527203007801
+      },
+      {
+        "country": "KHM",
+        "value": 25.8067525314098
+      },
+      {
+        "country": "KIR",
+        "value": 5.02460847614319
+      },
+      {
+        "country": "LAO",
+        "value": 35.4440477654082
+      },
+      {
+        "country": "LBN",
+        "value": 28.0332251190609
+      },
+      {
+        "country": "LSO",
+        "value": 26.6302840304412
+      },
+      {
+        "country": "MAR",
+        "value": 17.4058908217094
+      },
+      {
+        "country": "MMR",
+        "value": 41.6103250812711
+      },
+      {
+        "country": "MRT",
+        "value": 46.1043537611159
+      },
+      {
+        "country": "NAM",
+        "value": 16.2153774009341
+      },
+      {
+        "country": "NGA",
+        "value": 51.4747260234232
+      },
+      {
+        "country": "NIC",
+        "value": 26.4224562069187
+      },
+      {
+        "country": "NPL",
+        "value": 44.2755831213027
+      },
+      {
+        "country": "PAK",
+        "value": 58.0375444755895
+      },
+      {
+        "country": "PNG",
+        "value": 14.0011088101588
+      },
+      {
+        "country": "PSE",
+        "value": 27.0131703896589
+      },
+      {
+        "country": "SEN",
+        "value": 41.5108228121549
+      },
+      {
+        "country": "SLB",
+        "value": 9.68932619661834
+      },
+      {
+        "country": "STP",
+        "value": 14.8039175154418
+      },
+      {
+        "country": "SWZ",
+        "value": 15.7207670220637
+      },
+      {
+        "country": "TGO",
+        "value": 31.5674227170541
+      },
+      {
+        "country": "TJK",
+        "value": 21.4437232735728
+      },
+      {
+        "country": "TLS",
+        "value": 15.1164512911254
+      },
+      {
+        "country": "TUN",
+        "value": 20.0514707487458
+      },
+      {
+        "country": "TZA",
+        "value": 21.2032204300707
+      },
+      {
+        "country": "UZB",
+        "value": 33.7027587296375
+      },
+      {
+        "country": "VEN",
+        "value": 25.8588301883442
+      },
+      {
+        "country": "VUT",
+        "value": 9.27379807866516
+      },
+      {
+        "country": "ZMB",
+        "value": 22.3755706249154
+      },
+      {
+        "country": "ZWE",
+        "value": 15.8129169534861
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2004,
+    "value": 27.591861609056,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 23.3720548464755
+      },
+      {
+        "country": "BEN",
+        "value": 43.4912072609613
+      },
+      {
+        "country": "BGD",
+        "value": 63.9852155965893
+      },
+      {
+        "country": "BOL",
+        "value": 66.9085928958547
+      },
+      {
+        "country": "BTN",
+        "value": 31.5204026747987
+      },
+      {
+        "country": "CIV",
+        "value": 30.807744234524
+      },
+      {
+        "country": "CMR",
+        "value": 54.9050040060034
+      },
+      {
+        "country": "COG",
+        "value": 41.0345462075284
+      },
+      {
+        "country": "COM",
+        "value": 11.3537158469715
+      },
+      {
+        "country": "DJI",
+        "value": 37.454143233255
+      },
+      {
+        "country": "EGY",
+        "value": 57.6960532192467
+      },
+      {
+        "country": "GHA",
+        "value": 40.8471079792122
+      },
+      {
+        "country": "GIN",
+        "value": 33.3643330259586
+      },
+      {
+        "country": "HND",
+        "value": 31.456415466241
+      },
+      {
+        "country": "HTI",
+        "value": 13.8203987243363
+      },
+      {
+        "country": "IND",
+        "value": 50.8446162251344
+      },
+      {
+        "country": "KEN",
+        "value": 16.848406503078
+      },
+      {
+        "country": "KGZ",
+        "value": 21.0264105179931
+      },
+      {
+        "country": "KHM",
+        "value": 27.6191918923291
+      },
+      {
+        "country": "KIR",
+        "value": 4.62607582277716
+      },
+      {
+        "country": "LAO",
+        "value": 38.0902374609134
+      },
+      {
+        "country": "LBN",
+        "value": 27.591861609056
+      },
+      {
+        "country": "LSO",
+        "value": 24.297604440342
+      },
+      {
+        "country": "MAR",
+        "value": 18.8310554192907
+      },
+      {
+        "country": "MMR",
+        "value": 44.138227745466
+      },
+      {
+        "country": "MRT",
+        "value": 45.6776557825042
+      },
+      {
+        "country": "NAM",
+        "value": 15.6499060376194
+      },
+      {
+        "country": "NGA",
+        "value": 61.7935698630297
+      },
+      {
+        "country": "NIC",
+        "value": 23.3437287850243
+      },
+      {
+        "country": "NPL",
+        "value": 42.8648725328072
+      },
+      {
+        "country": "PAK",
+        "value": 56.7436632932081
+      },
+      {
+        "country": "PNG",
+        "value": 13.570203254622
+      },
+      {
+        "country": "PSE",
+        "value": 26.5232739325778
+      },
+      {
+        "country": "SEN",
+        "value": 44.6114146951369
+      },
+      {
+        "country": "SLB",
+        "value": 9.28148641398953
+      },
+      {
+        "country": "STP",
+        "value": 15.6285685191054
+      },
+      {
+        "country": "SWZ",
+        "value": 16.4801012597912
+      },
+      {
+        "country": "TGO",
+        "value": 42.8866048928066
+      },
+      {
+        "country": "TJK",
+        "value": 21.20984082829
+      },
+      {
+        "country": "TLS",
+        "value": 16.871280759887
+      },
+      {
+        "country": "TUN",
+        "value": 19.191779300458
+      },
+      {
+        "country": "TZA",
+        "value": 21.09337947347
+      },
+      {
+        "country": "UZB",
+        "value": 33.1304897805167
+      },
+      {
+        "country": "VEN",
+        "value": 22.1499464382358
+      },
+      {
+        "country": "VUT",
+        "value": 8.11666850209719
+      },
+      {
+        "country": "ZMB",
+        "value": 21.6406039140068
+      },
+      {
+        "country": "ZWE",
+        "value": 14.7665779281413
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2005,
+    "value": 24.8758708063952,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 24.275362134715
+      },
+      {
+        "country": "BEN",
+        "value": 35.0414153042718
+      },
+      {
+        "country": "BGD",
+        "value": 65.5001984165459
+      },
+      {
+        "country": "BOL",
+        "value": 66.4836219904112
+      },
+      {
+        "country": "BTN",
+        "value": 31.9794021694406
+      },
+      {
+        "country": "CIV",
+        "value": 24.4488344712161
+      },
+      {
+        "country": "CMR",
+        "value": 51.4735733267749
+      },
+      {
+        "country": "COG",
+        "value": 39.5625513524715
+      },
+      {
+        "country": "COM",
+        "value": 11.4586271132294
+      },
+      {
+        "country": "DJI",
+        "value": 36.9089850876565
+      },
+      {
+        "country": "EGY",
+        "value": 51.0921546716322
+      },
+      {
+        "country": "GHA",
+        "value": 31.5057622691659
+      },
+      {
+        "country": "GIN",
+        "value": 29.1480141344485
+      },
+      {
+        "country": "HND",
+        "value": 33.7566101434543
+      },
+      {
+        "country": "HTI",
+        "value": 14.5278127247137
+      },
+      {
+        "country": "IND",
+        "value": 51.3369278641143
+      },
+      {
+        "country": "KEN",
+        "value": 16.6111179464216
+      },
+      {
+        "country": "KGZ",
+        "value": 21.646280675405
+      },
+      {
+        "country": "KHM",
+        "value": 27.2429490667385
+      },
+      {
+        "country": "KIR",
+        "value": 4.99442966048229
+      },
+      {
+        "country": "LAO",
+        "value": 38.2507059626885
+      },
+      {
+        "country": "LBN",
+        "value": 25.7247554638363
+      },
+      {
+        "country": "LSO",
+        "value": 24.2353477660472
+      },
+      {
+        "country": "MAR",
+        "value": 18.8580390478673
+      },
+      {
+        "country": "MMR",
+        "value": 43.1275997489952
+      },
+      {
+        "country": "MRT",
+        "value": 46.2188599791526
+      },
+      {
+        "country": "NAM",
+        "value": 16.300420585427
+      },
+      {
+        "country": "NGA",
+        "value": 57.1814452958929
+      },
+      {
+        "country": "NIC",
+        "value": 24.8758708063952
+      },
+      {
+        "country": "NPL",
+        "value": 42.5390450676083
+      },
+      {
+        "country": "PAK",
+        "value": 56.8396606078595
+      },
+      {
+        "country": "PNG",
+        "value": 13.4634685113363
+      },
+      {
+        "country": "PSE",
+        "value": 23.933915417606
+      },
+      {
+        "country": "SEN",
+        "value": 39.9058959476708
+      },
+      {
+        "country": "SLB",
+        "value": 9.45645517550285
+      },
+      {
+        "country": "STP",
+        "value": 16.5017607784507
+      },
+      {
+        "country": "SWZ",
+        "value": 17.7076782209482
+      },
+      {
+        "country": "TGO",
+        "value": 33.3657327572542
+      },
+      {
+        "country": "TJK",
+        "value": 21.6109102620719
+      },
+      {
+        "country": "TLS",
+        "value": 15.551331735332
+      },
+      {
+        "country": "TUN",
+        "value": 18.7888523060274
+      },
+      {
+        "country": "TZA",
+        "value": 21.3408410624558
+      },
+      {
+        "country": "UZB",
+        "value": 34.3004465213979
+      },
+      {
+        "country": "VEN",
+        "value": 22.9130616246927
+      },
+      {
+        "country": "VUT",
+        "value": 8.54593429414889
+      },
+      {
+        "country": "ZMB",
+        "value": 22.6799735528213
+      },
+      {
+        "country": "ZWE",
+        "value": 16.6255771860203
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2006,
+    "value": 25.9127305500264,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 20.9105363923632
+      },
+      {
+        "country": "BEN",
+        "value": 38.7828720839409
+      },
+      {
+        "country": "BGD",
+        "value": 63.1277622403815
+      },
+      {
+        "country": "BOL",
+        "value": 43.7556419473966
+      },
+      {
+        "country": "BTN",
+        "value": 30.2874992139427
+      },
+      {
+        "country": "CIV",
+        "value": 24.4264565831986
+      },
+      {
+        "country": "CMR",
+        "value": 52.4989116337912
+      },
+      {
+        "country": "COG",
+        "value": 32.4339733297653
+      },
+      {
+        "country": "COM",
+        "value": 11.9019296970617
+      },
+      {
+        "country": "DJI",
+        "value": 36.3893301915657
+      },
+      {
+        "country": "EGY",
+        "value": 44.4190276887862
+      },
+      {
+        "country": "GHA",
+        "value": 31.4140355286574
+      },
+      {
+        "country": "GIN",
+        "value": 28.8374671729279
+      },
+      {
+        "country": "HND",
+        "value": 31.5234447764269
+      },
+      {
+        "country": "HTI",
+        "value": 14.8318504330844
+      },
+      {
+        "country": "IND",
+        "value": 49.2546056005498
+      },
+      {
+        "country": "KEN",
+        "value": 19.5654533448443
+      },
+      {
+        "country": "KGZ",
+        "value": 22.1535811446927
+      },
+      {
+        "country": "KHM",
+        "value": 23.467849825933
+      },
+      {
+        "country": "KIR",
+        "value": 4.8592673402038
+      },
+      {
+        "country": "LAO",
+        "value": 33.2888400263904
+      },
+      {
+        "country": "LBN",
+        "value": 25.9127305500264
+      },
+      {
+        "country": "LSO",
+        "value": 28.2123555930668
+      },
+      {
+        "country": "MAR",
+        "value": 19.6247328804347
+      },
+      {
+        "country": "MMR",
+        "value": 37.9547736422782
+      },
+      {
+        "country": "MRT",
+        "value": 46.4800582232681
+      },
+      {
+        "country": "NAM",
+        "value": 16.6897277846556
+      },
+      {
+        "country": "NGA",
+        "value": 63.273214898786
+      },
+      {
+        "country": "NIC",
+        "value": 23.1967206955892
+      },
+      {
+        "country": "NPL",
+        "value": 48.7982657548418
+      },
+      {
+        "country": "PAK",
+        "value": 54.0021102654504
+      },
+      {
+        "country": "PNG",
+        "value": 14.7140954538581
+      },
+      {
+        "country": "PSE",
+        "value": 21.8022871372412
+      },
+      {
+        "country": "SEN",
+        "value": 40.1865159374905
+      },
+      {
+        "country": "SLB",
+        "value": 9.51957404304205
+      },
+      {
+        "country": "STP",
+        "value": 14.1739298864797
+      },
+      {
+        "country": "SWZ",
+        "value": 18.0368751645293
+      },
+      {
+        "country": "TGO",
+        "value": 35.4445329158888
+      },
+      {
+        "country": "TJK",
+        "value": 28.365544602652
+      },
+      {
+        "country": "TLS",
+        "value": 13.9224659210433
+      },
+      {
+        "country": "TUN",
+        "value": 19.0664238659217
+      },
+      {
+        "country": "TZA",
+        "value": 22.7154375314207
+      },
+      {
+        "country": "UZB",
+        "value": 33.0365255800493
+      },
+      {
+        "country": "VEN",
+        "value": 22.0025115255695
+      },
+      {
+        "country": "VUT",
+        "value": 7.69051894032105
+      },
+      {
+        "country": "ZMB",
+        "value": 22.7021281626197
+      },
+      {
+        "country": "ZWE",
+        "value": 18.488492284243
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2007,
+    "value": 26.0813278261604,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 20.3046984474029
+      },
+      {
+        "country": "BEN",
+        "value": 42.5674807399135
+      },
+      {
+        "country": "BGD",
+        "value": 62.6800909457975
+      },
+      {
+        "country": "BOL",
+        "value": 31.0164395216213
+      },
+      {
+        "country": "BTN",
+        "value": 30.0580138356873
+      },
+      {
+        "country": "CIV",
+        "value": 25.7276113588394
+      },
+      {
+        "country": "CMR",
+        "value": 54.4970619894514
+      },
+      {
+        "country": "COG",
+        "value": 32.1852745159929
+      },
+      {
+        "country": "COM",
+        "value": 11.9560603857393
+      },
+      {
+        "country": "DJI",
+        "value": 37.155161019994
+      },
+      {
+        "country": "EGY",
+        "value": 40.757764743114
+      },
+      {
+        "country": "GHA",
+        "value": 33.4452107808469
+      },
+      {
+        "country": "GIN",
+        "value": 29.9723932253519
+      },
+      {
+        "country": "HND",
+        "value": 30.6750038555339
+      },
+      {
+        "country": "HTI",
+        "value": 14.702996088707
+      },
+      {
+        "country": "IND",
+        "value": 49.4513350486064
+      },
+      {
+        "country": "KEN",
+        "value": 21.0350813841982
+      },
+      {
+        "country": "KGZ",
+        "value": 22.2227495384756
+      },
+      {
+        "country": "KHM",
+        "value": 21.9191803446924
+      },
+      {
+        "country": "KIR",
+        "value": 4.58552578130519
+      },
+      {
+        "country": "LAO",
+        "value": 30.0185605541347
+      },
+      {
+        "country": "LBN",
+        "value": 26.0813278261604
+      },
+      {
+        "country": "LSO",
+        "value": 30.0891500791193
+      },
+      {
+        "country": "MAR",
+        "value": 19.7314629009067
+      },
+      {
+        "country": "MMR",
+        "value": 35.2325204650341
+      },
+      {
+        "country": "MRT",
+        "value": 48.1006588366873
+      },
+      {
+        "country": "NAM",
+        "value": 18.2654077633752
+      },
+      {
+        "country": "NGA",
+        "value": 67.3061477374151
+      },
+      {
+        "country": "NIC",
+        "value": 22.2634722922487
+      },
+      {
+        "country": "NPL",
+        "value": 51.8726318064723
+      },
+      {
+        "country": "PAK",
+        "value": 52.8243308583715
+      },
+      {
+        "country": "PNG",
+        "value": 15.8322246788359
+      },
+      {
+        "country": "PSE",
+        "value": 20.8398138352434
+      },
+      {
+        "country": "SEN",
+        "value": 41.8847715264691
+      },
+      {
+        "country": "SLB",
+        "value": 9.13630844396325
+      },
+      {
+        "country": "STP",
+        "value": 13.6278688138681
+      },
+      {
+        "country": "SWZ",
+        "value": 18.2718038948164
+      },
+      {
+        "country": "TGO",
+        "value": 38.438827079598
+      },
+      {
+        "country": "TJK",
+        "value": 31.939293568311
+      },
+      {
+        "country": "TLS",
+        "value": 13.0643020787999
+      },
+      {
+        "country": "TUN",
+        "value": 19.1798562700626
+      },
+      {
+        "country": "TZA",
+        "value": 23.6643630384053
+      },
+      {
+        "country": "UZB",
+        "value": 31.7770562806276
+      },
+      {
+        "country": "VEN",
+        "value": 21.5069748869426
+      },
+      {
+        "country": "VUT",
+        "value": 7.55245397313239
+      },
+      {
+        "country": "ZMB",
+        "value": 23.2540752574444
+      },
+      {
+        "country": "ZWE",
+        "value": 19.5113559622937
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2008,
+    "value": 26.3574457147366,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 21.3846279674151
+      },
+      {
+        "country": "BEN",
+        "value": 42.7769078552175
+      },
+      {
+        "country": "BGD",
+        "value": 65.2040972325802
+      },
+      {
+        "country": "BOL",
+        "value": 30.3483264008865
+      },
+      {
+        "country": "BTN",
+        "value": 31.8194883014994
+      },
+      {
+        "country": "CIV",
+        "value": 26.3574457147366
+      },
+      {
+        "country": "CMR",
+        "value": 55.2798972972898
+      },
+      {
+        "country": "COG",
+        "value": 34.5320913680561
+      },
+      {
+        "country": "COM",
+        "value": 11.8467769381839
+      },
+      {
+        "country": "DJI",
+        "value": 37.7478889607518
+      },
+      {
+        "country": "EGY",
+        "value": 40.9756017153782
+      },
+      {
+        "country": "GHA",
+        "value": 34.1712364799862
+      },
+      {
+        "country": "GIN",
+        "value": 31.2581829627097
+      },
+      {
+        "country": "HND",
+        "value": 30.6868037783563
+      },
+      {
+        "country": "HTI",
+        "value": 14.5435652953015
+      },
+      {
+        "country": "IND",
+        "value": 51.2664820637014
+      },
+      {
+        "country": "KEN",
+        "value": 20.9604398892789
+      },
+      {
+        "country": "KGZ",
+        "value": 22.2062658947686
+      },
+      {
+        "country": "KHM",
+        "value": 21.7417210633615
+      },
+      {
+        "country": "KIR",
+        "value": 4.72522702624086
+      },
+      {
+        "country": "LAO",
+        "value": 29.7818786988043
+      },
+      {
+        "country": "LBN",
+        "value": 25.6947828243097
+      },
+      {
+        "country": "LSO",
+        "value": 29.4913283275801
+      },
+      {
+        "country": "MAR",
+        "value": 19.5978316103739
+      },
+      {
+        "country": "MMR",
+        "value": 36.6506508517224
+      },
+      {
+        "country": "MRT",
+        "value": 48.3505944794199
+      },
+      {
+        "country": "NAM",
+        "value": 18.6529897039148
+      },
+      {
+        "country": "NGA",
+        "value": 66.802718165195
+      },
+      {
+        "country": "NIC",
+        "value": 21.7927408124447
+      },
+      {
+        "country": "NPL",
+        "value": 54.4899220808595
+      },
+      {
+        "country": "PAK",
+        "value": 52.6632557320634
+      },
+      {
+        "country": "PNG",
+        "value": 15.8919050092444
+      },
+      {
+        "country": "PSE",
+        "value": 21.25289479107
+      },
+      {
+        "country": "SEN",
+        "value": 42.074190631529
+      },
+      {
+        "country": "SLB",
+        "value": 9.26641524691861
+      },
+      {
+        "country": "STP",
+        "value": 14.1060055006755
+      },
+      {
+        "country": "SWZ",
+        "value": 18.4763947868138
+      },
+      {
+        "country": "TGO",
+        "value": 38.8179485149321
+      },
+      {
+        "country": "TJK",
+        "value": 31.9262546311001
+      },
+      {
+        "country": "TLS",
+        "value": 13.7387104300238
+      },
+      {
+        "country": "TUN",
+        "value": 19.5661639814743
+      },
+      {
+        "country": "TZA",
+        "value": 24.0769199631826
+      },
+      {
+        "country": "UZB",
+        "value": 32.5729419005618
+      },
+      {
+        "country": "VEN",
+        "value": 21.2166193012714
+      },
+      {
+        "country": "VUT",
+        "value": 7.80121830577217
+      },
+      {
+        "country": "ZMB",
+        "value": 23.8089370970029
+      },
+      {
+        "country": "ZWE",
+        "value": 19.5970488193935
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2009,
+    "value": 25.1145543368398,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 20.2177945705101
+      },
+      {
+        "country": "BEN",
+        "value": 37.0408370393976
+      },
+      {
+        "country": "BGD",
+        "value": 70.6456661196446
+      },
+      {
+        "country": "BOL",
+        "value": 27.2772664230114
+      },
+      {
+        "country": "BTN",
+        "value": 35.6511840873713
+      },
+      {
+        "country": "CIV",
+        "value": 23.5280741870547
+      },
+      {
+        "country": "CMR",
+        "value": 53.5695520826472
+      },
+      {
+        "country": "COG",
+        "value": 35.2930149882157
+      },
+      {
+        "country": "COM",
+        "value": 11.6426058676508
+      },
+      {
+        "country": "DJI",
+        "value": 37.3792233621058
+      },
+      {
+        "country": "EGY",
+        "value": 42.9563410045474
+      },
+      {
+        "country": "GHA",
+        "value": 29.4002555482537
+      },
+      {
+        "country": "GIN",
+        "value": 28.7735476269784
+      },
+      {
+        "country": "HND",
+        "value": 30.0063567642572
+      },
+      {
+        "country": "HTI",
+        "value": 14.1802498002384
+      },
+      {
+        "country": "IND",
+        "value": 52.2626731220367
+      },
+      {
+        "country": "KEN",
+        "value": 19.4667390556751
+      },
+      {
+        "country": "KGZ",
+        "value": 22.5304883394638
+      },
+      {
+        "country": "KHM",
+        "value": 19.7623268743892
+      },
+      {
+        "country": "KIR",
+        "value": 5.28400276045109
+      },
+      {
+        "country": "LAO",
+        "value": 27.4987686345249
+      },
+      {
+        "country": "LBN",
+        "value": 25.1145543368398
+      },
+      {
+        "country": "LSO",
+        "value": 30.247209036785
+      },
+      {
+        "country": "MAR",
+        "value": 20.6913110754172
+      },
+      {
+        "country": "MMR",
+        "value": 38.130989781613
+      },
+      {
+        "country": "MRT",
+        "value": 44.5650236652424
+      },
+      {
+        "country": "NAM",
+        "value": 17.4237945639503
+      },
+      {
+        "country": "NGA",
+        "value": 59.9637374393469
+      },
+      {
+        "country": "NIC",
+        "value": 19.9791596149986
+      },
+      {
+        "country": "NPL",
+        "value": 58.9424960829957
+      },
+      {
+        "country": "PAK",
+        "value": 50.9234369923513
+      },
+      {
+        "country": "PNG",
+        "value": 15.3878155036438
+      },
+      {
+        "country": "PSE",
+        "value": 21.7455865920799
+      },
+      {
+        "country": "SEN",
+        "value": 37.5470981358044
+      },
+      {
+        "country": "SLB",
+        "value": 9.76927452724973
+      },
+      {
+        "country": "STP",
+        "value": 12.8822190169144
+      },
+      {
+        "country": "SWZ",
+        "value": 17.7367209066058
+      },
+      {
+        "country": "TGO",
+        "value": 33.0845261818471
+      },
+      {
+        "country": "TJK",
+        "value": 30.3506636745506
+      },
+      {
+        "country": "TLS",
+        "value": 13.9535455113766
+      },
+      {
+        "country": "TUN",
+        "value": 19.2742959049226
+      },
+      {
+        "country": "TZA",
+        "value": 22.1131685895842
+      },
+      {
+        "country": "UZB",
+        "value": 32.5307630113187
+      },
+      {
+        "country": "VEN",
+        "value": 20.2547005229529
+      },
+      {
+        "country": "VUT",
+        "value": 7.57215365858915
+      },
+      {
+        "country": "ZMB",
+        "value": 23.0698950518145
+      },
+      {
+        "country": "ZWE",
+        "value": 17.9424037188657
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2010,
+    "value": 26.371447386165,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 24.5855697926641
+      },
+      {
+        "country": "BEN",
+        "value": 35.1255556615118
+      },
+      {
+        "country": "BGD",
+        "value": 67.4916421858428
+      },
+      {
+        "country": "BOL",
+        "value": 38.1987404488372
+      },
+      {
+        "country": "BTN",
+        "value": 30.2937239727593
+      },
+      {
+        "country": "CIV",
+        "value": 20.0854849470844
+      },
+      {
+        "country": "CMR",
+        "value": 52.8941910179059
+      },
+      {
+        "country": "COG",
+        "value": 38.2815328992022
+      },
+      {
+        "country": "COM",
+        "value": 11.9908932674972
+      },
+      {
+        "country": "DJI",
+        "value": 38.1045163170361
+      },
+      {
+        "country": "EGY",
+        "value": 46.3262890792464
+      },
+      {
+        "country": "GHA",
+        "value": 26.371447386165
+      },
+      {
+        "country": "GIN",
+        "value": 29.8541230476967
+      },
+      {
+        "country": "HND",
+        "value": 28.5008525041351
+      },
+      {
+        "country": "HTI",
+        "value": 16.2956346305867
+      },
+      {
+        "country": "IND",
+        "value": 51.7188200456979
+      },
+      {
+        "country": "KEN",
+        "value": 21.8052114949046
+      },
+      {
+        "country": "KGZ",
+        "value": 20.4669415291644
+      },
+      {
+        "country": "KHM",
+        "value": 20.4861263200349
+      },
+      {
+        "country": "KIR",
+        "value": 4.51304611481057
+      },
+      {
+        "country": "LAO",
+        "value": 31.3445205874812
+      },
+      {
+        "country": "LBN",
+        "value": 28.9441179360902
+      },
+      {
+        "country": "LSO",
+        "value": 33.4928560385355
+      },
+      {
+        "country": "MAR",
+        "value": 21.062623306006
+      },
+      {
+        "country": "MMR",
+        "value": 36.4317172772978
+      },
+      {
+        "country": "MRT",
+        "value": 47.6054460100313
+      },
+      {
+        "country": "NAM",
+        "value": 21.1956795104668
+      },
+      {
+        "country": "NGA",
+        "value": 57.0453595776344
+      },
+      {
+        "country": "NIC",
+        "value": 21.4832012982569
+      },
+      {
+        "country": "NPL",
+        "value": 50.3771052704765
+      },
+      {
+        "country": "PAK",
+        "value": 57.0932237695287
+      },
+      {
+        "country": "PNG",
+        "value": 16.4985682237311
+      },
+      {
+        "country": "PSE",
+        "value": 25.1067916652231
+      },
+      {
+        "country": "SEN",
+        "value": 40.6020418218403
+      },
+      {
+        "country": "SLB",
+        "value": 9.19891960403184
+      },
+      {
+        "country": "STP",
+        "value": 13.9058016462842
+      },
+      {
+        "country": "SWZ",
+        "value": 20.9253195692294
+      },
+      {
+        "country": "TGO",
+        "value": 30.1887947552597
+      },
+      {
+        "country": "TJK",
+        "value": 32.4556734041622
+      },
+      {
+        "country": "TLS",
+        "value": 13.5736746177736
+      },
+      {
+        "country": "TUN",
+        "value": 19.4646477451124
+      },
+      {
+        "country": "TZA",
+        "value": 23.447292129681
+      },
+      {
+        "country": "UZB",
+        "value": 32.6030065513413
+      },
+      {
+        "country": "VEN",
+        "value": 24.7500489678568
+      },
+      {
+        "country": "VUT",
+        "value": 7.87452433053722
+      },
+      {
+        "country": "ZMB",
+        "value": 24.476528552638
+      },
+      {
+        "country": "ZWE",
+        "value": 20.2950258002951
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2011,
+    "value": 25.8236773224029,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 21.5236235344248
+      },
+      {
+        "country": "BEN",
+        "value": 38.2689360574171
+      },
+      {
+        "country": "BGD",
+        "value": 69.2015582728483
+      },
+      {
+        "country": "BOL",
+        "value": 30.2808785160905
+      },
+      {
+        "country": "BTN",
+        "value": 31.4029331024336
+      },
+      {
+        "country": "CIV",
+        "value": 24.188010319203
+      },
+      {
+        "country": "CMR",
+        "value": 52.6477399727018
+      },
+      {
+        "country": "COG",
+        "value": 36.0770891735522
+      },
+      {
+        "country": "COM",
+        "value": 11.0582673035185
+      },
+      {
+        "country": "DJI",
+        "value": 43.7035416781021
+      },
+      {
+        "country": "EGY",
+        "value": 40.8977537424026
+      },
+      {
+        "country": "GHA",
+        "value": 30.3930045479609
+      },
+      {
+        "country": "GIN",
+        "value": 30.5038550590595
+      },
+      {
+        "country": "HND",
+        "value": 33.3998623380405
+      },
+      {
+        "country": "HTI",
+        "value": 14.1411517955388
+      },
+      {
+        "country": "IND",
+        "value": 55.0258281992835
+      },
+      {
+        "country": "KEN",
+        "value": 21.8008758316208
+      },
+      {
+        "country": "KGZ",
+        "value": 20.2006703564398
+      },
+      {
+        "country": "KHM",
+        "value": 21.1793343979383
+      },
+      {
+        "country": "KIR",
+        "value": 4.22788995988093
+      },
+      {
+        "country": "LAO",
+        "value": 28.6093615377909
+      },
+      {
+        "country": "LBN",
+        "value": 25.8236773224029
+      },
+      {
+        "country": "LSO",
+        "value": 30.4382602629102
+      },
+      {
+        "country": "MAR",
+        "value": 20.0117884593084
+      },
+      {
+        "country": "MMR",
+        "value": 34.0895925194937
+      },
+      {
+        "country": "MRT",
+        "value": 49.0196495739197
+      },
+      {
+        "country": "NAM",
+        "value": 19.1486949521859
+      },
+      {
+        "country": "NGA",
+        "value": 60.5981870803509
+      },
+      {
+        "country": "NIC",
+        "value": 21.7376057725567
+      },
+      {
+        "country": "NPL",
+        "value": 52.7488588178893
+      },
+      {
+        "country": "PAK",
+        "value": 55.1733849833434
+      },
+      {
+        "country": "PNG",
+        "value": 14.3977586604487
+      },
+      {
+        "country": "PSE",
+        "value": 20.404558390247
+      },
+      {
+        "country": "SEN",
+        "value": 40.7000713653305
+      },
+      {
+        "country": "SLB",
+        "value": 8.1122249793311
+      },
+      {
+        "country": "STP",
+        "value": 15.3212336355054
+      },
+      {
+        "country": "SWZ",
+        "value": 17.4873358750468
+      },
+      {
+        "country": "TGO",
+        "value": 34.3810861525479
+      },
+      {
+        "country": "TJK",
+        "value": 32.6607402415778
+      },
+      {
+        "country": "TLS",
+        "value": 15.6158450917712
+      },
+      {
+        "country": "TUN",
+        "value": 19.2235168460425
+      },
+      {
+        "country": "TZA",
+        "value": 24.0450043955925
+      },
+      {
+        "country": "UZB",
+        "value": 33.5094666610887
+      },
+      {
+        "country": "VEN",
+        "value": 22.8636972220686
+      },
+      {
+        "country": "VUT",
+        "value": 7.74557512879717
+      },
+      {
+        "country": "ZMB",
+        "value": 22.4770513593954
+      },
+      {
+        "country": "ZWE",
+        "value": 16.7654811217047
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2012,
+    "value": 25.2379752530515,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 21.343442353859
+      },
+      {
+        "country": "BEN",
+        "value": 38.1125116282081
+      },
+      {
+        "country": "BGD",
+        "value": 73.0293458531385
+      },
+      {
+        "country": "BOL",
+        "value": 26.3774150753894
+      },
+      {
+        "country": "BTN",
+        "value": 32.6917345047905
+      },
+      {
+        "country": "CIV",
+        "value": 22.4578253451111
+      },
+      {
+        "country": "CMR",
+        "value": 54.6446439640503
+      },
+      {
+        "country": "COG",
+        "value": 36.2167664672099
+      },
+      {
+        "country": "COM",
+        "value": 11.2597161414589
+      },
+      {
+        "country": "DJI",
+        "value": 46.8649547654421
+      },
+      {
+        "country": "EGY",
+        "value": 42.6414652957417
+      },
+      {
+        "country": "GHA",
+        "value": 29.0418637003495
+      },
+      {
+        "country": "GIN",
+        "value": 29.4976600174044
+      },
+      {
+        "country": "HND",
+        "value": 28.4877328595734
+      },
+      {
+        "country": "HTI",
+        "value": 13.6823892132522
+      },
+      {
+        "country": "IND",
+        "value": 53.0196291324327
+      },
+      {
+        "country": "KEN",
+        "value": 21.0458966700434
+      },
+      {
+        "country": "KGZ",
+        "value": 21.3445544964715
+      },
+      {
+        "country": "KHM",
+        "value": 17.9326651804583
+      },
+      {
+        "country": "KIR",
+        "value": 4.518104208523
+      },
+      {
+        "country": "LAO",
+        "value": 26.4076206054393
+      },
+      {
+        "country": "LBN",
+        "value": 25.2379752530515
+      },
+      {
+        "country": "LSO",
+        "value": 27.0707996930906
+      },
+      {
+        "country": "MAR",
+        "value": 18.1645611167978
+      },
+      {
+        "country": "MMR",
+        "value": 34.2629904984601
+      },
+      {
+        "country": "MRT",
+        "value": 54.1025855948907
+      },
+      {
+        "country": "NAM",
+        "value": 17.7555421343123
+      },
+      {
+        "country": "NGA",
+        "value": 59.6227203937751
+      },
+      {
+        "country": "NIC",
+        "value": 19.8316265447103
+      },
+      {
+        "country": "NPL",
+        "value": 54.5107288886808
+      },
+      {
+        "country": "PAK",
+        "value": 55.9102316841118
+      },
+      {
+        "country": "PNG",
+        "value": 13.4566937852432
+      },
+      {
+        "country": "PSE",
+        "value": 21.4888974450703
+      },
+      {
+        "country": "SEN",
+        "value": 47.6952217115786
+      },
+      {
+        "country": "SLB",
+        "value": 8.78265267165911
+      },
+      {
+        "country": "STP",
+        "value": 16.6721703300999
+      },
+      {
+        "country": "SWZ",
+        "value": 18.5053242603285
+      },
+      {
+        "country": "TGO",
+        "value": 33.9828579157482
+      },
+      {
+        "country": "TJK",
+        "value": 27.2182421237884
+      },
+      {
+        "country": "TLS",
+        "value": 14.8958480900943
+      },
+      {
+        "country": "TUN",
+        "value": 17.8799045046228
+      },
+      {
+        "country": "TZA",
+        "value": 23.2717852106239
+      },
+      {
+        "country": "UZB",
+        "value": 29.8599622066362
+      },
+      {
+        "country": "VEN",
+        "value": 21.7079816379195
+      },
+      {
+        "country": "VUT",
+        "value": 7.55605167174116
+      },
+      {
+        "country": "ZMB",
+        "value": 22.9983310072879
+      },
+      {
+        "country": "ZWE",
+        "value": 18.3749796571735
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2013,
+    "value": 24.2061546021841,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.6429419636481
+      },
+      {
+        "country": "BEN",
+        "value": 32.0680531492356
+      },
+      {
+        "country": "BGD",
+        "value": 65.4784823754338
+      },
+      {
+        "country": "BOL",
+        "value": 25.1627814896826
+      },
+      {
+        "country": "BTN",
+        "value": 28.4902726728841
+      },
+      {
+        "country": "CIV",
+        "value": 18.4987954411899
+      },
+      {
+        "country": "CMR",
+        "value": 52.8273113299572
+      },
+      {
+        "country": "COG",
+        "value": 40.1276260112394
+      },
+      {
+        "country": "COM",
+        "value": 11.825800622809
+      },
+      {
+        "country": "DJI",
+        "value": 43.8756192799404
+      },
+      {
+        "country": "EGY",
+        "value": 46.5554819136137
+      },
+      {
+        "country": "GHA",
+        "value": 24.2061546021841
+      },
+      {
+        "country": "GIN",
+        "value": 25.0054280197302
+      },
+      {
+        "country": "HND",
+        "value": 32.0934225590354
+      },
+      {
+        "country": "HTI",
+        "value": 15.0957599176713
+      },
+      {
+        "country": "IND",
+        "value": 52.2693789873114
+      },
+      {
+        "country": "KEN",
+        "value": 21.3128534778781
+      },
+      {
+        "country": "KGZ",
+        "value": 21.8139334230332
+      },
+      {
+        "country": "KHM",
+        "value": 21.5533729983202
+      },
+      {
+        "country": "KIR",
+        "value": 4.63732037153385
+      },
+      {
+        "country": "LAO",
+        "value": 28.5005201752464
+      },
+      {
+        "country": "LBN",
+        "value": 26.6750501345739
+      },
+      {
+        "country": "LSO",
+        "value": 26.9827521191991
+      },
+      {
+        "country": "MAR",
+        "value": 17.287814021809
+      },
+      {
+        "country": "MMR",
+        "value": 36.1393517656525
+      },
+      {
+        "country": "MRT",
+        "value": 42.7823277974338
+      },
+      {
+        "country": "NAM",
+        "value": 17.0102040960479
+      },
+      {
+        "country": "NGA",
+        "value": 52.2390699243857
+      },
+      {
+        "country": "NIC",
+        "value": 21.0739297029074
+      },
+      {
+        "country": "NPL",
+        "value": 49.8885406797596
+      },
+      {
+        "country": "PAK",
+        "value": 54.2579257569488
+      },
+      {
+        "country": "PNG",
+        "value": 15.4256463794317
+      },
+      {
+        "country": "PSE",
+        "value": 21.8222177965812
+      },
+      {
+        "country": "SEN",
+        "value": 36.1326172852972
+      },
+      {
+        "country": "SLB",
+        "value": 10.692454580364
+      },
+      {
+        "country": "STP",
+        "value": 16.2936406866651
+      },
+      {
+        "country": "SWZ",
+        "value": 17.4661662346837
+      },
+      {
+        "country": "TGO",
+        "value": 28.5413734458887
+      },
+      {
+        "country": "TJK",
+        "value": 29.4725447279223
+      },
+      {
+        "country": "TLS",
+        "value": 12.0146159867023
+      },
+      {
+        "country": "TUN",
+        "value": 17.3550040560394
+      },
+      {
+        "country": "TZA",
+        "value": 23.0790165463582
+      },
+      {
+        "country": "UZB",
+        "value": 30.9261607471004
+      },
+      {
+        "country": "VEN",
+        "value": 20.649755238571
+      },
+      {
+        "country": "VUT",
+        "value": 8.48393578220451
+      },
+      {
+        "country": "ZMB",
+        "value": 22.0816121744833
+      },
+      {
+        "country": "ZWE",
+        "value": 17.2558192677332
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2014,
+    "value": 23.6327809168327,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 19.3563913804903
+      },
+      {
+        "country": "BEN",
+        "value": 32.0556801866944
+      },
+      {
+        "country": "BGD",
+        "value": 68.7428624015006
+      },
+      {
+        "country": "BOL",
+        "value": 26.2919232240248
+      },
+      {
+        "country": "BTN",
+        "value": 32.4826578122473
+      },
+      {
+        "country": "CIV",
+        "value": 17.6747799713113
+      },
+      {
+        "country": "CMR",
+        "value": 51.6391324257464
+      },
+      {
+        "country": "COG",
+        "value": 36.430610248924
+      },
+      {
+        "country": "COM",
+        "value": 9.17841752128082
+      },
+      {
+        "country": "DJI",
+        "value": 38.7623274866295
+      },
+      {
+        "country": "EGY",
+        "value": 43.5968296522207
+      },
+      {
+        "country": "GHA",
+        "value": 23.6327809168327
+      },
+      {
+        "country": "GIN",
+        "value": 25.9717238462183
+      },
+      {
+        "country": "HND",
+        "value": 29.4737326253674
+      },
+      {
+        "country": "HTI",
+        "value": 15.2557099929414
+      },
+      {
+        "country": "IND",
+        "value": 51.6872206933655
+      },
+      {
+        "country": "KEN",
+        "value": 18.9023424497821
+      },
+      {
+        "country": "KGZ",
+        "value": 20.5417189685172
+      },
+      {
+        "country": "KHM",
+        "value": 19.6285216111346
+      },
+      {
+        "country": "KIR",
+        "value": 4.43339267944434
+      },
+      {
+        "country": "LAO",
+        "value": 29.0344510411324
+      },
+      {
+        "country": "LBN",
+        "value": 24.4279933820689
+      },
+      {
+        "country": "LSO",
+        "value": 25.4588395682864
+      },
+      {
+        "country": "MAR",
+        "value": 17.5128798204876
+      },
+      {
+        "country": "MMR",
+        "value": 36.4414765952555
+      },
+      {
+        "country": "MRT",
+        "value": 43.9453314705486
+      },
+      {
+        "country": "NAM",
+        "value": 14.6130988378326
+      },
+      {
+        "country": "NGA",
+        "value": 54.1305836870948
+      },
+      {
+        "country": "NIC",
+        "value": 19.0966063692655
+      },
+      {
+        "country": "NPL",
+        "value": 50.6917645882859
+      },
+      {
+        "country": "PAK",
+        "value": 54.726513458073
+      },
+      {
+        "country": "PNG",
+        "value": 14.8930727899941
+      },
+      {
+        "country": "PSE",
+        "value": 20.446971211226
+      },
+      {
+        "country": "SEN",
+        "value": 38.8137391761983
+      },
+      {
+        "country": "SLB",
+        "value": 10.3064800537523
+      },
+      {
+        "country": "STP",
+        "value": 12.3095048044896
+      },
+      {
+        "country": "SWZ",
+        "value": 15.9087117241071
+      },
+      {
+        "country": "TGO",
+        "value": 28.4948133827228
+      },
+      {
+        "country": "TJK",
+        "value": 30.8115594703019
+      },
+      {
+        "country": "TLS",
+        "value": 13.5834038842576
+      },
+      {
+        "country": "TUN",
+        "value": 19.2788417723855
+      },
+      {
+        "country": "TZA",
+        "value": 20.3066252412462
+      },
+      {
+        "country": "UZB",
+        "value": 32.3017805791929
+      },
+      {
+        "country": "VEN",
+        "value": 19.8547776368366
+      },
+      {
+        "country": "VUT",
+        "value": 7.3138439049624
+      },
+      {
+        "country": "ZMB",
+        "value": 20.5339311723167
+      },
+      {
+        "country": "ZWE",
+        "value": 15.2750857745994
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2015,
+    "value": 26.3119972717968,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 21.2324508850665
+      },
+      {
+        "country": "BEN",
+        "value": 46.10419617173
+      },
+      {
+        "country": "BGD",
+        "value": 65.5167318093513
+      },
+      {
+        "country": "BOL",
+        "value": 27.1504403241606
+      },
+      {
+        "country": "BTN",
+        "value": 32.2583535475829
+      },
+      {
+        "country": "CIV",
+        "value": 26.2182381259264
+      },
+      {
+        "country": "CMR",
+        "value": 61.726915605535
+      },
+      {
+        "country": "COG",
+        "value": 37.6895651360736
+      },
+      {
+        "country": "COM",
+        "value": 9.36739731128001
+      },
+      {
+        "country": "DJI",
+        "value": 43.3905178532533
+      },
+      {
+        "country": "EGY",
+        "value": 45.6930204523881
+      },
+      {
+        "country": "GHA",
+        "value": 33.8697351229232
+      },
+      {
+        "country": "GIN",
+        "value": 31.4888245218172
+      },
+      {
+        "country": "HND",
+        "value": 29.7472774328821
+      },
+      {
+        "country": "HTI",
+        "value": 15.9378777812489
+      },
+      {
+        "country": "IND",
+        "value": 51.4355933740253
+      },
+      {
+        "country": "KEN",
+        "value": 18.820575680392
+      },
+      {
+        "country": "KGZ",
+        "value": 22.0816739835326
+      },
+      {
+        "country": "KHM",
+        "value": 17.7693037351423
+      },
+      {
+        "country": "KIR",
+        "value": 5.8238864352796
+      },
+      {
+        "country": "LAO",
+        "value": 26.3119972717968
+      },
+      {
+        "country": "LBN",
+        "value": 27.3828783139307
+      },
+      {
+        "country": "LSO",
+        "value": 26.8565053563098
+      },
+      {
+        "country": "MAR",
+        "value": 19.8670944049653
+      },
+      {
+        "country": "MMR",
+        "value": 34.6434473031534
+      },
+      {
+        "country": "MRT",
+        "value": 53.0162862976192
+      },
+      {
+        "country": "NAM",
+        "value": 16.433687883708
+      },
+      {
+        "country": "NGA",
+        "value": 75.1290695732099
+      },
+      {
+        "country": "NIC",
+        "value": 20.8272949678995
+      },
+      {
+        "country": "NPL",
+        "value": 52.0893526071468
+      },
+      {
+        "country": "PAK",
+        "value": 57.7003410851012
+      },
+      {
+        "country": "PNG",
+        "value": 14.743611914979
+      },
+      {
+        "country": "PSE",
+        "value": 23.4035305473915
+      },
+      {
+        "country": "SEN",
+        "value": 47.635468588898
+      },
+      {
+        "country": "SLB",
+        "value": 10.0498585288009
+      },
+      {
+        "country": "STP",
+        "value": 18.7235197689483
+      },
+      {
+        "country": "SWZ",
+        "value": 16.8745830387072
+      },
+      {
+        "country": "TGO",
+        "value": 40.9415288577558
+      },
+      {
+        "country": "TJK",
+        "value": 30.7154145243743
+      },
+      {
+        "country": "TLS",
+        "value": 12.490147337453
+      },
+      {
+        "country": "TUN",
+        "value": 18.0712480880451
+      },
+      {
+        "country": "TZA",
+        "value": 20.9426794551394
+      },
+      {
+        "country": "UZB",
+        "value": 32.031595288707
+      },
+      {
+        "country": "VEN",
+        "value": 22.0063448303827
+      },
+      {
+        "country": "VUT",
+        "value": 7.66233756963041
+      },
+      {
+        "country": "ZMB",
+        "value": 22.7617347856024
+      },
+      {
+        "country": "ZWE",
+        "value": 17.8250254097149
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2016,
+    "value": 24.2640386142015,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 20.9967960289148
+      },
+      {
+        "country": "BEN",
+        "value": 41.3645051855967
+      },
+      {
+        "country": "BGD",
+        "value": 64.2366339904364
+      },
+      {
+        "country": "BOL",
+        "value": 28.6713882052018
+      },
+      {
+        "country": "BTN",
+        "value": 29.8733212662531
+      },
+      {
+        "country": "CIV",
+        "value": 23.7745526064328
+      },
+      {
+        "country": "CMR",
+        "value": 58.1477649076233
+      },
+      {
+        "country": "COG",
+        "value": 36.1200303101979
+      },
+      {
+        "country": "COM",
+        "value": 9.67411149363712
+      },
+      {
+        "country": "DJI",
+        "value": 40.5186963242342
+      },
+      {
+        "country": "EGY",
+        "value": 45.0345425155358
+      },
+      {
+        "country": "GHA",
+        "value": 31.3095383111133
+      },
+      {
+        "country": "GIN",
+        "value": 30.4418199999504
+      },
+      {
+        "country": "HND",
+        "value": 27.8161786141628
+      },
+      {
+        "country": "HTI",
+        "value": 14.9184355170856
+      },
+      {
+        "country": "IND",
+        "value": 54.4218755239322
+      },
+      {
+        "country": "KEN",
+        "value": 19.368281863389
+      },
+      {
+        "country": "KGZ",
+        "value": 20.8230917656033
+      },
+      {
+        "country": "KHM",
+        "value": 19.305757078537
+      },
+      {
+        "country": "KIR",
+        "value": 3.62047786634097
+      },
+      {
+        "country": "LAO",
+        "value": 29.6997914461852
+      },
+      {
+        "country": "LBN",
+        "value": 24.9316985074041
+      },
+      {
+        "country": "LSO",
+        "value": 24.2640386142015
+      },
+      {
+        "country": "MAR",
+        "value": 18.9602475540145
+      },
+      {
+        "country": "MMR",
+        "value": 35.5327407831665
+      },
+      {
+        "country": "MRT",
+        "value": 47.9118927509658
+      },
+      {
+        "country": "NAM",
+        "value": 15.1750328135787
+      },
+      {
+        "country": "NGA",
+        "value": 69.3722566585403
+      },
+      {
+        "country": "NIC",
+        "value": 19.9336354891463
+      },
+      {
+        "country": "NPL",
+        "value": 51.9068894312371
+      },
+      {
+        "country": "PAK",
+        "value": 56.6204998946239
+      },
+      {
+        "country": "PNG",
+        "value": 13.4848911862133
+      },
+      {
+        "country": "PSE",
+        "value": 20.1522784097196
+      },
+      {
+        "country": "SEN",
+        "value": 41.9387343120495
+      },
+      {
+        "country": "SLB",
+        "value": 9.84303587317893
+      },
+      {
+        "country": "STP",
+        "value": 16.7452732227187
+      },
+      {
+        "country": "SWZ",
+        "value": 15.327424452852
+      },
+      {
+        "country": "TGO",
+        "value": 36.5458731418316
+      },
+      {
+        "country": "TJK",
+        "value": 31.3562334233332
+      },
+      {
+        "country": "TLS",
+        "value": 11.8445134580119
+      },
+      {
+        "country": "TUN",
+        "value": 19.1640181719787
+      },
+      {
+        "country": "TZA",
+        "value": 20.4238282680824
+      },
+      {
+        "country": "UZB",
+        "value": 30.817417852674
+      },
+      {
+        "country": "VEN",
+        "value": 23.2252833450449
+      },
+      {
+        "country": "VUT",
+        "value": 7.45281458223244
+      },
+      {
+        "country": "ZMB",
+        "value": 21.2134188634824
+      },
+      {
+        "country": "ZWE",
+        "value": 15.6927565600598
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2017,
+    "value": 25.8866709032818,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 18.2261589534262
+      },
+      {
+        "country": "BEN",
+        "value": 40.9902705675967
+      },
+      {
+        "country": "BGD",
+        "value": 63.8347510665769
+      },
+      {
+        "country": "BOL",
+        "value": 27.7238355089629
+      },
+      {
+        "country": "BTN",
+        "value": 30.7307674989193
+      },
+      {
+        "country": "CIV",
+        "value": 21.4341423661948
+      },
+      {
+        "country": "CMR",
+        "value": 58.3584411446034
+      },
+      {
+        "country": "COG",
+        "value": 32.8661466318511
+      },
+      {
+        "country": "COM",
+        "value": 10.9465748190486
+      },
+      {
+        "country": "DJI",
+        "value": 43.754176996288
+      },
+      {
+        "country": "EGY",
+        "value": 45.0086404762345
+      },
+      {
+        "country": "GHA",
+        "value": 29.3568301115867
+      },
+      {
+        "country": "GIN",
+        "value": 30.5590844497077
+      },
+      {
+        "country": "HND",
+        "value": 28.7616185448399
+      },
+      {
+        "country": "HTI",
+        "value": 15.5977298868039
+      },
+      {
+        "country": "IND",
+        "value": 55.1724251484484
+      },
+      {
+        "country": "KEN",
+        "value": 18.1123098167473
+      },
+      {
+        "country": "KGZ",
+        "value": 20.2012847258254
+      },
+      {
+        "country": "KHM",
+        "value": 18.4255983697634
+      },
+      {
+        "country": "KIR",
+        "value": 3.83877401555163
+      },
+      {
+        "country": "LAO",
+        "value": 26.2823859911315
+      },
+      {
+        "country": "LBN",
+        "value": 25.8866709032818
+      },
+      {
+        "country": "LSO",
+        "value": 28.5820037049322
+      },
+      {
+        "country": "MAR",
+        "value": 21.3269600699193
+      },
+      {
+        "country": "MMR",
+        "value": 33.5207335958746
+      },
+      {
+        "country": "MRT",
+        "value": 50.4527713237389
+      },
+      {
+        "country": "NAM",
+        "value": 15.414596586429
+      },
+      {
+        "country": "NGA",
+        "value": 68.2246345183228
+      },
+      {
+        "country": "NIC",
+        "value": 20.1452148940178
+      },
+      {
+        "country": "NPL",
+        "value": 53.0342594326735
+      },
+      {
+        "country": "PAK",
+        "value": 56.6781961188465
+      },
+      {
+        "country": "PNG",
+        "value": 14.6312524458782
+      },
+      {
+        "country": "PSE",
+        "value": 20.6298312978174
+      },
+      {
+        "country": "SEN",
+        "value": 45.1130669066908
+      },
+      {
+        "country": "SLB",
+        "value": 11.0995743066285
+      },
+      {
+        "country": "STP",
+        "value": 13.5589080411295
+      },
+      {
+        "country": "SWZ",
+        "value": 16.4706183501307
+      },
+      {
+        "country": "TGO",
+        "value": 35.6873295462867
+      },
+      {
+        "country": "TJK",
+        "value": 33.0304616558698
+      },
+      {
+        "country": "TLS",
+        "value": 12.8268070526523
+      },
+      {
+        "country": "TUN",
+        "value": 16.5337753021396
+      },
+      {
+        "country": "TZA",
+        "value": 18.6038900381073
+      },
+      {
+        "country": "UZB",
+        "value": 32.4451966691614
+      },
+      {
+        "country": "VEN",
+        "value": 22.1516227216032
+      },
+      {
+        "country": "VUT",
+        "value": 8.76292382086906
+      },
+      {
+        "country": "ZMB",
+        "value": 19.8152954320603
+      },
+      {
+        "country": "ZWE",
+        "value": 15.5984191206377
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2018,
+    "value": 25.8232291377847,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 19.9275654157599
+      },
+      {
+        "country": "BEN",
+        "value": 35.0618319233165
+      },
+      {
+        "country": "BGD",
+        "value": 79.2984145312804
+      },
+      {
+        "country": "BOL",
+        "value": 26.4642569469127
+      },
+      {
+        "country": "BTN",
+        "value": 33.6414162416309
+      },
+      {
+        "country": "CIV",
+        "value": 19.8798421869581
+      },
+      {
+        "country": "CMR",
+        "value": 54.4021990256544
+      },
+      {
+        "country": "COG",
+        "value": 35.0441860176665
+      },
+      {
+        "country": "COM",
+        "value": 10.6970500460844
+      },
+      {
+        "country": "DJI",
+        "value": 40.9512929184603
+      },
+      {
+        "country": "EGY",
+        "value": 44.9185945189461
+      },
+      {
+        "country": "GHA",
+        "value": 25.8232291377847
+      },
+      {
+        "country": "GIN",
+        "value": 28.8640174527699
+      },
+      {
+        "country": "HND",
+        "value": 29.7635517651656
+      },
+      {
+        "country": "HTI",
+        "value": 15.7261482402686
+      },
+      {
+        "country": "IND",
+        "value": 56.6795240921875
+      },
+      {
+        "country": "KEN",
+        "value": 19.831438788068
+      },
+      {
+        "country": "KGZ",
+        "value": 20.618610766176
+      },
+      {
+        "country": "KHM",
+        "value": 21.5126916390994
+      },
+      {
+        "country": "KIR",
+        "value": 3.89362028307718
+      },
+      {
+        "country": "LAO",
+        "value": 26.1337944720036
+      },
+      {
+        "country": "LBN",
+        "value": 26.9239143405591
+      },
+      {
+        "country": "LSO",
+        "value": 27.3648976277986
+      },
+      {
+        "country": "MAR",
+        "value": 18.4571548078596
+      },
+      {
+        "country": "MMR",
+        "value": 36.1957092821377
+      },
+      {
+        "country": "MRT",
+        "value": 46.4676065172414
+      },
+      {
+        "country": "NAM",
+        "value": 16.5373639108224
+      },
+      {
+        "country": "NGA",
+        "value": 60.0682766381431
+      },
+      {
+        "country": "NIC",
+        "value": 21.1687703840053
+      },
+      {
+        "country": "NPL",
+        "value": 59.5306238818063
+      },
+      {
+        "country": "PAK",
+        "value": 61.4979947410089
+      },
+      {
+        "country": "PNG",
+        "value": 14.185410897229
+      },
+      {
+        "country": "PSE",
+        "value": 22.5359687994621
+      },
+      {
+        "country": "SEN",
+        "value": 41.0132503890827
+      },
+      {
+        "country": "SLB",
+        "value": 10.3074168021894
+      },
+      {
+        "country": "STP",
+        "value": 12.8848816677863
+      },
+      {
+        "country": "SWZ",
+        "value": 16.2451695573096
+      },
+      {
+        "country": "TGO",
+        "value": 30.9430102097411
+      },
+      {
+        "country": "TJK",
+        "value": 33.3847568433032
+      },
+      {
+        "country": "TLS",
+        "value": 12.9263978009684
+      },
+      {
+        "country": "TUN",
+        "value": 18.9546097979168
+      },
+      {
+        "country": "TZA",
+        "value": 19.7342269077772
+      },
+      {
+        "country": "UZB",
+        "value": 32.6612147415155
+      },
+      {
+        "country": "VEN",
+        "value": 19.991246342024
+      },
+      {
+        "country": "VUT",
+        "value": 8.36324062528587
+      },
+      {
+        "country": "ZMB",
+        "value": 21.1144380958661
+      },
+      {
+        "country": "ZWE",
+        "value": 18.0277324680283
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2019,
+    "value": 25.0476126459012,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.1743439472758
+      },
+      {
+        "country": "BEN",
+        "value": 33.2793211323522
+      },
+      {
+        "country": "BGD",
+        "value": 66.7938254643287
+      },
+      {
+        "country": "BOL",
+        "value": 28.9239915164101
+      },
+      {
+        "country": "BTN",
+        "value": 31.729326241531
+      },
+      {
+        "country": "CIV",
+        "value": 18.8155812927616
+      },
+      {
+        "country": "CMR",
+        "value": 52.8612394449312
+      },
+      {
+        "country": "COG",
+        "value": 35.5538905208598
+      },
+      {
+        "country": "COM",
+        "value": 10.5966922774077
+      },
+      {
+        "country": "DJI",
+        "value": 41.1177405359462
+      },
+      {
+        "country": "EGY",
+        "value": 44.6262157169763
+      },
+      {
+        "country": "GHA",
+        "value": 25.0476126459012
+      },
+      {
+        "country": "GIN",
+        "value": 26.5843726882957
+      },
+      {
+        "country": "HND",
+        "value": 29.4283957469446
+      },
+      {
+        "country": "HTI",
+        "value": 15.3583584553577
+      },
+      {
+        "country": "IND",
+        "value": 53.5981486621548
+      },
+      {
+        "country": "KEN",
+        "value": 20.2519023152347
+      },
+      {
+        "country": "KGZ",
+        "value": 22.2787139578049
+      },
+      {
+        "country": "KHM",
+        "value": 18.9755795340346
+      },
+      {
+        "country": "KIR",
+        "value": 5.51550544845506
+      },
+      {
+        "country": "LAO",
+        "value": 27.8703405333604
+      },
+      {
+        "country": "LBN",
+        "value": 27.8802089438784
+      },
+      {
+        "country": "LSO",
+        "value": 25.8844505340864
+      },
+      {
+        "country": "MAR",
+        "value": 17.1600688643338
+      },
+      {
+        "country": "MMR",
+        "value": 36.7128668064078
+      },
+      {
+        "country": "MRT",
+        "value": 43.6914963916805
+      },
+      {
+        "country": "NAM",
+        "value": 15.4572528817777
+      },
+      {
+        "country": "NGA",
+        "value": 56.1742360202495
+      },
+      {
+        "country": "NIC",
+        "value": 20.2131179025699
+      },
+      {
+        "country": "NPL",
+        "value": 54.2758746113853
+      },
+      {
+        "country": "PAK",
+        "value": 53.4624424408059
+      },
+      {
+        "country": "PNG",
+        "value": 13.9721134528645
+      },
+      {
+        "country": "PSE",
+        "value": 23.0413977446489
+      },
+      {
+        "country": "SEN",
+        "value": 39.8433750730602
+      },
+      {
+        "country": "SLB",
+        "value": 9.7284833636979
+      },
+      {
+        "country": "STP",
+        "value": 13.8008833750052
+      },
+      {
+        "country": "SWZ",
+        "value": 18.240858269705
+      },
+      {
+        "country": "TGO",
+        "value": 29.5326894869218
+      },
+      {
+        "country": "TJK",
+        "value": 31.0737152169277
+      },
+      {
+        "country": "TLS",
+        "value": 13.1941882140533
+      },
+      {
+        "country": "TUN",
+        "value": 16.9323513605894
+      },
+      {
+        "country": "TZA",
+        "value": 22.0048939517856
+      },
+      {
+        "country": "UZB",
+        "value": 32.5487636954353
+      },
+      {
+        "country": "VEN",
+        "value": 20.6730728456596
+      },
+      {
+        "country": "VUT",
+        "value": 7.21504177702019
+      },
+      {
+        "country": "ZMB",
+        "value": 22.1205330057265
+      },
+      {
+        "country": "ZWE",
+        "value": 16.5336648957629
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2020,
+    "value": 26.0680786310559,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 19.5706484135285
+      },
+      {
+        "country": "BEN",
+        "value": 41.5093042158764
+      },
+      {
+        "country": "BGD",
+        "value": 72.109680405827
+      },
+      {
+        "country": "BOL",
+        "value": 31.3573420977687
+      },
+      {
+        "country": "BTN",
+        "value": 32.0956306761484
+      },
+      {
+        "country": "CIV",
+        "value": 22.0556108824208
+      },
+      {
+        "country": "CMR",
+        "value": 53.4777342537613
+      },
+      {
+        "country": "COG",
+        "value": 37.3808909422355
+      },
+      {
+        "country": "COM",
+        "value": 10.2209724654924
+      },
+      {
+        "country": "DJI",
+        "value": 39.8289344223707
+      },
+      {
+        "country": "EGY",
+        "value": 39.7460127211742
+      },
+      {
+        "country": "GHA",
+        "value": 30.1543666247493
+      },
+      {
+        "country": "GIN",
+        "value": 27.2214398926513
+      },
+      {
+        "country": "HND",
+        "value": 36.5355643898854
+      },
+      {
+        "country": "HTI",
+        "value": 15.8597316710366
+      },
+      {
+        "country": "IND",
+        "value": 52.1933674059995
+      },
+      {
+        "country": "KEN",
+        "value": 22.7039455998975
+      },
+      {
+        "country": "KGZ",
+        "value": 19.4331133080631
+      },
+      {
+        "country": "KHM",
+        "value": 20.9367755079912
+      },
+      {
+        "country": "KIR",
+        "value": 4.06232279848312
+      },
+      {
+        "country": "LAO",
+        "value": 28.0509542341447
+      },
+      {
+        "country": "LBN",
+        "value": 26.0680786310559
+      },
+      {
+        "country": "LSO",
+        "value": 27.1007395853564
+      },
+      {
+        "country": "MAR",
+        "value": 17.6745548244128
+      },
+      {
+        "country": "MMR",
+        "value": 36.8841217490584
+      },
+      {
+        "country": "MRT",
+        "value": 45.4453206008517
+      },
+      {
+        "country": "NAM",
+        "value": 14.4300441951521
+      },
+      {
+        "country": "NGA",
+        "value": 63.7025276792271
+      },
+      {
+        "country": "NIC",
+        "value": 21.6853479304391
+      },
+      {
+        "country": "NPL",
+        "value": 51.1333778512821
+      },
+      {
+        "country": "PAK",
+        "value": 54.8397942743298
+      },
+      {
+        "country": "PNG",
+        "value": 13.2697819572662
+      },
+      {
+        "country": "PSE",
+        "value": 22.1426293555486
+      },
+      {
+        "country": "SEN",
+        "value": 40.6552283701407
+      },
+      {
+        "country": "SLB",
+        "value": 9.10625881853873
+      },
+      {
+        "country": "STP",
+        "value": 15.8580599660339
+      },
+      {
+        "country": "SWZ",
+        "value": 16.7356915533242
+      },
+      {
+        "country": "TGO",
+        "value": 36.9850943715423
+      },
+      {
+        "country": "TJK",
+        "value": 31.4350206909239
+      },
+      {
+        "country": "TLS",
+        "value": 11.1527256829051
+      },
+      {
+        "country": "TUN",
+        "value": 17.004974740635
+      },
+      {
+        "country": "TZA",
+        "value": 22.5094861470273
+      },
+      {
+        "country": "UZB",
+        "value": 32.3909036978102
+      },
+      {
+        "country": "VEN",
+        "value": 19.318955226703
+      },
+      {
+        "country": "VUT",
+        "value": 6.11380443342958
+      },
+      {
+        "country": "ZMB",
+        "value": 19.448495527814
+      },
+      {
+        "country": "ZWE",
+        "value": 13.698771280809
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2021,
+    "value": 25.2265566483814,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 18.4908414693325
+      },
+      {
+        "country": "BEN",
+        "value": 40.8353843252766
+      },
+      {
+        "country": "BGD",
+        "value": 73.1105267513781
+      },
+      {
+        "country": "BOL",
+        "value": 28.1172356323428
+      },
+      {
+        "country": "BTN",
+        "value": 32.476862028065
+      },
+      {
+        "country": "CIV",
+        "value": 21.3540188476971
+      },
+      {
+        "country": "CMR",
+        "value": 53.1474397977025
+      },
+      {
+        "country": "COG",
+        "value": 36.7456736527741
+      },
+      {
+        "country": "COM",
+        "value": 9.93169178429907
+      },
+      {
+        "country": "DJI",
+        "value": 36.2143866826732
+      },
+      {
+        "country": "EGY",
+        "value": 41.5138300696419
+      },
+      {
+        "country": "GHA",
+        "value": 29.2960702713952
+      },
+      {
+        "country": "GIN",
+        "value": 27.0984815291413
+      },
+      {
+        "country": "HND",
+        "value": 30.2857858448489
+      },
+      {
+        "country": "HTI",
+        "value": 16.259372740045
+      },
+      {
+        "country": "IND",
+        "value": 55.6234726382873
+      },
+      {
+        "country": "KEN",
+        "value": 20.7417100078724
+      },
+      {
+        "country": "KGZ",
+        "value": 21.825457176683
+      },
+      {
+        "country": "KHM",
+        "value": 19.5777877942962
+      },
+      {
+        "country": "KIR",
+        "value": 3.46098456213132
+      },
+      {
+        "country": "LAO",
+        "value": 26.0671819322606
+      },
+      {
+        "country": "LBN",
+        "value": 25.2265566483814
+      },
+      {
+        "country": "LSO",
+        "value": 27.1127701740992
+      },
+      {
+        "country": "MAR",
+        "value": 18.8808973994063
+      },
+      {
+        "country": "MMR",
+        "value": 36.8613783730995
+      },
+      {
+        "country": "MRT",
+        "value": 48.987965577262
+      },
+      {
+        "country": "NAM",
+        "value": 14.4518731743436
+      },
+      {
+        "country": "NGA",
+        "value": 63.7505486555452
+      },
+      {
+        "country": "NIC",
+        "value": 20.0656114146273
+      },
+      {
+        "country": "NPL",
+        "value": 56.8352288944933
+      },
+      {
+        "country": "PAK",
+        "value": 58.590150324952
+      },
+      {
+        "country": "PNG",
+        "value": 14.6480533757505
+      },
+      {
+        "country": "PSE",
+        "value": 21.8706255570971
+      },
+      {
+        "country": "SEN",
+        "value": 42.371884937796
+      },
+      {
+        "country": "SLB",
+        "value": 8.16366216339273
+      },
+      {
+        "country": "STP",
+        "value": 14.8156728919369
+      },
+      {
+        "country": "SWZ",
+        "value": 17.8762333514337
+      },
+      {
+        "country": "TGO",
+        "value": 34.5087889494952
+      },
+      {
+        "country": "TJK",
+        "value": 34.7938330280456
+      },
+      {
+        "country": "TLS",
+        "value": 12.917068808454
+      },
+      {
+        "country": "TUN",
+        "value": 20.064818139673
+      },
+      {
+        "country": "TZA",
+        "value": 20.59925012622
+      },
+      {
+        "country": "UZB",
+        "value": 34.2032324656807
+      },
+      {
+        "country": "VEN",
+        "value": 18.171098677907
+      },
+      {
+        "country": "VUT",
+        "value": 6.1793223587946
+      },
+      {
+        "country": "ZMB",
+        "value": 19.5925009286197
+      },
+      {
+        "country": "ZWE",
+        "value": 15.1447088758431
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2022,
+    "value": 25.3425878362043,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 22.5172239045117
+      },
+      {
+        "country": "BEN",
+        "value": 41.496929120914
+      },
+      {
+        "country": "BGD",
+        "value": 63.2199514017555
+      },
+      {
+        "country": "BOL",
+        "value": 30.5651114620926
+      },
+      {
+        "country": "BTN",
+        "value": 25.657638995936
+      },
+      {
+        "country": "CIV",
+        "value": 21.8306712275434
+      },
+      {
+        "country": "CMR",
+        "value": 56.6299237952112
+      },
+      {
+        "country": "COG",
+        "value": 37.5746809256317
+      },
+      {
+        "country": "COM",
+        "value": 12.0356986217286
+      },
+      {
+        "country": "DJI",
+        "value": 39.044711370559
+      },
+      {
+        "country": "EGY",
+        "value": 42.2068092839445
+      },
+      {
+        "country": "GHA",
+        "value": 30.0880306483719
+      },
+      {
+        "country": "GIN",
+        "value": 27.6046011191563
+      },
+      {
+        "country": "HND",
+        "value": 29.6637651594529
+      },
+      {
+        "country": "HTI",
+        "value": 14.6394225854133
+      },
+      {
+        "country": "IND",
+        "value": 50.6577446303517
+      },
+      {
+        "country": "KEN",
+        "value": 20.77459729359
+      },
+      {
+        "country": "KGZ",
+        "value": 18.6929404908521
+      },
+      {
+        "country": "KHM",
+        "value": 19.8334520389805
+      },
+      {
+        "country": "KIR",
+        "value": 3.727212239088
+      },
+      {
+        "country": "LAO",
+        "value": 25.3425878362043
+      },
+      {
+        "country": "LBN",
+        "value": 27.98267173145
+      },
+      {
+        "country": "LSO",
+        "value": 30.7558120221266
+      },
+      {
+        "country": "MAR",
+        "value": 21.3232528983588
+      },
+      {
+        "country": "MMR",
+        "value": 32.8498528834077
+      },
+      {
+        "country": "MRT",
+        "value": 45.0399461631116
+      },
+      {
+        "country": "NAM",
+        "value": 16.6999376084699
+      },
+      {
+        "country": "NGA",
+        "value": 70.6169092406565
+      },
+      {
+        "country": "NIC",
+        "value": 20.8229199248067
+      },
+      {
+        "country": "NPL",
+        "value": 50.6322528228936
+      },
+      {
+        "country": "PAK",
+        "value": 57.8617671689119
+      },
+      {
+        "country": "PNG",
+        "value": 16.0909144747822
+      },
+      {
+        "country": "PSE",
+        "value": 23.734512216626
+      },
+      {
+        "country": "SEN",
+        "value": 39.328601950874
+      },
+      {
+        "country": "SLB",
+        "value": 9.82858130237828
+      },
+      {
+        "country": "STP",
+        "value": 14.9991986078849
+      },
+      {
+        "country": "SWZ",
+        "value": 18.4190593206
+      },
+      {
+        "country": "TGO",
+        "value": 35.8141758880983
+      },
+      {
+        "country": "TJK",
+        "value": 34.3869193134356
+      },
+      {
+        "country": "TLS",
+        "value": 12.7214619688248
+      },
+      {
+        "country": "TUN",
+        "value": 22.397309689228
+      },
+      {
+        "country": "TZA",
+        "value": 21.8389520235848
+      },
+      {
+        "country": "UZB",
+        "value": 32.8550742639477
+      },
+      {
+        "country": "VEN",
+        "value": 18.7539898254168
+      },
+      {
+        "country": "VUT",
+        "value": 7.28588304103265
+      },
+      {
+        "country": "ZMB",
+        "value": 23.4901848842686
+      },
+      {
+        "country": "ZWE",
+        "value": 17.3901790946352
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "pm25",
+    "year": 2023,
+    "value": 25.9762899979383,
+    "unit": "ug_m3",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 19.9075690536367
+      },
+      {
+        "country": "BEN",
+        "value": 39.6565559870988
+      },
+      {
+        "country": "BGD",
+        "value": 69.2525518340174
+      },
+      {
+        "country": "BOL",
+        "value": 28.1374394437756
+      },
+      {
+        "country": "BTN",
+        "value": 30.0727424508173
+      },
+      {
+        "country": "CIV",
+        "value": 20.3873194822538
+      },
+      {
+        "country": "CMR",
+        "value": 55.603592684544
+      },
+      {
+        "country": "COG",
+        "value": 36.5403519085882
+      },
+      {
+        "country": "COM",
+        "value": 10.1727579725379
+      },
+      {
+        "country": "DJI",
+        "value": 40.2974292106183
+      },
+      {
+        "country": "EGY",
+        "value": 43.1460553382462
+      },
+      {
+        "country": "GHA",
+        "value": 28.143601284493
+      },
+      {
+        "country": "GIN",
+        "value": 27.2639917651602
+      },
+      {
+        "country": "HND",
+        "value": 30.7188969730187
+      },
+      {
+        "country": "HTI",
+        "value": 15.8127594459366
+      },
+      {
+        "country": "IND",
+        "value": 54.0522242217331
+      },
+      {
+        "country": "KEN",
+        "value": 20.252365609383
+      },
+      {
+        "country": "KGZ",
+        "value": 20.1239014514257
+      },
+      {
+        "country": "KHM",
+        "value": 19.4262068786841
+      },
+      {
+        "country": "KIR",
+        "value": 3.86704654760796
+      },
+      {
+        "country": "LAO",
+        "value": 25.9762899979383
+      },
+      {
+        "country": "LBN",
+        "value": 26.6948532836253
+      },
+      {
+        "country": "LSO",
+        "value": 26.4379773450967
+      },
+      {
+        "country": "MAR",
+        "value": 18.7206508843713
+      },
+      {
+        "country": "MMR",
+        "value": 35.0665284656219
+      },
+      {
+        "country": "MRT",
+        "value": 46.5013986975929
+      },
+      {
+        "country": "NAM",
+        "value": 14.2253008498779
+      },
+      {
+        "country": "NGA",
+        "value": 65.740618883028
+      },
+      {
+        "country": "NIC",
+        "value": 20.4180839334698
+      },
+      {
+        "country": "NPL",
+        "value": 53.2003436952498
+      },
+      {
+        "country": "PAK",
+        "value": 58.3745179541935
+      },
+      {
+        "country": "PNG",
+        "value": 14.1117516188413
+      },
+      {
+        "country": "PSE",
+        "value": 22.394098975674
+      },
+      {
+        "country": "SEN",
+        "value": 41.6483649398667
+      },
+      {
+        "country": "SLB",
+        "value": 9.76639967800624
+      },
+      {
+        "country": "STP",
+        "value": 15.1195335259737
+      },
+      {
+        "country": "SWZ",
+        "value": 16.7458644287773
+      },
+      {
+        "country": "TGO",
+        "value": 34.3346739146749
+      },
+      {
+        "country": "TJK",
+        "value": 33.3455362132125
+      },
+      {
+        "country": "TLS",
+        "value": 11.9874398587491
+      },
+      {
+        "country": "TUN",
+        "value": 18.874792802061
+      },
+      {
+        "country": "TZA",
+        "value": 20.1699588964355
+      },
+      {
+        "country": "UZB",
+        "value": 32.7713715610547
+      },
+      {
+        "country": "VEN",
+        "value": 19.1983096563552
+      },
+      {
+        "country": "VUT",
+        "value": 6.9939431918878
+      },
+      {
+        "country": "ZMB",
+        "value": 20.2430489112714
+      },
+      {
+        "country": "ZWE",
+        "value": 15.0254734850511
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

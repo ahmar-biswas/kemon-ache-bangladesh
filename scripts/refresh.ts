@@ -2,22 +2,30 @@
 //
 // All or nothing: if any indicator fails any check, no data file is changed.
 // Only data/processed/meta.json is updated, to record that a check happened and failed.
-import type { CountriesFile, DataMeta, DataRecord, IndicatorMeta, MedianRecord } from '../src/data/types.ts';
+import type { CountriesFile, DataMeta, DataRecord, IndicatorMeta, MedianRecord, RankDetail, Target } from '../src/data/types.ts';
 import { COUNTRY, DEFAULT_PEERS, INDICATORS } from './indicators.ts';
 import {
+  allRawPath,
   countriesPath,
   countryListPath,
   countryMetaPath,
+  externalRawPath,
   indicatorsPath,
+  latestPath,
   medianPath,
   metaPath,
   processedPath,
+  rankPath,
   rawPath,
   readJson,
+  targetsPath,
   writeJson,
 } from './lib/files.ts';
+import { EXTERNAL, fetchExternal, rankRecords, validateExternal } from './lib/external.ts';
+import { buildLatest } from './lib/latest.ts';
 import { buildMedians, groupMembers } from './lib/median.ts';
-import { compareWithPrevious, validateMedians, validateRecords } from './lib/validate.ts';
+import { MIN_RANKED, buildRank, compactAll, validateRank } from './lib/ranks.ts';
+import { compareWithPrevious, validateMedians, validateRecords, validateTargets } from './lib/validate.ts';
 import {
   CLASSIFICATION_URL,
   COUNTRY_LIST_URL,
@@ -37,11 +45,18 @@ const problems: string[] = [];
 const pending: { path: string; value: unknown }[] = [];
 const sourceLastUpdated: Record<string, string> = {};
 let anyChanged = false;
+const allRecords: Record<string, DataRecord[]> = {};
+const allMedians: Record<string, MedianRecord[]> = {};
+const ranks: Record<string, RankDetail> = {};
+/** Global ranks use every country's values for the last 10 years only (keeps data/raw small). */
+const thisYear = Number(today.slice(0, 4));
+const sinceYear = thisYear - 10;
 
+const IGNORED_KEYS = new Set(['retrieved_at', 'classification_retrieved_at', 'last_checked']);
 /** Same content apart from the retrieved date? Then keep the old file (and its date). */
 const sameIgnoringDates = (a: unknown, b: unknown) =>
-  JSON.stringify(a, (k, v) => (k === 'retrieved_at' || k === 'classification_retrieved_at' ? undefined : v)) ===
-  JSON.stringify(b, (k, v) => (k === 'retrieved_at' || k === 'classification_retrieved_at' ? undefined : v));
+  JSON.stringify(a, (k, v) => (IGNORED_KEYS.has(k) ? undefined : v)) ===
+  JSON.stringify(b, (k, v) => (IGNORED_KEYS.has(k) ? undefined : v));
 
 function stage(path: string, value: unknown) {
   const previous = readJson<unknown>(path);
@@ -123,6 +138,26 @@ try {
         pending.push({ path: processedPath(config.id), value: records });
       }
       if (config.scope === 'compare') stage(medianPath(config.id), medians);
+      allRecords[config.id] = records;
+      allMedians[config.id] = medians;
+
+      // Global rank (calculated by this site): every country's value for recent years.
+      if (config.scope === 'compare') {
+        const allUrl = urls(config.code).allRecent(sinceYear, thisYear);
+        const a = await fetchAllPages(allUrl, 20_000);
+        const compact = compactAll(config, { retrieved_at: a.retrievedAt, request_url: allUrl, response: a.answers });
+        stage(allRawPath(config.code), compact);
+        const bgdLatest = Math.max(...records.filter((r) => r.country === COUNTRY).map((r) => r.year));
+        const rank = buildRank(config, compact, countries, bgdLatest, `World Bank, ${n.seriesName}`);
+        if (rank) {
+          problems.push(...validateRank(config, rank));
+          ranks[config.id] = rank;
+          stage(rankPath(config.id), rank);
+          console.log(`  global rank ${rank.rank} of ${rank.out_of} (${rank.year}).`);
+        } else {
+          console.log(`  no global rank: fewer than ${MIN_RANKED} countries have a value for ${bgdLatest}.`);
+        }
+      }
 
       indicatorMetas.push({
         id: config.id,
@@ -133,6 +168,7 @@ try {
         source_series_name: n.seriesName,
         definition_url: u.definition,
         explanation_id: config.explanationId ?? config.id,
+        compare_id: config.compareWith ?? null,
         scope: config.scope,
         favourable_direction: config.favourable_direction,
         direction_source_url: config.direction_source_url,
@@ -143,6 +179,56 @@ try {
       problems.push(err instanceof Error ? err.message : String(err));
     }
   }
+
+  // 4. Published ranks (UNDP, Transparency International, World Happiness Report).
+  for (const src of EXTERNAL) {
+    try {
+      console.log(`Fetching ${src.id} (${src.source_name})…`);
+      const raw = await fetchExternal(src, countries);
+      const bad = validateExternal(src, raw, shown);
+      problems.push(...bad);
+      const records = rankRecords(src, raw, shown);
+      stage(externalRawPath(src.id), raw);
+      stage(processedPath(src.id), records);
+      allRecords[src.id] = records;
+      const bgd = records.find((r) => r.country === COUNTRY);
+      console.log(`  ${raw.rows.length} countries; Bangladesh ${bgd ? `${bgd.value} of ${bgd.out_of} (${bgd.year})` : 'missing'}.`);
+      indicatorMetas.push({
+        id: src.id,
+        code: src.id,
+        area: 'overall',
+        priority: 'P0',
+        unit: 'rank',
+        source_series_name: src.source_name,
+        definition_url: src.definition_url,
+        explanation_id: src.id,
+        compare_id: null,
+        scope: 'compare',
+        favourable_direction: 'context',
+        direction_source_url: null,
+        direction_source_text: null,
+        params: {},
+      });
+    } catch (err) {
+      problems.push(err instanceof Error ? err.message : String(err));
+    }
+  }
+
+  // 5. Official goals (hand-checked file) and the small homepage file.
+  const targets = (readJson<{ targets: Target[] }>(targetsPath())?.targets ?? []) as Target[];
+  problems.push(...validateTargets(targets, indicatorMetas));
+  stage(
+    latestPath(),
+    buildLatest({
+      lastChecked: today,
+      metas: indicatorMetas,
+      records: allRecords,
+      medians: allMedians,
+      ranks,
+      targets,
+      names: Object.fromEntries(countries.map((c) => [c.id, c.name])),
+    }),
+  );
 
   stage(countriesPath(), countriesFile);
   stage(indicatorsPath(), indicatorMetas);

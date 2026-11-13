@@ -25,11 +25,17 @@ export function latestMedian(medians: MedianRecord[] | undefined): MedianRecord 
   return best;
 }
 
-export interface Position {
+/** Anything with a country and a value: a full record or a trimmed homepage point. */
+export interface Valued {
+  country: string;
+  value: number;
+}
+
+export interface Position<T extends Valued = DataRecord> {
   /** Peers Bangladesh is ahead of, in the official target direction. */
-  ahead: DataRecord[];
-  behind: DataRecord[];
-  equal: DataRecord[];
+  ahead: T[];
+  behind: T[];
+  equal: T[];
   /** Number of peers compared (those with a recent value). */
   m: number;
   /** Which wording the badge uses. */
@@ -42,9 +48,9 @@ export interface Position {
  * Counts peers on each side of Bangladesh. Only for indicators with an official target
  * direction ("higher" or "lower"); returns null for "context" or when nothing can be compared.
  */
-export function position(direction: FavourableDirection, bgd: DataRecord | undefined, peers: DataRecord[]): Position | null {
+export function position<T extends Valued>(direction: FavourableDirection, bgd: T | undefined, peers: T[]): Position<T> | null {
   if (direction === 'context' || !bgd || peers.length === 0) return null;
-  const isAhead = (p: DataRecord) => (direction === 'lower' ? p.value > bgd.value : p.value < bgd.value);
+  const isAhead = (p: T) => (direction === 'lower' ? p.value > bgd.value : p.value < bgd.value);
   const ahead = peers.filter((p) => p.value !== bgd.value && isAhead(p));
   const equal = peers.filter((p) => p.value === bgd.value);
   const behind = peers.filter((p) => p.value !== bgd.value && !isAhead(p));

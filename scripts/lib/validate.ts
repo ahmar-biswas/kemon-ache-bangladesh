@@ -1,6 +1,6 @@
 // Validation rules for data records (docs/reference/05-data-layer.md, section 5.4).
 // If any rule fails, the refresh stops and the last good data is kept.
-import type { DataRecord, MedianRecord } from '../../src/data/types.ts';
+import type { DataRecord, MedianRecord, Target } from '../../src/data/types.ts';
 import type { IndicatorConfig } from '../indicators.ts';
 import { MEDIAN_MIN_COUNTRIES, median } from './median.ts';
 
@@ -113,5 +113,20 @@ export function validateMedians(config: IndicatorConfig, medians: MedianRecord[]
     if (!isHttpsUrl(m.classification_url)) p.push(`${where}: bad classification_url`);
     if (!ISO_DATE.test(m.retrieved_at) || !ISO_DATE.test(m.classification_retrieved_at)) p.push(`${where}: bad dates`);
   }
+  return p;
+}
+
+/** Checks the hand-written goals file against the indicators it refers to. */
+export function validateTargets(targets: Target[], metas: { id: string; unit: string }[]): string[] {
+  const p: string[] = [];
+  for (const t of targets) {
+    const m = metas.find((x) => x.id === t.indicator_id);
+    if (!m) p.push(`targets.json: unknown indicator ${t.indicator_id}`);
+    else if (m.unit !== t.unit) p.push(`targets.json ${t.indicator_id}: unit ${t.unit} but the indicator is ${m.unit}`);
+    if (!Number.isFinite(t.value)) p.push(`targets.json ${t.indicator_id}: value is not a number`);
+    if (!isHttpsUrl(t.source_url)) p.push(`targets.json ${t.indicator_id}: bad source_url`);
+    if (!t.source_text?.trim() || !t.source_name?.trim()) p.push(`targets.json ${t.indicator_id}: missing source text or name`);
+  }
+  if (new Set(targets.map((t) => t.indicator_id)).size !== targets.length) p.push('targets.json: an indicator has two goals');
   return p;
 }

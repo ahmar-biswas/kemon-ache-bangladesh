@@ -1,0 +1,45 @@
+{
+  "_about": "Official numeric goals drawn as goal lines. Only goals whose source states the number, or says 'universal' / 'for all' (= 100%), are listed. Each source_text is copied word for word from source_url (checked 2026-11-13). Validated by npm run check:data.",
+  "targets": [
+    {
+      "indicator_id": "under5_mortality",
+      "value": 25,
+      "unit": "per_1000_live_births",
+      "by_year": 2030,
+      "source_name": "UN Sustainable Development Goals, target 3.2",
+      "source_url": "https://sdgs.un.org/goals/goal3",
+      "source_text": "Target 3.2: By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
+      "label_key": "target.short.sdg_3_2"
+    },
+    {
+      "indicator_id": "safe_water",
+      "value": 100,
+      "unit": "percent",
+      "by_year": 2030,
+      "source_name": "UN Sustainable Development Goals, target 6.1",
+      "source_url": "https://sdgs.un.org/goals/goal6",
+      "source_text": "Target 6.1: By 2030, achieve universal and equitable access to safe and affordable drinking water for all",
+      "label_key": "target.short.sdg_6_1"
+    },
+    {
+      "indicator_id": "electricity",
+      "value": 100,
+      "unit": "percent",
+      "by_year": 2030,
+      "source_name": "UN Sustainable Development Goals, target 7.1",
+      "source_url": "https://sdgs.un.org/goals/goal7",
+      "source_text": "Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services",
+      "label_key": "target.short.sdg_7_1"
+    },
+    {
+      "indicator_id": "pm25",
+      "value": 5,
+      "unit": "ug_m3",
+      "by_year": null,
+      "source_name": "World Health Organization, Air Quality Guidelines (2021)",
+      "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+      "source_text": "For PM2.5: Annual average 5 µg/m3; 24-hour average 15 µg/m3",
+      "label_key": "target.short.who_pm25"
+    }
+  ]
+}

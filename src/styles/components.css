@@ -26,10 +26,10 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--s-12);
-  min-height: 64px;
-  padding-block: var(--s-8);
+  min-height: 52px;
+  padding-block: var(--s-4);
 }
-.site-header .jamdani { height: 10px; }
+.site-header .jamdani { height: 6px; }
 
 /* ---------- Wordmark ---------- */
 .wordmark {
@@ -56,7 +56,8 @@
 /* ---------- Flag switch (8.6) ---------- */
 .flag-switch {
   display: inline-grid;
-  grid-template-columns: auto auto;
+  /* Equal halves, so the disc at the centre always sits on the boundary between labels. */
+  grid-template-columns: 1fr 1fr;
   align-items: stretch;
   border-radius: var(--r-pill);
   min-height: 44px;
@@ -66,6 +67,7 @@
 .flag-switch__option {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 44px;
   padding: 0 var(--s-16);
   border: 0;

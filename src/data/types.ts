@@ -8,7 +8,11 @@ export type Unit =
   | 'taka_constant'
   | 'intl_dollar_current'
   | 'percent'
-  | 'per_1000_live_births';
+  | 'per_1000_live_births'
+  /** Micrograms per cubic metre (PM2.5). */
+  | 'ug_m3'
+  /** A published rank: 1 = first. Comes with out_of. */
+  | 'rank';
 
 export interface DataRecord {
   indicator_id: string;
@@ -30,6 +34,8 @@ export interface DataRecord {
   notes: string[];
   /** "income" or "consumption" for poverty/inequality measures; null otherwise. */
   measured_by: string | null;
+  /** For unit "rank" only: how many countries the publisher ranked that year. */
+  out_of?: number;
 }
 
 export interface DataMeta {
@@ -43,7 +49,7 @@ export interface DataMeta {
   source_last_updated: Record<string, string>;
 }
 
-export type Area = 'economy' | 'poverty' | 'education' | 'health';
+export type Area = 'economy' | 'poverty' | 'education' | 'health' | 'overall';
 
 /**
  * Whether a higher or lower value is the direction an official target asks for.
@@ -62,6 +68,8 @@ export interface IndicatorMeta {
   /** The World Bank's own series name, as published (contains the unit). */
   source_series_name: string;
   definition_url: string;
+  /** Series used for cross-country comparison when this one is local-currency; else null. */
+  compare_id: string | null;
   /** Translation key suffix of the plain-language explanation: explain.<explanation_id>. */
   explanation_id: string;
   /**
@@ -127,4 +135,81 @@ export interface MedianRecord {
   group: 'LMC';
   classification_url: string;
   classification_retrieved_at: string;
+}
+
+/**
+ * An official numeric goal for one indicator (data/targets.json), drawn as a goal line.
+ * Only goals whose source states the number (or "universal" = 100%) are allowed.
+ */
+export interface Target {
+  indicator_id: string;
+  value: number;
+  unit: Unit;
+  /** Year the goal is set for, if the source gives one. */
+  by_year: number | null;
+  /** e.g. "UN Sustainable Development Goals, target 3.2". */
+  source_name: string;
+  source_url: string;
+  /** The goal, word for word from source_url. */
+  source_text: string;
+  /** Translation key for the short goal label, e.g. "target.short.sdg_3_2". */
+  label_key: string;
+}
+
+/**
+ * Bangladesh's global rank on one indicator.
+ * kind "published": the publisher's own rank. kind "calculated": counted by this site
+ * among all countries with a value for the same year, 1 = highest value.
+ */
+export interface RankSummary {
+  indicator_id: string;
+  kind: 'published' | 'calculated';
+  year: number;
+  rank: number;
+  out_of: number;
+  /** For calculated ranks: the order used. */
+  order: 'highest_first' | null;
+  source_name: string;
+  source_url: string;
+  retrieved_at: string;
+}
+
+/** A calculated rank with every input, so it can be checked (data/processed/ranks/<id>.json). */
+export interface RankDetail extends RankSummary {
+  kind: 'calculated';
+  values: { country: string; value: number; rank: number }[];
+}
+
+/** One country's latest value, trimmed for the homepage. */
+export interface LatestPoint {
+  country: string;
+  year: number;
+  value: number;
+}
+
+/** Everything the homepage shows for one indicator (data/processed/latest.json). */
+export interface LatestIndicator {
+  id: string;
+  unit: Unit;
+  favourable_direction: FavourableDirection;
+  /** Bangladesh's newest record, in full (source line, notes, caveats). */
+  bangladesh: DataRecord | null;
+  /** Comparison series id when it differs (e.g. PPP for taka), else null. */
+  compare_id: string | null;
+  /** Bangladesh and peers in the comparison series, latest year since the 10-year cut-off. */
+  points: LatestPoint[];
+  /** Source of the comparison series' Bangladesh value (for its own source line). */
+  compare_bangladesh: DataRecord | null;
+  median: { year: number; value: number; n: number } | null;
+  target: Target | null;
+  rank: RankSummary | null;
+}
+
+export interface LatestFile {
+  last_checked: string;
+  since: number;
+  default_peers: string[];
+  /** English names of Bangladesh and the peers, as the World Bank writes them. */
+  names: Record<string, string>;
+  indicators: Record<string, LatestIndicator>;
 }

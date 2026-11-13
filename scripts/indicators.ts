@@ -36,6 +36,8 @@ export interface IndicatorConfig {
    * expression whose first group is the value; if the name stops matching, the refresh fails.
    */
   paramsFromName?: Record<string, RegExp>;
+  /** Series used to compare countries when this one cannot (local currency): e.g. PPP dollars. */
+  compareWith?: string;
   /** Which section-11 explanation (explain.<id>) describes this series, if not its own id. */
   explanationId?: string;
 }
@@ -78,6 +80,20 @@ const SDG = {
     url: 'https://sdgs.un.org/goals/goal4',
     text: 'Target 4.6: By 2030, ensure that all youth and a substantial proportion of adults, both men and women, achieve literacy and numeracy',
   },
+  water: {
+    url: 'https://sdgs.un.org/goals/goal6',
+    text: 'Target 6.1: By 2030, achieve universal and equitable access to safe and affordable drinking water for all',
+  },
+  electricity: {
+    url: 'https://sdgs.un.org/goals/goal7',
+    text: 'Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services',
+  },
+};
+
+/** WHO Air Quality Guidelines 2021, as quoted in WHO's own news release of 4 April 2022. */
+const WHO_AIR = {
+  url: 'https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data',
+  text: 'WHO Air Quality Guidelines (2021). For PM2.5: Annual average 5 µg/m3; 24-hour average 15 µg/m3',
 };
 
 const context = { favourable_direction: 'context', direction_source_url: null, direction_source_text: null } as const;
@@ -85,9 +101,72 @@ const target = (dir: 'higher' | 'lower', t: { url: string; text: string }) =>
   ({ favourable_direction: dir, direction_source_url: t.url, direction_source_text: t.text }) as const;
 
 export const INDICATORS: IndicatorConfig[] = [
+  // Side list (homepage): whole-country measures. Verified against the live API on 2026-11-13.
+  {
+    id: 'gdp_total_taka',
+    compareWith: 'gdp_total_ppp',
+    code: 'NY.GDP.MKTP.CN',
+    area: 'economy',
+    priority: 'P0',
+    unit: 'taka_current',
+    expectedName: 'GDP (current LCU)',
+    plausibleRange: [1e9, 1e17],
+    nationalAccounts: true,
+    scope: 'bangladesh',
+    ...context,
+  },
+  {
+    id: 'gdp_total_ppp',
+    code: 'NY.GDP.MKTP.PP.CD',
+    area: 'economy',
+    priority: 'P0',
+    unit: 'intl_dollar_current',
+    expectedName: 'GDP, PPP (current international $)',
+    plausibleRange: [1e6, 1e14],
+    nationalAccounts: true,
+    scope: 'compare',
+    ...context,
+  },
+  {
+    id: 'electricity',
+    code: 'EG.ELC.ACCS.ZS',
+    area: 'economy',
+    priority: 'P0',
+    unit: 'percent',
+    expectedName: 'Access to electricity (% of population)',
+    plausibleRange: [0, 100],
+    nationalAccounts: false,
+    scope: 'compare',
+    ...target('higher', SDG.electricity),
+  },
+  {
+    id: 'safe_water',
+    code: 'SH.H2O.SMDW.ZS',
+    area: 'health',
+    priority: 'P0',
+    unit: 'percent',
+    expectedName: 'People using safely managed drinking water services (% of population)',
+    plausibleRange: [0, 100],
+    nationalAccounts: false,
+    scope: 'compare',
+    ...target('higher', SDG.water),
+  },
+  {
+    id: 'pm25',
+    code: 'EN.ATM.PM25.MC.M3',
+    area: 'health',
+    priority: 'P0',
+    unit: 'ug_m3',
+    expectedName: 'PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)',
+    plausibleRange: [0, 300],
+    nationalAccounts: false,
+    scope: 'compare',
+    ...target('lower', WHO_AIR),
+  },
   // Economy
   {
     id: 'gdp_pc_taka',
+    compareWith: 'gdp_pc_ppp',
     code: 'NY.GDP.PCAP.CN',
     area: 'economy',
     priority: 'P0',
@@ -100,6 +179,7 @@ export const INDICATORS: IndicatorConfig[] = [
   },
   {
     id: 'gdp_pc_taka_constant',
+    compareWith: 'gdp_pc_ppp',
     explanationId: 'gdp_pc_taka',
     code: 'NY.GDP.PCAP.KN',
     area: 'economy',

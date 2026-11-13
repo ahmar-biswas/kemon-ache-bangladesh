@@ -1,0 +1,788 @@
+{
+  "url": "https://files.worldhappiness.report/WHR26_Data_Figure_2.1.xlsx",
+  "retrieved_at": "2026-11-13",
+  "sha256": "576e382655cec3ae704a0b41cd2c04465b87cd84b7f131a0c4fa26d41f6d8028",
+  "licence": "No licence stated; shown with the report's suggested citation (DECISIONS.md 66)",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2025,
+      "rank": 147,
+      "out_of": 147
+    },
+    {
+      "country": "ALB",
+      "year": 2025,
+      "rank": 86,
+      "out_of": 147
+    },
+    {
+      "country": "ARE",
+      "year": 2025,
+      "rank": 21,
+      "out_of": 147
+    },
+    {
+      "country": "ARG",
+      "year": 2025,
+      "rank": 44,
+      "out_of": 147
+    },
+    {
+      "country": "ARM",
+      "year": 2025,
+      "rank": 89,
+      "out_of": 147
+    },
+    {
+      "country": "AUS",
+      "year": 2025,
+      "rank": 15,
+      "out_of": 147
+    },
+    {
+      "country": "AUT",
+      "year": 2025,
+      "rank": 19,
+      "out_of": 147
+    },
+    {
+      "country": "AZE",
+      "year": 2025,
+      "rank": 102,
+      "out_of": 147
+    },
+    {
+      "country": "BEL",
+      "year": 2025,
+      "rank": 14,
+      "out_of": 147
+    },
+    {
+      "country": "BEN",
+      "year": 2025,
+      "rank": 124,
+      "out_of": 147
+    },
+    {
+      "country": "BFA",
+      "year": 2025,
+      "rank": 123,
+      "out_of": 147
+    },
+    {
+      "country": "BGD",
+      "year": 2025,
+      "rank": 127,
+      "out_of": 147
+    },
+    {
+      "country": "BGR",
+      "year": 2025,
+      "rank": 84,
+      "out_of": 147
+    },
+    {
+      "country": "BHR",
+      "year": 2025,
+      "rank": 55,
+      "out_of": 147
+    },
+    {
+      "country": "BIH",
+      "year": 2025,
+      "rank": 47,
+      "out_of": 147
+    },
+    {
+      "country": "BLZ",
+      "year": 2025,
+      "rank": 27,
+      "out_of": 147
+    },
+    {
+      "country": "BOL",
+      "year": 2025,
+      "rank": 78,
+      "out_of": 147
+    },
+    {
+      "country": "BRA",
+      "year": 2025,
+      "rank": 32,
+      "out_of": 147
+    },
+    {
+      "country": "BWA",
+      "year": 2025,
+      "rank": 143,
+      "out_of": 147
+    },
+    {
+      "country": "CAN",
+      "year": 2025,
+      "rank": 25,
+      "out_of": 147
+    },
+    {
+      "country": "CHE",
+      "year": 2025,
+      "rank": 10,
+      "out_of": 147
+    },
+    {
+      "country": "CHL",
+      "year": 2025,
+      "rank": 50,
+      "out_of": 147
+    },
+    {
+      "country": "CHN",
+      "year": 2025,
+      "rank": 65,
+      "out_of": 147
+    },
+    {
+      "country": "CMR",
+      "year": 2025,
+      "rank": 100,
+      "out_of": 147
+    },
+    {
+      "country": "COL",
+      "year": 2025,
+      "rank": 68,
+      "out_of": 147
+    },
+    {
+      "country": "COM",
+      "year": 2025,
+      "rank": 136,
+      "out_of": 147
+    },
+    {
+      "country": "CRI",
+      "year": 2025,
+      "rank": 4,
+      "out_of": 147
+    },
+    {
+      "country": "CYP",
+      "year": 2025,
+      "rank": 62,
+      "out_of": 147
+    },
+    {
+      "country": "CZE",
+      "year": 2025,
+      "rank": 20,
+      "out_of": 147
+    },
+    {
+      "country": "DEU",
+      "year": 2025,
+      "rank": 17,
+      "out_of": 147
+    },
+    {
+      "country": "DNK",
+      "year": 2025,
+      "rank": 3,
+      "out_of": 147
+    },
+    {
+      "country": "DOM",
+      "year": 2025,
+      "rank": 64,
+      "out_of": 147
+    },
+    {
+      "country": "DZA",
+      "year": 2025,
+      "rank": 83,
+      "out_of": 147
+    },
+    {
+      "country": "ECU",
+      "year": 2025,
+      "rank": 59,
+      "out_of": 147
+    },
+    {
+      "country": "ESP",
+      "year": 2025,
+      "rank": 41,
+      "out_of": 147
+    },
+    {
+      "country": "EST",
+      "year": 2025,
+      "rank": 46,
+      "out_of": 147
+    },
+    {
+      "country": "ETH",
+      "year": 2025,
+      "rank": 135,
+      "out_of": 147
+    },
+    {
+      "country": "FIN",
+      "year": 2025,
+      "rank": 1,
+      "out_of": 147
+    },
+    {
+      "country": "FRA",
+      "year": 2025,
+      "rank": 35,
+      "out_of": 147
+    },
+    {
+      "country": "GAB",
+      "year": 2025,
+      "rank": 96,
+      "out_of": 147
+    },
+    {
+      "country": "GBR",
+      "year": 2025,
+      "rank": 29,
+      "out_of": 147
+    },
+    {
+      "country": "GEO",
+      "year": 2025,
+      "rank": 91,
+      "out_of": 147
+    },
+    {
+      "country": "GHA",
+      "year": 2025,
+      "rank": 115,
+      "out_of": 147
+    },
+    {
+      "country": "GIN",
+      "year": 2025,
+      "rank": 113,
+      "out_of": 147
+    },
+    {
+      "country": "GRC",
+      "year": 2025,
+      "rank": 85,
+      "out_of": 147
+    },
+    {
+      "country": "GTM",
+      "year": 2025,
+      "rank": 42,
+      "out_of": 147
+    },
+    {
+      "country": "HND",
+      "year": 2025,
+      "rank": 63,
+      "out_of": 147
+    },
+    {
+      "country": "HRV",
+      "year": 2025,
+      "rank": 70,
+      "out_of": 147
+    },
+    {
+      "country": "HUN",
+      "year": 2025,
+      "rank": 74,
+      "out_of": 147
+    },
+    {
+      "country": "IDN",
+      "year": 2025,
+      "rank": 87,
+      "out_of": 147
+    },
+    {
+      "country": "IND",
+      "year": 2025,
+      "rank": 116,
+      "out_of": 147
+    },
+    {
+      "country": "IRL",
+      "year": 2025,
+      "rank": 13,
+      "out_of": 147
+    },
+    {
+      "country": "IRQ",
+      "year": 2025,
+      "rank": 95,
+      "out_of": 147
+    },
+    {
+      "country": "ISL",
+      "year": 2025,
+      "rank": 2,
+      "out_of": 147
+    },
+    {
+      "country": "ISR",
+      "year": 2025,
+      "rank": 8,
+      "out_of": 147
+    },
+    {
+      "country": "ITA",
+      "year": 2025,
+      "rank": 38,
+      "out_of": 147
+    },
+    {
+      "country": "JAM",
+      "year": 2025,
+      "rank": 49,
+      "out_of": 147
+    },
+    {
+      "country": "JOR",
+      "year": 2025,
+      "rank": 119,
+      "out_of": 147
+    },
+    {
+      "country": "JPN",
+      "year": 2025,
+      "rank": 61,
+      "out_of": 147
+    },
+    {
+      "country": "KAZ",
+      "year": 2025,
+      "rank": 33,
+      "out_of": 147
+    },
+    {
+      "country": "KEN",
+      "year": 2025,
+      "rank": 110,
+      "out_of": 147
+    },
+    {
+      "country": "KHM",
+      "year": 2025,
+      "rank": 121,
+      "out_of": 147
+    },
+    {
+      "country": "KWT",
+      "year": 2025,
+      "rank": 40,
+      "out_of": 147
+    },
+    {
+      "country": "LAO",
+      "year": 2025,
+      "rank": 92,
+      "out_of": 147
+    },
+    {
+      "country": "LBN",
+      "year": 2025,
+      "rank": 141,
+      "out_of": 147
+    },
+    {
+      "country": "LBR",
+      "year": 2025,
+      "rank": 130,
+      "out_of": 147
+    },
+    {
+      "country": "LBY",
+      "year": 2025,
+      "rank": 81,
+      "out_of": 147
+    },
+    {
+      "country": "LKA",
+      "year": 2025,
+      "rank": 134,
+      "out_of": 147
+    },
+    {
+      "country": "LSO",
+      "year": 2025,
+      "rank": 126,
+      "out_of": 147
+    },
+    {
+      "country": "LTU",
+      "year": 2025,
+      "rank": 28,
+      "out_of": 147
+    },
+    {
+      "country": "LUX",
+      "year": 2025,
+      "rank": 9,
+      "out_of": 147
+    },
+    {
+      "country": "LVA",
+      "year": 2025,
+      "rank": 48,
+      "out_of": 147
+    },
+    {
+      "country": "MAR",
+      "year": 2025,
+      "rank": 112,
+      "out_of": 147
+    },
+    {
+      "country": "MDG",
+      "year": 2025,
+      "rank": 132,
+      "out_of": 147
+    },
+    {
+      "country": "MEX",
+      "year": 2025,
+      "rank": 12,
+      "out_of": 147
+    },
+    {
+      "country": "MKD",
+      "year": 2025,
+      "rank": 82,
+      "out_of": 147
+    },
+    {
+      "country": "MLI",
+      "year": 2025,
+      "rank": 114,
+      "out_of": 147
+    },
+    {
+      "country": "MLT",
+      "year": 2025,
+      "rank": 43,
+      "out_of": 147
+    },
+    {
+      "country": "MMR",
+      "year": 2025,
+      "rank": 129,
+      "out_of": 147
+    },
+    {
+      "country": "MNE",
+      "year": 2025,
+      "rank": 60,
+      "out_of": 147
+    },
+    {
+      "country": "MNG",
+      "year": 2025,
+      "rank": 75,
+      "out_of": 147
+    },
+    {
+      "country": "MOZ",
+      "year": 2025,
+      "rank": 93,
+      "out_of": 147
+    },
+    {
+      "country": "MRT",
+      "year": 2025,
+      "rank": 120,
+      "out_of": 147
+    },
+    {
+      "country": "MUS",
+      "year": 2025,
+      "rank": 73,
+      "out_of": 147
+    },
+    {
+      "country": "MWI",
+      "year": 2025,
+      "rank": 145,
+      "out_of": 147
+    },
+    {
+      "country": "MYS",
+      "year": 2025,
+      "rank": 71,
+      "out_of": 147
+    },
+    {
+      "country": "NAM",
+      "year": 2025,
+      "rank": 108,
+      "out_of": 147
+    },
+    {
+      "country": "NER",
+      "year": 2025,
+      "rank": 103,
+      "out_of": 147
+    },
+    {
+      "country": "NGA",
+      "year": 2025,
+      "rank": 106,
+      "out_of": 147
+    },
+    {
+      "country": "NIC",
+      "year": 2025,
+      "rank": 51,
+      "out_of": 147
+    },
+    {
+      "country": "NLD",
+      "year": 2025,
+      "rank": 7,
+      "out_of": 147
+    },
+    {
+      "country": "NOR",
+      "year": 2025,
+      "rank": 6,
+      "out_of": 147
+    },
+    {
+      "country": "NPL",
+      "year": 2025,
+      "rank": 99,
+      "out_of": 147
+    },
+    {
+      "country": "NZL",
+      "year": 2025,
+      "rank": 11,
+      "out_of": 147
+    },
+    {
+      "country": "OMN",
+      "year": 2025,
+      "rank": 58,
+      "out_of": 147
+    },
+    {
+      "country": "PAK",
+      "year": 2025,
+      "rank": 104,
+      "out_of": 147
+    },
+    {
+      "country": "PAN",
+      "year": 2025,
+      "rank": 39,
+      "out_of": 147
+    },
+    {
+      "country": "PER",
+      "year": 2025,
+      "rank": 72,
+      "out_of": 147
+    },
+    {
+      "country": "PHL",
+      "year": 2025,
+      "rank": 56,
+      "out_of": 147
+    },
+    {
+      "country": "POL",
+      "year": 2025,
+      "rank": 24,
+      "out_of": 147
+    },
+    {
+      "country": "PRT",
+      "year": 2025,
+      "rank": 69,
+      "out_of": 147
+    },
+    {
+      "country": "PRY",
+      "year": 2025,
+      "rank": 57,
+      "out_of": 147
+    },
+    {
+      "country": "ROU",
+      "year": 2025,
+      "rank": 34,
+      "out_of": 147
+    },
+    {
+      "country": "RUS",
+      "year": 2025,
+      "rank": 79,
+      "out_of": 147
+    },
+    {
+      "country": "SAU",
+      "year": 2025,
+      "rank": 22,
+      "out_of": 147
+    },
+    {
+      "country": "SEN",
+      "year": 2025,
+      "rank": 107,
+      "out_of": 147
+    },
+    {
+      "country": "SGP",
+      "year": 2025,
+      "rank": 36,
+      "out_of": 147
+    },
+    {
+      "country": "SLE",
+      "year": 2025,
+      "rank": 146,
+      "out_of": 147
+    },
+    {
+      "country": "SLV",
+      "year": 2025,
+      "rank": 37,
+      "out_of": 147
+    },
+    {
+      "country": "SRB",
+      "year": 2025,
+      "rank": 30,
+      "out_of": 147
+    },
+    {
+      "country": "SVN",
+      "year": 2025,
+      "rank": 18,
+      "out_of": 147
+    },
+    {
+      "country": "SWE",
+      "year": 2025,
+      "rank": 5,
+      "out_of": 147
+    },
+    {
+      "country": "SWZ",
+      "year": 2025,
+      "rank": 137,
+      "out_of": 147
+    },
+    {
+      "country": "TCD",
+      "year": 2025,
+      "rank": 125,
+      "out_of": 147
+    },
+    {
+      "country": "TGO",
+      "year": 2025,
+      "rank": 131,
+      "out_of": 147
+    },
+    {
+      "country": "THA",
+      "year": 2025,
+      "rank": 52,
+      "out_of": 147
+    },
+    {
+      "country": "TJK",
+      "year": 2025,
+      "rank": 88,
+      "out_of": 147
+    },
+    {
+      "country": "TTO",
+      "year": 2025,
+      "rank": 76,
+      "out_of": 147
+    },
+    {
+      "country": "TUN",
+      "year": 2025,
+      "rank": 105,
+      "out_of": 147
+    },
+    {
+      "country": "TZA",
+      "year": 2025,
+      "rank": 138,
+      "out_of": 147
+    },
+    {
+      "country": "UGA",
+      "year": 2025,
+      "rank": 118,
+      "out_of": 147
+    },
+    {
+      "country": "UKR",
+      "year": 2025,
+      "rank": 111,
+      "out_of": 147
+    },
+    {
+      "country": "URY",
+      "year": 2025,
+      "rank": 31,
+      "out_of": 147
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "rank": 23,
+      "out_of": 147
+    },
+    {
+      "country": "UZB",
+      "year": 2025,
+      "rank": 53,
+      "out_of": 147
+    },
+    {
+      "country": "VNM",
+      "year": 2025,
+      "rank": 45,
+      "out_of": 147
+    },
+    {
+      "country": "XKX",
+      "year": 2025,
+      "rank": 16,
+      "out_of": 147
+    },
+    {
+      "country": "ZAF",
+      "year": 2025,
+      "rank": 101,
+      "out_of": 147
+    },
+    {
+      "country": "ZMB",
+      "year": 2025,
+      "rank": 133,
+      "out_of": 147
+    },
+    {
+      "country": "ZWE",
+      "year": 2025,
+      "rank": 144,
+      "out_of": 147
+    }
+  ]
+}

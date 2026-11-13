@@ -1,0 +1,1166 @@
+{
+  "url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+  "retrieved_at": "2026-11-13",
+  "sha256": "61ed82e5b66c88dfca8ff9fac775c63981ecab6a254862af97acacc41c143117",
+  "licence": "CC BY 3.0 IGO",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2023,
+      "rank": 181,
+      "out_of": 193
+    },
+    {
+      "country": "AGO",
+      "year": 2023,
+      "rank": 148,
+      "out_of": 193
+    },
+    {
+      "country": "ALB",
+      "year": 2023,
+      "rank": 71,
+      "out_of": 193
+    },
+    {
+      "country": "AND",
+      "year": 2023,
+      "rank": 32,
+      "out_of": 193
+    },
+    {
+      "country": "ARE",
+      "year": 2023,
+      "rank": 15,
+      "out_of": 193
+    },
+    {
+      "country": "ARG",
+      "year": 2023,
+      "rank": 47,
+      "out_of": 193
+    },
+    {
+      "country": "ARM",
+      "year": 2023,
+      "rank": 69,
+      "out_of": 193
+    },
+    {
+      "country": "ATG",
+      "year": 2023,
+      "rank": 53,
+      "out_of": 193
+    },
+    {
+      "country": "AUS",
+      "year": 2023,
+      "rank": 7,
+      "out_of": 193
+    },
+    {
+      "country": "AUT",
+      "year": 2023,
+      "rank": 22,
+      "out_of": 193
+    },
+    {
+      "country": "AZE",
+      "year": 2023,
+      "rank": 81,
+      "out_of": 193
+    },
+    {
+      "country": "BDI",
+      "year": 2023,
+      "rank": 187,
+      "out_of": 193
+    },
+    {
+      "country": "BEL",
+      "year": 2023,
+      "rank": 10,
+      "out_of": 193
+    },
+    {
+      "country": "BEN",
+      "year": 2023,
+      "rank": 173,
+      "out_of": 193
+    },
+    {
+      "country": "BFA",
+      "year": 2023,
+      "rank": 186,
+      "out_of": 193
+    },
+    {
+      "country": "BGD",
+      "year": 2023,
+      "rank": 130,
+      "out_of": 193
+    },
+    {
+      "country": "BGR",
+      "year": 2023,
+      "rank": 55,
+      "out_of": 193
+    },
+    {
+      "country": "BHR",
+      "year": 2023,
+      "rank": 38,
+      "out_of": 193
+    },
+    {
+      "country": "BHS",
+      "year": 2023,
+      "rank": 66,
+      "out_of": 193
+    },
+    {
+      "country": "BIH",
+      "year": 2023,
+      "rank": 74,
+      "out_of": 193
+    },
+    {
+      "country": "BLR",
+      "year": 2023,
+      "rank": 65,
+      "out_of": 193
+    },
+    {
+      "country": "BLZ",
+      "year": 2023,
+      "rank": 115,
+      "out_of": 193
+    },
+    {
+      "country": "BOL",
+      "year": 2023,
+      "rank": 108,
+      "out_of": 193
+    },
+    {
+      "country": "BRA",
+      "year": 2023,
+      "rank": 84,
+      "out_of": 193
+    },
+    {
+      "country": "BRB",
+      "year": 2023,
+      "rank": 69,
+      "out_of": 193
+    },
+    {
+      "country": "BRN",
+      "year": 2023,
+      "rank": 60,
+      "out_of": 193
+    },
+    {
+      "country": "BTN",
+      "year": 2023,
+      "rank": 125,
+      "out_of": 193
+    },
+    {
+      "country": "BWA",
+      "year": 2023,
+      "rank": 111,
+      "out_of": 193
+    },
+    {
+      "country": "CAF",
+      "year": 2023,
+      "rank": 191,
+      "out_of": 193
+    },
+    {
+      "country": "CAN",
+      "year": 2023,
+      "rank": 16,
+      "out_of": 193
+    },
+    {
+      "country": "CHE",
+      "year": 2023,
+      "rank": 2,
+      "out_of": 193
+    },
+    {
+      "country": "CHL",
+      "year": 2023,
+      "rank": 45,
+      "out_of": 193
+    },
+    {
+      "country": "CHN",
+      "year": 2023,
+      "rank": 78,
+      "out_of": 193
+    },
+    {
+      "country": "CIV",
+      "year": 2023,
+      "rank": 157,
+      "out_of": 193
+    },
+    {
+      "country": "CMR",
+      "year": 2023,
+      "rank": 155,
+      "out_of": 193
+    },
+    {
+      "country": "COD",
+      "year": 2023,
+      "rank": 171,
+      "out_of": 193
+    },
+    {
+      "country": "COG",
+      "year": 2023,
+      "rank": 138,
+      "out_of": 193
+    },
+    {
+      "country": "COL",
+      "year": 2023,
+      "rank": 83,
+      "out_of": 193
+    },
+    {
+      "country": "COM",
+      "year": 2023,
+      "rank": 152,
+      "out_of": 193
+    },
+    {
+      "country": "CPV",
+      "year": 2023,
+      "rank": 135,
+      "out_of": 193
+    },
+    {
+      "country": "CRI",
+      "year": 2023,
+      "rank": 62,
+      "out_of": 193
+    },
+    {
+      "country": "CUB",
+      "year": 2023,
+      "rank": 97,
+      "out_of": 193
+    },
+    {
+      "country": "CYP",
+      "year": 2023,
+      "rank": 32,
+      "out_of": 193
+    },
+    {
+      "country": "CZE",
+      "year": 2023,
+      "rank": 29,
+      "out_of": 193
+    },
+    {
+      "country": "DEU",
+      "year": 2023,
+      "rank": 5,
+      "out_of": 193
+    },
+    {
+      "country": "DJI",
+      "year": 2023,
+      "rank": 175,
+      "out_of": 193
+    },
+    {
+      "country": "DMA",
+      "year": 2023,
+      "rank": 98,
+      "out_of": 193
+    },
+    {
+      "country": "DNK",
+      "year": 2023,
+      "rank": 4,
+      "out_of": 193
+    },
+    {
+      "country": "DOM",
+      "year": 2023,
+      "rank": 89,
+      "out_of": 193
+    },
+    {
+      "country": "DZA",
+      "year": 2023,
+      "rank": 96,
+      "out_of": 193
+    },
+    {
+      "country": "ECU",
+      "year": 2023,
+      "rank": 88,
+      "out_of": 193
+    },
+    {
+      "country": "EGY",
+      "year": 2023,
+      "rank": 100,
+      "out_of": 193
+    },
+    {
+      "country": "ERI",
+      "year": 2023,
+      "rank": 178,
+      "out_of": 193
+    },
+    {
+      "country": "ESP",
+      "year": 2023,
+      "rank": 28,
+      "out_of": 193
+    },
+    {
+      "country": "EST",
+      "year": 2023,
+      "rank": 36,
+      "out_of": 193
+    },
+    {
+      "country": "ETH",
+      "year": 2023,
+      "rank": 180,
+      "out_of": 193
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "rank": 12,
+      "out_of": 193
+    },
+    {
+      "country": "FJI",
+      "year": 2023,
+      "rank": 111,
+      "out_of": 193
+    },
+    {
+      "country": "FRA",
+      "year": 2023,
+      "rank": 26,
+      "out_of": 193
+    },
+    {
+      "country": "FSM",
+      "year": 2023,
+      "rank": 149,
+      "out_of": 193
+    },
+    {
+      "country": "GAB",
+      "year": 2023,
+      "rank": 108,
+      "out_of": 193
+    },
+    {
+      "country": "GBR",
+      "year": 2023,
+      "rank": 13,
+      "out_of": 193
+    },
+    {
+      "country": "GEO",
+      "year": 2023,
+      "rank": 57,
+      "out_of": 193
+    },
+    {
+      "country": "GHA",
+      "year": 2023,
+      "rank": 143,
+      "out_of": 193
+    },
+    {
+      "country": "GIN",
+      "year": 2023,
+      "rank": 179,
+      "out_of": 193
+    },
+    {
+      "country": "GMB",
+      "year": 2023,
+      "rank": 170,
+      "out_of": 193
+    },
+    {
+      "country": "GNB",
+      "year": 2023,
+      "rank": 174,
+      "out_of": 193
+    },
+    {
+      "country": "GNQ",
+      "year": 2023,
+      "rank": 133,
+      "out_of": 193
+    },
+    {
+      "country": "GRC",
+      "year": 2023,
+      "rank": 34,
+      "out_of": 193
+    },
+    {
+      "country": "GRD",
+      "year": 2023,
+      "rank": 80,
+      "out_of": 193
+    },
+    {
+      "country": "GTM",
+      "year": 2023,
+      "rank": 137,
+      "out_of": 193
+    },
+    {
+      "country": "GUY",
+      "year": 2023,
+      "rank": 89,
+      "out_of": 193
+    },
+    {
+      "country": "HKG",
+      "year": 2023,
+      "rank": 8,
+      "out_of": 193
+    },
+    {
+      "country": "HND",
+      "year": 2023,
+      "rank": 139,
+      "out_of": 193
+    },
+    {
+      "country": "HRV",
+      "year": 2023,
+      "rank": 41,
+      "out_of": 193
+    },
+    {
+      "country": "HTI",
+      "year": 2023,
+      "rank": 166,
+      "out_of": 193
+    },
+    {
+      "country": "HUN",
+      "year": 2023,
+      "rank": 46,
+      "out_of": 193
+    },
+    {
+      "country": "IDN",
+      "year": 2023,
+      "rank": 113,
+      "out_of": 193
+    },
+    {
+      "country": "IND",
+      "year": 2023,
+      "rank": 130,
+      "out_of": 193
+    },
+    {
+      "country": "IRL",
+      "year": 2023,
+      "rank": 11,
+      "out_of": 193
+    },
+    {
+      "country": "IRN",
+      "year": 2023,
+      "rank": 75,
+      "out_of": 193
+    },
+    {
+      "country": "IRQ",
+      "year": 2023,
+      "rank": 126,
+      "out_of": 193
+    },
+    {
+      "country": "ISL",
+      "year": 2023,
+      "rank": 1,
+      "out_of": 193
+    },
+    {
+      "country": "ISR",
+      "year": 2023,
+      "rank": 27,
+      "out_of": 193
+    },
+    {
+      "country": "ITA",
+      "year": 2023,
+      "rank": 29,
+      "out_of": 193
+    },
+    {
+      "country": "JAM",
+      "year": 2023,
+      "rank": 117,
+      "out_of": 193
+    },
+    {
+      "country": "JOR",
+      "year": 2023,
+      "rank": 100,
+      "out_of": 193
+    },
+    {
+      "country": "JPN",
+      "year": 2023,
+      "rank": 23,
+      "out_of": 193
+    },
+    {
+      "country": "KAZ",
+      "year": 2023,
+      "rank": 60,
+      "out_of": 193
+    },
+    {
+      "country": "KEN",
+      "year": 2023,
+      "rank": 143,
+      "out_of": 193
+    },
+    {
+      "country": "KGZ",
+      "year": 2023,
+      "rank": 117,
+      "out_of": 193
+    },
+    {
+      "country": "KHM",
+      "year": 2023,
+      "rank": 151,
+      "out_of": 193
+    },
+    {
+      "country": "KIR",
+      "year": 2023,
+      "rank": 140,
+      "out_of": 193
+    },
+    {
+      "country": "KNA",
+      "year": 2023,
+      "rank": 58,
+      "out_of": 193
+    },
+    {
+      "country": "KOR",
+      "year": 2023,
+      "rank": 20,
+      "out_of": 193
+    },
+    {
+      "country": "KWT",
+      "year": 2023,
+      "rank": 52,
+      "out_of": 193
+    },
+    {
+      "country": "LAO",
+      "year": 2023,
+      "rank": 147,
+      "out_of": 193
+    },
+    {
+      "country": "LBN",
+      "year": 2023,
+      "rank": 102,
+      "out_of": 193
+    },
+    {
+      "country": "LBR",
+      "year": 2023,
+      "rank": 177,
+      "out_of": 193
+    },
+    {
+      "country": "LBY",
+      "year": 2023,
+      "rank": 115,
+      "out_of": 193
+    },
+    {
+      "country": "LCA",
+      "year": 2023,
+      "rank": 103,
+      "out_of": 193
+    },
+    {
+      "country": "LIE",
+      "year": 2023,
+      "rank": 17,
+      "out_of": 193
+    },
+    {
+      "country": "LKA",
+      "year": 2023,
+      "rank": 89,
+      "out_of": 193
+    },
+    {
+      "country": "LSO",
+      "year": 2023,
+      "rank": 167,
+      "out_of": 193
+    },
+    {
+      "country": "LTU",
+      "year": 2023,
+      "rank": 39,
+      "out_of": 193
+    },
+    {
+      "country": "LUX",
+      "year": 2023,
+      "rank": 25,
+      "out_of": 193
+    },
+    {
+      "country": "LVA",
+      "year": 2023,
+      "rank": 41,
+      "out_of": 193
+    },
+    {
+      "country": "MAR",
+      "year": 2023,
+      "rank": 120,
+      "out_of": 193
+    },
+    {
+      "country": "MDA",
+      "year": 2023,
+      "rank": 86,
+      "out_of": 193
+    },
+    {
+      "country": "MDG",
+      "year": 2023,
+      "rank": 183,
+      "out_of": 193
+    },
+    {
+      "country": "MDV",
+      "year": 2023,
+      "rank": 93,
+      "out_of": 193
+    },
+    {
+      "country": "MEX",
+      "year": 2023,
+      "rank": 81,
+      "out_of": 193
+    },
+    {
+      "country": "MHL",
+      "year": 2023,
+      "rank": 108,
+      "out_of": 193
+    },
+    {
+      "country": "MKD",
+      "year": 2023,
+      "rank": 68,
+      "out_of": 193
+    },
+    {
+      "country": "MLI",
+      "year": 2023,
+      "rank": 188,
+      "out_of": 193
+    },
+    {
+      "country": "MLT",
+      "year": 2023,
+      "rank": 24,
+      "out_of": 193
+    },
+    {
+      "country": "MMR",
+      "year": 2023,
+      "rank": 150,
+      "out_of": 193
+    },
+    {
+      "country": "MNE",
+      "year": 2023,
+      "rank": 48,
+      "out_of": 193
+    },
+    {
+      "country": "MNG",
+      "year": 2023,
+      "rank": 104,
+      "out_of": 193
+    },
+    {
+      "country": "MOZ",
+      "year": 2023,
+      "rank": 182,
+      "out_of": 193
+    },
+    {
+      "country": "MRT",
+      "year": 2023,
+      "rank": 163,
+      "out_of": 193
+    },
+    {
+      "country": "MUS",
+      "year": 2023,
+      "rank": 73,
+      "out_of": 193
+    },
+    {
+      "country": "MWI",
+      "year": 2023,
+      "rank": 172,
+      "out_of": 193
+    },
+    {
+      "country": "MYS",
+      "year": 2023,
+      "rank": 67,
+      "out_of": 193
+    },
+    {
+      "country": "NAM",
+      "year": 2023,
+      "rank": 136,
+      "out_of": 193
+    },
+    {
+      "country": "NER",
+      "year": 2023,
+      "rank": 188,
+      "out_of": 193
+    },
+    {
+      "country": "NGA",
+      "year": 2023,
+      "rank": 164,
+      "out_of": 193
+    },
+    {
+      "country": "NIC",
+      "year": 2023,
+      "rank": 123,
+      "out_of": 193
+    },
+    {
+      "country": "NLD",
+      "year": 2023,
+      "rank": 8,
+      "out_of": 193
+    },
+    {
+      "country": "NOR",
+      "year": 2023,
+      "rank": 2,
+      "out_of": 193
+    },
+    {
+      "country": "NPL",
+      "year": 2023,
+      "rank": 145,
+      "out_of": 193
+    },
+    {
+      "country": "NRU",
+      "year": 2023,
+      "rank": 124,
+      "out_of": 193
+    },
+    {
+      "country": "NZL",
+      "year": 2023,
+      "rank": 17,
+      "out_of": 193
+    },
+    {
+      "country": "OMN",
+      "year": 2023,
+      "rank": 50,
+      "out_of": 193
+    },
+    {
+      "country": "PAK",
+      "year": 2023,
+      "rank": 168,
+      "out_of": 193
+    },
+    {
+      "country": "PAN",
+      "year": 2023,
+      "rank": 59,
+      "out_of": 193
+    },
+    {
+      "country": "PER",
+      "year": 2023,
+      "rank": 79,
+      "out_of": 193
+    },
+    {
+      "country": "PHL",
+      "year": 2023,
+      "rank": 117,
+      "out_of": 193
+    },
+    {
+      "country": "PLW",
+      "year": 2023,
+      "rank": 84,
+      "out_of": 193
+    },
+    {
+      "country": "PNG",
+      "year": 2023,
+      "rank": 160,
+      "out_of": 193
+    },
+    {
+      "country": "POL",
+      "year": 2023,
+      "rank": 35,
+      "out_of": 193
+    },
+    {
+      "country": "PRT",
+      "year": 2023,
+      "rank": 40,
+      "out_of": 193
+    },
+    {
+      "country": "PRY",
+      "year": 2023,
+      "rank": 99,
+      "out_of": 193
+    },
+    {
+      "country": "PSE",
+      "year": 2023,
+      "rank": 133,
+      "out_of": 193
+    },
+    {
+      "country": "QAT",
+      "year": 2023,
+      "rank": 43,
+      "out_of": 193
+    },
+    {
+      "country": "ROU",
+      "year": 2023,
+      "rank": 55,
+      "out_of": 193
+    },
+    {
+      "country": "RUS",
+      "year": 2023,
+      "rank": 64,
+      "out_of": 193
+    },
+    {
+      "country": "RWA",
+      "year": 2023,
+      "rank": 159,
+      "out_of": 193
+    },
+    {
+      "country": "SAU",
+      "year": 2023,
+      "rank": 37,
+      "out_of": 193
+    },
+    {
+      "country": "SDN",
+      "year": 2023,
+      "rank": 176,
+      "out_of": 193
+    },
+    {
+      "country": "SEN",
+      "year": 2023,
+      "rank": 169,
+      "out_of": 193
+    },
+    {
+      "country": "SGP",
+      "year": 2023,
+      "rank": 13,
+      "out_of": 193
+    },
+    {
+      "country": "SLB",
+      "year": 2023,
+      "rank": 156,
+      "out_of": 193
+    },
+    {
+      "country": "SLE",
+      "year": 2023,
+      "rank": 185,
+      "out_of": 193
+    },
+    {
+      "country": "SLV",
+      "year": 2023,
+      "rank": 132,
+      "out_of": 193
+    },
+    {
+      "country": "SMR",
+      "year": 2023,
+      "rank": 29,
+      "out_of": 193
+    },
+    {
+      "country": "SOM",
+      "year": 2023,
+      "rank": 192,
+      "out_of": 193
+    },
+    {
+      "country": "SRB",
+      "year": 2023,
+      "rank": 62,
+      "out_of": 193
+    },
+    {
+      "country": "SSD",
+      "year": 2023,
+      "rank": 193,
+      "out_of": 193
+    },
+    {
+      "country": "STP",
+      "year": 2023,
+      "rank": 141,
+      "out_of": 193
+    },
+    {
+      "country": "SUR",
+      "year": 2023,
+      "rank": 114,
+      "out_of": 193
+    },
+    {
+      "country": "SVK",
+      "year": 2023,
+      "rank": 44,
+      "out_of": 193
+    },
+    {
+      "country": "SVN",
+      "year": 2023,
+      "rank": 21,
+      "out_of": 193
+    },
+    {
+      "country": "SWE",
+      "year": 2023,
+      "rank": 5,
+      "out_of": 193
+    },
+    {
+      "country": "SWZ",
+      "year": 2023,
+      "rank": 126,
+      "out_of": 193
+    },
+    {
+      "country": "SYC",
+      "year": 2023,
+      "rank": 54,
+      "out_of": 193
+    },
+    {
+      "country": "SYR",
+      "year": 2023,
+      "rank": 162,
+      "out_of": 193
+    },
+    {
+      "country": "TCD",
+      "year": 2023,
+      "rank": 190,
+      "out_of": 193
+    },
+    {
+      "country": "TGO",
+      "year": 2023,
+      "rank": 161,
+      "out_of": 193
+    },
+    {
+      "country": "THA",
+      "year": 2023,
+      "rank": 76,
+      "out_of": 193
+    },
+    {
+      "country": "TJK",
+      "year": 2023,
+      "rank": 128,
+      "out_of": 193
+    },
+    {
+      "country": "TKM",
+      "year": 2023,
+      "rank": 95,
+      "out_of": 193
+    },
+    {
+      "country": "TLS",
+      "year": 2023,
+      "rank": 142,
+      "out_of": 193
+    },
+    {
+      "country": "TON",
+      "year": 2023,
+      "rank": 92,
+      "out_of": 193
+    },
+    {
+      "country": "TTO",
+      "year": 2023,
+      "rank": 72,
+      "out_of": 193
+    },
+    {
+      "country": "TUN",
+      "year": 2023,
+      "rank": 105,
+      "out_of": 193
+    },
+    {
+      "country": "TUR",
+      "year": 2023,
+      "rank": 51,
+      "out_of": 193
+    },
+    {
+      "country": "TUV",
+      "year": 2023,
+      "rank": 129,
+      "out_of": 193
+    },
+    {
+      "country": "TZA",
+      "year": 2023,
+      "rank": 165,
+      "out_of": 193
+    },
+    {
+      "country": "UGA",
+      "year": 2023,
+      "rank": 157,
+      "out_of": 193
+    },
+    {
+      "country": "UKR",
+      "year": 2023,
+      "rank": 87,
+      "out_of": 193
+    },
+    {
+      "country": "URY",
+      "year": 2023,
+      "rank": 48,
+      "out_of": 193
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "rank": 17,
+      "out_of": 193
+    },
+    {
+      "country": "UZB",
+      "year": 2023,
+      "rank": 107,
+      "out_of": 193
+    },
+    {
+      "country": "VCT",
+      "year": 2023,
+      "rank": 76,
+      "out_of": 193
+    },
+    {
+      "country": "VEN",
+      "year": 2023,
+      "rank": 121,
+      "out_of": 193
+    },
+    {
+      "country": "VNM",
+      "year": 2023,
+      "rank": 93,
+      "out_of": 193
+    },
+    {
+      "country": "VUT",
+      "year": 2023,
+      "rank": 146,
+      "out_of": 193
+    },
+    {
+      "country": "WSM",
+      "year": 2023,
+      "rank": 122,
+      "out_of": 193
+    },
+    {
+      "country": "YEM",
+      "year": 2023,
+      "rank": 184,
+      "out_of": 193
+    },
+    {
+      "country": "ZAF",
+      "year": 2023,
+      "rank": 106,
+      "out_of": 193
+    },
+    {
+      "country": "ZMB",
+      "year": 2023,
+      "rank": 154,
+      "out_of": 193
+    },
+    {
+      "country": "ZWE",
+      "year": 2023,
+      "rank": 153,
+      "out_of": 193
+    }
+  ]
+}

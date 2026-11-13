@@ -2,13 +2,15 @@
 // Run: npm run check:data
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import type { CountriesFile, DataMeta, DataRecord, IndicatorMeta, MedianRecord } from '../src/data/types.ts';
+import type { CountriesFile, DataMeta, DataRecord, IndicatorMeta, LatestFile, MedianRecord, RankDetail, Target } from '../src/data/types.ts';
 import { matchNote } from '../src/data/notes.ts';
 import { SOURCE_KEYS } from '../src/data/sources.ts';
 import { hasKey } from '../src/i18n/index.ts';
 import { COUNTRY, DEFAULT_PEERS, INDICATORS, MEDIAN_GROUP } from './indicators.ts';
-import { ROOT, countriesPath, indicatorsPath, medianPath, metaPath, processedPath, readJson } from './lib/files.ts';
-import { validateMedians, validateRecords } from './lib/validate.ts';
+import { EXTERNAL } from './lib/external.ts';
+import { ROOT, countriesPath, indicatorsPath, latestPath, medianPath, metaPath, processedPath, rankPath, readJson, targetsPath } from './lib/files.ts';
+import { rankHighestFirst, validateRank } from './lib/ranks.ts';
+import { validateMedians, validateRecords, validateTargets } from './lib/validate.ts';
 
 const problems: string[] = [];
 const countriesBn = JSON.parse(readFileSync(resolve(ROOT, 'src/i18n/countries.bn.json'), 'utf8')) as Record<string, string>;
@@ -57,6 +59,42 @@ for (const config of INDICATORS) {
   const explanation = config.explanationId ?? config.id;
   if (!hasKey(`explain.${explanation}`)) problems.push(`${config.id}: no explanation (explain.${explanation})`);
 }
+
+// Published ranks (UNDP, TI, WHR): Bangladesh and every peer, a valid rank out of a count.
+for (const src of EXTERNAL) {
+  const records = readJson<DataRecord[]>(processedPath(src.id));
+  if (!records) {
+    problems.push(`${src.id}: data/processed/${src.id}.json is missing`);
+    continue;
+  }
+  for (const id of [COUNTRY, ...DEFAULT_PEERS]) if (!records.some((r) => r.country === id)) problems.push(`${src.id}: no rank for ${id}`);
+  for (const r of records) {
+    if (r.unit !== 'rank' || !r.out_of || !Number.isInteger(r.value) || r.value < 1 || r.value > r.out_of) {
+      problems.push(`${src.id} ${r.country}: bad rank ${r.value} of ${r.out_of}`);
+    }
+    if (!r.source_url.startsWith('https://')) problems.push(`${src.id} ${r.country}: missing source_url`);
+    if (!(r.source_name in SOURCE_KEYS)) problems.push(`${src.id}: source "${r.source_name}" has no translated name in src/data/sources.ts`);
+  }
+  if (!hasKey(`indicator.${src.id}.name`)) problems.push(`${src.id}: no translated name`);
+  if (!hasKey(`explain.${src.id}`)) problems.push(`${src.id}: no explanation`);
+}
+
+// Calculated global ranks: recomputable from their own list.
+for (const config of INDICATORS.filter((c) => c.scope === 'compare')) {
+  const r = readJson<RankDetail>(rankPath(config.id));
+  if (!r) continue; // allowed: too few countries that year
+  problems.push(...validateRank(config, r));
+  const again = rankHighestFirst(r.values.map(({ country, value }) => ({ country, value })));
+  if (again.find((x) => x.country === COUNTRY)?.rank !== r.rank) problems.push(`${config.id} rank: does not match its own list`);
+}
+
+// Official goals and the homepage file.
+const targets = readJson<{ targets: Target[] }>(targetsPath())?.targets ?? [];
+problems.push(...validateTargets(targets, metas));
+for (const t of targets) if (!hasKey(t.label_key)) problems.push(`targets.json ${t.indicator_id}: no translation for ${t.label_key}`);
+const latest = readJson<LatestFile>(latestPath());
+if (!latest) problems.push('data/processed/latest.json is missing');
+else for (const m of metas) if (!latest.indicators[m.id]) problems.push(`latest.json: no entry for ${m.id}`);
 
 const meta = readJson<DataMeta>(metaPath());
 if (!meta) problems.push('data/processed/meta.json is missing');

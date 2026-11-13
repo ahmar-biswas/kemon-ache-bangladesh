@@ -2,7 +2,7 @@
 // Bangladesh is a filled green dot; peers are open grey dots (shape is a second cue, so colour
 // is never the only one). Each dot is a focusable button whose glass tooltip shows the
 // country, value and its own data year. A hidden list gives the same to screen readers.
-import type { CountriesFile, DataRecord, FavourableDirection, MedianRecord, Unit } from '../data/types.ts';
+import type { CountriesFile, DataRecord, FavourableDirection, MedianRecord, Target, Unit } from '../data/types.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { countryName } from '../lib/display.ts';
 import { formatNumber, formatYear } from '../lib/format.ts';
@@ -16,14 +16,21 @@ interface Props {
   missing: string[];
   since: number;
   median?: MedianRecord;
+  /** Official numeric goal (data/targets.json), drawn as a dashed "Goal" line. */
+  target?: Target;
   direction: FavourableDirection;
   countries: CountriesFile;
   size?: 'large' | 'small';
 }
 
-export function PeerStrip({ lang, bangladesh, peers, missing, since, median, direction, countries, size = 'small' }: Props) {
+export function PeerStrip({ lang, bangladesh, peers, missing, since, median, target, direction, countries, size = 'small' }: Props) {
   const name = (id: string) => countryName(id, lang, countries);
-  const values = [...peers.map((p) => p.value), ...(bangladesh ? [bangladesh.value] : []), ...(median ? [median.value] : [])];
+  const values = [
+    ...peers.map((p) => p.value),
+    ...(bangladesh ? [bangladesh.value] : []),
+    ...(median ? [median.value] : []),
+    ...(target ? [target.value] : []),
+  ];
 
   if (peers.length === 0) {
     return <p className="peer-strip__empty muted">{t(lang, 'peers.none')}</p>;
@@ -63,6 +70,11 @@ export function PeerStrip({ lang, bangladesh, peers, missing, since, median, dir
         )}
         <span className="peer-strip__axis" />
         {median && <span className="peer-strip__median" style={{ left: `${x(median.value)}%` }} />}
+        {target && (
+          <span className="mini__goal peer-strip__goal" style={{ left: `${x(target.value)}%` }}>
+            <span className="mini__goal-label">{t(lang, 'goal.label')}</span>
+          </span>
+        )}
         {dots.map((r) => (
           <button key={r.country} type="button" tabIndex={-1} className={`peer-strip__dot is-${align(x(r.value))}`} style={{ left: `${x(r.value)}%` }} aria-label={label(r)}>
             <span className="peer-strip__tip glass" role="tooltip">

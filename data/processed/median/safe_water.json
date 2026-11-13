@@ -1,0 +1,3490 @@
+[
+  {
+    "indicator_id": "safe_water",
+    "year": 2000,
+    "value": 27.4081573156191,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.2088560346699
+      },
+      {
+        "country": "BGD",
+        "value": 55.3086603889198
+      },
+      {
+        "country": "BTN",
+        "value": 28.4402757427527
+      },
+      {
+        "country": "CIV",
+        "value": 25.3536971285304
+      },
+      {
+        "country": "COG",
+        "value": 27.9019108842136
+      },
+      {
+        "country": "EGY",
+        "value": 65.303047720147
+      },
+      {
+        "country": "GHA",
+        "value": 14.3616135049129
+      },
+      {
+        "country": "HND",
+        "value": 41.7714222795011
+      },
+      {
+        "country": "IND",
+        "value": 37.6400057360068
+      },
+      {
+        "country": "KGZ",
+        "value": 46.4159917618227
+      },
+      {
+        "country": "KHM",
+        "value": 17.1455984990605
+      },
+      {
+        "country": "KIR",
+        "value": 9.50397935802011
+      },
+      {
+        "country": "LAO",
+        "value": 5.14267670778236
+      },
+      {
+        "country": "LBN",
+        "value": 43.4333632095238
+      },
+      {
+        "country": "LSO",
+        "value": 8.68782833878766
+      },
+      {
+        "country": "MAR",
+        "value": 40.6892711371886
+      },
+      {
+        "country": "MMR",
+        "value": 27.1340464363073
+      },
+      {
+        "country": "NGA",
+        "value": 12.6118684736768
+      },
+      {
+        "country": "NPL",
+        "value": 26.8055431360027
+      },
+      {
+        "country": "PAK",
+        "value": 42.5792292071787
+      },
+      {
+        "country": "PSE",
+        "value": 74.5546544605572
+      },
+      {
+        "country": "SEN",
+        "value": 20.0332395862887
+      },
+      {
+        "country": "STP",
+        "value": 25.9473001373219
+      },
+      {
+        "country": "SWZ",
+        "value": 27.4081573156191
+      },
+      {
+        "country": "TGO",
+        "value": 10.0262177498385
+      },
+      {
+        "country": "TJK",
+        "value": 35.5047970165117
+      },
+      {
+        "country": "TUN",
+        "value": 76.7637415102755
+      },
+      {
+        "country": "TZA",
+        "value": 1.28395845752752
+      },
+      {
+        "country": "UZB",
+        "value": 53.7674851686603
+      },
+      {
+        "country": "VUT",
+        "value": 17.3668036964981
+      },
+      {
+        "country": "ZWE",
+        "value": 29.3952599069304
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2001,
+    "value": 28.0573512239904,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.3127656218043
+      },
+      {
+        "country": "BGD",
+        "value": 55.3150210020989
+      },
+      {
+        "country": "BTN",
+        "value": 28.8491194019304
+      },
+      {
+        "country": "CIV",
+        "value": 25.8569468295015
+      },
+      {
+        "country": "COG",
+        "value": 28.0573512239904
+      },
+      {
+        "country": "EGY",
+        "value": 65.2670336052734
+      },
+      {
+        "country": "GHA",
+        "value": 14.6359468537329
+      },
+      {
+        "country": "HND",
+        "value": 42.0114567358156
+      },
+      {
+        "country": "IND",
+        "value": 39.1028624674025
+      },
+      {
+        "country": "KGZ",
+        "value": 46.4148846928915
+      },
+      {
+        "country": "KHM",
+        "value": 17.6114358269812
+      },
+      {
+        "country": "KIR",
+        "value": 9.71890132136835
+      },
+      {
+        "country": "LAO",
+        "value": 6.73269304057876
+      },
+      {
+        "country": "LBN",
+        "value": 43.669317863492
+      },
+      {
+        "country": "LSO",
+        "value": 9.5900570432782
+      },
+      {
+        "country": "MAR",
+        "value": 41.2670141731274
+      },
+      {
+        "country": "MMR",
+        "value": 28.6428319934382
+      },
+      {
+        "country": "NGA",
+        "value": 12.9765151866213
+      },
+      {
+        "country": "NPL",
+        "value": 27.0916505205811
+      },
+      {
+        "country": "PAK",
+        "value": 42.6930514293502
+      },
+      {
+        "country": "PSE",
+        "value": 74.9554725054692
+      },
+      {
+        "country": "SEN",
+        "value": 20.2634965726724
+      },
+      {
+        "country": "STP",
+        "value": 26.3820778514698
+      },
+      {
+        "country": "SWZ",
+        "value": 27.9009974215432
+      },
+      {
+        "country": "TGO",
+        "value": 10.4396182696056
+      },
+      {
+        "country": "TJK",
+        "value": 36.6188366714682
+      },
+      {
+        "country": "TUN",
+        "value": 77.0461830113393
+      },
+      {
+        "country": "TZA",
+        "value": 1.32075509800783
+      },
+      {
+        "country": "UZB",
+        "value": 55.1148671899941
+      },
+      {
+        "country": "VUT",
+        "value": 17.4386682354086
+      },
+      {
+        "country": "ZWE",
+        "value": 29.5458519745631
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2002,
+    "value": 28.3942596977699,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.4318837428151
+      },
+      {
+        "country": "BGD",
+        "value": 55.2936095914009
+      },
+      {
+        "country": "BTN",
+        "value": 29.2569458746036
+      },
+      {
+        "country": "CIV",
+        "value": 26.3585900409277
+      },
+      {
+        "country": "COG",
+        "value": 28.2507188436398
+      },
+      {
+        "country": "EGY",
+        "value": 65.8700676808092
+      },
+      {
+        "country": "GHA",
+        "value": 15.6665117240998
+      },
+      {
+        "country": "HND",
+        "value": 42.2596791456563
+      },
+      {
+        "country": "IND",
+        "value": 40.6085464510428
+      },
+      {
+        "country": "KGZ",
+        "value": 46.6904510374962
+      },
+      {
+        "country": "KHM",
+        "value": 18.0773670224761
+      },
+      {
+        "country": "KIR",
+        "value": 9.87749063258648
+      },
+      {
+        "country": "LAO",
+        "value": 7.96470469612063
+      },
+      {
+        "country": "LBN",
+        "value": 43.9052725174603
+      },
+      {
+        "country": "LSO",
+        "value": 10.5117632752945
+      },
+      {
+        "country": "MAR",
+        "value": 41.8420688296254
+      },
+      {
+        "country": "MMR",
+        "value": 30.1847103774528
+      },
+      {
+        "country": "NGA",
+        "value": 13.7885801493426
+      },
+      {
+        "country": "NPL",
+        "value": 27.3445996503812
+      },
+      {
+        "country": "PAK",
+        "value": 42.8064304736478
+      },
+      {
+        "country": "PSE",
+        "value": 75.3553561362814
+      },
+      {
+        "country": "SEN",
+        "value": 20.4929836631407
+      },
+      {
+        "country": "STP",
+        "value": 26.8517437840908
+      },
+      {
+        "country": "SWZ",
+        "value": 28.3942596977699
+      },
+      {
+        "country": "TGO",
+        "value": 10.8572104776075
+      },
+      {
+        "country": "TJK",
+        "value": 37.7621940155366
+      },
+      {
+        "country": "TUN",
+        "value": 77.3248829893026
+      },
+      {
+        "country": "TZA",
+        "value": 1.35835490465957
+      },
+      {
+        "country": "UZB",
+        "value": 56.4562515641154
+      },
+      {
+        "country": "VUT",
+        "value": 17.5110468161549
+      },
+      {
+        "country": "ZWE",
+        "value": 29.7606828415287
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2003,
+    "value": 28.8879348002561,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.5761634152359
+      },
+      {
+        "country": "BGD",
+        "value": 55.268682349761
+      },
+      {
+        "country": "BTN",
+        "value": 29.663531172319
+      },
+      {
+        "country": "CIV",
+        "value": 26.8582510447453
+      },
+      {
+        "country": "COG",
+        "value": 28.4439958785319
+      },
+      {
+        "country": "EGY",
+        "value": 66.472511590083
+      },
+      {
+        "country": "GHA",
+        "value": 16.7174967754033
+      },
+      {
+        "country": "HND",
+        "value": 43.6076213319213
+      },
+      {
+        "country": "IND",
+        "value": 42.1267048046039
+      },
+      {
+        "country": "KGZ",
+        "value": 46.9654668505036
+      },
+      {
+        "country": "KHM",
+        "value": 18.5433950113558
+      },
+      {
+        "country": "KIR",
+        "value": 10.0362409300742
+      },
+      {
+        "country": "LAO",
+        "value": 8.32978257884214
+      },
+      {
+        "country": "LBN",
+        "value": 44.1412271714285
+      },
+      {
+        "country": "LSO",
+        "value": 11.4527288852219
+      },
+      {
+        "country": "MAR",
+        "value": 42.4132470218147
+      },
+      {
+        "country": "MMR",
+        "value": 31.7599199058202
+      },
+      {
+        "country": "NGA",
+        "value": 14.6250844549253
+      },
+      {
+        "country": "NPL",
+        "value": 27.5969755663772
+      },
+      {
+        "country": "PAK",
+        "value": 42.9192965248607
+      },
+      {
+        "country": "PSE",
+        "value": 75.7541400989762
+      },
+      {
+        "country": "SEN",
+        "value": 20.7682382579974
+      },
+      {
+        "country": "STP",
+        "value": 27.3299243074245
+      },
+      {
+        "country": "SWZ",
+        "value": 28.8879348002561
+      },
+      {
+        "country": "TGO",
+        "value": 11.2788756529367
+      },
+      {
+        "country": "TJK",
+        "value": 38.9348654343543
+      },
+      {
+        "country": "TUN",
+        "value": 77.6001634201878
+      },
+      {
+        "country": "TZA",
+        "value": 1.40821939232488
+      },
+      {
+        "country": "UZB",
+        "value": 57.7908059787254
+      },
+      {
+        "country": "VUT",
+        "value": 17.5844520109831
+      },
+      {
+        "country": "ZWE",
+        "value": 29.8182778659182
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2004,
+    "value": 29.8470722762882,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.7209052718531
+      },
+      {
+        "country": "BGD",
+        "value": 55.2403777535328
+      },
+      {
+        "country": "BTN",
+        "value": 30.0688102159894
+      },
+      {
+        "country": "CIV",
+        "value": 27.3560820287857
+      },
+      {
+        "country": "COG",
+        "value": 29.9970926469849
+      },
+      {
+        "country": "EGY",
+        "value": 67.074361048792
+      },
+      {
+        "country": "GHA",
+        "value": 17.7891191031522
+      },
+      {
+        "country": "HND",
+        "value": 44.9872698483243
+      },
+      {
+        "country": "IND",
+        "value": 43.657414461879
+      },
+      {
+        "country": "KGZ",
+        "value": 47.2410383118075
+      },
+      {
+        "country": "KHM",
+        "value": 19.0098799731296
+      },
+      {
+        "country": "KIR",
+        "value": 10.1950380926799
+      },
+      {
+        "country": "LAO",
+        "value": 8.69779924866436
+      },
+      {
+        "country": "LBN",
+        "value": 44.3771818253968
+      },
+      {
+        "country": "LSO",
+        "value": 12.4141104682805
+      },
+      {
+        "country": "MAR",
+        "value": 42.9811521119137
+      },
+      {
+        "country": "MMR",
+        "value": 33.368359991086
+      },
+      {
+        "country": "NGA",
+        "value": 15.4862444164851
+      },
+      {
+        "country": "NPL",
+        "value": 27.8487470431828
+      },
+      {
+        "country": "PAK",
+        "value": 43.0316818761366
+      },
+      {
+        "country": "PSE",
+        "value": 76.1520017846445
+      },
+      {
+        "country": "SEN",
+        "value": 21.078928239311
+      },
+      {
+        "country": "STP",
+        "value": 27.8113580211176
+      },
+      {
+        "country": "SWZ",
+        "value": 29.3808719768786
+      },
+      {
+        "country": "TGO",
+        "value": 11.7046920626714
+      },
+      {
+        "country": "TJK",
+        "value": 40.1362930652154
+      },
+      {
+        "country": "TUN",
+        "value": 77.8671301158889
+      },
+      {
+        "country": "TZA",
+        "value": 2.14076377779176
+      },
+      {
+        "country": "UZB",
+        "value": 59.1177625556977
+      },
+      {
+        "country": "VUT",
+        "value": 17.6583703676468
+      },
+      {
+        "country": "ZWE",
+        "value": 29.8470722762882
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2005,
+    "value": 29.8747636188833,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 14.8656633388753
+      },
+      {
+        "country": "BGD",
+        "value": 55.2090208115445
+      },
+      {
+        "country": "BTN",
+        "value": 30.4651145866768
+      },
+      {
+        "country": "CIV",
+        "value": 27.851223744983
+      },
+      {
+        "country": "COG",
+        "value": 31.5719629952775
+      },
+      {
+        "country": "EGY",
+        "value": 67.675617946311
+      },
+      {
+        "country": "GHA",
+        "value": 18.8799071278454
+      },
+      {
+        "country": "HND",
+        "value": 46.3982725210716
+      },
+      {
+        "country": "IND",
+        "value": 45.1996271683436
+      },
+      {
+        "country": "KGZ",
+        "value": 49.0045330644723
+      },
+      {
+        "country": "KHM",
+        "value": 19.4768253834415
+      },
+      {
+        "country": "KIR",
+        "value": 10.3537627603094
+      },
+      {
+        "country": "LAO",
+        "value": 9.0438596547213
+      },
+      {
+        "country": "LBN",
+        "value": 44.6131364793651
+      },
+      {
+        "country": "LSO",
+        "value": 13.3942678155641
+      },
+      {
+        "country": "MAR",
+        "value": 43.663147929186
+      },
+      {
+        "country": "MMR",
+        "value": 35.0099417354844
+      },
+      {
+        "country": "NGA",
+        "value": 16.3721207168181
+      },
+      {
+        "country": "NPL",
+        "value": 28.0998872200253
+      },
+      {
+        "country": "PAK",
+        "value": 43.1435522186286
+      },
+      {
+        "country": "PSE",
+        "value": 76.548777893781
+      },
+      {
+        "country": "SEN",
+        "value": 21.3883259285147
+      },
+      {
+        "country": "STP",
+        "value": 28.2949235754665
+      },
+      {
+        "country": "SWZ",
+        "value": 29.8747636188833
+      },
+      {
+        "country": "TGO",
+        "value": 12.1345267940647
+      },
+      {
+        "country": "TJK",
+        "value": 41.3675997144111
+      },
+      {
+        "country": "TUN",
+        "value": 78.1089443615353
+      },
+      {
+        "country": "TZA",
+        "value": 2.925730250571
+      },
+      {
+        "country": "UZB",
+        "value": 60.436912850332
+      },
+      {
+        "country": "VUT",
+        "value": 17.7666909427897
+      },
+      {
+        "country": "ZWE",
+        "value": 29.627146794599
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2006,
+    "value": 30.3684561566544,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.0106596214669
+      },
+      {
+        "country": "BGD",
+        "value": 55.1740477761124
+      },
+      {
+        "country": "BTN",
+        "value": 30.7944529357188
+      },
+      {
+        "country": "CIV",
+        "value": 28.3440940576862
+      },
+      {
+        "country": "COG",
+        "value": 33.1683540847855
+      },
+      {
+        "country": "EGY",
+        "value": 68.2762855307669
+      },
+      {
+        "country": "GHA",
+        "value": 19.9907324615894
+      },
+      {
+        "country": "HND",
+        "value": 47.8412965841516
+      },
+      {
+        "country": "IND",
+        "value": 46.7534238129321
+      },
+      {
+        "country": "KGZ",
+        "value": 50.7982506303351
+      },
+      {
+        "country": "KHM",
+        "value": 19.9438667897233
+      },
+      {
+        "country": "KIR",
+        "value": 10.5680224637348
+      },
+      {
+        "country": "LAO",
+        "value": 9.34303376606844
+      },
+      {
+        "country": "LBN",
+        "value": 44.8490911333333
+      },
+      {
+        "country": "LSO",
+        "value": 14.3948239754967
+      },
+      {
+        "country": "MAR",
+        "value": 45.3949015609245
+      },
+      {
+        "country": "MMR",
+        "value": 36.6842261788056
+      },
+      {
+        "country": "NGA",
+        "value": 17.283138886882
+      },
+      {
+        "country": "NPL",
+        "value": 28.3503651944172
+      },
+      {
+        "country": "PAK",
+        "value": 43.2549343040113
+      },
+      {
+        "country": "PSE",
+        "value": 76.9445606914245
+      },
+      {
+        "country": "SEN",
+        "value": 21.6970512485611
+      },
+      {
+        "country": "STP",
+        "value": 28.7810552134665
+      },
+      {
+        "country": "SWZ",
+        "value": 30.3684561566544
+      },
+      {
+        "country": "TGO",
+        "value": 12.5686626712329
+      },
+      {
+        "country": "TJK",
+        "value": 42.6282160898357
+      },
+      {
+        "country": "TUN",
+        "value": 78.3484267992276
+      },
+      {
+        "country": "TZA",
+        "value": 4.03249460264019
+      },
+      {
+        "country": "UZB",
+        "value": 61.748505876187
+      },
+      {
+        "country": "VUT",
+        "value": 17.8758208033812
+      },
+      {
+        "country": "ZWE",
+        "value": 29.4030704517956
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2007,
+    "value": 30.8897596464317,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.1561130258688
+      },
+      {
+        "country": "BGD",
+        "value": 55.1355977938881
+      },
+      {
+        "country": "BTN",
+        "value": 31.1212972790998
+      },
+      {
+        "country": "CIV",
+        "value": 28.8345959025586
+      },
+      {
+        "country": "COG",
+        "value": 34.7863960123534
+      },
+      {
+        "country": "EGY",
+        "value": 68.8743951101888
+      },
+      {
+        "country": "GHA",
+        "value": 21.1211173511478
+      },
+      {
+        "country": "HND",
+        "value": 49.3162588904695
+      },
+      {
+        "country": "IND",
+        "value": 48.3188378954124
+      },
+      {
+        "country": "KGZ",
+        "value": 52.6211337182972
+      },
+      {
+        "country": "KHM",
+        "value": 20.4113689161421
+      },
+      {
+        "country": "KIR",
+        "value": 10.8268775434095
+      },
+      {
+        "country": "LAO",
+        "value": 9.64231219491391
+      },
+      {
+        "country": "LBN",
+        "value": 45.0850457873016
+      },
+      {
+        "country": "LSO",
+        "value": 15.3677814917045
+      },
+      {
+        "country": "MAR",
+        "value": 47.1688218439619
+      },
+      {
+        "country": "MMR",
+        "value": 38.3914580396534
+      },
+      {
+        "country": "NGA",
+        "value": 18.219607834318
+      },
+      {
+        "country": "NPL",
+        "value": 28.6002604379978
+      },
+      {
+        "country": "PAK",
+        "value": 43.3658253306534
+      },
+      {
+        "country": "PSE",
+        "value": 77.3394335357504
+      },
+      {
+        "country": "SEN",
+        "value": 22.0047848798914
+      },
+      {
+        "country": "STP",
+        "value": 29.2696161426433
+      },
+      {
+        "country": "SWZ",
+        "value": 30.8897596464317
+      },
+      {
+        "country": "TGO",
+        "value": 13.0071794285926
+      },
+      {
+        "country": "TJK",
+        "value": 43.9181404635367
+      },
+      {
+        "country": "TUN",
+        "value": 78.5850119966017
+      },
+      {
+        "country": "TZA",
+        "value": 5.61023492871879
+      },
+      {
+        "country": "UZB",
+        "value": 63.0518265073618
+      },
+      {
+        "country": "VUT",
+        "value": 17.9855062072109
+      },
+      {
+        "country": "ZWE",
+        "value": 29.1751934973846
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2008,
+    "value": 31.4455651682534,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.3018002385903
+      },
+      {
+        "country": "BGD",
+        "value": 55.093817397815
+      },
+      {
+        "country": "BTN",
+        "value": 31.4455651682534
+      },
+      {
+        "country": "CIV",
+        "value": 29.3226243319058
+      },
+      {
+        "country": "COG",
+        "value": 36.4266831885606
+      },
+      {
+        "country": "EGY",
+        "value": 69.4705501124875
+      },
+      {
+        "country": "GHA",
+        "value": 22.2709235576714
+      },
+      {
+        "country": "HND",
+        "value": 50.8235196106217
+      },
+      {
+        "country": "IND",
+        "value": 49.8955302994742
+      },
+      {
+        "country": "KGZ",
+        "value": 54.4737232203724
+      },
+      {
+        "country": "KHM",
+        "value": 20.8928104142313
+      },
+      {
+        "country": "KIR",
+        "value": 11.0881675995667
+      },
+      {
+        "country": "LAO",
+        "value": 9.9420426797011
+      },
+      {
+        "country": "LBN",
+        "value": 45.3210004412698
+      },
+      {
+        "country": "LSO",
+        "value": 16.3585686858876
+      },
+      {
+        "country": "MAR",
+        "value": 48.9826800241506
+      },
+      {
+        "country": "MMR",
+        "value": 40.131537454116
+      },
+      {
+        "country": "NGA",
+        "value": 19.1818410659703
+      },
+      {
+        "country": "NPL",
+        "value": 28.8494289134237
+      },
+      {
+        "country": "PAK",
+        "value": 43.4761956728434
+      },
+      {
+        "country": "PSE",
+        "value": 77.7332472337015
+      },
+      {
+        "country": "SEN",
+        "value": 22.3115222898236
+      },
+      {
+        "country": "STP",
+        "value": 29.7604671056333
+      },
+      {
+        "country": "SWZ",
+        "value": 31.5891788245693
+      },
+      {
+        "country": "TGO",
+        "value": 13.4503740884263
+      },
+      {
+        "country": "TJK",
+        "value": 45.2373691945965
+      },
+      {
+        "country": "TUN",
+        "value": 78.8190034710889
+      },
+      {
+        "country": "TZA",
+        "value": 7.29520223288577
+      },
+      {
+        "country": "UZB",
+        "value": 64.3466497035217
+      },
+      {
+        "country": "VUT",
+        "value": 18.096002505823
+      },
+      {
+        "country": "ZWE",
+        "value": 28.943126830006
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2009,
+    "value": 31.7667234800423,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.4472801845172
+      },
+      {
+        "country": "BGD",
+        "value": 55.048860676336
+      },
+      {
+        "country": "BTN",
+        "value": 31.7667234800423
+      },
+      {
+        "country": "CIV",
+        "value": 29.8076450619648
+      },
+      {
+        "country": "COG",
+        "value": 38.0890748195505
+      },
+      {
+        "country": "EGY",
+        "value": 70.0659698900796
+      },
+      {
+        "country": "GHA",
+        "value": 23.4389239746226
+      },
+      {
+        "country": "HND",
+        "value": 52.3626202265339
+      },
+      {
+        "country": "IND",
+        "value": 51.4825314020622
+      },
+      {
+        "country": "KGZ",
+        "value": 56.356495699389
+      },
+      {
+        "country": "KHM",
+        "value": 21.4476729237885
+      },
+      {
+        "country": "KIR",
+        "value": 11.3515336607381
+      },
+      {
+        "country": "LAO",
+        "value": 10.2417371173529
+      },
+      {
+        "country": "LBN",
+        "value": 45.5569550952381
+      },
+      {
+        "country": "LSO",
+        "value": 17.3658328653489
+      },
+      {
+        "country": "MAR",
+        "value": 50.8342738607937
+      },
+      {
+        "country": "MMR",
+        "value": 41.9040165084889
+      },
+      {
+        "country": "NGA",
+        "value": 20.1695068653396
+      },
+      {
+        "country": "NPL",
+        "value": 29.0978419019474
+      },
+      {
+        "country": "PAK",
+        "value": 43.5860467210907
+      },
+      {
+        "country": "PSE",
+        "value": 78.1265756684074
+      },
+      {
+        "country": "SEN",
+        "value": 22.6169579327567
+      },
+      {
+        "country": "STP",
+        "value": 30.2528686679183
+      },
+      {
+        "country": "SWZ",
+        "value": 32.228164048978
+      },
+      {
+        "country": "TGO",
+        "value": 13.8974477840125
+      },
+      {
+        "country": "TJK",
+        "value": 46.5858978425593
+      },
+      {
+        "country": "TUN",
+        "value": 79.0504165904685
+      },
+      {
+        "country": "TZA",
+        "value": 9.08698844105162
+      },
+      {
+        "country": "UZB",
+        "value": 65.6323531235185
+      },
+      {
+        "country": "VUT",
+        "value": 18.2073115909493
+      },
+      {
+        "country": "ZWE",
+        "value": 28.7072300022271
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2010,
+    "value": 32.0850118680958,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.5929929291529
+      },
+      {
+        "country": "BGD",
+        "value": 55.0003330600866
+      },
+      {
+        "country": "BTN",
+        "value": 32.0850118680958
+      },
+      {
+        "country": "CIV",
+        "value": 30.2900223956178
+      },
+      {
+        "country": "COG",
+        "value": 39.7738513632921
+      },
+      {
+        "country": "EGY",
+        "value": 70.6605497530504
+      },
+      {
+        "country": "GHA",
+        "value": 24.626404798353
+      },
+      {
+        "country": "HND",
+        "value": 53.9343232985216
+      },
+      {
+        "country": "IND",
+        "value": 53.0798644691443
+      },
+      {
+        "country": "KGZ",
+        "value": 58.2794802040483
+      },
+      {
+        "country": "KHM",
+        "value": 22.0046525227563
+      },
+      {
+        "country": "KIR",
+        "value": 11.6171050166479
+      },
+      {
+        "country": "LAO",
+        "value": 10.541621945848
+      },
+      {
+        "country": "LBN",
+        "value": 45.7929097492063
+      },
+      {
+        "country": "LSO",
+        "value": 18.391221753646
+      },
+      {
+        "country": "MAR",
+        "value": 52.7236461074909
+      },
+      {
+        "country": "MMR",
+        "value": 43.7094949448561
+      },
+      {
+        "country": "NGA",
+        "value": 21.1833429660027
+      },
+      {
+        "country": "NPL",
+        "value": 29.3454692018441
+      },
+      {
+        "country": "PAK",
+        "value": 43.695400684781
+      },
+      {
+        "country": "PSE",
+        "value": 78.5194462308053
+      },
+      {
+        "country": "SEN",
+        "value": 22.921692660595
+      },
+      {
+        "country": "STP",
+        "value": 30.7472505242538
+      },
+      {
+        "country": "SWZ",
+        "value": 32.7698414793853
+      },
+      {
+        "country": "TGO",
+        "value": 14.349356874294
+      },
+      {
+        "country": "TJK",
+        "value": 47.9637288148808
+      },
+      {
+        "country": "TUN",
+        "value": 79.2789942255773
+      },
+      {
+        "country": "TZA",
+        "value": 10.9866691783431
+      },
+      {
+        "country": "UZB",
+        "value": 66.9095666488988
+      },
+      {
+        "country": "VUT",
+        "value": 18.286526774602
+      },
+      {
+        "country": "ZWE",
+        "value": 28.4671048782824
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2011,
+    "value": 33.3122803531529,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.738938220873
+      },
+      {
+        "country": "BGD",
+        "value": 54.9485696855787
+      },
+      {
+        "country": "BTN",
+        "value": 34.8434070303716
+      },
+      {
+        "country": "CIV",
+        "value": 30.7696487964197
+      },
+      {
+        "country": "COG",
+        "value": 41.4800359417116
+      },
+      {
+        "country": "EGY",
+        "value": 71.2543983216064
+      },
+      {
+        "country": "GHA",
+        "value": 25.8321174475712
+      },
+      {
+        "country": "HND",
+        "value": 55.5380407948122
+      },
+      {
+        "country": "IND",
+        "value": 54.6875065992042
+      },
+      {
+        "country": "KGZ",
+        "value": 60.2419672955575
+      },
+      {
+        "country": "KHM",
+        "value": 22.5637573389684
+      },
+      {
+        "country": "KIR",
+        "value": 11.884888747058
+      },
+      {
+        "country": "LAO",
+        "value": 10.8416869442677
+      },
+      {
+        "country": "LBN",
+        "value": 46.0288644031746
+      },
+      {
+        "country": "LSO",
+        "value": 19.4343817707349
+      },
+      {
+        "country": "MAR",
+        "value": 54.6475131147437
+      },
+      {
+        "country": "MMR",
+        "value": 45.3476729820618
+      },
+      {
+        "country": "NGA",
+        "value": 22.2215349473265
+      },
+      {
+        "country": "NPL",
+        "value": 29.5923834904741
+      },
+      {
+        "country": "PAK",
+        "value": 43.8042521362019
+      },
+      {
+        "country": "PSE",
+        "value": 78.9117451361923
+      },
+      {
+        "country": "SEN",
+        "value": 23.2254177089302
+      },
+      {
+        "country": "STP",
+        "value": 31.2431560628081
+      },
+      {
+        "country": "SWZ",
+        "value": 33.3122803531529
+      },
+      {
+        "country": "TGO",
+        "value": 14.8107744821214
+      },
+      {
+        "country": "TJK",
+        "value": 49.3703711308922
+      },
+      {
+        "country": "TUN",
+        "value": 79.5052815552135
+      },
+      {
+        "country": "TZA",
+        "value": 12.9938971930298
+      },
+      {
+        "country": "UZB",
+        "value": 68.0666913492941
+      },
+      {
+        "country": "VUT",
+        "value": 18.3459667633623
+      },
+      {
+        "country": "ZWE",
+        "value": 28.2231227734127
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2012,
+    "value": 33.6921980759207,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 15.8851130365245
+      },
+      {
+        "country": "BGD",
+        "value": 55.2966533276478
+      },
+      {
+        "country": "BTN",
+        "value": 37.5892670074526
+      },
+      {
+        "country": "CIV",
+        "value": 31.899410503068
+      },
+      {
+        "country": "COG",
+        "value": 42.4718074743635
+      },
+      {
+        "country": "EGY",
+        "value": 71.8455158941173
+      },
+      {
+        "country": "GHA",
+        "value": 27.0555218868952
+      },
+      {
+        "country": "HND",
+        "value": 57.174671475674
+      },
+      {
+        "country": "IND",
+        "value": 56.3075690119533
+      },
+      {
+        "country": "KGZ",
+        "value": 62.2431193822583
+      },
+      {
+        "country": "KHM",
+        "value": 23.1249922249663
+      },
+      {
+        "country": "KIR",
+        "value": 12.1548918365676
+      },
+      {
+        "country": "LAO",
+        "value": 11.1420369613344
+      },
+      {
+        "country": "LBN",
+        "value": 46.2648190571428
+      },
+      {
+        "country": "LSO",
+        "value": 20.4290055242704
+      },
+      {
+        "country": "MAR",
+        "value": 56.6048221314557
+      },
+      {
+        "country": "MMR",
+        "value": 46.7963103868158
+      },
+      {
+        "country": "NGA",
+        "value": 23.1894232525249
+      },
+      {
+        "country": "NPL",
+        "value": 29.838949622684
+      },
+      {
+        "country": "PAK",
+        "value": 43.9125979462166
+      },
+      {
+        "country": "PSE",
+        "value": 79.3034392460179
+      },
+      {
+        "country": "SEN",
+        "value": 23.5278306759544
+      },
+      {
+        "country": "STP",
+        "value": 31.740715327225
+      },
+      {
+        "country": "SWZ",
+        "value": 33.6921980759207
+      },
+      {
+        "country": "TGO",
+        "value": 15.2799041486039
+      },
+      {
+        "country": "TJK",
+        "value": 50.8172219192873
+      },
+      {
+        "country": "TUN",
+        "value": 79.5019649942484
+      },
+      {
+        "country": "TZA",
+        "value": 15.1094149785771
+      },
+      {
+        "country": "UZB",
+        "value": 69.117262636418
+      },
+      {
+        "country": "VUT",
+        "value": 18.4056781374295
+      },
+      {
+        "country": "ZWE",
+        "value": 27.9748723703249
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2013,
+    "value": 34.0698474900492,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.0310769426454
+      },
+      {
+        "country": "BGD",
+        "value": 55.6606745928765
+      },
+      {
+        "country": "BTN",
+        "value": 40.3213572914567
+      },
+      {
+        "country": "CIV",
+        "value": 33.0374498665528
+      },
+      {
+        "country": "COG",
+        "value": 43.0059990785023
+      },
+      {
+        "country": "EGY",
+        "value": 72.435799507062
+      },
+      {
+        "country": "GHA",
+        "value": 28.2956613769924
+      },
+      {
+        "country": "HND",
+        "value": 58.8431825731568
+      },
+      {
+        "country": "IND",
+        "value": 57.9390790581161
+      },
+      {
+        "country": "KGZ",
+        "value": 64.2807542269669
+      },
+      {
+        "country": "KHM",
+        "value": 23.6879957096216
+      },
+      {
+        "country": "KIR",
+        "value": 12.4266053085506
+      },
+      {
+        "country": "LAO",
+        "value": 11.4421929569921
+      },
+      {
+        "country": "LBN",
+        "value": 46.5007737111111
+      },
+      {
+        "country": "LSO",
+        "value": 21.3453502832481
+      },
+      {
+        "country": "MAR",
+        "value": 58.5934607352905
+      },
+      {
+        "country": "MMR",
+        "value": 48.2659911329201
+      },
+      {
+        "country": "NGA",
+        "value": 23.7745364291365
+      },
+      {
+        "country": "NPL",
+        "value": 28.4066669049933
+      },
+      {
+        "country": "PAK",
+        "value": 44.0203991690231
+      },
+      {
+        "country": "PSE",
+        "value": 79.6944832492158
+      },
+      {
+        "country": "SEN",
+        "value": 23.8292288902426
+      },
+      {
+        "country": "STP",
+        "value": 32.2350294493077
+      },
+      {
+        "country": "SWZ",
+        "value": 34.0698474900492
+      },
+      {
+        "country": "TGO",
+        "value": 15.7536504094529
+      },
+      {
+        "country": "TJK",
+        "value": 52.3020237768025
+      },
+      {
+        "country": "TUN",
+        "value": 79.4963915596913
+      },
+      {
+        "country": "TZA",
+        "value": 17.3326681741849
+      },
+      {
+        "country": "UZB",
+        "value": 70.1788928674112
+      },
+      {
+        "country": "VUT",
+        "value": 18.4654024209726
+      },
+      {
+        "country": "ZWE",
+        "value": 27.722735063514
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2014,
+    "value": 34.4446049566522,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.1783692307569
+      },
+      {
+        "country": "BGD",
+        "value": 56.040232268799
+      },
+      {
+        "country": "BTN",
+        "value": 43.7053982606253
+      },
+      {
+        "country": "CIV",
+        "value": 34.1836861214288
+      },
+      {
+        "country": "COG",
+        "value": 43.5403232188879
+      },
+      {
+        "country": "EGY",
+        "value": 73.0251404028068
+      },
+      {
+        "country": "GHA",
+        "value": 29.5523279662211
+      },
+      {
+        "country": "HND",
+        "value": 60.5445335990096
+      },
+      {
+        "country": "IND",
+        "value": 59.5816046729688
+      },
+      {
+        "country": "KGZ",
+        "value": 66.3539256239209
+      },
+      {
+        "country": "KHM",
+        "value": 24.2535087884141
+      },
+      {
+        "country": "KIR",
+        "value": 12.7004135804741
+      },
+      {
+        "country": "LAO",
+        "value": 11.742497203708
+      },
+      {
+        "country": "LBN",
+        "value": 46.7367283650794
+      },
+      {
+        "country": "LSO",
+        "value": 22.2002990885685
+      },
+      {
+        "country": "MAR",
+        "value": 60.6123924939222
+      },
+      {
+        "country": "MMR",
+        "value": 49.7571140487274
+      },
+      {
+        "country": "NGA",
+        "value": 24.3574947102823
+      },
+      {
+        "country": "NPL",
+        "value": 26.9495541768107
+      },
+      {
+        "country": "PAK",
+        "value": 44.1276903720851
+      },
+      {
+        "country": "PSE",
+        "value": 80.0848507798057
+      },
+      {
+        "country": "SEN",
+        "value": 24.1296059215729
+      },
+      {
+        "country": "STP",
+        "value": 32.7267326295219
+      },
+      {
+        "country": "SWZ",
+        "value": 34.4446049566522
+      },
+      {
+        "country": "TGO",
+        "value": 16.2325567508779
+      },
+      {
+        "country": "TJK",
+        "value": 53.8248694633002
+      },
+      {
+        "country": "TUN",
+        "value": 78.4387815336686
+      },
+      {
+        "country": "TZA",
+        "value": 19.6031058852784
+      },
+      {
+        "country": "UZB",
+        "value": 71.2516260080062
+      },
+      {
+        "country": "VUT",
+        "value": 18.5251407994356
+      },
+      {
+        "country": "ZWE",
+        "value": 27.478417703354
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2015,
+    "value": 35.3400557938247,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.3265464367095
+      },
+      {
+        "country": "BGD",
+        "value": 56.4360346070219
+      },
+      {
+        "country": "BTN",
+        "value": 47.1015350934665
+      },
+      {
+        "country": "CIV",
+        "value": 35.3400557938247
+      },
+      {
+        "country": "COG",
+        "value": 44.0745229382792
+      },
+      {
+        "country": "EGY",
+        "value": 73.6135834054601
+      },
+      {
+        "country": "GHA",
+        "value": 30.8253097195667
+      },
+      {
+        "country": "HND",
+        "value": 61.9111432090562
+      },
+      {
+        "country": "IND",
+        "value": 61.2343987010564
+      },
+      {
+        "country": "KGZ",
+        "value": 68.4612016111649
+      },
+      {
+        "country": "KHM",
+        "value": 24.8211701889101
+      },
+      {
+        "country": "KIR",
+        "value": 12.9761873399856
+      },
+      {
+        "country": "LAO",
+        "value": 12.0428221416587
+      },
+      {
+        "country": "LBN",
+        "value": 46.9726830190476
+      },
+      {
+        "country": "LSO",
+        "value": 23.0645991689769
+      },
+      {
+        "country": "MAR",
+        "value": 62.6595549218595
+      },
+      {
+        "country": "MMR",
+        "value": 51.2731194542302
+      },
+      {
+        "country": "NGA",
+        "value": 24.9381317387031
+      },
+      {
+        "country": "NPL",
+        "value": 25.4676486548312
+      },
+      {
+        "country": "PAK",
+        "value": 44.2344738807301
+      },
+      {
+        "country": "PSE",
+        "value": 80.3581953913737
+      },
+      {
+        "country": "SEN",
+        "value": 24.4313032650877
+      },
+      {
+        "country": "STP",
+        "value": 33.2155492701388
+      },
+      {
+        "country": "SWZ",
+        "value": 34.8170255077812
+      },
+      {
+        "country": "TGO",
+        "value": 16.716712557756
+      },
+      {
+        "country": "TJK",
+        "value": 55.3843908442754
+      },
+      {
+        "country": "TUN",
+        "value": 77.1450199273485
+      },
+      {
+        "country": "TZA",
+        "value": 21.0391016808304
+      },
+      {
+        "country": "UZB",
+        "value": 72.3355124474969
+      },
+      {
+        "country": "VUT",
+        "value": 18.5848935323805
+      },
+      {
+        "country": "ZWE",
+        "value": 27.2426870223209
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2016,
+    "value": 36.5061772067666,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.4756055808428
+      },
+      {
+        "country": "BGD",
+        "value": 56.8478479103071
+      },
+      {
+        "country": "BTN",
+        "value": 50.5087051958646
+      },
+      {
+        "country": "CIV",
+        "value": 36.5061772067666
+      },
+      {
+        "country": "COG",
+        "value": 44.6083368930544
+      },
+      {
+        "country": "EGY",
+        "value": 74.2012015903636
+      },
+      {
+        "country": "GHA",
+        "value": 32.1143962958394
+      },
+      {
+        "country": "HND",
+        "value": 62.3414390743725
+      },
+      {
+        "country": "IND",
+        "value": 62.8967025513523
+      },
+      {
+        "country": "KGZ",
+        "value": 70.6014362386127
+      },
+      {
+        "country": "KHM",
+        "value": 25.3909863829454
+      },
+      {
+        "country": "KIR",
+        "value": 13.2519443485538
+      },
+      {
+        "country": "LAO",
+        "value": 14.2687875365303
+      },
+      {
+        "country": "LBN",
+        "value": 47.2086376730159
+      },
+      {
+        "country": "LSO",
+        "value": 23.9371411392711
+      },
+      {
+        "country": "MAR",
+        "value": 64.733918736942
+      },
+      {
+        "country": "MMR",
+        "value": 52.8134142480021
+      },
+      {
+        "country": "NGA",
+        "value": 25.5157846559378
+      },
+      {
+        "country": "NPL",
+        "value": 23.9613981639281
+      },
+      {
+        "country": "PAK",
+        "value": 44.3407371870023
+      },
+      {
+        "country": "PSE",
+        "value": 80.5186816228868
+      },
+      {
+        "country": "SEN",
+        "value": 24.7339881730079
+      },
+      {
+        "country": "STP",
+        "value": 33.7015106900951
+      },
+      {
+        "country": "SWZ",
+        "value": 35.191051527565
+      },
+      {
+        "country": "TGO",
+        "value": 17.2071914430537
+      },
+      {
+        "country": "TJK",
+        "value": 56.980067631769
+      },
+      {
+        "country": "TUN",
+        "value": 75.8401748537527
+      },
+      {
+        "country": "TZA",
+        "value": 22.514975929799
+      },
+      {
+        "country": "UZB",
+        "value": 73.4305957202854
+      },
+      {
+        "country": "VUT",
+        "value": 18.6449171562813
+      },
+      {
+        "country": "ZWE",
+        "value": 27.0155013731712
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2017,
+    "value": 37.6823190093324,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.6255422404154
+      },
+      {
+        "country": "BGD",
+        "value": 57.2759974542837
+      },
+      {
+        "country": "BTN",
+        "value": 53.9260036672079
+      },
+      {
+        "country": "CIV",
+        "value": 37.6823190093324
+      },
+      {
+        "country": "COG",
+        "value": 45.1415202823553
+      },
+      {
+        "country": "EGY",
+        "value": 74.7895697485773
+      },
+      {
+        "country": "GHA",
+        "value": 33.4189814822061
+      },
+      {
+        "country": "HND",
+        "value": 62.7680455735168
+      },
+      {
+        "country": "IND",
+        "value": 64.567945966321
+      },
+      {
+        "country": "KGZ",
+        "value": 72.3593185794231
+      },
+      {
+        "country": "KHM",
+        "value": 25.9625945869825
+      },
+      {
+        "country": "KIR",
+        "value": 13.5270977701122
+      },
+      {
+        "country": "LAO",
+        "value": 16.5880898211157
+      },
+      {
+        "country": "LBN",
+        "value": 47.4445923269841
+      },
+      {
+        "country": "LSO",
+        "value": 24.8184404763007
+      },
+      {
+        "country": "MAR",
+        "value": 66.8334675314175
+      },
+      {
+        "country": "MMR",
+        "value": 54.3770492542013
+      },
+      {
+        "country": "NGA",
+        "value": 26.0906521867092
+      },
+      {
+        "country": "NPL",
+        "value": 22.4309697051768
+      },
+      {
+        "country": "PAK",
+        "value": 44.4464700188833
+      },
+      {
+        "country": "PSE",
+        "value": 80.5332671663967
+      },
+      {
+        "country": "SEN",
+        "value": 25.0382030548445
+      },
+      {
+        "country": "STP",
+        "value": 34.1846545417893
+      },
+      {
+        "country": "SWZ",
+        "value": 35.5659445599292
+      },
+      {
+        "country": "TGO",
+        "value": 17.703874729563
+      },
+      {
+        "country": "TJK",
+        "value": 58.6108638282179
+      },
+      {
+        "country": "TUN",
+        "value": 74.5240374235795
+      },
+      {
+        "country": "TZA",
+        "value": 24.0291277346378
+      },
+      {
+        "country": "UZB",
+        "value": 74.5369165741151
+      },
+      {
+        "country": "VUT",
+        "value": 18.7049546859824
+      },
+      {
+        "country": "ZWE",
+        "value": 26.7972307877594
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2018,
+    "value": 38.2342546419239,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.7763550923899
+      },
+      {
+        "country": "BGD",
+        "value": 57.7206212770885
+      },
+      {
+        "country": "BTN",
+        "value": 57.2682978777114
+      },
+      {
+        "country": "CIV",
+        "value": 38.2342546419239
+      },
+      {
+        "country": "COG",
+        "value": 45.3252519683388
+      },
+      {
+        "country": "EGY",
+        "value": 75.3788082590497
+      },
+      {
+        "country": "GHA",
+        "value": 34.7388460301032
+      },
+      {
+        "country": "HND",
+        "value": 63.1906427532202
+      },
+      {
+        "country": "IND",
+        "value": 66.2471046550041
+      },
+      {
+        "country": "KGZ",
+        "value": 73.6628334876538
+      },
+      {
+        "country": "KHM",
+        "value": 26.538211463367
+      },
+      {
+        "country": "KIR",
+        "value": 13.8018497525444
+      },
+      {
+        "country": "LAO",
+        "value": 19.0005939716825
+      },
+      {
+        "country": "LBN",
+        "value": 47.6307071666277
+      },
+      {
+        "country": "LSO",
+        "value": 25.7117199663393
+      },
+      {
+        "country": "MAR",
+        "value": 68.9567317601261
+      },
+      {
+        "country": "MMR",
+        "value": 55.9632831646209
+      },
+      {
+        "country": "NGA",
+        "value": 26.6622783450024
+      },
+      {
+        "country": "NPL",
+        "value": 20.8767346480429
+      },
+      {
+        "country": "PAK",
+        "value": 44.5518700730857
+      },
+      {
+        "country": "PSE",
+        "value": 80.5480740966707
+      },
+      {
+        "country": "SEN",
+        "value": 25.3433216862511
+      },
+      {
+        "country": "STP",
+        "value": 34.6650082017517
+      },
+      {
+        "country": "SWZ",
+        "value": 35.9421056743199
+      },
+      {
+        "country": "TGO",
+        "value": 18.2068845501877
+      },
+      {
+        "country": "TJK",
+        "value": 60.2753034226593
+      },
+      {
+        "country": "TUN",
+        "value": 73.1965977847782
+      },
+      {
+        "country": "TZA",
+        "value": 25.5793671596834
+      },
+      {
+        "country": "UZB",
+        "value": 75.6617226221262
+      },
+      {
+        "country": "VUT",
+        "value": 18.7675820376693
+      },
+      {
+        "country": "ZWE",
+        "value": 26.5886782173324
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2019,
+    "value": 38.4404227871287,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 16.9280406391786
+      },
+      {
+        "country": "BGD",
+        "value": 58.1817087457811
+      },
+      {
+        "country": "BTN",
+        "value": 60.5922274979238
+      },
+      {
+        "country": "CIV",
+        "value": 38.4404227871287
+      },
+      {
+        "country": "COG",
+        "value": 45.5089850575925
+      },
+      {
+        "country": "EGY",
+        "value": 75.9690951899927
+      },
+      {
+        "country": "GHA",
+        "value": 36.0733638378729
+      },
+      {
+        "country": "HND",
+        "value": 63.6092641889516
+      },
+      {
+        "country": "IND",
+        "value": 67.9333667144175
+      },
+      {
+        "country": "KGZ",
+        "value": 74.977773076842
+      },
+      {
+        "country": "KHM",
+        "value": 27.1174788908032
+      },
+      {
+        "country": "KIR",
+        "value": 14.076142172488
+      },
+      {
+        "country": "LAO",
+        "value": 21.506343763718
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 26.6164292249631
+      },
+      {
+        "country": "MAR",
+        "value": 71.101809275817
+      },
+      {
+        "country": "MMR",
+        "value": 57.5708143268891
+      },
+      {
+        "country": "NGA",
+        "value": 27.2303909603019
+      },
+      {
+        "country": "NPL",
+        "value": 19.2988925002444
+      },
+      {
+        "country": "PAK",
+        "value": 44.6568907220033
+      },
+      {
+        "country": "PSE",
+        "value": 80.5632080716656
+      },
+      {
+        "country": "SEN",
+        "value": 25.6495937230682
+      },
+      {
+        "country": "STP",
+        "value": 35.1426134922668
+      },
+      {
+        "country": "SWZ",
+        "value": 36.3193523524376
+      },
+      {
+        "country": "TGO",
+        "value": 18.7163458427772
+      },
+      {
+        "country": "TJK",
+        "value": 61.9730477057775
+      },
+      {
+        "country": "TUN",
+        "value": 71.8574373168183
+      },
+      {
+        "country": "TZA",
+        "value": 27.1633008168901
+      },
+      {
+        "country": "UZB",
+        "value": 76.7745583450954
+      },
+      {
+        "country": "VUT",
+        "value": 18.8325439417482
+      },
+      {
+        "country": "ZWE",
+        "value": 26.3893863452165
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2020,
+    "value": 38.6664529242919,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.0805949788141
+      },
+      {
+        "country": "BGD",
+        "value": 58.6592547923406
+      },
+      {
+        "country": "BTN",
+        "value": 63.6189346951156
+      },
+      {
+        "country": "CIV",
+        "value": 38.6664529242919
+      },
+      {
+        "country": "COG",
+        "value": 45.6923155747464
+      },
+      {
+        "country": "EGY",
+        "value": 76.5605620176682
+      },
+      {
+        "country": "GHA",
+        "value": 37.4227223895072
+      },
+      {
+        "country": "HND",
+        "value": 64.0239281652442
+      },
+      {
+        "country": "IND",
+        "value": 69.6259050057647
+      },
+      {
+        "country": "KGZ",
+        "value": 76.2363666317899
+      },
+      {
+        "country": "KHM",
+        "value": 27.7007769523382
+      },
+      {
+        "country": "KIR",
+        "value": 14.3496418529981
+      },
+      {
+        "country": "LAO",
+        "value": 24.1050464561247
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 27.5336486195485
+      },
+      {
+        "country": "MAR",
+        "value": 73.2677313316826
+      },
+      {
+        "country": "MMR",
+        "value": 58.8155290564683
+      },
+      {
+        "country": "NGA",
+        "value": 27.7949019396912
+      },
+      {
+        "country": "NPL",
+        "value": 17.6978434094127
+      },
+      {
+        "country": "PAK",
+        "value": 44.7614606090532
+      },
+      {
+        "country": "PSE",
+        "value": 80.5785113470135
+      },
+      {
+        "country": "SEN",
+        "value": 25.9566923925669
+      },
+      {
+        "country": "STP",
+        "value": 35.6175054530046
+      },
+      {
+        "country": "SWZ",
+        "value": 36.6975059079153
+      },
+      {
+        "country": "TGO",
+        "value": 19.2323830359056
+      },
+      {
+        "country": "TJK",
+        "value": 62.9511394249524
+      },
+      {
+        "country": "TUN",
+        "value": 70.5061943427321
+      },
+      {
+        "country": "TZA",
+        "value": 28.5686607839818
+      },
+      {
+        "country": "UZB",
+        "value": 77.7884720003291
+      },
+      {
+        "country": "VUT",
+        "value": 18.9003588483709
+      },
+      {
+        "country": "ZWE",
+        "value": 26.2005958645243
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2021,
+    "value": 38.9130722009631,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.2335784921348
+      },
+      {
+        "country": "BGD",
+        "value": 59.1534191656121
+      },
+      {
+        "country": "BTN",
+        "value": 66.6162112124998
+      },
+      {
+        "country": "CIV",
+        "value": 38.9130722009631
+      },
+      {
+        "country": "COG",
+        "value": 45.8748419970802
+      },
+      {
+        "country": "EGY",
+        "value": 77.1532627055611
+      },
+      {
+        "country": "GHA",
+        "value": 38.786292222311
+      },
+      {
+        "country": "HND",
+        "value": 64.4343341684081
+      },
+      {
+        "country": "IND",
+        "value": 71.3240226487586
+      },
+      {
+        "country": "KGZ",
+        "value": 77.6071671226473
+      },
+      {
+        "country": "KHM",
+        "value": 28.2877495215251
+      },
+      {
+        "country": "KIR",
+        "value": 14.6224199168917
+      },
+      {
+        "country": "LAO",
+        "value": 26.7965570605935
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 28.4622726530802
+      },
+      {
+        "country": "MAR",
+        "value": 75.4522762478037
+      },
+      {
+        "country": "MMR",
+        "value": 59.5047510339159
+      },
+      {
+        "country": "NGA",
+        "value": 28.3555720870985
+      },
+      {
+        "country": "NPL",
+        "value": 16.0738129524168
+      },
+      {
+        "country": "PAK",
+        "value": 44.8655201766001
+      },
+      {
+        "country": "PSE",
+        "value": 80.5940848308212
+      },
+      {
+        "country": "SEN",
+        "value": 26.2648624944934
+      },
+      {
+        "country": "STP",
+        "value": 36.0898921217956
+      },
+      {
+        "country": "SWZ",
+        "value": 37.0763839524603
+      },
+      {
+        "country": "TGO",
+        "value": 19.5549350217433
+      },
+      {
+        "country": "TJK",
+        "value": 63.9329751524958
+      },
+      {
+        "country": "TUN",
+        "value": 69.1428674618065
+      },
+      {
+        "country": "TZA",
+        "value": 29.2612494140254
+      },
+      {
+        "country": "UZB",
+        "value": 78.8125991266417
+      },
+      {
+        "country": "VUT",
+        "value": 18.9705111237465
+      },
+      {
+        "country": "ZWE",
+        "value": 26.0218506326245
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-CG-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2022,
+    "value": 38.95245689862695,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.3874262062623
+      },
+      {
+        "country": "BGD",
+        "value": 59.1601050160444
+      },
+      {
+        "country": "BTN",
+        "value": 67.7829420513284
+      },
+      {
+        "country": "CIV",
+        "value": 37.7410681967297
+      },
+      {
+        "country": "EGY",
+        "value": 77.7473116263856
+      },
+      {
+        "country": "GHA",
+        "value": 40.1638456005242
+      },
+      {
+        "country": "HND",
+        "value": 64.8354617771336
+      },
+      {
+        "country": "IND",
+        "value": 73.0266809621397
+      },
+      {
+        "country": "KGZ",
+        "value": 76.8977856738224
+      },
+      {
+        "country": "KHM",
+        "value": 28.8787767026893
+      },
+      {
+        "country": "KIR",
+        "value": 14.8944146340462
+      },
+      {
+        "country": "LAO",
+        "value": 29.5807179816358
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 29.4033810742405
+      },
+      {
+        "country": "MAR",
+        "value": 77.6426450242694
+      },
+      {
+        "country": "MMR",
+        "value": 59.5740394038691
+      },
+      {
+        "country": "NGA",
+        "value": 28.9123382327651
+      },
+      {
+        "country": "NPL",
+        "value": 16.2113760069297
+      },
+      {
+        "country": "PAK",
+        "value": 44.9689962895511
+      },
+      {
+        "country": "PSE",
+        "value": 80.6098759007822
+      },
+      {
+        "country": "SEN",
+        "value": 26.5737764045533
+      },
+      {
+        "country": "STP",
+        "value": 36.3730925843469
+      },
+      {
+        "country": "SWZ",
+        "value": 37.4563305873184
+      },
+      {
+        "country": "TGO",
+        "value": 19.8775201063187
+      },
+      {
+        "country": "TJK",
+        "value": 64.9174409445842
+      },
+      {
+        "country": "TUN",
+        "value": 67.767269597131
+      },
+      {
+        "country": "TZA",
+        "value": 29.9517590546299
+      },
+      {
+        "country": "UZB",
+        "value": 79.8452973794026
+      },
+      {
+        "country": "VUT",
+        "value": 19.0435202990113
+      },
+      {
+        "country": "ZWE",
+        "value": 25.8234258283639
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2023,
+    "value": 39.688539218249,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.5419176478121
+      },
+      {
+        "country": "BGD",
+        "value": 59.1428021110632
+      },
+      {
+        "country": "BTN",
+        "value": 66.6540724749632
+      },
+      {
+        "country": "CIV",
+        "value": 36.2481307099891
+      },
+      {
+        "country": "EGY",
+        "value": 78.3429755014027
+      },
+      {
+        "country": "GHA",
+        "value": 41.5409857140439
+      },
+      {
+        "country": "HND",
+        "value": 65.1953154485534
+      },
+      {
+        "country": "IND",
+        "value": 74.7331217386926
+      },
+      {
+        "country": "KGZ",
+        "value": 75.4015646695999
+      },
+      {
+        "country": "KHM",
+        "value": 29.4450820333788
+      },
+      {
+        "country": "KIR",
+        "value": 14.9924313024639
+      },
+      {
+        "country": "LAO",
+        "value": 32.4030678726007
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 30.3558597564902
+      },
+      {
+        "country": "MAR",
+        "value": 79.1395765684932
+      },
+      {
+        "country": "MMR",
+        "value": 59.647182104066
+      },
+      {
+        "country": "NGA",
+        "value": 29.4651386798622
+      },
+      {
+        "country": "NPL",
+        "value": 16.3490141281988
+      },
+      {
+        "country": "PAK",
+        "value": 44.9713055615103
+      },
+      {
+        "country": "PSE",
+        "value": 80.6258382340961
+      },
+      {
+        "country": "SEN",
+        "value": 26.8831210795347
+      },
+      {
+        "country": "STP",
+        "value": 36.5306128413205
+      },
+      {
+        "country": "SWZ",
+        "value": 37.8360927224541
+      },
+      {
+        "country": "TGO",
+        "value": 20.2003795594142
+      },
+      {
+        "country": "TJK",
+        "value": 65.008806213197
+      },
+      {
+        "country": "TUN",
+        "value": 66.3789813342294
+      },
+      {
+        "country": "TZA",
+        "value": 30.6397315445459
+      },
+      {
+        "country": "UZB",
+        "value": 80.8847523367862
+      },
+      {
+        "country": "VUT",
+        "value": 19.1188718983649
+      },
+      {
+        "country": "ZWE",
+        "value": 25.6360698019271
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "safe_water",
+    "year": 2024,
+    "value": 40.5789624528048,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 17.6968322374867
+      },
+      {
+        "country": "BGD",
+        "value": 59.1254259857148
+      },
+      {
+        "country": "BTN",
+        "value": 65.5942159692749
+      },
+      {
+        "country": "CIV",
+        "value": 36.4489381559953
+      },
+      {
+        "country": "EGY",
+        "value": 78.9401588327765
+      },
+      {
+        "country": "GHA",
+        "value": 42.9413892027374
+      },
+      {
+        "country": "HND",
+        "value": 65.5162211788382
+      },
+      {
+        "country": "IND",
+        "value": 76.4421942140842
+      },
+      {
+        "country": "KGZ",
+        "value": 73.8812993002318
+      },
+      {
+        "country": "KHM",
+        "value": 29.9855761398875
+      },
+      {
+        "country": "KIR",
+        "value": 15.0879416013618
+      },
+      {
+        "country": "LAO",
+        "value": 35.1877230763634
+      },
+      {
+        "country": "LBN",
+        "value": 47.7
+      },
+      {
+        "country": "LSO",
+        "value": 31.320241708541
+      },
+      {
+        "country": "MAR",
+        "value": 79.9818072279602
+      },
+      {
+        "country": "MMR",
+        "value": 59.7239750772507
+      },
+      {
+        "country": "NGA",
+        "value": 29.904599188308
+      },
+      {
+        "country": "NPL",
+        "value": 16.4868856683866
+      },
+      {
+        "country": "PAK",
+        "value": 44.9737364064737
+      },
+      {
+        "country": "PSE",
+        "value": 80.6420172046077
+      },
+      {
+        "country": "SEN",
+        "value": 27.1931407050582
+      },
+      {
+        "country": "STP",
+        "value": 36.6800380926738
+      },
+      {
+        "country": "SWZ",
+        "value": 38.2165357028722
+      },
+      {
+        "country": "TGO",
+        "value": 20.5232352790187
+      },
+      {
+        "country": "TJK",
+        "value": 65.1080715172931
+      },
+      {
+        "country": "TUN",
+        "value": 64.9781072145301
+      },
+      {
+        "country": "TZA",
+        "value": 31.3253989476029
+      },
+      {
+        "country": "UZB",
+        "value": 81.9295048040968
+      },
+      {
+        "country": "VUT",
+        "value": 19.1970839884387
+      },
+      {
+        "country": "ZWE",
+        "value": 25.460563358156
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BJ-BD-BT-CI-EG-GH-HN-IN-KG-KH-KI-LA-LB-LS-MA-MM-NG-NP-PK-PS-SN-ST-SZ-TG-TJ-TN-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-13",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

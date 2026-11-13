@@ -40,6 +40,7 @@
     0 14px 32px -14px rgba(0, 106, 78, .24);
   --glass-blur: blur(16px) saturate(150%);
   --paper-shadow: 0 1px 2px rgba(22, 33, 28, .05), 0 6px 18px -12px rgba(0, 106, 78, .18);
+  --thumb-shadow: 0 1px 2px rgba(22, 33, 28, .08), 0 6px 16px -8px rgba(0, 106, 78, .35);
   --contour-stroke: rgba(0, 106, 78, .08);
   --weave-thread: rgba(22, 33, 28, .022);  /* muslin weave lines */
   --alpona-stroke: rgba(0, 106, 78, .13);  /* background alpona streaks */

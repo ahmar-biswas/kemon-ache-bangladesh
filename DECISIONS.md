@@ -124,3 +124,71 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
       - two faint jamdani lines across the page
 
       All of it is hidden for data savers, reduced data, forced colours and low-end phones.
+61. **Homepage redesign agreed with Ahmar (2026-11-13). It replaces the spec's homepage layout (8.8 hero and tile groups, and section 9).**
+    - **One screen, no scrolling, on a 1366 × 768 laptop.**
+    - **Four collapsible area tiles:** Economy, Equality (Poverty and inequality), Health, Education. Each tile has:
+      - its comparison strips (peers and goal lines)
+      - a status line
+      - a short subtitle naming the measures used
+      - a switch that opens the details
+    - **A side list of 10 well-being metrics,** each with a small comparison visual.
+    - **Source lines stay under every figure** (rule R1), in small text.
+62. **Status = facts plus a count, never a verdict.**
+    - Each metric shows the distance to its goal (e.g. "30.5 now; goal 25 by 2030") and the peer position badge.
+    - An area tile may show a plain count with its list, e.g. "Ahead of peers on 1 of 3 measures with an official goal".
+    - No colour meaning, no score, no "on track" (that would need a forecast, rule R3).
+63. **Published ranks are allowed in the side list** (Ahmar). Examples: World Happiness Report rank, Transparency International Corruption Perceptions Index rank, UNDP Human Development Index rank.
+    - They are shown exactly as the publisher gives them, with the source, the year and the number of countries ranked.
+    - This relaxes the no-index rule for indices that other organisations publish. The site still never computes a score of its own.
+    - Each source's licence and data file is checked before use. Any that fail go to DROPPED_INDICATORS.md.
+64. **Goal lines on bars may use targets from other official bodies** (WHO, World Bank), not only the UN SDG text. Each is labelled with its own source and checked first. No number is invented: a measure with no stated numeric target shows the direction arrow only.
+65. **The Social Progress Index is dropped** (2026-11-13): its data download is behind "Premium Access" on socialprogress.org, so it can't be refreshed automatically and reuse isn't clearly allowed. Ahmar chose **safe drinking water** (SH.H2O.SMDW.ZS, goal 100% from SDG 6.1) for the 10th side metric. Logged in DROPPED_INDICATORS.md.
+66. **The side-list sources checked so far (2026-11-13):**
+    - **UNDP HDI:** CSV file, licence CC BY 3.0 IGO; Bangladesh is ranked 130th (2023).
+    - **Transparency International CPI 2025:** xlsx file with ISO3 codes, licence CC BY-ND 4.0, so values are shown unchanged; Bangladesh scores 24 and ranks 150th of 182.
+    - **World Happiness Report 2026 (Figure 2.1 data):** a free xlsx file. No licence is stated, so it is shown with the report's suggested citation; this is flagged for Ahmar. Bangladesh ranks 127th (life evaluation 4.319, 2023–2025 average).
+
+    The xlsx files are read with `read-excel-file`, a build-time dev dependency only.
+67. **Global rank under every data point** (Ahmar, 2026-11-13):
+    - **Published indices (HDI, WHR, CPI):** the publisher's own rank and the number of countries ranked.
+    - **All other measures:** a rank "Calculated by this site". It counts only countries (not regional aggregates) that have a value for the same year, says which way it is ordered ("1 = highest value"), and keeps the full ranked list one click away. These ranks describe position, not well-being; there is no good/bad wording.
+    - **Data needed:** recent years for every country. These are fetched for the last 10 years only, to keep `data/raw` small.
+
+## Milestone 4 (2026-11-13)
+
+68. **"দাপ্তরিক" replaced by "অফিশিয়াল" everywhere** (Ahmar).
+69. **Goal lines that were checked and kept** (`data/targets.json`, validated in CI):
+    - under-5 deaths: 25 per 1,000 by 2030 (SDG 3.2)
+    - safe water: 100% by 2030 (SDG 6.1, "for all")
+    - electricity: 100% by 2030 (SDG 7.1, "universal access")
+    - PM2.5: 5 µg/m³ (WHO Air Quality Guidelines 2021, as quoted in WHO's 2022 release)
+
+    **Not used:** the World Bank's "3% extreme poverty by 2030" goal. It was set on the old $1.25 / $1.90 lines and for the whole world, so drawing it on the $3.00-line country chart would mislead. Stunting, literacy and the others have no stated number, so they keep the direction arrow only.
+70. **Five new World Bank series for the side list:**
+    - NY.GDP.MKTP.CN (GDP in taka, Bangladesh only)
+    - NY.GDP.MKTP.PP.CD (GDP, PPP; used for comparison)
+    - EG.ELC.ACCS.ZS (electricity access)
+    - SH.H2O.SMDW.ZS (safe water)
+    - EN.ATM.PM25.MC.M3 (PM2.5)
+
+    Each series name was checked against the live API on 2026-11-13.
+71. **Published ranks** (UNDP HDI, TI CPI, WHR) are read from the publishers' own files and kept in `data/raw/external/<id>.json`, which holds every country's rank, the file's SHA-256, the licence and the retrieval date. The number of countries ranked is the publisher's own count. The file addresses contain the edition year, so they must be updated when a new edition comes out (`scripts/lib/external.ts`).
+72. **Global ranks** use a compact copy of every country's World Bank values for the last 10 years (`data/raw/<CODE>.all.json`: request, date and every non-empty value). The full API answer for all countries would be very large. No rank is shown when fewer than 20 countries have a value for that year (`MIN_RANKED`).
+73. **The homepage loads only `data/processed/latest.json`:** newest values for Bangladesh and the peers, the median, the goal and the rank for every indicator, about 72 KB. Homepage JavaScript is 119.6 KB gzipped. The Details panel loads the full data only when opened (366 KB gzipped). Milestone 5 should split it per indicator.
+74. **One-screen layout, measured at 1366 × 657** (the inside of a browser on a 1366 × 768 laptop) in both languages:
+    - The country slicer moves into the header on wide screens.
+    - The area tiles are a 2 × 2 grid, each showing **2 headline measures**. The others are in Details; the status count and the subtitle cover all of them.
+    - The side list is one column of 10.
+    - Each data point is three columns: [name and value] [strip] [rank and position], with a compact one-line source underneath.
+    - Short names are used in rows; full names show on hover and in Details.
+    - Content ends at about 640 px in English and 629 px in Bangla, inside the 658 px window. The footer sits below the fold.
+75. **Compact source line:** "Source: World Bank (WDI), 2025 data, retrieved 13 Nov 2026". It has the same three parts as the full line (R1), with a short source name (full name on hover) and a short date. When a row shows two series from the same source, year and date (taka plus PPP), one line carries both links.
+76. **The status count** (area tile) counts measures with an official goal direction where Bangladesh is ahead of more peers than it is behind, out of all such measures in the area. Its formula is one click away. It is a count, not a score.
+77. **The country slicer:** a radio group with a glass thumb. You can click a chip, drag from the chosen chip (a 4 px threshold, so clicks stay clicks), or use the arrow keys and Home/End. The choice is stored in the address (`?vs=IND`), so it survives a language switch. The chosen country shows in chart series colour 2 (jute gold), named with its value, across every strip. Animations use a soft ease-out (420–520 ms) and switch off under reduced motion.
+78. **Contour draw-in** (8.11) happens once per browser on the first homepage visit. It is skipped for reduced motion, Save-Data and low-end phones.
+79. **Font and line-height exceptions on the dashboard** (Ahmar's one-screen request, against 8.3's minimums):
+    - row text is 10.5–13 px
+    - Bangla compact rows use line-height 1.2–1.35 on single-line labels only
+    - the PM2.5 unit is written "µg/m³" in Bangla too
+
+    Full-size text is used in Details and on every other page.

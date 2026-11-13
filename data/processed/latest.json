@@ -1,0 +1,2054 @@
+{
+  "last_checked": "2026-11-13",
+  "since": 2016,
+  "default_peers": [
+    "IND",
+    "PAK",
+    "LKA",
+    "NPL",
+    "VNM",
+    "PHL",
+    "KHM"
+  ],
+  "names": {
+    "BGD": "Bangladesh",
+    "IND": "India",
+    "PAK": "Pakistan",
+    "LKA": "Sri Lanka",
+    "NPL": "Nepal",
+    "VNM": "Viet Nam",
+    "PHL": "Philippines",
+    "KHM": "Cambodia"
+  },
+  "indicators": {
+    "gdp_total_taka": {
+      "id": "gdp_total_taka",
+      "unit": "taka_current",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_total_taka",
+        "country": "BGD",
+        "year": 2025,
+        "value": 55150262000000,
+        "unit": "taka_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CN?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.CN",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.MKTP.CN?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": "gdp_total_ppp",
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 1783873538488.96
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 17197369286822
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 1677664333899.13
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 371266789711.246
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 182896587086.718
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 1837764100907.65
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 1468828072888.91
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 152469894039.209
+        }
+      ],
+      "compare_bangladesh": {
+        "indicator_id": "gdp_total_ppp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 1783873538488.96,
+        "unit": "intl_dollar_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat, date accessed: Periodical update;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-https://data-explorer.oecd.org/, publisher: OECD, date accessed: Periodical update;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.PP.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.MKTP.PP.CD?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "median": {
+        "year": 2025,
+        "value": 81745829310.985,
+        "n": 45
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_total_ppp",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 25,
+        "out_of": 185,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP, PPP (current international $)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "gdp_total_ppp": {
+      "id": "gdp_total_ppp",
+      "unit": "intl_dollar_current",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_total_ppp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 1783873538488.96,
+        "unit": "intl_dollar_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat, date accessed: Periodical update;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-https://data-explorer.oecd.org/, publisher: OECD, date accessed: Periodical update;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.PP.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.MKTP.PP.CD?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 1783873538488.96
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 17197369286822
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 1677664333899.13
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 371266789711.246
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 182896587086.718
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 1837764100907.65
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 1468828072888.91
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 152469894039.209
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2025,
+        "value": 81745829310.985,
+        "n": 45
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_total_ppp",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 25,
+        "out_of": 185,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP, PPP (current international $)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "electricity": {
+      "id": "electricity",
+      "unit": "percent",
+      "favourable_direction": "higher",
+      "bangladesh": {
+        "indicator_id": "electricity",
+        "country": "BGD",
+        "year": 2024,
+        "value": 99.5,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: https://trackingsdg7.esmap.org/downloads, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date accessed: 2024-05-16, date published: 2023",
+        "source_url": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EG.ELC.ACCS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/EG.ELC.ACCS.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 99.5
+        },
+        {
+          "country": "IND",
+          "year": 2024,
+          "value": 99.9
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 95.7
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 100
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 97.9
+        },
+        {
+          "country": "VNM",
+          "year": 2024,
+          "value": 100
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 94.8
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 99.2
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 88.7,
+        "n": 47
+      },
+      "target": {
+        "indicator_id": "electricity",
+        "value": 100,
+        "unit": "percent",
+        "by_year": 2030,
+        "source_name": "UN Sustainable Development Goals, target 7.1",
+        "source_url": "https://sdgs.un.org/goals/goal7",
+        "source_text": "Target 7.1: By 2030, ensure universal access to affordable, reliable and modern energy services",
+        "label_key": "target.short.sdg_7_1"
+      },
+      "rank": {
+        "indicator_id": "electricity",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 131,
+        "out_of": 215,
+        "order": "highest_first",
+        "source_name": "World Bank, Access to electricity (% of population)",
+        "source_url": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "safe_water": {
+      "id": "safe_water",
+      "unit": "percent",
+      "favourable_direction": "higher",
+      "bangladesh": {
+        "indicator_id": "safe_water",
+        "country": "BGD",
+        "year": 2024,
+        "value": 59.1254259857148,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene, World Health Organization (WHO), uri: washdata.org, note: Aggregate data by groups are computed based on the groupings for the World Bank fiscal year in which the data was released by the WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene., publisher: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene (washdata.org), date accessed: 2025-09-30, date published: 2025-08-25;\nUN Children's Fund (UNICEF), uri: washdata.org, note: WHO/UNICEF Joint Monitoring Programme (JMP) for Water Supply, Sanitation and Hygiene",
+        "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.H2O.SMDW.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.H2O.SMDW.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 59.1254259857148
+        },
+        {
+          "country": "IND",
+          "year": 2024,
+          "value": 76.4421942140842
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 44.9737364064737
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 46.9329705143603
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 16.4868856683866
+        },
+        {
+          "country": "VNM",
+          "year": 2024,
+          "value": 58.5808391368178
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 48.4840577441825
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 29.9855761398875
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 40.5789624528048,
+        "n": 30
+      },
+      "target": {
+        "indicator_id": "safe_water",
+        "value": 100,
+        "unit": "percent",
+        "by_year": 2030,
+        "source_name": "UN Sustainable Development Goals, target 6.1",
+        "source_url": "https://sdgs.un.org/goals/goal6",
+        "source_text": "Target 6.1: By 2030, achieve universal and equitable access to safe and affordable drinking water for all",
+        "label_key": "target.short.sdg_6_1"
+      },
+      "rank": {
+        "indicator_id": "safe_water",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 102,
+        "out_of": 148,
+        "order": "highest_first",
+        "source_name": "World Bank, People using safely managed drinking water services (% of population)",
+        "source_url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "pm25": {
+      "id": "pm25",
+      "unit": "ug_m3",
+      "favourable_direction": "lower",
+      "bangladesh": {
+        "indicator_id": "pm25",
+        "country": "BGD",
+        "year": 2023,
+        "value": 69.2525518340174,
+        "unit": "ug_m3",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Burden of Disease Study 2023 (GBD 2023) Air Pollution Exposure Estimates and Risk Curves 1990-2023, GBD Collaborator Network, uri: https://ghdx.healthdata.org/record/ihme-data/gbd-2023-air-pollution-exposure-estimates-1990-2023, note: Need to create account to retrieve data., publisher: Institute for Health Metrics and Evaluation (IHME), date accessed: 2026-04-03, date published: 2026-01-23",
+        "source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/EN.ATM.PM25.MC.M3",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/EN.ATM.PM25.MC.M3?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2023,
+          "value": 69.2525518340174
+        },
+        {
+          "country": "IND",
+          "year": 2023,
+          "value": 54.0522242217331
+        },
+        {
+          "country": "PAK",
+          "year": 2023,
+          "value": 58.3745179541935
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 22.6820308390395
+        },
+        {
+          "country": "NPL",
+          "year": 2023,
+          "value": 53.2003436952498
+        },
+        {
+          "country": "VNM",
+          "year": 2023,
+          "value": 24.7845479100313
+        },
+        {
+          "country": "PHL",
+          "year": 2023,
+          "value": 22.2053003753671
+        },
+        {
+          "country": "KHM",
+          "year": 2023,
+          "value": 19.4262068786841
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2023,
+        "value": 25.9762899979383,
+        "n": 47
+      },
+      "target": {
+        "indicator_id": "pm25",
+        "value": 5,
+        "unit": "ug_m3",
+        "by_year": null,
+        "source_name": "World Health Organization, Air Quality Guidelines (2021)",
+        "source_url": "https://www.who.int/news/item/04-04-2022-billions-of-people-still-breathe-unhealthy-air-new-who-data",
+        "source_text": "For PM2.5: Annual average 5 µg/m3; 24-hour average 15 µg/m3",
+        "label_key": "target.short.who_pm25"
+      },
+      "rank": {
+        "indicator_id": "pm25",
+        "kind": "calculated",
+        "year": 2023,
+        "rank": 3,
+        "out_of": 200,
+        "order": "highest_first",
+        "source_name": "World Bank, PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",
+        "source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?year=2023",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "gdp_pc_taka": {
+      "id": "gdp_pc_taka",
+      "unit": "taka_current",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_pc_taka",
+        "country": "BGD",
+        "year": 2025,
+        "value": 313912.205827026,
+        "unit": "taka_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CN?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.CN",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CN?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": "gdp_pc_ppp",
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 10153.7083791829
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 11747.9160436011
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 6573.41613369925
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 17065.0298635432
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 6175.15897150244
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 18088.491587163
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 12576.9867435109
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 8542.6965378612
+        }
+      ],
+      "compare_bangladesh": {
+        "indicator_id": "gdp_pc_ppp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 10153.7083791829,
+        "unit": "intl_dollar_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "median": {
+        "year": 2025,
+        "value": 7015.93578839722,
+        "n": 45
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_pc_ppp",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 128,
+        "out_of": 185,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP per capita, PPP (current international $)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "gdp_pc_taka_constant": {
+      "id": "gdp_pc_taka_constant",
+      "unit": "taka_constant",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_pc_taka_constant",
+        "country": "BGD",
+        "year": 2025,
+        "value": 197100.109325739,
+        "unit": "taka_constant",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KN?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.KN",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.KN?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": "gdp_pc_ppp",
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 10153.7083791829
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 11747.9160436011
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 6573.41613369925
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 17065.0298635432
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 6175.15897150244
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 18088.491587163
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 12576.9867435109
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 8542.6965378612
+        }
+      ],
+      "compare_bangladesh": {
+        "indicator_id": "gdp_pc_ppp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 10153.7083791829,
+        "unit": "intl_dollar_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "median": {
+        "year": 2025,
+        "value": 7015.93578839722,
+        "n": 45
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_pc_ppp",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 128,
+        "out_of": 185,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP per capita, PPP (current international $)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "gdp_pc_ppp": {
+      "id": "gdp_pc_ppp",
+      "unit": "intl_dollar_current",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_pc_ppp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 10153.7083791829,
+        "unit": "intl_dollar_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;\nThe Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;\nThe OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;\nStaff estimates, World Bank (WB);\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nWorld Economic Outlook database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.PP.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 10153.7083791829
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 11747.9160436011
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 6573.41613369925
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 17065.0298635432
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 6175.15897150244
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 18088.491587163
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 12576.9867435109
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 8542.6965378612
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2025,
+        "value": 7015.93578839722,
+        "n": 45
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_pc_ppp",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 128,
+        "out_of": 185,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP per capita, PPP (current international $)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "gdp_pc_growth": {
+      "id": "gdp_pc_growth",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "gdp_pc_growth",
+        "country": "BGD",
+        "year": 2025,
+        "value": 2.23843076756387,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.PCAP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 2.23843076756387
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 6.6165688365585
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 2.09334109987897
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 5.72529222294247
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 4.54686122541752
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 7.36938819098758
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 3.55914007476458
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 4.11461115788671
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2025,
+        "value": 2.748702081334005,
+        "n": 46
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "gdp_pc_growth",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 100,
+        "out_of": 186,
+        "order": "highest_first",
+        "source_name": "World Bank, GDP per capita growth (annual %)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "inflation": {
+      "id": "inflation",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "inflation",
+        "country": "BGD",
+        "year": 2025,
+        "value": 8.7687628116114,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FP.CPI.TOTL.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/FP.CPI.TOTL.ZG?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 8.7687628116114
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 2.39884954182294
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 3.54555214890892
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": -4.76386036960982
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 2.65334269811436
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 3.30999314219739
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 1.6587364525509
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 2.35127105896507
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2025,
+        "value": 3.55513663074987,
+        "n": 43
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "inflation",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 20,
+        "out_of": 169,
+        "order": "highest_first",
+        "source_name": "World Bank, Inflation, consumer prices (annual %)",
+        "source_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "youth_unemployment": {
+      "id": "youth_unemployment",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "youth_unemployment",
+        "country": "BGD",
+        "year": 2025,
+        "value": 9.385,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.1524.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SL.UEM.1524.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 9.385
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 16.022
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 9.594
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 18.578
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 20.559
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 6.165
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 7.041
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 0.711
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2025,
+        "value": 9.7,
+        "n": 44
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "youth_unemployment",
+        "kind": "calculated",
+        "year": 2025,
+        "rank": 119,
+        "out_of": 182,
+        "order": "highest_first",
+        "source_name": "World Bank, Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS?year=2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "poverty_intl": {
+      "id": "poverty_intl",
+      "unit": "percent",
+      "favourable_direction": "lower",
+      "bangladesh": {
+        "indicator_id": "poverty_intl",
+        "country": "BGD",
+        "year": 2022,
+        "value": 5.9,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.DDAY",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.DDAY?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2022,
+          "value": 5.9
+        },
+        {
+          "country": "IND",
+          "year": 2023,
+          "value": 2.6
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 23
+        },
+        {
+          "country": "LKA",
+          "year": 2019,
+          "value": 2.7
+        },
+        {
+          "country": "NPL",
+          "year": 2022,
+          "value": 2.4
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 1.6
+        },
+        {
+          "country": "PHL",
+          "year": 2023,
+          "value": 5.3
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2022,
+        "value": 5.55,
+        "n": 12
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "poverty_intl",
+        "kind": "calculated",
+        "year": 2022,
+        "rank": 14,
+        "out_of": 73,
+        "order": "highest_first",
+        "source_name": "World Bank, Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.DDAY?year=2022",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "share_low20": {
+      "id": "share_low20",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "share_low20",
+        "country": "BGD",
+        "year": 2022,
+        "value": 8.8,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.FRST.20?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.FRST.20",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.DST.FRST.20?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2022,
+          "value": 8.8
+        },
+        {
+          "country": "IND",
+          "year": 2023,
+          "value": 11.1
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 8.2
+        },
+        {
+          "country": "LKA",
+          "year": 2019,
+          "value": 7.4
+        },
+        {
+          "country": "NPL",
+          "year": 2022,
+          "value": 8.7
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 6.8
+        },
+        {
+          "country": "PHL",
+          "year": 2023,
+          "value": 6.9
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2022,
+        "value": 7.35,
+        "n": 12
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "share_low20",
+        "kind": "calculated",
+        "year": 2022,
+        "rank": 13,
+        "out_of": 73,
+        "order": "highest_first",
+        "source_name": "World Bank, Income share held by lowest 20%",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.FRST.20?year=2022",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "literacy": {
+      "id": "literacy",
+      "unit": "percent",
+      "favourable_direction": "higher",
+      "bangladesh": {
+        "indicator_id": "literacy",
+        "country": "BGD",
+        "year": 2022,
+        "value": 79,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Excel (bulk file), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.ADT.LITR.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.ADT.LITR.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2022,
+          "value": 79
+        },
+        {
+          "country": "IND",
+          "year": 2024,
+          "value": 78.1625330351403
+        },
+        {
+          "country": "PAK",
+          "year": 2021,
+          "value": 58.8600006103516
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 92.7399978637695
+        },
+        {
+          "country": "NPL",
+          "year": 2019,
+          "value": 68.7099990844727
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 96.129997253418
+        },
+        {
+          "country": "PHL",
+          "year": 2020,
+          "value": 98.4700012207031
+        },
+        {
+          "country": "KHM",
+          "year": 2021,
+          "value": 71.9300003051758
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2022,
+        "value": 79.22658097493425,
+        "n": 14
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "literacy",
+        "kind": "calculated",
+        "year": 2022,
+        "rank": 32,
+        "out_of": 45,
+        "order": "highest_first",
+        "source_name": "World Bank, Literacy rate, adult total (% of people ages 15 and above)",
+        "source_url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?year=2022",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "secondary_enrol": {
+      "id": "secondary_enrol",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "secondary_enrol",
+        "country": "BGD",
+        "year": 2024,
+        "value": 64.2997191043961,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.SEC.ENRR",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.SEC.ENRR?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 64.2997191043961
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 79.594985086469
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 48.2805022055997
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 87.9534065332114
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 90.3878462155916
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 93.4123434096522
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 85.2945085684493
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 58.7893230437643
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 81.9566828199727,
+        "n": 21
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "secondary_enrol",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 95,
+        "out_of": 109,
+        "order": "highest_first",
+        "source_name": "World Bank, School enrollment, secondary (% gross)",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "secondary_enrol_female": {
+      "id": "secondary_enrol_female",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "secondary_enrol_female",
+        "country": "BGD",
+        "year": 2024,
+        "value": 70.4720309842244,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.SEC.ENRR.FE",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.SEC.ENRR.FE?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 70.4720309842244
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 81.0166742736519
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 46.4835415439493
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 90.4491165297148
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 90.8899312933145
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 90.5445572317873
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 86.1154588164975
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 63.098667348683
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 82.8936127916098,
+        "n": 21
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "secondary_enrol_female",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 94,
+        "out_of": 109,
+        "order": "highest_first",
+        "source_name": "World Bank, School enrollment, secondary, female (% gross)",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "secondary_enrol_male": {
+      "id": "secondary_enrol_male",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "secondary_enrol_male",
+        "country": "BGD",
+        "year": 2024,
+        "value": 58.5396702042002,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.MA?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.SEC.ENRR.MA",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.SEC.ENRR.MA?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 58.5396702042002
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 78.2940869632034
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 49.9927712129524
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 85.5200721664469
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 89.9105218740328
+        },
+        {
+          "country": "VNM",
+          "year": 2022,
+          "value": 96.2090753212709
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 84.4967272459257
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 54.6451764707084
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 77.5453575412386,
+        "n": 21
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "secondary_enrol_male",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 98,
+        "out_of": 109,
+        "order": "highest_first",
+        "source_name": "World Bank, School enrollment, secondary, male (% gross)",
+        "source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.MA?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "life_expectancy": {
+      "id": "life_expectancy",
+      "unit": "years",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "life_expectancy",
+        "country": "BGD",
+        "year": 2024,
+        "value": 74.93,
+        "unit": "years",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Population Prospects, United Nations (UN), uri: UN Population Division;\nStatistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publications from national statistical offices.;\nDemographic Statistics, Eurostat (ESTAT), note: Derived from male and female life expectancy at birth from sources such as Eurostat: Demographic Statistics.",
+        "source_url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SP.DYN.LE00.IN",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SP.DYN.LE00.IN?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 74.93
+        },
+        {
+          "country": "IND",
+          "year": 2024,
+          "value": 72.235
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 67.799
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 77.672
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 70.636
+        },
+        {
+          "country": "VNM",
+          "year": 2024,
+          "value": 74.736
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 69.946
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 70.817
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 67.904,
+        "n": 47
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "life_expectancy",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 107,
+        "out_of": 217,
+        "order": "highest_first",
+        "source_name": "World Bank, Life expectancy at birth, total (years)",
+        "source_url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "under5_mortality": {
+      "id": "under5_mortality",
+      "unit": "per_1000_live_births",
+      "favourable_direction": "lower",
+      "bangladesh": {
+        "indicator_id": "under5_mortality",
+        "country": "BGD",
+        "year": 2024,
+        "value": 30.5,
+        "unit": "per_1000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org, publisher: UNICEF, WHO, World Bank, United Nations Population Division;\nWorld Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nWorld Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;\nUnited Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division",
+        "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.DYN.MORT",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.DYN.MORT?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "Uncertainty bound is 28.6 - 33.1"
+        ],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2024,
+          "value": 30.5
+        },
+        {
+          "country": "IND",
+          "year": 2024,
+          "value": 26.6
+        },
+        {
+          "country": "PAK",
+          "year": 2024,
+          "value": 56
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 5.9
+        },
+        {
+          "country": "NPL",
+          "year": 2024,
+          "value": 25.1
+        },
+        {
+          "country": "VNM",
+          "year": 2024,
+          "value": 17.3
+        },
+        {
+          "country": "PHL",
+          "year": 2024,
+          "value": 26.5
+        },
+        {
+          "country": "KHM",
+          "year": 2024,
+          "value": 18.4
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2024,
+        "value": 36.9,
+        "n": 47
+      },
+      "target": {
+        "indicator_id": "under5_mortality",
+        "value": 25,
+        "unit": "per_1000_live_births",
+        "by_year": 2030,
+        "source_name": "UN Sustainable Development Goals, target 3.2",
+        "source_url": "https://sdgs.un.org/goals/goal3",
+        "source_text": "Target 3.2: By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births",
+        "label_key": "target.short.sdg_3_2"
+      },
+      "rank": {
+        "indicator_id": "under5_mortality",
+        "kind": "calculated",
+        "year": 2024,
+        "rank": 58,
+        "out_of": 196,
+        "order": "highest_first",
+        "source_name": "World Bank, Mortality rate, under-5 (per 1,000 live births)",
+        "source_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?year=2024",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "stunting": {
+      "id": "stunting",
+      "unit": "percent",
+      "favourable_direction": "lower",
+      "bangladesh": {
+        "indicator_id": "stunting",
+        "country": "BGD",
+        "year": 2022,
+        "value": 23.6,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "UNICEF, WHO, World Bank: Joint child Malnutrition Estimates (JME). Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology., UN Children's Fund (UNICEF), note: Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology;\nWorld Health Organization (WHO), note: Joint child Malnutrition Estimates (JME); Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology;\nWorld Bank (WB), note: Joint child Malnutrition Estimates (JME); Aggregation is based on UNICEF, WHO, and the World Bank harmonized dataset (adjusted, comparable data) and methodology",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.STNT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.STNT.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [
+          "Source: Bangladesh Demographic and  Health Survey 2022: Final Report. Dhaka, Bangladesh, and Rockville, Maryland, USA: NIPORT and ICF."
+        ],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2022,
+          "value": 23.6
+        },
+        {
+          "country": "IND",
+          "year": 2020,
+          "value": 35.5
+        },
+        {
+          "country": "PAK",
+          "year": 2018,
+          "value": 37.6
+        },
+        {
+          "country": "LKA",
+          "year": 2024,
+          "value": 10.5
+        },
+        {
+          "country": "NPL",
+          "year": 2022,
+          "value": 24.8
+        },
+        {
+          "country": "VNM",
+          "year": 2023,
+          "value": 18.2
+        },
+        {
+          "country": "PHL",
+          "year": 2021,
+          "value": 26.7
+        },
+        {
+          "country": "KHM",
+          "year": 2021,
+          "value": 21.9
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2021,
+        "value": 20,
+        "n": 11
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "stunting",
+        "kind": "calculated",
+        "year": 2022,
+        "rank": 13,
+        "out_of": 32,
+        "order": "highest_first",
+        "source_name": "World Bank, Prevalence of stunting, height for age (% of children under 5)",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.STNT.ZS?year=2022",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "oop": {
+      "id": "oop",
+      "unit": "percent",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "oop",
+        "country": "BGD",
+        "year": 2023,
+        "value": 79.30711365,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.OOPC.CH.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.XPD.OOPC.CH.ZS?format=json",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2023,
+          "value": 79.30711365
+        },
+        {
+          "country": "IND",
+          "year": 2023,
+          "value": 43.88510513
+        },
+        {
+          "country": "PAK",
+          "year": 2023,
+          "value": 52.93231964
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 54.81069946
+        },
+        {
+          "country": "NPL",
+          "year": 2023,
+          "value": 59.38827515
+        },
+        {
+          "country": "VNM",
+          "year": 2023,
+          "value": 39.20284653
+        },
+        {
+          "country": "PHL",
+          "year": 2023,
+          "value": 44.36006165
+        },
+        {
+          "country": "KHM",
+          "year": 2023,
+          "value": 60.60118866
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": {
+        "year": 2023,
+        "value": 37.6333313,
+        "n": 47
+      },
+      "target": null,
+      "rank": {
+        "indicator_id": "oop",
+        "kind": "calculated",
+        "year": 2023,
+        "rank": 2,
+        "out_of": 192,
+        "order": "highest_first",
+        "source_name": "World Bank, Out-of-pocket expenditure (% of current health expenditure)",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?year=2023",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "hdi_rank": {
+      "id": "hdi_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "hdi_rank",
+        "country": "BGD",
+        "year": 2023,
+        "value": 130,
+        "unit": "rank",
+        "source_name": "UNDP, Human Development Report 2025",
+        "original_source": "UNDP, Human Development Report 2025",
+        "source_url": "https://hdr.undp.org/data-center/specific-country-data#/countries/BGD",
+        "definition_url": "https://hdr.undp.org/data-center/human-development-index#/indicies/HDI",
+        "api_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 193
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2023,
+          "value": 130
+        },
+        {
+          "country": "IND",
+          "year": 2023,
+          "value": 130
+        },
+        {
+          "country": "PAK",
+          "year": 2023,
+          "value": 168
+        },
+        {
+          "country": "LKA",
+          "year": 2023,
+          "value": 89
+        },
+        {
+          "country": "NPL",
+          "year": 2023,
+          "value": 145
+        },
+        {
+          "country": "VNM",
+          "year": 2023,
+          "value": 93
+        },
+        {
+          "country": "PHL",
+          "year": 2023,
+          "value": 117
+        },
+        {
+          "country": "KHM",
+          "year": 2023,
+          "value": 151
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "hdi_rank",
+        "kind": "published",
+        "year": 2023,
+        "rank": 130,
+        "out_of": 193,
+        "order": null,
+        "source_name": "UNDP, Human Development Report 2025",
+        "source_url": "https://hdr.undp.org/data-center/specific-country-data#/countries/BGD",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "cpi_rank": {
+      "id": "cpi_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "cpi_rank",
+        "country": "BGD",
+        "year": 2025,
+        "value": 150,
+        "unit": "rank",
+        "source_name": "Transparency International, Corruption Perceptions Index 2025",
+        "original_source": "Transparency International, Corruption Perceptions Index 2025",
+        "source_url": "https://www.transparency.org/en/cpi/2025",
+        "definition_url": "https://www.transparency.org/en/news/how-cpi-scores-are-calculated",
+        "api_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 182
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 150
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 91
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 136
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 107
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 109
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 81
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 120
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 163
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "cpi_rank",
+        "kind": "published",
+        "year": 2025,
+        "rank": 150,
+        "out_of": 182,
+        "order": null,
+        "source_name": "Transparency International, Corruption Perceptions Index 2025",
+        "source_url": "https://www.transparency.org/en/cpi/2025",
+        "retrieved_at": "2026-11-13"
+      }
+    },
+    "whr_rank": {
+      "id": "whr_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "whr_rank",
+        "country": "BGD",
+        "year": 2025,
+        "value": 127,
+        "unit": "rank",
+        "source_name": "World Happiness Report 2026 (Wellbeing Research Centre, University of Oxford)",
+        "original_source": "World Happiness Report 2026 (Wellbeing Research Centre, University of Oxford)",
+        "source_url": "https://worldhappiness.report/ed/2026/",
+        "definition_url": "https://worldhappiness.report/faq/",
+        "api_url": "https://files.worldhappiness.report/WHR26_Data_Figure_2.1.xlsx",
+        "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 147
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2025,
+          "value": 127
+        },
+        {
+          "country": "IND",
+          "year": 2025,
+          "value": 116
+        },
+        {
+          "country": "PAK",
+          "year": 2025,
+          "value": 104
+        },
+        {
+          "country": "LKA",
+          "year": 2025,
+          "value": 134
+        },
+        {
+          "country": "NPL",
+          "year": 2025,
+          "value": 99
+        },
+        {
+          "country": "VNM",
+          "year": 2025,
+          "value": 45
+        },
+        {
+          "country": "PHL",
+          "year": 2025,
+          "value": 56
+        },
+        {
+          "country": "KHM",
+          "year": 2025,
+          "value": 121
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "whr_rank",
+        "kind": "published",
+        "year": 2025,
+        "rank": 127,
+        "out_of": 147,
+        "order": null,
+        "source_name": "World Happiness Report 2026 (Wellbeing Research Centre, University of Oxford)",
+        "source_url": "https://worldhappiness.report/ed/2026/",
+        "retrieved_at": "2026-11-13"
+      }
+    }
+  }
+}

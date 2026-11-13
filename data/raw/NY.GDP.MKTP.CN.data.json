@@ -1,0 +1,1140 @@
+{
+  "retrieved_at": "2026-11-13",
+  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.MKTP.CN?format=json&footnote=y",
+  "response": [
+    [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2025",
+          "value": 55150262000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2024",
+          "value": 50026537000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2023",
+          "value": 44908417000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2022",
+          "value": 39717164000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2021",
+          "value": 35301848000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2020",
+          "value": 31704694000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2019",
+          "value": 29514285000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2018",
+          "value": 26392481000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2017",
+          "value": 23243072000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2016",
+          "value": 20758211000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2015",
+          "value": 15158023000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2014",
+          "value": 13436744000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2013",
+          "value": 11989231719000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2012",
+          "value": 10552040389000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2011",
+          "value": 9158288000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2010",
+          "value": 7975387000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2009",
+          "value": 7050718000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2008",
+          "value": 6286822000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2007",
+          "value": 5497997000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2006",
+          "value": 4823369660200,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2005",
+          "value": 4270741000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2004",
+          "value": 3832940000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2003",
+          "value": 3483202000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2002",
+          "value": 3142804000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2001",
+          "value": 2913370000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2000",
+          "value": 2685034000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1999",
+          "value": 2465089000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1998",
+          "value": 2269299000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1997",
+          "value": 2060032000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1996",
+          "value": 1899334000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1995",
+          "value": 1525177900500,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1994",
+          "value": 1354123301400,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1993",
+          "value": 1253694434000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1992",
+          "value": 1195424572200,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1991",
+          "value": 1105182177000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1990",
+          "value": 1039585474800,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1989",
+          "value": 923893000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1988",
+          "value": 829265000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1987",
+          "value": 753239000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1986",
+          "value": 653221000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1985",
+          "value": 579239000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1984",
+          "value": 473021000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1983",
+          "value": 418391000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1982",
+          "value": 371249000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1981",
+          "value": 330880000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1980",
+          "value": 280777000000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1979",
+          "value": 236906610500,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1978",
+          "value": 200820319200,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1977",
+          "value": 149303279700,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1976",
+          "value": 150239133000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1975",
+          "value": 172623537500,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1974",
+          "value": 99674260500,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1973",
+          "value": 62922812900,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1972",
+          "value": 37729475200,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1971",
+          "value": 42008847300,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1970",
+          "value": 43165066400,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1969",
+          "value": 40660830900,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1968",
+          "value": 35921691700,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1967",
+          "value": 34817163300,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1966",
+          "value": 30910501700,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1965",
+          "value": 28351856600,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1964",
+          "value": 25853063200,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1963",
+          "value": 25533401100,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1962",
+          "value": 24390785000,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1961",
+          "value": 23124385800,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CN",
+            "value": "GDP (current LCU)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1960",
+          "value": 20519491600,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0,
+          "footnote": ""
+        }
+      ]
+    ]
+  ]
+}

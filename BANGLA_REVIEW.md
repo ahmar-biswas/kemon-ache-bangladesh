@@ -62,3 +62,24 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `nav.skip` | মূল লেখায় যান | OK for "Skip to content"? |
 | `notfound.*` | এই পাতাটি নেই … হোম পেজে যান | Natural? |
 | `money.intl` | ডলার (English: Dollars) | **Changed by Ahmar:** short label on the switch. |
+| `explain.official_definition`, `direction.target_label`, `badge.formula_*` | অফিশিয়াল সংজ্ঞা / অফিশিয়াল লক্ষ্য | **Changed by Ahmar:** "অফিশিয়াল" replaces "দাপ্তরিক" everywhere. |
+
+## Added in Milestone 4
+
+| Key / place | Draft | Question |
+|---|---|---|
+| `indicator.*.short` (24 short names) | e.g. মাথাপিছু জিডিপি, শিশুদের খাটো হওয়া, স্বাস্থ্যে নিজের পকেটের খরচ | Natural short labels? |
+| `indicator.{gdp_total_taka, electricity, safe_water, pm25, hdi_rank, cpi_rank, whr_rank}.name` | জিডিপি: গোটা অর্থনীতির আকার; বিদ্যুৎ সুবিধা; নিরাপদ খাবার পানি; বায়ুদূষণ (সূক্ষ্ম ধূলিকণা, PM২.৫); মানব উন্নয়ন সূচক, অবস্থান; দুর্নীতির ধারণা সূচক, অবস্থান; বিশ্ব সুখ প্রতিবেদন, অবস্থান | Usual names? |
+| `explain.{same seven}` | New definitions (not in section 11) | Clear and neutral? |
+| `direction.target.{electricity, safe_water, pm25}` | Translations of SDG 6.1, 7.1 and the WHO guideline | OK? |
+| `rank.short` / `rank.calculated` / `rank.formula` | বিশ্বে ১২৮/১৮৫ … (১ = সর্বোচ্চ মান) | Is "বিশ্বে {rank}/{n}" understood as a world rank? |
+| `unit.rank.number` / `unit.rank.of` | ১৩০তম (১৯৩টি দেশের মধ্যে) | OK? |
+| `status.count` / `status.none` / `status.formula` | অফিশিয়াল লক্ষ্যওয়ালা {m}টির {a}টিতে বেশিরভাগ দেশের চেয়ে এগিয়ে | Natural? ("লক্ষ্যওয়ালা" is informal; is that fine?) |
+| `area.equality` | সমতা | OK for the "Equality" tile? |
+| `slicer.*` | তুলনা করুন; সব দেশ; টেনে, ক্লিক করে বা তীরচিহ্ন বোতাম দিয়ে … | Natural? |
+| `view.summary` / `view.details` | সারসংক্ষেপ / বিস্তারিত | OK? |
+| `side.title` | এক নজরে বাংলাদেশ | OK? |
+| `goal.short` / `target.short.*` | লক্ষ্য ২৫; জাতিসংঘের ২০৩০ সালের লক্ষ্য …; বিশ্ব স্বাস্থ্য সংস্থার নির্দেশিকা … | OK? |
+| `source.short.*`, `source.compact_*`, `month.short.*` | বিশ্বব্যাংক (WDI); তথ্য ২০২৫; সংগ্রহ ১৩ নভে. ২০২৬; জানু., ফেব্রু., … | Are these month abbreviations standard? |
+| `number.lakh_crore`, `number.trillion` | লাখ কোটি; ট্রিলিয়ন | OK? |
+| `unit.ug_m3.*` | µg/m³ (symbol kept) and মাইক্রোগ্রাম/ঘনমিটার in full text | Keep the symbol in rows? |

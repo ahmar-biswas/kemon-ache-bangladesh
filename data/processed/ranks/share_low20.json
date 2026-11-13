@@ -1,0 +1,378 @@
+{
+  "indicator_id": "share_low20",
+  "kind": "calculated",
+  "year": 2022,
+  "rank": 13,
+  "out_of": 73,
+  "order": "highest_first",
+  "source_name": "World Bank, Income share held by lowest 20%",
+  "source_url": "https://data.worldbank.org/indicator/SI.DST.FRST.20?year=2022",
+  "retrieved_at": "2026-11-13",
+  "values": [
+    {
+      "country": "IND",
+      "value": 10.4,
+      "rank": 1
+    },
+    {
+      "country": "MDA",
+      "value": 10.2,
+      "rank": 2
+    },
+    {
+      "country": "SVN",
+      "value": 10.2,
+      "rank": 2
+    },
+    {
+      "country": "KGZ",
+      "value": 10,
+      "rank": 4
+    },
+    {
+      "country": "CZE",
+      "value": 9.8,
+      "rank": 5
+    },
+    {
+      "country": "BEL",
+      "value": 9.4,
+      "rank": 6
+    },
+    {
+      "country": "FIN",
+      "value": 9.3,
+      "rank": 7
+    },
+    {
+      "country": "SYR",
+      "value": 9.3,
+      "rank": 7
+    },
+    {
+      "country": "ARM",
+      "value": 9.2,
+      "rank": 9
+    },
+    {
+      "country": "NOR",
+      "value": 9.1,
+      "rank": 10
+    },
+    {
+      "country": "DNK",
+      "value": 9,
+      "rank": 11
+    },
+    {
+      "country": "IRL",
+      "value": 8.9,
+      "rank": 12
+    },
+    {
+      "country": "BGD",
+      "value": 8.8,
+      "rank": 13
+    },
+    {
+      "country": "BTN",
+      "value": 8.8,
+      "rank": 13
+    },
+    {
+      "country": "CYP",
+      "value": 8.7,
+      "rank": 15
+    },
+    {
+      "country": "NPL",
+      "value": 8.7,
+      "rank": 15
+    },
+    {
+      "country": "POL",
+      "value": 8.5,
+      "rank": 17
+    },
+    {
+      "country": "SVK",
+      "value": 8.4,
+      "rank": 18
+    },
+    {
+      "country": "MNG",
+      "value": 8.2,
+      "rank": 19
+    },
+    {
+      "country": "HRV",
+      "value": 7.9,
+      "rank": 20
+    },
+    {
+      "country": "AUT",
+      "value": 7.8,
+      "rank": 21
+    },
+    {
+      "country": "FRA",
+      "value": 7.8,
+      "rank": 21
+    },
+    {
+      "country": "IDN",
+      "value": 7.8,
+      "rank": 21
+    },
+    {
+      "country": "CAN",
+      "value": 7.7,
+      "rank": 24
+    },
+    {
+      "country": "EST",
+      "value": 7.7,
+      "rank": 24
+    },
+    {
+      "country": "THA",
+      "value": 7.7,
+      "rank": 24
+    },
+    {
+      "country": "NGA",
+      "value": 7.5,
+      "rank": 27
+    },
+    {
+      "country": "RUS",
+      "value": 7.5,
+      "rank": 27
+    },
+    {
+      "country": "CHE",
+      "value": 7.4,
+      "rank": 29
+    },
+    {
+      "country": "SWE",
+      "value": 7.4,
+      "rank": 29
+    },
+    {
+      "country": "CHN",
+      "value": 7.3,
+      "rank": 31
+    },
+    {
+      "country": "MLT",
+      "value": 7.3,
+      "rank": 31
+    },
+    {
+      "country": "GRC",
+      "value": 7.2,
+      "rank": 33
+    },
+    {
+      "country": "IRN",
+      "value": 7.2,
+      "rank": 33
+    },
+    {
+      "country": "UZB",
+      "value": 7.2,
+      "rank": 33
+    },
+    {
+      "country": "KEN",
+      "value": 7.1,
+      "rank": 36
+    },
+    {
+      "country": "LUX",
+      "value": 7.1,
+      "rank": 36
+    },
+    {
+      "country": "LVA",
+      "value": 7.1,
+      "rank": 36
+    },
+    {
+      "country": "GEO",
+      "value": 7,
+      "rank": 39
+    },
+    {
+      "country": "DEU",
+      "value": 6.9,
+      "rank": 40
+    },
+    {
+      "country": "PRT",
+      "value": 6.9,
+      "rank": 40
+    },
+    {
+      "country": "SRB",
+      "value": 6.9,
+      "rank": 40
+    },
+    {
+      "country": "TCD",
+      "value": 6.9,
+      "rank": 40
+    },
+    {
+      "country": "ITA",
+      "value": 6.8,
+      "rank": 44
+    },
+    {
+      "country": "LBN",
+      "value": 6.8,
+      "rank": 44
+    },
+    {
+      "country": "LTU",
+      "value": 6.8,
+      "rank": 44
+    },
+    {
+      "country": "VNM",
+      "value": 6.8,
+      "rank": 44
+    },
+    {
+      "country": "DOM",
+      "value": 6.6,
+      "rank": 48
+    },
+    {
+      "country": "ESP",
+      "value": 6.6,
+      "rank": 48
+    },
+    {
+      "country": "GNQ",
+      "value": 6.4,
+      "rank": 50
+    },
+    {
+      "country": "TJK",
+      "value": 6.4,
+      "rank": 50
+    },
+    {
+      "country": "BGR",
+      "value": 6.2,
+      "rank": 52
+    },
+    {
+      "country": "ROU",
+      "value": 5.9,
+      "rank": 53
+    },
+    {
+      "country": "SUR",
+      "value": 5.9,
+      "rank": 53
+    },
+    {
+      "country": "CHL",
+      "value": 5.8,
+      "rank": 55
+    },
+    {
+      "country": "PER",
+      "value": 5.7,
+      "rank": 56
+    },
+    {
+      "country": "MEX",
+      "value": 5.6,
+      "rank": 57
+    },
+    {
+      "country": "SLV",
+      "value": 5.6,
+      "rank": 57
+    },
+    {
+      "country": "URY",
+      "value": 5.6,
+      "rank": 57
+    },
+    {
+      "country": "ARG",
+      "value": 5.4,
+      "rank": 60
+    },
+    {
+      "country": "TUR",
+      "value": 5.4,
+      "rank": 60
+    },
+    {
+      "country": "ISR",
+      "value": 5.2,
+      "rank": 62
+    },
+    {
+      "country": "BOL",
+      "value": 5.1,
+      "rank": 63
+    },
+    {
+      "country": "USA",
+      "value": 5.1,
+      "rank": 63
+    },
+    {
+      "country": "PRY",
+      "value": 5,
+      "rank": 65
+    },
+    {
+      "country": "ECU",
+      "value": 4.7,
+      "rank": 66
+    },
+    {
+      "country": "MOZ",
+      "value": 4.7,
+      "rank": 66
+    },
+    {
+      "country": "CRI",
+      "value": 4.5,
+      "rank": 68
+    },
+    {
+      "country": "XKX",
+      "value": 4.5,
+      "rank": 68
+    },
+    {
+      "country": "ZMB",
+      "value": 3.9,
+      "rank": 70
+    },
+    {
+      "country": "ZAF",
+      "value": 3.7,
+      "rank": 71
+    },
+    {
+      "country": "BRA",
+      "value": 3.6,
+      "rank": 72
+    },
+    {
+      "country": "COL",
+      "value": 3.2,
+      "rank": 73
+    }
+  ]
+}

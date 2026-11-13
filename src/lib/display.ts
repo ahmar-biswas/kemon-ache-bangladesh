@@ -48,3 +48,9 @@ export function explanation(meta: IndicatorMeta, record: DataRecord | undefined,
   return t(lang, key, params);
 }
 
+
+/** Short name for compact dashboard rows (full name via indicatorName). */
+export function indicatorShortName(id: string, lang: Lang): string {
+  const key = `indicator.${id}.short`;
+  return hasKey(key) ? t(lang, key) : indicatorName(id, lang);
+}

@@ -6,6 +6,11 @@ Rule (section 5.3): drop an indicator if Bangladesh has no usable data or fewer 
 
 | Indicator | Code | Bangladesh latest year | Peers with data since 2016 | Peers without | LMIC median: years / latest (countries) | Caveats |
 |---|---|---|---|---|---|---|
+| gdp_total_taka | NY.GDP.MKTP.CN | 2025 | n/a | n/a | n/a | Bangladesh only (local currency); 1 different publisher note(s) |
+| gdp_total_ppp | NY.GDP.MKTP.PP.CD | 2025 | 7 of 7: India 2025, Pakistan 2025, Sri Lanka 2025, Nepal 2025, Viet Nam 2025, Philippines 2025, Cambodia 2025 | none | 36 / 2025 (45) | 4 different publisher note(s) |
+| electricity | EG.ELC.ACCS.ZS | 2024 | 7 of 7: India 2024, Pakistan 2024, Sri Lanka 2024, Nepal 2024, Viet Nam 2024, Philippines 2024, Cambodia 2024 | none | 33 / 2024 (47) | - |
+| safe_water | SH.H2O.SMDW.ZS | 2024 | 7 of 7: India 2024, Pakistan 2024, Sri Lanka 2024, Nepal 2024, Viet Nam 2024, Philippines 2024, Cambodia 2024 | none | 25 / 2024 (30) | - |
+| pm25 | EN.ATM.PM25.MC.M3 | 2023 | 7 of 7: India 2023, Pakistan 2023, Sri Lanka 2023, Nepal 2023, Viet Nam 2023, Philippines 2023, Cambodia 2023 | none | 34 / 2023 (47) | - |
 | gdp_pc_taka | NY.GDP.PCAP.CN | 2025 | n/a | n/a | n/a | Bangladesh only (local currency); 1 different publisher note(s) |
 | gdp_pc_taka_constant | NY.GDP.PCAP.KN | 2025 | n/a | n/a | n/a | Bangladesh only (local currency); 1 different publisher note(s) |
 | gdp_pc_ppp | NY.GDP.PCAP.PP.CD | 2025 | 7 of 7: India 2025, Pakistan 2025, Sri Lanka 2025, Nepal 2025, Viet Nam 2025, Philippines 2025, Cambodia 2025 | none | 36 / 2025 (45) | 4 different publisher note(s) |

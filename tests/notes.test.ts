@@ -12,7 +12,7 @@ import { toBanglaDigits } from '../src/lib/format.ts';
 const dir = resolve(import.meta.dirname, '../data/processed');
 const notes = new Set<string>();
 for (const f of readdirSync(dir)) {
-  if (!f.endsWith('.json') || ['countries.json', 'indicators.json', 'meta.json'].includes(f)) continue;
+  if (!f.endsWith('.json') || ['countries.json', 'indicators.json', 'meta.json', 'latest.json'].includes(f)) continue;
   for (const r of JSON.parse(readFileSync(resolve(dir, f), 'utf8')) as DataRecord[]) for (const n of r.notes) notes.add(n);
 }
 
