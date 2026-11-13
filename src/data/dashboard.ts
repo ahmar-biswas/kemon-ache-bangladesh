@@ -1,36 +1,25 @@
-// What the homepage dashboard shows, and where (DECISIONS.md 61). Only indicator ids here:
+// What the homepage shows, and where (DECISIONS.md 61, 80–84). Only indicator ids here:
 // every number comes from data/processed/latest.json (rule R9).
 import type { AreaId } from '../components/Motifs.tsx';
 import type { MessageKey } from '../i18n/index.ts';
 
 export interface AreaConfig {
-  /** Icon to draw. */
+  /** Icon to draw, and the area's id. */
   icon: AreaId;
   /** Heading key. */
   label: MessageKey;
-  /** Headline measures shown in the collapsed tile (as many as fit one laptop screen). */
-  summary: string[];
-  /** More measures of the same area, shown in the Details panel. The status count and the subtitle cover both lists. */
-  extra: string[];
+  /** The one headline measure on the first screen (Ahmar, M4 review 2). */
+  headline: string;
+  /** Everything else for this area, shown in the Details view. */
+  more: string[];
 }
 
 export const AREAS: AreaConfig[] = [
-  { icon: 'economy', label: 'area.economy', summary: ['gdp_pc_taka', 'inflation'], extra: ['gdp_pc_growth', 'youth_unemployment'] },
-  { icon: 'poverty', label: 'area.equality', summary: ['poverty_intl', 'share_low20'], extra: [] },
-  { icon: 'health', label: 'area.health', summary: ['life_expectancy', 'under5_mortality'], extra: ['stunting', 'oop'] },
-  { icon: 'education', label: 'area.education', summary: ['literacy', 'secondary_enrol'], extra: ['secondary_enrol_female', 'secondary_enrol_male'] },
+  { icon: 'economy', label: 'area.economy', headline: 'gdp_pc_taka', more: ['gdp_pc_growth', 'inflation', 'youth_unemployment', 'electricity'] },
+  { icon: 'poverty', label: 'area.equality', headline: 'poverty_intl', more: ['share_low20'] },
+  { icon: 'health', label: 'area.health', headline: 'life_expectancy', more: ['under5_mortality', 'stunting', 'oop', 'safe_water', 'pm25'] },
+  { icon: 'education', label: 'area.education', headline: 'literacy', more: ['secondary_enrol', 'secondary_enrol_female', 'secondary_enrol_male'] },
 ];
 
-/** The ten well-being measures in the side list (Ahmar, M3 review; DECISIONS.md 61, 65). */
-export const SIDE: string[] = [
-  'gdp_total_taka',
-  'gdp_pc_taka',
-  'life_expectancy',
-  'hdi_rank',
-  'whr_rank',
-  'cpi_rank',
-  'pm25',
-  'under5_mortality',
-  'electricity',
-  'safe_water',
-];
+/** "Bangladesh at a glance": the six measures Ahmar kept (M4 review 2). */
+export const GLANCE: string[] = ['gdp_total_taka', 'gdp_pc_taka', 'life_expectancy', 'hdi_rank', 'whr_rank', 'cpi_rank'];

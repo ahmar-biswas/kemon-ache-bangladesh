@@ -45,11 +45,11 @@ export function Alpona({ className }: { className?: string }) {
  * Faint alpona streaks for the page background (Ahmar's M3 review): a lotus rosette in the
  * bottom-left and a curling vine across the top-right, in thin line only. Decorative.
  */
-export function AlponaField() {
+export function AlponaField({ className = 'backdrop__alpona' }: { className?: string } = {}) {
   const petals = Array.from({ length: 16 }, (_, i) => (i * 360) / 16);
   const dots = Array.from({ length: 48 }, (_, i) => (i * 2 * Math.PI) / 48);
   return (
-    <svg className="backdrop__alpona" viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <svg className={className} viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
       <g fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" vectorEffect="non-scaling-stroke">
         {/* Lotus rosette, bottom-left */}
         <g transform="translate(230 780) scale(0.8)">

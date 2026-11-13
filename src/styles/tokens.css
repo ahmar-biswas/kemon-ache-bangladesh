@@ -44,6 +44,15 @@
   --contour-stroke: rgba(0, 106, 78, .08);
   --weave-thread: rgba(22, 33, 28, .022);  /* muslin weave lines */
   --alpona-stroke: rgba(0, 106, 78, .13);  /* background alpona streaks */
+  --alpona-red: rgba(194, 24, 43, .16);    /* hero alpona, red thread */
+  --lal-thread: rgba(244, 42, 65, .42);    /* red kantha stitch under section headings */
+  --lal-wash: rgba(244, 42, 65, .13);      /* background wash, red side (spec: at most 14%) */
+
+  /* Area identity colours (Ahmar, M4 review 2). They name an area; they never mean good or bad. */
+  --area-economy: var(--paat);
+  --area-equality: var(--rickshaw);
+  --area-health: var(--padma);
+  --area-education: var(--dhan);
   --disc-highlight: rgba(255, 255, 255, .55);
   --disc-glow: rgba(244, 42, 65, .35);
   --track-green: rgba(0, 106, 78, .22);

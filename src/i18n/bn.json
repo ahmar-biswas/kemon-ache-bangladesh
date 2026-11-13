@@ -268,5 +268,17 @@
   "indicator.whr_rank.short": "বিশ্ব সুখ প্রতিবেদন",
   "source.link_own": "টাকা",
   "source.link_ppp": "পিপিপি",
-  "unit.per_1000_live_births.short": "প্রতি ১,০০০ জন্মে"
+  "unit.per_1000_live_births.short": "প্রতি ১,০০০ জন্মে",
+  "home.title": "কেমন আছে বাংলাদেশ?",
+  "home.lede": "দৈনন্দিন জীবনের চারটি দিক, প্রতিটি পাশের ও কাছাকাছি ধরনের সাতটি দেশের পাশে রেখে।",
+  "glance.lede": "বহুল ব্যবহৃত ছয়টি মাপকাঠিতে বিশ্বে বাংলাদেশের অবস্থান।",
+  "strip.toward_goal": "লক্ষ্যের দিকে",
+  "strip.lower": "কম",
+  "strip.higher": "বেশি",
+  "rank.world": "বিশ্বে {n}টির মধ্যে {rank}",
+  "rank.track": "১ নম্বর",
+  "glance.scroll": "এক নজরে বাংলাদেশ",
+  "details.open": "বিস্তারিত",
+  "details.close": "সারসংক্ষেপে ফিরুন",
+  "details.status": "এখানকার অফিশিয়াল লক্ষ্যওয়ালা {m}টি মাপকাঠির {a}টিতে বাংলাদেশ বেশিরভাগ তুলনার দেশের চেয়ে এগিয়ে।"
 }

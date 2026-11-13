@@ -268,5 +268,17 @@
   "indicator.whr_rank.short": "World Happiness Report",
   "source.link_own": "taka",
   "source.link_ppp": "PPP",
-  "unit.per_1000_live_births.short": "per 1,000 births"
+  "unit.per_1000_live_births.short": "per 1,000 births",
+  "home.title": "How is Bangladesh doing?",
+  "home.lede": "Four parts of everyday life, each set beside seven neighbouring and similar countries.",
+  "glance.lede": "Where Bangladesh stands in the world on six widely used measures.",
+  "strip.toward_goal": "Toward the goal",
+  "strip.lower": "Lower",
+  "strip.higher": "Higher",
+  "rank.world": "World rank {rank} of {n}",
+  "rank.track": "Rank 1",
+  "glance.scroll": "Bangladesh at a glance",
+  "details.open": "Details",
+  "details.close": "Back to summary",
+  "details.status": "Measures here with an official goal: Bangladesh is ahead of most comparison countries on {a} of {m}."
 }

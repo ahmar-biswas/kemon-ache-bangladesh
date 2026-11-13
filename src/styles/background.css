@@ -18,7 +18,8 @@
   inset: -20%;
   background:
     radial-gradient(60% 55% at 0% 0%, var(--dhan-glow), transparent 70%),
-    radial-gradient(55% 50% at 100% 100%, var(--lal-glow), transparent 70%);
+    radial-gradient(55% 50% at 100% 100%, var(--lal-wash), transparent 70%),
+    radial-gradient(35% 30% at 92% 8%, var(--lal-glow), transparent 70%);
   opacity: 1; /* the glow tokens are already at 12% and 10% */
 }
 

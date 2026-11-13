@@ -192,3 +192,36 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - the PM2.5 unit is written "µg/m³" in Bangla too
 
     Full-size text is used in Details and on every other page.
+80. **Homepage redesign, second review (Ahmar, 2026-11-13).** The one-screen rule is dropped: the page scrolls, and the four area tiles must show on the first screen.
+    - **Hero:** the question "How is Bangladesh doing?", one plain line, and the country slicer underneath.
+    - **Four area tiles, one headline measure each:** Economy shows GDP per person, Equality the poverty line, Health life expectancy, Education adult literacy. They sit 4 across from 1200 px wide, 2 × 2 on tablets, and stacked on phones.
+    - **Everything else goes to Details:**
+      - Economy: growth, inflation, youth unemployment, electricity.
+      - Equality: the poorest fifth's share.
+      - Health: under-five deaths, stunting, out-of-pocket spending, safe water, PM2.5.
+      - Education: secondary enrolment total, girls and boys.
+    - **"Bangladesh at a glance"** sits below the fold: 6 cards (GDP, GDP per person, life expectancy, HDI, World Happiness and CPI ranks), each with a world-position bar (rank 1 … last, Bangladesh marked).
+    - **Normal text sizes are back:** headline numbers 36–56 px, sentences 15–16 px, source lines 12 px.
+81. **Better / worse indicator, subtle and rule-safe (8.10: position and shape, never colour):**
+    - **Goal-facing strip:** where an official goal gives a direction, the strip is turned so the goal always points right, and the track deepens gently toward that end. Bangladesh's green dot further right than most dots means "ahead of most neighbours", the same way for every measure.
+    - **The ring:** a small ring fills 1, 2 or 3 quarters by the share of neighbours Bangladesh is ahead of, with the words "Ahead of / Behind n of m peers".
+    - **Without an official goal** (GDP per person, life expectancy) the strip is a plain "lower … higher" line, and no ahead/behind is shown. Ahmar chose to keep those headlines.
+82. **Tile grows into Details:** a shared-element view transition (CSS `view-transition-name`), applying the brief's animation principles:
+    - anticipation: the tile dips slightly while pressed
+    - follow-through: a soft overshoot as it grows, 480 ms
+    - closing is quicker and plain (300 ms)
+    - staging: the rest of the page dims while Details is open
+    - secondary action: the measures in Details rise in one after another
+    - the whole tile is the hit area (Fitts's law), except its links and switch
+    - Doherty threshold: the Details code preloads on hover or focus
+
+    Browsers without view transitions get a scale-up instead; reduced motion gets no animation. Escape closes Details and focus returns to the tile.
+83. **Area colours (identity only, never meaning):** Economy jute gold, Equality rickshaw rose, Health river blue, Education flag green. Each tile shows its colour as a top edge, a faint corner wash and a large, very faint watermark icon. Tiles carry faint muslin threads; numbers sit on clear paper. To be revisited when Ahmar sends reference textures.
+84. **Subtle red (identity and decoration only):**
+    - a small red disc beside each area name
+    - a red-thread kantha stitch under section headings
+    - a faint red alpona flourish in the hero
+    - a warmer red side to the background wash (13%, inside the spec's 14% limit)
+
+    The hue-wash token itself is unchanged (it is in the spec table), so a separate `--lal-wash` token carries the warmer value.
+85. **Removed:** the dense dashboard components (AreaTile, MetricRow, MiniStrip) and the header slicer slot. The side list is replaced by "at a glance".

@@ -83,3 +83,13 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `source.short.*`, `source.compact_*`, `month.short.*` | বিশ্বব্যাংক (WDI); তথ্য ২০২৫; সংগ্রহ ১৩ নভে. ২০২৬; জানু., ফেব্রু., … | Are these month abbreviations standard? |
 | `number.lakh_crore`, `number.trillion` | লাখ কোটি; ট্রিলিয়ন | OK? |
 | `unit.ug_m3.*` | µg/m³ (symbol kept) and মাইক্রোগ্রাম/ঘনমিটার in full text | Keep the symbol in rows? |
+
+## Added in Milestone 4, second review
+
+| Key / place | Draft | Question |
+|---|---|---|
+| `home.title` / `home.lede` | কেমন আছে বাংলাদেশ? / দৈনন্দিন জীবনের চারটি দিক, প্রতিটি পাশের ও কাছাকাছি ধরনের সাতটি দেশের পাশে রেখে। | Natural? |
+| `glance.lede` | বহুল ব্যবহৃত ছয়টি মাপকাঠিতে বিশ্বে বাংলাদেশের অবস্থান। | OK? |
+| `strip.toward_goal` / `strip.lower` / `strip.higher` | লক্ষ্যের দিকে / কম / বেশি | Clear on the strip? |
+| `rank.world` | বিশ্বে {n}টির মধ্যে {rank} | Natural for "World rank 107 of 217"? |
+| `details.status` | এখানকার অফিশিয়াল লক্ষ্যওয়ালা {m}টি মাপকাঠির {a}টিতে … | OK? |
