@@ -12,7 +12,6 @@ import { explanation, indicatorName } from '../lib/display.ts';
 import { formatNumber, formatYear } from '../lib/format.ts';
 import { valueParts } from '../lib/formatValue.ts';
 import { indicatorMeta } from '../data/latestMeta.ts';
-import { FlagSwitch } from './FlagSwitch.tsx';
 import { GoalStrip } from './GoalStrip.tsx';
 import { AreaIcon } from './Motifs.tsx';
 import { CompactSources } from './SourceLine.tsx';
@@ -61,21 +60,21 @@ export function AreaStory({ lang, area, latest, selected, open, onOpen, onPrefet
           <AreaIcon area={area.icon} />
           {t(lang, area.label)}
         </h2>
-        <FlagSwitch
-          className="flag-switch--small"
-          label={t(lang, 'view.show')}
-          options={[
-            { label: t(lang, 'view.summary'), onSelect: () => {} },
-            {
-              label: t(lang, 'view.details'),
-              onSelect: () => {
-                const el = document.querySelector<HTMLElement>(`.story--${area.icon}`);
-                if (el) onOpen(el);
-              },
-            },
-          ]}
-          selected={open ? 1 : 0}
-        />
+        {/* One clear action (Ahmar, M4 review 3): open the full picture of this area. */}
+        <button
+          type="button"
+          className="story__open"
+          aria-expanded={open}
+          onClick={(e) => {
+            const el = (e.currentTarget as HTMLElement).closest<HTMLElement>('.story');
+            if (el) onOpen(el);
+          }}
+        >
+          {t(lang, 'view.full_picture')}
+          <svg width="16" height="10" viewBox="0 0 16 10" aria-hidden="true" focusable="false">
+            <path d="M1 5 H14 M10 1 L14 5 L10 9" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
       </header>
 
       <h3 className="story__measure">{indicatorName(area.headline, lang)}</h3>

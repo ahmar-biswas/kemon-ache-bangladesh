@@ -225,3 +225,7 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
 
     The hue-wash token itself is unchanged (it is in the spec table), so a separate `--lal-wash` token carries the warmer value.
 85. **Removed:** the dense dashboard components (AreaTile, MetricRow, MiniStrip) and the header slicer slot. The side list is replaced by "at a glance".
+86. **Ahmar's third review (2026-11-13):**
+    - **One button per tile, "The full picture"** (Bangla "পুরো ছবিটা", the everyday idiom rather than a word-for-word translation; on the review list). It replaces the Summary | Details switch. The open view's heading reads "Economy — The full picture" and has a "Back to the summary" button.
+    - **Sideways opening.** The view opens from the clicked tile and widens sideways only (its clip animates; top and bottom stay fixed) until it fills the width of the four tiles. Economy grows right, Education left, the middle two both ways. It takes 640 ms on a soft ease-out, and closing shrinks it back into the tile in 420 ms. While the code loads on first use, the placeholder stays in the tile's place. On narrow screens (stacked tiles) it slides in from the side instead. Reduced motion: no animation. Escape closes it.
+    - **No coloured ribbon on top of the tiles.** It is replaced by a very soft green shadow that lifts each tile slightly off the page (`--tile-lift`, deeper on hover or focus). Area colours stay as the corner wash, icon and watermark.

@@ -7,7 +7,6 @@
 // Every figure has its source line directly under it (R1). Data: latest.json only (R10);
 // the Details code and full data load on demand (preloaded on hover or focus).
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { flushSync } from 'react-dom';
 import { useOutletContext } from 'react-router';
 import { AreaStory } from '../components/AreaStory.tsx';
 import { CompareProvider, useCompare } from '../components/CompareContext.tsx';
@@ -29,48 +28,34 @@ const prefetchDetails = () => {
   void loadDetails();
 };
 
-type ViewTransitionDoc = Document & { startViewTransition?: (cb: () => void) => { finished: Promise<void> } };
-const GROW = 'area-grow';
+/** Where the clicked tile sits inside the four-tile area: the panel starts clipped to it. */
+export interface Origin {
+  top: number;
+  right: number;
+  bottom: number;
+  left: number;
+}
 
 function Dashboard({ lang }: { lang: Lang }) {
   const { selected } = useCompare();
   const [openArea, setOpenArea] = useState<string | null>(null);
+  const [origin, setOrigin] = useState<Origin | null>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
   const tileRefs = useRef<Record<string, HTMLElement | null>>({});
   const open = AREAS.find((a) => a.icon === openArea);
 
-  /** Open or close with the grow transition where the browser supports it. */
-  const change = useCallback((next: string | null, from?: HTMLElement) => {
-    const doc = document as ViewTransitionDoc;
-    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    if (!doc.startViewTransition || reduce) {
-      setOpenArea(next);
-      return;
-    }
-    const root = document.documentElement;
-    if (next) {
-      // Old picture: the tile carries the name. New picture: the panel does.
-      if (from) from.style.viewTransitionName = GROW;
-      root.dataset.vt = 'open';
-      const vt = doc.startViewTransition(() => {
-        flushSync(() => setOpenArea(next));
-        if (from) from.style.viewTransitionName = '';
-      });
-      void vt.finished.finally(() => delete root.dataset.vt);
-    } else {
-      const tile = openArea ? (tileRefs.current[openArea]?.querySelector<HTMLElement>('.story') ?? null) : null;
-      root.dataset.vt = 'close';
-      const vt = doc.startViewTransition(() => {
-        flushSync(() => setOpenArea(null));
-        if (tile) tile.style.viewTransitionName = GROW;
-      });
-      void vt.finished.finally(() => {
-        if (tile) tile.style.viewTransitionName = '';
-        delete root.dataset.vt;
-        tile?.querySelector<HTMLElement>('.flag-switch__option')?.focus({ preventScroll: true });
-      });
-    }
+  const openFrom = useCallback((id: string, tile: HTMLElement) => {
+    const grid = gridRef.current?.getBoundingClientRect();
+    const r = tile.getBoundingClientRect();
+    setOrigin(grid ? { top: r.top - grid.top, right: grid.right - r.right, bottom: grid.bottom - r.bottom, left: r.left - grid.left } : null);
+    setOpenArea(id);
+  }, []);
+  const close = useCallback(() => {
+    const id = openArea;
+    setOpenArea(null);
+    // Back to the tile the reader came from.
+    if (id) requestAnimationFrame(() => tileRefs.current[id]?.querySelector<HTMLElement>('.story__open')?.focus({ preventScroll: true }));
   }, [openArea]);
-  const close = useCallback(() => change(null), [change]);
 
   return (
     <div className={`home${open ? ' has-open' : ''}`}>
@@ -84,26 +69,39 @@ function Dashboard({ lang }: { lang: Lang }) {
       </section>
 
       <section className="home-areas wrap" aria-label={t(lang, 'home.title')}>
-        <div className="home-areas__grid">
-          {AREAS.map((area) => (
-            <div key={area.icon} ref={(el) => { tileRefs.current[area.icon] = el; }} className="home-areas__cell">
-              <AreaStory
-                lang={lang}
-                area={area}
-                latest={LATEST}
-                selected={selected}
-                open={openArea === area.icon}
-                onOpen={(el) => change(area.icon, el)}
-                onPrefetch={prefetchDetails}
-              />
-            </div>
-          ))}
+        <div className="home-areas__stage">
+          <div className="home-areas__grid" ref={gridRef}>
+            {AREAS.map((area) => (
+              <div key={area.icon} ref={(el) => { tileRefs.current[area.icon] = el; }} className="home-areas__cell">
+                <AreaStory
+                  lang={lang}
+                  area={area}
+                  latest={LATEST}
+                  selected={selected}
+                  open={openArea === area.icon}
+                  onOpen={(el) => openFrom(area.icon, el)}
+                  onPrefetch={prefetchDetails}
+                />
+              </div>
+            ))}
+          </div>
+          {open && (
+            <Suspense
+              fallback={
+                // While the code loads (first open only), stay in the tile's place, so the
+                // sideways opening still starts from the tile.
+                <div
+                  className="details"
+                  style={origin ? { clipPath: `inset(${origin.top}px ${origin.right}px ${origin.bottom}px ${origin.left}px round 14px)` } : undefined}
+                >
+                  <Loading lang={lang} />
+                </div>
+              }
+            >
+              <DetailsPanel key={open.icon} lang={lang} area={open} latest={LATEST} origin={origin} onClose={close} />
+            </Suspense>
+          )}
         </div>
-        {open && (
-          <Suspense fallback={<div className="details glass" style={{ viewTransitionName: GROW }}><Loading lang={lang} /></div>}>
-            <DetailsPanel lang={lang} area={open} latest={LATEST} onClose={close} />
-          </Suspense>
-        )}
       </section>
 
       <section className="home-glance wrap" aria-labelledby="glance-title">

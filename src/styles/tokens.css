@@ -40,6 +40,9 @@
     0 14px 32px -14px rgba(0, 106, 78, .24);
   --glass-blur: blur(16px) saturate(150%);
   --paper-shadow: 0 1px 2px rgba(22, 33, 28, .05), 0 6px 18px -12px rgba(0, 106, 78, .18);
+  /* Tiles float a little off the page on a soft green shadow (Ahmar, M4 review 3). */
+  --tile-lift: 0 1px 2px rgba(0, 106, 78, .06), 0 10px 24px -10px rgba(0, 106, 78, .22), 0 24px 48px -24px rgba(0, 106, 78, .16);
+  --tile-lift-hover: 0 1px 2px rgba(0, 106, 78, .07), 0 14px 30px -12px rgba(0, 106, 78, .28), 0 30px 60px -28px rgba(0, 106, 78, .2);
   --thumb-shadow: 0 1px 2px rgba(22, 33, 28, .08), 0 6px 16px -8px rgba(0, 106, 78, .35);
   --contour-stroke: rgba(0, 106, 78, .08);
   --weave-thread: rgba(22, 33, 28, .022);  /* muslin weave lines */

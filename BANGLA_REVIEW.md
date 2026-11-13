@@ -93,3 +93,5 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `strip.toward_goal` / `strip.lower` / `strip.higher` | লক্ষ্যের দিকে / কম / বেশি | Clear on the strip? |
 | `rank.world` | বিশ্বে {n}টির মধ্যে {rank} | Natural for "World rank 107 of 217"? |
 | `details.status` | এখানকার অফিশিয়াল লক্ষ্যওয়ালা {m}টি মাপকাঠির {a}টিতে … | OK? |
+| `view.full_picture` | পুরো ছবিটা | Ahmar asked for a natural Bangla equivalent of "the full picture", not a literal one. Is "পুরো ছবিটা" right, or something like "আদ্যোপান্ত" / "বিস্তারিত চিত্র"? |
+| `details.close` | সারসংক্ষেপে ফিরুন | OK? |

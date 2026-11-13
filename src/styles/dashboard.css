@@ -44,6 +44,7 @@
 
 /* ---------- Area tiles ---------- */
 .home-areas { position: relative; }
+.home-areas__stage { position: relative; }
 .home-areas__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-24); }
 @media (min-width: 900px) { .home-areas__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-32) var(--s-32); } }
 .home-areas__cell { display: grid; }
@@ -68,15 +69,14 @@
     /* muslin threads */
     repeating-linear-gradient(0deg, var(--weave-thread) 0 1px, transparent 1px 6px, var(--weave-thread) 6px 7px, transparent 7px 13px),
     var(--muslin);
-  box-shadow: var(--paper-shadow), inset 0 3px 0 var(--accent);
+  box-shadow: var(--tile-lift);
   cursor: pointer;
   transition: transform 160ms var(--soothe), box-shadow 300ms var(--soothe);
 }
 @media (min-width: 768px) { .story { padding: var(--s-32) var(--s-32) var(--s-24); } }
 /* Anticipation: the tile dips slightly while pressed, before it grows. */
 .story:active { transform: scale(.985); }
-.story:hover { box-shadow: var(--glass-shadow), inset 0 3px 0 var(--accent); }
-.story:focus-within { box-shadow: var(--glass-shadow), inset 0 3px 0 var(--accent); }
+.story:hover, .story:focus-within { box-shadow: var(--tile-lift-hover); }
 .story__watermark {
   position: absolute;
   right: -18px;
@@ -200,7 +200,7 @@
   padding: var(--s-24);
   border-radius: var(--r-tile);
   background: var(--muslin);
-  box-shadow: var(--glass-shadow), inset 0 3px 0 var(--accent, var(--dhan));
+  box-shadow: var(--tile-lift-hover);
   outline: none;
   margin-top: var(--s-24);
 }
@@ -212,7 +212,9 @@
   .details { position: absolute; inset: 0; z-index: 10; overflow-y: auto; margin-top: 0; padding: var(--s-32); }
 }
 .details__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-12); }
-.details__head h2 { display: flex; align-items: center; gap: var(--s-8); font-size: var(--fs-28); }
+.details__head h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-8); font-size: var(--fs-28); }
+.details__kicker { font-family: var(--font-body-en); font-size: var(--fs-16); color: var(--kali-3); }
+:lang(bn) .details__kicker { font-family: var(--font-body-bn); }
 .details__head .area-icon { color: var(--accent); }
 .details__status { font-size: 0.9375rem; color: var(--kali-2); max-width: 80ch; }
 .details__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-16); }
@@ -223,7 +225,8 @@
 .details__item { display: grid; }
 .details__item .tile { grid-column: auto; }
 /* Secondary action: after the grow, the measures arrive one after another. */
-.details__item { animation: rise-in 520ms var(--soothe) both; animation-delay: calc(var(--i, 0) * 70ms + 160ms); }
+.details__item { animation: rise-in 520ms var(--soothe) both; animation-delay: calc(var(--i, 0) * 70ms + 320ms); }
+.details.is-closing .details__item { opacity: 0; transition: opacity 160ms ease-in; animation: none; }
 @keyframes rise-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 .tile__goal, .tile__rank { font-size: 0.8125rem; color: var(--kali-2); }
 
@@ -231,16 +234,6 @@
 .home-hero, .home-glance { transition: opacity 360ms var(--soothe), filter 360ms var(--soothe); }
 .home.has-open .home-hero, .home.has-open .home-glance { opacity: .35; filter: saturate(.6); }
 
-/* The grow: a shared-element view transition between the tile and its Details view.
-   Opening has a soft overshoot (follow-through); closing is quicker and plain. */
-::view-transition-group(area-grow) { animation-duration: 480ms; animation-timing-function: var(--overshoot); }
-:root[data-vt="close"]::view-transition-group(area-grow) { animation-duration: 300ms; animation-timing-function: cubic-bezier(.4, 0, .2, 1); }
-::view-transition-old(area-grow), ::view-transition-new(area-grow) { height: 100%; object-fit: cover; }
-/* Browsers without view transitions: the panel scales up instead. */
-@supports not (view-transition-name: none) {
-  .details { animation: details-grow 420ms var(--overshoot); transform-origin: 30% 20%; }
-  @keyframes details-grow { from { opacity: 0; transform: scale(.94); } to { opacity: 1; transform: none; } }
-}
 
 /* ---------- Bangladesh at a glance ---------- */
 .home-glance { margin-top: var(--s-72); }
@@ -394,7 +387,6 @@
   .story:active { transform: none; }
   .goal-strip__name.is-selected, .details__item, .details { animation: none; }
   .draw-in .backdrop__delta path { animation: none; stroke-dasharray: none; }
-  ::view-transition-group(area-grow) { animation: none; }
 }
 
 /* Laptop and wider: the four tiles side by side, so all four are on the first screen. */
@@ -406,3 +398,28 @@
   .story__num { font-size: clamp(2.25rem, 3vw, 2.75rem); }
   .story__head { flex-direction: column; align-items: flex-start; gap: var(--s-8); }
 }
+
+/* "The full picture": one clear button on each tile (Ahmar, M4 review 3). */
+.story__open {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  min-height: 40px;
+  padding: 0 var(--s-16);
+  border: 1px solid var(--sutaa);
+  border-radius: var(--r-pill);
+  background: var(--glass-fill), linear-gradient(90deg, var(--dhan-glow), var(--track-green));
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--kali);
+  cursor: pointer;
+  transition: transform 160ms var(--soothe), box-shadow 300ms var(--soothe);
+}
+.story__open svg { color: var(--dhan); transition: transform 300ms var(--overshoot); }
+.story:hover .story__open svg, .story__open:hover svg, .story__open:focus-visible svg { transform: translateX(3px); }
+.details__close:hover svg, .details__close:focus-visible svg { transform: translateX(-3px); }
+.story__open:active { transform: scale(.97); }
+.story__open:focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+@media (pointer: coarse) { .story__open { min-height: 44px; } }
+@media (prefers-reduced-motion: reduce) { .story__open, .story__open svg { transition: none; } }
