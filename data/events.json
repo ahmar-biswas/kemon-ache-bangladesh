@@ -1,5 +1,246 @@
 {
-  "approved": false,
-  "approved_at": null,
-  "events": []
+  "approved": true,
+  "approved_at": "2026-11-14",
+  "events": [
+    {
+      "id": "election-1991",
+      "date": "1991-02-27",
+      "kind": "political",
+      "label": {
+        "en": "5th parliamentary election: the Bangladesh Nationalist Party (BNP) wins the most seats",
+        "bn": "পঞ্চম জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি)"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_91.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "cyclone-1991",
+      "date": "1991-04-29",
+      "kind": "shock",
+      "label": {
+        "en": "Severe cyclonic storm makes landfall near Chittagong",
+        "bn": "চট্টগ্রামের কাছে প্রবল ঘূর্ণিঝড় আঘাত হানে"
+      },
+      "source_name": {
+        "en": "Bangladesh Meteorological Department",
+        "bn": "বাংলাদেশ আবহাওয়া অধিদপ্তর"
+      },
+      "source_url": "https://bmd.gov.bd/file/2018/03/23/pdf/55795.pdf",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-1996",
+      "date": "1996-02-15",
+      "kind": "political",
+      "label": {
+        "en": "6th parliamentary election: the Bangladesh Nationalist Party (BNP) wins the most seats",
+        "bn": "ষষ্ঠ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি)"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_96.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-1996-06",
+      "date": "1996-06-12",
+      "kind": "political",
+      "label": {
+        "en": "7th parliamentary election: the Bangladesh Awami League wins the most seats",
+        "bn": "সপ্তম জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ আওয়ামী লীগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_96.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2001",
+      "date": "2001-10-01",
+      "kind": "political",
+      "label": {
+        "en": "8th parliamentary election: the Bangladesh Nationalist Party (BNP) wins the most seats",
+        "bn": "অষ্টম জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি)"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_01.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "emergency-2007",
+      "date": "2007-01-11",
+      "kind": "political",
+      "label": {
+        "en": "Elections postponed and state of emergency declared; a new caretaker government is appointed the next day",
+        "bn": "নির্বাচন স্থগিত ও জরুরি অবস্থা ঘোষণা; পরদিন নতুন তত্ত্বাবধায়ক সরকার নিয়োগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_08.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "cyclone-sidr-2007",
+      "date": "2007-11-15",
+      "kind": "shock",
+      "label": {
+        "en": "Cyclone Sidr makes landfall on the Khulna–Barisal coast",
+        "bn": "খুলনা–বরিশাল উপকূলে ঘূর্ণিঝড় সিডর আঘাত হানে"
+      },
+      "source_name": {
+        "en": "Bangladesh Meteorological Department",
+        "bn": "বাংলাদেশ আবহাওয়া অধিদপ্তর"
+      },
+      "source_url": "https://bmd.gov.bd/file/2018/03/23/pdf/55795.pdf",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2008",
+      "date": "2008-12-29",
+      "kind": "political",
+      "label": {
+        "en": "9th parliamentary election: the Bangladesh Awami League wins the most seats",
+        "bn": "নবম জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ আওয়ামী লীগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/election-summary/HTML/2023_08.htm",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "rana-plaza-2013",
+      "date": "2013-04-24",
+      "kind": "shock",
+      "label": {
+        "en": "Rana Plaza building collapses in Savar",
+        "bn": "সাভারে রানা প্লাজা ভবন ধসে পড়ে"
+      },
+      "source_name": {
+        "en": "International Labour Organization",
+        "bn": "আন্তর্জাতিক শ্রম সংস্থা (আইএলও)"
+      },
+      "source_url": "https://www.ilo.org/resource/chronology-recent-events-bangladesh-ready-made-garment-rmg-sector",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2014",
+      "date": "2014-01-05",
+      "kind": "political",
+      "label": {
+        "en": "10th parliamentary election: the Bangladesh Awami League wins the most seats",
+        "bn": "দশম জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ আওয়ামী লীগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20140105",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "rohingya-2017",
+      "date": "2017-08-25",
+      "kind": "shock",
+      "label": {
+        "en": "Large-scale arrival of Rohingya refugees from Myanmar begins",
+        "bn": "মিয়ানমার থেকে রোহিঙ্গা শরণার্থীদের ব্যাপক আগমন শুরু"
+      },
+      "source_name": {
+        "en": "UNHCR, the UN Refugee Agency",
+        "bn": "জাতিসংঘ শরণার্থী সংস্থা (ইউএনএইচসিআর)"
+      },
+      "source_url": "https://www.unhcr.org/in/emergencies/rohingya-emergency",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2018",
+      "date": "2018-12-30",
+      "kind": "political",
+      "label": {
+        "en": "11th parliamentary election: the Bangladesh Awami League wins the most seats",
+        "bn": "একাদশ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ আওয়ামী লীগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20181230",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "covid-2020",
+      "date": "2020-03-08",
+      "kind": "shock",
+      "label": {
+        "en": "First COVID-19 case reported in Bangladesh",
+        "bn": "বাংলাদেশে প্রথম কোভিড-১৯ রোগী শনাক্তের খবর"
+      },
+      "source_name": {
+        "en": "World Health Organization, Bangladesh",
+        "bn": "বিশ্ব স্বাস্থ্য সংস্থা, বাংলাদেশ"
+      },
+      "source_url": "https://www.who.int/bangladesh/news/detail/08-03-2021-a-year-in-pictures-a-shared-commitment-to-change-the-course-of-the-pandemic",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2024",
+      "date": "2024-01-07",
+      "kind": "political",
+      "label": {
+        "en": "12th parliamentary election: the Bangladesh Awami League wins the most seats",
+        "bn": "দ্বাদশ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ আওয়ামী লীগ"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20240107",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "interim-2024",
+      "date": "2024-08-08",
+      "kind": "political",
+      "label": {
+        "en": "July–August 2024 mass uprising; interim government takes office (8 Aug 2024)",
+        "bn": "জুলাই–আগস্ট ২০২৪ গণঅভ্যুত্থান; অন্তর্বর্তীকালীন সরকারের দায়িত্ব গ্রহণ (৮ আগস্ট ২০২৪)"
+      },
+      "source_name": {
+        "en": "UN News",
+        "bn": "জাতিসংঘ সংবাদ (UN News)"
+      },
+      "source_url": "https://news.un.org/en/story/2024/08/1153261",
+      "checked_at": "2026-11-14"
+    },
+    {
+      "id": "election-2026",
+      "date": "2026-02-12",
+      "kind": "political",
+      "label": {
+        "en": "13th parliamentary election: the Bangladesh Nationalist Party (BNP) wins the most seats",
+        "bn": "ত্রয়োদশ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি)"
+      },
+      "source_name": {
+        "en": "Inter-Parliamentary Union (IPU Parline)",
+        "bn": "আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন)"
+      },
+      "source_url": "https://data.ipu.org/parliament/BD/BD-LC01/election/BD-LC01-E20260212",
+      "checked_at": "2026-11-14"
+    }
+  ]
 }

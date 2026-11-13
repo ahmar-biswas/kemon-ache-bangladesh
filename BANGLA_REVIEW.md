@@ -120,4 +120,4 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `note.wb_emu_multiplier` | ইউরো অঞ্চলের (EMU) সদস্যদের জাতীয় মুদ্রাকে ইউরোতে রূপান্তর করতে একটি সরল গুণক ব্যবহার করা হয়। ইইউ কাউন্সিল {… | OK? |
 | `events.kind.shock` | বৈশ্বিক ও জাতীয় ধাক্কা | Is "ধাক্কা" right for "shock", or something like "সংকট" (which may sound like a judgement)? |
 | `src/i18n/countries.bn.json` | 167 new country names, e.g. সংযুক্ত আরব আমিরাত, কঙ্গো গণতান্ত্রিক প্রজাতন্ত্র, হংকং (চীনের বিশেষ প্রশাসনিক অঞ্চল), চেকিয়া, তুরস্ক | Usual Bangla spellings? Especially the territories and the two Congos. |
-| docs/EVENTS_REVIEW.md | Bangla labels for the candidate events | Neutral and natural? |
+| `data/events.json` | Event labels, e.g. ষষ্ঠ জাতীয় সংসদ নির্বাচন: সবচেয়ে বেশি আসন পায় বাংলাদেশ জাতীয়তাবাদী দল (বিএনপি); নির্বাচন স্থগিত ও জরুরি অবস্থা ঘোষণা; পরদিন নতুন তত্ত্বাবধায়ক সরকার নিয়োগ | Natural and neutral? Source names: আন্তঃসংসদীয় ইউনিয়ন (আইপিইউ পারলাইন), বাংলাদেশ আবহাওয়া অধিদপ্তর. |

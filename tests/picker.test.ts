@@ -157,7 +157,8 @@ describe('events (DECISIONS.md 88)', () => {
     const file: EventsFile = { approved: false, approved_at: null, events: [event] };
     expect(approvedEvents(file)).toEqual([]);
     expect(approvedEvents({ ...file, approved: true, approved_at: '2026-11-14' })).toHaveLength(1);
-    expect(approvedEvents()).toEqual(approvedEvents());
+    // The real list (data/events.json) is approved and valid.
+    expect(approvedEvents().length).toBeGreaterThan(0);
   });
   it('every event needs a date, both labels and a source', () => {
     expect(validateEvents({ approved: false, approved_at: null, events: [event] })).toEqual([]);

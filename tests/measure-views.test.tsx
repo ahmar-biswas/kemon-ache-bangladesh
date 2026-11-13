@@ -6,6 +6,7 @@ import { CompareView } from '../src/components/measure/CompareView.tsx';
 import { TrendView } from '../src/components/measure/TrendView.tsx';
 import { compareIdFor, indicatorMeta, trendIdFor, INDICATORS } from '../src/data/details.ts';
 import { LANGS, t } from '../src/i18n/index.ts';
+import { approvedEvents } from '../src/data/measure.ts';
 
 afterEach(cleanup);
 
@@ -54,7 +55,9 @@ describe.each(LANGS)('measure views in %s', (lang) => {
     await waitFor(() => expect(container.querySelector('.measure__frame, .measure__na')).not.toBeNull(), { timeout: 5000 });
     checkSources(container);
     expect(container.textContent).not.toMatch(/\{\w+\}/);
-    // No events are shown before the list is approved.
-    expect(container.querySelector('.event')).toBeNull();
+    // Approved events inside the chart's years get a marker, each with its date in the label.
+    if (id === 'life_expectancy') expect(container.querySelectorAll('.event').length).toBeGreaterThan(10);
+    for (const mark of container.querySelectorAll('.event__mark')) expect(mark.getAttribute('aria-label')).toMatch(/:/);
+    expect(container.querySelectorAll('.event').length).toBeLessThanOrEqual(approvedEvents().length);
   });
 });
