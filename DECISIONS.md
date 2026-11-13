@@ -229,3 +229,18 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - **One button per tile, "The full picture"** (Bangla "পুরো ছবিটা", the everyday idiom rather than a word-for-word translation; on the review list). It replaces the Summary | Details switch. The open view's heading reads "Economy — The full picture" and has a "Back to the summary" button.
     - **Sideways opening.** The view opens from the clicked tile and widens sideways only (its clip animates; top and bottom stay fixed) until it fills the width of the four tiles. Economy grows right, Education left, the middle two both ways. It takes 640 ms on a soft ease-out, and closing shrinks it back into the tile in 420 ms. While the code loads on first use, the placeholder stays in the tile's place. On narrow screens (stacked tiles) it slides in from the side instead. Reduced motion: no animation. Escape closes it.
     - **No coloured ribbon on top of the tiles.** It is replaced by a very soft green shadow that lifts each tile slightly off the page (`--tile-lift`, deeper on hover or focus). Area colours stay as the corner wash, icon and watermark.
+
+## Milestone 5 (agreed with Ahmar, 2026-11-13; not started)
+
+87. **Two views for every measure in "The full picture":** "Compare with other countries" and "Bangladesh over time". Each opens in the same full-width space with the same sideways animation, and has a Back button.
+    - **Compare with other countries.**
+      - **Picker:** any country with a value in the last 10 years, chosen by search or by the spec's presets (South Asia, Similar income, Neighbours). Up to 10 countries plus Bangladesh. Countries without recent data are greyed out, with a reason.
+      - **Chart form ("mixed", Ahmar's choice):** ranked dots where zero is not meaningful (life expectancy, literacy, enrolment); ranked bars from zero where it is (percent shares, amounts, deaths per 1,000).
+      - **Styling:** Bangladesh is green, and the chosen countries are neutral grey with direct labels (8.2: no more than 5 colours plus Bangladesh). Each country's data year is printed beside it.
+      - **Extras:** the goal and median lines; "Bangladesh is 3rd of the 6 shown" (calculated by this site); rows re-sort smoothly; Chart | Table; CSV; a source line linking all selected countries.
+    - **Bangladesh over time.**
+      - **Chart:** a line chart from the earliest year. Gaps stay gaps (section 12); constant taka for money.
+      - **Event markers:** hollow circles for elections and government changes, small diamonds for global and national shocks. Each kind can be switched off; tooltips give the date, label and source.
+      - **Fixed note under the chart:** "Events are shown for context. The chart does not say any event caused a change." (Rule R5.)
+88. **Events list (`data/events.json`):** each event has its exact date, a neutral factual label in English and Bangla, its kind, and an authoritative source (Bangladesh Election Commission, UN, WHO, IMF, World Bank, official records). Example label: "July–August 2024 mass uprising; interim government takes office (8 Aug 2024)". **Ahmar must approve the whole list before any marker is shown.** Until then, the chart shows none.
+89. **M5 data:** the refresh builds a small "every country's latest value (last 10 years)" file per measure from the data already fetched (`data/raw/<CODE>.all.json`), with a source link per country. Each measure's full data loads only when its view opens, which fixes the 364 KB "full picture" download. Bangla names are drafted for all ~215 countries and listed in BANGLA_REVIEW.md. The separate `/indicator/<id>` and `/compare` pages from section 12 are left for later unless Ahmar asks.
