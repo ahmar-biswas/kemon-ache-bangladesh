@@ -116,6 +116,9 @@ export function IndicatorPage() {
         <p className="secondary">
           <Link to={path.compare(lang, meta.id)}>{t(lang, 'indicator.open_compare')}</Link>
         </p>
+        <p className="secondary">
+          <Link to={path.sources(lang, meta.id)}>{t(lang, 'indicator.all_values')}</Link>
+        </p>
       </section>
     </div>
   );

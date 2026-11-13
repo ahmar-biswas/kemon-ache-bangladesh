@@ -6,15 +6,19 @@ import { t, type Lang, type MessageKey } from '../i18n/index.ts';
 import { toBanglaDigits } from './format.ts';
 
 export function noteText(note: string, lang: Lang): string {
-  const msg = matchNote(note);
-  if (!msg) throw new Error(`No translation pattern for note: ${note.slice(0, 80)}…`);
-  return t(
-    lang,
-    msg.key,
-    noteParams(
-      msg,
-      (s) => (lang === 'bn' ? toBanglaDigits(s) : s),
-      (n) => t(lang, `month.${n}` as MessageKey),
+  const match = matchNote(note);
+  if (!match) throw new Error(`No translation pattern for note: ${note.slice(0, 80)}…`);
+  const sentences = match.segments.map((msg) =>
+    t(
+      lang,
+      msg.key,
+      noteParams(
+        msg,
+        (s) => (lang === 'bn' ? toBanglaDigits(s) : s),
+        (n) => t(lang, `month.${n}` as MessageKey),
+      ),
     ),
   );
+  // The publisher's own spacing between sentences is kept, so the English is word for word.
+  return sentences.map((s, i) => (i === 0 ? s : match.seps[i - 1] + s)).join('');
 }

@@ -44,7 +44,7 @@ describe.each(LANGS)('navigation in %s', (lang) => {
     const { container } = await renderAt(`/${lang}/`);
     for (const nav of container.querySelectorAll('.site-nav, .mobile-menu')) {
       const hrefs = [...nav.querySelectorAll('a')].map((a) => a.getAttribute('href'));
-      expect(hrefs).toEqual([`/${lang}/`, `/${lang}/economy`, `/${lang}/education`, `/${lang}/health`, `/${lang}/compare`]);
+      expect(hrefs).toEqual([`/${lang}/`, `/${lang}/economy`, `/${lang}/education`, `/${lang}/health`, `/${lang}/compare`, `/${lang}/sources`, `/${lang}/about`]);
     }
   });
 
@@ -60,8 +60,10 @@ describe.each(LANGS)('navigation in %s', (lang) => {
     expect(groups[0]!.classList.contains('area-group--feature')).toBe(true);
     expect(groups[0]!.querySelector('.area-group__open')?.getAttribute('href')).toBe(`/${lang}/economy/poverty-and-inequality`);
     for (const a of container.querySelectorAll('.tile__name a')) expect(a.getAttribute('href')).toMatch(new RegExp(`^/${lang}/indicator/`));
-    // The section with no data yet says so plainly, and never "Data not available" (DECISIONS.md 102).
-    expect(container.querySelectorAll('.area-group__pending')).toHaveLength(1);
+    // Since M7 every Economy measure has data: one tile each, and no "added in the next update" note (DECISIONS.md 102).
+    const economy = AREA_PAGES.find((a) => a.slug === 'economy')!;
+    expect(container.querySelectorAll('.area-grid .tile')).toHaveLength(economy.groups.flatMap((g) => g.measures).length);
+    expect(container.textContent).not.toContain('next update');
   });
 
   it('a subsection page draws one chart per measure, each named with a link to its page', async () => {

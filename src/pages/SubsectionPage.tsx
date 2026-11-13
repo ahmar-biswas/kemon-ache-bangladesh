@@ -32,11 +32,9 @@ export function SubsectionPage() {
       </header>
       <hr className="stitch stitch--red" />
 
-      {group.measures.length > 0 ? (
-        group.measures.map((id) => <PeerTrend key={id} lang={lang} id={id} />)
-      ) : (
-        <p className="area-group__pending">{t(lang, 'sub.pending')}</p>
-      )}
+      {group.measures.map((id) => (
+        <PeerTrend key={id} lang={lang} id={id} />
+      ))}
 
       <nav className="sub-page__others" aria-label={t(lang, 'sub.others')}>
         <h2>{t(lang, 'sub.others')}</h2>

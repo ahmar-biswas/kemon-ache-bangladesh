@@ -7,9 +7,7 @@
 // changes a note's wording, `npm run check:data` fails until a person adds the new
 // pattern and its Bangla translation.
 import type { MessageKey } from '../i18n/index.ts';
-
-/** How a captured value is shown: numbers get Bangla digits; text stays as published; months are translated. */
-type ParamKind = 'number' | 'text' | 'month';
+import { NOTE_PARTS, type ParamKind } from './noteParts.ts';
 
 interface NotePattern {
   re: RegExp;
@@ -79,17 +77,56 @@ export interface NoteMessage {
   kinds: Record<string, ParamKind>;
 }
 
-/** Matches a publisher note to its translation key, or null if no pattern fits. */
-export function matchNote(note: string): NoteMessage | null {
+/** A note as one or more translated sentences, and the publisher's own spacing between them. */
+export interface NoteMatch {
+  segments: NoteMessage[];
+  /** seps[i] sits between segments[i] and segments[i + 1], exactly as published (spaces, line breaks). */
+  seps: string[];
+}
+
+function toMessage(p: { key: MessageKey; params: Record<string, ParamKind> }, m: RegExpExecArray): NoteMessage | null {
+  const values: Record<string, string> = {};
+  for (const name of Object.keys(p.params)) values[name] = m.groups![name]!;
+  if (p.params.month && !MONTHS.includes(values.month!)) return null;
+  return { key: p.key, values, kinds: p.params };
+}
+
+/** Whole-note patterns, also usable as sentences inside a longer note. */
+const WHOLE_AS_PARTS = NOTE_PATTERNS.map((p) => ({ ...p, re: new RegExp(p.re.source.replace(/^\^/, '').replace(/\$$/, ''), 'y') }));
+const SPACE = /\s+/y;
+
+/** Matches the note from `pos` to its end as a sequence of known sentences, or null. */
+function sentencesFrom(note: string, pos: number): NoteMatch | null {
+  for (const part of [...NOTE_PARTS, ...WHOLE_AS_PARTS]) {
+    part.re.lastIndex = pos;
+    const m = part.re.exec(note);
+    if (!m || m[0].length === 0) continue;
+    const msg = toMessage(part, m);
+    if (!msg) continue;
+    const end = pos + m[0].length;
+    if (end === note.length) return { segments: [msg], seps: [] };
+    SPACE.lastIndex = end;
+    const space = SPACE.exec(note);
+    if (!space) continue;
+    const rest = sentencesFrom(note, end + space[0].length);
+    if (rest) return { segments: [msg, ...rest.segments], seps: [space[0], ...rest.seps] };
+  }
+  return null;
+}
+
+/**
+ * Matches a publisher note to translation keys, or null if it cannot be matched completely.
+ * A whole-note pattern is tried first; otherwise the note is read sentence by sentence
+ * (src/data/noteParts.ts). A note is never matched in part.
+ */
+export function matchNote(note: string): NoteMatch | null {
   for (const p of NOTE_PATTERNS) {
     const m = p.re.exec(note);
     if (!m) continue;
-    const values: Record<string, string> = {};
-    for (const name of Object.keys(p.params)) values[name] = m.groups![name]!;
-    if (p.params.month && !MONTHS.includes(values.month!)) return null;
-    return { key: p.key, values, kinds: p.params };
+    const msg = toMessage(p, m);
+    return msg ? { segments: [msg], seps: [] } : null;
   }
-  return null;
+  return sentencesFrom(note, 0);
 }
 
 /** The values to fill into the translation, in the reader's language. */
@@ -103,6 +140,7 @@ export function noteParams(
     const kind = msg.kinds[name];
     if (kind === 'number') out[name] = localiseDigits(value);
     else if (kind === 'month') out[name] = monthName(MONTHS.indexOf(value) + 1);
+    else if (kind === 'digits') out[name] = localiseDigits(value);
     // Years in a text value (e.g. 1963) are numbers too: localise digits only for 4-digit years.
     else out[name] = /^\d{4}$/.test(value) ? localiseDigits(value) : value;
   }

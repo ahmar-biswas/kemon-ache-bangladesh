@@ -1,0 +1,17 @@
+[
+  {
+    "indicator_id": "poverty_national",
+    "country": "BGD",
+    "year": 2022,
+    "value": 18.7,
+    "unit": "percent",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "World Bank, Poverty and Inequality Platform. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines., World Bank (WB), note: Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.",
+    "source_url": "https://data.worldbank.org/indicator/SI.POV.NAHC?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.NAHC",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.NAHC?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [],
+    "measured_by": null
+  }
+]

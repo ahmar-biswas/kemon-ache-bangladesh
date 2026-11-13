@@ -1,0 +1,1475 @@
+{
+  "indicator_id": "share_top10",
+  "code": "SI.DST.10TH.10",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SI.DST.10TH.10?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AGO",
+      "year": 2018,
+      "value": 39.6,
+      "notes": [
+        "Based on data from IDREA. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2020,
+      "value": 22.8,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AL"
+    },
+    {
+      "country": "ARE",
+      "year": 2018,
+      "value": 20.5,
+      "notes": [
+        "Based on data from HIES. Estimated from grouped income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2024,
+      "value": 31.2,
+      "notes": [
+        "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2024,
+      "value": 23.3,
+      "notes": [
+        "Based on data from ILCS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AM"
+    },
+    {
+      "country": "AUS",
+      "year": 2020,
+      "value": 25.9,
+      "notes": [
+        "Based on data from SIH-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2023,
+      "value": 24.8,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=AT"
+    },
+    {
+      "country": "BDI",
+      "year": 2020,
+      "value": 29.9,
+      "notes": [
+        "Based on data from EICVMB. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2023,
+      "value": 22.2,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2021,
+      "value": 27.2,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2021,
+      "value": 30.2,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2022,
+      "value": 25.5,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2023,
+      "value": 31.1,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BG"
+    },
+    {
+      "country": "BIH",
+      "year": 2021,
+      "value": 23.6,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2020,
+      "value": 20.7,
+      "notes": [
+        "Based on data from HHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2018,
+      "value": 30,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2024,
+      "value": 30.6,
+      "notes": [
+        "Based on data from EH. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2024,
+      "value": 39.3,
+      "notes": [
+        "Based on data from PNADC-E1. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2016,
+      "value": 25.8,
+      "notes": [
+        "Based on data from BSLC. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BB"
+    },
+    {
+      "country": "BTN",
+      "year": 2022,
+      "value": 22.7,
+      "notes": [
+        "Based on data from BLSS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BT"
+    },
+    {
+      "country": "CAF",
+      "year": 2021,
+      "value": 33.1,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2022,
+      "value": 24.6,
+      "notes": [
+        "Based on data from CIS-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2023,
+      "value": 26.3,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2024,
+      "value": 34.3,
+      "notes": [
+        "Based on data from CASEN. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2022,
+      "value": 28.4,
+      "notes": [
+        "Based on data from CNIHS. Estimated from grouped consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2021,
+      "value": 27.8,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2021,
+      "value": 31.1,
+      "notes": [
+        "Based on data from ECAM-V. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2020,
+      "value": 35.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CD"
+    },
+    {
+      "country": "COL",
+      "year": 2024,
+      "value": 42.7,
+      "notes": [
+        "Based on data from GEIH. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2024,
+      "value": 24.6,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KM"
+    },
+    {
+      "country": "CRI",
+      "year": 2025,
+      "value": 34.3,
+      "notes": [
+        "Based on data from ENAHO. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CR"
+    },
+    {
+      "country": "CYP",
+      "year": 2023,
+      "value": 26.3,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2023,
+      "value": 21.5,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2022,
+      "value": 26.2,
+      "notes": [
+        "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2017,
+      "value": 32.3,
+      "notes": [
+        "Based on data from EDAM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=DJ"
+    },
+    {
+      "country": "DNK",
+      "year": 2023,
+      "value": 25.5,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2024,
+      "value": 29.5,
+      "notes": [
+        "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=DO"
+    },
+    {
+      "country": "ECU",
+      "year": 2025,
+      "value": 35.1,
+      "notes": [
+        "Based on data from ENEMDU. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2021,
+      "value": 24.6,
+      "notes": [
+        "Based on data from HIECS. Estimated from unit-record consumption data. PPP is partially imputed."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=EG"
+    },
+    {
+      "country": "ESP",
+      "year": 2023,
+      "value": 24.5,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2023,
+      "value": 23.7,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2021,
+      "value": 24.8,
+      "notes": [
+        "Based on data from HCES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "value": 22.5,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2019,
+      "value": 24.2,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2023,
+      "value": 25,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=FR"
+    },
+    {
+      "country": "GAB",
+      "year": 2017,
+      "value": 27.7,
+      "notes": [
+        "Based on data from EGEP. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2021,
+      "value": 25,
+      "notes": [
+        "Based on data from FRS-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2024,
+      "value": 26.2,
+      "notes": [
+        "Based on data from HIS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2016,
+      "value": 32.2,
+      "notes": [
+        "Based on data from GLSS-VII. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2018,
+      "value": 23.1,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data. PPP is partially imputed."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2020,
+      "value": 30.5,
+      "notes": [
+        "Based on data from IHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2021,
+      "value": 26.1,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2022,
+      "value": 29.1,
+      "notes": [
+        "Based on data from ENH2. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2023,
+      "value": 26,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2018,
+      "value": 33.7,
+      "notes": [
+        "Based on data from SLCHB. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2023,
+      "value": 34.1,
+      "notes": [
+        "Based on data from ENCOVI. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=GT"
+    },
+    {
+      "country": "HND",
+      "year": 2024,
+      "value": 32.3,
+      "notes": [
+        "Based on data from EPHPM. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2023,
+      "value": 23.3,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=HR"
+    },
+    {
+      "country": "HUN",
+      "year": 2017,
+      "value": 23.9,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2025,
+      "value": 28.7,
+      "notes": [
+        "Based on data from SUSENAS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2023,
+      "value": 20.5,
+      "notes": [
+        "Based on data from HCES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2023,
+      "value": 24.1,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2023,
+      "value": 28.2,
+      "notes": [
+        "Based on data from HEIS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2023,
+      "value": 24.2,
+      "notes": [
+        "Based on data from IHSES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2019,
+      "value": 22.4,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2022,
+      "value": 27,
+      "notes": [
+        "Based on data from HES-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2023,
+      "value": 25.8,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2021,
+      "value": 29.6,
+      "notes": [
+        "Based on data from JSLC. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=JM"
+    },
+    {
+      "country": "JPN",
+      "year": 2020,
+      "value": 24.3,
+      "notes": [
+        "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2021,
+      "value": 24.8,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2022,
+      "value": 30.9,
+      "notes": [
+        "Based on data from KCHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2024,
+      "value": 22.9,
+      "notes": [
+        "Based on data from KIHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KG"
+    },
+    {
+      "country": "KIR",
+      "year": 2023,
+      "value": 20.9,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KI"
+    },
+    {
+      "country": "KOR",
+      "year": 2021,
+      "value": 25,
+      "notes": [
+        "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=KR"
+    },
+    {
+      "country": "LAO",
+      "year": 2024,
+      "value": 28.5,
+      "notes": [
+        "Based on data from LECS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2022,
+      "value": 25.6,
+      "notes": [
+        "Based on data from LHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2016,
+      "value": 27.1,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LR"
+    },
+    {
+      "country": "LKA",
+      "year": 2019,
+      "value": 30.8,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2017,
+      "value": 32.9,
+      "notes": [
+        "Based on data from CMSHBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2023,
+      "value": 27.3,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2023,
+      "value": 25,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2023,
+      "value": 26.2,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LV"
+    },
+    {
+      "country": "MDA",
+      "year": 2024,
+      "value": 22.7,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2021,
+      "value": 29.6,
+      "notes": [
+        "Based on data from EPM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2019,
+      "value": 23.3,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2024,
+      "value": 33.4,
+      "notes": [
+        "Based on data from ENIGHNS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2019,
+      "value": 27.5,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2019,
+      "value": 22.9,
+      "notes": [
+        "Based on data from SILC-C. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2021,
+      "value": 28.3,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2023,
+      "value": 24.7,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2017,
+      "value": 25.5,
+      "notes": [
+        "Based on data from MLCS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2021,
+      "value": 24.7,
+      "notes": [
+        "Based on data from SILC-C. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2022,
+      "value": 24.6,
+      "notes": [
+        "Based on data from HSES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2022,
+      "value": 40.8,
+      "notes": [
+        "Based on data from IOF. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2019,
+      "value": 24.6,
+      "notes": [
+        "Based on data from EPCV. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2017,
+      "value": 29.9,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2019,
+      "value": 31,
+      "notes": [
+        "Based on data from IHS-V. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2021,
+      "value": 30.9,
+      "notes": [
+        "Based on data from HIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=MY"
+    },
+    {
+      "country": "NER",
+      "year": 2021,
+      "value": 27.8,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2022,
+      "value": 26.3,
+      "notes": [
+        "Based on data from LSS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NG"
+    },
+    {
+      "country": "NLD",
+      "year": 2021,
+      "value": 21.4,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2023,
+      "value": 21.6,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2022,
+      "value": 24.2,
+      "notes": [
+        "Based on data from LSS-IV. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NP"
+    },
+    {
+      "country": "PAK",
+      "year": 2024,
+      "value": 27.7,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2024,
+      "value": 37.6,
+      "notes": [
+        "Based on data from EH. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2024,
+      "value": 30.3,
+      "notes": [
+        "Based on data from ENAHO. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2023,
+      "value": 31.6,
+      "notes": [
+        "Based on data from FIES. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PH"
+    },
+    {
+      "country": "POL",
+      "year": 2023,
+      "value": 22.9,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PL"
+    },
+    {
+      "country": "PRT",
+      "year": 2023,
+      "value": 26.9,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2024,
+      "value": 35,
+      "notes": [
+        "Based on data from EPHC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2023,
+      "value": 27.1,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2017,
+      "value": 25.8,
+      "notes": [
+        "Based on data from HIES. Estimated from grouped income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2023,
+      "value": 21.8,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2023,
+      "value": 25.1,
+      "notes": [
+        "Based on data from VNDN. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2023,
+      "value": 33.4,
+      "notes": [
+        "Based on data from EICV7. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=RW"
+    },
+    {
+      "country": "SEN",
+      "year": 2021,
+      "value": 28.8,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SN"
+    },
+    {
+      "country": "SLE",
+      "year": 2018,
+      "value": 29.4,
+      "notes": [
+        "Based on data from SLIHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2023,
+      "value": 29.7,
+      "notes": [
+        "Based on data from EHPM. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SV"
+    },
+    {
+      "country": "SRB",
+      "year": 2023,
+      "value": 24.7,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2016,
+      "value": 33,
+      "notes": [
+        "Based on data from HFS-W3. Estimated from imputed unit-record consumption data."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2017,
+      "value": 32.8,
+      "notes": [
+        "Based on data from IOF. Estimated from unit-record consumption data. PPP is partially imputed."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2022,
+      "value": 30.1,
+      "notes": [
+        "Based on data from SSLC. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2023,
+      "value": 18.8,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2023,
+      "value": 20.6,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2023,
+      "value": 22.3,
+      "notes": [
+        "Based on data from EU-SILC. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2016,
+      "value": 42.7,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2018,
+      "value": 23.9,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2022,
+      "value": 20.9,
+      "notes": [
+        "Based on data from HNAP. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2022,
+      "value": 29.5,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2021,
+      "value": 29.6,
+      "notes": [
+        "Based on data from EHCVM. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2024,
+      "value": 26,
+      "notes": [
+        "Based on data from SES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2024,
+      "value": 28.2,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TJ"
+    },
+    {
+      "country": "TON",
+      "year": 2021,
+      "value": 22,
+      "notes": [
+        "Based on data from HIES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TO"
+    },
+    {
+      "country": "TUN",
+      "year": 2021,
+      "value": 27,
+      "notes": [
+        "Based on data from NSHBCSL. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2023,
+      "value": 34.4,
+      "notes": [
+        "Based on data from SILC-C. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TR"
+    },
+    {
+      "country": "TZA",
+      "year": 2018,
+      "value": 33.1,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2023,
+      "value": 29.3,
+      "notes": [
+        "Based on data from UNHS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2020,
+      "value": 21.7,
+      "notes": [
+        "Based on data from HLCS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2024,
+      "value": 30,
+      "notes": [
+        "Based on data from ECH. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 30.7,
+      "notes": [
+        "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2025,
+      "value": 24.2,
+      "notes": [
+        "Based on data from HBS. Estimated from unit-record income data."
+      ],
+      "measured_by": "income",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=UZ"
+    },
+    {
+      "country": "VNM",
+      "year": 2022,
+      "value": 28.1,
+      "notes": [
+        "Based on data from VHLSS. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2019,
+      "value": 24.7,
+      "notes": [
+        "Based on data from NSDP. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=VU"
+    },
+    {
+      "country": "XKX",
+      "year": 2022,
+      "value": 25.1,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=XK"
+    },
+    {
+      "country": "ZAF",
+      "year": 2022,
+      "value": 42.1,
+      "notes": [
+        "Based on data from IES. Estimated from unit-record consumption data."
+      ],
+      "measured_by": "consumption",
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2022,
+      "value": 39.1,
+      "notes": [
+        "Based on data from LCMS-VIII. Estimated from imputed unit-record consumption data."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2019,
+      "value": 40.5,
+      "notes": [
+        "Based on data from PICES. Estimated from imputed unit-record consumption data."
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=ZW"
+    }
+  ]
+}

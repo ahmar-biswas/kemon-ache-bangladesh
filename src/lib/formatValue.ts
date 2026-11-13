@@ -15,6 +15,13 @@ const FORMATTERS: Record<Unit, (value: number, lang: Lang) => string> = {
   ug_m3: (v, lang) => t(lang, 'unit.ug_m3.value', { value: formatNumber(v, lang, 1) }),
   rank: (v, lang) => t(lang, 'unit.rank.value', { value: formatNumber(v, lang, 0) }),
   per_1000_live_births: (v, lang) => t(lang, 'unit.per_1000_live_births.value', { value: formatNumber(v, lang, 1) }),
+  per_100000_live_births: (v, lang) => t(lang, 'unit.per_100000_live_births.value', { value: formatNumber(v, lang, 0) }),
+  per_1000_people: (v, lang) => t(lang, 'unit.per_1000_people.value', { value: formatNumber(v, lang, 2) }),
+  taka_per_usd: (v, lang) => t(lang, 'unit.taka_per_usd.value', { value: formatNumber(v, lang, 2) }),
+  usd_current: (v, lang) => t(lang, 'unit.usd.value', { value: formatLargeWords(v, lang, 2) }),
+  months: (v, lang) => t(lang, 'unit.months.value', { value: formatNumber(v, lang, 1) }),
+  index_0_100: (v, lang) => t(lang, 'unit.index_0_100.value', { value: formatNumber(v, lang, 1) }),
+  pupils_per_teacher: (v, lang) => t(lang, 'unit.pupils_per_teacher.value', { value: formatNumber(v, lang, 1) }),
 };
 
 export function formatValue(record: Pick<DataRecord, 'value' | 'unit'>, lang: Lang): string {
@@ -41,6 +48,20 @@ export function valueParts(record: Pick<DataRecord, 'value' | 'unit' | 'out_of'>
         number: t(lang, 'unit.rank.number', { value: formatNumber(record.value, lang, 0) }),
         unit: record.out_of ? t(lang, 'unit.rank.of', { n: formatNumber(record.out_of, lang, 0) }) : null,
       };
+    case 'per_100000_live_births':
+      return { number: formatNumber(record.value, lang, 0), unit: t(lang, short ? 'unit.per_100000_live_births.short' : 'unit.per_100000_live_births.label') };
+    case 'per_1000_people':
+      return { number: formatNumber(record.value, lang, 2), unit: t(lang, 'unit.per_1000_people.label') };
+    case 'taka_per_usd':
+      return { number: formatNumber(record.value, lang, 2), unit: t(lang, 'unit.taka_per_usd.label') };
+    case 'usd_current':
+      return { number: formatLargeWords(record.value, lang, 2), unit: t(lang, 'unit.usd.label') };
+    case 'months':
+      return { number: formatNumber(record.value, lang, 1), unit: t(lang, 'unit.months.label') };
+    case 'index_0_100':
+      return { number: formatNumber(record.value, lang, 1), unit: t(lang, 'unit.index_0_100.label') };
+    case 'pupils_per_teacher':
+      return { number: formatNumber(record.value, lang, 1), unit: t(lang, 'unit.pupils_per_teacher.label') };
     case 'ug_m3':
       return { number: formatNumber(record.value, lang, 1), unit: t(lang, 'unit.ug_m3.label') };
     default:

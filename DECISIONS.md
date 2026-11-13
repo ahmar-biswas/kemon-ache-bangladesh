@@ -302,3 +302,37 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - The flag switch labels are 14 px on phones.
     - Before this, the wordmark (172 px) and the switch (189 px) already needed more than a 360 px phone's width.
 113. **Goal source names are now translated** (`target.source.*`; the data check requires them). The new Bangla page test found "UN Sustainable Development Goals, target 3.2" printed in English on Bangla pages, in the tiles and the compare view.
+
+## Milestone 7 (agreed with Ahmar, 2026-11-14)
+
+114. **/sources (Ahmar's choice: per measure, folded).** One folding section per measure, grouped by area, then "Supporting series and published rankings" (PPP, constant taka, whole-economy GDP, the three rankings).
+    - Shown from the start, also without JavaScript: source (linked), "originally from", official definition, the exact API request, retrieved date, and a link to the measure's page.
+    - Loaded when opened: Bangladesh every year; the default peers every year; every country's newest value (the compare list); the lower-middle-income median by year and Bangladesh's world position, both "Calculated by this site" with their inputs linked; and one CSV with every row.
+    - Each row links to its own source page. A test checks that every value in the trend, series and world files appears in the lists (`tests/states.test.tsx`).
+    - Each indicator page links to its section (`/sources#m-<id>`), which opens by itself.
+115. **About and How to read (Ahmar's choice: no personal details).** About: what the site is, that it is independent, the five rules in plain words, where the figures come from, English and Bangla. How to read: tile, data year vs "Last checked", comparison countries and the median, the position badge, "Calculated by this site", missing and old figures, notes from the source, charts and tables, taka and dollars, Bangla numbers. Neither page states a figure. About does not promise a weekly refresh, because that is set up in M9. Sources and About are in the header menu. How to read, Sources and About are linked in every page's footer.
+116. **Pre-rendered pages (section 13, "No JavaScript").** `npm run build` now also renders every page in both languages to HTML (`src/entry-server.tsx`, `scripts/prerender.ts`): 2 × (home, 3 areas, 4 subsections, every measure page, compare, sources, about, how to read). It also writes `404.html` and a no-JavaScript redirect from `/` to `/en/`.
+    - When JavaScript loads, React takes over the page in place (hydration). For any other address (the 404 page, a `?m=` choice), it draws the page anew.
+    - Without JavaScript: text, tile values with their source lines, the menu (the phone menu is shown open), breadcrumbs and the language switch all work. Charts, the country picker and /sources tables need JavaScript, and a short note says so.
+    - The build fails if a pre-rendered page that should have figures has no source line.
+117. **Page states.**
+    - Old data: a neutral note, "Latest published figure is from {year}", when the newest figure is more than 5 years older than the year of the last check. Students per teacher (2018) shows it today.
+    - Data not available: the words plus a link to the source's own page for Bangladesh (new `source_url` in indicators.json). Never a zero.
+    - Failed refresh: "Last checked" stays; a note under it says the latest check could not be completed, so the figures are from the check before.
+    - Offline (Ahmar's choice: notice and retry, no stored copy): a quiet banner while the browser is offline. If a page part cannot be downloaded, a "Try again" message replaces it.
+    - Print: a stylesheet that hides the header, the menu and buttons, keeps every source line and prints each source link's address.
+    - Loading (rickshaw wheel) and 404 (alpona) were already there; they are now tested in both languages.
+    - None of these notes uses an alarm colour (R5).
+118. **Publisher notes, sentence by sentence (Ahmar's choice: translate the remaining notes in M7).** 54 notes had no Bangla pattern: 2 new ones on the Bangladesh and peer data (pupil–teacher ratio: "National estimate", "UIS estimate") and 52 on other countries, which kept about 40 countries greyed out in "Compare with other countries". Most are a few standard World Bank sentences joined in different orders.
+    - A note that matches no whole pattern is now matched as a sequence of known sentences (`src/data/noteParts.ts`). Each sentence has one translation; the publisher's spacing between sentences (spaces, line breaks) is kept.
+    - A note is never matched in part: one unknown sentence and the whole note is unmatched, so the data check still fails until a person looks.
+    - The English of every note, rebuilt from its sentences, must equal the publisher's text character for character. That includes two non-breaking spaces the World Bank writes in two notes. `tests/notes.test.ts` now checks every note on every country, not only Bangladesh and the peers.
+    - Result: no country is greyed out for an untranslated note. Report and place names in notes (survey names, "Cabinet Office", currencies) stay as published. All 60 new Bangla sentences are drafts (BANGLA_REVIEW.md).
+119. **Goal directions for the new measures.** Only where a UN goal states the direction in words, copied word for word on 2026-11-14:
+    - maternal deaths: lower, SDG 3.1. Also a goal line at 70 per 100,000, since the target states the number.
+    - primary completion: higher, SDG 4.1 ("all girls and boys complete").
+    - national poverty: lower, SDG 1.2 ("according to national definitions").
+
+    The other P1 measures stay "context" (no badge). The lower-middle-income poverty line is not named by any goal. For DPT vaccination, doctors and unemployment, the goals do not state a direction in words for these exact measures. Ahmar may want to decide on youth unemployment and unemployment (SDG 8.5), as already listed.
+120. **Units added:** months of imports, US dollars (as published, never converted), taka per US dollar, per 100,000 live births, per 1,000 people, students per teacher, and a 0–100 index (Gini). Exchange rate and national poverty are Bangladesh-only (no compare view): each country's exchange rate is in its own currency, and each country sets its own poverty line.
+121. **Page titles** are now set by each page, not by the layout. The layout's title used to overwrite the page's own title right after loading.

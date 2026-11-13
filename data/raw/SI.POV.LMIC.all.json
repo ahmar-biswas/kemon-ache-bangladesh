@@ -1,0 +1,4385 @@
+{
+  "request_url": "https://api.worldbank.org/v2/country/all/indicator/SI.POV.LMIC?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "total_rows": 2660,
+  "rows": [
+    {
+      "c": "AGO",
+      "y": 2018,
+      "v": 53.7,
+      "n": "Based on data from IDREA. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ALB",
+      "y": 2016,
+      "v": 5.8,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ALB",
+      "y": 2017,
+      "v": 4.7,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ALB",
+      "y": 2018,
+      "v": 3.5,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ALB",
+      "y": 2019,
+      "v": 1.8,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ALB",
+      "y": 2020,
+      "v": 2.1,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARE",
+      "y": 2018,
+      "v": 0,
+      "n": "Based on data from HIES. Estimated from grouped income data."
+    },
+    {
+      "c": "ARG",
+      "y": 2016,
+      "v": 2.6,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2017,
+      "v": 2.5,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2018,
+      "v": 3.2,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2019,
+      "v": 3.8,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2020,
+      "v": 4.2,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2021,
+      "v": 3.3,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2022,
+      "v": 2.9,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2023,
+      "v": 3.1,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARG",
+      "y": 2024,
+      "v": 2.8,
+      "n": "Based on data from EPHC-S2. Estimated from unit-record income data. Urban only."
+    },
+    {
+      "c": "ARM",
+      "y": 2016,
+      "v": 9.6,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2017,
+      "v": 8.1,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2018,
+      "v": 9.4,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2019,
+      "v": 9.8,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2020,
+      "v": 6.7,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2021,
+      "v": 8.8,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2022,
+      "v": 10,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2023,
+      "v": 8.4,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ARM",
+      "y": 2024,
+      "v": 5.7,
+      "n": "Based on data from ILCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "AUS",
+      "y": 2016,
+      "v": 0.6,
+      "n": "Based on data from SIH-HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUS",
+      "y": 2018,
+      "v": 0.6,
+      "n": "Based on data from SIH-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUS",
+      "y": 2020,
+      "v": 1.1,
+      "n": "Based on data from SIH-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2016,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2017,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2018,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2019,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2020,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2021,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2022,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "AUT",
+      "y": 2023,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BDI",
+      "y": 2020,
+      "v": 87.2,
+      "n": "Based on data from EICVMB. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BEL",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2017,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2020,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEL",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BEN",
+      "y": 2018,
+      "v": 58.5,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BEN",
+      "y": 2021,
+      "v": 50,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BFA",
+      "y": 2018,
+      "v": 66.1,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BFA",
+      "y": 2021,
+      "v": 64.6,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BGD",
+      "y": 2016,
+      "v": 44.7,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BGD",
+      "y": 2022,
+      "v": 20.5,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BGR",
+      "y": 2016,
+      "v": 5.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2017,
+      "v": 3.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2018,
+      "v": 2.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2019,
+      "v": 3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2020,
+      "v": 1.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2021,
+      "v": 2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2022,
+      "v": 1.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BGR",
+      "y": 2023,
+      "v": 1.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "BIH",
+      "y": 2021,
+      "v": 1,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLR",
+      "y": 2016,
+      "v": 0.3,
+      "n": "Based on data from HHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLR",
+      "y": 2017,
+      "v": 0.2,
+      "n": "Based on data from HHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLR",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from HHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLR",
+      "y": 2019,
+      "v": 0,
+      "n": "Based on data from HHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLR",
+      "y": 2020,
+      "v": 0.1,
+      "n": "Based on data from HHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BLZ",
+      "y": 2018,
+      "v": 4,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BOL",
+      "y": 2016,
+      "v": 10.2,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2017,
+      "v": 9.3,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2018,
+      "v": 7.9,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2019,
+      "v": 5.8,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2020,
+      "v": 6.6,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2021,
+      "v": 5.5,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2022,
+      "v": 5.7,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2023,
+      "v": 5.1,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BOL",
+      "y": 2024,
+      "v": 4.9,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2016,
+      "v": 10.8,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2017,
+      "v": 11.2,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2018,
+      "v": 11.1,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2019,
+      "v": 10.9,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2020,
+      "v": 5.4,
+      "n": "Based on data from PNADC-E5. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2021,
+      "v": 11.5,
+      "n": "Based on data from PNADC-E5. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2022,
+      "v": 8.5,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2023,
+      "v": 7.4,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRA",
+      "y": 2024,
+      "v": 6.2,
+      "n": "Based on data from PNADC-E1. Estimated from unit-record income data."
+    },
+    {
+      "c": "BRB",
+      "y": 2016,
+      "v": 3.2,
+      "n": "Based on data from BSLC. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BTN",
+      "y": 2017,
+      "v": 9.6,
+      "n": "Based on data from BLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "BTN",
+      "y": 2022,
+      "v": 0.4,
+      "n": "Based on data from BLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "CAF",
+      "y": 2021,
+      "v": 83.9,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "CAN",
+      "y": 2016,
+      "v": 0.5,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2017,
+      "v": 0.5,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2018,
+      "v": 0.5,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2021,
+      "v": 0.3,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CAN",
+      "y": 2022,
+      "v": 0.3,
+      "n": "Based on data from CIS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2017,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2018,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2019,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2020,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2022,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHE",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHL",
+      "y": 2017,
+      "v": 1,
+      "n": "Based on data from CASEN. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHL",
+      "y": 2020,
+      "v": 2.7,
+      "n": "Based on data from CASEN. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHL",
+      "y": 2022,
+      "v": 1,
+      "n": "Based on data from CASEN. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHL",
+      "y": 2024,
+      "v": 0.7,
+      "n": "Based on data from CASEN. Estimated from unit-record income data."
+    },
+    {
+      "c": "CHN",
+      "y": 2016,
+      "v": 8.4,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2017,
+      "v": 7.5,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2018,
+      "v": 5.5,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2019,
+      "v": 3,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2020,
+      "v": 1.7,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2021,
+      "v": 0.3,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CHN",
+      "y": 2022,
+      "v": 0.5,
+      "n": "Based on data from CNIHS. Estimated from grouped consumption data."
+    },
+    {
+      "c": "CIV",
+      "y": 2018,
+      "v": 41.3,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "CIV",
+      "y": 2021,
+      "v": 41.6,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "CMR",
+      "y": 2021,
+      "v": 41.3,
+      "n": "Based on data from ECAM-V. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "COD",
+      "y": 2020,
+      "v": 92.5
+    },
+    {
+      "c": "COL",
+      "y": 2016,
+      "v": 17.1,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2017,
+      "v": 16.6,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2018,
+      "v": 17,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2019,
+      "v": 18.5,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2020,
+      "v": 23.8,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2021,
+      "v": 18.4,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2022,
+      "v": 15.8,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2023,
+      "v": 15.2,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COL",
+      "y": 2024,
+      "v": 14.7,
+      "n": "Based on data from GEIH. Estimated from unit-record income data."
+    },
+    {
+      "c": "COM",
+      "y": 2020,
+      "v": 25.9,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "COM",
+      "y": 2024,
+      "v": 18,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "CRI",
+      "y": 2016,
+      "v": 4.4,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2017,
+      "v": 3.6,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2018,
+      "v": 4.3,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2019,
+      "v": 3.8,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2020,
+      "v": 6.4,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2021,
+      "v": 4.1,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2022,
+      "v": 4,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2023,
+      "v": 3.4,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2024,
+      "v": 2.6,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CRI",
+      "y": 2025,
+      "v": 1.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2017,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2019,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2020,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2022,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CYP",
+      "y": 2023,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2017,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2018,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2019,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2020,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "CZE",
+      "y": 2023,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2017,
+      "v": 0.2,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2019,
+      "v": 0.2,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2020,
+      "v": 0.4,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2021,
+      "v": 0.7,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DEU",
+      "y": 2022,
+      "v": 0.9,
+      "n": "Based on data from GSOEP-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "DJI",
+      "y": 2017,
+      "v": 43.7,
+      "n": "Based on data from EDAM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "DNK",
+      "y": 2016,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2017,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2018,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2019,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2022,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DNK",
+      "y": 2023,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2016,
+      "v": 6.7,
+      "n": "Based on data from ENFT. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2017,
+      "v": 4.2,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2018,
+      "v": 3,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2019,
+      "v": 2.9,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2020,
+      "v": 4.3,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2021,
+      "v": 3.7,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2022,
+      "v": 3.2,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2023,
+      "v": 3,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "DOM",
+      "y": 2024,
+      "v": 2,
+      "n": "Based on data from ECNFT-Q03. Estimated from unit-record income data."
+    },
+    {
+      "c": "EAS",
+      "y": 2016,
+      "v": 13.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2017,
+      "v": 11.7,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2018,
+      "v": 9.9,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2019,
+      "v": 8.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2020,
+      "v": 7.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2021,
+      "v": 6.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2022,
+      "v": 6.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2023,
+      "v": 5.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "EAS",
+      "y": 2024,
+      "v": 5.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2016,
+      "v": 2.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2017,
+      "v": 2.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2018,
+      "v": 1.9,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2019,
+      "v": 1.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2020,
+      "v": 1.9,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2021,
+      "v": 1.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2022,
+      "v": 1.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2023,
+      "v": 1.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECS",
+      "y": 2024,
+      "v": 1.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "ECU",
+      "y": 2016,
+      "v": 9.1,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2017,
+      "v": 8.4,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2018,
+      "v": 9.2,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2019,
+      "v": 9.5,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2020,
+      "v": 13.5,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2021,
+      "v": 10.8,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2022,
+      "v": 9.2,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2023,
+      "v": 10,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2024,
+      "v": 12.1,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "ECU",
+      "y": 2025,
+      "v": 8.4,
+      "n": "Based on data from ENEMDU. Estimated from unit-record income data."
+    },
+    {
+      "c": "EGY",
+      "y": 2017,
+      "v": 13.7,
+      "n": "Based on data from HIECS. Estimated from unit-record consumption data. PPP is partially imputed."
+    },
+    {
+      "c": "EGY",
+      "y": 2019,
+      "v": 10.2,
+      "n": "Based on data from HIECS. Estimated from unit-record consumption data. PPP is partially imputed."
+    },
+    {
+      "c": "EGY",
+      "y": 2021,
+      "v": 7.1,
+      "n": "Based on data from HIECS. Estimated from unit-record consumption data. PPP is partially imputed."
+    },
+    {
+      "c": "ESP",
+      "y": 2016,
+      "v": 1.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2017,
+      "v": 1.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2018,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2019,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2020,
+      "v": 1.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2021,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2022,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ESP",
+      "y": 2023,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2016,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2017,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2018,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2019,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2020,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2021,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2022,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "EST",
+      "y": 2023,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ETH",
+      "y": 2021,
+      "v": 63.7,
+      "n": "Based on data from HCES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "FCV",
+      "y": 2016,
+      "v": 49.6
+    },
+    {
+      "c": "FCV",
+      "y": 2017,
+      "v": 49.1
+    },
+    {
+      "c": "FCV",
+      "y": 2018,
+      "v": 49.1
+    },
+    {
+      "c": "FCV",
+      "y": 2020,
+      "v": 53
+    },
+    {
+      "c": "FCV",
+      "y": 2021,
+      "v": 54.5
+    },
+    {
+      "c": "FCV",
+      "y": 2022,
+      "v": 54.5
+    },
+    {
+      "c": "FCV",
+      "y": 2023,
+      "v": 55.4
+    },
+    {
+      "c": "FCV",
+      "y": 2024,
+      "v": 55.4
+    },
+    {
+      "c": "FIN",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2017,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2020,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2021,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FIN",
+      "y": 2023,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FJI",
+      "y": 2019,
+      "v": 15.1,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "FRA",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2017,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "FRA",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GAB",
+      "y": 2017,
+      "v": 8,
+      "n": "Based on data from EGEP. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GBR",
+      "y": 2016,
+      "v": 0.4,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GBR",
+      "y": 2017,
+      "v": 0.4,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GBR",
+      "y": 2018,
+      "v": 0.5,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GBR",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GBR",
+      "y": 2020,
+      "v": 0.6,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GBR",
+      "y": 2021,
+      "v": 0.5,
+      "n": "Based on data from FRS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "GEO",
+      "y": 2016,
+      "v": 23.2,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2017,
+      "v": 23.4,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2018,
+      "v": 22.4,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2019,
+      "v": 21.9,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2020,
+      "v": 25.2,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2021,
+      "v": 22.3,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2022,
+      "v": 17.8,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2023,
+      "v": 14,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GEO",
+      "y": 2024,
+      "v": 11,
+      "n": "Based on data from HIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GHA",
+      "y": 2016,
+      "v": 56.3,
+      "n": "Based on data from GLSS-VII. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GIN",
+      "y": 2018,
+      "v": 29.2,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data. PPP is partially imputed."
+    },
+    {
+      "c": "GMB",
+      "y": 2020,
+      "v": 40.2,
+      "n": "Based on data from IHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GNB",
+      "y": 2018,
+      "v": 59.4,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GNB",
+      "y": 2021,
+      "v": 62.1,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GNQ",
+      "y": 2022,
+      "v": 21.5,
+      "n": "Based on data from ENH2. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GRC",
+      "y": 2016,
+      "v": 2.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2017,
+      "v": 1.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2018,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2019,
+      "v": 1.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2020,
+      "v": 1.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2021,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2022,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRC",
+      "y": 2023,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "GRD",
+      "y": 2018,
+      "v": 2.9,
+      "n": "Based on data from SLCHB. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "GTM",
+      "y": 2023,
+      "v": 17.6,
+      "n": "Based on data from ENCOVI. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2016,
+      "v": 30.1,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2017,
+      "v": 29.1,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2018,
+      "v": 29.2,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2019,
+      "v": 28.4,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2023,
+      "v": 26.6,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HND",
+      "y": 2024,
+      "v": 23.5,
+      "n": "Based on data from EPHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2016,
+      "v": 1.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2017,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2018,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2019,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2020,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2021,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2022,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HRV",
+      "y": 2023,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HUN",
+      "y": 2016,
+      "v": 2.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "HUN",
+      "y": 2017,
+      "v": 1.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IDA",
+      "y": 2016,
+      "v": 55.1
+    },
+    {
+      "c": "IDA",
+      "y": 2017,
+      "v": 53.8
+    },
+    {
+      "c": "IDA",
+      "y": 2018,
+      "v": 52.9
+    },
+    {
+      "c": "IDA",
+      "y": 2019,
+      "v": 52.7
+    },
+    {
+      "c": "IDA",
+      "y": 2020,
+      "v": 54.6
+    },
+    {
+      "c": "IDA",
+      "y": 2021,
+      "v": 54.9
+    },
+    {
+      "c": "IDA",
+      "y": 2022,
+      "v": 54.4
+    },
+    {
+      "c": "IDA",
+      "y": 2023,
+      "v": 54.5
+    },
+    {
+      "c": "IDA",
+      "y": 2024,
+      "v": 54.1
+    },
+    {
+      "c": "IDN",
+      "y": 2016,
+      "v": 38.7,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2017,
+      "v": 34.1,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2018,
+      "v": 30.3,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2019,
+      "v": 28.3,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2020,
+      "v": 26.4,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2021,
+      "v": 24.2,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2022,
+      "v": 23.7,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2023,
+      "v": 21.9,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2024,
+      "v": 19.8,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IDN",
+      "y": 2025,
+      "v": 15.5,
+      "n": "Based on data from SUSENAS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IND",
+      "y": 2022,
+      "v": 23.9,
+      "n": "Based on data from HCES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IND",
+      "y": 2023,
+      "v": 16.1,
+      "n": "Based on data from HCES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRL",
+      "y": 2016,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2017,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2018,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2022,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRL",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "IRN",
+      "y": 2016,
+      "v": 8.6,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2017,
+      "v": 8.1,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2018,
+      "v": 9.3,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2019,
+      "v": 12.1,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2020,
+      "v": 12.2,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2021,
+      "v": 10.1,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2022,
+      "v": 8.2,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRN",
+      "y": 2023,
+      "v": 7.5,
+      "n": "Based on data from HEIS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "IRQ",
+      "y": 2023,
+      "v": 2.4,
+      "n": "Based on data from IHSES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ISL",
+      "y": 2016,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISL",
+      "y": 2017,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISL",
+      "y": 2018,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISL",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2016,
+      "v": 1,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2017,
+      "v": 1.3,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2018,
+      "v": 1,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2019,
+      "v": 1.4,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2020,
+      "v": 1.1,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2021,
+      "v": 1.1,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ISR",
+      "y": 2022,
+      "v": 0.9,
+      "n": "Based on data from HES-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2016,
+      "v": 2.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2017,
+      "v": 1.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2018,
+      "v": 2.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2019,
+      "v": 1.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2020,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2021,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2022,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "ITA",
+      "y": 2023,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "JAM",
+      "y": 2018,
+      "v": 2,
+      "n": "Based on data from JSLC. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "JAM",
+      "y": 2021,
+      "v": 5.1,
+      "n": "Based on data from JSLC. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "JPN",
+      "y": 2016,
+      "v": 1.2,
+      "n": "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "JPN",
+      "y": 2017,
+      "v": 1.2,
+      "n": "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "JPN",
+      "y": 2018,
+      "v": 1.7,
+      "n": "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "JPN",
+      "y": 2019,
+      "v": 1.7,
+      "n": "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "JPN",
+      "y": 2020,
+      "v": 1.6,
+      "n": "Based on data from JHPS-KHPS-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2016,
+      "v": 1.3,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2017,
+      "v": 0.8,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2018,
+      "v": 0.5,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2020,
+      "v": 0.4,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KAZ",
+      "y": 2021,
+      "v": 0.3,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KEN",
+      "y": 2020,
+      "v": 65.6,
+      "n": "Based on data from KCHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KEN",
+      "y": 2021,
+      "v": 67.9,
+      "n": "Based on data from KCHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KEN",
+      "y": 2022,
+      "v": 65.5,
+      "n": "Based on data from KCHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2016,
+      "v": 29.9,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2017,
+      "v": 30.5,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2018,
+      "v": 26,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2019,
+      "v": 23.2,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2020,
+      "v": 31.8,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2021,
+      "v": 23.3,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2022,
+      "v": 22.1,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2023,
+      "v": 16.4,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KGZ",
+      "y": 2024,
+      "v": 12.5,
+      "n": "Based on data from KIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "KIR",
+      "y": 2019,
+      "v": 22,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011."
+    },
+    {
+      "c": "KIR",
+      "y": 2023,
+      "v": 5.7,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011."
+    },
+    {
+      "c": "KOR",
+      "y": 2016,
+      "v": 0.4,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KOR",
+      "y": 2017,
+      "v": 0.4,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KOR",
+      "y": 2018,
+      "v": 0.3,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KOR",
+      "y": 2019,
+      "v": 0.2,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KOR",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "KOR",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from SHFLC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "LAO",
+      "y": 2018,
+      "v": 35,
+      "n": "Based on data from LECS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LAO",
+      "y": 2024,
+      "v": 22.5,
+      "n": "Based on data from LECS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LBN",
+      "y": 2022,
+      "v": 15.7,
+      "n": "Based on data from LHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LBR",
+      "y": 2016,
+      "v": 55,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LCN",
+      "y": 2016,
+      "v": 11.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2017,
+      "v": 11,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2018,
+      "v": 10.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2019,
+      "v": 10.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2020,
+      "v": 10.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2021,
+      "v": 10.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2022,
+      "v": 9.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2023,
+      "v": 8.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LCN",
+      "y": 2024,
+      "v": 8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "LKA",
+      "y": 2016,
+      "v": 14.1,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LKA",
+      "y": 2019,
+      "v": 11.5,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LMY",
+      "y": 2016,
+      "v": 30.2
+    },
+    {
+      "c": "LMY",
+      "y": 2017,
+      "v": 28.6
+    },
+    {
+      "c": "LMY",
+      "y": 2018,
+      "v": 27.1
+    },
+    {
+      "c": "LMY",
+      "y": 2019,
+      "v": 26
+    },
+    {
+      "c": "LMY",
+      "y": 2020,
+      "v": 26.7
+    },
+    {
+      "c": "LMY",
+      "y": 2021,
+      "v": 25.9
+    },
+    {
+      "c": "LMY",
+      "y": 2022,
+      "v": 24.7
+    },
+    {
+      "c": "LMY",
+      "y": 2023,
+      "v": 23.2
+    },
+    {
+      "c": "LMY",
+      "y": 2024,
+      "v": 21.9
+    },
+    {
+      "c": "LSO",
+      "y": 2017,
+      "v": 56.8,
+      "n": "Based on data from CMSHBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "LTU",
+      "y": 2016,
+      "v": 2.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2017,
+      "v": 1.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2018,
+      "v": 1.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2019,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2020,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2021,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2022,
+      "v": 1.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LTU",
+      "y": 2023,
+      "v": 1.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2016,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2017,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2018,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2020,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LUX",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2016,
+      "v": 1.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2017,
+      "v": 1.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2018,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2019,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2020,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2021,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2022,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "LVA",
+      "y": 2023,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MDA",
+      "y": 2016,
+      "v": 0.9,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2017,
+      "v": 0.6,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2018,
+      "v": 0.4,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2019,
+      "v": 0.4,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2021,
+      "v": 0.3,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2022,
+      "v": 0.3,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2023,
+      "v": 0.8,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDA",
+      "y": 2024,
+      "v": 0.6,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDG",
+      "y": 2021,
+      "v": 83.9,
+      "n": "Based on data from EPM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDV",
+      "y": 2016,
+      "v": 0.6,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MDV",
+      "y": 2019,
+      "v": 0,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MEA",
+      "y": 2016,
+      "v": 25.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2017,
+      "v": 24.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2018,
+      "v": 24.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2019,
+      "v": 25.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2022,
+      "v": 26.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2023,
+      "v": 26.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEA",
+      "y": 2024,
+      "v": 26.8,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "MEX",
+      "y": 2016,
+      "v": 10.5,
+      "n": "Based on data from ENIGHNS. Estimated from unit-record income data."
+    },
+    {
+      "c": "MEX",
+      "y": 2018,
+      "v": 9.1,
+      "n": "Based on data from ENIGHNS. Estimated from unit-record income data."
+    },
+    {
+      "c": "MEX",
+      "y": 2020,
+      "v": 9.6,
+      "n": "Based on data from ENIGHNS. Estimated from unit-record income data."
+    },
+    {
+      "c": "MEX",
+      "y": 2022,
+      "v": 5.7,
+      "n": "Based on data from ENIGHNS. Estimated from unit-record income data."
+    },
+    {
+      "c": "MEX",
+      "y": 2024,
+      "v": 4.1,
+      "n": "Based on data from ENIGHNS. Estimated from unit-record income data."
+    },
+    {
+      "c": "MHL",
+      "y": 2019,
+      "v": 6.7,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011."
+    },
+    {
+      "c": "MKD",
+      "y": 2016,
+      "v": 9.7,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MKD",
+      "y": 2017,
+      "v": 9.2,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MKD",
+      "y": 2018,
+      "v": 7.1,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MKD",
+      "y": 2019,
+      "v": 7.4,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLI",
+      "y": 2018,
+      "v": 51.2,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MLI",
+      "y": 2021,
+      "v": 59.5,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MLT",
+      "y": 2016,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2017,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2018,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2020,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2022,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MLT",
+      "y": 2023,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "MMR",
+      "y": 2017,
+      "v": 29.1,
+      "n": "Based on data from MLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MNE",
+      "y": 2016,
+      "v": 6.2,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNE",
+      "y": 2017,
+      "v": 7.5,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNE",
+      "y": 2018,
+      "v": 6.9,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNE",
+      "y": 2019,
+      "v": 4.9,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNE",
+      "y": 2020,
+      "v": 4.9,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNE",
+      "y": 2021,
+      "v": 4,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "MNG",
+      "y": 2016,
+      "v": 8.1,
+      "n": "Based on data from HSES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MNG",
+      "y": 2018,
+      "v": 6.7,
+      "n": "Based on data from HSES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MNG",
+      "y": 2022,
+      "v": 2.3,
+      "n": "Based on data from HSES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MOZ",
+      "y": 2019,
+      "v": 89,
+      "n": "Based on data from IOF. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MOZ",
+      "y": 2022,
+      "v": 89.1,
+      "n": "Based on data from IOF. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MRT",
+      "y": 2019,
+      "v": 26,
+      "n": "Based on data from EPCV. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MUS",
+      "y": 2017,
+      "v": 2.3,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MWI",
+      "y": 2016,
+      "v": 85.1,
+      "n": "Based on data from IHS-IV. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MWI",
+      "y": 2019,
+      "v": 87.3,
+      "n": "Based on data from IHS-V. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "MYS",
+      "y": 2018,
+      "v": 0.2,
+      "n": "Based on data from HIESBA. Estimated from unit-record income data."
+    },
+    {
+      "c": "MYS",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from HIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "NAC",
+      "y": 2016,
+      "v": 1.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2017,
+      "v": 1.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2018,
+      "v": 1.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2019,
+      "v": 1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2020,
+      "v": 0.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2021,
+      "v": 0.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2022,
+      "v": 1.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2023,
+      "v": 1.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NAC",
+      "y": 2024,
+      "v": 1.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "NER",
+      "y": 2018,
+      "v": 78.1,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "NER",
+      "y": 2021,
+      "v": 79.7,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "NGA",
+      "y": 2018,
+      "v": 55.1,
+      "n": "Based on data from LSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "NGA",
+      "y": 2022,
+      "v": 64,
+      "n": "Based on data from LSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "NLD",
+      "y": 2016,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NLD",
+      "y": 2017,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NLD",
+      "y": 2018,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NLD",
+      "y": 2019,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NLD",
+      "y": 2020,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NLD",
+      "y": 2021,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2016,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2017,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2018,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2019,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2020,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2022,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NOR",
+      "y": 2023,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "NPL",
+      "y": 2022,
+      "v": 9.1,
+      "n": "Based on data from LSS-IV. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "PAK",
+      "y": 2018,
+      "v": 44.7,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "PAK",
+      "y": 2024,
+      "v": 47.9,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "PAN",
+      "y": 2016,
+      "v": 8.6,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2017,
+      "v": 7.8,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2018,
+      "v": 6.7,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2019,
+      "v": 6.4,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2021,
+      "v": 6.7,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2023,
+      "v": 7.2,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PAN",
+      "y": 2024,
+      "v": 6.8,
+      "n": "Based on data from EH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2016,
+      "v": 13.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2017,
+      "v": 13.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2018,
+      "v": 11.8,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2019,
+      "v": 10.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2020,
+      "v": 18.9,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2021,
+      "v": 11.2,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2022,
+      "v": 10.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2023,
+      "v": 11.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PER",
+      "y": 2024,
+      "v": 10.7,
+      "n": "Based on data from ENAHO. Estimated from unit-record income data."
+    },
+    {
+      "c": "PHL",
+      "y": 2018,
+      "v": 21.8,
+      "n": "Based on data from FIES. Estimated from unit-record income data."
+    },
+    {
+      "c": "PHL",
+      "y": 2021,
+      "v": 21.3,
+      "n": "Based on data from FIES. Estimated from unit-record income data."
+    },
+    {
+      "c": "PHL",
+      "y": 2023,
+      "v": 16.9,
+      "n": "Based on data from FIES. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2016,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2017,
+      "v": 0.6,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2018,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2019,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2020,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2021,
+      "v": 0.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2022,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "POL",
+      "y": 2023,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2016,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2017,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2018,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2019,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2020,
+      "v": 1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2021,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2022,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRT",
+      "y": 2023,
+      "v": 0.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2016,
+      "v": 8.6,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2017,
+      "v": 6.6,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2018,
+      "v": 6.9,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2019,
+      "v": 6.5,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2020,
+      "v": 6.5,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2021,
+      "v": 5.6,
+      "n": "Based on data from EPH. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2022,
+      "v": 7.2,
+      "n": "Based on data from EPHC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2023,
+      "v": 5.8,
+      "n": "Based on data from EPHC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PRY",
+      "y": 2024,
+      "v": 4.5,
+      "n": "Based on data from EPHC. Estimated from unit-record income data."
+    },
+    {
+      "c": "PSE",
+      "y": 2016,
+      "v": 4.4
+    },
+    {
+      "c": "PSE",
+      "y": 2023,
+      "v": 6.1
+    },
+    {
+      "c": "QAT",
+      "y": 2017,
+      "v": 0,
+      "n": "Based on data from HIES. Estimated from grouped income data."
+    },
+    {
+      "c": "ROU",
+      "y": 2016,
+      "v": 9.1
+    },
+    {
+      "c": "ROU",
+      "y": 2017,
+      "v": 6.8
+    },
+    {
+      "c": "ROU",
+      "y": 2018,
+      "v": 5.9
+    },
+    {
+      "c": "ROU",
+      "y": 2019,
+      "v": 4.8
+    },
+    {
+      "c": "ROU",
+      "y": 2020,
+      "v": 4.1
+    },
+    {
+      "c": "ROU",
+      "y": 2021,
+      "v": 3
+    },
+    {
+      "c": "ROU",
+      "y": 2022,
+      "v": 2.8
+    },
+    {
+      "c": "ROU",
+      "y": 2023,
+      "v": 1.3
+    },
+    {
+      "c": "RUS",
+      "y": 2016,
+      "v": 0.8,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2017,
+      "v": 0.8,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2018,
+      "v": 0.4,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2020,
+      "v": 0.3,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2021,
+      "v": 0.4,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2022,
+      "v": 0.3,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RUS",
+      "y": 2023,
+      "v": 0.2,
+      "n": "Based on data from VNDN. Estimated from unit-record income data."
+    },
+    {
+      "c": "RWA",
+      "y": 2016,
+      "v": 78.6,
+      "n": "Based on data from EICV-V. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "RWA",
+      "y": 2023,
+      "v": 62.2,
+      "n": "Based on data from EICV7. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SAS",
+      "y": 2020,
+      "v": 32.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SAS",
+      "y": 2021,
+      "v": 29.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SAS",
+      "y": 2022,
+      "v": 25.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SAS",
+      "y": 2023,
+      "v": 19.9,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SAS",
+      "y": 2024,
+      "v": 15,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SEN",
+      "y": 2018,
+      "v": 38.5,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SEN",
+      "y": 2021,
+      "v": 37.3,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SLE",
+      "y": 2018,
+      "v": 65,
+      "n": "Based on data from SLIHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SLV",
+      "y": 2016,
+      "v": 13.5,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2017,
+      "v": 11.1,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2018,
+      "v": 10.2,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2019,
+      "v": 7.7,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2021,
+      "v": 9.8,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2022,
+      "v": 9.6,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SLV",
+      "y": 2023,
+      "v": 8.6,
+      "n": "Based on data from EHPM. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2016,
+      "v": 11.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2017,
+      "v": 10,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2018,
+      "v": 6.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2019,
+      "v": 4.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2020,
+      "v": 3.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2021,
+      "v": 2.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2022,
+      "v": 3.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SRB",
+      "y": 2023,
+      "v": 2.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SSD",
+      "y": 2016,
+      "v": 88,
+      "n": "Based on data from HFS-W3. Estimated from imputed unit-record consumption data."
+    },
+    {
+      "c": "SSF",
+      "y": 2016,
+      "v": 62.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2017,
+      "v": 61.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2018,
+      "v": 61.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2019,
+      "v": 61.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2020,
+      "v": 63.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2021,
+      "v": 64.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2022,
+      "v": 63.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2023,
+      "v": 63.7,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "SSF",
+      "y": 2024,
+      "v": 63.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "STP",
+      "y": 2017,
+      "v": 30.5,
+      "n": "Based on data from IOF. Estimated from unit-record consumption data. PPP is partially imputed."
+    },
+    {
+      "c": "SUR",
+      "y": 2022,
+      "v": 4.6,
+      "n": "Based on data from SSLC. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SVK",
+      "y": 2016,
+      "v": 2.2,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2017,
+      "v": 1.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2018,
+      "v": 1.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2019,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2020,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2021,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2022,
+      "v": 1.7,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVK",
+      "y": 2023,
+      "v": 0.8,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2016,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2017,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2018,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2019,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2020,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2021,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2022,
+      "v": 0.1,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SVN",
+      "y": 2023,
+      "v": 0,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2016,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2017,
+      "v": 0.3,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2018,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2019,
+      "v": 0.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2020,
+      "v": 0.5,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2021,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2022,
+      "v": 1.4,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWE",
+      "y": 2023,
+      "v": 0.9,
+      "n": "Based on data from EU-SILC. Estimated from unit-record income data."
+    },
+    {
+      "c": "SWZ",
+      "y": 2016,
+      "v": 58.3,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "SYC",
+      "y": 2018,
+      "v": 1.4,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "SYR",
+      "y": 2022,
+      "v": 42.1,
+      "n": "Based on data from HNAP. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TCD",
+      "y": 2018,
+      "v": 63.2,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TCD",
+      "y": 2022,
+      "v": 61.4,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TGO",
+      "y": 2018,
+      "v": 54.7,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TGO",
+      "y": 2021,
+      "v": 55.6,
+      "n": "Based on data from EHCVM. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2016,
+      "v": 1,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2017,
+      "v": 0.8,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2018,
+      "v": 0.9,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2019,
+      "v": 0.6,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2020,
+      "v": 0.6,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2021,
+      "v": 0.5,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2022,
+      "v": 0.2,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2023,
+      "v": 0.1,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "THA",
+      "y": 2024,
+      "v": 0.2,
+      "n": "Based on data from SES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TJK",
+      "y": 2021,
+      "v": 22.6,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TJK",
+      "y": 2022,
+      "v": 18.9,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TJK",
+      "y": 2023,
+      "v": 18.1,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TJK",
+      "y": 2024,
+      "v": 16.9,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TON",
+      "y": 2021,
+      "v": 1.8,
+      "n": "Based on data from HIES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TUN",
+      "y": 2021,
+      "v": 2.4,
+      "n": "Based on data from NSHBCSL. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TUR",
+      "y": 2016,
+      "v": 3,
+      "n": "Based on data from HICES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "TUR",
+      "y": 2017,
+      "v": 2.8,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2018,
+      "v": 2.6,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2019,
+      "v": 3,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2020,
+      "v": 3,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2021,
+      "v": 2.3,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2022,
+      "v": 1.2,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TUR",
+      "y": 2023,
+      "v": 0.4,
+      "n": "Based on data from SILC-C. Estimated from unit-record income data."
+    },
+    {
+      "c": "TZA",
+      "y": 2018,
+      "v": 70,
+      "n": "Based on data from HBS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UGA",
+      "y": 2016,
+      "v": 75.6,
+      "n": "Based on data from UNHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UGA",
+      "y": 2019,
+      "v": 76.3,
+      "n": "Based on data from UNHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UGA",
+      "y": 2023,
+      "v": 72.3,
+      "n": "Based on data from UNHS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UKR",
+      "y": 2016,
+      "v": 1.1,
+      "n": "Based on data from HLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UKR",
+      "y": 2017,
+      "v": 0.7,
+      "n": "Based on data from HLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UKR",
+      "y": 2018,
+      "v": 0.6,
+      "n": "Based on data from HLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UKR",
+      "y": 2019,
+      "v": 0.3,
+      "n": "Based on data from HLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "UKR",
+      "y": 2020,
+      "v": 0.2,
+      "n": "Based on data from HLCS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "URY",
+      "y": 2016,
+      "v": 0.6,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2017,
+      "v": 0.4,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2018,
+      "v": 0.4,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2019,
+      "v": 0.4,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2020,
+      "v": 0.7,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2021,
+      "v": 0.5,
+      "n": "Based on data from ECH-S2. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2022,
+      "v": 0.7,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2023,
+      "v": 0.7,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "URY",
+      "y": 2024,
+      "v": 0.5,
+      "n": "Based on data from ECH. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2016,
+      "v": 1.3,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2017,
+      "v": 1.5,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2018,
+      "v": 1.3,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2019,
+      "v": 1.2,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2020,
+      "v": 0.5,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2021,
+      "v": 0.6,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2022,
+      "v": 1.5,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2023,
+      "v": 1.4,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "USA",
+      "y": 2024,
+      "v": 1.2,
+      "n": "Based on data from CPS-ASEC-LIS. Estimated from unit-record income data."
+    },
+    {
+      "c": "UZB",
+      "y": 2021,
+      "v": 9.1,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "UZB",
+      "y": 2022,
+      "v": 8.3,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "UZB",
+      "y": 2023,
+      "v": 7.3,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "UZB",
+      "y": 2024,
+      "v": 5.1,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "UZB",
+      "y": 2025,
+      "v": 4,
+      "n": "Based on data from HBS. Estimated from unit-record income data."
+    },
+    {
+      "c": "VNM",
+      "y": 2016,
+      "v": 6.2,
+      "n": "Based on data from VHLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "VNM",
+      "y": 2018,
+      "v": 5.2,
+      "n": "Based on data from VHLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "VNM",
+      "y": 2020,
+      "v": 3.7,
+      "n": "Based on data from VHLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "VNM",
+      "y": 2022,
+      "v": 4.2,
+      "n": "Based on data from VHLSS. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "VUT",
+      "y": 2019,
+      "v": 36.9,
+      "n": "Based on data from NSDP. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "WLD",
+      "y": 2016,
+      "v": 24.9,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2017,
+      "v": 23.6,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2018,
+      "v": 22.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2020,
+      "v": 22.1,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2021,
+      "v": 21.4,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2022,
+      "v": 20.5,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2023,
+      "v": 19.3,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "WLD",
+      "y": 2024,
+      "v": 18.2,
+      "n": "Retrieved on September 22, 2026 from World Bank, PIP (https://pip.worldbank.org). The income-country categories within the six geographical regions are (a) low- and middle-income countries and (b) countries eligible to receive loans from the World Bank (such as Chile) and recently graduated countries (such as Estonia)."
+    },
+    {
+      "c": "XKX",
+      "y": 2016,
+      "v": 8.5
+    },
+    {
+      "c": "XKX",
+      "y": 2017,
+      "v": 22.2
+    },
+    {
+      "c": "XKX",
+      "y": 2018,
+      "v": 28.1
+    },
+    {
+      "c": "XKX",
+      "y": 2019,
+      "v": 15.7
+    },
+    {
+      "c": "XKX",
+      "y": 2020,
+      "v": 21.6
+    },
+    {
+      "c": "XKX",
+      "y": 2021,
+      "v": 28.4
+    },
+    {
+      "c": "XKX",
+      "y": 2022,
+      "v": 14.9
+    },
+    {
+      "c": "ZAF",
+      "y": 2022,
+      "v": 30.2,
+      "n": "Based on data from IES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ZMB",
+      "y": 2022,
+      "v": 81.4,
+      "n": "Based on data from LCMS-VIII. Estimated from imputed unit-record consumption data."
+    },
+    {
+      "c": "ZWE",
+      "y": 2017,
+      "v": 61.8,
+      "n": "Based on data from PICES. Estimated from unit-record consumption data."
+    },
+    {
+      "c": "ZWE",
+      "y": 2019,
+      "v": 64.6,
+      "n": "Based on data from PICES. Estimated from imputed unit-record consumption data."
+    }
+  ]
+}

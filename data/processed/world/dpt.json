@@ -1,0 +1,1557 @@
+{
+  "indicator_id": "dpt",
+  "code": "SH.IMM.IDPT",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.IMM.IDPT?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2024,
+      "value": 59,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2024,
+      "value": 64,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2024,
+      "value": 75,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2024,
+      "value": 93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2024,
+      "value": 85,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2024,
+      "value": 51,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2024,
+      "value": 63,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2024,
+      "value": 79,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2024,
+      "value": 88,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2024,
+      "value": 59,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2024,
+      "value": 42,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2024,
+      "value": 77,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2024,
+      "value": 77,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2024,
+      "value": 65,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2024,
+      "value": 78,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2024,
+      "value": 75,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2024,
+      "value": 93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2024,
+      "value": 77,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2024,
+      "value": 87,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2024,
+      "value": 70,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2024,
+      "value": 81,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2024,
+      "value": 73,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2024,
+      "value": 76,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2024,
+      "value": 61,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2024,
+      "value": 63,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2024,
+      "value": 80,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2024,
+      "value": 68,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2024,
+      "value": 68,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2024,
+      "value": 93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2024,
+      "value": 81,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2024,
+      "value": 75,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2024,
+      "value": 60,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2024,
+      "value": 78,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2024,
+      "value": 85,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2024,
+      "value": 83,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2024,
+      "value": 67,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2024,
+      "value": 49,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2024,
+      "value": 83,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2024,
+      "value": 60,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2024,
+      "value": 78,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2024,
+      "value": 85,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2024,
+      "value": 82,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2024,
+      "value": 71,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2024,
+      "value": 81,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2024,
+      "value": 70,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2024,
+      "value": 93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2024,
+      "value": 93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2024,
+      "value": 74,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2024,
+      "value": 86,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2024,
+      "value": 67,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2023,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2024,
+      "value": 89,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2024,
+      "value": 87,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2024,
+      "value": 72,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2024,
+      "value": 80,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2024,
+      "value": 71,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2024,
+      "value": 42,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PL"
+    },
+    {
+      "country": "PRK",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2024,
+      "value": 80,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2024,
+      "value": 88,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2024,
+      "value": 79,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2024,
+      "value": 39,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2024,
+      "value": 87,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2024,
+      "value": 88,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SM"
+    },
+    {
+      "country": "SOM",
+      "year": 2024,
+      "value": 70,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2024,
+      "value": 95,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2024,
+      "value": 73,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2024,
+      "value": 87,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2024,
+      "value": 69,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2024,
+      "value": 96,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2024,
+      "value": 84,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2024,
+      "value": 73,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2024,
+      "value": 68,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2024,
+      "value": 98,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2024,
+      "value": 83,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2024,
+      "value": 92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2024,
+      "value": 83,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2024,
+      "value": 88,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2024,
+      "value": 94,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2024,
+      "value": 90,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2024,
+      "value": 99,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2024,
+      "value": 62,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=VE"
+    },
+    {
+      "country": "VNM",
+      "year": 2024,
+      "value": 97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2024,
+      "value": 71,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2024,
+      "value": 85,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2024,
+      "value": 42,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2024,
+      "value": 74,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2024,
+      "value": 91,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=ZW"
+    }
+  ]
+}

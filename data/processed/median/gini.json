@@ -1,0 +1,1070 @@
+[
+  {
+    "indicator_id": "gini",
+    "year": 1998,
+    "value": 45.2,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CIV",
+        "value": 39
+      },
+      {
+        "country": "GHA",
+        "value": 40.1
+      },
+      {
+        "country": "HND",
+        "value": 57.3
+      },
+      {
+        "country": "KGZ",
+        "value": 46.3
+      },
+      {
+        "country": "MAR",
+        "value": 39.4
+      },
+      {
+        "country": "NIC",
+        "value": 54.4
+      },
+      {
+        "country": "PAK",
+        "value": 33.1
+      },
+      {
+        "country": "UZB",
+        "value": 44.1
+      },
+      {
+        "country": "VEN",
+        "value": 48
+      },
+      {
+        "country": "ZMB",
+        "value": 49.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=CI-GH-HN-KG-MA-NI-PK-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2000,
+    "value": 39,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 51.9
+      },
+      {
+        "country": "BGD",
+        "value": 33.4
+      },
+      {
+        "country": "BOL",
+        "value": 61.6
+      },
+      {
+        "country": "KGZ",
+        "value": 31
+      },
+      {
+        "country": "MAR",
+        "value": 40.6
+      },
+      {
+        "country": "MRT",
+        "value": 39
+      },
+      {
+        "country": "STP",
+        "value": 32.1
+      },
+      {
+        "country": "SWZ",
+        "value": 53.1
+      },
+      {
+        "country": "TUN",
+        "value": 40.8
+      },
+      {
+        "country": "TZA",
+        "value": 37.3
+      },
+      {
+        "country": "UZB",
+        "value": 35.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=AO-BD-BO-KG-MA-MR-ST-SZ-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2001,
+    "value": 44.650000000000006,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 57.4
+      },
+      {
+        "country": "CMR",
+        "value": 42.1
+      },
+      {
+        "country": "HND",
+        "value": 55.4
+      },
+      {
+        "country": "HTI",
+        "value": 59
+      },
+      {
+        "country": "KGZ",
+        "value": 30.2
+      },
+      {
+        "country": "NIC",
+        "value": 52.9
+      },
+      {
+        "country": "PAK",
+        "value": 28.7
+      },
+      {
+        "country": "SEN",
+        "value": 41.2
+      },
+      {
+        "country": "TLS",
+        "value": 35.9
+      },
+      {
+        "country": "VEN",
+        "value": 47.2
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-CM-HN-HT-KG-NI-PK-SN-TL-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2002,
+    "value": 42.1,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 59.3
+      },
+      {
+        "country": "CIV",
+        "value": 41.3
+      },
+      {
+        "country": "DJI",
+        "value": 40
+      },
+      {
+        "country": "GIN",
+        "value": 43
+      },
+      {
+        "country": "HND",
+        "value": 55.7
+      },
+      {
+        "country": "KGZ",
+        "value": 30.3
+      },
+      {
+        "country": "LAO",
+        "value": 32.6
+      },
+      {
+        "country": "LSO",
+        "value": 51.2
+      },
+      {
+        "country": "UZB",
+        "value": 33
+      },
+      {
+        "country": "VEN",
+        "value": 48.9
+      },
+      {
+        "country": "ZMB",
+        "value": 42.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-CI-DJ-GN-HN-KG-LA-LS-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2003,
+    "value": 40.5,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 38.6
+      },
+      {
+        "country": "BTN",
+        "value": 40.9
+      },
+      {
+        "country": "HND",
+        "value": 58.1
+      },
+      {
+        "country": "KGZ",
+        "value": 28.7
+      },
+      {
+        "country": "NAM",
+        "value": 63.3
+      },
+      {
+        "country": "NGA",
+        "value": 40.1
+      },
+      {
+        "country": "NPL",
+        "value": 43.8
+      },
+      {
+        "country": "TJK",
+        "value": 32.7
+      },
+      {
+        "country": "UZB",
+        "value": 35.2
+      },
+      {
+        "country": "VEN",
+        "value": 47.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BJ-BT-HN-KG-NA-NG-NP-TJ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2004,
+    "value": 37.5,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 55
+      },
+      {
+        "country": "COM",
+        "value": 55.9
+      },
+      {
+        "country": "EGY",
+        "value": 31.8
+      },
+      {
+        "country": "HND",
+        "value": 58.1
+      },
+      {
+        "country": "IND",
+        "value": 27.7
+      },
+      {
+        "country": "KGZ",
+        "value": 34.8
+      },
+      {
+        "country": "MRT",
+        "value": 40.2
+      },
+      {
+        "country": "PAK",
+        "value": 30.9
+      },
+      {
+        "country": "PSE",
+        "value": 34
+      },
+      {
+        "country": "TJK",
+        "value": 33.6
+      },
+      {
+        "country": "VEN",
+        "value": 47.3
+      },
+      {
+        "country": "ZMB",
+        "value": 54.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-KM-EG-HN-IN-KG-MR-PK-PS-TJ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2005,
+    "value": 44.45,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 33.2
+      },
+      {
+        "country": "BOL",
+        "value": 58.5
+      },
+      {
+        "country": "COG",
+        "value": 47.3
+      },
+      {
+        "country": "GHA",
+        "value": 42.8
+      },
+      {
+        "country": "HND",
+        "value": 59.5
+      },
+      {
+        "country": "KEN",
+        "value": 46.4
+      },
+      {
+        "country": "KGZ",
+        "value": 32.6
+      },
+      {
+        "country": "NIC",
+        "value": 48.8
+      },
+      {
+        "country": "PAK",
+        "value": 31.3
+      },
+      {
+        "country": "PSE",
+        "value": 34.7
+      },
+      {
+        "country": "SEN",
+        "value": 39.2
+      },
+      {
+        "country": "SLB",
+        "value": 46.1
+      },
+      {
+        "country": "TUN",
+        "value": 37.7
+      },
+      {
+        "country": "VEN",
+        "value": 49.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD-BO-CG-GH-HN-KE-KG-NI-PK-PS-SN-SB-TN-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2007,
+    "value": 36.85,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 54.5
+      },
+      {
+        "country": "BTN",
+        "value": 38.1
+      },
+      {
+        "country": "CMR",
+        "value": 42.8
+      },
+      {
+        "country": "GIN",
+        "value": 39.4
+      },
+      {
+        "country": "HND",
+        "value": 55.8
+      },
+      {
+        "country": "KGZ",
+        "value": 33.9
+      },
+      {
+        "country": "LAO",
+        "value": 35.4
+      },
+      {
+        "country": "PAK",
+        "value": 29.7
+      },
+      {
+        "country": "PSE",
+        "value": 35.6
+      },
+      {
+        "country": "TJK",
+        "value": 32.2
+      },
+      {
+        "country": "TLS",
+        "value": 27.8
+      },
+      {
+        "country": "TZA",
+        "value": 40.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-BT-CM-GN-HN-KG-LA-PK-PS-TJ-TL-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2009,
+    "value": 42.9,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 49.2
+      },
+      {
+        "country": "HND",
+        "value": 51.3
+      },
+      {
+        "country": "IND",
+        "value": 27.8
+      },
+      {
+        "country": "KGZ",
+        "value": 29.9
+      },
+      {
+        "country": "NAM",
+        "value": 61
+      },
+      {
+        "country": "NIC",
+        "value": 43.9
+      },
+      {
+        "country": "PNG",
+        "value": 41.9
+      },
+      {
+        "country": "PSE",
+        "value": 34.5
+      },
+      {
+        "country": "SWZ",
+        "value": 51.4
+      },
+      {
+        "country": "TJK",
+        "value": 30.8
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-HN-IN-KG-NA-NI-PG-PS-SZ-TJ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2010,
+    "value": 34.05,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 32.1
+      },
+      {
+        "country": "EGY",
+        "value": 30.2
+      },
+      {
+        "country": "HND",
+        "value": 53.1
+      },
+      {
+        "country": "KGZ",
+        "value": 30.1
+      },
+      {
+        "country": "NGA",
+        "value": 35.7
+      },
+      {
+        "country": "NPL",
+        "value": 32.8
+      },
+      {
+        "country": "PAK",
+        "value": 28.8
+      },
+      {
+        "country": "PSE",
+        "value": 35.3
+      },
+      {
+        "country": "STP",
+        "value": 30.8
+      },
+      {
+        "country": "TUN",
+        "value": 38.5
+      },
+      {
+        "country": "VUT",
+        "value": 37.4
+      },
+      {
+        "country": "ZMB",
+        "value": 52
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD-EG-HN-KG-NG-NP-PK-PS-ST-TN-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2011,
+    "value": 40.3,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 43.4
+      },
+      {
+        "country": "BOL",
+        "value": 46.1
+      },
+      {
+        "country": "COG",
+        "value": 48.9
+      },
+      {
+        "country": "HND",
+        "value": 52.6
+      },
+      {
+        "country": "IND",
+        "value": 28.8
+      },
+      {
+        "country": "KGZ",
+        "value": 27.8
+      },
+      {
+        "country": "LBN",
+        "value": 31.8
+      },
+      {
+        "country": "PAK",
+        "value": 29.7
+      },
+      {
+        "country": "PSE",
+        "value": 34.4
+      },
+      {
+        "country": "SEN",
+        "value": 40.3
+      },
+      {
+        "country": "TGO",
+        "value": 46
+      },
+      {
+        "country": "TZA",
+        "value": 37.8
+      },
+      {
+        "country": "ZWE",
+        "value": 43.2
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BJ-BO-CG-HN-IN-KG-LB-PK-PS-SN-TG-TZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2012,
+    "value": 37.95,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 46.6
+      },
+      {
+        "country": "BTN",
+        "value": 38.8
+      },
+      {
+        "country": "DJI",
+        "value": 45.1
+      },
+      {
+        "country": "EGY",
+        "value": 28.3
+      },
+      {
+        "country": "GHA",
+        "value": 42.4
+      },
+      {
+        "country": "GIN",
+        "value": 33.7
+      },
+      {
+        "country": "HND",
+        "value": 53.4
+      },
+      {
+        "country": "HTI",
+        "value": 41.1
+      },
+      {
+        "country": "KGZ",
+        "value": 27.4
+      },
+      {
+        "country": "LAO",
+        "value": 36
+      },
+      {
+        "country": "NGA",
+        "value": 35.5
+      },
+      {
+        "country": "SLB",
+        "value": 37.1
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-BT-DJ-EG-GH-GN-HN-HT-KG-LA-NG-SB",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2015,
+    "value": 40.8,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 47.6
+      },
+      {
+        "country": "BOL",
+        "value": 46.7
+      },
+      {
+        "country": "CIV",
+        "value": 41.5
+      },
+      {
+        "country": "EGY",
+        "value": 31.8
+      },
+      {
+        "country": "HND",
+        "value": 49.2
+      },
+      {
+        "country": "KEN",
+        "value": 40.8
+      },
+      {
+        "country": "KGZ",
+        "value": 29
+      },
+      {
+        "country": "MMR",
+        "value": 38.1
+      },
+      {
+        "country": "NAM",
+        "value": 59.1
+      },
+      {
+        "country": "NGA",
+        "value": 35.9
+      },
+      {
+        "country": "PAK",
+        "value": 31.3
+      },
+      {
+        "country": "TGO",
+        "value": 43
+      },
+      {
+        "country": "TJK",
+        "value": 34
+      },
+      {
+        "country": "TUN",
+        "value": 32.8
+      },
+      {
+        "country": "ZMB",
+        "value": 55.8
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BJ-BO-CI-EG-HN-KE-KG-MM-NA-NG-PK-TG-TJ-TN-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2017,
+    "value": 41.150000000000006,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 44.6
+      },
+      {
+        "country": "BTN",
+        "value": 37.4
+      },
+      {
+        "country": "DJI",
+        "value": 41.6
+      },
+      {
+        "country": "EGY",
+        "value": 31.5
+      },
+      {
+        "country": "HND",
+        "value": 49.4
+      },
+      {
+        "country": "KGZ",
+        "value": 27.3
+      },
+      {
+        "country": "LSO",
+        "value": 44.9
+      },
+      {
+        "country": "MMR",
+        "value": 30.7
+      },
+      {
+        "country": "STP",
+        "value": 40.7
+      },
+      {
+        "country": "ZWE",
+        "value": 44.3
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BO-BT-DJ-EG-HN-KG-LS-MM-ST-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2018,
+    "value": 38.3,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 51.3
+      },
+      {
+        "country": "BEN",
+        "value": 37.9
+      },
+      {
+        "country": "BOL",
+        "value": 42.6
+      },
+      {
+        "country": "CIV",
+        "value": 37.2
+      },
+      {
+        "country": "GIN",
+        "value": 29.6
+      },
+      {
+        "country": "HND",
+        "value": 48.9
+      },
+      {
+        "country": "KGZ",
+        "value": 27.7
+      },
+      {
+        "country": "LAO",
+        "value": 38.8
+      },
+      {
+        "country": "NGA",
+        "value": 35.1
+      },
+      {
+        "country": "PAK",
+        "value": 29.6
+      },
+      {
+        "country": "SEN",
+        "value": 38.3
+      },
+      {
+        "country": "TGO",
+        "value": 42.5
+      },
+      {
+        "country": "TZA",
+        "value": 40.5
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=AO-BJ-BO-CI-GN-HN-KG-LA-NG-PK-SN-TG-TZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2021,
+    "value": 34.849999999999994,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 34.4
+      },
+      {
+        "country": "BOL",
+        "value": 40.9
+      },
+      {
+        "country": "CIV",
+        "value": 35.3
+      },
+      {
+        "country": "CMR",
+        "value": 42.2
+      },
+      {
+        "country": "EGY",
+        "value": 28.5
+      },
+      {
+        "country": "KEN",
+        "value": 38.7
+      },
+      {
+        "country": "KGZ",
+        "value": 28.8
+      },
+      {
+        "country": "SEN",
+        "value": 36.2
+      },
+      {
+        "country": "TGO",
+        "value": 37.9
+      },
+      {
+        "country": "TJK",
+        "value": 32.4
+      },
+      {
+        "country": "TUN",
+        "value": 33.7
+      },
+      {
+        "country": "UZB",
+        "value": 32.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BJ-BO-CI-CM-EG-KE-KG-SN-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "gini",
+    "year": 2022,
+    "value": 32.55,
+    "unit": "index_0_100",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 30.9
+      },
+      {
+        "country": "BOL",
+        "value": 41.2
+      },
+      {
+        "country": "BTN",
+        "value": 28.5
+      },
+      {
+        "country": "IND",
+        "value": 25.5
+      },
+      {
+        "country": "KEN",
+        "value": 38.5
+      },
+      {
+        "country": "KGZ",
+        "value": 26.4
+      },
+      {
+        "country": "LBN",
+        "value": 35.5
+      },
+      {
+        "country": "NGA",
+        "value": 33.9
+      },
+      {
+        "country": "NPL",
+        "value": 30
+      },
+      {
+        "country": "TJK",
+        "value": 39.5
+      },
+      {
+        "country": "UZB",
+        "value": 31.2
+      },
+      {
+        "country": "ZMB",
+        "value": 51.5
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

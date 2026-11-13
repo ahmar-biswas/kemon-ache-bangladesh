@@ -1,0 +1,6982 @@
+[
+  {
+    "indicator_id": "unemployment",
+    "year": 1991,
+    "value": 4.7940000000000005,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.816
+      },
+      {
+        "country": "BEN",
+        "value": 1.637
+      },
+      {
+        "country": "BGD",
+        "value": 2.2
+      },
+      {
+        "country": "BOL",
+        "value": 2.935
+      },
+      {
+        "country": "BTN",
+        "value": 1.381
+      },
+      {
+        "country": "CIV",
+        "value": 6.595
+      },
+      {
+        "country": "CMR",
+        "value": 8.986
+      },
+      {
+        "country": "COG",
+        "value": 19.911
+      },
+      {
+        "country": "COM",
+        "value": 4.795
+      },
+      {
+        "country": "DJI",
+        "value": 26.118
+      },
+      {
+        "country": "EGY",
+        "value": 9.38
+      },
+      {
+        "country": "GHA",
+        "value": 3.489
+      },
+      {
+        "country": "GIN",
+        "value": 4.56
+      },
+      {
+        "country": "HND",
+        "value": 4.58
+      },
+      {
+        "country": "HTI",
+        "value": 7.329
+      },
+      {
+        "country": "IND",
+        "value": 7.641
+      },
+      {
+        "country": "KEN",
+        "value": 2.78
+      },
+      {
+        "country": "KGZ",
+        "value": 1
+      },
+      {
+        "country": "KHM",
+        "value": 0.768
+      },
+      {
+        "country": "LAO",
+        "value": 2.497
+      },
+      {
+        "country": "LBN",
+        "value": 8.594
+      },
+      {
+        "country": "LSO",
+        "value": 15.495
+      },
+      {
+        "country": "MAR",
+        "value": 13.502
+      },
+      {
+        "country": "MMR",
+        "value": 0.828
+      },
+      {
+        "country": "MRT",
+        "value": 9.971
+      },
+      {
+        "country": "NAM",
+        "value": 19.14
+      },
+      {
+        "country": "NGA",
+        "value": 3.831
+      },
+      {
+        "country": "NIC",
+        "value": 7.909
+      },
+      {
+        "country": "NPL",
+        "value": 10.465
+      },
+      {
+        "country": "PAK",
+        "value": 0.596
+      },
+      {
+        "country": "PNG",
+        "value": 2.793
+      },
+      {
+        "country": "PSE",
+        "value": 10.666
+      },
+      {
+        "country": "SEN",
+        "value": 2.861
+      },
+      {
+        "country": "SLB",
+        "value": 1.967
+      },
+      {
+        "country": "STP",
+        "value": 14.493
+      },
+      {
+        "country": "SWZ",
+        "value": 20.521
+      },
+      {
+        "country": "TGO",
+        "value": 4.057
+      },
+      {
+        "country": "TJK",
+        "value": 1.823
+      },
+      {
+        "country": "TLS",
+        "value": 3.453
+      },
+      {
+        "country": "TUN",
+        "value": 15.935
+      },
+      {
+        "country": "TZA",
+        "value": 3.6
+      },
+      {
+        "country": "UZB",
+        "value": 1.9
+      },
+      {
+        "country": "VEN",
+        "value": 9.45
+      },
+      {
+        "country": "VUT",
+        "value": 7.976
+      },
+      {
+        "country": "ZMB",
+        "value": 18.9
+      },
+      {
+        "country": "ZWE",
+        "value": 4.793
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1992,
+    "value": 4.8165,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.959
+      },
+      {
+        "country": "BEN",
+        "value": 1.51
+      },
+      {
+        "country": "BGD",
+        "value": 2.233
+      },
+      {
+        "country": "BOL",
+        "value": 3.03
+      },
+      {
+        "country": "BTN",
+        "value": 1.391
+      },
+      {
+        "country": "CIV",
+        "value": 6.7
+      },
+      {
+        "country": "CMR",
+        "value": 9.055
+      },
+      {
+        "country": "COG",
+        "value": 19.916
+      },
+      {
+        "country": "COM",
+        "value": 4.528
+      },
+      {
+        "country": "DJI",
+        "value": 26.457
+      },
+      {
+        "country": "EGY",
+        "value": 8.92
+      },
+      {
+        "country": "GHA",
+        "value": 4.7
+      },
+      {
+        "country": "GIN",
+        "value": 4.58
+      },
+      {
+        "country": "HND",
+        "value": 3.06
+      },
+      {
+        "country": "HTI",
+        "value": 7.387
+      },
+      {
+        "country": "IND",
+        "value": 7.649
+      },
+      {
+        "country": "KEN",
+        "value": 2.894
+      },
+      {
+        "country": "KGZ",
+        "value": 1.1
+      },
+      {
+        "country": "KHM",
+        "value": 0.748
+      },
+      {
+        "country": "LAO",
+        "value": 2.71
+      },
+      {
+        "country": "LBN",
+        "value": 8.225
+      },
+      {
+        "country": "LSO",
+        "value": 15.448
+      },
+      {
+        "country": "MAR",
+        "value": 13.781
+      },
+      {
+        "country": "MMR",
+        "value": 0.796
+      },
+      {
+        "country": "MRT",
+        "value": 10.052
+      },
+      {
+        "country": "NAM",
+        "value": 18.896
+      },
+      {
+        "country": "NGA",
+        "value": 3.79
+      },
+      {
+        "country": "NIC",
+        "value": 7.809
+      },
+      {
+        "country": "NPL",
+        "value": 10.473
+      },
+      {
+        "country": "PAK",
+        "value": 0.587
+      },
+      {
+        "country": "PNG",
+        "value": 2.608
+      },
+      {
+        "country": "PSE",
+        "value": 10.692
+      },
+      {
+        "country": "SEN",
+        "value": 2.928
+      },
+      {
+        "country": "SLB",
+        "value": 1.851
+      },
+      {
+        "country": "STP",
+        "value": 14.65
+      },
+      {
+        "country": "SWZ",
+        "value": 20.947
+      },
+      {
+        "country": "TGO",
+        "value": 4.209
+      },
+      {
+        "country": "TJK",
+        "value": 1.85
+      },
+      {
+        "country": "TLS",
+        "value": 3.36
+      },
+      {
+        "country": "TUN",
+        "value": 15.598
+      },
+      {
+        "country": "TZA",
+        "value": 3.683
+      },
+      {
+        "country": "UZB",
+        "value": 2.9
+      },
+      {
+        "country": "VEN",
+        "value": 7.69
+      },
+      {
+        "country": "VUT",
+        "value": 7.945
+      },
+      {
+        "country": "ZMB",
+        "value": 19.568
+      },
+      {
+        "country": "ZWE",
+        "value": 4.933
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1993,
+    "value": 5.112,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 17.44
+      },
+      {
+        "country": "BEN",
+        "value": 1.494
+      },
+      {
+        "country": "BGD",
+        "value": 2.31
+      },
+      {
+        "country": "BOL",
+        "value": 3.05
+      },
+      {
+        "country": "BTN",
+        "value": 1.418
+      },
+      {
+        "country": "CIV",
+        "value": 5.869
+      },
+      {
+        "country": "CMR",
+        "value": 9.154
+      },
+      {
+        "country": "COG",
+        "value": 19.99
+      },
+      {
+        "country": "COM",
+        "value": 4.571
+      },
+      {
+        "country": "DJI",
+        "value": 27.253
+      },
+      {
+        "country": "EGY",
+        "value": 10.92
+      },
+      {
+        "country": "GHA",
+        "value": 5.231
+      },
+      {
+        "country": "GIN",
+        "value": 4.561
+      },
+      {
+        "country": "HND",
+        "value": 3.098
+      },
+      {
+        "country": "HTI",
+        "value": 7.534
+      },
+      {
+        "country": "IND",
+        "value": 7.662
+      },
+      {
+        "country": "KEN",
+        "value": 2.979
+      },
+      {
+        "country": "KGZ",
+        "value": 1.258
+      },
+      {
+        "country": "KHM",
+        "value": 0.733
+      },
+      {
+        "country": "LAO",
+        "value": 2.732
+      },
+      {
+        "country": "LBN",
+        "value": 8.226
+      },
+      {
+        "country": "LSO",
+        "value": 15.568
+      },
+      {
+        "country": "MAR",
+        "value": 14.026
+      },
+      {
+        "country": "MMR",
+        "value": 0.779
+      },
+      {
+        "country": "MRT",
+        "value": 9.85
+      },
+      {
+        "country": "NAM",
+        "value": 19.078
+      },
+      {
+        "country": "NGA",
+        "value": 4.023
+      },
+      {
+        "country": "NIC",
+        "value": 7.833
+      },
+      {
+        "country": "NPL",
+        "value": 10.492
+      },
+      {
+        "country": "PAK",
+        "value": 0.596
+      },
+      {
+        "country": "PNG",
+        "value": 2.382
+      },
+      {
+        "country": "PSE",
+        "value": 10.705
+      },
+      {
+        "country": "SEN",
+        "value": 2.878
+      },
+      {
+        "country": "SLB",
+        "value": 1.829
+      },
+      {
+        "country": "STP",
+        "value": 14.46
+      },
+      {
+        "country": "SWZ",
+        "value": 21.76
+      },
+      {
+        "country": "TGO",
+        "value": 4.507
+      },
+      {
+        "country": "TJK",
+        "value": 2.65
+      },
+      {
+        "country": "TLS",
+        "value": 3.273
+      },
+      {
+        "country": "TUN",
+        "value": 15.948
+      },
+      {
+        "country": "TZA",
+        "value": 3.892
+      },
+      {
+        "country": "UZB",
+        "value": 4.9
+      },
+      {
+        "country": "VEN",
+        "value": 6.6
+      },
+      {
+        "country": "VUT",
+        "value": 8.262
+      },
+      {
+        "country": "ZMB",
+        "value": 19.7
+      },
+      {
+        "country": "ZWE",
+        "value": 4.993
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1994,
+    "value": 5.473000000000001,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 17.444
+      },
+      {
+        "country": "BEN",
+        "value": 1.453
+      },
+      {
+        "country": "BGD",
+        "value": 2.37
+      },
+      {
+        "country": "BOL",
+        "value": 3.08
+      },
+      {
+        "country": "BTN",
+        "value": 1.405
+      },
+      {
+        "country": "CIV",
+        "value": 5.046
+      },
+      {
+        "country": "CMR",
+        "value": 8.878
+      },
+      {
+        "country": "COG",
+        "value": 20.269
+      },
+      {
+        "country": "COM",
+        "value": 4.566
+      },
+      {
+        "country": "DJI",
+        "value": 27.118
+      },
+      {
+        "country": "EGY",
+        "value": 10.93
+      },
+      {
+        "country": "GHA",
+        "value": 5.9
+      },
+      {
+        "country": "GIN",
+        "value": 4.527
+      },
+      {
+        "country": "HND",
+        "value": 3.138
+      },
+      {
+        "country": "HTI",
+        "value": 7.858
+      },
+      {
+        "country": "IND",
+        "value": 7.593
+      },
+      {
+        "country": "KEN",
+        "value": 2.955
+      },
+      {
+        "country": "KGZ",
+        "value": 1.41
+      },
+      {
+        "country": "KHM",
+        "value": 0.996
+      },
+      {
+        "country": "LAO",
+        "value": 2.634
+      },
+      {
+        "country": "LBN",
+        "value": 8.321
+      },
+      {
+        "country": "LSO",
+        "value": 15.62
+      },
+      {
+        "country": "MAR",
+        "value": 13.858
+      },
+      {
+        "country": "MMR",
+        "value": 0.739
+      },
+      {
+        "country": "MRT",
+        "value": 9.979
+      },
+      {
+        "country": "NAM",
+        "value": 19.4
+      },
+      {
+        "country": "NGA",
+        "value": 4.064
+      },
+      {
+        "country": "NIC",
+        "value": 7.668
+      },
+      {
+        "country": "NPL",
+        "value": 10.458
+      },
+      {
+        "country": "PAK",
+        "value": 0.601
+      },
+      {
+        "country": "PNG",
+        "value": 2.418
+      },
+      {
+        "country": "PSE",
+        "value": 10.778
+      },
+      {
+        "country": "SEN",
+        "value": 2.947
+      },
+      {
+        "country": "SLB",
+        "value": 1.804
+      },
+      {
+        "country": "STP",
+        "value": 14.41
+      },
+      {
+        "country": "SWZ",
+        "value": 21.726
+      },
+      {
+        "country": "TGO",
+        "value": 4.201
+      },
+      {
+        "country": "TJK",
+        "value": 3.15
+      },
+      {
+        "country": "TLS",
+        "value": 3.309
+      },
+      {
+        "country": "TUN",
+        "value": 16.006
+      },
+      {
+        "country": "TZA",
+        "value": 3.861
+      },
+      {
+        "country": "UZB",
+        "value": 7.3
+      },
+      {
+        "country": "VEN",
+        "value": 8.56
+      },
+      {
+        "country": "VUT",
+        "value": 8.083
+      },
+      {
+        "country": "ZMB",
+        "value": 18.689
+      },
+      {
+        "country": "ZWE",
+        "value": 4.96
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1995,
+    "value": 6.025,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.978
+      },
+      {
+        "country": "BEN",
+        "value": 1.305
+      },
+      {
+        "country": "BGD",
+        "value": 2.441
+      },
+      {
+        "country": "BOL",
+        "value": 2.664
+      },
+      {
+        "country": "BTN",
+        "value": 1.4
+      },
+      {
+        "country": "CIV",
+        "value": 4.1
+      },
+      {
+        "country": "CMR",
+        "value": 8.598
+      },
+      {
+        "country": "COG",
+        "value": 20.226
+      },
+      {
+        "country": "COM",
+        "value": 4.675
+      },
+      {
+        "country": "DJI",
+        "value": 27.303
+      },
+      {
+        "country": "EGY",
+        "value": 11.04
+      },
+      {
+        "country": "GHA",
+        "value": 6.484
+      },
+      {
+        "country": "GIN",
+        "value": 4.494
+      },
+      {
+        "country": "HND",
+        "value": 3.24
+      },
+      {
+        "country": "HTI",
+        "value": 7.51
+      },
+      {
+        "country": "IND",
+        "value": 7.57
+      },
+      {
+        "country": "KEN",
+        "value": 2.848
+      },
+      {
+        "country": "KGZ",
+        "value": 1.539
+      },
+      {
+        "country": "KHM",
+        "value": 0.973
+      },
+      {
+        "country": "LAO",
+        "value": 2.6
+      },
+      {
+        "country": "LBN",
+        "value": 8.421
+      },
+      {
+        "country": "LSO",
+        "value": 15.797
+      },
+      {
+        "country": "MAR",
+        "value": 14.054
+      },
+      {
+        "country": "MMR",
+        "value": 0.754
+      },
+      {
+        "country": "MRT",
+        "value": 9.766
+      },
+      {
+        "country": "NAM",
+        "value": 21.34
+      },
+      {
+        "country": "NGA",
+        "value": 4.152
+      },
+      {
+        "country": "NIC",
+        "value": 7.414
+      },
+      {
+        "country": "NPL",
+        "value": 10.473
+      },
+      {
+        "country": "PAK",
+        "value": 0.611
+      },
+      {
+        "country": "PNG",
+        "value": 2.603
+      },
+      {
+        "country": "PSE",
+        "value": 10.714
+      },
+      {
+        "country": "SEN",
+        "value": 2.846
+      },
+      {
+        "country": "SLB",
+        "value": 1.841
+      },
+      {
+        "country": "STP",
+        "value": 14.342
+      },
+      {
+        "country": "SWZ",
+        "value": 21.65
+      },
+      {
+        "country": "TGO",
+        "value": 3.99
+      },
+      {
+        "country": "TJK",
+        "value": 3.45
+      },
+      {
+        "country": "TLS",
+        "value": 3.348
+      },
+      {
+        "country": "TUN",
+        "value": 16.348
+      },
+      {
+        "country": "TZA",
+        "value": 3.672
+      },
+      {
+        "country": "UZB",
+        "value": 7.8
+      },
+      {
+        "country": "VEN",
+        "value": 10.24
+      },
+      {
+        "country": "VUT",
+        "value": 8.134
+      },
+      {
+        "country": "ZMB",
+        "value": 16.834
+      },
+      {
+        "country": "ZWE",
+        "value": 5.566
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1996,
+    "value": 6.621,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.177
+      },
+      {
+        "country": "BEN",
+        "value": 1.246
+      },
+      {
+        "country": "BGD",
+        "value": 2.51
+      },
+      {
+        "country": "BOL",
+        "value": 2.375
+      },
+      {
+        "country": "BTN",
+        "value": 1.392
+      },
+      {
+        "country": "CIV",
+        "value": 4.039
+      },
+      {
+        "country": "CMR",
+        "value": 8.06
+      },
+      {
+        "country": "COG",
+        "value": 20.049
+      },
+      {
+        "country": "COM",
+        "value": 4.774
+      },
+      {
+        "country": "DJI",
+        "value": 27.172
+      },
+      {
+        "country": "EGY",
+        "value": 9
+      },
+      {
+        "country": "GHA",
+        "value": 7.091
+      },
+      {
+        "country": "GIN",
+        "value": 4.509
+      },
+      {
+        "country": "HND",
+        "value": 4.37
+      },
+      {
+        "country": "HTI",
+        "value": 7.304
+      },
+      {
+        "country": "IND",
+        "value": 7.537
+      },
+      {
+        "country": "KEN",
+        "value": 2.773
+      },
+      {
+        "country": "KGZ",
+        "value": 1.647
+      },
+      {
+        "country": "KHM",
+        "value": 0.963
+      },
+      {
+        "country": "LAO",
+        "value": 2.45
+      },
+      {
+        "country": "LBN",
+        "value": 8.413
+      },
+      {
+        "country": "LSO",
+        "value": 15.709
+      },
+      {
+        "country": "MAR",
+        "value": 13.362
+      },
+      {
+        "country": "MMR",
+        "value": 0.753
+      },
+      {
+        "country": "MRT",
+        "value": 9.764
+      },
+      {
+        "country": "NAM",
+        "value": 22.844
+      },
+      {
+        "country": "NGA",
+        "value": 4.043
+      },
+      {
+        "country": "NIC",
+        "value": 7.12
+      },
+      {
+        "country": "NPL",
+        "value": 10.446
+      },
+      {
+        "country": "PAK",
+        "value": 0.6
+      },
+      {
+        "country": "PNG",
+        "value": 2.728
+      },
+      {
+        "country": "PSE",
+        "value": 10.726
+      },
+      {
+        "country": "SEN",
+        "value": 2.831
+      },
+      {
+        "country": "SLB",
+        "value": 1.875
+      },
+      {
+        "country": "STP",
+        "value": 14.33
+      },
+      {
+        "country": "SWZ",
+        "value": 22.074
+      },
+      {
+        "country": "TGO",
+        "value": 3.606
+      },
+      {
+        "country": "TJK",
+        "value": 4.05
+      },
+      {
+        "country": "TLS",
+        "value": 3.372
+      },
+      {
+        "country": "TUN",
+        "value": 16.061
+      },
+      {
+        "country": "TZA",
+        "value": 3.475
+      },
+      {
+        "country": "UZB",
+        "value": 10.7
+      },
+      {
+        "country": "VEN",
+        "value": 11.77
+      },
+      {
+        "country": "VUT",
+        "value": 8.091
+      },
+      {
+        "country": "ZMB",
+        "value": 15.3
+      },
+      {
+        "country": "ZWE",
+        "value": 6.151
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1997,
+    "value": 6.9665,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.064
+      },
+      {
+        "country": "BEN",
+        "value": 1.1
+      },
+      {
+        "country": "BGD",
+        "value": 2.698
+      },
+      {
+        "country": "BOL",
+        "value": 2.08
+      },
+      {
+        "country": "BTN",
+        "value": 1.393
+      },
+      {
+        "country": "CIV",
+        "value": 3.964
+      },
+      {
+        "country": "CMR",
+        "value": 7.859
+      },
+      {
+        "country": "COG",
+        "value": 19.886
+      },
+      {
+        "country": "COM",
+        "value": 4.561
+      },
+      {
+        "country": "DJI",
+        "value": 27.176
+      },
+      {
+        "country": "EGY",
+        "value": 8.37
+      },
+      {
+        "country": "GHA",
+        "value": 7.639
+      },
+      {
+        "country": "GIN",
+        "value": 4.477
+      },
+      {
+        "country": "HND",
+        "value": 3.32
+      },
+      {
+        "country": "HTI",
+        "value": 7.003
+      },
+      {
+        "country": "IND",
+        "value": 7.574
+      },
+      {
+        "country": "KEN",
+        "value": 2.818
+      },
+      {
+        "country": "KGZ",
+        "value": 1.739
+      },
+      {
+        "country": "KHM",
+        "value": 0.638
+      },
+      {
+        "country": "LAO",
+        "value": 2.354
+      },
+      {
+        "country": "LBN",
+        "value": 8.62
+      },
+      {
+        "country": "LSO",
+        "value": 15.822
+      },
+      {
+        "country": "MAR",
+        "value": 14.025
+      },
+      {
+        "country": "MMR",
+        "value": 0.764
+      },
+      {
+        "country": "MRT",
+        "value": 9.788
+      },
+      {
+        "country": "NAM",
+        "value": 24.45
+      },
+      {
+        "country": "NGA",
+        "value": 3.964
+      },
+      {
+        "country": "NIC",
+        "value": 7.1
+      },
+      {
+        "country": "NPL",
+        "value": 10.512
+      },
+      {
+        "country": "PAK",
+        "value": 0.611
+      },
+      {
+        "country": "PNG",
+        "value": 2.854
+      },
+      {
+        "country": "PSE",
+        "value": 10.522
+      },
+      {
+        "country": "SEN",
+        "value": 2.759
+      },
+      {
+        "country": "SLB",
+        "value": 2.009
+      },
+      {
+        "country": "STP",
+        "value": 14.414
+      },
+      {
+        "country": "SWZ",
+        "value": 22.5
+      },
+      {
+        "country": "TGO",
+        "value": 3.618
+      },
+      {
+        "country": "TJK",
+        "value": 4.15
+      },
+      {
+        "country": "TLS",
+        "value": 3.406
+      },
+      {
+        "country": "TUN",
+        "value": 15.94
+      },
+      {
+        "country": "TZA",
+        "value": 3.342
+      },
+      {
+        "country": "UZB",
+        "value": 10.9
+      },
+      {
+        "country": "VEN",
+        "value": 11.16
+      },
+      {
+        "country": "VUT",
+        "value": 8.221
+      },
+      {
+        "country": "ZMB",
+        "value": 13.273
+      },
+      {
+        "country": "ZWE",
+        "value": 6.93
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1998,
+    "value": 6.773,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.29
+      },
+      {
+        "country": "BEN",
+        "value": 1.048
+      },
+      {
+        "country": "BGD",
+        "value": 2.893
+      },
+      {
+        "country": "BOL",
+        "value": 2.121
+      },
+      {
+        "country": "BTN",
+        "value": 1.4
+      },
+      {
+        "country": "CIV",
+        "value": 4.1
+      },
+      {
+        "country": "CMR",
+        "value": 7.695
+      },
+      {
+        "country": "COG",
+        "value": 19.898
+      },
+      {
+        "country": "COM",
+        "value": 4.614
+      },
+      {
+        "country": "DJI",
+        "value": 27.027
+      },
+      {
+        "country": "EGY",
+        "value": 8.03
+      },
+      {
+        "country": "GHA",
+        "value": 8.2
+      },
+      {
+        "country": "GIN",
+        "value": 4.501
+      },
+      {
+        "country": "HND",
+        "value": 4.02
+      },
+      {
+        "country": "HTI",
+        "value": 7.165
+      },
+      {
+        "country": "IND",
+        "value": 7.596
+      },
+      {
+        "country": "KEN",
+        "value": 2.843
+      },
+      {
+        "country": "KGZ",
+        "value": 1.861
+      },
+      {
+        "country": "KHM",
+        "value": 0.712
+      },
+      {
+        "country": "LAO",
+        "value": 2.293
+      },
+      {
+        "country": "LBN",
+        "value": 8.571
+      },
+      {
+        "country": "LSO",
+        "value": 15.913
+      },
+      {
+        "country": "MAR",
+        "value": 13.359
+      },
+      {
+        "country": "MMR",
+        "value": 0.772
+      },
+      {
+        "country": "MRT",
+        "value": 9.975
+      },
+      {
+        "country": "NAM",
+        "value": 23.083
+      },
+      {
+        "country": "NGA",
+        "value": 3.922
+      },
+      {
+        "country": "NIC",
+        "value": 7.203
+      },
+      {
+        "country": "NPL",
+        "value": 10.526
+      },
+      {
+        "country": "PAK",
+        "value": 0.62
+      },
+      {
+        "country": "PNG",
+        "value": 2.86
+      },
+      {
+        "country": "PSE",
+        "value": 10.451
+      },
+      {
+        "country": "SEN",
+        "value": 2.751
+      },
+      {
+        "country": "SLB",
+        "value": 2.155
+      },
+      {
+        "country": "STP",
+        "value": 14.398
+      },
+      {
+        "country": "SWZ",
+        "value": 23.214
+      },
+      {
+        "country": "TGO",
+        "value": 3.78
+      },
+      {
+        "country": "TJK",
+        "value": 4.65
+      },
+      {
+        "country": "TLS",
+        "value": 3.5
+      },
+      {
+        "country": "TUN",
+        "value": 15.473
+      },
+      {
+        "country": "TZA",
+        "value": 3.283
+      },
+      {
+        "country": "UZB",
+        "value": 13.3
+      },
+      {
+        "country": "VEN",
+        "value": 11.15
+      },
+      {
+        "country": "VUT",
+        "value": 8.223
+      },
+      {
+        "country": "ZMB",
+        "value": 12
+      },
+      {
+        "country": "ZWE",
+        "value": 6.381
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 1999,
+    "value": 6.59,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.543
+      },
+      {
+        "country": "BEN",
+        "value": 0.949
+      },
+      {
+        "country": "BGD",
+        "value": 3.088
+      },
+      {
+        "country": "BOL",
+        "value": 2.299
+      },
+      {
+        "country": "BTN",
+        "value": 1.4
+      },
+      {
+        "country": "CIV",
+        "value": 4.421
+      },
+      {
+        "country": "CMR",
+        "value": 7.595
+      },
+      {
+        "country": "COG",
+        "value": 20.141
+      },
+      {
+        "country": "COM",
+        "value": 4.544
+      },
+      {
+        "country": "DJI",
+        "value": 26.742
+      },
+      {
+        "country": "EGY",
+        "value": 7.95
+      },
+      {
+        "country": "GHA",
+        "value": 10.1
+      },
+      {
+        "country": "GIN",
+        "value": 4.517
+      },
+      {
+        "country": "HND",
+        "value": 3.85
+      },
+      {
+        "country": "HTI",
+        "value": 7.2
+      },
+      {
+        "country": "IND",
+        "value": 7.583
+      },
+      {
+        "country": "KEN",
+        "value": 2.884
+      },
+      {
+        "country": "KGZ",
+        "value": 2.001
+      },
+      {
+        "country": "KHM",
+        "value": 0.727
+      },
+      {
+        "country": "LAO",
+        "value": 2.154
+      },
+      {
+        "country": "LBN",
+        "value": 8.787
+      },
+      {
+        "country": "LSO",
+        "value": 16.167
+      },
+      {
+        "country": "MAR",
+        "value": 13.94
+      },
+      {
+        "country": "MMR",
+        "value": 0.75
+      },
+      {
+        "country": "MRT",
+        "value": 10.033
+      },
+      {
+        "country": "NAM",
+        "value": 21.668
+      },
+      {
+        "country": "NGA",
+        "value": 3.986
+      },
+      {
+        "country": "NIC",
+        "value": 7.18
+      },
+      {
+        "country": "NPL",
+        "value": 10.549
+      },
+      {
+        "country": "PAK",
+        "value": 0.625
+      },
+      {
+        "country": "PNG",
+        "value": 2.939
+      },
+      {
+        "country": "PSE",
+        "value": 10.382
+      },
+      {
+        "country": "SEN",
+        "value": 2.655
+      },
+      {
+        "country": "SLB",
+        "value": 2.194
+      },
+      {
+        "country": "STP",
+        "value": 14.352
+      },
+      {
+        "country": "SWZ",
+        "value": 23.868
+      },
+      {
+        "country": "TGO",
+        "value": 3.889
+      },
+      {
+        "country": "TJK",
+        "value": 4.45
+      },
+      {
+        "country": "TLS",
+        "value": 3.633
+      },
+      {
+        "country": "TUN",
+        "value": 15.21
+      },
+      {
+        "country": "TZA",
+        "value": 3.219
+      },
+      {
+        "country": "UZB",
+        "value": 13.3
+      },
+      {
+        "country": "VEN",
+        "value": 14.53
+      },
+      {
+        "country": "VUT",
+        "value": 8.29
+      },
+      {
+        "country": "ZMB",
+        "value": 12.498
+      },
+      {
+        "country": "ZWE",
+        "value": 6
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2000,
+    "value": 6.433,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.646
+      },
+      {
+        "country": "BEN",
+        "value": 0.864
+      },
+      {
+        "country": "BGD",
+        "value": 3.27
+      },
+      {
+        "country": "BOL",
+        "value": 2.439
+      },
+      {
+        "country": "BTN",
+        "value": 1.655
+      },
+      {
+        "country": "CIV",
+        "value": 4.835
+      },
+      {
+        "country": "CMR",
+        "value": 7.533
+      },
+      {
+        "country": "COG",
+        "value": 19.872
+      },
+      {
+        "country": "COM",
+        "value": 4.4
+      },
+      {
+        "country": "DJI",
+        "value": 26.664
+      },
+      {
+        "country": "EGY",
+        "value": 8.98
+      },
+      {
+        "country": "GHA",
+        "value": 10.456
+      },
+      {
+        "country": "GIN",
+        "value": 4.586
+      },
+      {
+        "country": "HND",
+        "value": 3.883
+      },
+      {
+        "country": "HTI",
+        "value": 8.443
+      },
+      {
+        "country": "IND",
+        "value": 7.589
+      },
+      {
+        "country": "KEN",
+        "value": 2.884
+      },
+      {
+        "country": "KGZ",
+        "value": 2.143
+      },
+      {
+        "country": "KHM",
+        "value": 0.745
+      },
+      {
+        "country": "LAO",
+        "value": 2.045
+      },
+      {
+        "country": "LBN",
+        "value": 8.641
+      },
+      {
+        "country": "LSO",
+        "value": 16.169
+      },
+      {
+        "country": "MAR",
+        "value": 13.58
+      },
+      {
+        "country": "MMR",
+        "value": 0.712
+      },
+      {
+        "country": "MRT",
+        "value": 10.03
+      },
+      {
+        "country": "NAM",
+        "value": 20.3
+      },
+      {
+        "country": "NGA",
+        "value": 3.953
+      },
+      {
+        "country": "NIC",
+        "value": 7.181
+      },
+      {
+        "country": "NPL",
+        "value": 10.531
+      },
+      {
+        "country": "PAK",
+        "value": 0.614
+      },
+      {
+        "country": "PNG",
+        "value": 2.92
+      },
+      {
+        "country": "PSE",
+        "value": 10.625
+      },
+      {
+        "country": "SEN",
+        "value": 2.638
+      },
+      {
+        "country": "SLB",
+        "value": 2.446
+      },
+      {
+        "country": "STP",
+        "value": 14.4
+      },
+      {
+        "country": "SWZ",
+        "value": 24.547
+      },
+      {
+        "country": "TGO",
+        "value": 4.162
+      },
+      {
+        "country": "TJK",
+        "value": 4.15
+      },
+      {
+        "country": "TLS",
+        "value": 3.529
+      },
+      {
+        "country": "TUN",
+        "value": 14.94
+      },
+      {
+        "country": "TZA",
+        "value": 3.129
+      },
+      {
+        "country": "UZB",
+        "value": 12.301
+      },
+      {
+        "country": "VEN",
+        "value": 13.99
+      },
+      {
+        "country": "VUT",
+        "value": 8.266
+      },
+      {
+        "country": "ZMB",
+        "value": 12.93
+      },
+      {
+        "country": "ZWE",
+        "value": 5.685
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2001,
+    "value": 6.2675,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.668
+      },
+      {
+        "country": "BEN",
+        "value": 0.766
+      },
+      {
+        "country": "BGD",
+        "value": 3.609
+      },
+      {
+        "country": "BOL",
+        "value": 2.623
+      },
+      {
+        "country": "BTN",
+        "value": 1.9
+      },
+      {
+        "country": "CIV",
+        "value": 5.195
+      },
+      {
+        "country": "CMR",
+        "value": 7.46
+      },
+      {
+        "country": "COG",
+        "value": 19.88
+      },
+      {
+        "country": "COM",
+        "value": 4.379
+      },
+      {
+        "country": "DJI",
+        "value": 26.597
+      },
+      {
+        "country": "EGY",
+        "value": 9.26
+      },
+      {
+        "country": "GHA",
+        "value": 9.615
+      },
+      {
+        "country": "GIN",
+        "value": 4.584
+      },
+      {
+        "country": "HND",
+        "value": 4
+      },
+      {
+        "country": "HTI",
+        "value": 9.728
+      },
+      {
+        "country": "IND",
+        "value": 7.611
+      },
+      {
+        "country": "KEN",
+        "value": 2.876
+      },
+      {
+        "country": "KGZ",
+        "value": 2.273
+      },
+      {
+        "country": "KHM",
+        "value": 0.778
+      },
+      {
+        "country": "LAO",
+        "value": 1.881
+      },
+      {
+        "country": "LBN",
+        "value": 8.499
+      },
+      {
+        "country": "LSO",
+        "value": 16.081
+      },
+      {
+        "country": "MAR",
+        "value": 12.46
+      },
+      {
+        "country": "MMR",
+        "value": 0.689
+      },
+      {
+        "country": "MRT",
+        "value": 10.132
+      },
+      {
+        "country": "NAM",
+        "value": 21.009
+      },
+      {
+        "country": "NGA",
+        "value": 3.9
+      },
+      {
+        "country": "NIC",
+        "value": 7.222
+      },
+      {
+        "country": "NPL",
+        "value": 10.502
+      },
+      {
+        "country": "PAK",
+        "value": 0.611
+      },
+      {
+        "country": "PNG",
+        "value": 2.801
+      },
+      {
+        "country": "PSE",
+        "value": 21.493
+      },
+      {
+        "country": "SEN",
+        "value": 2.674
+      },
+      {
+        "country": "SLB",
+        "value": 2.642
+      },
+      {
+        "country": "STP",
+        "value": 15.73
+      },
+      {
+        "country": "SWZ",
+        "value": 25.24
+      },
+      {
+        "country": "TGO",
+        "value": 4.108
+      },
+      {
+        "country": "TJK",
+        "value": 3.75
+      },
+      {
+        "country": "TLS",
+        "value": 3.386
+      },
+      {
+        "country": "TUN",
+        "value": 14.4
+      },
+      {
+        "country": "TZA",
+        "value": 2.994
+      },
+      {
+        "country": "UZB",
+        "value": 11.279
+      },
+      {
+        "country": "VEN",
+        "value": 13.04
+      },
+      {
+        "country": "VUT",
+        "value": 8.415
+      },
+      {
+        "country": "ZMB",
+        "value": 13.404
+      },
+      {
+        "country": "ZWE",
+        "value": 5.313
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2002,
+    "value": 6.109500000000001,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.432
+      },
+      {
+        "country": "BEN",
+        "value": 0.69
+      },
+      {
+        "country": "BGD",
+        "value": 3.966
+      },
+      {
+        "country": "BOL",
+        "value": 2.603
+      },
+      {
+        "country": "BTN",
+        "value": 1.854
+      },
+      {
+        "country": "CIV",
+        "value": 5.508
+      },
+      {
+        "country": "CMR",
+        "value": 6.711
+      },
+      {
+        "country": "COG",
+        "value": 19.644
+      },
+      {
+        "country": "COM",
+        "value": 4.372
+      },
+      {
+        "country": "DJI",
+        "value": 26.589
+      },
+      {
+        "country": "EGY",
+        "value": 10.01
+      },
+      {
+        "country": "GHA",
+        "value": 8.711
+      },
+      {
+        "country": "GIN",
+        "value": 4.549
+      },
+      {
+        "country": "HND",
+        "value": 4.02
+      },
+      {
+        "country": "HTI",
+        "value": 11.008
+      },
+      {
+        "country": "IND",
+        "value": 7.681
+      },
+      {
+        "country": "KEN",
+        "value": 2.916
+      },
+      {
+        "country": "KGZ",
+        "value": 2.416
+      },
+      {
+        "country": "KHM",
+        "value": 0.862
+      },
+      {
+        "country": "LAO",
+        "value": 1.775
+      },
+      {
+        "country": "LBN",
+        "value": 8.248
+      },
+      {
+        "country": "LSO",
+        "value": 16.079
+      },
+      {
+        "country": "MAR",
+        "value": 11.59
+      },
+      {
+        "country": "MMR",
+        "value": 0.685
+      },
+      {
+        "country": "MRT",
+        "value": 10.201
+      },
+      {
+        "country": "NAM",
+        "value": 21.538
+      },
+      {
+        "country": "NGA",
+        "value": 3.669
+      },
+      {
+        "country": "NIC",
+        "value": 7.517
+      },
+      {
+        "country": "NPL",
+        "value": 10.593
+      },
+      {
+        "country": "PAK",
+        "value": 0.615
+      },
+      {
+        "country": "PNG",
+        "value": 2.756
+      },
+      {
+        "country": "PSE",
+        "value": 27.465
+      },
+      {
+        "country": "SEN",
+        "value": 2.82
+      },
+      {
+        "country": "SLB",
+        "value": 2.698
+      },
+      {
+        "country": "STP",
+        "value": 17.63
+      },
+      {
+        "country": "SWZ",
+        "value": 25.771
+      },
+      {
+        "country": "TGO",
+        "value": 4.087
+      },
+      {
+        "country": "TJK",
+        "value": 3.95
+      },
+      {
+        "country": "TLS",
+        "value": 3.371
+      },
+      {
+        "country": "TUN",
+        "value": 14.55
+      },
+      {
+        "country": "TZA",
+        "value": 3.023
+      },
+      {
+        "country": "UZB",
+        "value": 10.256
+      },
+      {
+        "country": "VEN",
+        "value": 16.17
+      },
+      {
+        "country": "VUT",
+        "value": 8.598
+      },
+      {
+        "country": "ZMB",
+        "value": 14.131
+      },
+      {
+        "country": "ZWE",
+        "value": 5.005
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2003,
+    "value": 5.8775,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.445
+      },
+      {
+        "country": "BEN",
+        "value": 0.747
+      },
+      {
+        "country": "BGD",
+        "value": 4.32
+      },
+      {
+        "country": "BOL",
+        "value": 2.654
+      },
+      {
+        "country": "BTN",
+        "value": 1.8
+      },
+      {
+        "country": "CIV",
+        "value": 5.847
+      },
+      {
+        "country": "CMR",
+        "value": 5.908
+      },
+      {
+        "country": "COG",
+        "value": 19.877
+      },
+      {
+        "country": "COM",
+        "value": 4.559
+      },
+      {
+        "country": "DJI",
+        "value": 26.484
+      },
+      {
+        "country": "EGY",
+        "value": 10.91
+      },
+      {
+        "country": "GHA",
+        "value": 7.728
+      },
+      {
+        "country": "GIN",
+        "value": 4.628
+      },
+      {
+        "country": "HND",
+        "value": 5.3
+      },
+      {
+        "country": "HTI",
+        "value": 12.151
+      },
+      {
+        "country": "IND",
+        "value": 7.633
+      },
+      {
+        "country": "KEN",
+        "value": 2.869
+      },
+      {
+        "country": "KGZ",
+        "value": 2.548
+      },
+      {
+        "country": "KHM",
+        "value": 0.909
+      },
+      {
+        "country": "LAO",
+        "value": 1.639
+      },
+      {
+        "country": "LBN",
+        "value": 8.061
+      },
+      {
+        "country": "LSO",
+        "value": 16.056
+      },
+      {
+        "country": "MAR",
+        "value": 11.92
+      },
+      {
+        "country": "MMR",
+        "value": 0.686
+      },
+      {
+        "country": "MRT",
+        "value": 9.911
+      },
+      {
+        "country": "NAM",
+        "value": 22.104
+      },
+      {
+        "country": "NGA",
+        "value": 3.637
+      },
+      {
+        "country": "NIC",
+        "value": 7.6
+      },
+      {
+        "country": "NPL",
+        "value": 10.644
+      },
+      {
+        "country": "PAK",
+        "value": 0.612
+      },
+      {
+        "country": "PNG",
+        "value": 2.628
+      },
+      {
+        "country": "PSE",
+        "value": 23.004
+      },
+      {
+        "country": "SEN",
+        "value": 2.781
+      },
+      {
+        "country": "SLB",
+        "value": 2.286
+      },
+      {
+        "country": "STP",
+        "value": 16.36
+      },
+      {
+        "country": "SWZ",
+        "value": 26.259
+      },
+      {
+        "country": "TGO",
+        "value": 3.957
+      },
+      {
+        "country": "TJK",
+        "value": 3.85
+      },
+      {
+        "country": "TLS",
+        "value": 3.54
+      },
+      {
+        "country": "TUN",
+        "value": 14.51
+      },
+      {
+        "country": "TZA",
+        "value": 3.053
+      },
+      {
+        "country": "UZB",
+        "value": 9.22
+      },
+      {
+        "country": "VEN",
+        "value": 16.78
+      },
+      {
+        "country": "VUT",
+        "value": 8.659
+      },
+      {
+        "country": "ZMB",
+        "value": 14.704
+      },
+      {
+        "country": "ZWE",
+        "value": 4.738
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2004,
+    "value": 5.952500000000001,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.313
+      },
+      {
+        "country": "BEN",
+        "value": 0.79
+      },
+      {
+        "country": "BGD",
+        "value": 4.316
+      },
+      {
+        "country": "BOL",
+        "value": 2.615
+      },
+      {
+        "country": "BTN",
+        "value": 2.49
+      },
+      {
+        "country": "CIV",
+        "value": 5.915
+      },
+      {
+        "country": "CMR",
+        "value": 5.087
+      },
+      {
+        "country": "COG",
+        "value": 19.896
+      },
+      {
+        "country": "COM",
+        "value": 4.571
+      },
+      {
+        "country": "DJI",
+        "value": 26.441
+      },
+      {
+        "country": "EGY",
+        "value": 10.32
+      },
+      {
+        "country": "GHA",
+        "value": 6.758
+      },
+      {
+        "country": "GIN",
+        "value": 4.709
+      },
+      {
+        "country": "HND",
+        "value": 5.99
+      },
+      {
+        "country": "HTI",
+        "value": 13.415
+      },
+      {
+        "country": "IND",
+        "value": 7.598
+      },
+      {
+        "country": "KEN",
+        "value": 2.844
+      },
+      {
+        "country": "KGZ",
+        "value": 2.68
+      },
+      {
+        "country": "KHM",
+        "value": 1.004
+      },
+      {
+        "country": "LAO",
+        "value": 1.498
+      },
+      {
+        "country": "LBN",
+        "value": 7.85
+      },
+      {
+        "country": "LSO",
+        "value": 16.154
+      },
+      {
+        "country": "MAR",
+        "value": 10.83
+      },
+      {
+        "country": "MMR",
+        "value": 0.677
+      },
+      {
+        "country": "MRT",
+        "value": 9.77
+      },
+      {
+        "country": "NAM",
+        "value": 22.09
+      },
+      {
+        "country": "NGA",
+        "value": 3.59
+      },
+      {
+        "country": "NIC",
+        "value": 6.41
+      },
+      {
+        "country": "NPL",
+        "value": 10.652
+      },
+      {
+        "country": "PAK",
+        "value": 0.598
+      },
+      {
+        "country": "PNG",
+        "value": 2.526
+      },
+      {
+        "country": "PSE",
+        "value": 23.215
+      },
+      {
+        "country": "SEN",
+        "value": 2.775
+      },
+      {
+        "country": "SLB",
+        "value": 2.026
+      },
+      {
+        "country": "STP",
+        "value": 16.12
+      },
+      {
+        "country": "SWZ",
+        "value": 26.716
+      },
+      {
+        "country": "TGO",
+        "value": 3.992
+      },
+      {
+        "country": "TJK",
+        "value": 3.45
+      },
+      {
+        "country": "TLS",
+        "value": 3.668
+      },
+      {
+        "country": "TUN",
+        "value": 14.23
+      },
+      {
+        "country": "TZA",
+        "value": 3.105
+      },
+      {
+        "country": "UZB",
+        "value": 8.152
+      },
+      {
+        "country": "VEN",
+        "value": 15.07
+      },
+      {
+        "country": "VUT",
+        "value": 8.432
+      },
+      {
+        "country": "ZMB",
+        "value": 15.332
+      },
+      {
+        "country": "ZWE",
+        "value": 4.39
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2005,
+    "value": 5.1395,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.295
+      },
+      {
+        "country": "BEN",
+        "value": 0.859
+      },
+      {
+        "country": "BGD",
+        "value": 4.25
+      },
+      {
+        "country": "BOL",
+        "value": 2.598
+      },
+      {
+        "country": "BTN",
+        "value": 3.1
+      },
+      {
+        "country": "CIV",
+        "value": 6.023
+      },
+      {
+        "country": "CMR",
+        "value": 4.4
+      },
+      {
+        "country": "COG",
+        "value": 19.796
+      },
+      {
+        "country": "COM",
+        "value": 4.527
+      },
+      {
+        "country": "DJI",
+        "value": 26.448
+      },
+      {
+        "country": "EGY",
+        "value": 11.049
+      },
+      {
+        "country": "GHA",
+        "value": 5.816
+      },
+      {
+        "country": "GIN",
+        "value": 4.814
+      },
+      {
+        "country": "HND",
+        "value": 4.909
+      },
+      {
+        "country": "HTI",
+        "value": 14.559
+      },
+      {
+        "country": "IND",
+        "value": 7.551
+      },
+      {
+        "country": "KEN",
+        "value": 2.739
+      },
+      {
+        "country": "KGZ",
+        "value": 2.816
+      },
+      {
+        "country": "KHM",
+        "value": 1.061
+      },
+      {
+        "country": "LAO",
+        "value": 1.35
+      },
+      {
+        "country": "LBN",
+        "value": 8.249
+      },
+      {
+        "country": "LSO",
+        "value": 16.031
+      },
+      {
+        "country": "MAR",
+        "value": 11.01
+      },
+      {
+        "country": "MMR",
+        "value": 0.672
+      },
+      {
+        "country": "MRT",
+        "value": 9.59
+      },
+      {
+        "country": "NAM",
+        "value": 22.108
+      },
+      {
+        "country": "NGA",
+        "value": 3.727
+      },
+      {
+        "country": "NIC",
+        "value": 5.37
+      },
+      {
+        "country": "NPL",
+        "value": 10.59
+      },
+      {
+        "country": "PAK",
+        "value": 0.583
+      },
+      {
+        "country": "PNG",
+        "value": 2.385
+      },
+      {
+        "country": "PSE",
+        "value": 20.016
+      },
+      {
+        "country": "SEN",
+        "value": 2.679
+      },
+      {
+        "country": "SLB",
+        "value": 1.879
+      },
+      {
+        "country": "STP",
+        "value": 16.47
+      },
+      {
+        "country": "SWZ",
+        "value": 27.221
+      },
+      {
+        "country": "TGO",
+        "value": 4.149
+      },
+      {
+        "country": "TJK",
+        "value": 3.45
+      },
+      {
+        "country": "TLS",
+        "value": 3.611
+      },
+      {
+        "country": "TUN",
+        "value": 12.872
+      },
+      {
+        "country": "TZA",
+        "value": 3.193
+      },
+      {
+        "country": "UZB",
+        "value": 7.092
+      },
+      {
+        "country": "VEN",
+        "value": 10.663
+      },
+      {
+        "country": "VUT",
+        "value": 8.121
+      },
+      {
+        "country": "ZMB",
+        "value": 15.9
+      },
+      {
+        "country": "ZWE",
+        "value": 4.632
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2006,
+    "value": 4.880000000000001,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.123
+      },
+      {
+        "country": "BEN",
+        "value": 0.888
+      },
+      {
+        "country": "BGD",
+        "value": 3.591
+      },
+      {
+        "country": "BOL",
+        "value": 2.575
+      },
+      {
+        "country": "BTN",
+        "value": 3.13
+      },
+      {
+        "country": "CIV",
+        "value": 6.017
+      },
+      {
+        "country": "CMR",
+        "value": 3.729
+      },
+      {
+        "country": "COG",
+        "value": 19.563
+      },
+      {
+        "country": "COM",
+        "value": 4.482
+      },
+      {
+        "country": "DJI",
+        "value": 26.382
+      },
+      {
+        "country": "EGY",
+        "value": 10.49
+      },
+      {
+        "country": "GHA",
+        "value": 4.897
+      },
+      {
+        "country": "GIN",
+        "value": 4.863
+      },
+      {
+        "country": "HND",
+        "value": 3.574
+      },
+      {
+        "country": "HTI",
+        "value": 15.866
+      },
+      {
+        "country": "IND",
+        "value": 7.553
+      },
+      {
+        "country": "KEN",
+        "value": 2.673
+      },
+      {
+        "country": "KGZ",
+        "value": 2.962
+      },
+      {
+        "country": "KHM",
+        "value": 1.16
+      },
+      {
+        "country": "LAO",
+        "value": 1.199
+      },
+      {
+        "country": "LBN",
+        "value": 8.679
+      },
+      {
+        "country": "LSO",
+        "value": 16.054
+      },
+      {
+        "country": "MAR",
+        "value": 9.67
+      },
+      {
+        "country": "MMR",
+        "value": 0.676
+      },
+      {
+        "country": "MRT",
+        "value": 9.313
+      },
+      {
+        "country": "NAM",
+        "value": 21.848
+      },
+      {
+        "country": "NGA",
+        "value": 3.749
+      },
+      {
+        "country": "NIC",
+        "value": 5.31
+      },
+      {
+        "country": "NPL",
+        "value": 10.609
+      },
+      {
+        "country": "PAK",
+        "value": 0.582
+      },
+      {
+        "country": "PNG",
+        "value": 2.285
+      },
+      {
+        "country": "PSE",
+        "value": 19.014
+      },
+      {
+        "country": "SEN",
+        "value": 2.755
+      },
+      {
+        "country": "SLB",
+        "value": 1.916
+      },
+      {
+        "country": "STP",
+        "value": 16.65
+      },
+      {
+        "country": "SWZ",
+        "value": 27.693
+      },
+      {
+        "country": "TGO",
+        "value": 4.229
+      },
+      {
+        "country": "TJK",
+        "value": 3.65
+      },
+      {
+        "country": "TLS",
+        "value": 3.634
+      },
+      {
+        "country": "TUN",
+        "value": 12.51
+      },
+      {
+        "country": "TZA",
+        "value": 3.299
+      },
+      {
+        "country": "UZB",
+        "value": 6.035
+      },
+      {
+        "country": "VEN",
+        "value": 8.606
+      },
+      {
+        "country": "VUT",
+        "value": 8.006
+      },
+      {
+        "country": "ZMB",
+        "value": 13.229
+      },
+      {
+        "country": "ZWE",
+        "value": 4.767
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2007,
+    "value": 4.9399999999999995,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.066
+      },
+      {
+        "country": "BEN",
+        "value": 0.902
+      },
+      {
+        "country": "BGD",
+        "value": 4.015
+      },
+      {
+        "country": "BOL",
+        "value": 2.614
+      },
+      {
+        "country": "BTN",
+        "value": 3.7
+      },
+      {
+        "country": "CIV",
+        "value": 6.284
+      },
+      {
+        "country": "CMR",
+        "value": 3.063
+      },
+      {
+        "country": "COG",
+        "value": 19.909
+      },
+      {
+        "country": "COM",
+        "value": 4.474
+      },
+      {
+        "country": "DJI",
+        "value": 26.292
+      },
+      {
+        "country": "EGY",
+        "value": 8.8
+      },
+      {
+        "country": "GHA",
+        "value": 5.104
+      },
+      {
+        "country": "GIN",
+        "value": 4.787
+      },
+      {
+        "country": "HND",
+        "value": 3.211
+      },
+      {
+        "country": "HTI",
+        "value": 16.8
+      },
+      {
+        "country": "IND",
+        "value": 7.562
+      },
+      {
+        "country": "KEN",
+        "value": 2.642
+      },
+      {
+        "country": "KGZ",
+        "value": 3.094
+      },
+      {
+        "country": "KHM",
+        "value": 1.257
+      },
+      {
+        "country": "LAO",
+        "value": 1.068
+      },
+      {
+        "country": "LBN",
+        "value": 8.98
+      },
+      {
+        "country": "LSO",
+        "value": 15.942
+      },
+      {
+        "country": "MAR",
+        "value": 9.56
+      },
+      {
+        "country": "MMR",
+        "value": 0.684
+      },
+      {
+        "country": "MRT",
+        "value": 9.482
+      },
+      {
+        "country": "NAM",
+        "value": 22.12
+      },
+      {
+        "country": "NGA",
+        "value": 3.794
+      },
+      {
+        "country": "NIC",
+        "value": 4.89
+      },
+      {
+        "country": "NPL",
+        "value": 10.642
+      },
+      {
+        "country": "PAK",
+        "value": 0.398
+      },
+      {
+        "country": "PNG",
+        "value": 2.169
+      },
+      {
+        "country": "PSE",
+        "value": 18.282
+      },
+      {
+        "country": "SEN",
+        "value": 2.8
+      },
+      {
+        "country": "SLB",
+        "value": 1.978
+      },
+      {
+        "country": "STP",
+        "value": 16.021
+      },
+      {
+        "country": "SWZ",
+        "value": 28.24
+      },
+      {
+        "country": "TGO",
+        "value": 3.822
+      },
+      {
+        "country": "TJK",
+        "value": 2.874
+      },
+      {
+        "country": "TLS",
+        "value": 3.523
+      },
+      {
+        "country": "TUN",
+        "value": 12.365
+      },
+      {
+        "country": "TZA",
+        "value": 3.023
+      },
+      {
+        "country": "UZB",
+        "value": 4.99
+      },
+      {
+        "country": "VEN",
+        "value": 7.279
+      },
+      {
+        "country": "VUT",
+        "value": 6.855
+      },
+      {
+        "country": "ZMB",
+        "value": 10.559
+      },
+      {
+        "country": "ZWE",
+        "value": 5.008
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2008,
+    "value": 5.043,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.152
+      },
+      {
+        "country": "BEN",
+        "value": 0.895
+      },
+      {
+        "country": "BGD",
+        "value": 4.49
+      },
+      {
+        "country": "BOL",
+        "value": 2.603
+      },
+      {
+        "country": "BTN",
+        "value": 3.848
+      },
+      {
+        "country": "CIV",
+        "value": 6.382
+      },
+      {
+        "country": "CMR",
+        "value": 3.386
+      },
+      {
+        "country": "COG",
+        "value": 19.962
+      },
+      {
+        "country": "COM",
+        "value": 4.416
+      },
+      {
+        "country": "DJI",
+        "value": 26.183
+      },
+      {
+        "country": "EGY",
+        "value": 8.517
+      },
+      {
+        "country": "GHA",
+        "value": 5.144
+      },
+      {
+        "country": "GIN",
+        "value": 4.803
+      },
+      {
+        "country": "HND",
+        "value": 3.156
+      },
+      {
+        "country": "HTI",
+        "value": 16.204
+      },
+      {
+        "country": "IND",
+        "value": 7.629
+      },
+      {
+        "country": "KEN",
+        "value": 2.751
+      },
+      {
+        "country": "KGZ",
+        "value": 3.207
+      },
+      {
+        "country": "KHM",
+        "value": 0.825
+      },
+      {
+        "country": "LAO",
+        "value": 0.944
+      },
+      {
+        "country": "LBN",
+        "value": 7.666
+      },
+      {
+        "country": "LSO",
+        "value": 15.851
+      },
+      {
+        "country": "MAR",
+        "value": 9.57
+      },
+      {
+        "country": "MMR",
+        "value": 0.7
+      },
+      {
+        "country": "MRT",
+        "value": 9.715
+      },
+      {
+        "country": "NAM",
+        "value": 22.005
+      },
+      {
+        "country": "NGA",
+        "value": 3.792
+      },
+      {
+        "country": "NIC",
+        "value": 6.2
+      },
+      {
+        "country": "NPL",
+        "value": 10.597
+      },
+      {
+        "country": "PAK",
+        "value": 0.423
+      },
+      {
+        "country": "PNG",
+        "value": 2.168
+      },
+      {
+        "country": "PSE",
+        "value": 22.913
+      },
+      {
+        "country": "SEN",
+        "value": 2.816
+      },
+      {
+        "country": "SLB",
+        "value": 1.998
+      },
+      {
+        "country": "STP",
+        "value": 15.421
+      },
+      {
+        "country": "SWZ",
+        "value": 27.891
+      },
+      {
+        "country": "TGO",
+        "value": 3.279
+      },
+      {
+        "country": "TJK",
+        "value": 4.942
+      },
+      {
+        "country": "TLS",
+        "value": 3.434
+      },
+      {
+        "country": "TUN",
+        "value": 12.444
+      },
+      {
+        "country": "TZA",
+        "value": 2.775
+      },
+      {
+        "country": "UZB",
+        "value": 4.89
+      },
+      {
+        "country": "VEN",
+        "value": 6.245
+      },
+      {
+        "country": "VUT",
+        "value": 5.663
+      },
+      {
+        "country": "ZMB",
+        "value": 7.93
+      },
+      {
+        "country": "ZWE",
+        "value": 5.401
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2009,
+    "value": 5.2010000000000005,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.383
+      },
+      {
+        "country": "BEN",
+        "value": 0.95
+      },
+      {
+        "country": "BGD",
+        "value": 5
+      },
+      {
+        "country": "BOL",
+        "value": 2.973
+      },
+      {
+        "country": "BTN",
+        "value": 3.96
+      },
+      {
+        "country": "CIV",
+        "value": 6.573
+      },
+      {
+        "country": "CMR",
+        "value": 3.743
+      },
+      {
+        "country": "COG",
+        "value": 19.844
+      },
+      {
+        "country": "COM",
+        "value": 4.303
+      },
+      {
+        "country": "DJI",
+        "value": 26.325
+      },
+      {
+        "country": "EGY",
+        "value": 9.087
+      },
+      {
+        "country": "GHA",
+        "value": 5.362
+      },
+      {
+        "country": "GIN",
+        "value": 4.914
+      },
+      {
+        "country": "HND",
+        "value": 3.292
+      },
+      {
+        "country": "HTI",
+        "value": 15.398
+      },
+      {
+        "country": "IND",
+        "value": 7.636
+      },
+      {
+        "country": "KEN",
+        "value": 2.816
+      },
+      {
+        "country": "KGZ",
+        "value": 3.343
+      },
+      {
+        "country": "KHM",
+        "value": 0.579
+      },
+      {
+        "country": "LAO",
+        "value": 0.835
+      },
+      {
+        "country": "LBN",
+        "value": 6.355
+      },
+      {
+        "country": "LSO",
+        "value": 16.115
+      },
+      {
+        "country": "MAR",
+        "value": 8.96
+      },
+      {
+        "country": "MMR",
+        "value": 0.712
+      },
+      {
+        "country": "MRT",
+        "value": 10.214
+      },
+      {
+        "country": "NAM",
+        "value": 22.271
+      },
+      {
+        "country": "NGA",
+        "value": 3.763
+      },
+      {
+        "country": "NIC",
+        "value": 8.16
+      },
+      {
+        "country": "NPL",
+        "value": 10.582
+      },
+      {
+        "country": "PAK",
+        "value": 0.535
+      },
+      {
+        "country": "PNG",
+        "value": 2.089
+      },
+      {
+        "country": "PSE",
+        "value": 20.452
+      },
+      {
+        "country": "SEN",
+        "value": 2.807
+      },
+      {
+        "country": "SLB",
+        "value": 2.02
+      },
+      {
+        "country": "STP",
+        "value": 15.136
+      },
+      {
+        "country": "SWZ",
+        "value": 27.488
+      },
+      {
+        "country": "TGO",
+        "value": 2.847
+      },
+      {
+        "country": "TJK",
+        "value": 7.028
+      },
+      {
+        "country": "TLS",
+        "value": 3.289
+      },
+      {
+        "country": "TUN",
+        "value": 13.29
+      },
+      {
+        "country": "TZA",
+        "value": 2.5
+      },
+      {
+        "country": "UZB",
+        "value": 5.04
+      },
+      {
+        "country": "VEN",
+        "value": 6.097
+      },
+      {
+        "country": "VUT",
+        "value": 4.565
+      },
+      {
+        "country": "ZMB",
+        "value": 10.583
+      },
+      {
+        "country": "ZWE",
+        "value": 5.476
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2010,
+    "value": 5.372,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.595
+      },
+      {
+        "country": "BEN",
+        "value": 1.04
+      },
+      {
+        "country": "BGD",
+        "value": 3.379
+      },
+      {
+        "country": "BOL",
+        "value": 2.609
+      },
+      {
+        "country": "BTN",
+        "value": 3.32
+      },
+      {
+        "country": "CIV",
+        "value": 6.607
+      },
+      {
+        "country": "CMR",
+        "value": 4.11
+      },
+      {
+        "country": "COG",
+        "value": 19.3
+      },
+      {
+        "country": "COM",
+        "value": 4.19
+      },
+      {
+        "country": "DJI",
+        "value": 26.368
+      },
+      {
+        "country": "EGY",
+        "value": 8.757
+      },
+      {
+        "country": "GHA",
+        "value": 5.384
+      },
+      {
+        "country": "GIN",
+        "value": 5.018
+      },
+      {
+        "country": "HND",
+        "value": 4.119
+      },
+      {
+        "country": "HTI",
+        "value": 15.244
+      },
+      {
+        "country": "IND",
+        "value": 7.631
+      },
+      {
+        "country": "KEN",
+        "value": 2.793
+      },
+      {
+        "country": "KGZ",
+        "value": 3.503
+      },
+      {
+        "country": "KHM",
+        "value": 0.771
+      },
+      {
+        "country": "LAO",
+        "value": 0.708
+      },
+      {
+        "country": "LBN",
+        "value": 6.768
+      },
+      {
+        "country": "LSO",
+        "value": 16.068
+      },
+      {
+        "country": "MAR",
+        "value": 9.09
+      },
+      {
+        "country": "MMR",
+        "value": 0.725
+      },
+      {
+        "country": "MRT",
+        "value": 10.093
+      },
+      {
+        "country": "NAM",
+        "value": 22.12
+      },
+      {
+        "country": "NGA",
+        "value": 3.744
+      },
+      {
+        "country": "NIC",
+        "value": 7.83
+      },
+      {
+        "country": "NPL",
+        "value": 10.563
+      },
+      {
+        "country": "PAK",
+        "value": 0.653
+      },
+      {
+        "country": "PNG",
+        "value": 2.002
+      },
+      {
+        "country": "PSE",
+        "value": 21.416
+      },
+      {
+        "country": "SEN",
+        "value": 2.795
+      },
+      {
+        "country": "SLB",
+        "value": 1.617
+      },
+      {
+        "country": "STP",
+        "value": 14.628
+      },
+      {
+        "country": "SWZ",
+        "value": 26.856
+      },
+      {
+        "country": "TGO",
+        "value": 2.379
+      },
+      {
+        "country": "TJK",
+        "value": 7.037
+      },
+      {
+        "country": "TLS",
+        "value": 3.301
+      },
+      {
+        "country": "TUN",
+        "value": 13.049
+      },
+      {
+        "country": "TZA",
+        "value": 3.03
+      },
+      {
+        "country": "UZB",
+        "value": 5.36
+      },
+      {
+        "country": "VEN",
+        "value": 7.112
+      },
+      {
+        "country": "VUT",
+        "value": 4.681
+      },
+      {
+        "country": "ZMB",
+        "value": 13.19
+      },
+      {
+        "country": "ZWE",
+        "value": 5.469
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2011,
+    "value": 4.992,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.77
+      },
+      {
+        "country": "BEN",
+        "value": 2.647
+      },
+      {
+        "country": "BGD",
+        "value": 3.737
+      },
+      {
+        "country": "BOL",
+        "value": 2.255
+      },
+      {
+        "country": "BTN",
+        "value": 3.23
+      },
+      {
+        "country": "CIV",
+        "value": 7.144
+      },
+      {
+        "country": "CMR",
+        "value": 3.988
+      },
+      {
+        "country": "COG",
+        "value": 19.435
+      },
+      {
+        "country": "COM",
+        "value": 4.12
+      },
+      {
+        "country": "DJI",
+        "value": 26.31
+      },
+      {
+        "country": "EGY",
+        "value": 11.849
+      },
+      {
+        "country": "GHA",
+        "value": 4.213
+      },
+      {
+        "country": "GIN",
+        "value": 5.024
+      },
+      {
+        "country": "HND",
+        "value": 4.474
+      },
+      {
+        "country": "HTI",
+        "value": 14.506
+      },
+      {
+        "country": "IND",
+        "value": 7.609
+      },
+      {
+        "country": "KEN",
+        "value": 2.699
+      },
+      {
+        "country": "KGZ",
+        "value": 3.644
+      },
+      {
+        "country": "KHM",
+        "value": 0.577
+      },
+      {
+        "country": "LAO",
+        "value": 0.96
+      },
+      {
+        "country": "LBN",
+        "value": 7.352
+      },
+      {
+        "country": "LSO",
+        "value": 16.115
+      },
+      {
+        "country": "MAR",
+        "value": 8.91
+      },
+      {
+        "country": "MMR",
+        "value": 0.749
+      },
+      {
+        "country": "MRT",
+        "value": 9.976
+      },
+      {
+        "country": "NAM",
+        "value": 19.481
+      },
+      {
+        "country": "NGA",
+        "value": 3.77
+      },
+      {
+        "country": "NIC",
+        "value": 6.613
+      },
+      {
+        "country": "NPL",
+        "value": 10.627
+      },
+      {
+        "country": "PAK",
+        "value": 0.796
+      },
+      {
+        "country": "PNG",
+        "value": 2.62
+      },
+      {
+        "country": "PSE",
+        "value": 17.597
+      },
+      {
+        "country": "SEN",
+        "value": 2.853
+      },
+      {
+        "country": "SLB",
+        "value": 1.292
+      },
+      {
+        "country": "STP",
+        "value": 14.229
+      },
+      {
+        "country": "SWZ",
+        "value": 26.105
+      },
+      {
+        "country": "TGO",
+        "value": 1.982
+      },
+      {
+        "country": "TJK",
+        "value": 7.04
+      },
+      {
+        "country": "TLS",
+        "value": 3.385
+      },
+      {
+        "country": "TUN",
+        "value": 18.334
+      },
+      {
+        "country": "TZA",
+        "value": 3.47
+      },
+      {
+        "country": "UZB",
+        "value": 4.96
+      },
+      {
+        "country": "VEN",
+        "value": 6.902
+      },
+      {
+        "country": "VUT",
+        "value": 4.811
+      },
+      {
+        "country": "ZMB",
+        "value": 10.548
+      },
+      {
+        "country": "ZWE",
+        "value": 5.368
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2012,
+    "value": 4.904999999999999,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.539
+      },
+      {
+        "country": "BEN",
+        "value": 2.458
+      },
+      {
+        "country": "BGD",
+        "value": 4.07
+      },
+      {
+        "country": "BOL",
+        "value": 2.066
+      },
+      {
+        "country": "BTN",
+        "value": 2.05
+      },
+      {
+        "country": "CIV",
+        "value": 7.223
+      },
+      {
+        "country": "CMR",
+        "value": 3.836
+      },
+      {
+        "country": "COG",
+        "value": 19.491
+      },
+      {
+        "country": "COM",
+        "value": 4.091
+      },
+      {
+        "country": "DJI",
+        "value": 26.179
+      },
+      {
+        "country": "EGY",
+        "value": 12.597
+      },
+      {
+        "country": "GHA",
+        "value": 3.126
+      },
+      {
+        "country": "GIN",
+        "value": 4.874
+      },
+      {
+        "country": "HND",
+        "value": 3.755
+      },
+      {
+        "country": "HTI",
+        "value": 14.1
+      },
+      {
+        "country": "IND",
+        "value": 7.645
+      },
+      {
+        "country": "KEN",
+        "value": 2.678
+      },
+      {
+        "country": "KGZ",
+        "value": 3.786
+      },
+      {
+        "country": "KHM",
+        "value": 0.505
+      },
+      {
+        "country": "LAO",
+        "value": 1.208
+      },
+      {
+        "country": "LBN",
+        "value": 7.952
+      },
+      {
+        "country": "LSO",
+        "value": 15.761
+      },
+      {
+        "country": "MAR",
+        "value": 8.99
+      },
+      {
+        "country": "MMR",
+        "value": 0.768
+      },
+      {
+        "country": "MRT",
+        "value": 9.864
+      },
+      {
+        "country": "NAM",
+        "value": 16.771
+      },
+      {
+        "country": "NGA",
+        "value": 3.761
+      },
+      {
+        "country": "NIC",
+        "value": 5.208
+      },
+      {
+        "country": "NPL",
+        "value": 10.632
+      },
+      {
+        "country": "PAK",
+        "value": 3.667
+      },
+      {
+        "country": "PNG",
+        "value": 2.634
+      },
+      {
+        "country": "PSE",
+        "value": 19.202
+      },
+      {
+        "country": "SEN",
+        "value": 3.896
+      },
+      {
+        "country": "SLB",
+        "value": 0.984
+      },
+      {
+        "country": "STP",
+        "value": 13.59
+      },
+      {
+        "country": "SWZ",
+        "value": 25.226
+      },
+      {
+        "country": "TGO",
+        "value": 2.029
+      },
+      {
+        "country": "TJK",
+        "value": 7.022
+      },
+      {
+        "country": "TLS",
+        "value": 3.47
+      },
+      {
+        "country": "TUN",
+        "value": 17.63
+      },
+      {
+        "country": "TZA",
+        "value": 3.223
+      },
+      {
+        "country": "UZB",
+        "value": 4.87
+      },
+      {
+        "country": "VEN",
+        "value": 6.601
+      },
+      {
+        "country": "VUT",
+        "value": 4.936
+      },
+      {
+        "country": "ZMB",
+        "value": 7.85
+      },
+      {
+        "country": "ZWE",
+        "value": 5.057
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2013,
+    "value": 4.98,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.464
+      },
+      {
+        "country": "BEN",
+        "value": 2.198
+      },
+      {
+        "country": "BGD",
+        "value": 4.426
+      },
+      {
+        "country": "BOL",
+        "value": 2.437
+      },
+      {
+        "country": "BTN",
+        "value": 2.87
+      },
+      {
+        "country": "CIV",
+        "value": 4.255
+      },
+      {
+        "country": "CMR",
+        "value": 3.686
+      },
+      {
+        "country": "COG",
+        "value": 19.845
+      },
+      {
+        "country": "COM",
+        "value": 3.98
+      },
+      {
+        "country": "DJI",
+        "value": 26.149
+      },
+      {
+        "country": "EGY",
+        "value": 13.154
+      },
+      {
+        "country": "GHA",
+        "value": 2.173
+      },
+      {
+        "country": "GIN",
+        "value": 4.944
+      },
+      {
+        "country": "HND",
+        "value": 5.646
+      },
+      {
+        "country": "HTI",
+        "value": 13.704
+      },
+      {
+        "country": "IND",
+        "value": 7.678
+      },
+      {
+        "country": "KEN",
+        "value": 2.762
+      },
+      {
+        "country": "KGZ",
+        "value": 3.881
+      },
+      {
+        "country": "KHM",
+        "value": 0.438
+      },
+      {
+        "country": "LAO",
+        "value": 1.469
+      },
+      {
+        "country": "LBN",
+        "value": 8.477
+      },
+      {
+        "country": "LSO",
+        "value": 15.926
+      },
+      {
+        "country": "MAR",
+        "value": 9.23
+      },
+      {
+        "country": "MMR",
+        "value": 0.775
+      },
+      {
+        "country": "MRT",
+        "value": 9.926
+      },
+      {
+        "country": "NAM",
+        "value": 19.028
+      },
+      {
+        "country": "NGA",
+        "value": 3.711
+      },
+      {
+        "country": "NIC",
+        "value": 5.28
+      },
+      {
+        "country": "NPL",
+        "value": 10.666
+      },
+      {
+        "country": "PAK",
+        "value": 2.954
+      },
+      {
+        "country": "PNG",
+        "value": 2.698
+      },
+      {
+        "country": "PSE",
+        "value": 19.894
+      },
+      {
+        "country": "SEN",
+        "value": 5.012
+      },
+      {
+        "country": "SLB",
+        "value": 0.694
+      },
+      {
+        "country": "STP",
+        "value": 12.476
+      },
+      {
+        "country": "SWZ",
+        "value": 24.556
+      },
+      {
+        "country": "TGO",
+        "value": 2.084
+      },
+      {
+        "country": "TJK",
+        "value": 7.019
+      },
+      {
+        "country": "TLS",
+        "value": 3.57
+      },
+      {
+        "country": "TUN",
+        "value": 15.934
+      },
+      {
+        "country": "TZA",
+        "value": 2.93
+      },
+      {
+        "country": "UZB",
+        "value": 4.86
+      },
+      {
+        "country": "VEN",
+        "value": 7.54
+      },
+      {
+        "country": "VUT",
+        "value": 5.038
+      },
+      {
+        "country": "ZMB",
+        "value": 7.272
+      },
+      {
+        "country": "ZWE",
+        "value": 4.948
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2014,
+    "value": 5.067,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.372
+      },
+      {
+        "country": "BEN",
+        "value": 1.952
+      },
+      {
+        "country": "BGD",
+        "value": 4.417
+      },
+      {
+        "country": "BOL",
+        "value": 2.021
+      },
+      {
+        "country": "BTN",
+        "value": 2.63
+      },
+      {
+        "country": "CIV",
+        "value": 3.274
+      },
+      {
+        "country": "CMR",
+        "value": 3.534
+      },
+      {
+        "country": "COG",
+        "value": 19.696
+      },
+      {
+        "country": "COM",
+        "value": 3.984
+      },
+      {
+        "country": "DJI",
+        "value": 26.16
+      },
+      {
+        "country": "EGY",
+        "value": 13.105
+      },
+      {
+        "country": "GHA",
+        "value": 4.403
+      },
+      {
+        "country": "GIN",
+        "value": 5.044
+      },
+      {
+        "country": "HND",
+        "value": 7.078
+      },
+      {
+        "country": "HTI",
+        "value": 13.808
+      },
+      {
+        "country": "IND",
+        "value": 7.656
+      },
+      {
+        "country": "KEN",
+        "value": 2.767
+      },
+      {
+        "country": "KGZ",
+        "value": 4.02
+      },
+      {
+        "country": "KHM",
+        "value": 0.692
+      },
+      {
+        "country": "LAO",
+        "value": 1.733
+      },
+      {
+        "country": "LBN",
+        "value": 8.84
+      },
+      {
+        "country": "LSO",
+        "value": 16.066
+      },
+      {
+        "country": "MAR",
+        "value": 9.7
+      },
+      {
+        "country": "MMR",
+        "value": 0.763
+      },
+      {
+        "country": "MRT",
+        "value": 10.026
+      },
+      {
+        "country": "NAM",
+        "value": 18.521
+      },
+      {
+        "country": "NGA",
+        "value": 3.9
+      },
+      {
+        "country": "NIC",
+        "value": 4.52
+      },
+      {
+        "country": "NPL",
+        "value": 10.62
+      },
+      {
+        "country": "PAK",
+        "value": 1.827
+      },
+      {
+        "country": "PNG",
+        "value": 2.54
+      },
+      {
+        "country": "PSE",
+        "value": 20.526
+      },
+      {
+        "country": "SEN",
+        "value": 5.849
+      },
+      {
+        "country": "SLB",
+        "value": 0.73
+      },
+      {
+        "country": "STP",
+        "value": 11.428
+      },
+      {
+        "country": "SWZ",
+        "value": 23.931
+      },
+      {
+        "country": "TGO",
+        "value": 2.141
+      },
+      {
+        "country": "TJK",
+        "value": 7.024
+      },
+      {
+        "country": "TLS",
+        "value": 3.618
+      },
+      {
+        "country": "TUN",
+        "value": 14.259
+      },
+      {
+        "country": "TZA",
+        "value": 2.125
+      },
+      {
+        "country": "UZB",
+        "value": 5.09
+      },
+      {
+        "country": "VEN",
+        "value": 6.821
+      },
+      {
+        "country": "VUT",
+        "value": 5.137
+      },
+      {
+        "country": "ZMB",
+        "value": 6.576
+      },
+      {
+        "country": "ZWE",
+        "value": 4.774
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2015,
+    "value": 5.2835,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.472
+      },
+      {
+        "country": "BEN",
+        "value": 1.886
+      },
+      {
+        "country": "BGD",
+        "value": 4.397
+      },
+      {
+        "country": "BOL",
+        "value": 3.111
+      },
+      {
+        "country": "BTN",
+        "value": 2.45
+      },
+      {
+        "country": "CIV",
+        "value": 2.573
+      },
+      {
+        "country": "CMR",
+        "value": 3.518
+      },
+      {
+        "country": "COG",
+        "value": 20.02
+      },
+      {
+        "country": "COM",
+        "value": 4.031
+      },
+      {
+        "country": "DJI",
+        "value": 26.063
+      },
+      {
+        "country": "EGY",
+        "value": 13.052
+      },
+      {
+        "country": "GHA",
+        "value": 6.806
+      },
+      {
+        "country": "GIN",
+        "value": 5.15
+      },
+      {
+        "country": "HND",
+        "value": 6.147
+      },
+      {
+        "country": "HTI",
+        "value": 13.785
+      },
+      {
+        "country": "IND",
+        "value": 7.629
+      },
+      {
+        "country": "KEN",
+        "value": 2.762
+      },
+      {
+        "country": "KGZ",
+        "value": 4.138
+      },
+      {
+        "country": "KHM",
+        "value": 0.393
+      },
+      {
+        "country": "LAO",
+        "value": 2.006
+      },
+      {
+        "country": "LBN",
+        "value": 9.312
+      },
+      {
+        "country": "LSO",
+        "value": 16.223
+      },
+      {
+        "country": "MAR",
+        "value": 9.46
+      },
+      {
+        "country": "MMR",
+        "value": 0.766
+      },
+      {
+        "country": "MRT",
+        "value": 10.104
+      },
+      {
+        "country": "NAM",
+        "value": 20.791
+      },
+      {
+        "country": "NGA",
+        "value": 4.134
+      },
+      {
+        "country": "NIC",
+        "value": 4.7
+      },
+      {
+        "country": "NPL",
+        "value": 10.643
+      },
+      {
+        "country": "PAK",
+        "value": 3.566
+      },
+      {
+        "country": "PNG",
+        "value": 2.507
+      },
+      {
+        "country": "PSE",
+        "value": 23.005
+      },
+      {
+        "country": "SEN",
+        "value": 6.757
+      },
+      {
+        "country": "SLB",
+        "value": 0.736
+      },
+      {
+        "country": "STP",
+        "value": 10.591
+      },
+      {
+        "country": "SWZ",
+        "value": 23.431
+      },
+      {
+        "country": "TGO",
+        "value": 2.204
+      },
+      {
+        "country": "TJK",
+        "value": 7.033
+      },
+      {
+        "country": "TLS",
+        "value": 3.678
+      },
+      {
+        "country": "TUN",
+        "value": 15.159
+      },
+      {
+        "country": "TZA",
+        "value": 2.009
+      },
+      {
+        "country": "UZB",
+        "value": 5.15
+      },
+      {
+        "country": "VEN",
+        "value": 6.139
+      },
+      {
+        "country": "VUT",
+        "value": 5.168
+      },
+      {
+        "country": "ZMB",
+        "value": 5.951
+      },
+      {
+        "country": "ZWE",
+        "value": 5.399
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2016,
+    "value": 5.1785,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.572
+      },
+      {
+        "country": "BEN",
+        "value": 1.834
+      },
+      {
+        "country": "BGD",
+        "value": 4.35
+      },
+      {
+        "country": "BOL",
+        "value": 3.498
+      },
+      {
+        "country": "BTN",
+        "value": 2.707
+      },
+      {
+        "country": "CIV",
+        "value": 1.896
+      },
+      {
+        "country": "CMR",
+        "value": 3.529
+      },
+      {
+        "country": "COG",
+        "value": 20.298
+      },
+      {
+        "country": "COM",
+        "value": 4.117
+      },
+      {
+        "country": "DJI",
+        "value": 25.982
+      },
+      {
+        "country": "EGY",
+        "value": 12.45
+      },
+      {
+        "country": "GHA",
+        "value": 5.256
+      },
+      {
+        "country": "GIN",
+        "value": 4.997
+      },
+      {
+        "country": "HND",
+        "value": 6.727
+      },
+      {
+        "country": "HTI",
+        "value": 13.902
+      },
+      {
+        "country": "IND",
+        "value": 7.611
+      },
+      {
+        "country": "KEN",
+        "value": 2.757
+      },
+      {
+        "country": "KGZ",
+        "value": 4.294
+      },
+      {
+        "country": "KHM",
+        "value": 0.716
+      },
+      {
+        "country": "LAO",
+        "value": 2.634
+      },
+      {
+        "country": "LBN",
+        "value": 9.794
+      },
+      {
+        "country": "LSO",
+        "value": 16.138
+      },
+      {
+        "country": "MAR",
+        "value": 9.3
+      },
+      {
+        "country": "MMR",
+        "value": 1.058
+      },
+      {
+        "country": "MRT",
+        "value": 10.287
+      },
+      {
+        "country": "NAM",
+        "value": 23.352
+      },
+      {
+        "country": "NGA",
+        "value": 4.499
+      },
+      {
+        "country": "NIC",
+        "value": 3.9
+      },
+      {
+        "country": "NPL",
+        "value": 10.714
+      },
+      {
+        "country": "PAK",
+        "value": 2.285
+      },
+      {
+        "country": "PNG",
+        "value": 2.478
+      },
+      {
+        "country": "PSE",
+        "value": 23.939
+      },
+      {
+        "country": "SEN",
+        "value": 4.455
+      },
+      {
+        "country": "SLB",
+        "value": 0.736
+      },
+      {
+        "country": "STP",
+        "value": 9.684
+      },
+      {
+        "country": "SWZ",
+        "value": 22.718
+      },
+      {
+        "country": "TGO",
+        "value": 2.968
+      },
+      {
+        "country": "TJK",
+        "value": 7.036
+      },
+      {
+        "country": "TLS",
+        "value": 4.657
+      },
+      {
+        "country": "TUN",
+        "value": 15.557
+      },
+      {
+        "country": "TZA",
+        "value": 1.931
+      },
+      {
+        "country": "UZB",
+        "value": 5.16
+      },
+      {
+        "country": "VEN",
+        "value": 5.319
+      },
+      {
+        "country": "VUT",
+        "value": 5.197
+      },
+      {
+        "country": "ZMB",
+        "value": 5.244
+      },
+      {
+        "country": "ZWE",
+        "value": 5.896
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2017,
+    "value": 4.845000000000001,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.617
+      },
+      {
+        "country": "BEN",
+        "value": 1.691
+      },
+      {
+        "country": "BGD",
+        "value": 4.372
+      },
+      {
+        "country": "BOL",
+        "value": 3.655
+      },
+      {
+        "country": "BTN",
+        "value": 3.027
+      },
+      {
+        "country": "CIV",
+        "value": 3.272
+      },
+      {
+        "country": "CMR",
+        "value": 3.573
+      },
+      {
+        "country": "COG",
+        "value": 20.737
+      },
+      {
+        "country": "COM",
+        "value": 4.049
+      },
+      {
+        "country": "DJI",
+        "value": 26.064
+      },
+      {
+        "country": "EGY",
+        "value": 11.767
+      },
+      {
+        "country": "GHA",
+        "value": 3.369
+      },
+      {
+        "country": "GIN",
+        "value": 4.86
+      },
+      {
+        "country": "HND",
+        "value": 5.528
+      },
+      {
+        "country": "HTI",
+        "value": 13.932
+      },
+      {
+        "country": "IND",
+        "value": 7.626
+      },
+      {
+        "country": "KEN",
+        "value": 3.542
+      },
+      {
+        "country": "KGZ",
+        "value": 4.425
+      },
+      {
+        "country": "KHM",
+        "value": 0.141
+      },
+      {
+        "country": "LAO",
+        "value": 3.268
+      },
+      {
+        "country": "LBN",
+        "value": 10.258
+      },
+      {
+        "country": "LSO",
+        "value": 16.379
+      },
+      {
+        "country": "MAR",
+        "value": 9.22
+      },
+      {
+        "country": "MMR",
+        "value": 1.356
+      },
+      {
+        "country": "MRT",
+        "value": 10.336
+      },
+      {
+        "country": "NAM",
+        "value": 21.748
+      },
+      {
+        "country": "NGA",
+        "value": 4.83
+      },
+      {
+        "country": "NIC",
+        "value": 3.3
+      },
+      {
+        "country": "NPL",
+        "value": 10.66
+      },
+      {
+        "country": "PAK",
+        "value": 3.204
+      },
+      {
+        "country": "PNG",
+        "value": 2.58
+      },
+      {
+        "country": "PSE",
+        "value": 25.677
+      },
+      {
+        "country": "SEN",
+        "value": 4.078
+      },
+      {
+        "country": "SLB",
+        "value": 0.727
+      },
+      {
+        "country": "STP",
+        "value": 8.808
+      },
+      {
+        "country": "SWZ",
+        "value": 24.543
+      },
+      {
+        "country": "TGO",
+        "value": 3.744
+      },
+      {
+        "country": "TJK",
+        "value": 7.035
+      },
+      {
+        "country": "TLS",
+        "value": 4.254
+      },
+      {
+        "country": "TUN",
+        "value": 15.33
+      },
+      {
+        "country": "TZA",
+        "value": 1.854
+      },
+      {
+        "country": "UZB",
+        "value": 5.83
+      },
+      {
+        "country": "VEN",
+        "value": 5.045
+      },
+      {
+        "country": "VUT",
+        "value": 5.247
+      },
+      {
+        "country": "ZMB",
+        "value": 4.529
+      },
+      {
+        "country": "ZWE",
+        "value": 6.35
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2018,
+    "value": 5.1345,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.602
+      },
+      {
+        "country": "BEN",
+        "value": 1.426
+      },
+      {
+        "country": "BGD",
+        "value": 4.439
+      },
+      {
+        "country": "BOL",
+        "value": 3.519
+      },
+      {
+        "country": "BTN",
+        "value": 3.35
+      },
+      {
+        "country": "CIV",
+        "value": 2.852
+      },
+      {
+        "country": "CMR",
+        "value": 3.608
+      },
+      {
+        "country": "COG",
+        "value": 20.84
+      },
+      {
+        "country": "COM",
+        "value": 3.975
+      },
+      {
+        "country": "DJI",
+        "value": 26.18
+      },
+      {
+        "country": "EGY",
+        "value": 9.855
+      },
+      {
+        "country": "GHA",
+        "value": 3.204
+      },
+      {
+        "country": "GIN",
+        "value": 4.835
+      },
+      {
+        "country": "HND",
+        "value": 5.648
+      },
+      {
+        "country": "HTI",
+        "value": 13.934
+      },
+      {
+        "country": "IND",
+        "value": 7.652
+      },
+      {
+        "country": "KEN",
+        "value": 4.284
+      },
+      {
+        "country": "KGZ",
+        "value": 4.559
+      },
+      {
+        "country": "KHM",
+        "value": 0.129
+      },
+      {
+        "country": "LAO",
+        "value": 2.897
+      },
+      {
+        "country": "LBN",
+        "value": 10.755
+      },
+      {
+        "country": "LSO",
+        "value": 16.614
+      },
+      {
+        "country": "MAR",
+        "value": 9.272
+      },
+      {
+        "country": "MMR",
+        "value": 0.767
+      },
+      {
+        "country": "MRT",
+        "value": 10.411
+      },
+      {
+        "country": "NAM",
+        "value": 19.877
+      },
+      {
+        "country": "NGA",
+        "value": 5.069
+      },
+      {
+        "country": "NIC",
+        "value": 5.2
+      },
+      {
+        "country": "NPL",
+        "value": 10.593
+      },
+      {
+        "country": "PAK",
+        "value": 4.083
+      },
+      {
+        "country": "PNG",
+        "value": 2.65
+      },
+      {
+        "country": "PSE",
+        "value": 26.256
+      },
+      {
+        "country": "SEN",
+        "value": 3.453
+      },
+      {
+        "country": "SLB",
+        "value": 0.722
+      },
+      {
+        "country": "STP",
+        "value": 8.712
+      },
+      {
+        "country": "SWZ",
+        "value": 26.471
+      },
+      {
+        "country": "TGO",
+        "value": 2.9
+      },
+      {
+        "country": "TJK",
+        "value": 7.028
+      },
+      {
+        "country": "TLS",
+        "value": 3.765
+      },
+      {
+        "country": "TUN",
+        "value": 15.459
+      },
+      {
+        "country": "TZA",
+        "value": 1.792
+      },
+      {
+        "country": "UZB",
+        "value": 5.392
+      },
+      {
+        "country": "VEN",
+        "value": 5.468
+      },
+      {
+        "country": "VUT",
+        "value": 5.353
+      },
+      {
+        "country": "ZMB",
+        "value": 5.032
+      },
+      {
+        "country": "ZWE",
+        "value": 6.788
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2019,
+    "value": 5.447,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.497
+      },
+      {
+        "country": "BEN",
+        "value": 1.214
+      },
+      {
+        "country": "BGD",
+        "value": 4.504
+      },
+      {
+        "country": "BOL",
+        "value": 3.682
+      },
+      {
+        "country": "BTN",
+        "value": 2.72
+      },
+      {
+        "country": "CIV",
+        "value": 2.401
+      },
+      {
+        "country": "CMR",
+        "value": 3.632
+      },
+      {
+        "country": "COG",
+        "value": 20.494
+      },
+      {
+        "country": "COM",
+        "value": 3.926
+      },
+      {
+        "country": "DJI",
+        "value": 26.257
+      },
+      {
+        "country": "EGY",
+        "value": 7.851
+      },
+      {
+        "country": "GHA",
+        "value": 3.067
+      },
+      {
+        "country": "GIN",
+        "value": 5.018
+      },
+      {
+        "country": "HND",
+        "value": 5.698
+      },
+      {
+        "country": "HTI",
+        "value": 14.095
+      },
+      {
+        "country": "IND",
+        "value": 6.51
+      },
+      {
+        "country": "KEN",
+        "value": 5.014
+      },
+      {
+        "country": "KGZ",
+        "value": 5.45
+      },
+      {
+        "country": "KHM",
+        "value": 0.119
+      },
+      {
+        "country": "LAO",
+        "value": 2.531
+      },
+      {
+        "country": "LBN",
+        "value": 11.301
+      },
+      {
+        "country": "LSO",
+        "value": 16.876
+      },
+      {
+        "country": "MAR",
+        "value": 9.191
+      },
+      {
+        "country": "MMR",
+        "value": 0.407
+      },
+      {
+        "country": "MRT",
+        "value": 10.416
+      },
+      {
+        "country": "NAM",
+        "value": 19.929
+      },
+      {
+        "country": "NGA",
+        "value": 5.206
+      },
+      {
+        "country": "NIC",
+        "value": 5.457
+      },
+      {
+        "country": "NPL",
+        "value": 10.477
+      },
+      {
+        "country": "PAK",
+        "value": 4.83
+      },
+      {
+        "country": "PNG",
+        "value": 2.651
+      },
+      {
+        "country": "PSE",
+        "value": 25.34
+      },
+      {
+        "country": "SEN",
+        "value": 2.863
+      },
+      {
+        "country": "SLB",
+        "value": 0.746
+      },
+      {
+        "country": "STP",
+        "value": 8.835
+      },
+      {
+        "country": "SWZ",
+        "value": 28.222
+      },
+      {
+        "country": "TGO",
+        "value": 2.036
+      },
+      {
+        "country": "TJK",
+        "value": 7.026
+      },
+      {
+        "country": "TLS",
+        "value": 3.148
+      },
+      {
+        "country": "TUN",
+        "value": 17.153
+      },
+      {
+        "country": "TZA",
+        "value": 1.735
+      },
+      {
+        "country": "UZB",
+        "value": 4.936
+      },
+      {
+        "country": "VEN",
+        "value": 5.89
+      },
+      {
+        "country": "VUT",
+        "value": 5.444
+      },
+      {
+        "country": "ZMB",
+        "value": 5.538
+      },
+      {
+        "country": "ZWE",
+        "value": 7.373
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2020,
+    "value": 6.0195,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 16.696
+      },
+      {
+        "country": "BEN",
+        "value": 1.518
+      },
+      {
+        "country": "BGD",
+        "value": 5.539
+      },
+      {
+        "country": "BOL",
+        "value": 7.903
+      },
+      {
+        "country": "BTN",
+        "value": 5.03
+      },
+      {
+        "country": "CIV",
+        "value": 2.588
+      },
+      {
+        "country": "CMR",
+        "value": 3.881
+      },
+      {
+        "country": "COG",
+        "value": 22.286
+      },
+      {
+        "country": "COM",
+        "value": 4.468
+      },
+      {
+        "country": "DJI",
+        "value": 27.701
+      },
+      {
+        "country": "EGY",
+        "value": 7.974
+      },
+      {
+        "country": "GHA",
+        "value": 3.178
+      },
+      {
+        "country": "GIN",
+        "value": 6.007
+      },
+      {
+        "country": "HND",
+        "value": 10.982
+      },
+      {
+        "country": "HTI",
+        "value": 15.573
+      },
+      {
+        "country": "IND",
+        "value": 7.859
+      },
+      {
+        "country": "KEN",
+        "value": 5.613
+      },
+      {
+        "country": "KGZ",
+        "value": 5.945
+      },
+      {
+        "country": "KHM",
+        "value": 0.172
+      },
+      {
+        "country": "LAO",
+        "value": 2.349
+      },
+      {
+        "country": "LBN",
+        "value": 13.252
+      },
+      {
+        "country": "LSO",
+        "value": 18.385
+      },
+      {
+        "country": "MAR",
+        "value": 11.189
+      },
+      {
+        "country": "MMR",
+        "value": 1.476
+      },
+      {
+        "country": "MRT",
+        "value": 11.051
+      },
+      {
+        "country": "NAM",
+        "value": 21.003
+      },
+      {
+        "country": "NGA",
+        "value": 5.714
+      },
+      {
+        "country": "NIC",
+        "value": 6.18
+      },
+      {
+        "country": "NPL",
+        "value": 13.037
+      },
+      {
+        "country": "PAK",
+        "value": 5.994
+      },
+      {
+        "country": "PNG",
+        "value": 2.903
+      },
+      {
+        "country": "PSE",
+        "value": 25.895
+      },
+      {
+        "country": "SEN",
+        "value": 3.432
+      },
+      {
+        "country": "SLB",
+        "value": 0.868
+      },
+      {
+        "country": "STP",
+        "value": 9.679
+      },
+      {
+        "country": "SWZ",
+        "value": 32.978
+      },
+      {
+        "country": "TGO",
+        "value": 2.231
+      },
+      {
+        "country": "TJK",
+        "value": 7.576
+      },
+      {
+        "country": "TLS",
+        "value": 2.808
+      },
+      {
+        "country": "TUN",
+        "value": 17.651
+      },
+      {
+        "country": "TZA",
+        "value": 1.792
+      },
+      {
+        "country": "UZB",
+        "value": 5.293
+      },
+      {
+        "country": "VEN",
+        "value": 7.53
+      },
+      {
+        "country": "VUT",
+        "value": 4.046
+      },
+      {
+        "country": "ZMB",
+        "value": 6.032
+      },
+      {
+        "country": "ZWE",
+        "value": 8.617
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2021,
+    "value": 5.754,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 15.799
+      },
+      {
+        "country": "BEN",
+        "value": 1.833
+      },
+      {
+        "country": "BGD",
+        "value": 5.457
+      },
+      {
+        "country": "BOL",
+        "value": 5.089
+      },
+      {
+        "country": "BTN",
+        "value": 4.803
+      },
+      {
+        "country": "CIV",
+        "value": 2.623
+      },
+      {
+        "country": "CMR",
+        "value": 3.976
+      },
+      {
+        "country": "COG",
+        "value": 21.998
+      },
+      {
+        "country": "COM",
+        "value": 4.394
+      },
+      {
+        "country": "DJI",
+        "value": 27.628
+      },
+      {
+        "country": "EGY",
+        "value": 7.441
+      },
+      {
+        "country": "GHA",
+        "value": 3.2
+      },
+      {
+        "country": "GIN",
+        "value": 5.815
+      },
+      {
+        "country": "HND",
+        "value": 8.506
+      },
+      {
+        "country": "HTI",
+        "value": 15.296
+      },
+      {
+        "country": "IND",
+        "value": 6.38
+      },
+      {
+        "country": "KEN",
+        "value": 5.693
+      },
+      {
+        "country": "KGZ",
+        "value": 5.149
+      },
+      {
+        "country": "KHM",
+        "value": 0.396
+      },
+      {
+        "country": "LAO",
+        "value": 2.08
+      },
+      {
+        "country": "LBN",
+        "value": 12.715
+      },
+      {
+        "country": "LSO",
+        "value": 18.214
+      },
+      {
+        "country": "MAR",
+        "value": 10.551
+      },
+      {
+        "country": "MMR",
+        "value": 4.34
+      },
+      {
+        "country": "MRT",
+        "value": 11.131
+      },
+      {
+        "country": "NAM",
+        "value": 20.931
+      },
+      {
+        "country": "NGA",
+        "value": 5.404
+      },
+      {
+        "country": "NIC",
+        "value": 6.076
+      },
+      {
+        "country": "NPL",
+        "value": 12.241
+      },
+      {
+        "country": "PAK",
+        "value": 6.338
+      },
+      {
+        "country": "PNG",
+        "value": 3.03
+      },
+      {
+        "country": "PSE",
+        "value": 26.39
+      },
+      {
+        "country": "SEN",
+        "value": 3.436
+      },
+      {
+        "country": "SLB",
+        "value": 0.879
+      },
+      {
+        "country": "STP",
+        "value": 9.563
+      },
+      {
+        "country": "SWZ",
+        "value": 34.153
+      },
+      {
+        "country": "TGO",
+        "value": 2.344
+      },
+      {
+        "country": "TJK",
+        "value": 7.687
+      },
+      {
+        "country": "TLS",
+        "value": 2.344
+      },
+      {
+        "country": "TUN",
+        "value": 16.632
+      },
+      {
+        "country": "TZA",
+        "value": 1.876
+      },
+      {
+        "country": "UZB",
+        "value": 5.364
+      },
+      {
+        "country": "VEN",
+        "value": 7.027
+      },
+      {
+        "country": "VUT",
+        "value": 4.776
+      },
+      {
+        "country": "ZMB",
+        "value": 5.197
+      },
+      {
+        "country": "ZWE",
+        "value": 9.54
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2022,
+    "value": 5.2325,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 14.124
+      },
+      {
+        "country": "BEN",
+        "value": 1.685
+      },
+      {
+        "country": "BGD",
+        "value": 4.593
+      },
+      {
+        "country": "BOL",
+        "value": 3.552
+      },
+      {
+        "country": "BTN",
+        "value": 5.947
+      },
+      {
+        "country": "CIV",
+        "value": 2.31
+      },
+      {
+        "country": "CMR",
+        "value": 3.646
+      },
+      {
+        "country": "COG",
+        "value": 20.131
+      },
+      {
+        "country": "COM",
+        "value": 3.879
+      },
+      {
+        "country": "DJI",
+        "value": 26.272
+      },
+      {
+        "country": "EGY",
+        "value": 6.546
+      },
+      {
+        "country": "GHA",
+        "value": 2.87
+      },
+      {
+        "country": "GIN",
+        "value": 5.174
+      },
+      {
+        "country": "HND",
+        "value": 8.774
+      },
+      {
+        "country": "HTI",
+        "value": 14.54
+      },
+      {
+        "country": "IND",
+        "value": 4.822
+      },
+      {
+        "country": "KEN",
+        "value": 5.565
+      },
+      {
+        "country": "KGZ",
+        "value": 4.767
+      },
+      {
+        "country": "KHM",
+        "value": 0.245
+      },
+      {
+        "country": "LAO",
+        "value": 1.209
+      },
+      {
+        "country": "LBN",
+        "value": 11.105
+      },
+      {
+        "country": "LSO",
+        "value": 16.623
+      },
+      {
+        "country": "MAR",
+        "value": 9.413
+      },
+      {
+        "country": "MMR",
+        "value": 3.063
+      },
+      {
+        "country": "MRT",
+        "value": 10.52
+      },
+      {
+        "country": "NAM",
+        "value": 19.615
+      },
+      {
+        "country": "NGA",
+        "value": 3.827
+      },
+      {
+        "country": "NIC",
+        "value": 4.969
+      },
+      {
+        "country": "NPL",
+        "value": 10.661
+      },
+      {
+        "country": "PAK",
+        "value": 5.291
+      },
+      {
+        "country": "PNG",
+        "value": 2.689
+      },
+      {
+        "country": "PSE",
+        "value": 24.42
+      },
+      {
+        "country": "SEN",
+        "value": 2.837
+      },
+      {
+        "country": "SLB",
+        "value": 1.475
+      },
+      {
+        "country": "STP",
+        "value": 8.964
+      },
+      {
+        "country": "SWZ",
+        "value": 36.472
+      },
+      {
+        "country": "TGO",
+        "value": 1.965
+      },
+      {
+        "country": "TJK",
+        "value": 7.051
+      },
+      {
+        "country": "TLS",
+        "value": 1.537
+      },
+      {
+        "country": "TUN",
+        "value": 15.3
+      },
+      {
+        "country": "TZA",
+        "value": 1.573
+      },
+      {
+        "country": "UZB",
+        "value": 4.456
+      },
+      {
+        "country": "VEN",
+        "value": 5.646
+      },
+      {
+        "country": "VUT",
+        "value": 5.077
+      },
+      {
+        "country": "ZMB",
+        "value": 5.993
+      },
+      {
+        "country": "ZWE",
+        "value": 10.087
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2023,
+    "value": 5.011,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 14.051
+      },
+      {
+        "country": "BEN",
+        "value": 1.641
+      },
+      {
+        "country": "BGD",
+        "value": 3.352
+      },
+      {
+        "country": "BOL",
+        "value": 3.024
+      },
+      {
+        "country": "BTN",
+        "value": 3.126
+      },
+      {
+        "country": "CIV",
+        "value": 2.263
+      },
+      {
+        "country": "CMR",
+        "value": 3.607
+      },
+      {
+        "country": "COG",
+        "value": 19.919
+      },
+      {
+        "country": "COM",
+        "value": 3.833
+      },
+      {
+        "country": "DJI",
+        "value": 26.074
+      },
+      {
+        "country": "EGY",
+        "value": 6.753
+      },
+      {
+        "country": "GHA",
+        "value": 2.829
+      },
+      {
+        "country": "GIN",
+        "value": 5.141
+      },
+      {
+        "country": "HND",
+        "value": 6.07
+      },
+      {
+        "country": "HTI",
+        "value": 14.459
+      },
+      {
+        "country": "IND",
+        "value": 4.172
+      },
+      {
+        "country": "KEN",
+        "value": 5.409
+      },
+      {
+        "country": "KGZ",
+        "value": 3.498
+      },
+      {
+        "country": "KHM",
+        "value": 0.256
+      },
+      {
+        "country": "LAO",
+        "value": 1.186
+      },
+      {
+        "country": "LBN",
+        "value": 10.985
+      },
+      {
+        "country": "LSO",
+        "value": 16.348
+      },
+      {
+        "country": "MAR",
+        "value": 8.896
+      },
+      {
+        "country": "MMR",
+        "value": 2.977
+      },
+      {
+        "country": "MRT",
+        "value": 10.37
+      },
+      {
+        "country": "NAM",
+        "value": 19.154
+      },
+      {
+        "country": "NGA",
+        "value": 3.074
+      },
+      {
+        "country": "NIC",
+        "value": 4.698
+      },
+      {
+        "country": "NPL",
+        "value": 10.437
+      },
+      {
+        "country": "PAK",
+        "value": 5.237
+      },
+      {
+        "country": "PNG",
+        "value": 2.649
+      },
+      {
+        "country": "SEN",
+        "value": 2.784
+      },
+      {
+        "country": "SLB",
+        "value": 1.443
+      },
+      {
+        "country": "STP",
+        "value": 9.032
+      },
+      {
+        "country": "SWZ",
+        "value": 34.61
+      },
+      {
+        "country": "TGO",
+        "value": 1.942
+      },
+      {
+        "country": "TJK",
+        "value": 7.037
+      },
+      {
+        "country": "TLS",
+        "value": 1.525
+      },
+      {
+        "country": "TUN",
+        "value": 15.106
+      },
+      {
+        "country": "TZA",
+        "value": 1.565
+      },
+      {
+        "country": "UZB",
+        "value": 4.434
+      },
+      {
+        "country": "VEN",
+        "value": 5.407
+      },
+      {
+        "country": "VUT",
+        "value": 5.011
+      },
+      {
+        "country": "ZMB",
+        "value": 5.861
+      },
+      {
+        "country": "ZWE",
+        "value": 9.348
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2024,
+    "value": 4.945,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 14.02
+      },
+      {
+        "country": "BEN",
+        "value": 1.637
+      },
+      {
+        "country": "BGD",
+        "value": 3.635
+      },
+      {
+        "country": "BOL",
+        "value": 3.274
+      },
+      {
+        "country": "BTN",
+        "value": 3.282
+      },
+      {
+        "country": "CIV",
+        "value": 2.273
+      },
+      {
+        "country": "CMR",
+        "value": 3.603
+      },
+      {
+        "country": "COG",
+        "value": 19.895
+      },
+      {
+        "country": "COM",
+        "value": 3.815
+      },
+      {
+        "country": "DJI",
+        "value": 26.007
+      },
+      {
+        "country": "EGY",
+        "value": 6.817
+      },
+      {
+        "country": "GHA",
+        "value": 2.82
+      },
+      {
+        "country": "GIN",
+        "value": 5.132
+      },
+      {
+        "country": "HND",
+        "value": 4.91
+      },
+      {
+        "country": "HTI",
+        "value": 14.609
+      },
+      {
+        "country": "IND",
+        "value": 4.173
+      },
+      {
+        "country": "KEN",
+        "value": 5.487
+      },
+      {
+        "country": "KGZ",
+        "value": 3.491
+      },
+      {
+        "country": "KHM",
+        "value": 0.254
+      },
+      {
+        "country": "LAO",
+        "value": 1.174
+      },
+      {
+        "country": "LSO",
+        "value": 16.34
+      },
+      {
+        "country": "MAR",
+        "value": 9.103
+      },
+      {
+        "country": "MMR",
+        "value": 2.887
+      },
+      {
+        "country": "MRT",
+        "value": 10.257
+      },
+      {
+        "country": "NAM",
+        "value": 19.157
+      },
+      {
+        "country": "NGA",
+        "value": 3.045
+      },
+      {
+        "country": "NIC",
+        "value": 4.98
+      },
+      {
+        "country": "NPL",
+        "value": 10.5
+      },
+      {
+        "country": "PAK",
+        "value": 5.492
+      },
+      {
+        "country": "PNG",
+        "value": 2.625
+      },
+      {
+        "country": "SEN",
+        "value": 2.788
+      },
+      {
+        "country": "SLB",
+        "value": 1.444
+      },
+      {
+        "country": "STP",
+        "value": 9.057
+      },
+      {
+        "country": "SWZ",
+        "value": 34.643
+      },
+      {
+        "country": "TGO",
+        "value": 1.948
+      },
+      {
+        "country": "TJK",
+        "value": 7.041
+      },
+      {
+        "country": "TLS",
+        "value": 1.523
+      },
+      {
+        "country": "TUN",
+        "value": 15.341
+      },
+      {
+        "country": "TZA",
+        "value": 1.557
+      },
+      {
+        "country": "UZB",
+        "value": 4.439
+      },
+      {
+        "country": "VEN",
+        "value": 5.321
+      },
+      {
+        "country": "VUT",
+        "value": 4.988
+      },
+      {
+        "country": "ZMB",
+        "value": 5.898
+      },
+      {
+        "country": "ZWE",
+        "value": 9.435
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "unemployment",
+    "year": 2025,
+    "value": 4.98,
+    "unit": "percent",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 14.108
+      },
+      {
+        "country": "BEN",
+        "value": 1.589
+      },
+      {
+        "country": "BGD",
+        "value": 3.778
+      },
+      {
+        "country": "BOL",
+        "value": 2.967
+      },
+      {
+        "country": "BTN",
+        "value": 3.227
+      },
+      {
+        "country": "CIV",
+        "value": 2.323
+      },
+      {
+        "country": "CMR",
+        "value": 3.602
+      },
+      {
+        "country": "COG",
+        "value": 19.876
+      },
+      {
+        "country": "COM",
+        "value": 3.819
+      },
+      {
+        "country": "DJI",
+        "value": 26.015
+      },
+      {
+        "country": "EGY",
+        "value": 6.781
+      },
+      {
+        "country": "GHA",
+        "value": 2.979
+      },
+      {
+        "country": "GIN",
+        "value": 5.163
+      },
+      {
+        "country": "HND",
+        "value": 4.92
+      },
+      {
+        "country": "HTI",
+        "value": 14.944
+      },
+      {
+        "country": "IND",
+        "value": 4.219
+      },
+      {
+        "country": "KEN",
+        "value": 5.449
+      },
+      {
+        "country": "KGZ",
+        "value": 3.526
+      },
+      {
+        "country": "KHM",
+        "value": 0.263
+      },
+      {
+        "country": "LAO",
+        "value": 1.187
+      },
+      {
+        "country": "LSO",
+        "value": 16.315
+      },
+      {
+        "country": "MAR",
+        "value": 9
+      },
+      {
+        "country": "MMR",
+        "value": 3.047
+      },
+      {
+        "country": "MRT",
+        "value": 10.319
+      },
+      {
+        "country": "NAM",
+        "value": 19.291
+      },
+      {
+        "country": "NGA",
+        "value": 3.064
+      },
+      {
+        "country": "NIC",
+        "value": 5.04
+      },
+      {
+        "country": "NPL",
+        "value": 10.465
+      },
+      {
+        "country": "PAK",
+        "value": 5.42
+      },
+      {
+        "country": "PNG",
+        "value": 2.571
+      },
+      {
+        "country": "SEN",
+        "value": 2.735
+      },
+      {
+        "country": "SLB",
+        "value": 1.431
+      },
+      {
+        "country": "STP",
+        "value": 9.132
+      },
+      {
+        "country": "SWZ",
+        "value": 34.202
+      },
+      {
+        "country": "TGO",
+        "value": 1.995
+      },
+      {
+        "country": "TJK",
+        "value": 6.931
+      },
+      {
+        "country": "TLS",
+        "value": 1.592
+      },
+      {
+        "country": "TUN",
+        "value": 15.108
+      },
+      {
+        "country": "TZA",
+        "value": 1.572
+      },
+      {
+        "country": "UZB",
+        "value": 4.622
+      },
+      {
+        "country": "VEN",
+        "value": 5.307
+      },
+      {
+        "country": "VUT",
+        "value": 5.073
+      },
+      {
+        "country": "ZMB",
+        "value": 5.918
+      },
+      {
+        "country": "ZWE",
+        "value": 9.293
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

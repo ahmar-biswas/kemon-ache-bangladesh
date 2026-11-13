@@ -2,9 +2,11 @@
 import { Link, useOutletContext } from 'react-router';
 import { t, type Lang } from '../i18n/index.ts';
 import { Alpona } from '../components/Motifs.tsx';
+import { usePageTitle } from '../lib/usePageTitle.ts';
 
 export function NotFound() {
   const lang = useOutletContext<Lang>();
+  usePageTitle(lang, t(lang, 'notfound.title'));
   return (
     <div className="wrap">
       <section className="not-found">

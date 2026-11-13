@@ -10,9 +10,9 @@ import { SITE_PATHS, renderAt } from './site-paths.tsx';
 afterEach(cleanup);
 
 /** Every page in the site. Add new routes here as they are built. */
-const PAGES = ['/', '/design-preview', ...SITE_PATHS.filter((p) => p !== '/economy/money-and-reserves')];
-/** Pages with no figures, checked for language and placeholders only. */
-const TEXT_ONLY_PAGES = ['/no-such-page', '/economy/money-and-reserves'];
+/** Pages with no figures, checked for language and placeholders only. (/sources shows figures only in folded sections, tested in states.test.tsx.) */
+const TEXT_ONLY_PAGES = ['/no-such-page', '/sources', '/about', '/how-to-read'];
+const PAGES = ['/', '/design-preview', ...SITE_PATHS.filter((p) => !TEXT_ONLY_PAGES.includes(p))];
 
 
 describe.each(LANGS)('pages in %s', (lang) => {
@@ -32,7 +32,8 @@ describe.each(LANGS)('pages in %s', (lang) => {
       expect(line!.querySelector('[data-source-year]')?.textContent).toBeTruthy();
       expect(line!.querySelector('[data-source-retrieved]')?.textContent).toBeTruthy();
     }
-  });
+    // The design preview renders every specimen at once; its first, cold render can pass 5 s.
+  }, 20000);
 
   it.each([...PAGES, ...TEXT_ONLY_PAGES])('%s: no unfilled {placeholders}', async (page) => {
     const { container } = await renderAt(`/${lang}${page}`);

@@ -1,5 +1,5 @@
-// Header menu (section 10; DECISIONS.md 101): Home · Economy · Education · Health · Compare.
-// Sources and About join in M7. Wide screens: a quiet row of links in the header. Phones: a
+// Header menu (section 10; DECISIONS.md 101): Home · Economy · Education · Health · Compare ·
+// Sources · About. Wide screens: a quiet row of links in the header. Phones: a
 // menu button that opens a full-width list under the header. Real links, so the menu also
 // works before JavaScript has run (the list is simply shown open without it).
 import { useEffect, useId, useState } from 'react';
@@ -13,6 +13,8 @@ const ITEMS: { key: MessageKey; to: (lang: Lang) => string; end?: boolean }[] = 
   { key: 'area.education', to: (l) => path.area(l, 'education') },
   { key: 'area.health', to: (l) => path.area(l, 'health') },
   { key: 'nav.compare', to: (l) => path.compare(l) },
+  { key: 'nav.sources', to: (l) => path.sources(l) },
+  { key: 'nav.about', to: (l) => path.about(l) },
 ];
 
 function Links({ lang, onPick }: { lang: Lang; onPick?: () => void }) {

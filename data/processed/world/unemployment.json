@@ -1,0 +1,1509 @@
+{
+  "indicator_id": "unemployment",
+  "code": "SL.UEM.TOTL.ZS",
+  "unit": "percent",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SL.UEM.TOTL.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2025,
+      "value": 13.351,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2025,
+      "value": 14.108,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2025,
+      "value": 10.926,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AL"
+    },
+    {
+      "country": "ARE",
+      "year": 2025,
+      "value": 2.174,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2025,
+      "value": 7.145,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2025,
+      "value": 12.871,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AM"
+    },
+    {
+      "country": "AUS",
+      "year": 2025,
+      "value": 4.09,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2025,
+      "value": 5.582,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2025,
+      "value": 5.457,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2025,
+      "value": 0.922,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2025,
+      "value": 5.906,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2025,
+      "value": 1.589,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2025,
+      "value": 3.477,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2025,
+      "value": 3.778,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2025,
+      "value": 3.536,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2025,
+      "value": 1.102,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2025,
+      "value": 9.207,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2025,
+      "value": 11.037,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2025,
+      "value": 3.38,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2025,
+      "value": 8.856,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2025,
+      "value": 2.967,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2025,
+      "value": 5.97,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2025,
+      "value": 6.524,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2025,
+      "value": 5.277,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2025,
+      "value": 3.227,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2025,
+      "value": 24.477,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2025,
+      "value": 6.251,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2025,
+      "value": 6.907,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2025,
+      "value": 4.873,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CH"
+    },
+    {
+      "country": "CHI",
+      "year": 2025,
+      "value": 6.169,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=JG"
+    },
+    {
+      "country": "CHL",
+      "year": 2025,
+      "value": 8.974,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2025,
+      "value": 4.615,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2025,
+      "value": 2.323,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2025,
+      "value": 3.602,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2025,
+      "value": 4.434,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2025,
+      "value": 19.876,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2025,
+      "value": 8.29,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2025,
+      "value": 3.819,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2025,
+      "value": 11.939,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2025,
+      "value": 6.843,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2025,
+      "value": 1.746,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2025,
+      "value": 4.924,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2025,
+      "value": 2.825,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2025,
+      "value": 3.711,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2025,
+      "value": 26.015,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DJ"
+    },
+    {
+      "country": "DNK",
+      "year": 2025,
+      "value": 5.529,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2025,
+      "value": 5.092,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2025,
+      "value": 11.633,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2025,
+      "value": 3.308,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2025,
+      "value": 6.781,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2025,
+      "value": 5.978,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2025,
+      "value": 10.376,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2025,
+      "value": 8.313,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2025,
+      "value": 3.323,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2025,
+      "value": 9.461,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2025,
+      "value": 5.347,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2025,
+      "value": 7.542,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=FR"
+    },
+    {
+      "country": "GAB",
+      "year": 2025,
+      "value": 20.154,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2025,
+      "value": 4.746,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2025,
+      "value": 12.097,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2025,
+      "value": 2.979,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2025,
+      "value": 5.163,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2025,
+      "value": 6.521,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2025,
+      "value": 2.673,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2025,
+      "value": 8.337,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2025,
+      "value": 8.54,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GR"
+    },
+    {
+      "country": "GTM",
+      "year": 2025,
+      "value": 2.604,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GT"
+    },
+    {
+      "country": "GUM",
+      "year": 2025,
+      "value": 5.569,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GU"
+    },
+    {
+      "country": "GUY",
+      "year": 2025,
+      "value": 11.962,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=GY"
+    },
+    {
+      "country": "HKG",
+      "year": 2025,
+      "value": 2.799,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HK"
+    },
+    {
+      "country": "HND",
+      "year": 2025,
+      "value": 4.92,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2025,
+      "value": 5.002,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2025,
+      "value": 14.944,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2025,
+      "value": 4.521,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2025,
+      "value": 3.237,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2025,
+      "value": 4.219,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2025,
+      "value": 4.632,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2025,
+      "value": 8.301,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2025,
+      "value": 15.485,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2025,
+      "value": 3.625,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2025,
+      "value": 3.489,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2025,
+      "value": 6.391,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2025,
+      "value": 3.286,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2025,
+      "value": 16.535,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2025,
+      "value": 2.451,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2025,
+      "value": 4.771,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2025,
+      "value": 5.449,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2025,
+      "value": 3.526,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2025,
+      "value": 0.263,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KH"
+    },
+    {
+      "country": "KOR",
+      "year": 2025,
+      "value": 2.683,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2025,
+      "value": 2.181,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2025,
+      "value": 1.187,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2023,
+      "value": 10.985,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2025,
+      "value": 2.884,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2025,
+      "value": 18.758,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2025,
+      "value": 9.452,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2025,
+      "value": 4.005,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2025,
+      "value": 16.315,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2025,
+      "value": 6.731,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2025,
+      "value": 6.343,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2025,
+      "value": 6.568,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LV"
+    },
+    {
+      "country": "MAC",
+      "year": 2025,
+      "value": 2.347,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MO"
+    },
+    {
+      "country": "MAR",
+      "year": 2025,
+      "value": 9,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MA"
+    },
+    {
+      "country": "MDA",
+      "year": 2025,
+      "value": 1.505,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2025,
+      "value": 3.041,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2025,
+      "value": 4.514,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2025,
+      "value": 2.673,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MX"
+    },
+    {
+      "country": "MKD",
+      "year": 2025,
+      "value": 12.256,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2025,
+      "value": 2.831,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2025,
+      "value": 2.896,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2025,
+      "value": 3.047,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2025,
+      "value": 13.572,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2025,
+      "value": 5.233,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2025,
+      "value": 6.628,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2025,
+      "value": 10.319,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2025,
+      "value": 5.635,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2025,
+      "value": 5.072,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2025,
+      "value": 3.764,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2025,
+      "value": 19.291,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NA"
+    },
+    {
+      "country": "NCL",
+      "year": 2025,
+      "value": 11.174,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NC"
+    },
+    {
+      "country": "NER",
+      "year": 2025,
+      "value": 0.394,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2025,
+      "value": 3.064,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2025,
+      "value": 5.04,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2025,
+      "value": 3.874,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2025,
+      "value": 4.637,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2025,
+      "value": 10.465,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NP"
+    },
+    {
+      "country": "NZL",
+      "year": 2025,
+      "value": 5.076,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2025,
+      "value": 3.251,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2025,
+      "value": 5.42,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2025,
+      "value": 8.36,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2025,
+      "value": 5.117,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2025,
+      "value": 2.235,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PH"
+    },
+    {
+      "country": "PNG",
+      "year": 2025,
+      "value": 2.571,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2025,
+      "value": 2.976,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PL"
+    },
+    {
+      "country": "PRI",
+      "year": 2025,
+      "value": 5.991,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PR"
+    },
+    {
+      "country": "PRK",
+      "year": 2025,
+      "value": 3.545,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2025,
+      "value": 6.164,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2025,
+      "value": 4.803,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2022,
+      "value": 24.42,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PS"
+    },
+    {
+      "country": "PYF",
+      "year": 2025,
+      "value": 11.662,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PF"
+    },
+    {
+      "country": "QAT",
+      "year": 2025,
+      "value": 0.13,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2025,
+      "value": 5.992,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2025,
+      "value": 2.133,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2025,
+      "value": 11.363,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2025,
+      "value": 3.038,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2022,
+      "value": 7.53,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2025,
+      "value": 2.735,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2025,
+      "value": 2.818,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2025,
+      "value": 1.431,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2025,
+      "value": 3.15,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2025,
+      "value": 3.303,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SV"
+    },
+    {
+      "country": "SOM",
+      "year": 2025,
+      "value": 18.948,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2025,
+      "value": 7.123,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2023,
+      "value": 12.374,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2025,
+      "value": 9.132,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2025,
+      "value": 7.834,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2025,
+      "value": 5.359,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2025,
+      "value": 3.175,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2025,
+      "value": 8.694,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2025,
+      "value": 34.202,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SZ"
+    },
+    {
+      "country": "SYR",
+      "year": 2025,
+      "value": 13.569,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2025,
+      "value": 1.057,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2025,
+      "value": 1.995,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2025,
+      "value": 0.781,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2025,
+      "value": 6.931,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2025,
+      "value": 4.267,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2025,
+      "value": 1.592,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2025,
+      "value": 2.008,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2025,
+      "value": 3.329,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2025,
+      "value": 15.108,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2025,
+      "value": 8.52,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TR"
+    },
+    {
+      "country": "TZA",
+      "year": 2025,
+      "value": 1.572,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2025,
+      "value": 2.746,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2021,
+      "value": 9.834,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2025,
+      "value": 7.516,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2025,
+      "value": 4.198,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2025,
+      "value": 4.622,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2025,
+      "value": 18.003,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2025,
+      "value": 5.307,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VE"
+    },
+    {
+      "country": "VIR",
+      "year": 2025,
+      "value": 11.443,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VI"
+    },
+    {
+      "country": "VNM",
+      "year": 2025,
+      "value": 1.523,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2025,
+      "value": 5.073,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2025,
+      "value": 4.996,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2025,
+      "value": 17.322,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2025,
+      "value": 32.391,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2025,
+      "value": 5.918,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2025,
+      "value": 9.293,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=ZW"
+    }
+  ]
+}

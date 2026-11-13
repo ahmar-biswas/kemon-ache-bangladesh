@@ -2,6 +2,16 @@
   "_about": "Official numeric goals drawn as goal lines. Only goals whose source states the number, or says 'universal' / 'for all' (= 100%), are listed. Each source_text is copied word for word from source_url (checked 2026-11-13). Validated by npm run check:data.",
   "targets": [
     {
+      "indicator_id": "maternal_mortality",
+      "value": 70,
+      "unit": "per_100000_live_births",
+      "by_year": 2030,
+      "source_name": "UN Sustainable Development Goals, target 3.1",
+      "source_url": "https://sdgs.un.org/goals/goal3",
+      "source_text": "Target 3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births",
+      "label_key": "target.short.sdg_3_1"
+    },
+    {
       "indicator_id": "under5_mortality",
       "value": 25,
       "unit": "per_1000_live_births",

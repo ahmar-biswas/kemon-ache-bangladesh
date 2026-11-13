@@ -251,7 +251,7 @@ export interface NormaliseResult {
  */
 export function normalise(config: IndicatorConfig, metaRaw: RawResponse, dataRaw: RawResponse, ctx: NormaliseContext): NormaliseResult {
   const bgdCurrency = ctx.countryMeta.get(COUNTRY)?.currencyUnit;
-  if ((config.unit === 'taka_current' || config.unit === 'taka_constant') && bgdCurrency !== EXPECTED_CURRENCY_UNIT) {
+  if ((config.unit === 'taka_current' || config.unit === 'taka_constant' || config.unit === 'taka_per_usd') && bgdCurrency !== EXPECTED_CURRENCY_UNIT) {
     throw new Error(`${config.code}: World Bank currency unit for ${COUNTRY} is "${bgdCurrency}", not "${EXPECTED_CURRENCY_UNIT}"`);
   }
   const [, metaRows] = unwrap<WbIndicatorMeta>(metaRaw.response, `${config.code} metadata`);

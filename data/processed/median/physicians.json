@@ -1,0 +1,4290 @@
+[
+  {
+    "indicator_id": "physicians",
+    "year": 1960,
+    "value": 0.092,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.067
+      },
+      {
+        "country": "BEN",
+        "value": 0.04
+      },
+      {
+        "country": "BOL",
+        "value": 0.267
+      },
+      {
+        "country": "CIV",
+        "value": 0.033
+      },
+      {
+        "country": "CMR",
+        "value": 0.034
+      },
+      {
+        "country": "COG",
+        "value": 0.06
+      },
+      {
+        "country": "DJI",
+        "value": 0.157
+      },
+      {
+        "country": "EGY",
+        "value": 0.391
+      },
+      {
+        "country": "GHA",
+        "value": 0.047
+      },
+      {
+        "country": "GIN",
+        "value": 0.036
+      },
+      {
+        "country": "HND",
+        "value": 0.081
+      },
+      {
+        "country": "HTI",
+        "value": 0.105
+      },
+      {
+        "country": "IND",
+        "value": 0.21
+      },
+      {
+        "country": "KEN",
+        "value": 0.092
+      },
+      {
+        "country": "KHM",
+        "value": 0.028
+      },
+      {
+        "country": "KIR",
+        "value": 0.541
+      },
+      {
+        "country": "LAO",
+        "value": 0.02
+      },
+      {
+        "country": "LBN",
+        "value": 0.778
+      },
+      {
+        "country": "LSO",
+        "value": 0.042
+      },
+      {
+        "country": "MAR",
+        "value": 0.106
+      },
+      {
+        "country": "MMR",
+        "value": 0.065
+      },
+      {
+        "country": "MRT",
+        "value": 0.024
+      },
+      {
+        "country": "NGA",
+        "value": 0.017
+      },
+      {
+        "country": "NIC",
+        "value": 0.34
+      },
+      {
+        "country": "NPL",
+        "value": 0.013
+      },
+      {
+        "country": "PAK",
+        "value": 0.185
+      },
+      {
+        "country": "SEN",
+        "value": 0.044
+      },
+      {
+        "country": "SLB",
+        "value": 0.186
+      },
+      {
+        "country": "STP",
+        "value": 0.3
+      },
+      {
+        "country": "SWZ",
+        "value": 0.104
+      },
+      {
+        "country": "TGO",
+        "value": 0.021
+      },
+      {
+        "country": "TUN",
+        "value": 0.1
+      },
+      {
+        "country": "TZA",
+        "value": 0.055
+      },
+      {
+        "country": "VEN",
+        "value": 0.666
+      },
+      {
+        "country": "VUT",
+        "value": 0.277
+      },
+      {
+        "country": "ZMB",
+        "value": 0.107
+      },
+      {
+        "country": "ZWE",
+        "value": 0.202
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BO-CI-CM-CG-DJ-EG-GH-GN-HN-HT-IN-KE-KH-KI-LA-LB-LS-MA-MM-MR-NG-NI-NP-PK-SN-SB-ST-SZ-TG-TN-TZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1965,
+    "value": 0.074,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.076
+      },
+      {
+        "country": "BEN",
+        "value": 0.03
+      },
+      {
+        "country": "BGD",
+        "value": 0.123
+      },
+      {
+        "country": "BOL",
+        "value": 0.311
+      },
+      {
+        "country": "CIV",
+        "value": 0.048
+      },
+      {
+        "country": "CMR",
+        "value": 0.037
+      },
+      {
+        "country": "COG",
+        "value": 0.068
+      },
+      {
+        "country": "EGY",
+        "value": 0.435
+      },
+      {
+        "country": "GHA",
+        "value": 0.073
+      },
+      {
+        "country": "GIN",
+        "value": 0.022
+      },
+      {
+        "country": "HND",
+        "value": 0.19
+      },
+      {
+        "country": "HTI",
+        "value": 0.07
+      },
+      {
+        "country": "IND",
+        "value": 0.205
+      },
+      {
+        "country": "KEN",
+        "value": 0.075
+      },
+      {
+        "country": "KHM",
+        "value": 0.045
+      },
+      {
+        "country": "LAO",
+        "value": 0.041
+      },
+      {
+        "country": "LBN",
+        "value": 0.938
+      },
+      {
+        "country": "LSO",
+        "value": 0.048
+      },
+      {
+        "country": "MAR",
+        "value": 0.082
+      },
+      {
+        "country": "MMR",
+        "value": 0.085
+      },
+      {
+        "country": "MRT",
+        "value": 0.027
+      },
+      {
+        "country": "NGA",
+        "value": 0.043
+      },
+      {
+        "country": "NIC",
+        "value": 0.378
+      },
+      {
+        "country": "NPL",
+        "value": 0.021
+      },
+      {
+        "country": "PNG",
+        "value": 0.079
+      },
+      {
+        "country": "SEN",
+        "value": 0.051
+      },
+      {
+        "country": "TGO",
+        "value": 0.043
+      },
+      {
+        "country": "TUN",
+        "value": 0.125
+      },
+      {
+        "country": "TZA",
+        "value": 0.045
+      },
+      {
+        "country": "VEN",
+        "value": 0.815
+      },
+      {
+        "country": "ZMB",
+        "value": 0.088
+      },
+      {
+        "country": "ZWE",
+        "value": 0.125
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BO-CI-CM-CG-EG-GH-GN-HN-HT-IN-KE-KH-LA-LB-LS-MA-MM-MR-NG-NI-NP-PG-SN-TG-TN-TZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1970,
+    "value": 0.114,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.116
+      },
+      {
+        "country": "BEN",
+        "value": 0.034
+      },
+      {
+        "country": "BGD",
+        "value": 0.119
+      },
+      {
+        "country": "BOL",
+        "value": 0.509
+      },
+      {
+        "country": "CIV",
+        "value": 0.064
+      },
+      {
+        "country": "CMR",
+        "value": 0.034
+      },
+      {
+        "country": "COG",
+        "value": 0.101
+      },
+      {
+        "country": "DJI",
+        "value": 0.284
+      },
+      {
+        "country": "EGY",
+        "value": 0.527
+      },
+      {
+        "country": "GHA",
+        "value": 0.078
+      },
+      {
+        "country": "GIN",
+        "value": 0.02
+      },
+      {
+        "country": "HND",
+        "value": 0.269
+      },
+      {
+        "country": "HTI",
+        "value": 0.08
+      },
+      {
+        "country": "IND",
+        "value": 0.205
+      },
+      {
+        "country": "KEN",
+        "value": 0.125
+      },
+      {
+        "country": "KHM",
+        "value": 0.062
+      },
+      {
+        "country": "KIR",
+        "value": 0.613
+      },
+      {
+        "country": "LAO",
+        "value": 0.066
+      },
+      {
+        "country": "LBN",
+        "value": 0.726
+      },
+      {
+        "country": "LSO",
+        "value": 0.032
+      },
+      {
+        "country": "MAR",
+        "value": 0.076
+      },
+      {
+        "country": "MMR",
+        "value": 0.114
+      },
+      {
+        "country": "MRT",
+        "value": 0.056
+      },
+      {
+        "country": "NGA",
+        "value": 0.05
+      },
+      {
+        "country": "NIC",
+        "value": 0.453
+      },
+      {
+        "country": "NPL",
+        "value": 0.019
+      },
+      {
+        "country": "PAK",
+        "value": 0.232
+      },
+      {
+        "country": "PNG",
+        "value": 0.086
+      },
+      {
+        "country": "SEN",
+        "value": 0.063
+      },
+      {
+        "country": "SLB",
+        "value": 0.205
+      },
+      {
+        "country": "STP",
+        "value": 0.233
+      },
+      {
+        "country": "SWZ",
+        "value": 0.124
+      },
+      {
+        "country": "TGO",
+        "value": 0.035
+      },
+      {
+        "country": "TUN",
+        "value": 0.169
+      },
+      {
+        "country": "TZA",
+        "value": 0.044
+      },
+      {
+        "country": "VEN",
+        "value": 0.883
+      },
+      {
+        "country": "VUT",
+        "value": 0.301
+      },
+      {
+        "country": "ZMB",
+        "value": 0.073
+      },
+      {
+        "country": "ZWE",
+        "value": 0.162
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BO-CI-CM-CG-DJ-EG-GH-GN-HN-HT-IN-KE-KH-KI-LA-LB-LS-MA-MM-MR-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TN-TZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1975,
+    "value": 0.081,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 0.49
+      },
+      {
+        "country": "CMR",
+        "value": 0.072
+      },
+      {
+        "country": "EGY",
+        "value": 0.536
+      },
+      {
+        "country": "GHA",
+        "value": 0.078
+      },
+      {
+        "country": "HND",
+        "value": 0.269
+      },
+      {
+        "country": "HTI",
+        "value": 0.081
+      },
+      {
+        "country": "IND",
+        "value": 0.204
+      },
+      {
+        "country": "KEN",
+        "value": 0.127
+      },
+      {
+        "country": "LSO",
+        "value": 0.032
+      },
+      {
+        "country": "MAR",
+        "value": 0.076
+      },
+      {
+        "country": "MRT",
+        "value": 0.055
+      },
+      {
+        "country": "NGA",
+        "value": 0.049
+      },
+      {
+        "country": "NIC",
+        "value": 0.46
+      },
+      {
+        "country": "NPL",
+        "value": 0.019
+      },
+      {
+        "country": "PAK",
+        "value": 0.233
+      },
+      {
+        "country": "PNG",
+        "value": 0.085
+      },
+      {
+        "country": "SEN",
+        "value": 0.061
+      },
+      {
+        "country": "TGO",
+        "value": 0.035
+      },
+      {
+        "country": "TUN",
+        "value": 0.169
+      },
+      {
+        "country": "TZA",
+        "value": 0.044
+      },
+      {
+        "country": "VEN",
+        "value": 0.904
+      },
+      {
+        "country": "ZMB",
+        "value": 0.074
+      },
+      {
+        "country": "ZWE",
+        "value": 0.158
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BO-CM-EG-GH-HN-HT-IN-KE-LS-MA-MR-NG-NI-NP-PK-PG-SN-TG-TN-TZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1980,
+    "value": 0.191,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.059
+      },
+      {
+        "country": "BGD",
+        "value": 0.12
+      },
+      {
+        "country": "IND",
+        "value": 0.371
+      },
+      {
+        "country": "KIR",
+        "value": 0.516
+      },
+      {
+        "country": "NGA",
+        "value": 0.113
+      },
+      {
+        "country": "NIC",
+        "value": 0.416
+      },
+      {
+        "country": "NPL",
+        "value": 0.034
+      },
+      {
+        "country": "PAK",
+        "value": 0.285
+      },
+      {
+        "country": "PNG",
+        "value": 0.062
+      },
+      {
+        "country": "STP",
+        "value": 0.438
+      },
+      {
+        "country": "TGO",
+        "value": 0.055
+      },
+      {
+        "country": "TUN",
+        "value": 0.271
+      },
+      {
+        "country": "UZB",
+        "value": 2.669
+      },
+      {
+        "country": "VEN",
+        "value": 0.83
+      },
+      {
+        "country": "VUT",
+        "value": 0.191
+      },
+      {
+        "country": "ZMB",
+        "value": 0.076
+      },
+      {
+        "country": "ZWE",
+        "value": 0.161
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-IN-KI-NG-NI-NP-PK-PG-ST-TG-TN-UZ-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1981,
+    "value": 0.196,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.059
+      },
+      {
+        "country": "BOL",
+        "value": 0.523
+      },
+      {
+        "country": "BTN",
+        "value": 0.125
+      },
+      {
+        "country": "DJI",
+        "value": 0.224
+      },
+      {
+        "country": "GIN",
+        "value": 0.022
+      },
+      {
+        "country": "HND",
+        "value": 0.332
+      },
+      {
+        "country": "HTI",
+        "value": 0.11
+      },
+      {
+        "country": "IND",
+        "value": 0.27
+      },
+      {
+        "country": "KEN",
+        "value": 0.099
+      },
+      {
+        "country": "KGZ",
+        "value": 3.088
+      },
+      {
+        "country": "LBN",
+        "value": 1.714
+      },
+      {
+        "country": "MAR",
+        "value": 0.054
+      },
+      {
+        "country": "MMR",
+        "value": 0.203
+      },
+      {
+        "country": "NIC",
+        "value": 0.426
+      },
+      {
+        "country": "PAK",
+        "value": 0.344
+      },
+      {
+        "country": "PNG",
+        "value": 0.062
+      },
+      {
+        "country": "SEN",
+        "value": 0.079
+      },
+      {
+        "country": "STP",
+        "value": 0.419
+      },
+      {
+        "country": "TGO",
+        "value": 0.049
+      },
+      {
+        "country": "TUN",
+        "value": 0.275
+      },
+      {
+        "country": "VEN",
+        "value": 0.996
+      },
+      {
+        "country": "VUT",
+        "value": 0.189
+      },
+      {
+        "country": "ZMB",
+        "value": 0.126
+      },
+      {
+        "country": "ZWE",
+        "value": 0.139
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BO-BT-DJ-GN-HN-HT-IN-KE-KG-LB-MA-MM-NI-PK-PG-SN-ST-TG-TN-VE-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1984,
+    "value": 0.129,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.059
+      },
+      {
+        "country": "BOL",
+        "value": 0.697
+      },
+      {
+        "country": "COM",
+        "value": 0.084
+      },
+      {
+        "country": "DJI",
+        "value": 0.238
+      },
+      {
+        "country": "GHA",
+        "value": 0.067
+      },
+      {
+        "country": "HND",
+        "value": 0.691
+      },
+      {
+        "country": "HTI",
+        "value": 0.141
+      },
+      {
+        "country": "IND",
+        "value": 0.396
+      },
+      {
+        "country": "MRT",
+        "value": 0.083
+      },
+      {
+        "country": "NIC",
+        "value": 0.637
+      },
+      {
+        "country": "NPL",
+        "value": 0.031
+      },
+      {
+        "country": "TGO",
+        "value": 0.117
+      },
+      {
+        "country": "TZA",
+        "value": 0.039
+      },
+      {
+        "country": "VEN",
+        "value": 1.436
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BO-KM-DJ-GH-HN-HT-IN-MR-NI-NP-TG-TZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1985,
+    "value": 0.154,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.073
+      },
+      {
+        "country": "BGD",
+        "value": 0.154
+      },
+      {
+        "country": "CIV",
+        "value": 0.071
+      },
+      {
+        "country": "COG",
+        "value": 0.252
+      },
+      {
+        "country": "GIN",
+        "value": 0.026
+      },
+      {
+        "country": "HTI",
+        "value": 0.137
+      },
+      {
+        "country": "KEN",
+        "value": 0.154
+      },
+      {
+        "country": "LAO",
+        "value": 0.729
+      },
+      {
+        "country": "LSO",
+        "value": 0.071
+      },
+      {
+        "country": "MMR",
+        "value": 0.27
+      },
+      {
+        "country": "MRT",
+        "value": 0.113
+      },
+      {
+        "country": "NGA",
+        "value": 0.192
+      },
+      {
+        "country": "NPL",
+        "value": 0.034
+      },
+      {
+        "country": "PNG",
+        "value": 0.162
+      },
+      {
+        "country": "TJK",
+        "value": 2.527
+      },
+      {
+        "country": "TZA",
+        "value": 0.035
+      },
+      {
+        "country": "UZB",
+        "value": 2.694
+      },
+      {
+        "country": "VEN",
+        "value": 1.196
+      },
+      {
+        "country": "ZMB",
+        "value": 0.141
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-CI-CG-GN-HT-KE-LA-LS-MM-MR-NG-NP-PG-TJ-TZ-UZ-VE-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1986,
+    "value": 0.3015,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.144
+      },
+      {
+        "country": "COG",
+        "value": 0.252
+      },
+      {
+        "country": "KIR",
+        "value": 0.497
+      },
+      {
+        "country": "NGA",
+        "value": 0.187
+      },
+      {
+        "country": "PAK",
+        "value": 0.351
+      },
+      {
+        "country": "SLB",
+        "value": 0.135
+      },
+      {
+        "country": "TGO",
+        "value": 0.085
+      },
+      {
+        "country": "TJK",
+        "value": 2.556
+      },
+      {
+        "country": "TUN",
+        "value": 0.461
+      },
+      {
+        "country": "UZB",
+        "value": 3.255
+      },
+      {
+        "country": "VEN",
+        "value": 1.399
+      },
+      {
+        "country": "VUT",
+        "value": 0.204
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-CG-KI-NG-PK-SB-TG-TJ-TN-UZ-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1989,
+    "value": 0.125,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.071
+      },
+      {
+        "country": "CMR",
+        "value": 0.084
+      },
+      {
+        "country": "GHA",
+        "value": 0.043
+      },
+      {
+        "country": "LBN",
+        "value": 1.862
+      },
+      {
+        "country": "MMR",
+        "value": 0.081
+      },
+      {
+        "country": "NGA",
+        "value": 0.192
+      },
+      {
+        "country": "NPL",
+        "value": 0.054
+      },
+      {
+        "country": "SLB",
+        "value": 0.152
+      },
+      {
+        "country": "STP",
+        "value": 0.546
+      },
+      {
+        "country": "VEN",
+        "value": 1.695
+      },
+      {
+        "country": "VUT",
+        "value": 0.125
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-CM-GH-LB-MM-NG-NP-SB-ST-VE-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1990,
+    "value": 0.14800000000000002,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.042
+      },
+      {
+        "country": "BEN",
+        "value": 0.051
+      },
+      {
+        "country": "BGD",
+        "value": 0.177
+      },
+      {
+        "country": "BOL",
+        "value": 0.45
+      },
+      {
+        "country": "BTN",
+        "value": 0.333
+      },
+      {
+        "country": "CIV",
+        "value": 0.088
+      },
+      {
+        "country": "CMR",
+        "value": 0.082
+      },
+      {
+        "country": "COG",
+        "value": 0.276
+      },
+      {
+        "country": "COM",
+        "value": 0.113
+      },
+      {
+        "country": "DJI",
+        "value": 0.162
+      },
+      {
+        "country": "GIN",
+        "value": 0.134
+      },
+      {
+        "country": "HND",
+        "value": 0.7
+      },
+      {
+        "country": "HTI",
+        "value": 0.08
+      },
+      {
+        "country": "KGZ",
+        "value": 3.373
+      },
+      {
+        "country": "KIR",
+        "value": 0.193
+      },
+      {
+        "country": "LAO",
+        "value": 0.234
+      },
+      {
+        "country": "LSO",
+        "value": 0.043
+      },
+      {
+        "country": "MMR",
+        "value": 0.078
+      },
+      {
+        "country": "MRT",
+        "value": 0.063
+      },
+      {
+        "country": "NIC",
+        "value": 0.657
+      },
+      {
+        "country": "NPL",
+        "value": 0.051
+      },
+      {
+        "country": "PAK",
+        "value": 0.462
+      },
+      {
+        "country": "PNG",
+        "value": 0.073
+      },
+      {
+        "country": "SEN",
+        "value": 0.055
+      },
+      {
+        "country": "STP",
+        "value": 0.53
+      },
+      {
+        "country": "SWZ",
+        "value": 0.108
+      },
+      {
+        "country": "TJK",
+        "value": 2.505
+      },
+      {
+        "country": "TUN",
+        "value": 0.531
+      },
+      {
+        "country": "UZB",
+        "value": 3.38
+      },
+      {
+        "country": "VEN",
+        "value": 1.564
+      },
+      {
+        "country": "ZMB",
+        "value": 0.092
+      },
+      {
+        "country": "ZWE",
+        "value": 0.13
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-GN-HN-HT-KG-KI-LA-LS-MM-MR-NI-NP-PK-PG-SN-ST-SZ-TJ-TN-UZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1991,
+    "value": 0.411,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.042
+      },
+      {
+        "country": "BGD",
+        "value": 0.188
+      },
+      {
+        "country": "HND",
+        "value": 0.411
+      },
+      {
+        "country": "IND",
+        "value": 1.231
+      },
+      {
+        "country": "KGZ",
+        "value": 3.388
+      },
+      {
+        "country": "KIR",
+        "value": 0.176
+      },
+      {
+        "country": "LBN",
+        "value": 1.326
+      },
+      {
+        "country": "NAM",
+        "value": 0.231
+      },
+      {
+        "country": "NPL",
+        "value": 0.062
+      },
+      {
+        "country": "PAK",
+        "value": 0.48
+      },
+      {
+        "country": "TGO",
+        "value": 0.088
+      },
+      {
+        "country": "TJK",
+        "value": 2.555
+      },
+      {
+        "country": "TUN",
+        "value": 0.529
+      },
+      {
+        "country": "UZB",
+        "value": 3.368
+      },
+      {
+        "country": "VUT",
+        "value": 0.099
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-HN-IN-KG-KI-LB-NA-NP-PK-TG-TJ-TN-UZ-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1992,
+    "value": 0.185,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.055
+      },
+      {
+        "country": "CMR",
+        "value": 0.084
+      },
+      {
+        "country": "COM",
+        "value": 0.127
+      },
+      {
+        "country": "HTI",
+        "value": 0.084
+      },
+      {
+        "country": "KGZ",
+        "value": 3.304
+      },
+      {
+        "country": "KHM",
+        "value": 0.107
+      },
+      {
+        "country": "KIR",
+        "value": 0.186
+      },
+      {
+        "country": "NAM",
+        "value": 0.232
+      },
+      {
+        "country": "NGA",
+        "value": 0.185
+      },
+      {
+        "country": "NPL",
+        "value": 0.076
+      },
+      {
+        "country": "PAK",
+        "value": 0.486
+      },
+      {
+        "country": "SEN",
+        "value": 0.068
+      },
+      {
+        "country": "SLB",
+        "value": 0.157
+      },
+      {
+        "country": "STP",
+        "value": 0.328
+      },
+      {
+        "country": "TJK",
+        "value": 2.314
+      },
+      {
+        "country": "TUN",
+        "value": 0.587
+      },
+      {
+        "country": "UZB",
+        "value": 3.357
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-CM-KM-HT-KG-KH-KI-NA-NG-NP-PK-SN-SB-ST-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1993,
+    "value": 0.165,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.057
+      },
+      {
+        "country": "BOL",
+        "value": 0.426
+      },
+      {
+        "country": "CMR",
+        "value": 0.073
+      },
+      {
+        "country": "HTI",
+        "value": 0.092
+      },
+      {
+        "country": "KEN",
+        "value": 0.138
+      },
+      {
+        "country": "KGZ",
+        "value": 3.037
+      },
+      {
+        "country": "KHM",
+        "value": 0.104
+      },
+      {
+        "country": "KIR",
+        "value": 0.13
+      },
+      {
+        "country": "LBN",
+        "value": 1.862
+      },
+      {
+        "country": "LSO",
+        "value": 0.05
+      },
+      {
+        "country": "MAR",
+        "value": 0.214
+      },
+      {
+        "country": "MRT",
+        "value": 0.063
+      },
+      {
+        "country": "NGA",
+        "value": 0.192
+      },
+      {
+        "country": "NPL",
+        "value": 0.074
+      },
+      {
+        "country": "PAK",
+        "value": 0.496
+      },
+      {
+        "country": "TJK",
+        "value": 2.119
+      },
+      {
+        "country": "TUN",
+        "value": 0.594
+      },
+      {
+        "country": "UZB",
+        "value": 3.326
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BO-CM-HT-KE-KG-KH-KI-LB-LS-MA-MR-NG-NP-PK-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1994,
+    "value": 0.17,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.061
+      },
+      {
+        "country": "BTN",
+        "value": 0.17
+      },
+      {
+        "country": "GIN",
+        "value": 0.152
+      },
+      {
+        "country": "KGZ",
+        "value": 3.006
+      },
+      {
+        "country": "KHM",
+        "value": 0.105
+      },
+      {
+        "country": "MAR",
+        "value": 0.363
+      },
+      {
+        "country": "PAK",
+        "value": 0.506
+      },
+      {
+        "country": "SEN",
+        "value": 0.096
+      },
+      {
+        "country": "TGO",
+        "value": 0.056
+      },
+      {
+        "country": "TJK",
+        "value": 2.17
+      },
+      {
+        "country": "TUN",
+        "value": 0.593
+      },
+      {
+        "country": "TZA",
+        "value": 0.042
+      },
+      {
+        "country": "UZB",
+        "value": 3.296
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BT-GN-KG-KH-MA-PK-SN-TG-TJ-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1995,
+    "value": 0.1755,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.058
+      },
+      {
+        "country": "BGD",
+        "value": 0.201
+      },
+      {
+        "country": "BOL",
+        "value": 0.34
+      },
+      {
+        "country": "BTN",
+        "value": 0.16
+      },
+      {
+        "country": "COG",
+        "value": 0.251
+      },
+      {
+        "country": "DJI",
+        "value": 0.191
+      },
+      {
+        "country": "GIN",
+        "value": 0.13
+      },
+      {
+        "country": "HND",
+        "value": 0.65
+      },
+      {
+        "country": "HTI",
+        "value": 0.16
+      },
+      {
+        "country": "KEN",
+        "value": 0.132
+      },
+      {
+        "country": "KGZ",
+        "value": 3.05
+      },
+      {
+        "country": "LAO",
+        "value": 0.336
+      },
+      {
+        "country": "LSO",
+        "value": 0.054
+      },
+      {
+        "country": "MMR",
+        "value": 0.293
+      },
+      {
+        "country": "MRT",
+        "value": 0.138
+      },
+      {
+        "country": "NIC",
+        "value": 0.82
+      },
+      {
+        "country": "NPL",
+        "value": 0.04
+      },
+      {
+        "country": "PAK",
+        "value": 0.518
+      },
+      {
+        "country": "SEN",
+        "value": 0.075
+      },
+      {
+        "country": "SLB",
+        "value": 0.14
+      },
+      {
+        "country": "TGO",
+        "value": 0.076
+      },
+      {
+        "country": "TJK",
+        "value": 2.035
+      },
+      {
+        "country": "TUN",
+        "value": 0.651
+      },
+      {
+        "country": "TZA",
+        "value": 0.041
+      },
+      {
+        "country": "UZB",
+        "value": 3.238
+      },
+      {
+        "country": "VEN",
+        "value": 1.94
+      },
+      {
+        "country": "ZMB",
+        "value": 0.069
+      },
+      {
+        "country": "ZWE",
+        "value": 0.149
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-BT-CG-DJ-GN-HN-HT-KE-KG-LA-LS-MM-MR-NI-NP-PK-SN-SB-TG-TJ-TN-TZ-UZ-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1996,
+    "value": 0.14550000000000002,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CIV",
+        "value": 0.09
+      },
+      {
+        "country": "CMR",
+        "value": 0.074
+      },
+      {
+        "country": "DJI",
+        "value": 0.14
+      },
+      {
+        "country": "GHA",
+        "value": 0.062
+      },
+      {
+        "country": "KGZ",
+        "value": 3.128
+      },
+      {
+        "country": "KHM",
+        "value": 0.115
+      },
+      {
+        "country": "NPL",
+        "value": 0.04
+      },
+      {
+        "country": "PAK",
+        "value": 0.536
+      },
+      {
+        "country": "SEN",
+        "value": 0.093
+      },
+      {
+        "country": "STP",
+        "value": 0.467
+      },
+      {
+        "country": "SWZ",
+        "value": 0.151
+      },
+      {
+        "country": "TJK",
+        "value": 1.972
+      },
+      {
+        "country": "TUN",
+        "value": 0.665
+      },
+      {
+        "country": "UZB",
+        "value": 3.14
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CI-CM-DJ-GH-KG-KH-NP-PK-SN-ST-SZ-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1997,
+    "value": 0.5055000000000001,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.06
+      },
+      {
+        "country": "BGD",
+        "value": 0.2
+      },
+      {
+        "country": "COM",
+        "value": 0.074
+      },
+      {
+        "country": "HND",
+        "value": 0.832
+      },
+      {
+        "country": "KGZ",
+        "value": 2.961
+      },
+      {
+        "country": "LBN",
+        "value": 2.1
+      },
+      {
+        "country": "MAR",
+        "value": 0.46
+      },
+      {
+        "country": "NAM",
+        "value": 0.295
+      },
+      {
+        "country": "NIC",
+        "value": 0.856
+      },
+      {
+        "country": "NPL",
+        "value": 0.04
+      },
+      {
+        "country": "PAK",
+        "value": 0.551
+      },
+      {
+        "country": "SEN",
+        "value": 0.093
+      },
+      {
+        "country": "TJK",
+        "value": 1.918
+      },
+      {
+        "country": "TUN",
+        "value": 0.686
+      },
+      {
+        "country": "UZB",
+        "value": 3.089
+      },
+      {
+        "country": "VUT",
+        "value": 0.115
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BD-KM-HN-KG-LB-MA-NA-NI-NP-PK-SN-TJ-TN-UZ-VU",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 1998,
+    "value": 0.532,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "COG",
+        "value": 0.73
+      },
+      {
+        "country": "HTI",
+        "value": 0.244
+      },
+      {
+        "country": "KGZ",
+        "value": 2.91
+      },
+      {
+        "country": "KHM",
+        "value": 0.142
+      },
+      {
+        "country": "NPL",
+        "value": 0.04
+      },
+      {
+        "country": "PAK",
+        "value": 0.564
+      },
+      {
+        "country": "PNG",
+        "value": 0.073
+      },
+      {
+        "country": "PSE",
+        "value": 0.5
+      },
+      {
+        "country": "SEN",
+        "value": 0.095
+      },
+      {
+        "country": "TJK",
+        "value": 2.032
+      },
+      {
+        "country": "TUN",
+        "value": 0.715
+      },
+      {
+        "country": "UZB",
+        "value": 3.062
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CG-HT-KG-KH-NP-PK-PG-PS-SN-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2000,
+    "value": 0.302,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "GIN",
+        "value": 0.091
+      },
+      {
+        "country": "HND",
+        "value": 0.559
+      },
+      {
+        "country": "KGZ",
+        "value": 1.803
+      },
+      {
+        "country": "KHM",
+        "value": 0.164
+      },
+      {
+        "country": "LAO",
+        "value": 0.279
+      },
+      {
+        "country": "MMR",
+        "value": 0.302
+      },
+      {
+        "country": "NGA",
+        "value": 0.269
+      },
+      {
+        "country": "PAK",
+        "value": 0.593
+      },
+      {
+        "country": "PNG",
+        "value": 0.05
+      },
+      {
+        "country": "TJK",
+        "value": 2.148
+      },
+      {
+        "country": "TUN",
+        "value": 0.762
+      },
+      {
+        "country": "UZB",
+        "value": 2.961
+      },
+      {
+        "country": "ZWE",
+        "value": 0.126
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GN-HN-KG-KH-LA-MM-NG-PK-PG-TJ-TN-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2001,
+    "value": 0.812,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.238
+      },
+      {
+        "country": "BOL",
+        "value": 1.18
+      },
+      {
+        "country": "KGZ",
+        "value": 1.745
+      },
+      {
+        "country": "LBN",
+        "value": 2.614
+      },
+      {
+        "country": "MAR",
+        "value": 0.483
+      },
+      {
+        "country": "NPL",
+        "value": 0.052
+      },
+      {
+        "country": "PAK",
+        "value": 0.604
+      },
+      {
+        "country": "PSE",
+        "value": 0.837
+      },
+      {
+        "country": "SWZ",
+        "value": 0.17
+      },
+      {
+        "country": "TGO",
+        "value": 0.057
+      },
+      {
+        "country": "TJK",
+        "value": 2.095
+      },
+      {
+        "country": "TUN",
+        "value": 0.787
+      },
+      {
+        "country": "UZB",
+        "value": 2.911
+      },
+      {
+        "country": "VEN",
+        "value": 1.922
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BO-KG-LB-MA-NP-PK-PS-SZ-TG-TJ-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2003,
+    "value": 0.392,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.26
+      },
+      {
+        "country": "EGY",
+        "value": 0.494
+      },
+      {
+        "country": "KGZ",
+        "value": 2.081
+      },
+      {
+        "country": "LSO",
+        "value": 0.045
+      },
+      {
+        "country": "NGA",
+        "value": 0.255
+      },
+      {
+        "country": "NIC",
+        "value": 0.392
+      },
+      {
+        "country": "SLB",
+        "value": 0.129
+      },
+      {
+        "country": "SWZ",
+        "value": 0.15
+      },
+      {
+        "country": "TJK",
+        "value": 1.906
+      },
+      {
+        "country": "TUN",
+        "value": 0.813
+      },
+      {
+        "country": "UZB",
+        "value": 2.786
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-EG-KG-LS-NG-NI-SB-SZ-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2004,
+    "value": 0.1845,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.063
+      },
+      {
+        "country": "BEN",
+        "value": 0.038
+      },
+      {
+        "country": "BGD",
+        "value": 0.269
+      },
+      {
+        "country": "BTN",
+        "value": 0.181
+      },
+      {
+        "country": "CIV",
+        "value": 0.106
+      },
+      {
+        "country": "CMR",
+        "value": 0.188
+      },
+      {
+        "country": "COG",
+        "value": 0.212
+      },
+      {
+        "country": "COM",
+        "value": 0.198
+      },
+      {
+        "country": "DJI",
+        "value": 0.156
+      },
+      {
+        "country": "GHA",
+        "value": 0.148
+      },
+      {
+        "country": "GIN",
+        "value": 0.109
+      },
+      {
+        "country": "KGZ",
+        "value": 1.984
+      },
+      {
+        "country": "LAO",
+        "value": 0.346
+      },
+      {
+        "country": "MAR",
+        "value": 0.534
+      },
+      {
+        "country": "MMR",
+        "value": 0.378
+      },
+      {
+        "country": "MRT",
+        "value": 0.109
+      },
+      {
+        "country": "NAM",
+        "value": 0.308
+      },
+      {
+        "country": "NPL",
+        "value": 0.207
+      },
+      {
+        "country": "PAK",
+        "value": 0.679
+      },
+      {
+        "country": "SEN",
+        "value": 0.054
+      },
+      {
+        "country": "STP",
+        "value": 0.514
+      },
+      {
+        "country": "SWZ",
+        "value": 0.159
+      },
+      {
+        "country": "TGO",
+        "value": 0.043
+      },
+      {
+        "country": "TJK",
+        "value": 1.914
+      },
+      {
+        "country": "TLS",
+        "value": 0.082
+      },
+      {
+        "country": "TUN",
+        "value": 1.311
+      },
+      {
+        "country": "UZB",
+        "value": 2.726
+      },
+      {
+        "country": "VUT",
+        "value": 0.146
+      },
+      {
+        "country": "ZMB",
+        "value": 0.132
+      },
+      {
+        "country": "ZWE",
+        "value": 0.169
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BT-CI-CM-CG-KM-DJ-GH-GN-KG-LA-MA-MM-MR-NA-NP-PK-SN-ST-SZ-TG-TJ-TL-TN-UZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2005,
+    "value": 0.27,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.296
+      },
+      {
+        "country": "CIV",
+        "value": 0.085
+      },
+      {
+        "country": "CMR",
+        "value": 0.061
+      },
+      {
+        "country": "COM",
+        "value": 0.196
+      },
+      {
+        "country": "DJI",
+        "value": 0.167
+      },
+      {
+        "country": "GIN",
+        "value": 0.102
+      },
+      {
+        "country": "HND",
+        "value": 0.358
+      },
+      {
+        "country": "KGZ",
+        "value": 2.02
+      },
+      {
+        "country": "LAO",
+        "value": 0.267
+      },
+      {
+        "country": "MMR",
+        "value": 0.392
+      },
+      {
+        "country": "NGA",
+        "value": 0.27
+      },
+      {
+        "country": "NIC",
+        "value": 0.509
+      },
+      {
+        "country": "PAK",
+        "value": 0.72
+      },
+      {
+        "country": "SLB",
+        "value": 0.184
+      },
+      {
+        "country": "TJK",
+        "value": 1.917
+      },
+      {
+        "country": "TUN",
+        "value": 0.919
+      },
+      {
+        "country": "UZB",
+        "value": 2.677
+      },
+      {
+        "country": "ZMB",
+        "value": 0.055
+      },
+      {
+        "country": "ZWE",
+        "value": 0.121
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-CI-CM-KM-DJ-GN-HN-KG-LA-MM-NG-NI-PK-SB-TJ-TN-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2006,
+    "value": 0.429,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.305
+      },
+      {
+        "country": "COG",
+        "value": 0.204
+      },
+      {
+        "country": "DJI",
+        "value": 0.216
+      },
+      {
+        "country": "KGZ",
+        "value": 1.958
+      },
+      {
+        "country": "LBN",
+        "value": 2.475
+      },
+      {
+        "country": "MMR",
+        "value": 0.429
+      },
+      {
+        "country": "NGA",
+        "value": 0.333
+      },
+      {
+        "country": "NIC",
+        "value": 0.501
+      },
+      {
+        "country": "TJK",
+        "value": 1.88
+      },
+      {
+        "country": "UZB",
+        "value": 2.662
+      },
+      {
+        "country": "ZMB",
+        "value": 0.054
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-CG-DJ-KG-LB-MM-NG-NI-TJ-UZ-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2007,
+    "value": 0.361,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.317
+      },
+      {
+        "country": "BOL",
+        "value": 0.327
+      },
+      {
+        "country": "BTN",
+        "value": 0.212
+      },
+      {
+        "country": "CMR",
+        "value": 0.073
+      },
+      {
+        "country": "COG",
+        "value": 0.101
+      },
+      {
+        "country": "GHA",
+        "value": 0.07
+      },
+      {
+        "country": "KGZ",
+        "value": 1.886
+      },
+      {
+        "country": "LBN",
+        "value": 2.309
+      },
+      {
+        "country": "MAR",
+        "value": 0.586
+      },
+      {
+        "country": "MMR",
+        "value": 0.453
+      },
+      {
+        "country": "NAM",
+        "value": 0.383
+      },
+      {
+        "country": "NGA",
+        "value": 0.361
+      },
+      {
+        "country": "NIC",
+        "value": 0.535
+      },
+      {
+        "country": "PAK",
+        "value": 0.693
+      },
+      {
+        "country": "TGO",
+        "value": 0.047
+      },
+      {
+        "country": "TJK",
+        "value": 1.861
+      },
+      {
+        "country": "TLS",
+        "value": 0.034
+      },
+      {
+        "country": "TUN",
+        "value": 1.011
+      },
+      {
+        "country": "UZB",
+        "value": 2.645
+      },
+      {
+        "country": "VUT",
+        "value": 0.118
+      },
+      {
+        "country": "ZWE",
+        "value": 0.0544
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BO-BT-CM-CG-GH-KG-LB-MA-MM-NA-NG-NI-PK-TG-TJ-TL-TN-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2008,
+    "value": 0.2075,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.059
+      },
+      {
+        "country": "BGD",
+        "value": 0.33
+      },
+      {
+        "country": "BTN",
+        "value": 0.249
+      },
+      {
+        "country": "CIV",
+        "value": 0.128
+      },
+      {
+        "country": "GHA",
+        "value": 0.077
+      },
+      {
+        "country": "KEN",
+        "value": 0.169
+      },
+      {
+        "country": "KGZ",
+        "value": 1.892
+      },
+      {
+        "country": "KHM",
+        "value": 0.241
+      },
+      {
+        "country": "KIR",
+        "value": 0.24
+      },
+      {
+        "country": "MMR",
+        "value": 0.49
+      },
+      {
+        "country": "NGA",
+        "value": 0.359
+      },
+      {
+        "country": "NIC",
+        "value": 0.659
+      },
+      {
+        "country": "PAK",
+        "value": 0.707
+      },
+      {
+        "country": "PNG",
+        "value": 0.046
+      },
+      {
+        "country": "SEN",
+        "value": 0.062
+      },
+      {
+        "country": "SLB",
+        "value": 0.175
+      },
+      {
+        "country": "TGO",
+        "value": 0.055
+      },
+      {
+        "country": "TJK",
+        "value": 1.895
+      },
+      {
+        "country": "TLS",
+        "value": 0.037
+      },
+      {
+        "country": "TUN",
+        "value": 1.094
+      },
+      {
+        "country": "UZB",
+        "value": 2.617
+      },
+      {
+        "country": "VUT",
+        "value": 0.115
+      },
+      {
+        "country": "ZMB",
+        "value": 0.061
+      },
+      {
+        "country": "ZWE",
+        "value": 0.0596
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BT-CI-GH-KE-KG-KH-KI-MM-NG-NI-PK-PG-SN-SB-TG-TJ-TL-TN-UZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2009,
+    "value": 0.199,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.132
+      },
+      {
+        "country": "BGD",
+        "value": 0.343
+      },
+      {
+        "country": "CMR",
+        "value": 0.07
+      },
+      {
+        "country": "COM",
+        "value": 0.199
+      },
+      {
+        "country": "GHA",
+        "value": 0.082
+      },
+      {
+        "country": "KEN",
+        "value": 0.171
+      },
+      {
+        "country": "KGZ",
+        "value": 1.88
+      },
+      {
+        "country": "KHM",
+        "value": 0.235
+      },
+      {
+        "country": "LAO",
+        "value": 0.197
+      },
+      {
+        "country": "MAR",
+        "value": 0.646
+      },
+      {
+        "country": "MMR",
+        "value": 0.504
+      },
+      {
+        "country": "MRT",
+        "value": 0.136
+      },
+      {
+        "country": "NGA",
+        "value": 0.36
+      },
+      {
+        "country": "NIC",
+        "value": 0.714
+      },
+      {
+        "country": "PAK",
+        "value": 0.718
+      },
+      {
+        "country": "SWZ",
+        "value": 0.157
+      },
+      {
+        "country": "TJK",
+        "value": 1.616
+      },
+      {
+        "country": "TLS",
+        "value": 0.044
+      },
+      {
+        "country": "UZB",
+        "value": 2.582
+      },
+      {
+        "country": "ZMB",
+        "value": 0.059
+      },
+      {
+        "country": "ZWE",
+        "value": 0.115
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BD-CM-KM-GH-KE-KG-KH-LA-MA-MM-MR-NG-NI-PK-SZ-TJ-TL-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2010,
+    "value": 0.26,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.052
+      },
+      {
+        "country": "BGD",
+        "value": 0.352
+      },
+      {
+        "country": "BOL",
+        "value": 0.433
+      },
+      {
+        "country": "CMR",
+        "value": 0.087
+      },
+      {
+        "country": "COG",
+        "value": 0.111
+      },
+      {
+        "country": "GHA",
+        "value": 0.091
+      },
+      {
+        "country": "HND",
+        "value": 0.293
+      },
+      {
+        "country": "KEN",
+        "value": 0.171
+      },
+      {
+        "country": "KGZ",
+        "value": 1.871
+      },
+      {
+        "country": "KHM",
+        "value": 0.227
+      },
+      {
+        "country": "KIR",
+        "value": 0.377
+      },
+      {
+        "country": "LAO",
+        "value": 0.332
+      },
+      {
+        "country": "LBN",
+        "value": 2.298
+      },
+      {
+        "country": "LSO",
+        "value": 0.069
+      },
+      {
+        "country": "MMR",
+        "value": 0.539
+      },
+      {
+        "country": "MRT",
+        "value": 0.161
+      },
+      {
+        "country": "NIC",
+        "value": 0.739
+      },
+      {
+        "country": "PAK",
+        "value": 0.727
+      },
+      {
+        "country": "PNG",
+        "value": 0.049
+      },
+      {
+        "country": "TGO",
+        "value": 0.0506
+      },
+      {
+        "country": "TJK",
+        "value": 1.67
+      },
+      {
+        "country": "TLS",
+        "value": 0.079
+      },
+      {
+        "country": "TUN",
+        "value": 1.207
+      },
+      {
+        "country": "UZB",
+        "value": 2.555
+      },
+      {
+        "country": "ZMB",
+        "value": 0.06
+      },
+      {
+        "country": "ZWE",
+        "value": 0.121
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-CM-CG-GH-HN-KE-KG-KH-KI-LA-LB-LS-MM-MR-NI-PK-PG-TG-TJ-TL-TN-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2011,
+    "value": 0.187,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.054
+      },
+      {
+        "country": "BGD",
+        "value": 0.373
+      },
+      {
+        "country": "BOL",
+        "value": 0.461
+      },
+      {
+        "country": "CIV",
+        "value": 0.14
+      },
+      {
+        "country": "CMR",
+        "value": 0.091
+      },
+      {
+        "country": "COG",
+        "value": 0.114
+      },
+      {
+        "country": "GHA",
+        "value": 0.095
+      },
+      {
+        "country": "HTI",
+        "value": 0.14
+      },
+      {
+        "country": "KEN",
+        "value": 0.177
+      },
+      {
+        "country": "KGZ",
+        "value": 1.897
+      },
+      {
+        "country": "KHM",
+        "value": 0.224
+      },
+      {
+        "country": "KIR",
+        "value": 0.136
+      },
+      {
+        "country": "LBN",
+        "value": 2.675
+      },
+      {
+        "country": "MMR",
+        "value": 0.568
+      },
+      {
+        "country": "NIC",
+        "value": 0.825
+      },
+      {
+        "country": "PAK",
+        "value": 0.748
+      },
+      {
+        "country": "SLB",
+        "value": 0.197
+      },
+      {
+        "country": "SWZ",
+        "value": 0.098
+      },
+      {
+        "country": "TJK",
+        "value": 1.693
+      },
+      {
+        "country": "TLS",
+        "value": 0.078
+      },
+      {
+        "country": "UZB",
+        "value": 2.517
+      },
+      {
+        "country": "ZWE",
+        "value": 0.078
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-CI-CM-CG-GH-HT-KE-KG-KH-KI-LB-MM-NI-PK-SB-SZ-TJ-TL-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2012,
+    "value": 0.29600000000000004,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.39
+      },
+      {
+        "country": "BTN",
+        "value": 0.271
+      },
+      {
+        "country": "COM",
+        "value": 0.181
+      },
+      {
+        "country": "GHA",
+        "value": 0.093
+      },
+      {
+        "country": "KEN",
+        "value": 0.184
+      },
+      {
+        "country": "KGZ",
+        "value": 1.878
+      },
+      {
+        "country": "KHM",
+        "value": 0.163
+      },
+      {
+        "country": "LAO",
+        "value": 0.321
+      },
+      {
+        "country": "MMR",
+        "value": 0.599
+      },
+      {
+        "country": "NIC",
+        "value": 0.872
+      },
+      {
+        "country": "NPL",
+        "value": 0.506
+      },
+      {
+        "country": "PAK",
+        "value": 0.775
+      },
+      {
+        "country": "SLB",
+        "value": 0.15
+      },
+      {
+        "country": "TJK",
+        "value": 1.697
+      },
+      {
+        "country": "TZA",
+        "value": 0.031
+      },
+      {
+        "country": "UZB",
+        "value": 2.461
+      },
+      {
+        "country": "VUT",
+        "value": 0.185
+      },
+      {
+        "country": "ZWE",
+        "value": 0.077
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BT-KM-GH-KE-KG-KH-LA-MM-NI-NP-PK-SB-TJ-TZ-UZ-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2013,
+    "value": 0.363,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.412
+      },
+      {
+        "country": "BTN",
+        "value": 0.28
+      },
+      {
+        "country": "GHA",
+        "value": 0.1
+      },
+      {
+        "country": "HTI",
+        "value": 0.234
+      },
+      {
+        "country": "KEN",
+        "value": 0.193
+      },
+      {
+        "country": "KGZ",
+        "value": 1.87
+      },
+      {
+        "country": "KHM",
+        "value": 0.14
+      },
+      {
+        "country": "KIR",
+        "value": 0.193
+      },
+      {
+        "country": "LAO",
+        "value": 0.326
+      },
+      {
+        "country": "LBN",
+        "value": 2.315
+      },
+      {
+        "country": "MAR",
+        "value": 0.631
+      },
+      {
+        "country": "NGA",
+        "value": 0.363
+      },
+      {
+        "country": "NIC",
+        "value": 0.91
+      },
+      {
+        "country": "NPL",
+        "value": 0.55
+      },
+      {
+        "country": "PAK",
+        "value": 0.795
+      },
+      {
+        "country": "SEN",
+        "value": 0.3179
+      },
+      {
+        "country": "SLB",
+        "value": 0.18
+      },
+      {
+        "country": "TJK",
+        "value": 1.677
+      },
+      {
+        "country": "TLS",
+        "value": 0.615
+      },
+      {
+        "country": "UZB",
+        "value": 2.421
+      },
+      {
+        "country": "ZWE",
+        "value": 0.08
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BT-GH-HT-KE-KG-KH-KI-LA-LB-MA-NG-NI-NP-PK-SN-SB-TJ-TL-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2014,
+    "value": 0.478,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.478
+      },
+      {
+        "country": "BTN",
+        "value": 0.333
+      },
+      {
+        "country": "CIV",
+        "value": 0.214
+      },
+      {
+        "country": "DJI",
+        "value": 0.201
+      },
+      {
+        "country": "EGY",
+        "value": 0.73
+      },
+      {
+        "country": "GHA",
+        "value": 0.108
+      },
+      {
+        "country": "GIN",
+        "value": 0.161
+      },
+      {
+        "country": "IND",
+        "value": 0.715
+      },
+      {
+        "country": "KEN",
+        "value": 0.199
+      },
+      {
+        "country": "KGZ",
+        "value": 1.837
+      },
+      {
+        "country": "KHM",
+        "value": 0.167
+      },
+      {
+        "country": "LAO",
+        "value": 0.377
+      },
+      {
+        "country": "LBN",
+        "value": 2.045
+      },
+      {
+        "country": "MAR",
+        "value": 0.913
+      },
+      {
+        "country": "MRT",
+        "value": 0.162
+      },
+      {
+        "country": "NIC",
+        "value": 0.906
+      },
+      {
+        "country": "PAK",
+        "value": 0.818
+      },
+      {
+        "country": "TJK",
+        "value": 1.727
+      },
+      {
+        "country": "TLS",
+        "value": 0.678
+      },
+      {
+        "country": "TUN",
+        "value": 1.253
+      },
+      {
+        "country": "TZA",
+        "value": 0.06
+      },
+      {
+        "country": "UZB",
+        "value": 2.39
+      },
+      {
+        "country": "ZWE",
+        "value": 0.119
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BT-CI-DJ-EG-GH-GN-IN-KE-KG-KH-LA-LB-MA-MR-NI-PK-TJ-TL-TN-TZ-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2015,
+    "value": 0.438,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.476
+      },
+      {
+        "country": "BTN",
+        "value": 0.339
+      },
+      {
+        "country": "EGY",
+        "value": 0.763
+      },
+      {
+        "country": "GHA",
+        "value": 0.114
+      },
+      {
+        "country": "GIN",
+        "value": 0.083
+      },
+      {
+        "country": "HTI",
+        "value": 0.087
+      },
+      {
+        "country": "IND",
+        "value": 0.723
+      },
+      {
+        "country": "KGZ",
+        "value": 1.846
+      },
+      {
+        "country": "KHM",
+        "value": 0.15
+      },
+      {
+        "country": "LAO",
+        "value": 0.4
+      },
+      {
+        "country": "LBN",
+        "value": 2.123
+      },
+      {
+        "country": "MRT",
+        "value": 0.175
+      },
+      {
+        "country": "NIC",
+        "value": 0.942
+      },
+      {
+        "country": "PAK",
+        "value": 0.85
+      },
+      {
+        "country": "SEN",
+        "value": 0.2074
+      },
+      {
+        "country": "STP",
+        "value": 0.315
+      },
+      {
+        "country": "TGO",
+        "value": 0.047
+      },
+      {
+        "country": "TJK",
+        "value": 1.747
+      },
+      {
+        "country": "TLS",
+        "value": 0.69
+      },
+      {
+        "country": "TUN",
+        "value": 1.285
+      },
+      {
+        "country": "UZB",
+        "value": 2.363
+      },
+      {
+        "country": "ZWE",
+        "value": 0.174
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BT-EG-GH-GN-HT-IN-KG-KH-LA-LB-MR-NI-PK-SN-ST-TG-TJ-TL-TN-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2016,
+    "value": 0.4,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.045
+      },
+      {
+        "country": "BGD",
+        "value": 0.489
+      },
+      {
+        "country": "BOL",
+        "value": 1.569
+      },
+      {
+        "country": "BTN",
+        "value": 0.4
+      },
+      {
+        "country": "COG",
+        "value": 0.102
+      },
+      {
+        "country": "COM",
+        "value": 0.291
+      },
+      {
+        "country": "EGY",
+        "value": 0.763
+      },
+      {
+        "country": "GHA",
+        "value": 0.123
+      },
+      {
+        "country": "GIN",
+        "value": 0.081
+      },
+      {
+        "country": "HND",
+        "value": 0.589
+      },
+      {
+        "country": "IND",
+        "value": 0.748
+      },
+      {
+        "country": "KGZ",
+        "value": 1.853
+      },
+      {
+        "country": "KHM",
+        "value": 0.197
+      },
+      {
+        "country": "LAO",
+        "value": 0.371
+      },
+      {
+        "country": "LBN",
+        "value": 2.136
+      },
+      {
+        "country": "MMR",
+        "value": 0.638
+      },
+      {
+        "country": "NGA",
+        "value": 0.428
+      },
+      {
+        "country": "NIC",
+        "value": 0.965
+      },
+      {
+        "country": "PAK",
+        "value": 0.89
+      },
+      {
+        "country": "SEN",
+        "value": 0.077
+      },
+      {
+        "country": "SLB",
+        "value": 0.181
+      },
+      {
+        "country": "SWZ",
+        "value": 0.093
+      },
+      {
+        "country": "TGO",
+        "value": 0.044
+      },
+      {
+        "country": "TJK",
+        "value": 1.754
+      },
+      {
+        "country": "TUN",
+        "value": 1.258
+      },
+      {
+        "country": "UZB",
+        "value": 2.298
+      },
+      {
+        "country": "VUT",
+        "value": 0.169
+      },
+      {
+        "country": "ZMB",
+        "value": 0.09
+      },
+      {
+        "country": "ZWE",
+        "value": 0.172
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-BT-CG-KM-EG-GH-GN-HN-IN-KG-KH-LA-LB-MM-NG-NI-PK-SN-SB-SZ-TG-TJ-TN-UZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2017,
+    "value": 0.734,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.212
+      },
+      {
+        "country": "BGD",
+        "value": 0.535
+      },
+      {
+        "country": "BOL",
+        "value": 1.016
+      },
+      {
+        "country": "BTN",
+        "value": 0.31
+      },
+      {
+        "country": "EGY",
+        "value": 0.743
+      },
+      {
+        "country": "GHA",
+        "value": 0.089
+      },
+      {
+        "country": "HND",
+        "value": 0.304
+      },
+      {
+        "country": "IND",
+        "value": 0.766
+      },
+      {
+        "country": "KGZ",
+        "value": 1.835
+      },
+      {
+        "country": "KHM",
+        "value": 0.195
+      },
+      {
+        "country": "LAO",
+        "value": 0.44
+      },
+      {
+        "country": "LBN",
+        "value": 2.242
+      },
+      {
+        "country": "MAR",
+        "value": 0.734
+      },
+      {
+        "country": "MMR",
+        "value": 0.889
+      },
+      {
+        "country": "MRT",
+        "value": 0.188
+      },
+      {
+        "country": "NAM",
+        "value": 0.567
+      },
+      {
+        "country": "NIC",
+        "value": 1
+      },
+      {
+        "country": "NPL",
+        "value": 0.681
+      },
+      {
+        "country": "PAK",
+        "value": 0.932
+      },
+      {
+        "country": "PSE",
+        "value": 1.774
+      },
+      {
+        "country": "SEN",
+        "value": 0.069
+      },
+      {
+        "country": "SWZ",
+        "value": 0.18
+      },
+      {
+        "country": "TGO",
+        "value": 0.072
+      },
+      {
+        "country": "TJK",
+        "value": 1.785
+      },
+      {
+        "country": "TLS",
+        "value": 0.745
+      },
+      {
+        "country": "TUN",
+        "value": 1.278
+      },
+      {
+        "country": "UZB",
+        "value": 2.27
+      },
+      {
+        "country": "VEN",
+        "value": 1.664
+      },
+      {
+        "country": "ZWE",
+        "value": 0.179
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BD-BO-BT-EG-GH-HN-IN-KG-KH-LA-LB-MA-MM-MR-NA-NI-NP-PK-PS-SN-SZ-TG-TJ-TL-TN-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2018,
+    "value": 0.335,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.211
+      },
+      {
+        "country": "BEN",
+        "value": 0.073
+      },
+      {
+        "country": "BGD",
+        "value": 0.573
+      },
+      {
+        "country": "BTN",
+        "value": 0.421
+      },
+      {
+        "country": "CIV",
+        "value": 0.351
+      },
+      {
+        "country": "CMR",
+        "value": 0.131
+      },
+      {
+        "country": "COG",
+        "value": 0.099
+      },
+      {
+        "country": "COM",
+        "value": 0.285
+      },
+      {
+        "country": "EGY",
+        "value": 0.716
+      },
+      {
+        "country": "GHA",
+        "value": 0.144
+      },
+      {
+        "country": "GIN",
+        "value": 0.219
+      },
+      {
+        "country": "HTI",
+        "value": 0.238
+      },
+      {
+        "country": "IND",
+        "value": 0.84
+      },
+      {
+        "country": "KEN",
+        "value": 0.16
+      },
+      {
+        "country": "KGZ",
+        "value": 1.787
+      },
+      {
+        "country": "KHM",
+        "value": 0.211
+      },
+      {
+        "country": "LAO",
+        "value": 0.361
+      },
+      {
+        "country": "LBN",
+        "value": 2.412
+      },
+      {
+        "country": "LSO",
+        "value": 0.457
+      },
+      {
+        "country": "MMR",
+        "value": 0.696
+      },
+      {
+        "country": "MRT",
+        "value": 0.196
+      },
+      {
+        "country": "NAM",
+        "value": 0.335
+      },
+      {
+        "country": "NGA",
+        "value": 0.364
+      },
+      {
+        "country": "NIC",
+        "value": 0.682
+      },
+      {
+        "country": "NPL",
+        "value": 0.749
+      },
+      {
+        "country": "PAK",
+        "value": 0.917
+      },
+      {
+        "country": "PNG",
+        "value": 0.064
+      },
+      {
+        "country": "PSE",
+        "value": 2.168
+      },
+      {
+        "country": "SWZ",
+        "value": 0.238
+      },
+      {
+        "country": "TGO",
+        "value": 0.074
+      },
+      {
+        "country": "TJK",
+        "value": 1.934
+      },
+      {
+        "country": "TLS",
+        "value": 0.718
+      },
+      {
+        "country": "TZA",
+        "value": 0.05
+      },
+      {
+        "country": "UZB",
+        "value": 2.329
+      },
+      {
+        "country": "VUT",
+        "value": 0.137
+      },
+      {
+        "country": "ZMB",
+        "value": 0.224
+      },
+      {
+        "country": "ZWE",
+        "value": 0.201
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BT-CI-CM-CG-KM-EG-GH-GN-HT-IN-KE-KG-KH-LA-LB-LS-MM-MR-NA-NG-NI-NP-PK-PG-PS-SZ-TG-TJ-TL-TZ-UZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2019,
+    "value": 0.368,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.06
+      },
+      {
+        "country": "BGD",
+        "value": 0.63
+      },
+      {
+        "country": "BOL",
+        "value": 1.088
+      },
+      {
+        "country": "BTN",
+        "value": 0.336
+      },
+      {
+        "country": "CIV",
+        "value": 0.149
+      },
+      {
+        "country": "EGY",
+        "value": 0.697
+      },
+      {
+        "country": "GHA",
+        "value": 0.104
+      },
+      {
+        "country": "IND",
+        "value": 0.889
+      },
+      {
+        "country": "KGZ",
+        "value": 1.759
+      },
+      {
+        "country": "KHM",
+        "value": 0.211
+      },
+      {
+        "country": "LAO",
+        "value": 0.363
+      },
+      {
+        "country": "LBN",
+        "value": 2.611
+      },
+      {
+        "country": "MMR",
+        "value": 0.757
+      },
+      {
+        "country": "MRT",
+        "value": 0.201
+      },
+      {
+        "country": "NAM",
+        "value": 0.368
+      },
+      {
+        "country": "NGA",
+        "value": 0.356
+      },
+      {
+        "country": "NPL",
+        "value": 0.815
+      },
+      {
+        "country": "PAK",
+        "value": 1.049
+      },
+      {
+        "country": "PNG",
+        "value": 0.06
+      },
+      {
+        "country": "SEN",
+        "value": 0.088
+      },
+      {
+        "country": "STP",
+        "value": 0.492
+      },
+      {
+        "country": "TGO",
+        "value": 0.074
+      },
+      {
+        "country": "TJK",
+        "value": 1.933
+      },
+      {
+        "country": "TLS",
+        "value": 0.764
+      },
+      {
+        "country": "TUN",
+        "value": 1.299
+      },
+      {
+        "country": "UZB",
+        "value": 2.322
+      },
+      {
+        "country": "VUT",
+        "value": 0.164
+      },
+      {
+        "country": "ZMB",
+        "value": 0.237
+      },
+      {
+        "country": "ZWE",
+        "value": 0.123
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-BT-CI-EG-GH-IN-KG-KH-LA-LB-MM-MR-NA-NG-NP-PK-PG-SN-ST-TG-TJ-TL-TN-UZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2020,
+    "value": 0.4635,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.661
+      },
+      {
+        "country": "BOL",
+        "value": 0.961
+      },
+      {
+        "country": "BTN",
+        "value": 0.486
+      },
+      {
+        "country": "CIV",
+        "value": 0.153
+      },
+      {
+        "country": "CMR",
+        "value": 0.098
+      },
+      {
+        "country": "COM",
+        "value": 0.441
+      },
+      {
+        "country": "EGY",
+        "value": 0.671
+      },
+      {
+        "country": "GHA",
+        "value": 0.166
+      },
+      {
+        "country": "HND",
+        "value": 0.489
+      },
+      {
+        "country": "IND",
+        "value": 0.723
+      },
+      {
+        "country": "KEN",
+        "value": 0.074
+      },
+      {
+        "country": "KGZ",
+        "value": 1.692
+      },
+      {
+        "country": "LAO",
+        "value": 0.356
+      },
+      {
+        "country": "LBN",
+        "value": 2.68
+      },
+      {
+        "country": "MRT",
+        "value": 0.203
+      },
+      {
+        "country": "NAM",
+        "value": 0.38
+      },
+      {
+        "country": "NPL",
+        "value": 0.857
+      },
+      {
+        "country": "SEN",
+        "value": 0.082
+      },
+      {
+        "country": "SWZ",
+        "value": 0.138
+      },
+      {
+        "country": "TGO",
+        "value": 0.079
+      },
+      {
+        "country": "TJK",
+        "value": 1.995
+      },
+      {
+        "country": "TLS",
+        "value": 0.752
+      },
+      {
+        "country": "TUN",
+        "value": 1.315
+      },
+      {
+        "country": "UZB",
+        "value": 2.31
+      },
+      {
+        "country": "ZMB",
+        "value": 0.253
+      },
+      {
+        "country": "ZWE",
+        "value": 0.128
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD-BO-BT-CI-CM-KM-EG-GH-HN-IN-KE-KG-LA-LB-MR-NA-NP-SN-SZ-TG-TJ-TL-TN-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2021,
+    "value": 0.35550000000000004,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.205
+      },
+      {
+        "country": "BGD",
+        "value": 0.677
+      },
+      {
+        "country": "BOL",
+        "value": 1.284
+      },
+      {
+        "country": "BTN",
+        "value": 0.561
+      },
+      {
+        "country": "CIV",
+        "value": 0.167
+      },
+      {
+        "country": "CMR",
+        "value": 0.126
+      },
+      {
+        "country": "GHA",
+        "value": 0.128
+      },
+      {
+        "country": "KEN",
+        "value": 0.098
+      },
+      {
+        "country": "KGZ",
+        "value": 1.651
+      },
+      {
+        "country": "LAO",
+        "value": 0.325
+      },
+      {
+        "country": "MAR",
+        "value": 0.74
+      },
+      {
+        "country": "MRT",
+        "value": 0.219
+      },
+      {
+        "country": "NAM",
+        "value": 0.42
+      },
+      {
+        "country": "NGA",
+        "value": 0.386
+      },
+      {
+        "country": "NPL",
+        "value": 0.884
+      },
+      {
+        "country": "PAK",
+        "value": 1.16
+      },
+      {
+        "country": "PNG",
+        "value": 0.063
+      },
+      {
+        "country": "SEN",
+        "value": 0.099
+      },
+      {
+        "country": "TGO",
+        "value": 0.057
+      },
+      {
+        "country": "TJK",
+        "value": 1.949
+      },
+      {
+        "country": "TUN",
+        "value": 1.315
+      },
+      {
+        "country": "UZB",
+        "value": 2.805
+      },
+      {
+        "country": "ZMB",
+        "value": 0.295
+      },
+      {
+        "country": "ZWE",
+        "value": 0.136
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-BO-BT-CI-CM-GH-KE-KG-LA-MA-MR-NA-NG-NP-PK-PG-SN-TG-TJ-TN-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2022,
+    "value": 0.244,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.244
+      },
+      {
+        "country": "BEN",
+        "value": 0.19
+      },
+      {
+        "country": "BGD",
+        "value": 0.717
+      },
+      {
+        "country": "BTN",
+        "value": 0.553
+      },
+      {
+        "country": "CIV",
+        "value": 0.162
+      },
+      {
+        "country": "CMR",
+        "value": 0.136
+      },
+      {
+        "country": "COG",
+        "value": 0.173
+      },
+      {
+        "country": "COM",
+        "value": 0.424
+      },
+      {
+        "country": "DJI",
+        "value": 0.211
+      },
+      {
+        "country": "GHA",
+        "value": 0.143
+      },
+      {
+        "country": "GIN",
+        "value": 0.21
+      },
+      {
+        "country": "HTI",
+        "value": 0.292
+      },
+      {
+        "country": "KEN",
+        "value": 0.236
+      },
+      {
+        "country": "KGZ",
+        "value": 1.6
+      },
+      {
+        "country": "LAO",
+        "value": 0.331
+      },
+      {
+        "country": "LSO",
+        "value": 0.235
+      },
+      {
+        "country": "MRT",
+        "value": 0.261
+      },
+      {
+        "country": "NAM",
+        "value": 0.553
+      },
+      {
+        "country": "NGA",
+        "value": 0.386
+      },
+      {
+        "country": "SEN",
+        "value": 0.124
+      },
+      {
+        "country": "STP",
+        "value": 0.464
+      },
+      {
+        "country": "SWZ",
+        "value": 0.561
+      },
+      {
+        "country": "TGO",
+        "value": 0.08
+      },
+      {
+        "country": "TJK",
+        "value": 1.939
+      },
+      {
+        "country": "TZA",
+        "value": 0.134
+      },
+      {
+        "country": "ZMB",
+        "value": 0.324
+      },
+      {
+        "country": "ZWE",
+        "value": 0.127
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO-BJ-BD-BT-CI-CM-CG-KM-DJ-GH-GN-HT-KE-KG-LA-LS-MR-NA-NG-SN-ST-SZ-TG-TJ-TZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "physicians",
+    "year": 2023,
+    "value": 0.27749999999999997,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.216
+      },
+      {
+        "country": "BGD",
+        "value": 0.722
+      },
+      {
+        "country": "CIV",
+        "value": 0.166
+      },
+      {
+        "country": "GHA",
+        "value": 0.266
+      },
+      {
+        "country": "KEN",
+        "value": 0.289
+      },
+      {
+        "country": "KGZ",
+        "value": 1.568
+      },
+      {
+        "country": "NGA",
+        "value": 0.38
+      },
+      {
+        "country": "NPL",
+        "value": 1.011
+      },
+      {
+        "country": "PNG",
+        "value": 0.061
+      },
+      {
+        "country": "SEN",
+        "value": 0.109
+      },
+      {
+        "country": "SLB",
+        "value": 0.238
+      },
+      {
+        "country": "SWZ",
+        "value": 0.557
+      },
+      {
+        "country": "TJK",
+        "value": 1.87
+      },
+      {
+        "country": "ZWE",
+        "value": 0.136
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-CI-GH-KE-KG-NG-NP-PG-SN-SB-SZ-TJ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

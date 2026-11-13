@@ -1,0 +1,35 @@
+{
+  "retrieved_at": "2026-11-14",
+  "request_url": "https://api.worldbank.org/v2/indicator/FI.RES.TOTL.MO?format=json",
+  "response": [
+    {
+      "page": 1,
+      "pages": 1,
+      "per_page": "50",
+      "total": 1
+    },
+    [
+      {
+        "id": "FI.RES.TOTL.MO",
+        "name": "Total reserves in months of imports",
+        "unit": "",
+        "source": {
+          "id": "2",
+          "value": "World Development Indicators"
+        },
+        "sourceNote": "Reserve assets are external assets, including monetary gold, that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exchange rate, and for other related purposes (such as maintaining confidence in the currency and the economy, and serving as a basis for foreign borrowing). Reserve assets must be denominated and settled in foreign currency. This item is expressed in terms of the number of months of imports of goods and services they could pay for [X/(Imports/12)].",
+        "sourceOrganization": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "topics": [
+          {
+            "id": "7",
+            "value": "Financial Sector "
+          },
+          {
+            "id": "20",
+            "value": "External Debt"
+          }
+        ]
+      }
+    ]
+  ]
+}

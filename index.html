@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
       // Data saver and very low-end phones get plain paper: no contours, grain or blur (8.4, R10).
       (function () {
         var c = navigator.connection, el = document.documentElement;
+        el.classList.remove('no-js');
         if (c && c.saveData) el.classList.add('save-data');
         if ((navigator.deviceMemory && navigator.deviceMemory <= 1) || (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2)) el.classList.add('lite');
       })();

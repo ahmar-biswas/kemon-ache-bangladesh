@@ -1063,6 +1063,750 @@
         "measured_by": null
       }
     ],
+    "gdp_growth": [
+      {
+        "indicator_id": "gdp_growth",
+        "country": "BGD",
+        "year": 2025,
+        "value": 3.48990671836833,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "IND",
+        "year": 2025,
+        "value": 7.56666179284244,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: March 31). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "KHM",
+        "year": 2025,
+        "value": 5.34932084572877,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "The World Bank systematically assesses the appropriateness of official exchange rates as conversion factors. In this country, multiple or dual exchange rate activity exists and must be accounted for appropriately in underlying statistics. An alternative estimate (“alternative conversion factor” - PA.NUS.ATLS) is thus calculated as a weighted average of the different exchange rates in use in the country. Doing so better reflects economic reality and leads to more accurate cross-country comparisons and country classifications by income level. For this country, this applies to the period 1963-2004. Alternative conversion factors are used in the Atlas methodology and elsewhere in World Development Indicators as single-year conversion factors."
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "LKA",
+        "year": 2025,
+        "value": 4.9534339114043,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "NPL",
+        "year": 2025,
+        "value": 4.43073194983359,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: July 14). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "PAK",
+        "year": 2025,
+        "value": 3.69842668749033,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "The reporting period for national accounts data is designated as either calendar year basis (CY) or fiscal year basis (FY). For this country, it is fiscal year-based (fiscal year-end: June 30). Also, an estimate (PA.NUS.ATLS) of the exchange rate covers the same period and thus differs from the official exchange rate (CY)."
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "PHL",
+        "year": 2025,
+        "value": 4.40240158710621,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "gdp_growth",
+        "country": "VNM",
+        "year": 2025,
+        "value": 8.01882998978245,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/NY.GDP.MKTP.KD.ZG",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/NY.GDP.MKTP.KD.ZG?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "exchange_rate": [
+      {
+        "indicator_id": "exchange_rate",
+        "country": "BGD",
+        "year": 2025,
+        "value": 121.920836605034,
+        "unit": "taka_per_usd",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/PA.NUS.FCRF",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/PA.NUS.FCRF?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "unemployment": [
+      {
+        "indicator_id": "unemployment",
+        "country": "BGD",
+        "year": 2025,
+        "value": 3.778,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "IND",
+        "year": 2025,
+        "value": 4.219,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "KHM",
+        "year": 2025,
+        "value": 0.263,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "LKA",
+        "year": 2025,
+        "value": 4.005,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "NPL",
+        "year": 2025,
+        "value": 10.465,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "PAK",
+        "year": 2025,
+        "value": 5.42,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "PHL",
+        "year": 2025,
+        "value": 2.235,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "unemployment",
+        "country": "VNM",
+        "year": 2025,
+        "value": 1.523,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.UEM.TOTL.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SL.UEM.TOTL.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "female_lfp": [
+      {
+        "indicator_id": "female_lfp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 38.649,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "IND",
+        "year": 2025,
+        "value": 32.425,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "KHM",
+        "year": 2025,
+        "value": 77.351,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "LKA",
+        "year": 2025,
+        "value": 30.992,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "NPL",
+        "year": 2025,
+        "value": 27.473,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "PAK",
+        "year": 2025,
+        "value": 24.046,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "PHL",
+        "year": 2025,
+        "value": 50.489,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "female_lfp",
+        "country": "VNM",
+        "year": 2025,
+        "value": 68.551,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",
+        "source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SL.TLF.CACT.FE.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SL.TLF.CACT.FE.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "remittances_gdp": [
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "BGD",
+        "year": 2025,
+        "value": 7.42441824923219,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "IND",
+        "year": 2025,
+        "value": 3.80963193396421,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "KHM",
+        "year": 2025,
+        "value": 4.28773337330923,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "LKA",
+        "year": 2025,
+        "value": 7.63208359426157,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "NPL",
+        "year": 2025,
+        "value": 32.3122082502615,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "PAK",
+        "year": 2025,
+        "value": 9.93795311287398,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "remittances_gdp",
+        "country": "PHL",
+        "year": 2025,
+        "value": 8.53229833446857,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+        "source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/BX.TRF.PWKR.DT.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/BX.TRF.PWKR.DT.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "reserves_months": [
+      {
+        "indicator_id": "reserves_months",
+        "country": "BGD",
+        "year": 2025,
+        "value": 3.91206738611618,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "IND",
+        "year": 2025,
+        "value": 7.85087469673437,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "KHM",
+        "year": 2025,
+        "value": 7.91368593630944,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "LKA",
+        "year": 2024,
+        "value": 2.86510891041574,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "NPL",
+        "year": 2025,
+        "value": 15.5192743908397,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "PAK",
+        "year": 2025,
+        "value": 3.75530612459722,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "PHL",
+        "year": 2025,
+        "value": 7.30646444214584,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_months",
+        "country": "VNM",
+        "year": 2025,
+        "value": 2.08102376091032,
+        "unit": "months",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.MO",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/FI.RES.TOTL.MO?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "reserves_usd": [
+      {
+        "indicator_id": "reserves_usd",
+        "country": "BGD",
+        "year": 2025,
+        "value": 28562651500.7356,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "IND",
+        "year": 2025,
+        "value": 700073798240.701,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "KHM",
+        "year": 2025,
+        "value": 27524430820.5102,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "LKA",
+        "year": 2024,
+        "value": 6093946546.37436,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "NPL",
+        "year": 2025,
+        "value": 21100332321.6852,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "PAK",
+        "year": 2025,
+        "value": 26455819675.7311,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "PHL",
+        "year": 2025,
+        "value": 110928780532.069,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "reserves_usd",
+        "country": "VNM",
+        "year": 2025,
+        "value": 85580367980.9693,
+        "unit": "usd_current",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "International Financial Statistics database, International Monetary Fund (IMF)",
+        "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/FI.RES.TOTL.CD",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/FI.RES.TOTL.CD?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
     "poverty_intl": [
       {
         "indicator_id": "poverty_intl",
@@ -1299,6 +2043,386 @@
         "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.FRST.20",
         "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.DST.FRST.20?format=json",
         "retrieved_at": "2026-11-13",
+        "notes": [
+          "Based on data from VHLSS. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      }
+    ],
+    "poverty_lmic": [
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "BGD",
+        "year": 2022,
+        "value": 20.5,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "IND",
+        "year": 2023,
+        "value": 16.1,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HCES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "LKA",
+        "year": 2019,
+        "value": 11.5,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "NPL",
+        "year": 2022,
+        "value": 9.1,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from LSS-IV. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "PAK",
+        "year": 2024,
+        "value": 47.9,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "PHL",
+        "year": 2023,
+        "value": 16.9,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from FIES. Estimated from unit-record income data."
+        ],
+        "measured_by": "income"
+      },
+      {
+        "indicator_id": "poverty_lmic",
+        "country": "VNM",
+        "year": 2022,
+        "value": 4.2,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.LMIC",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.LMIC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from VHLSS. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      }
+    ],
+    "poverty_national": [
+      {
+        "indicator_id": "poverty_national",
+        "country": "BGD",
+        "year": 2022,
+        "value": 18.7,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines., World Bank (WB), note: Data are compiled from official government sources or are computed by World Bank staff using national (i.e. country–specific) poverty lines.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.NAHC?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.NAHC",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.NAHC?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "gini": [
+      {
+        "indicator_id": "gini",
+        "country": "BGD",
+        "year": 2022,
+        "value": 30.9,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "IND",
+        "year": 2023,
+        "value": 23,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HCES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "LKA",
+        "year": 2019,
+        "value": 37.7,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "NPL",
+        "year": 2022,
+        "value": 30,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from LSS-IV. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "PAK",
+        "year": 2024,
+        "value": 33.5,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "PHL",
+        "year": 2023,
+        "value": 39.3,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from FIES. Estimated from unit-record income data."
+        ],
+        "measured_by": "income"
+      },
+      {
+        "indicator_id": "gini",
+        "country": "VNM",
+        "year": 2022,
+        "value": 36.1,
+        "unit": "index_0_100",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.POV.GINI",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.POV.GINI?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from VHLSS. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      }
+    ],
+    "share_top10": [
+      {
+        "indicator_id": "share_top10",
+        "country": "BGD",
+        "year": 2022,
+        "value": 25.5,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "IND",
+        "year": 2023,
+        "value": 20.5,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HCES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "LKA",
+        "year": 2019,
+        "value": 30.8,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "NPL",
+        "year": 2022,
+        "value": 24.2,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from LSS-IV. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "PAK",
+        "year": 2024,
+        "value": 27.7,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from HIES. Estimated from unit-record consumption data."
+        ],
+        "measured_by": "consumption"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "PHL",
+        "year": 2023,
+        "value": 31.6,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Based on data from FIES. Estimated from unit-record income data."
+        ],
+        "measured_by": "income"
+      },
+      {
+        "indicator_id": "share_top10",
+        "country": "VNM",
+        "year": 2022,
+        "value": 28.1,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",
+        "source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SI.DST.10TH.10",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SI.DST.10TH.10?format=json",
+        "retrieved_at": "2026-11-14",
         "notes": [
           "Based on data from VHLSS. Estimated from unit-record consumption data."
         ],
@@ -1793,6 +2917,374 @@
         "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.SEC.ENRR.MA",
         "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SE.SEC.ENRR.MA?format=json",
         "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "primary_completion": [
+      {
+        "indicator_id": "primary_completion",
+        "country": "BGD",
+        "year": 2024,
+        "value": 94.3021681436472,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "IND",
+        "year": 2025,
+        "value": 90.2563989745259,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "KHM",
+        "year": 2024,
+        "value": 90.9948884997473,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "LKA",
+        "year": 2023,
+        "value": 94.542850980354,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "NPL",
+        "year": 2025,
+        "value": 109.435240565289,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "PAK",
+        "year": 2024,
+        "value": 74.135301829596,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "PHL",
+        "year": 2024,
+        "value": 91.4486011868973,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "primary_completion",
+        "country": "VNM",
+        "year": 2024,
+        "value": 100.588170556547,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.CMPT.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SE.PRM.CMPT.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "pupil_teacher": [
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "BGD",
+        "year": 2018,
+        "value": 30.05459,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "UIS estimate"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "IND",
+        "year": 2017,
+        "value": 32.74955,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "KHM",
+        "year": 2018,
+        "value": 41.7035,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "LKA",
+        "year": 2018,
+        "value": 21.73735,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "NPL",
+        "year": 2019,
+        "value": 19.74396,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "PAK",
+        "year": 2018,
+        "value": 44.0773,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "PHL",
+        "year": 2017,
+        "value": 29.08352,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "pupil_teacher",
+        "country": "VNM",
+        "year": 2018,
+        "value": 20.27696,
+        "unit": "pupils_per_teacher",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+        "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SE.PRM.ENRL.TC.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "edu_spend": [
+      {
+        "indicator_id": "edu_spend",
+        "country": "BGD",
+        "year": 2024,
+        "value": 2.0343847791384,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "IND",
+        "year": 2022,
+        "value": 4.09865814174589,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "KHM",
+        "year": 2023,
+        "value": 2.1809128340295,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "LKA",
+        "year": 2023,
+        "value": 1.82774571561927,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "NPL",
+        "year": 2024,
+        "value": 3.68849173764595,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "PAK",
+        "year": 2023,
+        "value": 1.94658005237579,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "PHL",
+        "year": 2025,
+        "value": 3.96922646675346,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "edu_spend",
+        "country": "VNM",
+        "year": 2022,
+        "value": 2.88738689372749,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",
+        "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.XPD.TOTL.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SE.XPD.TOTL.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
         "notes": [],
         "measured_by": null
       }
@@ -2313,6 +3805,632 @@
         "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.OOPC.CH.ZS",
         "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.XPD.OOPC.CH.ZS?format=json",
         "retrieved_at": "2026-11-13",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "maternal_mortality": [
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "BGD",
+        "year": 2023,
+        "value": 115,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 82 - 167"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "IND",
+        "year": 2023,
+        "value": 80,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 73 - 87"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "KHM",
+        "year": 2023,
+        "value": 137,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 96 - 239"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "LKA",
+        "year": 2023,
+        "value": 18,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 15 - 25"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "NPL",
+        "year": 2023,
+        "value": 142,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 99 - 234"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "PAK",
+        "year": 2023,
+        "value": 155,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 107 - 241"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "PHL",
+        "year": 2023,
+        "value": 84,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 64 - 119"
+        ],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "maternal_mortality",
+        "country": "VNM",
+        "year": 2023,
+        "value": 48,
+        "unit": "per_100000_live_births",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+        "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.STA.MMRT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [
+          "Uncertainty bound is 31 - 69"
+        ],
+        "measured_by": null
+      }
+    ],
+    "dpt": [
+      {
+        "indicator_id": "dpt",
+        "country": "BGD",
+        "year": 2024,
+        "value": 97,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "IND",
+        "year": 2024,
+        "value": 94,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "KHM",
+        "year": 2024,
+        "value": 83,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "LKA",
+        "year": 2024,
+        "value": 97,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "NPL",
+        "year": 2024,
+        "value": 97,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "PAK",
+        "year": 2024,
+        "value": 87,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "PHL",
+        "year": 2024,
+        "value": 71,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "dpt",
+        "country": "VNM",
+        "year": 2024,
+        "value": 97,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "World Health Organization (WHO), uri: http://www.who.int/immunization/monitoring_surveillance/en/;\nUN Children's Fund (UNICEF)",
+        "source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.IMM.IDPT",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.IMM.IDPT?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "physicians": [
+      {
+        "indicator_id": "physicians",
+        "country": "BGD",
+        "year": 2023,
+        "value": 0.722,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "IND",
+        "year": 2020,
+        "value": 0.723,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "KHM",
+        "year": 2019,
+        "value": 0.211,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "LKA",
+        "year": 2023,
+        "value": 1.136,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "NPL",
+        "year": 2023,
+        "value": 1.011,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "PAK",
+        "year": 2021,
+        "value": 1.16,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "PHL",
+        "year": 2021,
+        "value": 0.792,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "physicians",
+        "country": "VNM",
+        "year": 2021,
+        "value": 1.107,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.MED.PHYS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "beds": [
+      {
+        "indicator_id": "beds",
+        "country": "BGD",
+        "year": 2023,
+        "value": 0.92,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "IND",
+        "year": 2021,
+        "value": 1.59,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "KHM",
+        "year": 2018,
+        "value": 0.73,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "LKA",
+        "year": 2023,
+        "value": 3.93,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "NPL",
+        "year": 2023,
+        "value": 0.54,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "PAK",
+        "year": 2020,
+        "value": 0.63,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "PHL",
+        "year": 2021,
+        "value": 0.97,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "beds",
+        "country": "VNM",
+        "year": 2017,
+        "value": 2.52,
+        "unit": "per_1000_people",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "WHO data, supplemented by country data, World Health Organization (WHO)",
+        "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.BEDS.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.MED.BEDS.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      }
+    ],
+    "health_spend_gdp": [
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "BGD",
+        "year": 2023,
+        "value": 2.17014575,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=BD",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "IND",
+        "year": 2023,
+        "value": 3.33944035,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=IN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "KHM",
+        "year": 2023,
+        "value": 4.61706829,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=KH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "LKA",
+        "year": 2023,
+        "value": 3.68313766,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=LK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/LKA/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "NPL",
+        "year": 2023,
+        "value": 6.15843678,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=NP",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "PAK",
+        "year": 2023,
+        "value": 2.51988316,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=PK",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PAK/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "PHL",
+        "year": 2023,
+        "value": 5.10122538,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=PH",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/PHL/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null
+      },
+      {
+        "indicator_id": "health_spend_gdp",
+        "country": "VNM",
+        "year": 2023,
+        "value": 4.56109476,
+        "unit": "percent",
+        "source_name": "World Bank, World Development Indicators",
+        "original_source": "Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",
+        "source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=VN",
+        "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.XPD.CHEX.GD.ZS",
+        "api_url": "https://api.worldbank.org/v2/country/VNM/indicator/SH.XPD.CHEX.GD.ZS?format=json",
+        "retrieved_at": "2026-11-14",
         "notes": [],
         "measured_by": null
       }
@@ -4244,6 +6362,923 @@
         "classification_retrieved_at": "2026-11-13"
       }
     ],
+    "gdp_growth": [
+      {
+        "indicator_id": "gdp_growth",
+        "year": 2025,
+        "value": 4.368225704538824,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 3.13353542450008
+          },
+          {
+            "country": "BEN",
+            "value": 8.07408453688336
+          },
+          {
+            "country": "BGD",
+            "value": 3.48990671836833
+          },
+          {
+            "country": "BOL",
+            "value": -1.58237567348246
+          },
+          {
+            "country": "BTN",
+            "value": 8.00502716233098
+          },
+          {
+            "country": "CIV",
+            "value": 6.4999999999999
+          },
+          {
+            "country": "CMR",
+            "value": 3.20000015616144
+          },
+          {
+            "country": "COG",
+            "value": 3.08292728120063
+          },
+          {
+            "country": "COM",
+            "value": 3.7544428489181
+          },
+          {
+            "country": "DJI",
+            "value": 6.4954610524268
+          },
+          {
+            "country": "EGY",
+            "value": 4.39201068570188
+          },
+          {
+            "country": "GHA",
+            "value": 5.95441714756899
+          },
+          {
+            "country": "GIN",
+            "value": 7.44709668357611
+          },
+          {
+            "country": "HND",
+            "value": 3.75143102801252
+          },
+          {
+            "country": "HTI",
+            "value": -2.71291075761471
+          },
+          {
+            "country": "IND",
+            "value": 7.56666179284244
+          },
+          {
+            "country": "KEN",
+            "value": 4.63261093844984
+          },
+          {
+            "country": "KGZ",
+            "value": 11.0960203357132
+          },
+          {
+            "country": "KHM",
+            "value": 5.34932084572877
+          },
+          {
+            "country": "KIR",
+            "value": 4.22163588390501
+          },
+          {
+            "country": "LAO",
+            "value": 4.53760564766725
+          },
+          {
+            "country": "LSO",
+            "value": 1.98256080770996
+          },
+          {
+            "country": "MAR",
+            "value": 4.59524349182247
+          },
+          {
+            "country": "MMR",
+            "value": -2.01184475795665
+          },
+          {
+            "country": "MRT",
+            "value": 4.02891976567948
+          },
+          {
+            "country": "NAM",
+            "value": 1.73018153842335
+          },
+          {
+            "country": "NGA",
+            "value": 4.01336180700973
+          },
+          {
+            "country": "NIC",
+            "value": 4.92352556770889
+          },
+          {
+            "country": "NPL",
+            "value": 4.43073194983359
+          },
+          {
+            "country": "PAK",
+            "value": 3.69842668749033
+          },
+          {
+            "country": "PNG",
+            "value": 5.63792052319458
+          },
+          {
+            "country": "PSE",
+            "value": 4.34444072337577
+          },
+          {
+            "country": "SEN",
+            "value": 6.68227744849194
+          },
+          {
+            "country": "SLB",
+            "value": 3.61715088072386
+          },
+          {
+            "country": "STP",
+            "value": 1.02847453097097
+          },
+          {
+            "country": "SWZ",
+            "value": 4.1939175580556
+          },
+          {
+            "country": "TGO",
+            "value": 6.31032671625633
+          },
+          {
+            "country": "TJK",
+            "value": 8.40000053390075
+          },
+          {
+            "country": "TLS",
+            "value": 6.97538939119629
+          },
+          {
+            "country": "TUN",
+            "value": 2.49311010666248
+          },
+          {
+            "country": "TZA",
+            "value": 5.85286828692739
+          },
+          {
+            "country": "UZB",
+            "value": 7.69962477932913
+          },
+          {
+            "country": "VEN",
+            "value": 1.57068062827224
+          },
+          {
+            "country": "VUT",
+            "value": 3.05357824026483
+          },
+          {
+            "country": "ZMB",
+            "value": 3.75772836763902
+          },
+          {
+            "country": "ZWE",
+            "value": 8.10671343048909
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "exchange_rate": [],
+    "unemployment": [
+      {
+        "indicator_id": "unemployment",
+        "year": 2025,
+        "value": 4.98,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 14.108
+          },
+          {
+            "country": "BEN",
+            "value": 1.589
+          },
+          {
+            "country": "BGD",
+            "value": 3.778
+          },
+          {
+            "country": "BOL",
+            "value": 2.967
+          },
+          {
+            "country": "BTN",
+            "value": 3.227
+          },
+          {
+            "country": "CIV",
+            "value": 2.323
+          },
+          {
+            "country": "CMR",
+            "value": 3.602
+          },
+          {
+            "country": "COG",
+            "value": 19.876
+          },
+          {
+            "country": "COM",
+            "value": 3.819
+          },
+          {
+            "country": "DJI",
+            "value": 26.015
+          },
+          {
+            "country": "EGY",
+            "value": 6.781
+          },
+          {
+            "country": "GHA",
+            "value": 2.979
+          },
+          {
+            "country": "GIN",
+            "value": 5.163
+          },
+          {
+            "country": "HND",
+            "value": 4.92
+          },
+          {
+            "country": "HTI",
+            "value": 14.944
+          },
+          {
+            "country": "IND",
+            "value": 4.219
+          },
+          {
+            "country": "KEN",
+            "value": 5.449
+          },
+          {
+            "country": "KGZ",
+            "value": 3.526
+          },
+          {
+            "country": "KHM",
+            "value": 0.263
+          },
+          {
+            "country": "LAO",
+            "value": 1.187
+          },
+          {
+            "country": "LSO",
+            "value": 16.315
+          },
+          {
+            "country": "MAR",
+            "value": 9
+          },
+          {
+            "country": "MMR",
+            "value": 3.047
+          },
+          {
+            "country": "MRT",
+            "value": 10.319
+          },
+          {
+            "country": "NAM",
+            "value": 19.291
+          },
+          {
+            "country": "NGA",
+            "value": 3.064
+          },
+          {
+            "country": "NIC",
+            "value": 5.04
+          },
+          {
+            "country": "NPL",
+            "value": 10.465
+          },
+          {
+            "country": "PAK",
+            "value": 5.42
+          },
+          {
+            "country": "PNG",
+            "value": 2.571
+          },
+          {
+            "country": "SEN",
+            "value": 2.735
+          },
+          {
+            "country": "SLB",
+            "value": 1.431
+          },
+          {
+            "country": "STP",
+            "value": 9.132
+          },
+          {
+            "country": "SWZ",
+            "value": 34.202
+          },
+          {
+            "country": "TGO",
+            "value": 1.995
+          },
+          {
+            "country": "TJK",
+            "value": 6.931
+          },
+          {
+            "country": "TLS",
+            "value": 1.592
+          },
+          {
+            "country": "TUN",
+            "value": 15.108
+          },
+          {
+            "country": "TZA",
+            "value": 1.572
+          },
+          {
+            "country": "UZB",
+            "value": 4.622
+          },
+          {
+            "country": "VEN",
+            "value": 5.307
+          },
+          {
+            "country": "VUT",
+            "value": 5.073
+          },
+          {
+            "country": "ZMB",
+            "value": 5.918
+          },
+          {
+            "country": "ZWE",
+            "value": 9.293
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "female_lfp": [
+      {
+        "indicator_id": "female_lfp",
+        "year": 2025,
+        "value": 51.0375,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 72.224
+          },
+          {
+            "country": "BEN",
+            "value": 75.164
+          },
+          {
+            "country": "BGD",
+            "value": 38.649
+          },
+          {
+            "country": "BOL",
+            "value": 72.868
+          },
+          {
+            "country": "BTN",
+            "value": 56.7
+          },
+          {
+            "country": "CIV",
+            "value": 59.454
+          },
+          {
+            "country": "CMR",
+            "value": 56.595
+          },
+          {
+            "country": "COG",
+            "value": 65.576
+          },
+          {
+            "country": "COM",
+            "value": 47.649
+          },
+          {
+            "country": "DJI",
+            "value": 19.365
+          },
+          {
+            "country": "EGY",
+            "value": 18.455
+          },
+          {
+            "country": "GHA",
+            "value": 55.265
+          },
+          {
+            "country": "GIN",
+            "value": 42.646
+          },
+          {
+            "country": "HND",
+            "value": 39.59
+          },
+          {
+            "country": "HTI",
+            "value": 58.337
+          },
+          {
+            "country": "IND",
+            "value": 32.425
+          },
+          {
+            "country": "KEN",
+            "value": 63.036
+          },
+          {
+            "country": "KGZ",
+            "value": 44.136
+          },
+          {
+            "country": "KHM",
+            "value": 77.351
+          },
+          {
+            "country": "LAO",
+            "value": 61.56
+          },
+          {
+            "country": "LSO",
+            "value": 48.091
+          },
+          {
+            "country": "MAR",
+            "value": 19.696
+          },
+          {
+            "country": "MMR",
+            "value": 40.941
+          },
+          {
+            "country": "MRT",
+            "value": 26.18
+          },
+          {
+            "country": "NAM",
+            "value": 54.918
+          },
+          {
+            "country": "NGA",
+            "value": 80.7
+          },
+          {
+            "country": "NIC",
+            "value": 51.253
+          },
+          {
+            "country": "NPL",
+            "value": 27.473
+          },
+          {
+            "country": "PAK",
+            "value": 24.046
+          },
+          {
+            "country": "PNG",
+            "value": 50.822
+          },
+          {
+            "country": "SEN",
+            "value": 38.216
+          },
+          {
+            "country": "SLB",
+            "value": 82.337
+          },
+          {
+            "country": "STP",
+            "value": 22.749
+          },
+          {
+            "country": "SWZ",
+            "value": 48.518
+          },
+          {
+            "country": "TGO",
+            "value": 56.637
+          },
+          {
+            "country": "TJK",
+            "value": 21.897
+          },
+          {
+            "country": "TLS",
+            "value": 61.676
+          },
+          {
+            "country": "TUN",
+            "value": 26.497
+          },
+          {
+            "country": "TZA",
+            "value": 80.282
+          },
+          {
+            "country": "UZB",
+            "value": 41.178
+          },
+          {
+            "country": "VEN",
+            "value": 37.098
+          },
+          {
+            "country": "VUT",
+            "value": 53.314
+          },
+          {
+            "country": "ZMB",
+            "value": 56.426
+          },
+          {
+            "country": "ZWE",
+            "value": 62.155
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SL.TLF.CACT.FE.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-LA-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "remittances_gdp": [
+      {
+        "indicator_id": "remittances_gdp",
+        "year": 2025,
+        "value": 6.47527084245365,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 0.0423340594644701
+          },
+          {
+            "country": "BGD",
+            "value": 7.42441824923219
+          },
+          {
+            "country": "BOL",
+            "value": 1.92445862440849
+          },
+          {
+            "country": "EGY",
+            "value": 11.3667005342464
+          },
+          {
+            "country": "GHA",
+            "value": 2.12143124533705
+          },
+          {
+            "country": "HND",
+            "value": 30.118530958428
+          },
+          {
+            "country": "IND",
+            "value": 3.80963193396421
+          },
+          {
+            "country": "KEN",
+            "value": 3.76169894235822
+          },
+          {
+            "country": "KHM",
+            "value": 4.28773337330923
+          },
+          {
+            "country": "KIR",
+            "value": 6.47527084245365
+          },
+          {
+            "country": "LAO",
+            "value": 2.58421076336271
+          },
+          {
+            "country": "LSO",
+            "value": 20.7885342347573
+          },
+          {
+            "country": "MAR",
+            "value": 7.48822220209894
+          },
+          {
+            "country": "NGA",
+            "value": 7.83684309060138
+          },
+          {
+            "country": "NPL",
+            "value": 32.3122082502615
+          },
+          {
+            "country": "PAK",
+            "value": 9.93795311287398
+          },
+          {
+            "country": "PSE",
+            "value": 4.03848787823294
+          },
+          {
+            "country": "STP",
+            "value": 3.6595325340975
+          },
+          {
+            "country": "SWZ",
+            "value": 0.74969075379954
+          },
+          {
+            "country": "TJK",
+            "value": 57.6648462573476
+          },
+          {
+            "country": "TLS",
+            "value": 9.98564930435264
+          },
+          {
+            "country": "TUN",
+            "value": 6.74185603546748
+          },
+          {
+            "country": "UZB",
+            "value": 14.3506378406251
+          },
+          {
+            "country": "VEN",
+            "value": 4.31963300927422
+          },
+          {
+            "country": "ZMB",
+            "value": 1.39725650461297
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/BX.TRF.PWKR.DT.GD.ZS?locations=AO-BD-BO-EG-GH-HN-IN-KE-KH-KI-LA-LS-MA-NG-NP-PK-PS-ST-SZ-TJ-TL-TN-UZ-VE-ZM",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "reserves_months": [
+      {
+        "indicator_id": "reserves_months",
+        "year": 2025,
+        "value": 5.297771530186219,
+        "unit": "months",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 5.2918992997815
+          },
+          {
+            "country": "BGD",
+            "value": 3.91206738611618
+          },
+          {
+            "country": "BOL",
+            "value": 0.513655920659275
+          },
+          {
+            "country": "EGY",
+            "value": 4.35960492991794
+          },
+          {
+            "country": "GHA",
+            "value": 3.83233978344377
+          },
+          {
+            "country": "HND",
+            "value": 5.30364376059094
+          },
+          {
+            "country": "IND",
+            "value": 7.85087469673437
+          },
+          {
+            "country": "KEN",
+            "value": 4.63154845831117
+          },
+          {
+            "country": "KHM",
+            "value": 7.91368593630944
+          },
+          {
+            "country": "LAO",
+            "value": 3.42736924810047
+          },
+          {
+            "country": "MAR",
+            "value": 5.92686959641172
+          },
+          {
+            "country": "NGA",
+            "value": 7.11796797049567
+          },
+          {
+            "country": "NPL",
+            "value": 15.5192743908397
+          },
+          {
+            "country": "PAK",
+            "value": 3.75530612459722
+          },
+          {
+            "country": "PSE",
+            "value": 2.34819177993939
+          },
+          {
+            "country": "TJK",
+            "value": 5.74872211910103
+          },
+          {
+            "country": "TLS",
+            "value": 5.75706997377214
+          },
+          {
+            "country": "UZB",
+            "value": 13.5931993858591
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.MO?locations=AO-BD-BO-EG-GH-HN-IN-KE-KH-LA-MA-NG-NP-PK-PS-TJ-TL-UZ",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "reserves_usd": [
+      {
+        "indicator_id": "reserves_usd",
+        "year": 2025,
+        "value": 10204178100.1231,
+        "unit": "usd_current",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 13536065181.9187
+          },
+          {
+            "country": "BGD",
+            "value": 28562651500.7356
+          },
+          {
+            "country": "BOL",
+            "value": 579906699.892029
+          },
+          {
+            "country": "BTN",
+            "value": 1193813117.88207
+          },
+          {
+            "country": "COM",
+            "value": 409067424.497452
+          },
+          {
+            "country": "DJI",
+            "value": 655743660.361958
+          },
+          {
+            "country": "EGY",
+            "value": 48875494539.2689
+          },
+          {
+            "country": "GHA",
+            "value": 12125039401.4179
+          },
+          {
+            "country": "HND",
+            "value": 10204178100.1231
+          },
+          {
+            "country": "HTI",
+            "value": 3393958199.5375
+          },
+          {
+            "country": "IND",
+            "value": 700073798240.701
+          },
+          {
+            "country": "KEN",
+            "value": 12394288741.4978
+          },
+          {
+            "country": "KGZ",
+            "value": 8603418816.63844
+          },
+          {
+            "country": "KHM",
+            "value": 27524430820.5102
+          },
+          {
+            "country": "LAO",
+            "value": 3714314370.55441
+          },
+          {
+            "country": "MAR",
+            "value": 48453629604.8779
+          },
+          {
+            "country": "NAM",
+            "value": 3104525016.06735
+          },
+          {
+            "country": "NGA",
+            "value": 46024916767.4055
+          },
+          {
+            "country": "NIC",
+            "value": 8324385226.76038
+          },
+          {
+            "country": "NPL",
+            "value": 21100332321.6852
+          },
+          {
+            "country": "PAK",
+            "value": 26455819675.7311
+          },
+          {
+            "country": "PSE",
+            "value": 1825200000
+          },
+          {
+            "country": "TJK",
+            "value": 4309985679.29893
+          },
+          {
+            "country": "TLS",
+            "value": 806280712.719411
+          },
+          {
+            "country": "UZB",
+            "value": 66035220725.2339
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=AO-BD-BO-BT-KM-DJ-EG-GH-HN-HT-IN-KE-KG-KH-LA-MA-NA-NG-NI-NP-PK-PS-TJ-TL-UZ",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
     "poverty_intl": [
       {
         "indicator_id": "poverty_intl",
@@ -4371,6 +7406,205 @@
         "inputs_source_url": "https://data.worldbank.org/indicator/SI.DST.FRST.20?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
         "source_name": "World Bank, World Development Indicators",
         "retrieved_at": "2026-11-13",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "poverty_lmic": [
+      {
+        "indicator_id": "poverty_lmic",
+        "year": 2022,
+        "value": 19.7,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 20.5
+          },
+          {
+            "country": "BOL",
+            "value": 5.7
+          },
+          {
+            "country": "BTN",
+            "value": 0.4
+          },
+          {
+            "country": "IND",
+            "value": 23.9
+          },
+          {
+            "country": "KEN",
+            "value": 65.5
+          },
+          {
+            "country": "KGZ",
+            "value": 22.1
+          },
+          {
+            "country": "LBN",
+            "value": 15.7
+          },
+          {
+            "country": "NGA",
+            "value": 64
+          },
+          {
+            "country": "NPL",
+            "value": 9.1
+          },
+          {
+            "country": "TJK",
+            "value": 18.9
+          },
+          {
+            "country": "UZB",
+            "value": 8.3
+          },
+          {
+            "country": "ZMB",
+            "value": 81.4
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "poverty_national": [],
+    "gini": [
+      {
+        "indicator_id": "gini",
+        "year": 2022,
+        "value": 32.55,
+        "unit": "index_0_100",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 30.9
+          },
+          {
+            "country": "BOL",
+            "value": 41.2
+          },
+          {
+            "country": "BTN",
+            "value": 28.5
+          },
+          {
+            "country": "IND",
+            "value": 25.5
+          },
+          {
+            "country": "KEN",
+            "value": 38.5
+          },
+          {
+            "country": "KGZ",
+            "value": 26.4
+          },
+          {
+            "country": "LBN",
+            "value": 35.5
+          },
+          {
+            "country": "NGA",
+            "value": 33.9
+          },
+          {
+            "country": "NPL",
+            "value": 30
+          },
+          {
+            "country": "TJK",
+            "value": 39.5
+          },
+          {
+            "country": "UZB",
+            "value": 31.2
+          },
+          {
+            "country": "ZMB",
+            "value": 51.5
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "share_top10": [
+      {
+        "indicator_id": "share_top10",
+        "year": 2022,
+        "value": 25.55,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 25.5
+          },
+          {
+            "country": "BOL",
+            "value": 30.4
+          },
+          {
+            "country": "BTN",
+            "value": 22.7
+          },
+          {
+            "country": "IND",
+            "value": 22.1
+          },
+          {
+            "country": "KEN",
+            "value": 30.9
+          },
+          {
+            "country": "KGZ",
+            "value": 22
+          },
+          {
+            "country": "LBN",
+            "value": 25.6
+          },
+          {
+            "country": "NGA",
+            "value": 26.3
+          },
+          {
+            "country": "NPL",
+            "value": 24.2
+          },
+          {
+            "country": "TJK",
+            "value": 31.3
+          },
+          {
+            "country": "UZB",
+            "value": 23.2
+          },
+          {
+            "country": "ZMB",
+            "value": 39.1
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SI.DST.10TH.10?locations=BD-BO-BT-IN-KE-KG-LB-NG-NP-TJ-UZ-ZM",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
         "group": "LMC",
         "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
         "classification_retrieved_at": "2026-11-13"
@@ -4751,6 +7985,316 @@
         "inputs_source_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR.MA?locations=BD-BO-BT-CI-EG-GH-HN-IN-KG-KH-KI-LA-LB-MA-NA-NP-PK-TJ-UZ-VE-ZM",
         "source_name": "World Bank, World Development Indicators",
         "retrieved_at": "2026-11-13",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "primary_completion": [
+      {
+        "indicator_id": "primary_completion",
+        "year": 2024,
+        "value": 90.97666940856504,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 94.3021681436472
+          },
+          {
+            "country": "BOL",
+            "value": 90.9584503173828
+          },
+          {
+            "country": "BTN",
+            "value": 86.5400956353483
+          },
+          {
+            "country": "CIV",
+            "value": 80.237080416679
+          },
+          {
+            "country": "CMR",
+            "value": 75.2884678128093
+          },
+          {
+            "country": "COM",
+            "value": 72.7188218601693
+          },
+          {
+            "country": "EGY",
+            "value": 98.2100688782627
+          },
+          {
+            "country": "GHA",
+            "value": 97.5019836425781
+          },
+          {
+            "country": "HND",
+            "value": 71.9894641150556
+          },
+          {
+            "country": "IND",
+            "value": 94.4876304742988
+          },
+          {
+            "country": "KGZ",
+            "value": 98.275850701198
+          },
+          {
+            "country": "KHM",
+            "value": 90.9948884997473
+          },
+          {
+            "country": "KIR",
+            "value": 92.8147659854977
+          },
+          {
+            "country": "LAO",
+            "value": 87.2513184690094
+          },
+          {
+            "country": "MAR",
+            "value": 106.370769185132
+          },
+          {
+            "country": "NAM",
+            "value": 88.5636912842189
+          },
+          {
+            "country": "NPL",
+            "value": 112.229895338538
+          },
+          {
+            "country": "PAK",
+            "value": 74.135301829596
+          },
+          {
+            "country": "SEN",
+            "value": 62.8559370532489
+          },
+          {
+            "country": "SLB",
+            "value": 70.453849254774
+          },
+          {
+            "country": "TGO",
+            "value": 91.2193185348845
+          },
+          {
+            "country": "TZA",
+            "value": 77.3311793094267
+          },
+          {
+            "country": "UZB",
+            "value": 97.6889871949039
+          },
+          {
+            "country": "VEN",
+            "value": 103.043952941895
+          },
+          {
+            "country": "VUT",
+            "value": 113.382612533962
+          },
+          {
+            "country": "ZWE",
+            "value": 85.9607634950894
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=BD-BO-BT-CI-CM-KM-EG-GH-HN-IN-KG-KH-KI-LA-MA-NA-NP-PK-SN-SB-TG-TZ-UZ-VE-VU-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "pupil_teacher": [
+      {
+        "indicator_id": "pupil_teacher",
+        "year": 2018,
+        "value": 27.651685,
+        "unit": "pupils_per_teacher",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BEN",
+            "value": 39.19712
+          },
+          {
+            "country": "BGD",
+            "value": 30.05459
+          },
+          {
+            "country": "BOL",
+            "value": 17.79827
+          },
+          {
+            "country": "BTN",
+            "value": 34.66868
+          },
+          {
+            "country": "CIV",
+            "value": 41.8223
+          },
+          {
+            "country": "CMR",
+            "value": 44.83412
+          },
+          {
+            "country": "COM",
+            "value": 28.05781
+          },
+          {
+            "country": "DJI",
+            "value": 29.37453
+          },
+          {
+            "country": "EGY",
+            "value": 23.67945
+          },
+          {
+            "country": "GHA",
+            "value": 27.24556
+          },
+          {
+            "country": "KGZ",
+            "value": 24.98946
+          },
+          {
+            "country": "KHM",
+            "value": 41.7035
+          },
+          {
+            "country": "LAO",
+            "value": 22.33717
+          },
+          {
+            "country": "MAR",
+            "value": 26.80065
+          },
+          {
+            "country": "MMR",
+            "value": 24.3599
+          },
+          {
+            "country": "MRT",
+            "value": 34.27814
+          },
+          {
+            "country": "NAM",
+            "value": 25.09173
+          },
+          {
+            "country": "PAK",
+            "value": 44.0773
+          },
+          {
+            "country": "PSE",
+            "value": 24.45322
+          },
+          {
+            "country": "SEN",
+            "value": 36.31817
+          },
+          {
+            "country": "SLB",
+            "value": 25.41046
+          },
+          {
+            "country": "TGO",
+            "value": 40.14504
+          },
+          {
+            "country": "TLS",
+            "value": 26.94886
+          },
+          {
+            "country": "TUN",
+            "value": 16.87168
+          },
+          {
+            "country": "TZA",
+            "value": 50.63304
+          },
+          {
+            "country": "UZB",
+            "value": 21.50664
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BJ-BD-BO-BT-CI-CM-KM-DJ-EG-GH-KG-KH-LA-MA-MM-MR-NA-PK-PS-SN-SB-TG-TL-TN-TZ-UZ",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "edu_spend": [
+      {
+        "indicator_id": "edu_spend",
+        "year": 2024,
+        "value": 5.02662625718254,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 2.0343847791384
+          },
+          {
+            "country": "BOL",
+            "value": 7.53980016708374
+          },
+          {
+            "country": "CIV",
+            "value": 3.61279988288879
+          },
+          {
+            "country": "KEN",
+            "value": 4.02242346098974
+          },
+          {
+            "country": "LBN",
+            "value": 1.22490869993085
+          },
+          {
+            "country": "LSO",
+            "value": 6.62253066096596
+          },
+          {
+            "country": "MRT",
+            "value": 7.61007976531982
+          },
+          {
+            "country": "NAM",
+            "value": 9.08440819434816
+          },
+          {
+            "country": "NPL",
+            "value": 3.68849173764595
+          },
+          {
+            "country": "SWZ",
+            "value": 6.03082905337534
+          },
+          {
+            "country": "TZA",
+            "value": 3.15504437906936
+          },
+          {
+            "country": "VUT",
+            "value": 7.63695001602173
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=BD-BO-CI-KE-LB-LS-MR-NA-NP-SZ-TZ-VU",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
         "group": "LMC",
         "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
         "classification_retrieved_at": "2026-11-13"
@@ -5431,6 +8975,768 @@
         "inputs_source_url": "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
         "source_name": "World Bank, World Development Indicators",
         "retrieved_at": "2026-11-13",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "maternal_mortality": [
+      {
+        "indicator_id": "maternal_mortality",
+        "year": 2023,
+        "value": 146,
+        "unit": "per_100000_live_births",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 183
+          },
+          {
+            "country": "BEN",
+            "value": 518
+          },
+          {
+            "country": "BGD",
+            "value": 115
+          },
+          {
+            "country": "BOL",
+            "value": 146
+          },
+          {
+            "country": "BTN",
+            "value": 47
+          },
+          {
+            "country": "CIV",
+            "value": 359
+          },
+          {
+            "country": "CMR",
+            "value": 258
+          },
+          {
+            "country": "COG",
+            "value": 241
+          },
+          {
+            "country": "COM",
+            "value": 179
+          },
+          {
+            "country": "DJI",
+            "value": 162
+          },
+          {
+            "country": "EGY",
+            "value": 17
+          },
+          {
+            "country": "GHA",
+            "value": 234
+          },
+          {
+            "country": "GIN",
+            "value": 494
+          },
+          {
+            "country": "HND",
+            "value": 47
+          },
+          {
+            "country": "HTI",
+            "value": 328
+          },
+          {
+            "country": "IND",
+            "value": 80
+          },
+          {
+            "country": "KEN",
+            "value": 149
+          },
+          {
+            "country": "KGZ",
+            "value": 42
+          },
+          {
+            "country": "KHM",
+            "value": 137
+          },
+          {
+            "country": "KIR",
+            "value": 80
+          },
+          {
+            "country": "LAO",
+            "value": 112
+          },
+          {
+            "country": "LBN",
+            "value": 15
+          },
+          {
+            "country": "LSO",
+            "value": 478
+          },
+          {
+            "country": "MAR",
+            "value": 70
+          },
+          {
+            "country": "MMR",
+            "value": 185
+          },
+          {
+            "country": "MRT",
+            "value": 381
+          },
+          {
+            "country": "NAM",
+            "value": 139
+          },
+          {
+            "country": "NGA",
+            "value": 993
+          },
+          {
+            "country": "NIC",
+            "value": 60
+          },
+          {
+            "country": "NPL",
+            "value": 142
+          },
+          {
+            "country": "PAK",
+            "value": 155
+          },
+          {
+            "country": "PNG",
+            "value": 189
+          },
+          {
+            "country": "PSE",
+            "value": 16
+          },
+          {
+            "country": "SEN",
+            "value": 237
+          },
+          {
+            "country": "SLB",
+            "value": 123
+          },
+          {
+            "country": "STP",
+            "value": 75
+          },
+          {
+            "country": "SWZ",
+            "value": 118
+          },
+          {
+            "country": "TGO",
+            "value": 349
+          },
+          {
+            "country": "TJK",
+            "value": 14
+          },
+          {
+            "country": "TLS",
+            "value": 192
+          },
+          {
+            "country": "TUN",
+            "value": 36
+          },
+          {
+            "country": "TZA",
+            "value": 276
+          },
+          {
+            "country": "UZB",
+            "value": 26
+          },
+          {
+            "country": "VEN",
+            "value": 227
+          },
+          {
+            "country": "VUT",
+            "value": 100
+          },
+          {
+            "country": "ZMB",
+            "value": 85
+          },
+          {
+            "country": "ZWE",
+            "value": 358
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "dpt": [
+      {
+        "indicator_id": "dpt",
+        "year": 2024,
+        "value": 84.5,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 64
+          },
+          {
+            "country": "BEN",
+            "value": 63
+          },
+          {
+            "country": "BGD",
+            "value": 97
+          },
+          {
+            "country": "BOL",
+            "value": 59
+          },
+          {
+            "country": "BTN",
+            "value": 98
+          },
+          {
+            "country": "CIV",
+            "value": 77
+          },
+          {
+            "country": "CMR",
+            "value": 77
+          },
+          {
+            "country": "COG",
+            "value": 78
+          },
+          {
+            "country": "COM",
+            "value": 75
+          },
+          {
+            "country": "DJI",
+            "value": 77
+          },
+          {
+            "country": "EGY",
+            "value": 97
+          },
+          {
+            "country": "GHA",
+            "value": 95
+          },
+          {
+            "country": "GIN",
+            "value": 63
+          },
+          {
+            "country": "HND",
+            "value": 75
+          },
+          {
+            "country": "HTI",
+            "value": 60
+          },
+          {
+            "country": "IND",
+            "value": 94
+          },
+          {
+            "country": "KEN",
+            "value": 91
+          },
+          {
+            "country": "KGZ",
+            "value": 85
+          },
+          {
+            "country": "KHM",
+            "value": 83
+          },
+          {
+            "country": "KIR",
+            "value": 94
+          },
+          {
+            "country": "LAO",
+            "value": 67
+          },
+          {
+            "country": "LBN",
+            "value": 49
+          },
+          {
+            "country": "LSO",
+            "value": 86
+          },
+          {
+            "country": "MAR",
+            "value": 96
+          },
+          {
+            "country": "MMR",
+            "value": 71
+          },
+          {
+            "country": "MRT",
+            "value": 86
+          },
+          {
+            "country": "NAM",
+            "value": 74
+          },
+          {
+            "country": "NGA",
+            "value": 67
+          },
+          {
+            "country": "NPL",
+            "value": 97
+          },
+          {
+            "country": "PAK",
+            "value": 87
+          },
+          {
+            "country": "PNG",
+            "value": 42
+          },
+          {
+            "country": "PSE",
+            "value": 88
+          },
+          {
+            "country": "SEN",
+            "value": 91
+          },
+          {
+            "country": "SLB",
+            "value": 87
+          },
+          {
+            "country": "STP",
+            "value": 87
+          },
+          {
+            "country": "SWZ",
+            "value": 84
+          },
+          {
+            "country": "TGO",
+            "value": 90
+          },
+          {
+            "country": "TJK",
+            "value": 97
+          },
+          {
+            "country": "TLS",
+            "value": 83
+          },
+          {
+            "country": "TUN",
+            "value": 97
+          },
+          {
+            "country": "TZA",
+            "value": 83
+          },
+          {
+            "country": "UZB",
+            "value": 90
+          },
+          {
+            "country": "VEN",
+            "value": 62
+          },
+          {
+            "country": "VUT",
+            "value": 71
+          },
+          {
+            "country": "ZMB",
+            "value": 91
+          },
+          {
+            "country": "ZWE",
+            "value": 91
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "physicians": [
+      {
+        "indicator_id": "physicians",
+        "year": 2023,
+        "value": 0.27749999999999997,
+        "unit": "per_1000_people",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BEN",
+            "value": 0.216
+          },
+          {
+            "country": "BGD",
+            "value": 0.722
+          },
+          {
+            "country": "CIV",
+            "value": 0.166
+          },
+          {
+            "country": "GHA",
+            "value": 0.266
+          },
+          {
+            "country": "KEN",
+            "value": 0.289
+          },
+          {
+            "country": "KGZ",
+            "value": 1.568
+          },
+          {
+            "country": "NGA",
+            "value": 0.38
+          },
+          {
+            "country": "NPL",
+            "value": 1.011
+          },
+          {
+            "country": "PNG",
+            "value": 0.061
+          },
+          {
+            "country": "SEN",
+            "value": 0.109
+          },
+          {
+            "country": "SLB",
+            "value": 0.238
+          },
+          {
+            "country": "SWZ",
+            "value": 0.557
+          },
+          {
+            "country": "TJK",
+            "value": 1.87
+          },
+          {
+            "country": "ZWE",
+            "value": 0.136
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ-BD-CI-GH-KE-KG-NG-NP-PG-SN-SB-SZ-TJ-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "beds": [
+      {
+        "indicator_id": "beds",
+        "year": 2023,
+        "value": 1.6,
+        "unit": "per_1000_people",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "BGD",
+            "value": 0.92
+          },
+          {
+            "country": "BOL",
+            "value": 1.49
+          },
+          {
+            "country": "BTN",
+            "value": 2.16
+          },
+          {
+            "country": "HND",
+            "value": 0.53
+          },
+          {
+            "country": "HTI",
+            "value": 4.9
+          },
+          {
+            "country": "KGZ",
+            "value": 3.73
+          },
+          {
+            "country": "LAO",
+            "value": 1.71
+          },
+          {
+            "country": "MAR",
+            "value": 0.73
+          },
+          {
+            "country": "NPL",
+            "value": 0.54
+          },
+          {
+            "country": "PNG",
+            "value": 0.62
+          },
+          {
+            "country": "TJK",
+            "value": 4.04
+          },
+          {
+            "country": "TLS",
+            "value": 0.38
+          },
+          {
+            "country": "TUN",
+            "value": 1.82
+          },
+          {
+            "country": "UZB",
+            "value": 4.89
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-HN-HT-KG-LA-MA-NP-PG-TJ-TL-TN-UZ",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
+        "group": "LMC",
+        "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+        "classification_retrieved_at": "2026-11-13"
+      }
+    ],
+    "health_spend_gdp": [
+      {
+        "indicator_id": "health_spend_gdp",
+        "year": 2023,
+        "value": 4.50344467,
+        "unit": "percent",
+        "calculated_by_site": true,
+        "formula": "median",
+        "inputs": [
+          {
+            "country": "AGO",
+            "value": 2.54692864
+          },
+          {
+            "country": "BEN",
+            "value": 3.33732462
+          },
+          {
+            "country": "BGD",
+            "value": 2.17014575
+          },
+          {
+            "country": "BOL",
+            "value": 6.91864729
+          },
+          {
+            "country": "BTN",
+            "value": 4.41551638
+          },
+          {
+            "country": "CIV",
+            "value": 3.43218303
+          },
+          {
+            "country": "CMR",
+            "value": 4.5545516
+          },
+          {
+            "country": "COG",
+            "value": 3.29744148
+          },
+          {
+            "country": "COM",
+            "value": 6.55212021
+          },
+          {
+            "country": "DJI",
+            "value": 2.28316021
+          },
+          {
+            "country": "EGY",
+            "value": 4.88449335
+          },
+          {
+            "country": "GHA",
+            "value": 2.94686937
+          },
+          {
+            "country": "GIN",
+            "value": 3.69442987
+          },
+          {
+            "country": "HND",
+            "value": 7.70976162
+          },
+          {
+            "country": "HTI",
+            "value": 3.19156528
+          },
+          {
+            "country": "IND",
+            "value": 3.33944035
+          },
+          {
+            "country": "KEN",
+            "value": 4.35172892
+          },
+          {
+            "country": "KGZ",
+            "value": 4.50344467
+          },
+          {
+            "country": "KHM",
+            "value": 4.61706829
+          },
+          {
+            "country": "KIR",
+            "value": 10.94525623
+          },
+          {
+            "country": "LAO",
+            "value": 1.32651615
+          },
+          {
+            "country": "LBN",
+            "value": 5.57497263
+          },
+          {
+            "country": "LSO",
+            "value": 12.61182117
+          },
+          {
+            "country": "MAR",
+            "value": 6.06396198
+          },
+          {
+            "country": "MMR",
+            "value": 4.45748425
+          },
+          {
+            "country": "MRT",
+            "value": 4.34333467
+          },
+          {
+            "country": "NAM",
+            "value": 9.48251629
+          },
+          {
+            "country": "NGA",
+            "value": 4.19086456
+          },
+          {
+            "country": "NIC",
+            "value": 8.29879284
+          },
+          {
+            "country": "NPL",
+            "value": 6.15843678
+          },
+          {
+            "country": "PAK",
+            "value": 2.51988316
+          },
+          {
+            "country": "PNG",
+            "value": 2.87081432
+          },
+          {
+            "country": "PSE",
+            "value": 10.73343945
+          },
+          {
+            "country": "SEN",
+            "value": 4.32314825
+          },
+          {
+            "country": "SLB",
+            "value": 5.36366177
+          },
+          {
+            "country": "STP",
+            "value": 5.77292156
+          },
+          {
+            "country": "SWZ",
+            "value": 7.49763966
+          },
+          {
+            "country": "TGO",
+            "value": 6.10829544
+          },
+          {
+            "country": "TJK",
+            "value": 7.43789911
+          },
+          {
+            "country": "TLS",
+            "value": 9.59779453
+          },
+          {
+            "country": "TUN",
+            "value": 7.98537874
+          },
+          {
+            "country": "TZA",
+            "value": 3.05201221
+          },
+          {
+            "country": "UZB",
+            "value": 6.74312878
+          },
+          {
+            "country": "VEN",
+            "value": 3.77611423
+          },
+          {
+            "country": "VUT",
+            "value": 4.1186676
+          },
+          {
+            "country": "ZMB",
+            "value": 5.97841072
+          },
+          {
+            "country": "ZWE",
+            "value": 2.92601609
+          }
+        ],
+        "inputs_source_url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-IN-KE-KG-KH-KI-LA-LB-LS-MA-MM-MR-NA-NG-NI-NP-PK-PG-PS-SN-SB-ST-SZ-TG-TJ-TL-TN-TZ-UZ-VE-VU-ZM-ZW",
+        "source_name": "World Bank, World Development Indicators",
+        "retrieved_at": "2026-11-14",
         "group": "LMC",
         "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
         "classification_retrieved_at": "2026-11-13"

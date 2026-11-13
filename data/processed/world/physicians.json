@@ -1,0 +1,1509 @@
+{
+  "indicator_id": "physicians",
+  "code": "SH.MED.PHYS.ZS",
+  "unit": "per_1000_people",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "Global Health Workforce Statistics, World Health Organization (WHO);\nOrganisation for Economic Co-operation and Development (OECD);\nCountry data",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.MED.PHYS.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.MED.PHYS.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2023,
+      "value": 0.317,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2022,
+      "value": 0.244,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2020,
+      "value": 1.879,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2023,
+      "value": 5.068,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2023,
+      "value": 2.992,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2023,
+      "value": 5.106,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2022,
+      "value": 3.36,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2017,
+      "value": 2.917,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2022,
+      "value": 4.086,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2023,
+      "value": 5.515,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2022,
+      "value": 3.185,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2022,
+      "value": 0.078,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2022,
+      "value": 3.574,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2023,
+      "value": 0.216,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2022,
+      "value": 0.148,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2023,
+      "value": 0.722,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2022,
+      "value": 4.328,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2020,
+      "value": 0.741,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2017,
+      "value": 1.895,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2019,
+      "value": 2.584,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2023,
+      "value": 4.717,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2018,
+      "value": 1.086,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2021,
+      "value": 1.284,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2023,
+      "value": 2.357,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2022,
+      "value": 2.958,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2021,
+      "value": 1.886,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2022,
+      "value": 0.553,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2023,
+      "value": 0.379,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2023,
+      "value": 0.074,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2023,
+      "value": 2.819,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2022,
+      "value": 4.477,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2023,
+      "value": 3.334,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2022,
+      "value": 3.112,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2023,
+      "value": 0.166,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2022,
+      "value": 0.136,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2022,
+      "value": 0.208,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2022,
+      "value": 0.173,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2023,
+      "value": 2.535,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2022,
+      "value": 0.424,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2023,
+      "value": 0.73,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2022,
+      "value": 2.687,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2021,
+      "value": 9.542,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2022,
+      "value": 3.556,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2022,
+      "value": 4.352,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2022,
+      "value": 4.534,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2022,
+      "value": 0.211,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2018,
+      "value": 1.158,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2021,
+      "value": 4.498,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2023,
+      "value": 2.426,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2022,
+      "value": 1.66,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2020,
+      "value": 2.313,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2020,
+      "value": 0.671,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2022,
+      "value": 0.088,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2022,
+      "value": 4.294,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2022,
+      "value": 3.469,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2023,
+      "value": 0.143,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2021,
+      "value": 3.609,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=FI"
+    },
+    {
+      "country": "FRA",
+      "year": 2022,
+      "value": 3.281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2020,
+      "value": 0.974,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2022,
+      "value": 0.521,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2023,
+      "value": 3.301,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2023,
+      "value": 5.642,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2023,
+      "value": 0.266,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2022,
+      "value": 0.21,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2023,
+      "value": 0.09,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2022,
+      "value": 0.252,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2022,
+      "value": 0.153,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2022,
+      "value": 6.576,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2018,
+      "value": 1.383,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2020,
+      "value": 1.281,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2020,
+      "value": 1.387,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2020,
+      "value": 0.489,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2022,
+      "value": 3.909,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2022,
+      "value": 0.292,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2022,
+      "value": 3.456,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2023,
+      "value": 0.524,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2020,
+      "value": 0.723,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2023,
+      "value": 3.875,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2023,
+      "value": 1.811,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2022,
+      "value": 1.022,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2023,
+      "value": 4.373,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2023,
+      "value": 3.797,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2022,
+      "value": 4.191,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2023,
+      "value": 0.46,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2022,
+      "value": 2.851,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2022,
+      "value": 2.649,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2023,
+      "value": 3.754,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2023,
+      "value": 0.289,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2023,
+      "value": 1.568,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2019,
+      "value": 0.211,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KH"
+    },
+    {
+      "country": "KNA",
+      "year": 2018,
+      "value": 3.085,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2022,
+      "value": 2.61,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2020,
+      "value": 2.273,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2022,
+      "value": 0.331,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2020,
+      "value": 2.68,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2022,
+      "value": 0.178,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2017,
+      "value": 2.042,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2020,
+      "value": 4.234,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2023,
+      "value": 1.136,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2022,
+      "value": 0.235,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2022,
+      "value": 4.466,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2017,
+      "value": 2.984,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2022,
+      "value": 3.398,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2021,
+      "value": 0.74,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2020,
+      "value": 8.609,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2023,
+      "value": 4.016,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2022,
+      "value": 0.172,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2019,
+      "value": 2.235,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2022,
+      "value": 2.588,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MX"
+    },
+    {
+      "country": "MKD",
+      "year": 2022,
+      "value": 2.944,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2023,
+      "value": 0.188,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2022,
+      "value": 4.513,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2019,
+      "value": 0.757,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2023,
+      "value": 2.783,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2022,
+      "value": 4.13,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2022,
+      "value": 0.175,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2022,
+      "value": 0.261,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2022,
+      "value": 1.436,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2022,
+      "value": 0.054,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2023,
+      "value": 2.341,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2022,
+      "value": 0.553,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2023,
+      "value": 0.038,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2023,
+      "value": 0.38,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2018,
+      "value": 0.682,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2022,
+      "value": 3.876,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2023,
+      "value": 4.975,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2023,
+      "value": 1.011,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NP"
+    },
+    {
+      "country": "NZL",
+      "year": 2022,
+      "value": 3.611,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2022,
+      "value": 1.992,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2021,
+      "value": 1.16,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2022,
+      "value": 1.625,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2023,
+      "value": 1.688,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2021,
+      "value": 0.792,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2023,
+      "value": 1.808,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2023,
+      "value": 0.061,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2023,
+      "value": 4.031,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PL"
+    },
+    {
+      "country": "PRK",
+      "year": 2017,
+      "value": 3.628,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2022,
+      "value": 5.851,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2022,
+      "value": 3.893,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2018,
+      "value": 2.168,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2023,
+      "value": 3.022,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2022,
+      "value": 3.625,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2022,
+      "value": 5.111,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2022,
+      "value": 0.09,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2023,
+      "value": 3.406,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2017,
+      "value": 0.25,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2023,
+      "value": 0.109,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2022,
+      "value": 2.834,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2023,
+      "value": 0.238,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2022,
+      "value": 0.134,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2023,
+      "value": 1.616,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2023,
+      "value": 4.629,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SM"
+    },
+    {
+      "country": "SRB",
+      "year": 2022,
+      "value": 3.099,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2022,
+      "value": 0.041,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2022,
+      "value": 0.464,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2023,
+      "value": 1.355,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2022,
+      "value": 3.697,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2022,
+      "value": 3.367,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2021,
+      "value": 4.408,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2023,
+      "value": 0.557,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2022,
+      "value": 6.598,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2021,
+      "value": 1.521,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2023,
+      "value": 0.085,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2022,
+      "value": 0.08,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2021,
+      "value": 0.541,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2023,
+      "value": 1.87,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2023,
+      "value": 1.93,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2020,
+      "value": 0.752,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2021,
+      "value": 1.014,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2021,
+      "value": 4.157,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2021,
+      "value": 1.315,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2022,
+      "value": 2.236,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2020,
+      "value": 1.346,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2022,
+      "value": 0.134,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2022,
+      "value": 0.191,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2023,
+      "value": 3.531,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2022,
+      "value": 4.674,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2022,
+      "value": 3.681,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2021,
+      "value": 2.805,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=UZ"
+    },
+    {
+      "country": "VEN",
+      "year": 2017,
+      "value": 1.664,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=VE"
+    },
+    {
+      "country": "VNM",
+      "year": 2021,
+      "value": 1.107,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2019,
+      "value": 0.164,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2021,
+      "value": 0.561,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2023,
+      "value": 0.098,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2022,
+      "value": 0.794,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2022,
+      "value": 0.324,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2023,
+      "value": 0.136,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=ZW"
+    }
+  ]
+}

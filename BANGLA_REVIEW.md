@@ -137,3 +137,14 @@ Please check especially:
 - sub.*.intro paragraphs (five, all definitions only); "খানা জরিপ" for household survey
 - target.source.*: "জাতিসংঘ টেকসই উন্নয়ন লক্ষ্যমাত্রা, লক্ষ্য ৩.২"; "বিশ্ব স্বাস্থ্য সংস্থা, বায়ুমান নির্দেশিকা (২০২১)"
 - indicator.where "এই তথ্য কোথা থেকে এসেছে?", indicator.api "যেভাবে নামানো হয়েছে"
+
+## Milestone 7: new measures, Sources, About, How to read, page states (2026-11-14)
+All new; drafts. Please check especially:
+- **Measure names** (indicator.*.name / .short, 19 measures): "প্রবাসী আয় (রেমিট্যান্স)", "বৈদেশিক মুদ্রার রিজার্ভ, কত মাসের আমদানির সমান", "অফিশিয়াল বিনিময় হার, প্রতি মার্কিন ডলারে টাকা (বার্ষিক গড়)", "নিম্ন-মধ্যম আয়ের দারিদ্র্যরেখার নিচে থাকা মানুষ" (short: "উচ্চতর দারিদ্র্যরেখার নিচে"), "আয় বা ব্যয়ের জিনি সূচক", "প্রাথমিক শিক্ষা সমাপনের হার", "শিক্ষকপ্রতি শিক্ষার্থী", "মাতৃমৃত্যু", "শিশুদের টিকা (ডিপিটি)", "প্রতি ১,০০০ মানুষে চিকিৎসক / হাসপাতালের শয্যা"
+- **Units:** "প্রতি ১,০০,০০০ জন্মে {value}", "প্রতি ১,০০০ মানুষে {value}", "প্রতি মার্কিন ডলারে ৳{value}", "{value} মার্কিন ডলার", "{value} মাস" / "মাসের আমদানি", "{value} (০ থেকে ১০০)" / "০ থেকে ১০০ মাপকাঠিতে", "শিক্ষকপ্রতি {value} জন শিক্ষার্থী"
+- **Goal texts** (direction.target.*): SDG 1.2, 3.1, 4.1, translated from the UN wording (the English is word for word)
+- **New sub.*.intro** for Poverty and inequality and Jobs (the "added in the next update" sentences are gone)
+- **Menu:** nav.sources "উৎস", nav.about "পরিচিতি", nav.how_to_read "সাইটটি কীভাবে পড়বেন"
+- **Sources page** (sources.*): "উৎস পাতা", "বাংলাদেশ, প্রতি বছর", "তুলনার দেশগুলো, প্রতি বছর", "প্রতিটি দেশের সর্বশেষ মান, {year} বা তার পরের", "{n}টি দেশের মানের মিডিয়ান"
+- **States** (state.*): old data "সর্বশেষ প্রকাশিত সংখ্যাটি {year} সালের।", offline, failed refresh, "আবার চেষ্টা করুন", no-JavaScript note
+- **About and How to read** (about.*, how.*): about 40 paragraphs. Long; please read them as pages at /bn/about and /bn/how-to-read rather than here.

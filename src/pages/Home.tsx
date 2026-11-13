@@ -18,6 +18,7 @@ import { AREAS, GLANCE } from '../data/dashboard.ts';
 import { LATEST } from '../data/latest.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { useFirstVisitDrawIn } from '../lib/drawIn.ts';
+import { usePageTitle } from '../lib/usePageTitle.ts';
 
 const loadDetails = () => import('../components/DetailsPanel.tsx');
 const DetailsPanel = lazy(() => loadDetails().then((m) => ({ default: m.DetailsPanel })));
@@ -123,6 +124,7 @@ function Dashboard({ lang }: { lang: Lang }) {
 
 export function Home() {
   const lang = useOutletContext<Lang>();
+  usePageTitle(lang, null);
   useFirstVisitDrawIn();
   useEffect(() => {
     document.documentElement.classList.add('is-home');

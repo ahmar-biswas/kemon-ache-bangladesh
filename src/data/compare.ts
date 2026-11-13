@@ -7,6 +7,11 @@ export function recentSince(lastChecked: string): number {
   return Number(lastChecked.slice(0, 4)) - 10;
 }
 
+/** Section 13 "Old data": the newest figure is more than 5 years older than the year of the last check. */
+export function isOldData(year: number, lastCheckedYear: number): boolean {
+  return lastCheckedYear - year > 5;
+}
+
 /** Each country's newest published record, if it is from `since` or later. Gaps are never filled. */
 export function latestRecent(records: DataRecord[], countries: readonly string[], since: number): Map<string, DataRecord> {
   const out = new Map<string, DataRecord>();

@@ -1,0 +1,673 @@
+{
+  "indicator_id": "reserves_usd",
+  "kind": "calculated",
+  "year": 2025,
+  "rank": 57,
+  "out_of": 132,
+  "order": "highest_first",
+  "source_name": "World Bank, Total reserves (includes gold, current US$)",
+  "source_url": "https://data.worldbank.org/indicator/FI.RES.TOTL.CD?year=2025",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "CHN",
+      "value": 3748744952817.94,
+      "rank": 1
+    },
+    {
+      "country": "USA",
+      "value": 1385447111476.7,
+      "rank": 2
+    },
+    {
+      "country": "JPN",
+      "value": 1371402218767.57,
+      "rank": 3
+    },
+    {
+      "country": "CHE",
+      "value": 1075680064272.88,
+      "rank": 4
+    },
+    {
+      "country": "IND",
+      "value": 700073798240.701,
+      "rank": 5
+    },
+    {
+      "country": "DEU",
+      "value": 572201958133.157,
+      "rank": 6
+    },
+    {
+      "country": "SAU",
+      "value": 505163993094.995,
+      "rank": 7
+    },
+    {
+      "country": "KOR",
+      "value": 436572785443.925,
+      "rank": 8
+    },
+    {
+      "country": "ITA",
+      "value": 434014519754.791,
+      "rank": 9
+    },
+    {
+      "country": "SGP",
+      "value": 432113578989.258,
+      "rank": 10
+    },
+    {
+      "country": "FRA",
+      "value": 428208373515.726,
+      "rank": 11
+    },
+    {
+      "country": "BRA",
+      "value": 358513128727.455,
+      "rank": 12
+    },
+    {
+      "country": "ARE",
+      "value": 292319262021.321,
+      "rank": 13
+    },
+    {
+      "country": "THA",
+      "value": 282261124353.134,
+      "rank": 14
+    },
+    {
+      "country": "POL",
+      "value": 271805173253.09,
+      "rank": 15
+    },
+    {
+      "country": "MEX",
+      "value": 256178680249.027,
+      "rank": 16
+    },
+    {
+      "country": "ISR",
+      "value": 229486904238.885,
+      "rank": 17
+    },
+    {
+      "country": "GBR",
+      "value": 214355349052.166,
+      "rank": 18
+    },
+    {
+      "country": "TUR",
+      "value": 185567690700.458,
+      "rank": 19
+    },
+    {
+      "country": "CZE",
+      "value": 176325883579.117,
+      "rank": 20
+    },
+    {
+      "country": "IDN",
+      "value": 156542507869.671,
+      "rank": 21
+    },
+    {
+      "country": "ESP",
+      "value": 128593472896.351,
+      "rank": 22
+    },
+    {
+      "country": "DNK",
+      "value": 127756364612.297,
+      "rank": 23
+    },
+    {
+      "country": "MYS",
+      "value": 125629250346.155,
+      "rank": 24
+    },
+    {
+      "country": "CAN",
+      "value": 125626898210.333,
+      "rank": 25
+    },
+    {
+      "country": "NLD",
+      "value": 118056683477.991,
+      "rank": 26
+    },
+    {
+      "country": "PHL",
+      "value": 110928780532.069,
+      "rank": 27
+    },
+    {
+      "country": "LBY",
+      "value": 104656885592.808,
+      "rank": 28
+    },
+    {
+      "country": "IRQ",
+      "value": 98450303284.422,
+      "rank": 29
+    },
+    {
+      "country": "ROU",
+      "value": 90648371894.6505,
+      "rank": 30
+    },
+    {
+      "country": "PER",
+      "value": 90393720332.2316,
+      "rank": 31
+    },
+    {
+      "country": "VNM",
+      "value": 85580367980.9693,
+      "rank": 32
+    },
+    {
+      "country": "NOR",
+      "value": 85494772693.8953,
+      "rank": 33
+    },
+    {
+      "country": "DZA",
+      "value": 76825229205.7541,
+      "rank": 34
+    },
+    {
+      "country": "ZAF",
+      "value": 76023398333.6108,
+      "rank": 35
+    },
+    {
+      "country": "SWE",
+      "value": 74195224037.4301,
+      "rank": 36
+    },
+    {
+      "country": "AUS",
+      "value": 72632706749.9791,
+      "rank": 37
+    },
+    {
+      "country": "PRT",
+      "value": 68839157118.0358,
+      "rank": 38
+    },
+    {
+      "country": "KAZ",
+      "value": 66068640110.4733,
+      "rank": 39
+    },
+    {
+      "country": "UZB",
+      "value": 66035220725.2339,
+      "rank": 40
+    },
+    {
+      "country": "COL",
+      "value": 65806277188.9609,
+      "rank": 41
+    },
+    {
+      "country": "HUN",
+      "value": 59094575606.7598,
+      "rank": 42
+    },
+    {
+      "country": "UKR",
+      "value": 57268434039.4416,
+      "rank": 43
+    },
+    {
+      "country": "BEL",
+      "value": 56392530499.2024,
+      "rank": 44
+    },
+    {
+      "country": "QAT",
+      "value": 55847316824.2017,
+      "rank": 45
+    },
+    {
+      "country": "AUT",
+      "value": 53437030354.0066,
+      "rank": 46
+    },
+    {
+      "country": "KWT",
+      "value": 51737963291.5741,
+      "rank": 47
+    },
+    {
+      "country": "CHL",
+      "value": 49449773295.6302,
+      "rank": 48
+    },
+    {
+      "country": "EGY",
+      "value": 48875494539.2689,
+      "rank": 49
+    },
+    {
+      "country": "MAR",
+      "value": 48453629604.8779,
+      "rank": 50
+    },
+    {
+      "country": "BGR",
+      "value": 47145331735.8056,
+      "rank": 51
+    },
+    {
+      "country": "NGA",
+      "value": 46024916767.4055,
+      "rank": 52
+    },
+    {
+      "country": "ARG",
+      "value": 40998763986.6338,
+      "rank": 53
+    },
+    {
+      "country": "SRB",
+      "value": 34150990742.9313,
+      "rank": 54
+    },
+    {
+      "country": "GTM",
+      "value": 32753590398.818,
+      "rank": 55
+    },
+    {
+      "country": "MAC",
+      "value": 30638010000,
+      "rank": 56
+    },
+    {
+      "country": "BGD",
+      "value": 28562651500.7356,
+      "rank": 57
+    },
+    {
+      "country": "NZL",
+      "value": 28152498623.6496,
+      "rank": 58
+    },
+    {
+      "country": "KHM",
+      "value": 27524430820.5102,
+      "rank": 59
+    },
+    {
+      "country": "JOR",
+      "value": 26557371377.9991,
+      "rank": 60
+    },
+    {
+      "country": "PAK",
+      "value": 26455819675.7311,
+      "rank": 61
+    },
+    {
+      "country": "GRC",
+      "value": 24047515202.4519,
+      "rank": 62
+    },
+    {
+      "country": "FIN",
+      "value": 22457097709.8669,
+      "rank": 63
+    },
+    {
+      "country": "NPL",
+      "value": 21100332321.6852,
+      "rank": 64
+    },
+    {
+      "country": "URY",
+      "value": 18987045163.6795,
+      "rank": 65
+    },
+    {
+      "country": "SVK",
+      "value": 18161989981.1753,
+      "rank": 66
+    },
+    {
+      "country": "CRI",
+      "value": 17086422923.2621,
+      "rank": 67
+    },
+    {
+      "country": "DOM",
+      "value": 14779137046.9659,
+      "rank": 68
+    },
+    {
+      "country": "BLR",
+      "value": 14519884903.0865,
+      "rank": 69
+    },
+    {
+      "country": "IRL",
+      "value": 13659404386.8067,
+      "rank": 70
+    },
+    {
+      "country": "AZE",
+      "value": 13555767940.9545,
+      "rank": 71
+    },
+    {
+      "country": "AGO",
+      "value": 13536065181.9187,
+      "rank": 72
+    },
+    {
+      "country": "KEN",
+      "value": 12394288741.4978,
+      "rank": 73
+    },
+    {
+      "country": "GHA",
+      "value": 12125039401.4179,
+      "rank": 74
+    },
+    {
+      "country": "MUS",
+      "value": 10308130278.8725,
+      "rank": 75
+    },
+    {
+      "country": "HND",
+      "value": 10204178100.1231,
+      "rank": 76
+    },
+    {
+      "country": "ECU",
+      "value": 9797930670.32855,
+      "rank": 77
+    },
+    {
+      "country": "KGZ",
+      "value": 8603418816.63844,
+      "rank": 78
+    },
+    {
+      "country": "ALB",
+      "value": 8601612921.35767,
+      "rank": 79
+    },
+    {
+      "country": "NIC",
+      "value": 8324385226.76038,
+      "rank": 80
+    },
+    {
+      "country": "ISL",
+      "value": 7732180037.18594,
+      "rank": 81
+    },
+    {
+      "country": "LTU",
+      "value": 7059127324.71897,
+      "rank": 82
+    },
+    {
+      "country": "MNG",
+      "value": 7004095384.43435,
+      "rank": 83
+    },
+    {
+      "country": "JAM",
+      "value": 6303188596.95149,
+      "rank": 84
+    },
+    {
+      "country": "PAN",
+      "value": 6240726722.10777,
+      "rank": 85
+    },
+    {
+      "country": "GEO",
+      "value": 6157188673.62863,
+      "rank": 86
+    },
+    {
+      "country": "LVA",
+      "value": 6099392942.08427,
+      "rank": 87
+    },
+    {
+      "country": "MDA",
+      "value": 6006124070.06262,
+      "rank": 88
+    },
+    {
+      "country": "MKD",
+      "value": 5803955793.72208,
+      "rank": 89
+    },
+    {
+      "country": "BRN",
+      "value": 5488659508.70276,
+      "rank": 90
+    },
+    {
+      "country": "TTO",
+      "value": 5372033723.06231,
+      "rank": 91
+    },
+    {
+      "country": "BHR",
+      "value": 5269794300.52369,
+      "rank": 92
+    },
+    {
+      "country": "ARM",
+      "value": 5088260146.30166,
+      "rank": 93
+    },
+    {
+      "country": "SLV",
+      "value": 4816331848.37456,
+      "rank": 94
+    },
+    {
+      "country": "TJK",
+      "value": 4309985679.29893,
+      "rank": 95
+    },
+    {
+      "country": "HRV",
+      "value": 4216234683.4805,
+      "rank": 96
+    },
+    {
+      "country": "LAO",
+      "value": 3714314370.55441,
+      "rank": 97
+    },
+    {
+      "country": "SVN",
+      "value": 3549845300.95317,
+      "rank": 98
+    },
+    {
+      "country": "HTI",
+      "value": 3393958199.5375,
+      "rank": 99
+    },
+    {
+      "country": "NAM",
+      "value": 3104525016.06735,
+      "rank": 100
+    },
+    {
+      "country": "LUX",
+      "value": 3055208156.8508,
+      "rank": 101
+    },
+    {
+      "country": "CYP",
+      "value": 2947568615.4458,
+      "rank": 102
+    },
+    {
+      "country": "BHS",
+      "value": 2813578749.72566,
+      "rank": 103
+    },
+    {
+      "country": "EST",
+      "value": 2438823527.15559,
+      "rank": 104
+    },
+    {
+      "country": "ABW",
+      "value": 2231431960,
+      "rank": 105
+    },
+    {
+      "country": "MNE",
+      "value": 2196370744.61095,
+      "rank": 106
+    },
+    {
+      "country": "RWA",
+      "value": 1962663787.86036,
+      "rank": 107
+    },
+    {
+      "country": "PSE",
+      "value": 1825200000,
+      "rank": 108
+    },
+    {
+      "country": "FJI",
+      "value": 1658916057.47343,
+      "rank": 109
+    },
+    {
+      "country": "SUR",
+      "value": 1615758213.36347,
+      "rank": 110
+    },
+    {
+      "country": "MLT",
+      "value": 1543517156.32491,
+      "rank": 111
+    },
+    {
+      "country": "XKX",
+      "value": 1516143666.30715,
+      "rank": 112
+    },
+    {
+      "country": "GUY",
+      "value": 1356212379.05664,
+      "rank": 113
+    },
+    {
+      "country": "CPV",
+      "value": 1258902686.26313,
+      "rank": 114
+    },
+    {
+      "country": "BTN",
+      "value": 1193813117.88207,
+      "rank": 115
+    },
+    {
+      "country": "MDV",
+      "value": 984573591.713979,
+      "rank": 116
+    },
+    {
+      "country": "SMR",
+      "value": 861236140.049185,
+      "rank": 117
+    },
+    {
+      "country": "TLS",
+      "value": 806280712.719411,
+      "rank": 118
+    },
+    {
+      "country": "DJI",
+      "value": 655743660.361958,
+      "rank": 119
+    },
+    {
+      "country": "WSM",
+      "value": 598336707.938961,
+      "rank": 120
+    },
+    {
+      "country": "BOL",
+      "value": 579906699.892029,
+      "rank": 121
+    },
+    {
+      "country": "BLZ",
+      "value": 559427087.788741,
+      "rank": 122
+    },
+    {
+      "country": "LCA",
+      "value": 447150519.268177,
+      "rank": 123
+    },
+    {
+      "country": "TON",
+      "value": 412716557.109434,
+      "rank": 124
+    },
+    {
+      "country": "COM",
+      "value": 409067424.497452,
+      "rank": 125
+    },
+    {
+      "country": "GRD",
+      "value": 408148184.57792,
+      "rank": 126
+    },
+    {
+      "country": "ATG",
+      "value": 378519316.13491,
+      "rank": 127
+    },
+    {
+      "country": "LBR",
+      "value": 338800671.952399,
+      "rank": 128
+    },
+    {
+      "country": "KNA",
+      "value": 282052160.571683,
+      "rank": 129
+    },
+    {
+      "country": "VCT",
+      "value": 281217907.470521,
+      "rank": 130
+    },
+    {
+      "country": "CYM",
+      "value": 270422275.2,
+      "rank": 131
+    },
+    {
+      "country": "DMA",
+      "value": 164687978.337177,
+      "rank": 132
+    }
+  ]
+}

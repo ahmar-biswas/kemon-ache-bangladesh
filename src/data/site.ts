@@ -1,8 +1,7 @@
 // The site map (section 10; DECISIONS.md 101–105). Only indicator ids and page paths here:
 // every number comes from the generated data files (rule R9).
 //
-// Measures that are fetched in M7 (exchange rate, reserves, Gini …) are not listed yet. A
-// listed id with no data file would be a bug, and a test checks it.
+// A listed id with no data file would be a bug, and a test checks it.
 import type { AreaId } from '../components/Motifs.tsx';
 import type { MessageKey } from '../i18n/index.ts';
 
@@ -29,11 +28,10 @@ export interface AreaPage {
 
 export const SUBSECTIONS: Record<SubSlug, Group & { sub: SubSlug }> = {
   // Poverty and inequality first: it tells the most about well-being (section 10, 8.8).
-  'poverty-and-inequality': { label: 'area.poverty', sub: 'poverty-and-inequality', icon: 'poverty', measures: ['poverty_intl', 'share_low20'] },
-  'growth-and-prices': { label: 'sub.growth-and-prices', sub: 'growth-and-prices', measures: ['gdp_pc_taka', 'gdp_pc_growth', 'inflation'] },
-  jobs: { label: 'sub.jobs', sub: 'jobs', measures: ['youth_unemployment'] },
-  // Remittances and reserves are P1 measures, added in M7 (DECISIONS.md 102).
-  'money-and-reserves': { label: 'sub.money-and-reserves', sub: 'money-and-reserves', measures: [] },
+  'poverty-and-inequality': { label: 'area.poverty', sub: 'poverty-and-inequality', icon: 'poverty', measures: ['poverty_intl', 'poverty_lmic', 'poverty_national', 'gini', 'share_low20', 'share_top10'] },
+  'growth-and-prices': { label: 'sub.growth-and-prices', sub: 'growth-and-prices', measures: ['gdp_pc_taka', 'gdp_pc_growth', 'gdp_growth', 'inflation', 'exchange_rate'] },
+  jobs: { label: 'sub.jobs', sub: 'jobs', measures: ['youth_unemployment', 'unemployment', 'female_lfp'] },
+  'money-and-reserves': { label: 'sub.money-and-reserves', sub: 'money-and-reserves', measures: ['remittances_gdp', 'reserves_months', 'reserves_usd'] },
 };
 
 export const AREA_PAGES: AreaPage[] = [
@@ -49,7 +47,7 @@ export const AREA_PAGES: AreaPage[] = [
     icon: 'education',
     label: 'area.education',
     snapshot: ['literacy', 'secondary_enrol'],
-    groups: [{ label: 'area.education', sub: null, measures: ['literacy', 'secondary_enrol', 'secondary_enrol_female', 'secondary_enrol_male'] }],
+    groups: [{ label: 'area.education', sub: null, measures: ['literacy', 'secondary_enrol', 'secondary_enrol_female', 'secondary_enrol_male', 'primary_completion', 'pupil_teacher', 'edu_spend'] }],
   },
   {
     slug: 'health',
@@ -57,7 +55,7 @@ export const AREA_PAGES: AreaPage[] = [
     label: 'area.health',
     snapshot: ['life_expectancy', 'under5_mortality'],
     groups: [
-      { label: 'area.health', sub: null, measures: ['life_expectancy', 'under5_mortality', 'stunting', 'oop'] },
+      { label: 'area.health', sub: null, measures: ['life_expectancy', 'under5_mortality', 'maternal_mortality', 'stunting', 'dpt', 'physicians', 'beds', 'oop', 'health_spend_gdp'] },
       // Not in the navigation map; placed here by Ahmar (DECISIONS.md 103).
       { label: 'group.living_conditions', sub: null, measures: ['electricity', 'safe_water', 'pm25'] },
     ],
@@ -89,4 +87,7 @@ export const path = {
   sub: (lang: string, sub: SubSlug) => `/${lang}/economy/${sub}`,
   indicator: (lang: string, id: string) => `/${lang}/indicator/${id}`,
   compare: (lang: string, id?: string) => `/${lang}/compare${id ? `?m=${id}` : ''}`,
+  sources: (lang: string, id?: string) => `/${lang}/sources${id ? `#m-${id}` : ''}`,
+  about: (lang: string) => `/${lang}/about`,
+  howToRead: (lang: string) => `/${lang}/how-to-read`,
 };

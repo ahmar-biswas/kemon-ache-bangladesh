@@ -1,0 +1,665 @@
+[
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1985,
+    "value": 926,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 593 - 1331"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1986,
+    "value": 891,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 584 - 1266"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1987,
+    "value": 884,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 587 - 1238"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1988,
+    "value": 881,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 598 - 1224"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1989,
+    "value": 877,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 600 - 1209"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1990,
+    "value": 870,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 610 - 1185"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1991,
+    "value": 890,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 575 - 1319"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1992,
+    "value": 827,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 593 - 1116"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1993,
+    "value": 791,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 576 - 1065"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1994,
+    "value": 749,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 552 - 1003"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1995,
+    "value": 707,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 529 - 939"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1996,
+    "value": 664,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 499 - 877"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1997,
+    "value": 626,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 473 - 823"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1998,
+    "value": 589,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 448 - 774"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 1999,
+    "value": 554,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 421 - 728"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2000,
+    "value": 523,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 399 - 683"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2001,
+    "value": 495,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 376 - 644"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2002,
+    "value": 465,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 355 - 609"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2003,
+    "value": 436,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 332 - 573"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2004,
+    "value": 406,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 309 - 535"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2005,
+    "value": 378,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 290 - 498"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2006,
+    "value": 352,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 270 - 464"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2007,
+    "value": 334,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 257 - 441"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2008,
+    "value": 310,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 238 - 409"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2009,
+    "value": 293,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 224 - 384"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2010,
+    "value": 275,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 212 - 363"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2011,
+    "value": 258,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 200 - 343"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2012,
+    "value": 244,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 189 - 325"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2013,
+    "value": 230,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 179 - 306"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2014,
+    "value": 217,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 167 - 286"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2015,
+    "value": 204,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 157 - 268"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2016,
+    "value": 191,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 146 - 252"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2017,
+    "value": 179,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 137 - 237"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2018,
+    "value": 168,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 128 - 225"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2019,
+    "value": 157,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 119 - 213"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2020,
+    "value": 152,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 115 - 203"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2021,
+    "value": 194,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 137 - 290"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2022,
+    "value": 131,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 95 - 181"
+    ],
+    "measured_by": null
+  },
+  {
+    "indicator_id": "maternal_mortality",
+    "country": "BGD",
+    "year": 2023,
+    "value": 115,
+    "unit": "per_100000_live_births",
+    "source_name": "World Bank, World Development Indicators",
+    "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+    "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD",
+    "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+    "api_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.STA.MMRT?format=json",
+    "retrieved_at": "2026-11-14",
+    "notes": [
+      "Uncertainty bound is 82 - 167"
+    ],
+    "measured_by": null
+  }
+]

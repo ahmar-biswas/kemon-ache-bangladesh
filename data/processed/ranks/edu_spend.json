@@ -1,0 +1,213 @@
+{
+  "indicator_id": "edu_spend",
+  "kind": "calculated",
+  "year": 2024,
+  "rank": 39,
+  "out_of": 40,
+  "order": "highest_first",
+  "source_name": "World Bank, Government expenditure on education, total (% of GDP)",
+  "source_url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?year=2024",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "NAM",
+      "value": 9.08440819434816,
+      "rank": 1
+    },
+    {
+      "country": "DZA",
+      "value": 8.97772026062012,
+      "rank": 2
+    },
+    {
+      "country": "VUT",
+      "value": 7.63695001602173,
+      "rank": 3
+    },
+    {
+      "country": "MRT",
+      "value": 7.61007976531982,
+      "rank": 4
+    },
+    {
+      "country": "BOL",
+      "value": 7.53980016708374,
+      "rank": 5
+    },
+    {
+      "country": "LSO",
+      "value": 6.62253066096596,
+      "rank": 6
+    },
+    {
+      "country": "KWT",
+      "value": 6.43592667889685,
+      "rank": 7
+    },
+    {
+      "country": "SWZ",
+      "value": 6.03082905337534,
+      "rank": 8
+    },
+    {
+      "country": "ZAF",
+      "value": 6.02110004425049,
+      "rank": 9
+    },
+    {
+      "country": "JAM",
+      "value": 5.51383018493652,
+      "rank": 10
+    },
+    {
+      "country": "WSM",
+      "value": 5.45616637544294,
+      "rank": 11
+    },
+    {
+      "country": "CUW",
+      "value": 5.44313725490196,
+      "rank": 12
+    },
+    {
+      "country": "DMA",
+      "value": 5.38572189060925,
+      "rank": 13
+    },
+    {
+      "country": "MNG",
+      "value": 5.21229982376099,
+      "rank": 14
+    },
+    {
+      "country": "BLR",
+      "value": 5.04593992233276,
+      "rank": 15
+    },
+    {
+      "country": "BLZ",
+      "value": 4.62276317232973,
+      "rank": 16
+    },
+    {
+      "country": "RWA",
+      "value": 4.61476993560791,
+      "rank": 17
+    },
+    {
+      "country": "PER",
+      "value": 4.35778999328613,
+      "rank": 18
+    },
+    {
+      "country": "TKM",
+      "value": 4.28878021240234,
+      "rank": 19
+    },
+    {
+      "country": "PRI",
+      "value": 4.27101949674789,
+      "rank": 20
+    },
+    {
+      "country": "MUS",
+      "value": 4.247389793396,
+      "rank": 21
+    },
+    {
+      "country": "KEN",
+      "value": 4.02242346098974,
+      "rank": 22
+    },
+    {
+      "country": "GEO",
+      "value": 3.98011682083814,
+      "rank": 23
+    },
+    {
+      "country": "PHL",
+      "value": 3.92501087473821,
+      "rank": 24
+    },
+    {
+      "country": "LCA",
+      "value": 3.84700018653403,
+      "rank": 25
+    },
+    {
+      "country": "HKG",
+      "value": 3.80552005767822,
+      "rank": 26
+    },
+    {
+      "country": "ECU",
+      "value": 3.69074988365173,
+      "rank": 27
+    },
+    {
+      "country": "NPL",
+      "value": 3.68849173764595,
+      "rank": 28
+    },
+    {
+      "country": "CIV",
+      "value": 3.61279988288879,
+      "rank": 29
+    },
+    {
+      "country": "BRB",
+      "value": 3.55593188106322,
+      "rank": 30
+    },
+    {
+      "country": "PRY",
+      "value": 3.53410005569458,
+      "rank": 31
+    },
+    {
+      "country": "SLV",
+      "value": 3.31666994094849,
+      "rank": 32
+    },
+    {
+      "country": "JOR",
+      "value": 3.23356008529663,
+      "rank": 33
+    },
+    {
+      "country": "TZA",
+      "value": 3.15504437906936,
+      "rank": 34
+    },
+    {
+      "country": "GTM",
+      "value": 3.07588005065918,
+      "rank": 35
+    },
+    {
+      "country": "TCA",
+      "value": 2.94998113247616,
+      "rank": 36
+    },
+    {
+      "country": "ETH",
+      "value": 2.2978069565991,
+      "rank": 37
+    },
+    {
+      "country": "SGP",
+      "value": 2.19099857819757,
+      "rank": 38
+    },
+    {
+      "country": "BGD",
+      "value": 2.0343847791384,
+      "rank": 39
+    },
+    {
+      "country": "LBN",
+      "value": 1.22490869993085,
+      "rank": 40
+    }
+  ]
+}

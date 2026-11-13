@@ -511,3 +511,35 @@
 .figure-value { font-family: var(--font-display-en); font-size: var(--fs-36); line-height: 1.15; }
 .figure-value:lang(bn), :lang(bn) .figure-value { font-family: var(--font-display-bn); line-height: 1.35; }
 .figure-note { font-size: var(--fs-14); color: var(--kali-2); }
+
+/* ---------- Page states (M7, section 13 and 8.13) ---------- */
+/* Neutral notes: ink on paper, no alarm colour (R5). */
+.state-note { color: var(--kali-2); font-size: var(--fs-14); margin: var(--s-4) 0 0; }
+.state-banner {
+  margin: 0;
+  padding: var(--s-8) var(--s-16);
+  background: var(--muslin);
+  border-bottom: 1px solid var(--sutaa);
+  color: var(--kali);
+  text-align: center;
+  font-size: var(--fs-14);
+}
+.site-footer__links { list-style: none; padding: 0; margin: var(--s-8) 0 0; display: flex; flex-wrap: wrap; gap: var(--s-8) var(--s-24); }
+.site-footer__links a { display: inline-block; min-height: 44px; line-height: 44px; }
+.no-js-note { display: none; }
+.no-js .no-js-note { display: block; }
+
+/* ---------- Print (section 13): plain paper, every source line kept ---------- */
+@media print {
+  .site-header, .site-footer__links, .skip-link, .menu-button, .mobile-menu, .flag-switch,
+  .text-button, .state-banner, .jamdani, .indicator-page__jump, .measure-switch, button { display: none !important; }
+  body, .site { background: white !important; color: black !important; }
+  .glass, .tile, .story, .chart-frame { background: white !important; box-shadow: none !important; backdrop-filter: none !important; border: 1px solid gray !important; }
+  .source-line, .source-line a, .last-checked { display: block !important; color: black !important; }
+  a { color: black !important; }
+  /* Print where each link goes, so sources can be followed from paper. */
+  .source-line a[href^="http"]::after, .sources-measure__about a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; overflow-wrap: anywhere; }
+  .tile, .story, figure, tr { break-inside: avoid; }
+  details.sources-measure > :not(summary) { display: block; }
+  * { animation: none !important; transition: none !important; }
+}

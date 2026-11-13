@@ -11,6 +11,9 @@ export const SITE_PATHS = [
   '/health',
   ...Object.keys(SUBSECTIONS).map((s) => `/economy/${s}`),
   '/compare',
+  '/sources',
+  '/about',
+  '/how-to-read',
   ...PAGE_MEASURES.map((id) => `/indicator/${id}`),
 ];
 

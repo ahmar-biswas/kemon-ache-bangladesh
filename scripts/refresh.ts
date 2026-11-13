@@ -3,7 +3,7 @@
 // All or nothing: if any indicator fails any check, no data file is changed.
 // Only data/processed/meta.json is updated, to record that a check happened and failed.
 import type { CountriesFile, DataMeta, DataRecord, IndicatorMeta, MedianRecord, RankDetail, Target } from '../src/data/types.ts';
-import { COUNTRY, DEFAULT_PEERS, INDICATORS } from './indicators.ts';
+import { COUNTRY, COUNTRY_ISO2, DEFAULT_PEERS, INDICATORS } from './indicators.ts';
 import {
   allRawPath,
   countriesPath,
@@ -202,6 +202,7 @@ try {
         unit: config.unit,
         source_series_name: n.seriesName,
         definition_url: u.definition,
+        source_url: u.page([COUNTRY_ISO2]),
         explanation_id: config.explanationId ?? config.id,
         compare_id: config.compareWith ?? null,
         scope: config.scope,
@@ -236,6 +237,7 @@ try {
         unit: 'rank',
         source_series_name: src.source_name,
         definition_url: src.definition_url,
+        source_url: bgd?.source_url ?? src.definition_url,
         explanation_id: src.id,
         compare_id: null,
         scope: 'compare',

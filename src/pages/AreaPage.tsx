@@ -2,7 +2,6 @@
 //   breadcrumbs; the area's name and one plain line; the snapshot sentences;
 //   the measures as tiles, grouped. On /economy each group is a subsection with its own page,
 //   and Poverty and inequality comes first, as a large card (section 10, 8.8).
-import { useEffect } from 'react';
 import { Link, useOutletContext, useParams } from 'react-router';
 import { Breadcrumbs } from '../components/Breadcrumbs.tsx';
 import { MeasureTile } from '../components/MeasureTile.tsx';
@@ -12,11 +11,8 @@ import { areaPage, path, type Group } from '../data/site.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { NotFound } from './NotFound.tsx';
 
-export function usePageTitle(lang: Lang, title: string) {
-  useEffect(() => {
-    document.title = `${title} · ${t(lang, 'site.title')}`;
-  }, [lang, title]);
-}
+export { usePageTitle } from '../lib/usePageTitle.ts';
+import { usePageTitle } from '../lib/usePageTitle.ts';
 
 function GroupBlock({ lang, group, feature }: { lang: Lang; group: Group; feature: boolean }) {
   const headingId = `group-${group.sub ?? group.label}`;
@@ -35,17 +31,13 @@ function GroupBlock({ lang, group, feature }: { lang: Lang; group: Group; featur
       </header>
       {!feature && <hr className="stitch" />}
       {group.sub && <p className="area-group__lede secondary">{t(lang, `sub.${group.sub}.lede` as never)}</p>}
-      {group.measures.length > 0 ? (
-        <div className="area-grid">
-          {group.measures.map((id, i) => (
-            <div key={id} className={`area-grid__cell${i === 0 ? ' is-wide' : ''}`}>
-              <MeasureTile lang={lang} id={id} wide={i === 0} href={path.indicator(lang, id)} />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p className="area-group__pending">{t(lang, 'sub.pending')}</p>
-      )}
+      <div className="area-grid">
+        {group.measures.map((id, i) => (
+          <div key={id} className={`area-grid__cell${i === 0 ? ' is-wide' : ''}`}>
+            <MeasureTile lang={lang} id={id} wide={i === 0} href={path.indicator(lang, id)} />
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

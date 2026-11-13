@@ -1,0 +1,1140 @@
+{
+  "retrieved_at": "2026-11-14",
+  "request_url": "https://api.worldbank.org/v2/country/BGD/indicator/PA.NUS.FCRF?format=json&footnote=y",
+  "response": [
+    [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 20000,
+        "total": 66,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2025",
+          "value": 121.920836605034,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2024",
+          "value": 115.603653796648,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2023",
+          "value": 106.309484297483,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2022",
+          "value": 91.7454544396961,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2021",
+          "value": 85.08376325,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2020",
+          "value": 84.8713916666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2019",
+          "value": 84.4535225,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2018",
+          "value": 83.4662019166666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2017",
+          "value": 80.4375416666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2016",
+          "value": 78.4680916666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2015",
+          "value": 77.9469083333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2014",
+          "value": 77.6414083333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2013",
+          "value": 78.103235,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2012",
+          "value": 81.8626583333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2011",
+          "value": 74.1524,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2010",
+          "value": 69.6492916666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2009",
+          "value": 69.0390666666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2008",
+          "value": 68.598275,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2007",
+          "value": 68.874875,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2006",
+          "value": 68.9332333333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2005",
+          "value": 64.3274749999999,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2004",
+          "value": 59.5126583333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2003",
+          "value": 58.15004,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2002",
+          "value": 57.888,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2001",
+          "value": 55.8066666666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "2000",
+          "value": 52.1416666666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1999",
+          "value": 49.0854,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1998",
+          "value": 46.9056516666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1997",
+          "value": 43.8921158333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1996",
+          "value": 41.7941683333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1995",
+          "value": 40.2783183333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1994",
+          "value": 40.2117391666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1993",
+          "value": 39.5672575,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1992",
+          "value": 38.9507583333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1991",
+          "value": 36.5961833333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1990",
+          "value": 34.5688083333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1989",
+          "value": 32.27,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1988",
+          "value": 31.7332485981559,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1987",
+          "value": 30.9498333333333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1986",
+          "value": 30.4069,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1985",
+          "value": 27.9945916666666,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1984",
+          "value": 25.3539333850833,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1983",
+          "value": 24.6154249995,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1982",
+          "value": 22.1178833323333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1981",
+          "value": 17.9866916658333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1980",
+          "value": 15.4540583325,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1979",
+          "value": 15.5519249993333,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1978",
+          "value": 15.01611666575,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1977",
+          "value": 15.3750999994166,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1976",
+          "value": 15.3991686037548,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1975",
+          "value": 12.186180036989,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1974",
+          "value": 8.22600224121537,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1973",
+          "value": 7.84981599931742,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1972",
+          "value": 7.7001841681495,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1971",
+          "value": 7.86884258502912,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1970",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1969",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1968",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1967",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1966",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1965",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1964",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1963",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1962",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1961",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        },
+        {
+          "indicator": {
+            "id": "PA.NUS.FCRF",
+            "value": "Official exchange rate (LCU per US$, period average)"
+          },
+          "country": {
+            "id": "BD",
+            "value": "Bangladesh"
+          },
+          "countryiso3code": "BGD",
+          "date": "1960",
+          "value": null,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 2,
+          "footnote": ""
+        }
+      ]
+    ]
+  ]
+}

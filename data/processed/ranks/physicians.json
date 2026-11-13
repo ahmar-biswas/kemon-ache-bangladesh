@@ -1,0 +1,303 @@
+{
+  "indicator_id": "physicians",
+  "kind": "calculated",
+  "year": 2023,
+  "rank": 37,
+  "out_of": 58,
+  "order": "highest_first",
+  "source_name": "World Bank, Physicians (per 1,000 people)",
+  "source_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?year=2023",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "GEO",
+      "value": 5.642,
+      "rank": 1
+    },
+    {
+      "country": "AUT",
+      "value": 5.515,
+      "rank": 2
+    },
+    {
+      "country": "ARG",
+      "value": 5.106,
+      "rank": 3
+    },
+    {
+      "country": "AND",
+      "value": 5.068,
+      "rank": 4
+    },
+    {
+      "country": "NOR",
+      "value": 4.975,
+      "rank": 5
+    },
+    {
+      "country": "BLR",
+      "value": 4.717,
+      "rank": 6
+    },
+    {
+      "country": "SMR",
+      "value": 4.629,
+      "rank": 7
+    },
+    {
+      "country": "ISL",
+      "value": 4.373,
+      "rank": 8
+    },
+    {
+      "country": "POL",
+      "value": 4.031,
+      "rank": 9
+    },
+    {
+      "country": "MDA",
+      "value": 4.016,
+      "rank": 10
+    },
+    {
+      "country": "IRL",
+      "value": 3.875,
+      "rank": 11
+    },
+    {
+      "country": "ISR",
+      "value": 3.797,
+      "rank": 12
+    },
+    {
+      "country": "KAZ",
+      "value": 3.754,
+      "rank": 13
+    },
+    {
+      "country": "UKR",
+      "value": 3.531,
+      "rank": 14
+    },
+    {
+      "country": "SAU",
+      "value": 3.406,
+      "rank": 15
+    },
+    {
+      "country": "CHL",
+      "value": 3.334,
+      "rank": 16
+    },
+    {
+      "country": "GBR",
+      "value": 3.301,
+      "rank": 17
+    },
+    {
+      "country": "QAT",
+      "value": 3.022,
+      "rank": 18
+    },
+    {
+      "country": "ARE",
+      "value": 2.992,
+      "rank": 19
+    },
+    {
+      "country": "CAN",
+      "value": 2.819,
+      "rank": 20
+    },
+    {
+      "country": "MNE",
+      "value": 2.783,
+      "rank": 21
+    },
+    {
+      "country": "COL",
+      "value": 2.535,
+      "rank": 22
+    },
+    {
+      "country": "DOM",
+      "value": 2.426,
+      "rank": 23
+    },
+    {
+      "country": "BRA",
+      "value": 2.357,
+      "rank": 24
+    },
+    {
+      "country": "MYS",
+      "value": 2.341,
+      "rank": 25
+    },
+    {
+      "country": "TKM",
+      "value": 1.93,
+      "rank": 26
+    },
+    {
+      "country": "TJK",
+      "value": 1.87,
+      "rank": 27
+    },
+    {
+      "country": "IRN",
+      "value": 1.811,
+      "rank": 28
+    },
+    {
+      "country": "PLW",
+      "value": 1.808,
+      "rank": 29
+    },
+    {
+      "country": "PER",
+      "value": 1.688,
+      "rank": 30
+    },
+    {
+      "country": "SLV",
+      "value": 1.616,
+      "rank": 31
+    },
+    {
+      "country": "KGZ",
+      "value": 1.568,
+      "rank": 32
+    },
+    {
+      "country": "SUR",
+      "value": 1.355,
+      "rank": 33
+    },
+    {
+      "country": "LKA",
+      "value": 1.136,
+      "rank": 34
+    },
+    {
+      "country": "NPL",
+      "value": 1.011,
+      "rank": 35
+    },
+    {
+      "country": "CPV",
+      "value": 0.73,
+      "rank": 36
+    },
+    {
+      "country": "BGD",
+      "value": 0.722,
+      "rank": 37
+    },
+    {
+      "country": "SWZ",
+      "value": 0.557,
+      "rank": 38
+    },
+    {
+      "country": "IDN",
+      "value": 0.524,
+      "rank": 39
+    },
+    {
+      "country": "JAM",
+      "value": 0.46,
+      "rank": 40
+    },
+    {
+      "country": "NGA",
+      "value": 0.38,
+      "rank": 41
+    },
+    {
+      "country": "BWA",
+      "value": 0.379,
+      "rank": 42
+    },
+    {
+      "country": "AFG",
+      "value": 0.317,
+      "rank": 43
+    },
+    {
+      "country": "KEN",
+      "value": 0.289,
+      "rank": 44
+    },
+    {
+      "country": "GHA",
+      "value": 0.266,
+      "rank": 45
+    },
+    {
+      "country": "SLB",
+      "value": 0.238,
+      "rank": 46
+    },
+    {
+      "country": "BEN",
+      "value": 0.216,
+      "rank": 47
+    },
+    {
+      "country": "MLI",
+      "value": 0.188,
+      "rank": 48
+    },
+    {
+      "country": "CIV",
+      "value": 0.166,
+      "rank": 49
+    },
+    {
+      "country": "ETH",
+      "value": 0.143,
+      "rank": 50
+    },
+    {
+      "country": "ZWE",
+      "value": 0.136,
+      "rank": 51
+    },
+    {
+      "country": "SEN",
+      "value": 0.109,
+      "rank": 52
+    },
+    {
+      "country": "YEM",
+      "value": 0.098,
+      "rank": 53
+    },
+    {
+      "country": "GMB",
+      "value": 0.09,
+      "rank": 54
+    },
+    {
+      "country": "TCD",
+      "value": 0.085,
+      "rank": 55
+    },
+    {
+      "country": "CAF",
+      "value": 0.074,
+      "rank": 56
+    },
+    {
+      "country": "PNG",
+      "value": 0.061,
+      "rank": 57
+    },
+    {
+      "country": "NER",
+      "value": 0.038,
+      "rank": 58
+    }
+  ]
+}

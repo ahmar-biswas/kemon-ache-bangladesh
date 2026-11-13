@@ -9,6 +9,16 @@ export type Unit =
   | 'intl_dollar_current'
   | 'percent'
   | 'per_1000_live_births'
+  | 'per_100000_live_births'
+  | 'per_1000_people'
+  /** Taka needed for one US dollar (official exchange rate). */
+  | 'taka_per_usd'
+  /** US dollars, as published (never converted by this site, rule 7). */
+  | 'usd_current'
+  | 'months'
+  /** A published index on a 0 to 100 scale (Gini). */
+  | 'index_0_100'
+  | 'pupils_per_teacher'
   /** Micrograms per cubic metre (PM2.5). */
   | 'ug_m3'
   /** A published rank: 1 = first. Comes with out_of. */
@@ -68,6 +78,8 @@ export interface IndicatorMeta {
   /** The World Bank's own series name, as published (contains the unit). */
   source_series_name: string;
   definition_url: string;
+  /** The source's own page for Bangladesh, linked when a value is not available (section 13). */
+  source_url: string;
   /** Series used for cross-country comparison when this one is local-currency; else null. */
   compare_id: string | null;
   /** Translation key suffix of the plain-language explanation: explain.<explanation_id>. */

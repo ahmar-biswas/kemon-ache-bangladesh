@@ -1,0 +1,1297 @@
+{
+  "indicator_id": "pupil_teacher",
+  "code": "SE.PRM.ENRL.TC.ZS",
+  "unit": "pupils_per_teacher",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "Stat Bulk Data Download Service, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://uis.unesco.org/bdds, publisher: UNESCO Institute for Statistics (UIS)",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SE.PRM.ENRL.TC.ZS",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SE.PRM.ENRL.TC.ZS?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2018,
+      "value": 48.78979,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AF"
+    },
+    {
+      "country": "ALB",
+      "year": 2018,
+      "value": 17.57287,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2018,
+      "value": 10.49757,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2016,
+      "value": 24.52278,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AE"
+    },
+    {
+      "country": "ARM",
+      "year": 2018,
+      "value": 15.41859,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2018,
+      "value": 12.40564,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AG"
+    },
+    {
+      "country": "AUT",
+      "year": 2017,
+      "value": 10.01653,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2018,
+      "value": 15.42982,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2018,
+      "value": 42.52383,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2017,
+      "value": 11.27695,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2018,
+      "value": 39.19712,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2018,
+      "value": 39.72173,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2018,
+      "value": 30.05459,
+      "notes": [
+        "UIS estimate"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2017,
+      "value": 15.20744,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2018,
+      "value": 11.92315,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2018,
+      "value": 19.44891,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2018,
+      "value": 16.92651,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2018,
+      "value": 19.23259,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2018,
+      "value": 19.78332,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2018,
+      "value": 17.79827,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2017,
+      "value": 20.22308,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2018,
+      "value": 13.9917,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2018,
+      "value": 9.89521,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2018,
+      "value": 34.66868,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=BT"
+    },
+    {
+      "country": "CAF",
+      "year": 2016,
+      "value": 83.41195,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CF"
+    },
+    {
+      "country": "CHE",
+      "year": 2017,
+      "value": 9.92873,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2017,
+      "value": 17.79358,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2018,
+      "value": 16.42675,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2018,
+      "value": 41.8223,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2018,
+      "value": 44.83412,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CM"
+    },
+    {
+      "country": "COL",
+      "year": 2018,
+      "value": 23.3015,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2018,
+      "value": 28.05781,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2018,
+      "value": 21.07361,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2018,
+      "value": 12.2047,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2018,
+      "value": 9.16029,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CU"
+    },
+    {
+      "country": "CYM",
+      "year": 2018,
+      "value": 15.74725,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KY"
+    },
+    {
+      "country": "CYP",
+      "year": 2017,
+      "value": 12.03922,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=CY"
+    },
+    {
+      "country": "DEU",
+      "year": 2017,
+      "value": 12.30285,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2018,
+      "value": 29.37453,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2016,
+      "value": 13.07679,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=DM"
+    },
+    {
+      "country": "DOM",
+      "year": 2018,
+      "value": 18.92322,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2018,
+      "value": 24.32018,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2018,
+      "value": 24.26216,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2018,
+      "value": 23.67945,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2018,
+      "value": 38.74092,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2017,
+      "value": 13.13172,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2017,
+      "value": 11.31153,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=EE"
+    },
+    {
+      "country": "FIN",
+      "year": 2017,
+      "value": 13.66688,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=FI"
+    },
+    {
+      "country": "GBR",
+      "year": 2017,
+      "value": 15.13275,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2018,
+      "value": 8.98194,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2019,
+      "value": 26.99486,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GH"
+    },
+    {
+      "country": "GIB",
+      "year": 2017,
+      "value": 14.17,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GI"
+    },
+    {
+      "country": "GIN",
+      "year": 2016,
+      "value": 47.14862,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2018,
+      "value": 36.13813,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GM"
+    },
+    {
+      "country": "GRC",
+      "year": 2017,
+      "value": 9.38027,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2018,
+      "value": 16.35068,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2018,
+      "value": 20.26228,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=GT"
+    },
+    {
+      "country": "HKG",
+      "year": 2018,
+      "value": 13.34788,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=HK"
+    },
+    {
+      "country": "HND",
+      "year": 2017,
+      "value": 25.59773,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2016,
+      "value": 13.50611,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=HR"
+    },
+    {
+      "country": "HUN",
+      "year": 2016,
+      "value": 10.76744,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2018,
+      "value": 17.03493,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2017,
+      "value": 32.74955,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=IN"
+    },
+    {
+      "country": "IRN",
+      "year": 2017,
+      "value": 28.52479,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=IR"
+    },
+    {
+      "country": "ISR",
+      "year": 2016,
+      "value": 12.07069,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2017,
+      "value": 11.48066,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2018,
+      "value": 24.79434,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2018,
+      "value": 18.53699,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2017,
+      "value": 15.66096,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2019,
+      "value": 17.21457,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KZ"
+    },
+    {
+      "country": "KGZ",
+      "year": 2018,
+      "value": 24.98946,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2018,
+      "value": 41.7035,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2017,
+      "value": 25.48855,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2016,
+      "value": 13.87277,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2017,
+      "value": 16.28669,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2018,
+      "value": 8.88073,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2018,
+      "value": 22.33717,
+      "notes": [
+        "UIS estimate"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2017,
+      "value": 12.48274,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2017,
+      "value": 22.32254,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LR"
+    },
+    {
+      "country": "LCA",
+      "year": 2018,
+      "value": 14.73909,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LC"
+    },
+    {
+      "country": "LIE",
+      "year": 2017,
+      "value": 7.80156,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LI"
+    },
+    {
+      "country": "LKA",
+      "year": 2018,
+      "value": 21.73735,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2017,
+      "value": 32.94806,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2017,
+      "value": 13.51703,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2016,
+      "value": 8.30333,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2017,
+      "value": 11.53684,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=LV"
+    },
+    {
+      "country": "MAC",
+      "year": 2018,
+      "value": 13.49843,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MO"
+    },
+    {
+      "country": "MAR",
+      "year": 2018,
+      "value": 26.80065,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2019,
+      "value": 11.7,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2018,
+      "value": 17.92314,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2018,
+      "value": 39.81169,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2017,
+      "value": 10.16278,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2017,
+      "value": 26.55228,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MX"
+    },
+    {
+      "country": "MKD",
+      "year": 2017,
+      "value": 14.91335,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2018,
+      "value": 37.82669,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2017,
+      "value": 12.93931,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2018,
+      "value": 24.3599,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MM"
+    },
+    {
+      "country": "MNG",
+      "year": 2018,
+      "value": 30.38318,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2018,
+      "value": 55.27379,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2018,
+      "value": 34.27814,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2018,
+      "value": 16.19841,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2018,
+      "value": 58.67919,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2017,
+      "value": 11.6556,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2018,
+      "value": 25.09173,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2017,
+      "value": 36.33661,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NE"
+    },
+    {
+      "country": "NLD",
+      "year": 2017,
+      "value": 11.80592,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2017,
+      "value": 8.59418,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2019,
+      "value": 19.74396,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2016,
+      "value": 40.17778,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2017,
+      "value": 14.91552,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2018,
+      "value": 9.67394,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2018,
+      "value": 44.0773,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2017,
+      "value": 21.96162,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2018,
+      "value": 17.38724,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2017,
+      "value": 29.08352,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PH"
+    },
+    {
+      "country": "PNG",
+      "year": 2016,
+      "value": 35.52165,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2017,
+      "value": 10.18051,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PL"
+    },
+    {
+      "country": "PRI",
+      "year": 2016,
+      "value": 13.53647,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PR"
+    },
+    {
+      "country": "PRK",
+      "year": 2018,
+      "value": 20.30024,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2017,
+      "value": 12.35346,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PT"
+    },
+    {
+      "country": "PSE",
+      "year": 2018,
+      "value": 24.45322,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2018,
+      "value": 12.1676,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2017,
+      "value": 19.33481,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2017,
+      "value": 21.25883,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2018,
+      "value": 59.50859,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2018,
+      "value": 13.81495,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SA"
+    },
+    {
+      "country": "SEN",
+      "year": 2018,
+      "value": 36.31817,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2017,
+      "value": 14.69428,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2018,
+      "value": 25.41046,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2018,
+      "value": 27.52246,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2018,
+      "value": 26.89473,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2018,
+      "value": 6.93061,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SM"
+    },
+    {
+      "country": "SRB",
+      "year": 2018,
+      "value": 14.2927,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=RS"
+    },
+    {
+      "country": "STP",
+      "year": 2017,
+      "value": 31.15842,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2018,
+      "value": 13.39335,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2017,
+      "value": 15.53919,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2016,
+      "value": 13.80157,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2017,
+      "value": 12.23325,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2017,
+      "value": 26.59621,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2018,
+      "value": 14.48826,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=SC"
+    },
+    {
+      "country": "TCA",
+      "year": 2018,
+      "value": 17.69231,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TC"
+    },
+    {
+      "country": "TCD",
+      "year": 2016,
+      "value": 56.88788,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2018,
+      "value": 40.14504,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2018,
+      "value": 16.63844,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2017,
+      "value": 22.30051,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TJ"
+    },
+    {
+      "country": "TLS",
+      "year": 2018,
+      "value": 26.94886,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TL"
+    },
+    {
+      "country": "TUN",
+      "year": 2018,
+      "value": 16.87168,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2017,
+      "value": 16.97782,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2018,
+      "value": 15.57647,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2018,
+      "value": 50.63304,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2017,
+      "value": 42.65911,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2018,
+      "value": 12.98011,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2017,
+      "value": 11.0193,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2017,
+      "value": 14.19857,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2018,
+      "value": 21.50664,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2018,
+      "value": 14.39258,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=VC"
+    },
+    {
+      "country": "VGB",
+      "year": 2017,
+      "value": 11.61672,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=VG"
+    },
+    {
+      "country": "VNM",
+      "year": 2018,
+      "value": 20.27696,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=VN"
+    },
+    {
+      "country": "YEM",
+      "year": 2016,
+      "value": 26.93016,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=YE"
+    },
+    {
+      "country": "ZMB",
+      "year": 2017,
+      "value": 42.05996,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SE.PRM.ENRL.TC.ZS?locations=ZM"
+    }
+  ]
+}

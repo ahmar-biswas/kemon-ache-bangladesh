@@ -132,6 +132,6 @@ function Ring({ quarters }: { quarters: 1 | 2 | 3 }) {
 /** Short values for labels on the strip: the unit is already shown in the tile's headline. */
 function short(v: number, unit: Unit, lang: Lang): string {
   if (unit === 'percent' || unit === 'taka_current' || unit === 'taka_constant') return formatValue({ value: v, unit }, lang);
-  if (unit === 'intl_dollar_current') return formatLargeWords(v, lang, 1);
+  if (unit === 'intl_dollar_current' || unit === 'usd_current') return formatLargeWords(v, lang, 1);
   return formatNumber(v, lang, 1);
 }

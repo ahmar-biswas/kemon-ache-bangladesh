@@ -98,7 +98,6 @@
 .area-group__open { display: inline-flex; align-items: center; min-height: 44px; font-size: var(--fs-16); }
 .area-group > .stitch { margin: var(--s-8) 0 var(--s-16); }
 .area-group__lede { margin-bottom: var(--s-16); max-width: 46rem; }
-.area-group__pending { padding: var(--s-16); border: 1px dashed var(--sutaa); border-radius: var(--r-tile); color: var(--kali-2); background: var(--muslin); max-width: 46rem; }
 
 .area-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-16); }
 .area-grid__cell { display: grid; }
@@ -222,4 +221,49 @@
   /* Icon only; the word stays for screen readers. */
   .menu-button { width: 44px; padding: 0; justify-content: center; }
   .menu-button__text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+
+/* ---------- Sources page (M7) ---------- */
+.sources-group { margin-top: var(--s-48); }
+.sources-group h2 { margin-bottom: var(--s-12); }
+.sources-measure { border-top: 1px solid var(--sutaa); }
+.sources-measure:last-child { border-bottom: 1px solid var(--sutaa); }
+.sources-measure > summary {
+  cursor: pointer;
+  padding: var(--s-12) var(--s-4);
+  min-height: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--s-8);
+}
+.sources-measure > summary:hover .sources-measure__name { text-decoration: underline; }
+.sources-measure__name { font-weight: 600; }
+.sources-measure[open] > summary { border-bottom: 1px dashed var(--sutaa); }
+.sources-measure__about { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-4) var(--s-24); max-width: 52rem; margin: var(--s-16) 0; }
+.sources-measure__about dt { font-weight: 600; color: var(--kali-2); margin-top: var(--s-8); }
+.sources-measure__about dd { margin: 0; overflow-wrap: anywhere; }
+@media (min-width: 768px) {
+  .sources-measure__about { grid-template-columns: 14rem minmax(0, 1fr); }
+  .sources-measure__about dt { margin-top: 0; }
+}
+.sources-measure__tables { padding-bottom: var(--s-24); }
+.sources-measure__tables h4 { margin: var(--s-24) 0 var(--s-8); }
+.table-scroll { overflow-x: auto; max-width: 100%; }
+.sources-table { font-size: var(--fs-14); }
+.sources-table caption { text-align: left; font-weight: 600; padding-bottom: var(--s-8); }
+.sources-table__notes span { display: block; overflow-wrap: anywhere; }
+.sources-table__basis { color: var(--kali-2); }
+.sources-table__note { color: var(--kali-2); }
+
+/* ---------- About and How to read (M7) ---------- */
+.text-page__block { max-width: 46rem; margin-top: var(--s-32); }
+.text-page__block h2 { margin-bottom: var(--s-8); }
+.text-page__block p { margin: 0 0 var(--s-12); }
+.text-page__links { list-style: none; padding: 0; margin-top: var(--s-48); display: flex; flex-wrap: wrap; gap: var(--s-12) var(--s-24); }
+
+/* Without JavaScript the phone menu cannot open, so its list is shown under the header (section 13). */
+@media (max-width: 899.98px) {
+  .no-js .menu-button { display: none; }
+  .no-js .mobile-menu[hidden] { display: block; position: static; }
 }

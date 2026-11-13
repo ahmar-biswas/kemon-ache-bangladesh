@@ -8,7 +8,7 @@ import { matchNote } from '../../data/notes.ts';
 import { niceTicks, tickDecimals } from '../../data/picker.ts';
 import type { DataRecord, Target, Unit } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
-import { formatNumber, formatYear } from '../../lib/format.ts';
+import { formatLargeWords, formatNumber, formatYear } from '../../lib/format.ts';
 import { formatValue, valueParts } from '../../lib/formatValue.ts';
 import { noteText } from '../../lib/noteText.ts';
 
@@ -26,6 +26,7 @@ interface Props {
 
 /** Tick label: the number, with % for percentages. Other units are named in the axis title. */
 export function tickLabel(value: number, unit: Unit, decimals: number, lang: Lang): string {
+  if (unit === 'usd_current') return formatLargeWords(value, lang, decimals);
   const n = formatNumber(value, lang, decimals);
   return unit === 'percent' ? `${n}%` : n;
 }

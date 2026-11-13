@@ -3,8 +3,10 @@ import { Navigate, Outlet, useParams } from 'react-router';
 import metaJson from '../../data/processed/meta.json';
 import type { DataMeta } from '../data/types.ts';
 import { isLang, t } from '../i18n/index.ts';
-import { formatDate } from '../lib/format.ts';
+import { Link } from 'react-router';
+import { path } from '../data/site.ts';
 import { Backdrop } from './Backdrop.tsx';
+import { LastChecked, OfflineNotice } from './PageStates.tsx';
 import { LanguageToggle } from './LanguageToggle.tsx';
 import { MobileMenu, SiteNav } from './SiteNav.tsx';
 import { Jamdani } from './Motifs.tsx';
@@ -19,7 +21,6 @@ export function Layout() {
   useEffect(() => {
     if (!isLang(lang)) return;
     document.documentElement.lang = lang;
-    document.title = t(lang, 'site.title');
   }, [lang]);
 
   if (!isLang(lang)) return <Navigate to="/" replace />;
@@ -39,6 +40,8 @@ export function Layout() {
         </div>
         <Jamdani />
       </header>
+      <OfflineNotice lang={lang} />
+      <p className="no-js-note state-banner">{t(lang, 'state.no_js')}</p>
       <main id="content" tabIndex={-1}>
         <Outlet context={lang} />
       </main>
@@ -47,7 +50,18 @@ export function Layout() {
         <div className="wrap site-footer__body">
           <p>{t(lang, 'site.tagline')}</p>
           <p className="secondary">{t(lang, 'footer.data_from')}</p>
-          <p className="muted last-checked">{t(lang, 'home.last_checked', { date: formatDate(META.last_checked, lang) })}</p>
+          <LastChecked lang={lang} meta={META} />
+          <ul className="site-footer__links">
+            <li>
+              <Link to={path.sources(lang)}>{t(lang, 'nav.sources')}</Link>
+            </li>
+            <li>
+              <Link to={path.about(lang)}>{t(lang, 'nav.about')}</Link>
+            </li>
+            <li>
+              <Link to={path.howToRead(lang)}>{t(lang, 'nav.how_to_read')}</Link>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>

@@ -4,7 +4,7 @@
 import type { ReactNode } from 'react';
 import { Link } from 'react-router';
 import type { CountriesFile, DataRecord, IndicatorMeta, MedianRecord, RankSummary, Target } from '../data/types.ts';
-import { latestMedian, latestRecent } from '../data/compare.ts';
+import { isOldData, latestMedian, latestRecent } from '../data/compare.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { explanation, indicatorName } from '../lib/display.ts';
 import { formatValue, valueParts } from '../lib/formatValue.ts';
@@ -74,8 +74,22 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
           {parts!.unit && <span className="tile__unit"> {parts!.unit}</span>}
         </p>
       ) : (
-        <p className="tile__value tile__value--na" data-not-available="">
-          {t(lang, 'data.not_available')}
+        <>
+          <p className="tile__value tile__value--na" data-not-available="">
+            {t(lang, 'data.not_available')}
+          </p>
+          {/* No value, so no source line: link the source's own page instead (section 13). */}
+          <p className="state-note">
+            <a href={meta.source_url} target="_blank" rel="noopener noreferrer">
+              {t(lang, 'state.see_source')}
+            </a>
+          </p>
+        </>
+      )}
+      {/* "since" is the year of the last check minus 10 (section 5.5). */}
+      {own && isOldData(own.year, since + 10) && (
+        <p className="state-note" data-old-data="">
+          {t(lang, 'state.old_data', { year: formatYear(own.year, lang) })}
         </p>
       )}
 

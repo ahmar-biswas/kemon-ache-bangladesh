@@ -1,0 +1,1943 @@
+{
+  "indicator_id": "maternal_mortality",
+  "code": "SH.STA.MMRT",
+  "unit": "per_100000_live_births",
+  "since": 2016,
+  "source_name": "World Bank, World Development Indicators",
+  "original_source": "Trends in Maternal Mortality, World Health Organization (WHO), uri: https://www.who.int/news/item/23-02-2023-a-woman-dies-every-two-minutes-due-to-pregnancy-or-childbirth--un-agencies;\nUN Children's Fund (UNICEF), note: Trends in Maternal Mortality;\nUN Population Fund (UNFPA), note: Trends in Maternal Mortality;\nWorld Bank Group (WBG), note: Trends in Maternal Mortality",
+  "definition_url": "https://databank.worldbank.org/metadataglossary/world-development-indicators/series/SH.STA.MMRT",
+  "api_url": "https://api.worldbank.org/v2/country/all/indicator/SH.STA.MMRT?format=json&date=2016:2026&footnote=y",
+  "retrieved_at": "2026-11-14",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2023,
+      "value": 521,
+      "notes": [
+        "Uncertainty bound is 339 - 942"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AF"
+    },
+    {
+      "country": "AGO",
+      "year": 2023,
+      "value": 183,
+      "notes": [
+        "Uncertainty bound is 117 - 286"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AO"
+    },
+    {
+      "country": "ALB",
+      "year": 2023,
+      "value": 7,
+      "notes": [
+        "Uncertainty bound is 3 - 13"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AL"
+    },
+    {
+      "country": "AND",
+      "year": 2023,
+      "value": 11,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AD"
+    },
+    {
+      "country": "ARE",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AE"
+    },
+    {
+      "country": "ARG",
+      "year": 2023,
+      "value": 33,
+      "notes": [
+        "Uncertainty bound is 26 - 41"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AR"
+    },
+    {
+      "country": "ARM",
+      "year": 2023,
+      "value": 19,
+      "notes": [
+        "Uncertainty bound is 15 - 30"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AM"
+    },
+    {
+      "country": "ATG",
+      "year": 2023,
+      "value": 35,
+      "notes": [
+        "Uncertainty bound is 19 - 55"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AG"
+    },
+    {
+      "country": "AUS",
+      "year": 2023,
+      "value": 2,
+      "notes": [
+        "Uncertainty bound is 2 - 3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AU"
+    },
+    {
+      "country": "AUT",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 4 - 11"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AT"
+    },
+    {
+      "country": "AZE",
+      "year": 2023,
+      "value": 18,
+      "notes": [
+        "Uncertainty bound is 12 - 29"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=AZ"
+    },
+    {
+      "country": "BDI",
+      "year": 2023,
+      "value": 392,
+      "notes": [
+        "Uncertainty bound is 251 - 611"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BI"
+    },
+    {
+      "country": "BEL",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BE"
+    },
+    {
+      "country": "BEN",
+      "year": 2023,
+      "value": 518,
+      "notes": [
+        "Uncertainty bound is 393 - 740"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BJ"
+    },
+    {
+      "country": "BFA",
+      "year": 2023,
+      "value": 242,
+      "notes": [
+        "Uncertainty bound is 155 - 367"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BF"
+    },
+    {
+      "country": "BGD",
+      "year": 2023,
+      "value": 115,
+      "notes": [
+        "Uncertainty bound is 82 - 167"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BD"
+    },
+    {
+      "country": "BGR",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 3 - 9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BG"
+    },
+    {
+      "country": "BHR",
+      "year": 2023,
+      "value": 17,
+      "notes": [
+        "Uncertainty bound is 12 - 25"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BH"
+    },
+    {
+      "country": "BHS",
+      "year": 2023,
+      "value": 76,
+      "notes": [
+        "Uncertainty bound is 50 - 130"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BS"
+    },
+    {
+      "country": "BIH",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 3 - 10"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BA"
+    },
+    {
+      "country": "BLR",
+      "year": 2023,
+      "value": 1,
+      "notes": [
+        "Uncertainty bound is 1 - 2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BY"
+    },
+    {
+      "country": "BLZ",
+      "year": 2023,
+      "value": 67,
+      "notes": [
+        "Uncertainty bound is 39 - 111"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BZ"
+    },
+    {
+      "country": "BOL",
+      "year": 2023,
+      "value": 146,
+      "notes": [
+        "Uncertainty bound is 98 - 243"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BO"
+    },
+    {
+      "country": "BRA",
+      "year": 2023,
+      "value": 67,
+      "notes": [
+        "Uncertainty bound is 52 - 88"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BR"
+    },
+    {
+      "country": "BRB",
+      "year": 2023,
+      "value": 35,
+      "notes": [
+        "Uncertainty bound is 18 - 56"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BB"
+    },
+    {
+      "country": "BRN",
+      "year": 2023,
+      "value": 36,
+      "notes": [
+        "Uncertainty bound is 25 - 52"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BN"
+    },
+    {
+      "country": "BTN",
+      "year": 2023,
+      "value": 47,
+      "notes": [
+        "Uncertainty bound is 30 - 69"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BT"
+    },
+    {
+      "country": "BWA",
+      "year": 2023,
+      "value": 155,
+      "notes": [
+        "Uncertainty bound is 96 - 268"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=BW"
+    },
+    {
+      "country": "CAF",
+      "year": 2023,
+      "value": 692,
+      "notes": [
+        "Uncertainty bound is 333 - 1299"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CF"
+    },
+    {
+      "country": "CAN",
+      "year": 2023,
+      "value": 12,
+      "notes": [
+        "Uncertainty bound is 8 - 18"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CA"
+    },
+    {
+      "country": "CHE",
+      "year": 2023,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 4 - 8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CH"
+    },
+    {
+      "country": "CHL",
+      "year": 2023,
+      "value": 10,
+      "notes": [
+        "Uncertainty bound is 7 - 13"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CL"
+    },
+    {
+      "country": "CHN",
+      "year": 2023,
+      "value": 16,
+      "notes": [
+        "Uncertainty bound is 11 - 21"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CN"
+    },
+    {
+      "country": "CIV",
+      "year": 2023,
+      "value": 359,
+      "notes": [
+        "Uncertainty bound is 237 - 568"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CI"
+    },
+    {
+      "country": "CMR",
+      "year": 2023,
+      "value": 258,
+      "notes": [
+        "Uncertainty bound is 196 - 359"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CM"
+    },
+    {
+      "country": "COD",
+      "year": 2023,
+      "value": 427,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CD"
+    },
+    {
+      "country": "COG",
+      "year": 2023,
+      "value": 241,
+      "notes": [
+        "Uncertainty bound is 144 - 453"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CG"
+    },
+    {
+      "country": "COL",
+      "year": 2023,
+      "value": 59,
+      "notes": [
+        "Uncertainty bound is 45 - 76"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CO"
+    },
+    {
+      "country": "COM",
+      "year": 2023,
+      "value": 179,
+      "notes": [
+        "Uncertainty bound is 103 - 308"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KM"
+    },
+    {
+      "country": "CPV",
+      "year": 2023,
+      "value": 40,
+      "notes": [
+        "Uncertainty bound is 22 - 65"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CV"
+    },
+    {
+      "country": "CRI",
+      "year": 2023,
+      "value": 24,
+      "notes": [
+        "Uncertainty bound is 19 - 28"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CR"
+    },
+    {
+      "country": "CUB",
+      "year": 2023,
+      "value": 35,
+      "notes": [
+        "Uncertainty bound is 29 - 42"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CU"
+    },
+    {
+      "country": "CYP",
+      "year": 2023,
+      "value": 14,
+      "notes": [
+        "Uncertainty bound is 8 - 25"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CY"
+    },
+    {
+      "country": "CZE",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=CZ"
+    },
+    {
+      "country": "DEU",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DE"
+    },
+    {
+      "country": "DJI",
+      "year": 2023,
+      "value": 162,
+      "notes": [
+        "Uncertainty bound is 80 - 337"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DJ"
+    },
+    {
+      "country": "DMA",
+      "year": 2023,
+      "value": 36,
+      "notes": [
+        "Uncertainty bound is 22 - 61"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DM"
+    },
+    {
+      "country": "DNK",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DK"
+    },
+    {
+      "country": "DOM",
+      "year": 2023,
+      "value": 124,
+      "notes": [
+        "Uncertainty bound is 86 - 185"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DO"
+    },
+    {
+      "country": "DZA",
+      "year": 2023,
+      "value": 62,
+      "notes": [
+        "Uncertainty bound is 46 - 87"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=DZ"
+    },
+    {
+      "country": "ECU",
+      "year": 2023,
+      "value": 55,
+      "notes": [
+        "Uncertainty bound is 48 - 66"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=EC"
+    },
+    {
+      "country": "EGY",
+      "year": 2023,
+      "value": 17,
+      "notes": [
+        "Uncertainty bound is 11 - 23"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=EG"
+    },
+    {
+      "country": "ERI",
+      "year": 2023,
+      "value": 291,
+      "notes": [
+        "Uncertainty bound is 176 - 483"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ER"
+    },
+    {
+      "country": "ESP",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ES"
+    },
+    {
+      "country": "EST",
+      "year": 2023,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 3 - 9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=EE"
+    },
+    {
+      "country": "ETH",
+      "year": 2023,
+      "value": 195,
+      "notes": [
+        "Uncertainty bound is 128 - 332"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ET"
+    },
+    {
+      "country": "FIN",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 5 - 14"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=FI"
+    },
+    {
+      "country": "FJI",
+      "year": 2023,
+      "value": 30,
+      "notes": [
+        "Uncertainty bound is 20 - 47"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=FJ"
+    },
+    {
+      "country": "FRA",
+      "year": 2023,
+      "value": 7,
+      "notes": [
+        "Uncertainty bound is 6 - 10"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=FR"
+    },
+    {
+      "country": "FSM",
+      "year": 2023,
+      "value": 129,
+      "notes": [
+        "Uncertainty bound is 56 - 302"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=FM"
+    },
+    {
+      "country": "GAB",
+      "year": 2023,
+      "value": 233,
+      "notes": [
+        "Uncertainty bound is 134 - 424"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GA"
+    },
+    {
+      "country": "GBR",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 6 - 12"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GB"
+    },
+    {
+      "country": "GEO",
+      "year": 2023,
+      "value": 20,
+      "notes": [
+        "Uncertainty bound is 13 - 27"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GE"
+    },
+    {
+      "country": "GHA",
+      "year": 2023,
+      "value": 234,
+      "notes": [
+        "Uncertainty bound is 155 - 344"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GH"
+    },
+    {
+      "country": "GIN",
+      "year": 2023,
+      "value": 494,
+      "notes": [
+        "Uncertainty bound is 337 - 764"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GN"
+    },
+    {
+      "country": "GMB",
+      "year": 2023,
+      "value": 354,
+      "notes": [
+        "Uncertainty bound is 245 - 504"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GM"
+    },
+    {
+      "country": "GNB",
+      "year": 2023,
+      "value": 505,
+      "notes": [
+        "Uncertainty bound is 313 - 851"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GW"
+    },
+    {
+      "country": "GNQ",
+      "year": 2023,
+      "value": 174,
+      "notes": [
+        "Uncertainty bound is 103 - 309"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GQ"
+    },
+    {
+      "country": "GRC",
+      "year": 2023,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 3 - 8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GR"
+    },
+    {
+      "country": "GRD",
+      "year": 2023,
+      "value": 48,
+      "notes": [
+        "Uncertainty bound is 29 - 95"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GD"
+    },
+    {
+      "country": "GTM",
+      "year": 2023,
+      "value": 94,
+      "notes": [
+        "Uncertainty bound is 82 - 106"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GT"
+    },
+    {
+      "country": "GUY",
+      "year": 2023,
+      "value": 75,
+      "notes": [
+        "Uncertainty bound is 59 - 103"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=GY"
+    },
+    {
+      "country": "HND",
+      "year": 2023,
+      "value": 47,
+      "notes": [
+        "Uncertainty bound is 37 - 62"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=HN"
+    },
+    {
+      "country": "HRV",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=HR"
+    },
+    {
+      "country": "HTI",
+      "year": 2023,
+      "value": 328,
+      "notes": [
+        "Uncertainty bound is 218 - 569"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=HT"
+    },
+    {
+      "country": "HUN",
+      "year": 2023,
+      "value": 12,
+      "notes": [
+        "Uncertainty bound is 8 - 18"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=HU"
+    },
+    {
+      "country": "IDN",
+      "year": 2023,
+      "value": 140,
+      "notes": [
+        "Uncertainty bound is 93 - 235"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ID"
+    },
+    {
+      "country": "IND",
+      "year": 2023,
+      "value": 80,
+      "notes": [
+        "Uncertainty bound is 73 - 87"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IN"
+    },
+    {
+      "country": "IRL",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IE"
+    },
+    {
+      "country": "IRN",
+      "year": 2023,
+      "value": 16,
+      "notes": [
+        "Uncertainty bound is 10 - 22"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IR"
+    },
+    {
+      "country": "IRQ",
+      "year": 2023,
+      "value": 66,
+      "notes": [
+        "Uncertainty bound is 41 - 116"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IQ"
+    },
+    {
+      "country": "ISL",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 1 - 6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IS"
+    },
+    {
+      "country": "ISR",
+      "year": 2023,
+      "value": 2,
+      "notes": [
+        "Uncertainty bound is 1 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IL"
+    },
+    {
+      "country": "ITA",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 5 - 9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=IT"
+    },
+    {
+      "country": "JAM",
+      "year": 2023,
+      "value": 130,
+      "notes": [
+        "Uncertainty bound is 96 - 175"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=JM"
+    },
+    {
+      "country": "JOR",
+      "year": 2023,
+      "value": 31,
+      "notes": [
+        "Uncertainty bound is 24 - 41"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=JO"
+    },
+    {
+      "country": "JPN",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 4"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=JP"
+    },
+    {
+      "country": "KAZ",
+      "year": 2023,
+      "value": 10,
+      "notes": [
+        "Uncertainty bound is 7 - 14"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KZ"
+    },
+    {
+      "country": "KEN",
+      "year": 2023,
+      "value": 149,
+      "notes": [
+        "Uncertainty bound is 106 - 211"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KE"
+    },
+    {
+      "country": "KGZ",
+      "year": 2023,
+      "value": 42,
+      "notes": [
+        "Uncertainty bound is 33 - 55"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KG"
+    },
+    {
+      "country": "KHM",
+      "year": 2023,
+      "value": 137,
+      "notes": [
+        "Uncertainty bound is 96 - 239"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KH"
+    },
+    {
+      "country": "KIR",
+      "year": 2023,
+      "value": 80,
+      "notes": [
+        "Uncertainty bound is 34 - 152"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KI"
+    },
+    {
+      "country": "KNA",
+      "year": 2023,
+      "value": 74,
+      "notes": [
+        "Uncertainty bound is 36 - 118"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KN"
+    },
+    {
+      "country": "KOR",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KR"
+    },
+    {
+      "country": "KWT",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 5 - 12"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KW"
+    },
+    {
+      "country": "LAO",
+      "year": 2023,
+      "value": 112,
+      "notes": [
+        "Uncertainty bound is 75 - 182"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LA"
+    },
+    {
+      "country": "LBN",
+      "year": 2023,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 11 - 21"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LB"
+    },
+    {
+      "country": "LBR",
+      "year": 2023,
+      "value": 628,
+      "notes": [
+        "Uncertainty bound is 436 - 913"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LR"
+    },
+    {
+      "country": "LBY",
+      "year": 2023,
+      "value": 59,
+      "notes": [
+        "Uncertainty bound is 23 - 154"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LY"
+    },
+    {
+      "country": "LCA",
+      "year": 2023,
+      "value": 44,
+      "notes": [
+        "Uncertainty bound is 26 - 77"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LC"
+    },
+    {
+      "country": "LKA",
+      "year": 2023,
+      "value": 18,
+      "notes": [
+        "Uncertainty bound is 15 - 25"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LK"
+    },
+    {
+      "country": "LSO",
+      "year": 2023,
+      "value": 478,
+      "notes": [
+        "Uncertainty bound is 298 - 725"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LS"
+    },
+    {
+      "country": "LTU",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 5 - 12"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LT"
+    },
+    {
+      "country": "LUX",
+      "year": 2023,
+      "value": 11,
+      "notes": [
+        "Uncertainty bound is 7 - 19"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LU"
+    },
+    {
+      "country": "LVA",
+      "year": 2023,
+      "value": 19,
+      "notes": [
+        "Uncertainty bound is 13 - 28"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=LV"
+    },
+    {
+      "country": "MAR",
+      "year": 2023,
+      "value": 70,
+      "notes": [
+        "Uncertainty bound is 51 - 94"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MA"
+    },
+    {
+      "country": "MCO",
+      "year": 2023,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 2 - 12"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MC"
+    },
+    {
+      "country": "MDA",
+      "year": 2023,
+      "value": 19,
+      "notes": [
+        "Uncertainty bound is 13 - 27"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MD"
+    },
+    {
+      "country": "MDG",
+      "year": 2023,
+      "value": 445,
+      "notes": [
+        "Uncertainty bound is 326 - 652"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MG"
+    },
+    {
+      "country": "MDV",
+      "year": 2023,
+      "value": 32,
+      "notes": [
+        "Uncertainty bound is 22 - 50"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MV"
+    },
+    {
+      "country": "MEX",
+      "year": 2023,
+      "value": 42,
+      "notes": [
+        "Uncertainty bound is 32 - 50"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MX"
+    },
+    {
+      "country": "MHL",
+      "year": 2023,
+      "value": 155,
+      "notes": [
+        "Uncertainty bound is 72 - 348"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MH"
+    },
+    {
+      "country": "MKD",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 1 - 5"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MK"
+    },
+    {
+      "country": "MLI",
+      "year": 2023,
+      "value": 367,
+      "notes": [
+        "Uncertainty bound is 268 - 498"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ML"
+    },
+    {
+      "country": "MLT",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 4 - 14"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MT"
+    },
+    {
+      "country": "MMR",
+      "year": 2023,
+      "value": 185,
+      "notes": [
+        "Uncertainty bound is 124 - 311"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MM"
+    },
+    {
+      "country": "MNE",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 3 - 10"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ME"
+    },
+    {
+      "country": "MNG",
+      "year": 2023,
+      "value": 41,
+      "notes": [
+        "Uncertainty bound is 27 - 58"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MN"
+    },
+    {
+      "country": "MOZ",
+      "year": 2023,
+      "value": 99,
+      "notes": [
+        "Uncertainty bound is 68 - 174"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MZ"
+    },
+    {
+      "country": "MRT",
+      "year": 2023,
+      "value": 381,
+      "notes": [
+        "Uncertainty bound is 263 - 561"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MR"
+    },
+    {
+      "country": "MUS",
+      "year": 2023,
+      "value": 66,
+      "notes": [
+        "Uncertainty bound is 44 - 105"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MU"
+    },
+    {
+      "country": "MWI",
+      "year": 2023,
+      "value": 225,
+      "notes": [
+        "Uncertainty bound is 153 - 352"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MW"
+    },
+    {
+      "country": "MYS",
+      "year": 2023,
+      "value": 26,
+      "notes": [
+        "Uncertainty bound is 24 - 34"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=MY"
+    },
+    {
+      "country": "NAM",
+      "year": 2023,
+      "value": 139,
+      "notes": [
+        "Uncertainty bound is 91 - 223"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NA"
+    },
+    {
+      "country": "NER",
+      "year": 2023,
+      "value": 350,
+      "notes": [
+        "Uncertainty bound is 227 - 563"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NE"
+    },
+    {
+      "country": "NGA",
+      "year": 2023,
+      "value": 993,
+      "notes": [
+        "Uncertainty bound is 718 - 1540"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NG"
+    },
+    {
+      "country": "NIC",
+      "year": 2023,
+      "value": 60,
+      "notes": [
+        "Uncertainty bound is 45 - 77"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NI"
+    },
+    {
+      "country": "NLD",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NL"
+    },
+    {
+      "country": "NOR",
+      "year": 2023,
+      "value": 1,
+      "notes": [
+        "Uncertainty bound is 1 - 2"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NO"
+    },
+    {
+      "country": "NPL",
+      "year": 2023,
+      "value": 142,
+      "notes": [
+        "Uncertainty bound is 99 - 234"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NP"
+    },
+    {
+      "country": "NRU",
+      "year": 2023,
+      "value": 273,
+      "notes": [
+        "Uncertainty bound is 119 - 639"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NR"
+    },
+    {
+      "country": "NZL",
+      "year": 2023,
+      "value": 7,
+      "notes": [
+        "Uncertainty bound is 4 - 9"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=NZ"
+    },
+    {
+      "country": "OMN",
+      "year": 2023,
+      "value": 13,
+      "notes": [
+        "Uncertainty bound is 9 - 19"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=OM"
+    },
+    {
+      "country": "PAK",
+      "year": 2023,
+      "value": 155,
+      "notes": [
+        "Uncertainty bound is 107 - 241"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PK"
+    },
+    {
+      "country": "PAN",
+      "year": 2023,
+      "value": 37,
+      "notes": [
+        "Uncertainty bound is 30 - 43"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PA"
+    },
+    {
+      "country": "PER",
+      "year": 2023,
+      "value": 51,
+      "notes": [
+        "Uncertainty bound is 40 - 62"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PE"
+    },
+    {
+      "country": "PHL",
+      "year": 2023,
+      "value": 84,
+      "notes": [
+        "Uncertainty bound is 64 - 119"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PH"
+    },
+    {
+      "country": "PLW",
+      "year": 2023,
+      "value": 89,
+      "notes": [
+        "Uncertainty bound is 38 - 209"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PW"
+    },
+    {
+      "country": "PNG",
+      "year": 2023,
+      "value": 189,
+      "notes": [
+        "Uncertainty bound is 119 - 307"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PG"
+    },
+    {
+      "country": "POL",
+      "year": 2023,
+      "value": 2,
+      "notes": [
+        "Uncertainty bound is 1 - 3"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PL"
+    },
+    {
+      "country": "PRI",
+      "year": 2023,
+      "value": 11,
+      "notes": [
+        "Uncertainty bound is 7 - 19"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PR"
+    },
+    {
+      "country": "PRK",
+      "year": 2023,
+      "value": 67,
+      "notes": [
+        "Uncertainty bound is 38 - 114"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=KP"
+    },
+    {
+      "country": "PRT",
+      "year": 2023,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 9 - 24"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PT"
+    },
+    {
+      "country": "PRY",
+      "year": 2023,
+      "value": 58,
+      "notes": [
+        "Uncertainty bound is 42 - 81"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PY"
+    },
+    {
+      "country": "PSE",
+      "year": 2023,
+      "value": 16,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=PS"
+    },
+    {
+      "country": "QAT",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 2 - 6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=QA"
+    },
+    {
+      "country": "ROU",
+      "year": 2023,
+      "value": 12,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=RO"
+    },
+    {
+      "country": "RUS",
+      "year": 2023,
+      "value": 9,
+      "notes": [
+        "Uncertainty bound is 6 - 15"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=RU"
+    },
+    {
+      "country": "RWA",
+      "year": 2023,
+      "value": 229,
+      "notes": [
+        "Uncertainty bound is 158 - 373"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=RW"
+    },
+    {
+      "country": "SAU",
+      "year": 2023,
+      "value": 7,
+      "notes": [
+        "Uncertainty bound is 5 - 11"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SA"
+    },
+    {
+      "country": "SDN",
+      "year": 2023,
+      "value": 256,
+      "notes": [
+        "Uncertainty bound is 159 - 415"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SD"
+    },
+    {
+      "country": "SEN",
+      "year": 2023,
+      "value": 237,
+      "notes": [
+        "Uncertainty bound is 173 - 365"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SN"
+    },
+    {
+      "country": "SGP",
+      "year": 2023,
+      "value": 6,
+      "notes": [
+        "Uncertainty bound is 4 - 11"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SG"
+    },
+    {
+      "country": "SLB",
+      "year": 2023,
+      "value": 123,
+      "notes": [
+        "Uncertainty bound is 65 - 231"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SB"
+    },
+    {
+      "country": "SLE",
+      "year": 2023,
+      "value": 354,
+      "notes": [
+        "Uncertainty bound is 249 - 537"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SL"
+    },
+    {
+      "country": "SLV",
+      "year": 2023,
+      "value": 39,
+      "notes": [
+        "Uncertainty bound is 25 - 63"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SV"
+    },
+    {
+      "country": "SMR",
+      "year": 2023,
+      "value": 8,
+      "notes": [
+        "Uncertainty bound is 3 - 16"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SM"
+    },
+    {
+      "country": "SOM",
+      "year": 2023,
+      "value": 563,
+      "notes": [
+        "Uncertainty bound is 244 - 1089"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SO"
+    },
+    {
+      "country": "SRB",
+      "year": 2023,
+      "value": 11,
+      "notes": [
+        "Uncertainty bound is 8 - 16"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=RS"
+    },
+    {
+      "country": "SSD",
+      "year": 2023,
+      "value": 692,
+      "notes": [
+        "Uncertainty bound is 400 - 1254"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SS"
+    },
+    {
+      "country": "STP",
+      "year": 2023,
+      "value": 75,
+      "notes": [
+        "Uncertainty bound is 42 - 138"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ST"
+    },
+    {
+      "country": "SUR",
+      "year": 2023,
+      "value": 84,
+      "notes": [
+        "Uncertainty bound is 54 - 121"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SR"
+    },
+    {
+      "country": "SVK",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 7"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SK"
+    },
+    {
+      "country": "SVN",
+      "year": 2023,
+      "value": 3,
+      "notes": [
+        "Uncertainty bound is 2 - 6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SI"
+    },
+    {
+      "country": "SWE",
+      "year": 2023,
+      "value": 4,
+      "notes": [
+        "Uncertainty bound is 3 - 6"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SE"
+    },
+    {
+      "country": "SWZ",
+      "year": 2023,
+      "value": 118,
+      "notes": [
+        "Uncertainty bound is 72 - 209"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SZ"
+    },
+    {
+      "country": "SYC",
+      "year": 2023,
+      "value": 42,
+      "notes": [
+        "Uncertainty bound is 26 - 64"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SC"
+    },
+    {
+      "country": "SYR",
+      "year": 2023,
+      "value": 20,
+      "notes": [
+        "Uncertainty bound is 11 - 38"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=SY"
+    },
+    {
+      "country": "TCD",
+      "year": 2023,
+      "value": 748,
+      "notes": [
+        "Uncertainty bound is 493 - 1248"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TD"
+    },
+    {
+      "country": "TGO",
+      "year": 2023,
+      "value": 349,
+      "notes": [
+        "Uncertainty bound is 219 - 526"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TG"
+    },
+    {
+      "country": "THA",
+      "year": 2023,
+      "value": 34,
+      "notes": [
+        "Uncertainty bound is 26 - 49"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TH"
+    },
+    {
+      "country": "TJK",
+      "year": 2023,
+      "value": 14,
+      "notes": [
+        "Uncertainty bound is 8 - 25"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TJ"
+    },
+    {
+      "country": "TKM",
+      "year": 2023,
+      "value": 5,
+      "notes": [
+        "Uncertainty bound is 2 - 8"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TM"
+    },
+    {
+      "country": "TLS",
+      "year": 2023,
+      "value": 192,
+      "notes": [],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TL"
+    },
+    {
+      "country": "TON",
+      "year": 2023,
+      "value": 67,
+      "notes": [
+        "Uncertainty bound is 30 - 156"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TO"
+    },
+    {
+      "country": "TTO",
+      "year": 2023,
+      "value": 54,
+      "notes": [
+        "Uncertainty bound is 40 - 69"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TT"
+    },
+    {
+      "country": "TUN",
+      "year": 2023,
+      "value": 36,
+      "notes": [
+        "Uncertainty bound is 23 - 53"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TN"
+    },
+    {
+      "country": "TUR",
+      "year": 2023,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 11 - 22"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TR"
+    },
+    {
+      "country": "TUV",
+      "year": 2023,
+      "value": 170,
+      "notes": [
+        "Uncertainty bound is 75 - 409"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TV"
+    },
+    {
+      "country": "TZA",
+      "year": 2023,
+      "value": 276,
+      "notes": [
+        "Uncertainty bound is 192 - 429"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=TZ"
+    },
+    {
+      "country": "UGA",
+      "year": 2023,
+      "value": 170,
+      "notes": [
+        "Uncertainty bound is 116 - 298"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=UG"
+    },
+    {
+      "country": "UKR",
+      "year": 2023,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 9 - 25"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=UA"
+    },
+    {
+      "country": "URY",
+      "year": 2023,
+      "value": 15,
+      "notes": [
+        "Uncertainty bound is 11 - 20"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=UY"
+    },
+    {
+      "country": "USA",
+      "year": 2023,
+      "value": 17,
+      "notes": [
+        "Uncertainty bound is 13 - 21"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=US"
+    },
+    {
+      "country": "UZB",
+      "year": 2023,
+      "value": 26,
+      "notes": [
+        "Uncertainty bound is 18 - 40"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=UZ"
+    },
+    {
+      "country": "VCT",
+      "year": 2023,
+      "value": 56,
+      "notes": [
+        "Uncertainty bound is 32 - 87"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=VC"
+    },
+    {
+      "country": "VEN",
+      "year": 2023,
+      "value": 227,
+      "notes": [
+        "Uncertainty bound is 148 - 371"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=VE"
+    },
+    {
+      "country": "VNM",
+      "year": 2023,
+      "value": 48,
+      "notes": [
+        "Uncertainty bound is 31 - 69"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=VN"
+    },
+    {
+      "country": "VUT",
+      "year": 2023,
+      "value": 100,
+      "notes": [
+        "Uncertainty bound is 38 - 265"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=VU"
+    },
+    {
+      "country": "WSM",
+      "year": 2023,
+      "value": 101,
+      "notes": [
+        "Uncertainty bound is 46 - 233"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=WS"
+    },
+    {
+      "country": "YEM",
+      "year": 2023,
+      "value": 118,
+      "notes": [
+        "Uncertainty bound is 71 - 212"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=YE"
+    },
+    {
+      "country": "ZAF",
+      "year": 2023,
+      "value": 118,
+      "notes": [
+        "Uncertainty bound is 92 - 137"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ZA"
+    },
+    {
+      "country": "ZMB",
+      "year": 2023,
+      "value": 85,
+      "notes": [
+        "Uncertainty bound is 61 - 126"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ZM"
+    },
+    {
+      "country": "ZWE",
+      "year": 2023,
+      "value": 358,
+      "notes": [
+        "Uncertainty bound is 236 - 484"
+      ],
+      "measured_by": null,
+      "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?locations=ZW"
+    }
+  ]
+}

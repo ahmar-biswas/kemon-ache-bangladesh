@@ -1,0 +1,983 @@
+{
+  "indicator_id": "maternal_mortality",
+  "kind": "calculated",
+  "year": 2023,
+  "rank": 63,
+  "out_of": 194,
+  "order": "highest_first",
+  "source_name": "World Bank, Maternal mortality ratio (modeled estimate, per 100,000 live births)",
+  "source_url": "https://data.worldbank.org/indicator/SH.STA.MMRT?year=2023",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "NGA",
+      "value": 993,
+      "rank": 1
+    },
+    {
+      "country": "TCD",
+      "value": 748,
+      "rank": 2
+    },
+    {
+      "country": "CAF",
+      "value": 692,
+      "rank": 3
+    },
+    {
+      "country": "SSD",
+      "value": 692,
+      "rank": 3
+    },
+    {
+      "country": "LBR",
+      "value": 628,
+      "rank": 5
+    },
+    {
+      "country": "SOM",
+      "value": 563,
+      "rank": 6
+    },
+    {
+      "country": "AFG",
+      "value": 521,
+      "rank": 7
+    },
+    {
+      "country": "BEN",
+      "value": 518,
+      "rank": 8
+    },
+    {
+      "country": "GNB",
+      "value": 505,
+      "rank": 9
+    },
+    {
+      "country": "GIN",
+      "value": 494,
+      "rank": 10
+    },
+    {
+      "country": "LSO",
+      "value": 478,
+      "rank": 11
+    },
+    {
+      "country": "MDG",
+      "value": 445,
+      "rank": 12
+    },
+    {
+      "country": "COD",
+      "value": 427,
+      "rank": 13
+    },
+    {
+      "country": "BDI",
+      "value": 392,
+      "rank": 14
+    },
+    {
+      "country": "MRT",
+      "value": 381,
+      "rank": 15
+    },
+    {
+      "country": "MLI",
+      "value": 367,
+      "rank": 16
+    },
+    {
+      "country": "CIV",
+      "value": 359,
+      "rank": 17
+    },
+    {
+      "country": "ZWE",
+      "value": 358,
+      "rank": 18
+    },
+    {
+      "country": "GMB",
+      "value": 354,
+      "rank": 19
+    },
+    {
+      "country": "SLE",
+      "value": 354,
+      "rank": 19
+    },
+    {
+      "country": "NER",
+      "value": 350,
+      "rank": 21
+    },
+    {
+      "country": "TGO",
+      "value": 349,
+      "rank": 22
+    },
+    {
+      "country": "HTI",
+      "value": 328,
+      "rank": 23
+    },
+    {
+      "country": "ERI",
+      "value": 291,
+      "rank": 24
+    },
+    {
+      "country": "TZA",
+      "value": 276,
+      "rank": 25
+    },
+    {
+      "country": "NRU",
+      "value": 273,
+      "rank": 26
+    },
+    {
+      "country": "CMR",
+      "value": 258,
+      "rank": 27
+    },
+    {
+      "country": "SDN",
+      "value": 256,
+      "rank": 28
+    },
+    {
+      "country": "BFA",
+      "value": 242,
+      "rank": 29
+    },
+    {
+      "country": "COG",
+      "value": 241,
+      "rank": 30
+    },
+    {
+      "country": "SEN",
+      "value": 237,
+      "rank": 31
+    },
+    {
+      "country": "GHA",
+      "value": 234,
+      "rank": 32
+    },
+    {
+      "country": "GAB",
+      "value": 233,
+      "rank": 33
+    },
+    {
+      "country": "RWA",
+      "value": 229,
+      "rank": 34
+    },
+    {
+      "country": "VEN",
+      "value": 227,
+      "rank": 35
+    },
+    {
+      "country": "MWI",
+      "value": 225,
+      "rank": 36
+    },
+    {
+      "country": "ETH",
+      "value": 195,
+      "rank": 37
+    },
+    {
+      "country": "TLS",
+      "value": 192,
+      "rank": 38
+    },
+    {
+      "country": "PNG",
+      "value": 189,
+      "rank": 39
+    },
+    {
+      "country": "MMR",
+      "value": 185,
+      "rank": 40
+    },
+    {
+      "country": "AGO",
+      "value": 183,
+      "rank": 41
+    },
+    {
+      "country": "COM",
+      "value": 179,
+      "rank": 42
+    },
+    {
+      "country": "GNQ",
+      "value": 174,
+      "rank": 43
+    },
+    {
+      "country": "TUV",
+      "value": 170,
+      "rank": 44
+    },
+    {
+      "country": "UGA",
+      "value": 170,
+      "rank": 44
+    },
+    {
+      "country": "DJI",
+      "value": 162,
+      "rank": 46
+    },
+    {
+      "country": "BWA",
+      "value": 155,
+      "rank": 47
+    },
+    {
+      "country": "MHL",
+      "value": 155,
+      "rank": 47
+    },
+    {
+      "country": "PAK",
+      "value": 155,
+      "rank": 47
+    },
+    {
+      "country": "KEN",
+      "value": 149,
+      "rank": 50
+    },
+    {
+      "country": "BOL",
+      "value": 146,
+      "rank": 51
+    },
+    {
+      "country": "NPL",
+      "value": 142,
+      "rank": 52
+    },
+    {
+      "country": "IDN",
+      "value": 140,
+      "rank": 53
+    },
+    {
+      "country": "NAM",
+      "value": 139,
+      "rank": 54
+    },
+    {
+      "country": "KHM",
+      "value": 137,
+      "rank": 55
+    },
+    {
+      "country": "JAM",
+      "value": 130,
+      "rank": 56
+    },
+    {
+      "country": "FSM",
+      "value": 129,
+      "rank": 57
+    },
+    {
+      "country": "DOM",
+      "value": 124,
+      "rank": 58
+    },
+    {
+      "country": "SLB",
+      "value": 123,
+      "rank": 59
+    },
+    {
+      "country": "SWZ",
+      "value": 118,
+      "rank": 60
+    },
+    {
+      "country": "YEM",
+      "value": 118,
+      "rank": 60
+    },
+    {
+      "country": "ZAF",
+      "value": 118,
+      "rank": 60
+    },
+    {
+      "country": "BGD",
+      "value": 115,
+      "rank": 63
+    },
+    {
+      "country": "LAO",
+      "value": 112,
+      "rank": 64
+    },
+    {
+      "country": "WSM",
+      "value": 101,
+      "rank": 65
+    },
+    {
+      "country": "VUT",
+      "value": 100,
+      "rank": 66
+    },
+    {
+      "country": "MOZ",
+      "value": 99,
+      "rank": 67
+    },
+    {
+      "country": "GTM",
+      "value": 94,
+      "rank": 68
+    },
+    {
+      "country": "PLW",
+      "value": 89,
+      "rank": 69
+    },
+    {
+      "country": "ZMB",
+      "value": 85,
+      "rank": 70
+    },
+    {
+      "country": "PHL",
+      "value": 84,
+      "rank": 71
+    },
+    {
+      "country": "SUR",
+      "value": 84,
+      "rank": 71
+    },
+    {
+      "country": "IND",
+      "value": 80,
+      "rank": 73
+    },
+    {
+      "country": "KIR",
+      "value": 80,
+      "rank": 73
+    },
+    {
+      "country": "BHS",
+      "value": 76,
+      "rank": 75
+    },
+    {
+      "country": "GUY",
+      "value": 75,
+      "rank": 76
+    },
+    {
+      "country": "STP",
+      "value": 75,
+      "rank": 76
+    },
+    {
+      "country": "KNA",
+      "value": 74,
+      "rank": 78
+    },
+    {
+      "country": "MAR",
+      "value": 70,
+      "rank": 79
+    },
+    {
+      "country": "BLZ",
+      "value": 67,
+      "rank": 80
+    },
+    {
+      "country": "BRA",
+      "value": 67,
+      "rank": 80
+    },
+    {
+      "country": "PRK",
+      "value": 67,
+      "rank": 80
+    },
+    {
+      "country": "TON",
+      "value": 67,
+      "rank": 80
+    },
+    {
+      "country": "IRQ",
+      "value": 66,
+      "rank": 84
+    },
+    {
+      "country": "MUS",
+      "value": 66,
+      "rank": 84
+    },
+    {
+      "country": "DZA",
+      "value": 62,
+      "rank": 86
+    },
+    {
+      "country": "NIC",
+      "value": 60,
+      "rank": 87
+    },
+    {
+      "country": "COL",
+      "value": 59,
+      "rank": 88
+    },
+    {
+      "country": "LBY",
+      "value": 59,
+      "rank": 88
+    },
+    {
+      "country": "PRY",
+      "value": 58,
+      "rank": 90
+    },
+    {
+      "country": "VCT",
+      "value": 56,
+      "rank": 91
+    },
+    {
+      "country": "ECU",
+      "value": 55,
+      "rank": 92
+    },
+    {
+      "country": "TTO",
+      "value": 54,
+      "rank": 93
+    },
+    {
+      "country": "PER",
+      "value": 51,
+      "rank": 94
+    },
+    {
+      "country": "GRD",
+      "value": 48,
+      "rank": 95
+    },
+    {
+      "country": "VNM",
+      "value": 48,
+      "rank": 95
+    },
+    {
+      "country": "BTN",
+      "value": 47,
+      "rank": 97
+    },
+    {
+      "country": "HND",
+      "value": 47,
+      "rank": 97
+    },
+    {
+      "country": "LCA",
+      "value": 44,
+      "rank": 99
+    },
+    {
+      "country": "KGZ",
+      "value": 42,
+      "rank": 100
+    },
+    {
+      "country": "MEX",
+      "value": 42,
+      "rank": 100
+    },
+    {
+      "country": "SYC",
+      "value": 42,
+      "rank": 100
+    },
+    {
+      "country": "MNG",
+      "value": 41,
+      "rank": 103
+    },
+    {
+      "country": "CPV",
+      "value": 40,
+      "rank": 104
+    },
+    {
+      "country": "SLV",
+      "value": 39,
+      "rank": 105
+    },
+    {
+      "country": "PAN",
+      "value": 37,
+      "rank": 106
+    },
+    {
+      "country": "BRN",
+      "value": 36,
+      "rank": 107
+    },
+    {
+      "country": "DMA",
+      "value": 36,
+      "rank": 107
+    },
+    {
+      "country": "TUN",
+      "value": 36,
+      "rank": 107
+    },
+    {
+      "country": "ATG",
+      "value": 35,
+      "rank": 110
+    },
+    {
+      "country": "BRB",
+      "value": 35,
+      "rank": 110
+    },
+    {
+      "country": "CUB",
+      "value": 35,
+      "rank": 110
+    },
+    {
+      "country": "THA",
+      "value": 34,
+      "rank": 113
+    },
+    {
+      "country": "ARG",
+      "value": 33,
+      "rank": 114
+    },
+    {
+      "country": "MDV",
+      "value": 32,
+      "rank": 115
+    },
+    {
+      "country": "JOR",
+      "value": 31,
+      "rank": 116
+    },
+    {
+      "country": "FJI",
+      "value": 30,
+      "rank": 117
+    },
+    {
+      "country": "MYS",
+      "value": 26,
+      "rank": 118
+    },
+    {
+      "country": "UZB",
+      "value": 26,
+      "rank": 118
+    },
+    {
+      "country": "CRI",
+      "value": 24,
+      "rank": 120
+    },
+    {
+      "country": "GEO",
+      "value": 20,
+      "rank": 121
+    },
+    {
+      "country": "SYR",
+      "value": 20,
+      "rank": 121
+    },
+    {
+      "country": "ARM",
+      "value": 19,
+      "rank": 123
+    },
+    {
+      "country": "LVA",
+      "value": 19,
+      "rank": 123
+    },
+    {
+      "country": "MDA",
+      "value": 19,
+      "rank": 123
+    },
+    {
+      "country": "AZE",
+      "value": 18,
+      "rank": 126
+    },
+    {
+      "country": "LKA",
+      "value": 18,
+      "rank": 126
+    },
+    {
+      "country": "BHR",
+      "value": 17,
+      "rank": 128
+    },
+    {
+      "country": "EGY",
+      "value": 17,
+      "rank": 128
+    },
+    {
+      "country": "USA",
+      "value": 17,
+      "rank": 128
+    },
+    {
+      "country": "CHN",
+      "value": 16,
+      "rank": 131
+    },
+    {
+      "country": "IRN",
+      "value": 16,
+      "rank": 131
+    },
+    {
+      "country": "PSE",
+      "value": 16,
+      "rank": 131
+    },
+    {
+      "country": "LBN",
+      "value": 15,
+      "rank": 134
+    },
+    {
+      "country": "PRT",
+      "value": 15,
+      "rank": 134
+    },
+    {
+      "country": "TUR",
+      "value": 15,
+      "rank": 134
+    },
+    {
+      "country": "UKR",
+      "value": 15,
+      "rank": 134
+    },
+    {
+      "country": "URY",
+      "value": 15,
+      "rank": 134
+    },
+    {
+      "country": "CYP",
+      "value": 14,
+      "rank": 139
+    },
+    {
+      "country": "TJK",
+      "value": 14,
+      "rank": 139
+    },
+    {
+      "country": "OMN",
+      "value": 13,
+      "rank": 141
+    },
+    {
+      "country": "CAN",
+      "value": 12,
+      "rank": 142
+    },
+    {
+      "country": "HUN",
+      "value": 12,
+      "rank": 142
+    },
+    {
+      "country": "ROU",
+      "value": 12,
+      "rank": 142
+    },
+    {
+      "country": "AND",
+      "value": 11,
+      "rank": 145
+    },
+    {
+      "country": "LUX",
+      "value": 11,
+      "rank": 145
+    },
+    {
+      "country": "PRI",
+      "value": 11,
+      "rank": 145
+    },
+    {
+      "country": "SRB",
+      "value": 11,
+      "rank": 145
+    },
+    {
+      "country": "CHL",
+      "value": 10,
+      "rank": 149
+    },
+    {
+      "country": "KAZ",
+      "value": 10,
+      "rank": 149
+    },
+    {
+      "country": "RUS",
+      "value": 9,
+      "rank": 151
+    },
+    {
+      "country": "FIN",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "GBR",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "KWT",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "LTU",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "MLT",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "SMR",
+      "value": 8,
+      "rank": 152
+    },
+    {
+      "country": "ALB",
+      "value": 7,
+      "rank": 158
+    },
+    {
+      "country": "FRA",
+      "value": 7,
+      "rank": 158
+    },
+    {
+      "country": "NZL",
+      "value": 7,
+      "rank": 158
+    },
+    {
+      "country": "SAU",
+      "value": 7,
+      "rank": 158
+    },
+    {
+      "country": "AUT",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "BGR",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "BIH",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "ITA",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "MNE",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "SGP",
+      "value": 6,
+      "rank": 162
+    },
+    {
+      "country": "CHE",
+      "value": 5,
+      "rank": 168
+    },
+    {
+      "country": "EST",
+      "value": 5,
+      "rank": 168
+    },
+    {
+      "country": "GRC",
+      "value": 5,
+      "rank": 168
+    },
+    {
+      "country": "MCO",
+      "value": 5,
+      "rank": 168
+    },
+    {
+      "country": "TKM",
+      "value": 5,
+      "rank": 168
+    },
+    {
+      "country": "BEL",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "DEU",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "DNK",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "IRL",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "KOR",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "NLD",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "QAT",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "SVK",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "SWE",
+      "value": 4,
+      "rank": 173
+    },
+    {
+      "country": "ARE",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "CZE",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "ESP",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "HRV",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "ISL",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "JPN",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "MKD",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "SVN",
+      "value": 3,
+      "rank": 182
+    },
+    {
+      "country": "AUS",
+      "value": 2,
+      "rank": 190
+    },
+    {
+      "country": "ISR",
+      "value": 2,
+      "rank": 190
+    },
+    {
+      "country": "POL",
+      "value": 2,
+      "rank": 190
+    },
+    {
+      "country": "BLR",
+      "value": 1,
+      "rank": 193
+    },
+    {
+      "country": "NOR",
+      "value": 1,
+      "rank": 193
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "indicator_id": "beds",
+  "kind": "calculated",
+  "year": 2023,
+  "rank": 63,
+  "out_of": 73,
+  "order": "highest_first",
+  "source_name": "World Bank, Hospital beds (per 1,000 people)",
+  "source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?year=2023",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "BLR",
+      "value": 9.77,
+      "rank": 1
+    },
+    {
+      "country": "MNG",
+      "value": 8.58,
+      "rank": 2
+    },
+    {
+      "country": "BGR",
+      "value": 8.2,
+      "rank": 3
+    },
+    {
+      "country": "DEU",
+      "value": 7.55,
+      "rank": 4
+    },
+    {
+      "country": "RUS",
+      "value": 6.81,
+      "rank": 5
+    },
+    {
+      "country": "BRB",
+      "value": 6.4,
+      "rank": 6
+    },
+    {
+      "country": "CHN",
+      "value": 5.63,
+      "rank": 7
+    },
+    {
+      "country": "HRV",
+      "value": 5.6,
+      "rank": 8
+    },
+    {
+      "country": "SVK",
+      "value": 5.57,
+      "rank": 9
+    },
+    {
+      "country": "MDA",
+      "value": 5.54,
+      "rank": 10
+    },
+    {
+      "country": "BEL",
+      "value": 5.42,
+      "rank": 11
+    },
+    {
+      "country": "LVA",
+      "value": 4.95,
+      "rank": 12
+    },
+    {
+      "country": "HTI",
+      "value": 4.9,
+      "rank": 13
+    },
+    {
+      "country": "UZB",
+      "value": 4.89,
+      "rank": 14
+    },
+    {
+      "country": "CHE",
+      "value": 4.38,
+      "rank": 15
+    },
+    {
+      "country": "CUB",
+      "value": 4.33,
+      "rank": 16
+    },
+    {
+      "country": "ARM",
+      "value": 4.24,
+      "rank": 17
+    },
+    {
+      "country": "EST",
+      "value": 4.13,
+      "rank": 18
+    },
+    {
+      "country": "GEO",
+      "value": 4.04,
+      "rank": 19
+    },
+    {
+      "country": "TJK",
+      "value": 4.04,
+      "rank": 19
+    },
+    {
+      "country": "KNA",
+      "value": 3.98,
+      "rank": 21
+    },
+    {
+      "country": "DMA",
+      "value": 3.97,
+      "rank": 22
+    },
+    {
+      "country": "LUX",
+      "value": 3.95,
+      "rank": 23
+    },
+    {
+      "country": "LKA",
+      "value": 3.93,
+      "rank": 24
+    },
+    {
+      "country": "MUS",
+      "value": 3.8,
+      "rank": 25
+    },
+    {
+      "country": "KGZ",
+      "value": 3.73,
+      "rank": 26
+    },
+    {
+      "country": "AZE",
+      "value": 3.68,
+      "rank": 27
+    },
+    {
+      "country": "BRN",
+      "value": 3.58,
+      "rank": 28
+    },
+    {
+      "country": "ATG",
+      "value": 3.42,
+      "rank": 29
+    },
+    {
+      "country": "NOR",
+      "value": 3.3,
+      "rank": 30
+    },
+    {
+      "country": "GUY",
+      "value": 3.24,
+      "rank": 31
+    },
+    {
+      "country": "ISR",
+      "value": 3.14,
+      "rank": 32
+    },
+    {
+      "country": "TUR",
+      "value": 3.05,
+      "rank": 33
+    },
+    {
+      "country": "GRD",
+      "value": 3.01,
+      "rank": 34
+    },
+    {
+      "country": "IRL",
+      "value": 2.96,
+      "rank": 35
+    },
+    {
+      "country": "ESP",
+      "value": 2.91,
+      "rank": 36
+    },
+    {
+      "country": "SGP",
+      "value": 2.81,
+      "rank": 37
+    },
+    {
+      "country": "SYC",
+      "value": 2.63,
+      "rank": 38
+    },
+    {
+      "country": "NZL",
+      "value": 2.51,
+      "rank": 39
+    },
+    {
+      "country": "URY",
+      "value": 2.44,
+      "rank": 40
+    },
+    {
+      "country": "DNK",
+      "value": 2.43,
+      "rank": 41
+    },
+    {
+      "country": "SAU",
+      "value": 2.41,
+      "rank": 42
+    },
+    {
+      "country": "THA",
+      "value": 2.39,
+      "rank": 43
+    },
+    {
+      "country": "TTO",
+      "value": 2.37,
+      "rank": 44
+    },
+    {
+      "country": "BHS",
+      "value": 2.17,
+      "rank": 45
+    },
+    {
+      "country": "BTN",
+      "value": 2.16,
+      "rank": 46
+    },
+    {
+      "country": "MYS",
+      "value": 1.96,
+      "rank": 47
+    },
+    {
+      "country": "PAN",
+      "value": 1.95,
+      "rank": 48
+    },
+    {
+      "country": "CHL",
+      "value": 1.94,
+      "rank": 49
+    },
+    {
+      "country": "TUN",
+      "value": 1.82,
+      "rank": 50
+    },
+    {
+      "country": "LAO",
+      "value": 1.71,
+      "rank": 51
+    },
+    {
+      "country": "JAM",
+      "value": 1.65,
+      "rank": 52
+    },
+    {
+      "country": "PER",
+      "value": 1.56,
+      "rank": 53
+    },
+    {
+      "country": "BOL",
+      "value": 1.49,
+      "rank": 54
+    },
+    {
+      "country": "JOR",
+      "value": 1.41,
+      "rank": 55
+    },
+    {
+      "country": "IDN",
+      "value": 1.37,
+      "rank": 56
+    },
+    {
+      "country": "ECU",
+      "value": 1.32,
+      "rank": 57
+    },
+    {
+      "country": "SLV",
+      "value": 1.21,
+      "rank": 58
+    },
+    {
+      "country": "GMB",
+      "value": 1.11,
+      "rank": 59
+    },
+    {
+      "country": "ERI",
+      "value": 1.02,
+      "rank": 60
+    },
+    {
+      "country": "BLZ",
+      "value": 1,
+      "rank": 61
+    },
+    {
+      "country": "OMN",
+      "value": 0.99,
+      "rank": 62
+    },
+    {
+      "country": "BGD",
+      "value": 0.92,
+      "rank": 63
+    },
+    {
+      "country": "DOM",
+      "value": 0.75,
+      "rank": 64
+    },
+    {
+      "country": "RWA",
+      "value": 0.75,
+      "rank": 64
+    },
+    {
+      "country": "MAR",
+      "value": 0.73,
+      "rank": 66
+    },
+    {
+      "country": "PNG",
+      "value": 0.62,
+      "rank": 67
+    },
+    {
+      "country": "NPL",
+      "value": 0.54,
+      "rank": 68
+    },
+    {
+      "country": "HND",
+      "value": 0.53,
+      "rank": 69
+    },
+    {
+      "country": "YEM",
+      "value": 0.46,
+      "rank": 70
+    },
+    {
+      "country": "GTM",
+      "value": 0.45,
+      "rank": 71
+    },
+    {
+      "country": "TLS",
+      "value": 0.38,
+      "rank": 72
+    },
+    {
+      "country": "AFG",
+      "value": 0.35,
+      "rank": 73
+    }
+  ]
+}

@@ -1,0 +1,3714 @@
+[
+  {
+    "indicator_id": "beds",
+    "year": 1960,
+    "value": 1.54442298412323,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 2.06146168708801
+      },
+      {
+        "country": "BEN",
+        "value": 1.22574877738953
+      },
+      {
+        "country": "BOL",
+        "value": 1.84541928768158
+      },
+      {
+        "country": "CIV",
+        "value": 1.34876954555511
+      },
+      {
+        "country": "CMR",
+        "value": 2.00226593017578
+      },
+      {
+        "country": "COG",
+        "value": 3.75708508491516
+      },
+      {
+        "country": "DJI",
+        "value": 7.83132553100586
+      },
+      {
+        "country": "EGY",
+        "value": 2.14697933197021
+      },
+      {
+        "country": "GHA",
+        "value": 0.779893696308136
+      },
+      {
+        "country": "GIN",
+        "value": 0.739158153533936
+      },
+      {
+        "country": "HND",
+        "value": 1.64625132083893
+      },
+      {
+        "country": "HTI",
+        "value": 0.608832836151123
+      },
+      {
+        "country": "IND",
+        "value": 0.458986908197403
+      },
+      {
+        "country": "KEN",
+        "value": 1.25048005580902
+      },
+      {
+        "country": "KHM",
+        "value": 0.746548891067505
+      },
+      {
+        "country": "KIR",
+        "value": 6.36363649368286
+      },
+      {
+        "country": "LAO",
+        "value": 0.472209453582764
+      },
+      {
+        "country": "LBN",
+        "value": 4.58133935928345
+      },
+      {
+        "country": "LSO",
+        "value": 1.10372042655945
+      },
+      {
+        "country": "MAR",
+        "value": 1.5984001159668
+      },
+      {
+        "country": "MMR",
+        "value": 0.663009285926819
+      },
+      {
+        "country": "MRT",
+        "value": 0.20484359562397
+      },
+      {
+        "country": "NGA",
+        "value": 0.418167114257813
+      },
+      {
+        "country": "NIC",
+        "value": 2.15823602676392
+      },
+      {
+        "country": "NPL",
+        "value": 0.115763798356056
+      },
+      {
+        "country": "PAK",
+        "value": 0.55726158618927
+      },
+      {
+        "country": "SEN",
+        "value": 1.31314718723297
+      },
+      {
+        "country": "SLB",
+        "value": 7.33050870895386
+      },
+      {
+        "country": "STP",
+        "value": 40.3154563903809
+      },
+      {
+        "country": "SWZ",
+        "value": 1.94478523731232
+      },
+      {
+        "country": "TGO",
+        "value": 1.26509189605713
+      },
+      {
+        "country": "TUN",
+        "value": 2.4676616191864
+      },
+      {
+        "country": "TZA",
+        "value": 1.49044585227966
+      },
+      {
+        "country": "VUT",
+        "value": 5.43076944351196
+      },
+      {
+        "country": "ZMB",
+        "value": 2.80165553092957
+      },
+      {
+        "country": "ZWE",
+        "value": 3.87664604187012
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=AO-BJ-BO-CI-CM-CG-DJ-EG-GH-GN-HN-HT-IN-KE-KH-KI-LA-LB-LS-MA-MM-MR-NG-NI-NP-PK-SN-SB-ST-SZ-TG-TN-TZ-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1970,
+    "value": 1.75150001049042,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 2.72099995613098
+      },
+      {
+        "country": "BEN",
+        "value": 1.15489995479584
+      },
+      {
+        "country": "BGD",
+        "value": 0.155100002884865
+      },
+      {
+        "country": "BOL",
+        "value": 2.32170009613037
+      },
+      {
+        "country": "CIV",
+        "value": 1.15610003471375
+      },
+      {
+        "country": "CMR",
+        "value": 1.75150001049042
+      },
+      {
+        "country": "COG",
+        "value": 4.38719987869263
+      },
+      {
+        "country": "DJI",
+        "value": 6.07740020751953
+      },
+      {
+        "country": "EGY",
+        "value": 2.18050003051758
+      },
+      {
+        "country": "GHA",
+        "value": 1.32280004024506
+      },
+      {
+        "country": "GIN",
+        "value": 1.75849997997284
+      },
+      {
+        "country": "HND",
+        "value": 1.75310003757477
+      },
+      {
+        "country": "HTI",
+        "value": 0.784300029277802
+      },
+      {
+        "country": "IND",
+        "value": 0.604499995708466
+      },
+      {
+        "country": "KEN",
+        "value": 1.26429998874664
+      },
+      {
+        "country": "KHM",
+        "value": 1.0809999704361
+      },
+      {
+        "country": "KIR",
+        "value": 12.3312997817993
+      },
+      {
+        "country": "LAO",
+        "value": 0.92739999294281
+      },
+      {
+        "country": "LBN",
+        "value": 4.09870004653931
+      },
+      {
+        "country": "LSO",
+        "value": 1.744500041008
+      },
+      {
+        "country": "MAR",
+        "value": 1.47420001029968
+      },
+      {
+        "country": "MMR",
+        "value": 0.85809999704361
+      },
+      {
+        "country": "MRT",
+        "value": 0.34400001168251
+      },
+      {
+        "country": "NGA",
+        "value": 0.559800028800964
+      },
+      {
+        "country": "NIC",
+        "value": 2.28029990196228
+      },
+      {
+        "country": "NPL",
+        "value": 0.135299995541573
+      },
+      {
+        "country": "PAK",
+        "value": 0.520799994468689
+      },
+      {
+        "country": "PNG",
+        "value": 6.6023998260498
+      },
+      {
+        "country": "SEN",
+        "value": 1.29849994182587
+      },
+      {
+        "country": "SLB",
+        "value": 7.34159994125366
+      },
+      {
+        "country": "STP",
+        "value": 26.7122993469238
+      },
+      {
+        "country": "SWZ",
+        "value": 3.37470006942749
+      },
+      {
+        "country": "TGO",
+        "value": 1.5333000421524
+      },
+      {
+        "country": "TUN",
+        "value": 2.44429993629456
+      },
+      {
+        "country": "VUT",
+        "value": 10.7349004745483
+      },
+      {
+        "country": "ZMB",
+        "value": 3.16109991073608
+      },
+      {
+        "country": "ZWE",
+        "value": 3.49539995193481
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=AO-BJ-BD-BO-CI-CM-CG-DJ-EG-GH-GN-HN-HT-IN-KE-KH-KI-LA-LB-LS-MA-MM-MR-NG-NI-NP-PK-PG-SN-SB-ST-SZ-TG-TN-VU-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1975,
+    "value": 1.4342499971389802,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 2.05879998207092
+      },
+      {
+        "country": "CMR",
+        "value": 2.46589994430542
+      },
+      {
+        "country": "EGY",
+        "value": 2.03660011291504
+      },
+      {
+        "country": "GHA",
+        "value": 1.25080001354218
+      },
+      {
+        "country": "HND",
+        "value": 1.7036999464035
+      },
+      {
+        "country": "HTI",
+        "value": 0.776000022888184
+      },
+      {
+        "country": "IND",
+        "value": 0.588199973106384
+      },
+      {
+        "country": "KEN",
+        "value": 1.25
+      },
+      {
+        "country": "LSO",
+        "value": 1.62839996814728
+      },
+      {
+        "country": "MAR",
+        "value": 1.42859995365143
+      },
+      {
+        "country": "MRT",
+        "value": 0.344300001859665
+      },
+      {
+        "country": "NGA",
+        "value": 0.555800020694733
+      },
+      {
+        "country": "NIC",
+        "value": 2.41190004348755
+      },
+      {
+        "country": "NPL",
+        "value": 0.137700006365776
+      },
+      {
+        "country": "PAK",
+        "value": 0.526300013065338
+      },
+      {
+        "country": "PNG",
+        "value": 4.94320011138916
+      },
+      {
+        "country": "SEN",
+        "value": 1.29009997844696
+      },
+      {
+        "country": "TGO",
+        "value": 1.43990004062653
+      },
+      {
+        "country": "TUN",
+        "value": 2.5
+      },
+      {
+        "country": "VEN",
+        "value": 0.331499993801117
+      },
+      {
+        "country": "ZMB",
+        "value": 3.33680009841919
+      },
+      {
+        "country": "ZWE",
+        "value": 3.31369996070862
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BO-CM-EG-GH-HN-HT-IN-KE-LS-MA-MR-NG-NI-NP-PK-PG-SN-TG-TN-VE-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1980,
+    "value": 1.39750003814697,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 1.46490001678467
+      },
+      {
+        "country": "BGD",
+        "value": 0.215800002217293
+      },
+      {
+        "country": "EGY",
+        "value": 2.02629995346069
+      },
+      {
+        "country": "HND",
+        "value": 1.32410001754761
+      },
+      {
+        "country": "HTI",
+        "value": 0.740499973297119
+      },
+      {
+        "country": "IND",
+        "value": 0.769699990749359
+      },
+      {
+        "country": "KGZ",
+        "value": 12.0114002227783
+      },
+      {
+        "country": "KIR",
+        "value": 5.09469985961914
+      },
+      {
+        "country": "MMR",
+        "value": 0.857100009918213
+      },
+      {
+        "country": "NGA",
+        "value": 0.866199970245361
+      },
+      {
+        "country": "NPL",
+        "value": 0.175600007176399
+      },
+      {
+        "country": "PAK",
+        "value": 0.573099970817566
+      },
+      {
+        "country": "PNG",
+        "value": 5.54440021514893
+      },
+      {
+        "country": "TUN",
+        "value": 2.12579989433289
+      },
+      {
+        "country": "TZA",
+        "value": 1.39750003814697
+      },
+      {
+        "country": "UZB",
+        "value": 9.17630004882813
+      },
+      {
+        "country": "VEN",
+        "value": 0.331900000572205
+      },
+      {
+        "country": "VUT",
+        "value": 6.1793999671936
+      },
+      {
+        "country": "ZWE",
+        "value": 3.00270009040833
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-EG-HN-HT-IN-KG-KI-MM-NG-NP-PK-PG-TN-TZ-UZ-VE-VU-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1981,
+    "value": 1.65020000934601,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 1.13119995594025
+      },
+      {
+        "country": "BGD",
+        "value": 0.225199997425079
+      },
+      {
+        "country": "DJI",
+        "value": 3.61050009727478
+      },
+      {
+        "country": "EGY",
+        "value": 2.07220005989075
+      },
+      {
+        "country": "IND",
+        "value": 0.769400000572205
+      },
+      {
+        "country": "KGZ",
+        "value": 12.1184997558594
+      },
+      {
+        "country": "KIR",
+        "value": 4.76830005645752
+      },
+      {
+        "country": "MAR",
+        "value": 1.22819995880127
+      },
+      {
+        "country": "MMR",
+        "value": 0.857599973678589
+      },
+      {
+        "country": "PAK",
+        "value": 0.5692999958992
+      },
+      {
+        "country": "SLB",
+        "value": 5.68289995193481
+      },
+      {
+        "country": "ZMB",
+        "value": 3.48219990730286
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-DJ-EG-IN-KG-KI-MA-MM-PK-SB-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1985,
+    "value": 1.48030000925064,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.359600007534027
+      },
+      {
+        "country": "BGD",
+        "value": 0.287800014019012
+      },
+      {
+        "country": "GHA",
+        "value": 1.56700003147125
+      },
+      {
+        "country": "HND",
+        "value": 1.30949997901917
+      },
+      {
+        "country": "HTI",
+        "value": 0.723100006580353
+      },
+      {
+        "country": "IND",
+        "value": 0.769200026988983
+      },
+      {
+        "country": "KEN",
+        "value": 1.70710003376007
+      },
+      {
+        "country": "KGZ",
+        "value": 12.0304002761841
+      },
+      {
+        "country": "MAR",
+        "value": 1.26689994335175
+      },
+      {
+        "country": "NIC",
+        "value": 2.40599989891052
+      },
+      {
+        "country": "NPL",
+        "value": 0.18019999563694
+      },
+      {
+        "country": "PNG",
+        "value": 4.73540019989014
+      },
+      {
+        "country": "TJK",
+        "value": 10.6448001861572
+      },
+      {
+        "country": "UZB",
+        "value": 11.8341999053955
+      },
+      {
+        "country": "VEN",
+        "value": 2.69309997558594
+      },
+      {
+        "country": "ZWE",
+        "value": 1.39359998703003
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-GH-HN-HT-IN-KE-KG-MA-NI-NP-PG-TJ-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1988,
+    "value": 2.31215000152588,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "EGY",
+        "value": 2.12470006942749
+      },
+      {
+        "country": "GIN",
+        "value": 0.584100008010864
+      },
+      {
+        "country": "KGZ",
+        "value": 11.9474000930786
+      },
+      {
+        "country": "KHM",
+        "value": 2.09870004653931
+      },
+      {
+        "country": "NGA",
+        "value": 6.37029981613159
+      },
+      {
+        "country": "NPL",
+        "value": 0.239800006151199
+      },
+      {
+        "country": "TJK",
+        "value": 10.6742000579834
+      },
+      {
+        "country": "TZA",
+        "value": 1.09039998054504
+      },
+      {
+        "country": "UZB",
+        "value": 12.2161998748779
+      },
+      {
+        "country": "VEN",
+        "value": 2.49959993362427
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=EG-GN-KG-KH-NG-NP-TJ-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1989,
+    "value": 1.992800056934355,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "CIV",
+        "value": 0.828499972820282
+      },
+      {
+        "country": "CMR",
+        "value": 2.59829998016357
+      },
+      {
+        "country": "COM",
+        "value": 3.12490010261536
+      },
+      {
+        "country": "EGY",
+        "value": 2.01990008354187
+      },
+      {
+        "country": "KEN",
+        "value": 1.43620002269745
+      },
+      {
+        "country": "KGZ",
+        "value": 11.9720001220703
+      },
+      {
+        "country": "NIC",
+        "value": 1.82690000534058
+      },
+      {
+        "country": "NPL",
+        "value": 0.244299992918968
+      },
+      {
+        "country": "PAK",
+        "value": 0.604300022125244
+      },
+      {
+        "country": "PNG",
+        "value": 3.32990002632141
+      },
+      {
+        "country": "SEN",
+        "value": 0.523999989032745
+      },
+      {
+        "country": "TJK",
+        "value": 10.6297998428345
+      },
+      {
+        "country": "TUN",
+        "value": 1.96570003032684
+      },
+      {
+        "country": "UZB",
+        "value": 12.2850999832153
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=CI-CM-KM-EG-KE-KG-NI-NP-PK-PG-SN-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1990,
+    "value": 1.48555004595,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 1.2913000584
+      },
+      {
+        "country": "BEN",
+        "value": 0.8338999748
+      },
+      {
+        "country": "BGD",
+        "value": 0.3041999936
+      },
+      {
+        "country": "BOL",
+        "value": 1.317800045
+      },
+      {
+        "country": "BTN",
+        "value": 0.8467000127
+      },
+      {
+        "country": "CIV",
+        "value": 0.8116000295
+      },
+      {
+        "country": "CMR",
+        "value": 2.5532999039
+      },
+      {
+        "country": "COG",
+        "value": 3.3499999046
+      },
+      {
+        "country": "COM",
+        "value": 2.7616000175
+      },
+      {
+        "country": "DJI",
+        "value": 2.5397000313
+      },
+      {
+        "country": "EGY",
+        "value": 2.0708999634
+      },
+      {
+        "country": "GHA",
+        "value": 1.4600000381
+      },
+      {
+        "country": "GIN",
+        "value": 0.5507000089
+      },
+      {
+        "country": "HND",
+        "value": 1.0067000389
+      },
+      {
+        "country": "HTI",
+        "value": 0.7555999756
+      },
+      {
+        "country": "KEN",
+        "value": 1.6471999884
+      },
+      {
+        "country": "KGZ",
+        "value": 11.9772996902
+      },
+      {
+        "country": "KHM",
+        "value": 2.0720999241
+      },
+      {
+        "country": "KIR",
+        "value": 4.2718000412
+      },
+      {
+        "country": "LAO",
+        "value": 2.5697999001
+      },
+      {
+        "country": "LBN",
+        "value": 1.6505999565
+      },
+      {
+        "country": "MAR",
+        "value": 1.2899999619
+      },
+      {
+        "country": "MMR",
+        "value": 0.635800004
+      },
+      {
+        "country": "MRT",
+        "value": 0.6654000282
+      },
+      {
+        "country": "NGA",
+        "value": 1.668200016
+      },
+      {
+        "country": "NIC",
+        "value": 1.8213000298
+      },
+      {
+        "country": "NPL",
+        "value": 0.243599996
+      },
+      {
+        "country": "PAK",
+        "value": 0.6399999857
+      },
+      {
+        "country": "PNG",
+        "value": 4.0241999626
+      },
+      {
+        "country": "SEN",
+        "value": 0.7296000123
+      },
+      {
+        "country": "SLB",
+        "value": 0.8281000257
+      },
+      {
+        "country": "TGO",
+        "value": 1.5111000538
+      },
+      {
+        "country": "TJK",
+        "value": 10.6618003845
+      },
+      {
+        "country": "TUN",
+        "value": 1.9167000055
+      },
+      {
+        "country": "TZA",
+        "value": 1.024600029
+      },
+      {
+        "country": "UZB",
+        "value": 12.48279953
+      },
+      {
+        "country": "VEN",
+        "value": 2.6779000759
+      },
+      {
+        "country": "ZWE",
+        "value": 0.5105000138
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=AO-BJ-BD-BO-BT-CI-CM-CG-KM-DJ-EG-GH-GN-HN-HT-KE-KG-KH-KI-LA-LB-MA-MM-MR-NG-NI-NP-PK-PG-SN-SB-TG-TJ-TN-TZ-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1991,
+    "value": 2.0123000145,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.5005000234
+      },
+      {
+        "country": "BGD",
+        "value": 0.3080999851
+      },
+      {
+        "country": "BOL",
+        "value": 1.4110000134
+      },
+      {
+        "country": "EGY",
+        "value": 2.0241999626
+      },
+      {
+        "country": "IND",
+        "value": 0.7870000005
+      },
+      {
+        "country": "KGZ",
+        "value": 12.0579996109
+      },
+      {
+        "country": "NPL",
+        "value": 0.2372000068
+      },
+      {
+        "country": "PAK",
+        "value": 0.6521999836
+      },
+      {
+        "country": "STP",
+        "value": 4.7372999191
+      },
+      {
+        "country": "TJK",
+        "value": 10.9629001617
+      },
+      {
+        "country": "TUN",
+        "value": 2.0123000145
+      },
+      {
+        "country": "UZB",
+        "value": 10.9472999573
+      },
+      {
+        "country": "VEN",
+        "value": 2.6775999069
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-EG-IN-KG-NP-PK-ST-TJ-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1992,
+    "value": 2.66054999825,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.2231000066
+      },
+      {
+        "country": "EGY",
+        "value": 2.0004000664
+      },
+      {
+        "country": "KGZ",
+        "value": 11.9320001602
+      },
+      {
+        "country": "LBN",
+        "value": 3.0827000141
+      },
+      {
+        "country": "NPL",
+        "value": 0.2425999939
+      },
+      {
+        "country": "PAK",
+        "value": 0.6446999907
+      },
+      {
+        "country": "SLB",
+        "value": 2.7481000423
+      },
+      {
+        "country": "TJK",
+        "value": 11.2423000336
+      },
+      {
+        "country": "TUN",
+        "value": 2.8573000431
+      },
+      {
+        "country": "TZA",
+        "value": 0.8902999759
+      },
+      {
+        "country": "UZB",
+        "value": 10.7540998459
+      },
+      {
+        "country": "VEN",
+        "value": 2.5729999542
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-EG-KG-LB-NP-PK-SB-TJ-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1993,
+    "value": 1.59999996425,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.2390999943
+      },
+      {
+        "country": "BOL",
+        "value": 1.3999999762
+      },
+      {
+        "country": "EGY",
+        "value": 1.9292999506
+      },
+      {
+        "country": "HND",
+        "value": 0.8000000119
+      },
+      {
+        "country": "HTI",
+        "value": 0.7990999818
+      },
+      {
+        "country": "KGZ",
+        "value": 10.7455997467
+      },
+      {
+        "country": "NIC",
+        "value": 1.7999999523
+      },
+      {
+        "country": "NPL",
+        "value": 0.2387000024
+      },
+      {
+        "country": "PAK",
+        "value": 0.6514999866
+      },
+      {
+        "country": "TJK",
+        "value": 10.6812000275
+      },
+      {
+        "country": "UZB",
+        "value": 9.394200325
+      },
+      {
+        "country": "VEN",
+        "value": 2.5999999046
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BO-EG-HN-HT-KG-NI-NP-PK-TJ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1994,
+    "value": 1.3635500073,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.2336000055
+      },
+      {
+        "country": "BGD",
+        "value": 0.3048999906
+      },
+      {
+        "country": "BTN",
+        "value": 1.6147999763
+      },
+      {
+        "country": "KGZ",
+        "value": 9.6052999496
+      },
+      {
+        "country": "MAR",
+        "value": 1.1123000383
+      },
+      {
+        "country": "NPL",
+        "value": 0.2322999984
+      },
+      {
+        "country": "SEN",
+        "value": 0.2475000024
+      },
+      {
+        "country": "TJK",
+        "value": 8.9413003922
+      },
+      {
+        "country": "TUN",
+        "value": 1.761500001
+      },
+      {
+        "country": "UZB",
+        "value": 8.6632995605
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BT-KG-MA-NP-SN-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 1996,
+    "value": 1.4800000191,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 1.6699999571
+      },
+      {
+        "country": "EGY",
+        "value": 2.0999999046
+      },
+      {
+        "country": "HND",
+        "value": 1.0599999428
+      },
+      {
+        "country": "HTI",
+        "value": 0.7099999785
+      },
+      {
+        "country": "KGZ",
+        "value": 8.4099998474
+      },
+      {
+        "country": "NIC",
+        "value": 1.4800000191
+      },
+      {
+        "country": "NPL",
+        "value": 0.1599999964
+      },
+      {
+        "country": "PSE",
+        "value": 1.2000000477
+      },
+      {
+        "country": "SEN",
+        "value": 0.4499999881
+      },
+      {
+        "country": "TJK",
+        "value": 7.4699997902
+      },
+      {
+        "country": "TUN",
+        "value": 2
+      },
+      {
+        "country": "UZB",
+        "value": 7.9299998283
+      },
+      {
+        "country": "VEN",
+        "value": 1.4700000286
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BO-EG-HN-HT-KG-NI-NP-PS-SN-TJ-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2000,
+    "value": 1.71,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "EGY",
+        "value": 1.92
+      },
+      {
+        "country": "HND",
+        "value": 0.61
+      },
+      {
+        "country": "IND",
+        "value": 2.13
+      },
+      {
+        "country": "KGZ",
+        "value": 6.85
+      },
+      {
+        "country": "LAO",
+        "value": 1.16
+      },
+      {
+        "country": "LBN",
+        "value": 3.07
+      },
+      {
+        "country": "MAR",
+        "value": 0.88
+      },
+      {
+        "country": "PAK",
+        "value": 0.49
+      },
+      {
+        "country": "PSE",
+        "value": 1.19
+      },
+      {
+        "country": "TJK",
+        "value": 6.44
+      },
+      {
+        "country": "TUN",
+        "value": 1.71
+      },
+      {
+        "country": "UZB",
+        "value": 5.59
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BT-EG-HN-IN-KG-LA-LB-MA-PK-PS-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2001,
+    "value": 1.67,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 1.67
+      },
+      {
+        "country": "EGY",
+        "value": 1.92
+      },
+      {
+        "country": "HND",
+        "value": 0.6
+      },
+      {
+        "country": "IND",
+        "value": 2.09
+      },
+      {
+        "country": "KGZ",
+        "value": 5.98
+      },
+      {
+        "country": "LAO",
+        "value": 1.15
+      },
+      {
+        "country": "LBN",
+        "value": 3
+      },
+      {
+        "country": "MAR",
+        "value": 0.89
+      },
+      {
+        "country": "NPL",
+        "value": 0.21
+      },
+      {
+        "country": "PAK",
+        "value": 0.5
+      },
+      {
+        "country": "PSE",
+        "value": 1.37
+      },
+      {
+        "country": "TJK",
+        "value": 6.3
+      },
+      {
+        "country": "UZB",
+        "value": 5.58
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BT-EG-HN-IN-KG-LA-LB-MA-NP-PK-PS-TJ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2002,
+    "value": 1.5099999999999998,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 1.64
+      },
+      {
+        "country": "EGY",
+        "value": 1.9
+      },
+      {
+        "country": "HND",
+        "value": 0.59
+      },
+      {
+        "country": "IND",
+        "value": 2.05
+      },
+      {
+        "country": "KGZ",
+        "value": 5.36
+      },
+      {
+        "country": "KHM",
+        "value": 0.6
+      },
+      {
+        "country": "LAO",
+        "value": 1.13
+      },
+      {
+        "country": "LBN",
+        "value": 3
+      },
+      {
+        "country": "MAR",
+        "value": 0.89
+      },
+      {
+        "country": "NPL",
+        "value": 0.21
+      },
+      {
+        "country": "PAK",
+        "value": 0.49
+      },
+      {
+        "country": "PSE",
+        "value": 1.38
+      },
+      {
+        "country": "TGO",
+        "value": 0.92
+      },
+      {
+        "country": "TJK",
+        "value": 6.19
+      },
+      {
+        "country": "TUN",
+        "value": 1.67
+      },
+      {
+        "country": "UZB",
+        "value": 5.79
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BT-EG-HN-IN-KG-KH-LA-LB-MA-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2003,
+    "value": 1.46,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "EGY",
+        "value": 1.9
+      },
+      {
+        "country": "HND",
+        "value": 0.59
+      },
+      {
+        "country": "IND",
+        "value": 2.02
+      },
+      {
+        "country": "KGZ",
+        "value": 5.15
+      },
+      {
+        "country": "LAO",
+        "value": 1.1
+      },
+      {
+        "country": "LBN",
+        "value": 3
+      },
+      {
+        "country": "MAR",
+        "value": 0.89
+      },
+      {
+        "country": "MMR",
+        "value": 0.7
+      },
+      {
+        "country": "NPL",
+        "value": 0.2
+      },
+      {
+        "country": "PAK",
+        "value": 0.48
+      },
+      {
+        "country": "PSE",
+        "value": 1.25
+      },
+      {
+        "country": "TGO",
+        "value": 0.81
+      },
+      {
+        "country": "TJK",
+        "value": 6.04
+      },
+      {
+        "country": "TUN",
+        "value": 1.67
+      },
+      {
+        "country": "UZB",
+        "value": 5.71
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BT-EG-HN-IN-KG-LA-LB-MA-MM-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2004,
+    "value": 1.325,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "EGY",
+        "value": 1.92
+      },
+      {
+        "country": "HND",
+        "value": 0.59
+      },
+      {
+        "country": "IND",
+        "value": 1.99
+      },
+      {
+        "country": "KEN",
+        "value": 1.4
+      },
+      {
+        "country": "KGZ",
+        "value": 5
+      },
+      {
+        "country": "LAO",
+        "value": 1.15
+      },
+      {
+        "country": "LBN",
+        "value": 3
+      },
+      {
+        "country": "MAR",
+        "value": 0.87
+      },
+      {
+        "country": "MMR",
+        "value": 0.71
+      },
+      {
+        "country": "NGA",
+        "value": 0.5
+      },
+      {
+        "country": "NPL",
+        "value": 0.2
+      },
+      {
+        "country": "PAK",
+        "value": 0.48
+      },
+      {
+        "country": "PSE",
+        "value": 1.25
+      },
+      {
+        "country": "TGO",
+        "value": 0.78
+      },
+      {
+        "country": "TJK",
+        "value": 5.97
+      },
+      {
+        "country": "TUN",
+        "value": 1.72
+      },
+      {
+        "country": "UZB",
+        "value": 5.49
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BT-EG-HN-IN-KE-KG-LA-LB-MA-MM-NG-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2005,
+    "value": 1.15,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 1.06
+      },
+      {
+        "country": "BTN",
+        "value": 1.63
+      },
+      {
+        "country": "COG",
+        "value": 1.6
+      },
+      {
+        "country": "EGY",
+        "value": 1.88
+      },
+      {
+        "country": "GIN",
+        "value": 0.3
+      },
+      {
+        "country": "HND",
+        "value": 0.59
+      },
+      {
+        "country": "IND",
+        "value": 1.95
+      },
+      {
+        "country": "KGZ",
+        "value": 4.99
+      },
+      {
+        "country": "KHM",
+        "value": 0.59
+      },
+      {
+        "country": "LAO",
+        "value": 1.15
+      },
+      {
+        "country": "LBN",
+        "value": 3.6
+      },
+      {
+        "country": "MAR",
+        "value": 0.86
+      },
+      {
+        "country": "MMR",
+        "value": 0.72
+      },
+      {
+        "country": "NIC",
+        "value": 0.83
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.47
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "TGO",
+        "value": 0.7
+      },
+      {
+        "country": "TJK",
+        "value": 5.86
+      },
+      {
+        "country": "TUN",
+        "value": 1.72
+      },
+      {
+        "country": "UZB",
+        "value": 5.4
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BO-BT-CG-EG-GN-HN-IN-KG-KH-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2006,
+    "value": 1.205,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BOL",
+        "value": 1.09
+      },
+      {
+        "country": "BTN",
+        "value": 1.69
+      },
+      {
+        "country": "CIV",
+        "value": 0.4
+      },
+      {
+        "country": "COM",
+        "value": 2.2
+      },
+      {
+        "country": "EGY",
+        "value": 2.08
+      },
+      {
+        "country": "HND",
+        "value": 0.54
+      },
+      {
+        "country": "IND",
+        "value": 1.92
+      },
+      {
+        "country": "KGZ",
+        "value": 4.97
+      },
+      {
+        "country": "LAO",
+        "value": 1.11
+      },
+      {
+        "country": "LBN",
+        "value": 3.6
+      },
+      {
+        "country": "LSO",
+        "value": 1.3
+      },
+      {
+        "country": "MAR",
+        "value": 0.87
+      },
+      {
+        "country": "MMR",
+        "value": 0.72
+      },
+      {
+        "country": "MRT",
+        "value": 0.4
+      },
+      {
+        "country": "NIC",
+        "value": 0.8
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.46
+      },
+      {
+        "country": "PSE",
+        "value": 1.34
+      },
+      {
+        "country": "TGO",
+        "value": 0.84
+      },
+      {
+        "country": "TJK",
+        "value": 5.72
+      },
+      {
+        "country": "TUN",
+        "value": 1.74
+      },
+      {
+        "country": "UZB",
+        "value": 5.38
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BO-BT-CI-KM-EG-HN-IN-KG-LA-LB-LS-MA-MM-MR-NI-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2007,
+    "value": 1.245,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.35
+      },
+      {
+        "country": "BOL",
+        "value": 1.09
+      },
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "EGY",
+        "value": 1.82
+      },
+      {
+        "country": "HND",
+        "value": 0.56
+      },
+      {
+        "country": "IND",
+        "value": 1.89
+      },
+      {
+        "country": "KGZ",
+        "value": 5.28
+      },
+      {
+        "country": "LAO",
+        "value": 1.15
+      },
+      {
+        "country": "LBN",
+        "value": 3.43
+      },
+      {
+        "country": "MMR",
+        "value": 0.74
+      },
+      {
+        "country": "NIC",
+        "value": 0.9
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.46
+      },
+      {
+        "country": "PSE",
+        "value": 1.34
+      },
+      {
+        "country": "TGO",
+        "value": 0.64
+      },
+      {
+        "country": "TJK",
+        "value": 5.4
+      },
+      {
+        "country": "TUN",
+        "value": 1.72
+      },
+      {
+        "country": "UZB",
+        "value": 5.13
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-EG-HN-IN-KG-LA-LB-MM-NI-NP-PK-PS-TG-TJ-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2008,
+    "value": 1.22,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.37
+      },
+      {
+        "country": "BOL",
+        "value": 1.08
+      },
+      {
+        "country": "BTN",
+        "value": 1.7
+      },
+      {
+        "country": "EGY",
+        "value": 1.59
+      },
+      {
+        "country": "HND",
+        "value": 0.52
+      },
+      {
+        "country": "IND",
+        "value": 1.87
+      },
+      {
+        "country": "KGZ",
+        "value": 5.28
+      },
+      {
+        "country": "KHM",
+        "value": 0.64
+      },
+      {
+        "country": "LAO",
+        "value": 1.16
+      },
+      {
+        "country": "LBN",
+        "value": 3.43
+      },
+      {
+        "country": "MAR",
+        "value": 0.87
+      },
+      {
+        "country": "MMR",
+        "value": 0.77
+      },
+      {
+        "country": "NIC",
+        "value": 0.89
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.44
+      },
+      {
+        "country": "PSE",
+        "value": 1.28
+      },
+      {
+        "country": "TGO",
+        "value": 0.62
+      },
+      {
+        "country": "TJK",
+        "value": 5.27
+      },
+      {
+        "country": "TUN",
+        "value": 1.78
+      },
+      {
+        "country": "UZB",
+        "value": 5
+      },
+      {
+        "country": "VUT",
+        "value": 1.73
+      },
+      {
+        "country": "ZMB",
+        "value": 1.9
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-EG-HN-IN-KG-KH-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TN-UZ-VU-ZM",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2009,
+    "value": 1.2650000000000001,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.49
+      },
+      {
+        "country": "BOL",
+        "value": 1.05
+      },
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "EGY",
+        "value": 1.48
+      },
+      {
+        "country": "HND",
+        "value": 0.55
+      },
+      {
+        "country": "IND",
+        "value": 1.84
+      },
+      {
+        "country": "KGZ",
+        "value": 5.15
+      },
+      {
+        "country": "LAO",
+        "value": 1.03
+      },
+      {
+        "country": "LBN",
+        "value": 3.45
+      },
+      {
+        "country": "MAR",
+        "value": 0.85
+      },
+      {
+        "country": "MMR",
+        "value": 0.78
+      },
+      {
+        "country": "NAM",
+        "value": 2.7
+      },
+      {
+        "country": "NIC",
+        "value": 0.9
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.43
+      },
+      {
+        "country": "PSE",
+        "value": 2.19
+      },
+      {
+        "country": "TGO",
+        "value": 0.63
+      },
+      {
+        "country": "TJK",
+        "value": 5.16
+      },
+      {
+        "country": "TUN",
+        "value": 1.8
+      },
+      {
+        "country": "TZA",
+        "value": 0.63
+      },
+      {
+        "country": "UZB",
+        "value": 5
+      },
+      {
+        "country": "ZWE",
+        "value": 1.81
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-EG-HN-IN-KG-LA-LB-MA-MM-NA-NI-NP-PK-PS-TG-TJ-TN-TZ-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2010,
+    "value": 1.06,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.43
+      },
+      {
+        "country": "BGD",
+        "value": 0.54
+      },
+      {
+        "country": "BOL",
+        "value": 1.06
+      },
+      {
+        "country": "BTN",
+        "value": 1.69
+      },
+      {
+        "country": "COM",
+        "value": 2.16
+      },
+      {
+        "country": "EGY",
+        "value": 1.4
+      },
+      {
+        "country": "GHA",
+        "value": 0.7
+      },
+      {
+        "country": "HND",
+        "value": 0.61
+      },
+      {
+        "country": "HTI",
+        "value": 0.66
+      },
+      {
+        "country": "IND",
+        "value": 1.81
+      },
+      {
+        "country": "KEN",
+        "value": 1.4
+      },
+      {
+        "country": "KGZ",
+        "value": 5.05
+      },
+      {
+        "country": "KHM",
+        "value": 0.8
+      },
+      {
+        "country": "KIR",
+        "value": 1.32
+      },
+      {
+        "country": "LAO",
+        "value": 1.06
+      },
+      {
+        "country": "LBN",
+        "value": 3.45
+      },
+      {
+        "country": "MAR",
+        "value": 0.84
+      },
+      {
+        "country": "MMR",
+        "value": 0.87
+      },
+      {
+        "country": "NIC",
+        "value": 0.9
+      },
+      {
+        "country": "NPL",
+        "value": 0.25
+      },
+      {
+        "country": "PAK",
+        "value": 0.42
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "TGO",
+        "value": 0.57
+      },
+      {
+        "country": "TJK",
+        "value": 4.99
+      },
+      {
+        "country": "TLS",
+        "value": 0.44
+      },
+      {
+        "country": "TUN",
+        "value": 1.82
+      },
+      {
+        "country": "TZA",
+        "value": 0.74
+      },
+      {
+        "country": "UZB",
+        "value": 4.92
+      },
+      {
+        "country": "ZMB",
+        "value": 2
+      },
+      {
+        "country": "ZWE",
+        "value": 1.78
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-KM-EG-GH-HN-HT-IN-KE-KG-KH-KI-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TL-TN-TZ-UZ-ZM-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2011,
+    "value": 0.94,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.47
+      },
+      {
+        "country": "BGD",
+        "value": 0.53
+      },
+      {
+        "country": "BOL",
+        "value": 1.04
+      },
+      {
+        "country": "BTN",
+        "value": 1.8
+      },
+      {
+        "country": "EGY",
+        "value": 1.4
+      },
+      {
+        "country": "GHA",
+        "value": 0.68
+      },
+      {
+        "country": "GIN",
+        "value": 0.3
+      },
+      {
+        "country": "HND",
+        "value": 0.57
+      },
+      {
+        "country": "IND",
+        "value": 1.79
+      },
+      {
+        "country": "KGZ",
+        "value": 4.94
+      },
+      {
+        "country": "LAO",
+        "value": 1.32
+      },
+      {
+        "country": "LBN",
+        "value": 3.45
+      },
+      {
+        "country": "MAR",
+        "value": 0.83
+      },
+      {
+        "country": "MMR",
+        "value": 0.88
+      },
+      {
+        "country": "NIC",
+        "value": 0.92
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.43
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "TGO",
+        "value": 0.56
+      },
+      {
+        "country": "TJK",
+        "value": 4.88
+      },
+      {
+        "country": "TUN",
+        "value": 1.8
+      },
+      {
+        "country": "TZA",
+        "value": 0.76
+      },
+      {
+        "country": "UZB",
+        "value": 4.85
+      },
+      {
+        "country": "VEN",
+        "value": 0.94
+      },
+      {
+        "country": "ZWE",
+        "value": 1.75
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-EG-GH-GN-HN-IN-KG-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TN-TZ-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2012,
+    "value": 1.1,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.46
+      },
+      {
+        "country": "BGD",
+        "value": 0.61
+      },
+      {
+        "country": "BOL",
+        "value": 1.07
+      },
+      {
+        "country": "BTN",
+        "value": 1.78
+      },
+      {
+        "country": "DJI",
+        "value": 1.1
+      },
+      {
+        "country": "EGY",
+        "value": 1.38
+      },
+      {
+        "country": "GHA",
+        "value": 0.72
+      },
+      {
+        "country": "HND",
+        "value": 0.61
+      },
+      {
+        "country": "IND",
+        "value": 1.76
+      },
+      {
+        "country": "KGZ",
+        "value": 4.87
+      },
+      {
+        "country": "LAO",
+        "value": 1.53
+      },
+      {
+        "country": "LBN",
+        "value": 3.45
+      },
+      {
+        "country": "MAR",
+        "value": 0.83
+      },
+      {
+        "country": "MMR",
+        "value": 0.89
+      },
+      {
+        "country": "NIC",
+        "value": 0.91
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.45
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "TGO",
+        "value": 0.63
+      },
+      {
+        "country": "TJK",
+        "value": 4.76
+      },
+      {
+        "country": "TUN",
+        "value": 1.79
+      },
+      {
+        "country": "UZB",
+        "value": 4.73
+      },
+      {
+        "country": "ZWE",
+        "value": 1.86
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-GH-HN-IN-KG-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TN-UZ-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2013,
+    "value": 1.04,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.46
+      },
+      {
+        "country": "BGD",
+        "value": 0.58
+      },
+      {
+        "country": "BOL",
+        "value": 1.09
+      },
+      {
+        "country": "BTN",
+        "value": 1.76
+      },
+      {
+        "country": "DJI",
+        "value": 1.07
+      },
+      {
+        "country": "EGY",
+        "value": 1.37
+      },
+      {
+        "country": "GHA",
+        "value": 0.73
+      },
+      {
+        "country": "HND",
+        "value": 0.64
+      },
+      {
+        "country": "HTI",
+        "value": 0.72
+      },
+      {
+        "country": "IND",
+        "value": 1.74
+      },
+      {
+        "country": "KGZ",
+        "value": 4.76
+      },
+      {
+        "country": "KHM",
+        "value": 0.82
+      },
+      {
+        "country": "LAO",
+        "value": 1.1
+      },
+      {
+        "country": "LBN",
+        "value": 2.86
+      },
+      {
+        "country": "MAR",
+        "value": 0.82
+      },
+      {
+        "country": "MMR",
+        "value": 0.91
+      },
+      {
+        "country": "NIC",
+        "value": 0.95
+      },
+      {
+        "country": "NPL",
+        "value": 0.26
+      },
+      {
+        "country": "PAK",
+        "value": 0.47
+      },
+      {
+        "country": "PSE",
+        "value": 1.25
+      },
+      {
+        "country": "SWZ",
+        "value": 2.02
+      },
+      {
+        "country": "TGO",
+        "value": 0.62
+      },
+      {
+        "country": "TJK",
+        "value": 4.7
+      },
+      {
+        "country": "TUN",
+        "value": 1.81
+      },
+      {
+        "country": "TZA",
+        "value": 1.01
+      },
+      {
+        "country": "UZB",
+        "value": 4.51
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-GH-HN-HT-IN-KG-KH-LA-LB-MA-MM-NI-NP-PK-PS-SZ-TG-TJ-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2014,
+    "value": 1.1,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.44
+      },
+      {
+        "country": "BGD",
+        "value": 0.6
+      },
+      {
+        "country": "BOL",
+        "value": 1.12
+      },
+      {
+        "country": "BTN",
+        "value": 1.74
+      },
+      {
+        "country": "DJI",
+        "value": 1.18
+      },
+      {
+        "country": "EGY",
+        "value": 1.34
+      },
+      {
+        "country": "GHA",
+        "value": 0.71
+      },
+      {
+        "country": "HND",
+        "value": 0.61
+      },
+      {
+        "country": "IND",
+        "value": 1.72
+      },
+      {
+        "country": "KGZ",
+        "value": 4.67
+      },
+      {
+        "country": "LAO",
+        "value": 1.08
+      },
+      {
+        "country": "LBN",
+        "value": 2.85
+      },
+      {
+        "country": "MMR",
+        "value": 0.94
+      },
+      {
+        "country": "NIC",
+        "value": 0.96
+      },
+      {
+        "country": "NPL",
+        "value": 0.27
+      },
+      {
+        "country": "PAK",
+        "value": 0.47
+      },
+      {
+        "country": "PSE",
+        "value": 1.31
+      },
+      {
+        "country": "TGO",
+        "value": 0.61
+      },
+      {
+        "country": "TJK",
+        "value": 4.59
+      },
+      {
+        "country": "TUN",
+        "value": 1.79
+      },
+      {
+        "country": "TZA",
+        "value": 0.68
+      },
+      {
+        "country": "UZB",
+        "value": 4.33
+      },
+      {
+        "country": "VEN",
+        "value": 0.79
+      },
+      {
+        "country": "ZWE",
+        "value": 1.95
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-GH-HN-IN-KG-LA-LB-MM-NI-NP-PK-PS-TG-TJ-TN-TZ-UZ-VE-ZW",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2015,
+    "value": 1.07,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.43
+      },
+      {
+        "country": "BGD",
+        "value": 0.76
+      },
+      {
+        "country": "BOL",
+        "value": 1.18
+      },
+      {
+        "country": "BTN",
+        "value": 1.72
+      },
+      {
+        "country": "DJI",
+        "value": 1.26
+      },
+      {
+        "country": "EGY",
+        "value": 1.25
+      },
+      {
+        "country": "GHA",
+        "value": 0.69
+      },
+      {
+        "country": "HND",
+        "value": 0.6
+      },
+      {
+        "country": "IND",
+        "value": 1.7
+      },
+      {
+        "country": "KGZ",
+        "value": 4.48
+      },
+      {
+        "country": "KHM",
+        "value": 0.83
+      },
+      {
+        "country": "LAO",
+        "value": 1.15
+      },
+      {
+        "country": "LBN",
+        "value": 3.37
+      },
+      {
+        "country": "MMR",
+        "value": 1.07
+      },
+      {
+        "country": "NIC",
+        "value": 0.92
+      },
+      {
+        "country": "NPL",
+        "value": 0.25
+      },
+      {
+        "country": "PAK",
+        "value": 0.46
+      },
+      {
+        "country": "PSE",
+        "value": 1.28
+      },
+      {
+        "country": "SEN",
+        "value": 0.68
+      },
+      {
+        "country": "TGO",
+        "value": 0.64
+      },
+      {
+        "country": "TJK",
+        "value": 4.52
+      },
+      {
+        "country": "TLS",
+        "value": 0.39
+      },
+      {
+        "country": "TUN",
+        "value": 1.8
+      },
+      {
+        "country": "UZB",
+        "value": 4.22
+      },
+      {
+        "country": "VEN",
+        "value": 0.75
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-GH-HN-IN-KG-KH-LA-LB-MM-NI-NP-PK-PS-SN-TG-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2016,
+    "value": 1.23,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.42
+      },
+      {
+        "country": "BGD",
+        "value": 0.79
+      },
+      {
+        "country": "BOL",
+        "value": 1.23
+      },
+      {
+        "country": "BTN",
+        "value": 1.71
+      },
+      {
+        "country": "CMR",
+        "value": 2.65
+      },
+      {
+        "country": "DJI",
+        "value": 1.44
+      },
+      {
+        "country": "EGY",
+        "value": 1.25
+      },
+      {
+        "country": "HND",
+        "value": 0.63
+      },
+      {
+        "country": "IND",
+        "value": 1.68
+      },
+      {
+        "country": "KGZ",
+        "value": 4.45
+      },
+      {
+        "country": "KIR",
+        "value": 1.86
+      },
+      {
+        "country": "LAO",
+        "value": 1.21
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MMR",
+        "value": 1.07
+      },
+      {
+        "country": "NIC",
+        "value": 0.91
+      },
+      {
+        "country": "NPL",
+        "value": 0.28
+      },
+      {
+        "country": "PAK",
+        "value": 0.49
+      },
+      {
+        "country": "PSE",
+        "value": 1.28
+      },
+      {
+        "country": "SEN",
+        "value": 0.72
+      },
+      {
+        "country": "TGO",
+        "value": 0.65
+      },
+      {
+        "country": "TJK",
+        "value": 4.49
+      },
+      {
+        "country": "TUN",
+        "value": 1.79
+      },
+      {
+        "country": "TZA",
+        "value": 0.46
+      },
+      {
+        "country": "UZB",
+        "value": 4.22
+      },
+      {
+        "country": "VEN",
+        "value": 0.88
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-CM-DJ-EG-HN-IN-KG-KI-LA-LB-MM-NI-NP-PK-PS-SN-TG-TJ-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2017,
+    "value": 1.26,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.42
+      },
+      {
+        "country": "BGD",
+        "value": 0.84
+      },
+      {
+        "country": "BOL",
+        "value": 1.26
+      },
+      {
+        "country": "BTN",
+        "value": 1.69
+      },
+      {
+        "country": "DJI",
+        "value": 1.42
+      },
+      {
+        "country": "EGY",
+        "value": 1.27
+      },
+      {
+        "country": "HND",
+        "value": 0.64
+      },
+      {
+        "country": "IND",
+        "value": 1.66
+      },
+      {
+        "country": "KGZ",
+        "value": 4.33
+      },
+      {
+        "country": "LAO",
+        "value": 1.58
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MAR",
+        "value": 0.72
+      },
+      {
+        "country": "MMR",
+        "value": 1.06
+      },
+      {
+        "country": "NIC",
+        "value": 0.92
+      },
+      {
+        "country": "NPL",
+        "value": 0.29
+      },
+      {
+        "country": "PAK",
+        "value": 0.5
+      },
+      {
+        "country": "PSE",
+        "value": 1.32
+      },
+      {
+        "country": "TGO",
+        "value": 0.64
+      },
+      {
+        "country": "TJK",
+        "value": 4.41
+      },
+      {
+        "country": "TLS",
+        "value": 0.42
+      },
+      {
+        "country": "TUN",
+        "value": 1.81
+      },
+      {
+        "country": "UZB",
+        "value": 4.26
+      },
+      {
+        "country": "VEN",
+        "value": 0.91
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-HN-IN-KG-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TL-TN-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2018,
+    "value": 1.165,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.44
+      },
+      {
+        "country": "BGD",
+        "value": 0.88
+      },
+      {
+        "country": "BOL",
+        "value": 1.26
+      },
+      {
+        "country": "BTN",
+        "value": 1.72
+      },
+      {
+        "country": "DJI",
+        "value": 1.4
+      },
+      {
+        "country": "EGY",
+        "value": 1.24
+      },
+      {
+        "country": "HND",
+        "value": 0.65
+      },
+      {
+        "country": "HTI",
+        "value": 5.29
+      },
+      {
+        "country": "IND",
+        "value": 1.64
+      },
+      {
+        "country": "KGZ",
+        "value": 4.2
+      },
+      {
+        "country": "KHM",
+        "value": 0.73
+      },
+      {
+        "country": "LAO",
+        "value": 1.46
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MAR",
+        "value": 0.71
+      },
+      {
+        "country": "MMR",
+        "value": 1.06
+      },
+      {
+        "country": "NIC",
+        "value": 0.95
+      },
+      {
+        "country": "NPL",
+        "value": 0.29
+      },
+      {
+        "country": "PAK",
+        "value": 0.5
+      },
+      {
+        "country": "PSE",
+        "value": 1.33
+      },
+      {
+        "country": "TGO",
+        "value": 0.63
+      },
+      {
+        "country": "TJK",
+        "value": 4.34
+      },
+      {
+        "country": "TLS",
+        "value": 0.42
+      },
+      {
+        "country": "TUN",
+        "value": 1.82
+      },
+      {
+        "country": "TZA",
+        "value": 0.44
+      },
+      {
+        "country": "UZB",
+        "value": 4.74
+      },
+      {
+        "country": "VEN",
+        "value": 1.09
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-DJ-EG-HN-HT-IN-KG-KH-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TL-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2019,
+    "value": 1.05,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "AGO",
+        "value": 0.75
+      },
+      {
+        "country": "BEN",
+        "value": 0.4
+      },
+      {
+        "country": "BGD",
+        "value": 0.89
+      },
+      {
+        "country": "BOL",
+        "value": 1.28
+      },
+      {
+        "country": "BTN",
+        "value": 2.09
+      },
+      {
+        "country": "EGY",
+        "value": 1.19
+      },
+      {
+        "country": "HND",
+        "value": 0.65
+      },
+      {
+        "country": "HTI",
+        "value": 4.89
+      },
+      {
+        "country": "IND",
+        "value": 1.62
+      },
+      {
+        "country": "KEN",
+        "value": 1.33
+      },
+      {
+        "country": "KGZ",
+        "value": 4.09
+      },
+      {
+        "country": "LAO",
+        "value": 1.68
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MAR",
+        "value": 0.7
+      },
+      {
+        "country": "MMR",
+        "value": 1.05
+      },
+      {
+        "country": "NIC",
+        "value": 0.98
+      },
+      {
+        "country": "NPL",
+        "value": 0.29
+      },
+      {
+        "country": "PAK",
+        "value": 0.5
+      },
+      {
+        "country": "PNG",
+        "value": 0.17
+      },
+      {
+        "country": "PSE",
+        "value": 1.29
+      },
+      {
+        "country": "SEN",
+        "value": 0.71
+      },
+      {
+        "country": "STP",
+        "value": 2.91
+      },
+      {
+        "country": "TGO",
+        "value": 0.56
+      },
+      {
+        "country": "TJK",
+        "value": 4.26
+      },
+      {
+        "country": "TLS",
+        "value": 0.41
+      },
+      {
+        "country": "TUN",
+        "value": 1.82
+      },
+      {
+        "country": "TZA",
+        "value": 0.62
+      },
+      {
+        "country": "UZB",
+        "value": 4.65
+      },
+      {
+        "country": "VEN",
+        "value": 0.93
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=AO-BJ-BD-BO-BT-EG-HN-HT-IN-KE-KG-LA-LB-MA-MM-NI-NP-PK-PG-PS-SN-ST-TG-TJ-TL-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2020,
+    "value": 1.09,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.45
+      },
+      {
+        "country": "BGD",
+        "value": 0.97
+      },
+      {
+        "country": "BOL",
+        "value": 1.37
+      },
+      {
+        "country": "BTN",
+        "value": 2.13
+      },
+      {
+        "country": "EGY",
+        "value": 1.11
+      },
+      {
+        "country": "HND",
+        "value": 0.71
+      },
+      {
+        "country": "HTI",
+        "value": 5.06
+      },
+      {
+        "country": "IND",
+        "value": 1.61
+      },
+      {
+        "country": "KGZ",
+        "value": 4.04
+      },
+      {
+        "country": "LAO",
+        "value": 1.27
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MAR",
+        "value": 0.74
+      },
+      {
+        "country": "MMR",
+        "value": 1.07
+      },
+      {
+        "country": "NIC",
+        "value": 0.97
+      },
+      {
+        "country": "NPL",
+        "value": 0.28
+      },
+      {
+        "country": "PAK",
+        "value": 0.63
+      },
+      {
+        "country": "PSE",
+        "value": 1.28
+      },
+      {
+        "country": "TGO",
+        "value": 0.37
+      },
+      {
+        "country": "TJK",
+        "value": 4.26
+      },
+      {
+        "country": "TLS",
+        "value": 0.4
+      },
+      {
+        "country": "TUN",
+        "value": 2.42
+      },
+      {
+        "country": "TZA",
+        "value": 0.64
+      },
+      {
+        "country": "UZB",
+        "value": 4.77
+      },
+      {
+        "country": "VEN",
+        "value": 0.99
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-EG-HN-HT-IN-KG-LA-LB-MA-MM-NI-NP-PK-PS-TG-TJ-TL-TN-TZ-UZ-VE",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2021,
+    "value": 1.31,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BEN",
+        "value": 0.43
+      },
+      {
+        "country": "BGD",
+        "value": 0.94
+      },
+      {
+        "country": "BOL",
+        "value": 1.37
+      },
+      {
+        "country": "BTN",
+        "value": 2.21
+      },
+      {
+        "country": "EGY",
+        "value": 1.06
+      },
+      {
+        "country": "HND",
+        "value": 0.66
+      },
+      {
+        "country": "HTI",
+        "value": 4.8
+      },
+      {
+        "country": "IND",
+        "value": 1.59
+      },
+      {
+        "country": "KGZ",
+        "value": 4.05
+      },
+      {
+        "country": "LAO",
+        "value": 1.31
+      },
+      {
+        "country": "LBN",
+        "value": 2.73
+      },
+      {
+        "country": "MAR",
+        "value": 0.72
+      },
+      {
+        "country": "NIC",
+        "value": 0.92
+      },
+      {
+        "country": "NPL",
+        "value": 0.39
+      },
+      {
+        "country": "PSE",
+        "value": 1.49
+      },
+      {
+        "country": "TGO",
+        "value": 0.41
+      },
+      {
+        "country": "TJK",
+        "value": 4.22
+      },
+      {
+        "country": "TLS",
+        "value": 0.39
+      },
+      {
+        "country": "TUN",
+        "value": 2.46
+      },
+      {
+        "country": "TZA",
+        "value": 0.64
+      },
+      {
+        "country": "UZB",
+        "value": 4.83
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BJ-BD-BO-BT-EG-HN-HT-IN-KG-LA-LB-MA-NI-NP-PS-TG-TJ-TL-TN-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2022,
+    "value": 1.15,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 1.01
+      },
+      {
+        "country": "BOL",
+        "value": 1.39
+      },
+      {
+        "country": "BTN",
+        "value": 2.19
+      },
+      {
+        "country": "HND",
+        "value": 0.62
+      },
+      {
+        "country": "HTI",
+        "value": 4.68
+      },
+      {
+        "country": "KGZ",
+        "value": 3.9
+      },
+      {
+        "country": "LAO",
+        "value": 1.29
+      },
+      {
+        "country": "MAR",
+        "value": 0.73
+      },
+      {
+        "country": "NIC",
+        "value": 0.97
+      },
+      {
+        "country": "NPL",
+        "value": 0.53
+      },
+      {
+        "country": "PSE",
+        "value": 1.3
+      },
+      {
+        "country": "TGO",
+        "value": 0.33
+      },
+      {
+        "country": "TJK",
+        "value": 4.22
+      },
+      {
+        "country": "TLS",
+        "value": 0.39
+      },
+      {
+        "country": "TZA",
+        "value": 0.84
+      },
+      {
+        "country": "UZB",
+        "value": 4.78
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-HN-HT-KG-LA-MA-NI-NP-PS-TG-TJ-TL-TZ-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  },
+  {
+    "indicator_id": "beds",
+    "year": 2023,
+    "value": 1.6,
+    "unit": "per_1000_people",
+    "calculated_by_site": true,
+    "formula": "median",
+    "inputs": [
+      {
+        "country": "BGD",
+        "value": 0.92
+      },
+      {
+        "country": "BOL",
+        "value": 1.49
+      },
+      {
+        "country": "BTN",
+        "value": 2.16
+      },
+      {
+        "country": "HND",
+        "value": 0.53
+      },
+      {
+        "country": "HTI",
+        "value": 4.9
+      },
+      {
+        "country": "KGZ",
+        "value": 3.73
+      },
+      {
+        "country": "LAO",
+        "value": 1.71
+      },
+      {
+        "country": "MAR",
+        "value": 0.73
+      },
+      {
+        "country": "NPL",
+        "value": 0.54
+      },
+      {
+        "country": "PNG",
+        "value": 0.62
+      },
+      {
+        "country": "TJK",
+        "value": 4.04
+      },
+      {
+        "country": "TLS",
+        "value": 0.38
+      },
+      {
+        "country": "TUN",
+        "value": 1.82
+      },
+      {
+        "country": "UZB",
+        "value": 4.89
+      }
+    ],
+    "inputs_source_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD-BO-BT-HN-HT-KG-LA-MA-NP-PG-TJ-TL-TN-UZ",
+    "source_name": "World Bank, World Development Indicators",
+    "retrieved_at": "2026-11-14",
+    "group": "LMC",
+    "classification_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+    "classification_retrieved_at": "2026-11-13"
+  }
+]

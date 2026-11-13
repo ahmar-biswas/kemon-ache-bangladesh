@@ -1,0 +1,378 @@
+{
+  "indicator_id": "poverty_lmic",
+  "kind": "calculated",
+  "year": 2022,
+  "rank": 12,
+  "out_of": 73,
+  "order": "highest_first",
+  "source_name": "World Bank, Poverty headcount ratio at $4.20 a day (2021 PPP) (% of population)",
+  "source_url": "https://data.worldbank.org/indicator/SI.POV.LMIC?year=2022",
+  "retrieved_at": "2026-11-14",
+  "values": [
+    {
+      "country": "MOZ",
+      "value": 89.1,
+      "rank": 1
+    },
+    {
+      "country": "ZMB",
+      "value": 81.4,
+      "rank": 2
+    },
+    {
+      "country": "KEN",
+      "value": 65.5,
+      "rank": 3
+    },
+    {
+      "country": "NGA",
+      "value": 64,
+      "rank": 4
+    },
+    {
+      "country": "TCD",
+      "value": 61.4,
+      "rank": 5
+    },
+    {
+      "country": "SYR",
+      "value": 42.1,
+      "rank": 6
+    },
+    {
+      "country": "ZAF",
+      "value": 30.2,
+      "rank": 7
+    },
+    {
+      "country": "IND",
+      "value": 23.9,
+      "rank": 8
+    },
+    {
+      "country": "IDN",
+      "value": 23.7,
+      "rank": 9
+    },
+    {
+      "country": "KGZ",
+      "value": 22.1,
+      "rank": 10
+    },
+    {
+      "country": "GNQ",
+      "value": 21.5,
+      "rank": 11
+    },
+    {
+      "country": "BGD",
+      "value": 20.5,
+      "rank": 12
+    },
+    {
+      "country": "TJK",
+      "value": 18.9,
+      "rank": 13
+    },
+    {
+      "country": "GEO",
+      "value": 17.8,
+      "rank": 14
+    },
+    {
+      "country": "COL",
+      "value": 15.8,
+      "rank": 15
+    },
+    {
+      "country": "LBN",
+      "value": 15.7,
+      "rank": 16
+    },
+    {
+      "country": "XKX",
+      "value": 14.9,
+      "rank": 17
+    },
+    {
+      "country": "PER",
+      "value": 10.7,
+      "rank": 18
+    },
+    {
+      "country": "ARM",
+      "value": 10,
+      "rank": 19
+    },
+    {
+      "country": "SLV",
+      "value": 9.6,
+      "rank": 20
+    },
+    {
+      "country": "ECU",
+      "value": 9.2,
+      "rank": 21
+    },
+    {
+      "country": "NPL",
+      "value": 9.1,
+      "rank": 22
+    },
+    {
+      "country": "BRA",
+      "value": 8.5,
+      "rank": 23
+    },
+    {
+      "country": "UZB",
+      "value": 8.3,
+      "rank": 24
+    },
+    {
+      "country": "IRN",
+      "value": 8.2,
+      "rank": 25
+    },
+    {
+      "country": "PRY",
+      "value": 7.2,
+      "rank": 26
+    },
+    {
+      "country": "BOL",
+      "value": 5.7,
+      "rank": 27
+    },
+    {
+      "country": "MEX",
+      "value": 5.7,
+      "rank": 27
+    },
+    {
+      "country": "SUR",
+      "value": 4.6,
+      "rank": 29
+    },
+    {
+      "country": "VNM",
+      "value": 4.2,
+      "rank": 30
+    },
+    {
+      "country": "CRI",
+      "value": 4,
+      "rank": 31
+    },
+    {
+      "country": "DOM",
+      "value": 3.2,
+      "rank": 32
+    },
+    {
+      "country": "SRB",
+      "value": 3.2,
+      "rank": 32
+    },
+    {
+      "country": "ARG",
+      "value": 2.9,
+      "rank": 34
+    },
+    {
+      "country": "ROU",
+      "value": 2.8,
+      "rank": 35
+    },
+    {
+      "country": "MNG",
+      "value": 2.3,
+      "rank": 36
+    },
+    {
+      "country": "BGR",
+      "value": 1.7,
+      "rank": 37
+    },
+    {
+      "country": "SVK",
+      "value": 1.7,
+      "rank": 37
+    },
+    {
+      "country": "USA",
+      "value": 1.5,
+      "rank": 39
+    },
+    {
+      "country": "SWE",
+      "value": 1.4,
+      "rank": 40
+    },
+    {
+      "country": "TUR",
+      "value": 1.2,
+      "rank": 41
+    },
+    {
+      "country": "LTU",
+      "value": 1.1,
+      "rank": 42
+    },
+    {
+      "country": "CHL",
+      "value": 1,
+      "rank": 43
+    },
+    {
+      "country": "ESP",
+      "value": 1,
+      "rank": 43
+    },
+    {
+      "country": "GRC",
+      "value": 1,
+      "rank": 43
+    },
+    {
+      "country": "DEU",
+      "value": 0.9,
+      "rank": 46
+    },
+    {
+      "country": "ISR",
+      "value": 0.9,
+      "rank": 46
+    },
+    {
+      "country": "AUT",
+      "value": 0.7,
+      "rank": 48
+    },
+    {
+      "country": "EST",
+      "value": 0.7,
+      "rank": 48
+    },
+    {
+      "country": "ITA",
+      "value": 0.7,
+      "rank": 48
+    },
+    {
+      "country": "LVA",
+      "value": 0.7,
+      "rank": 48
+    },
+    {
+      "country": "URY",
+      "value": 0.7,
+      "rank": 48
+    },
+    {
+      "country": "HRV",
+      "value": 0.6,
+      "rank": 53
+    },
+    {
+      "country": "CHN",
+      "value": 0.5,
+      "rank": 54
+    },
+    {
+      "country": "POL",
+      "value": 0.5,
+      "rank": 54
+    },
+    {
+      "country": "BTN",
+      "value": 0.4,
+      "rank": 56
+    },
+    {
+      "country": "NOR",
+      "value": 0.4,
+      "rank": 56
+    },
+    {
+      "country": "PRT",
+      "value": 0.4,
+      "rank": 56
+    },
+    {
+      "country": "CAN",
+      "value": 0.3,
+      "rank": 59
+    },
+    {
+      "country": "DNK",
+      "value": 0.3,
+      "rank": 59
+    },
+    {
+      "country": "MDA",
+      "value": 0.3,
+      "rank": 59
+    },
+    {
+      "country": "RUS",
+      "value": 0.3,
+      "rank": 59
+    },
+    {
+      "country": "CHE",
+      "value": 0.2,
+      "rank": 63
+    },
+    {
+      "country": "IRL",
+      "value": 0.2,
+      "rank": 63
+    },
+    {
+      "country": "MLT",
+      "value": 0.2,
+      "rank": 63
+    },
+    {
+      "country": "THA",
+      "value": 0.2,
+      "rank": 63
+    },
+    {
+      "country": "BEL",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "CZE",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "FIN",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "FRA",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "LUX",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "SVN",
+      "value": 0.1,
+      "rank": 67
+    },
+    {
+      "country": "CYP",
+      "value": 0,
+      "rank": 73
+    }
+  ]
+}

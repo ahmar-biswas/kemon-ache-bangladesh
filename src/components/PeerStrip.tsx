@@ -6,7 +6,7 @@ import type { CountriesFile, DataRecord, FavourableDirection, MedianRecord, Targ
 import { t, type Lang } from '../i18n/index.ts';
 import { countryName } from '../lib/display.ts';
 import { formatNumber, formatYear } from '../lib/format.ts';
-import { formatValue } from '../lib/formatValue.ts';
+import { formatValue, valueParts } from '../lib/formatValue.ts';
 
 interface Props {
   lang: Lang;
@@ -123,5 +123,6 @@ export function PeerStrip({ lang, bangladesh, peers, missing, since, median, tar
 function axisLabel(value: number, unit: Unit, lang: Lang): string {
   if (unit === 'years' || unit === 'per_1000_live_births') return formatNumber(value, lang, 1);
   if (unit === 'intl_dollar_current') return formatNumber(value, lang, 0);
+  if (unit !== 'percent' && unit !== 'taka_current' && unit !== 'taka_constant' && unit !== 'usd_current') return valueParts({ value, unit }, lang).number;
   return formatValue({ value, unit }, lang);
 }
