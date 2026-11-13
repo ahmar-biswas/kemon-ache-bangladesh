@@ -1,6 +1,7 @@
 // A headline tile (8.8, design contract): name, value, caveats, plain explanation with the
 // official definition link, the peer strip, the position badge (or the neutral note), and the
 // source line. The source line is never hidden (R1).
+import type { ReactNode } from 'react';
 import type { CountriesFile, DataRecord, IndicatorMeta, MedianRecord, RankSummary, Target } from '../data/types.ts';
 import { latestMedian, latestRecent } from '../data/compare.ts';
 import { t, type Lang } from '../i18n/index.ts';
@@ -28,9 +29,11 @@ interface Props extends TileData {
   rank?: RankSummary | null;
   /** Official numeric goal, drawn as a goal line and stated with its source. */
   target?: Target | null;
+  /** Controls shown in the tile's top-right corner, beside the name (e.g. the M5 view buttons). */
+  actions?: ReactNode;
 }
 
-export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target }: Props) {
+export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target, actions }: Props) {
   const own = latestRecent(records, ['BGD'], 0).get('BGD');
   const cmp = compare ?? (meta.scope === 'compare' ? { meta, records, medians } : undefined);
   const peerIds = countries.default_peers;
@@ -52,7 +55,14 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
 
   return (
     <article className={`tile${wide ? ' tile--wide' : ''}`} data-figure="">
-      <h3 className="tile__name">{indicatorName(meta.id, lang)}</h3>
+      {actions ? (
+        <div className="tile__head">
+          <h3 className="tile__name">{indicatorName(meta.id, lang)}</h3>
+          {actions}
+        </div>
+      ) : (
+        <h3 className="tile__name">{indicatorName(meta.id, lang)}</h3>
+      )}
 
       {own && own.source_url ? (
         <p className="tile__value display num" data-value="">

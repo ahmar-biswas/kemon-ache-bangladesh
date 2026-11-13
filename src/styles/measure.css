@@ -3,7 +3,11 @@
    countries neutral grey (open circles as dots), gridlines in --sutaa, text in ink only. */
 
 /* ---------- Two buttons on each measure ---------- */
-.details__views { display: flex; flex-wrap: wrap; gap: var(--s-8); margin-bottom: var(--s-8); }
+/* Inside each tile, top right, beside the measure's name; they wrap under it when space is short. */
+.tile__head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--s-8) var(--s-16); }
+.tile__head .tile__name { flex: 1 1 14rem; margin: 0; }
+.details__views { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: var(--s-8); }
+@media (max-width: 479px) { .details__views { justify-content: flex-start; } }
 .details__view { font-size: 0.8125rem; min-height: 36px; padding: 0 var(--s-12); }
 @media (pointer: coarse) { .details__view { min-height: 44px; } }
 
@@ -202,6 +206,7 @@
 .line-chart svg:focus-visible { outline: var(--focus-ring); outline-offset: 4px; border-radius: var(--r-chip); }
 .line-chart__grid { stroke: var(--sutaa); stroke-width: 1; }
 .line-chart__tick { fill: var(--kali-3); font-size: 12px; }
+.line-chart__area { fill: var(--dhan-chart); fill-opacity: .24; stroke: none; }
 .line-chart__line { fill: none; stroke: var(--dhan-chart); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
 .line-chart__point { fill: var(--dhan-chart); stroke: var(--muslin); stroke-width: 2; }
 .line-chart__end { fill: var(--kali); font-size: 13px; font-weight: 600; }

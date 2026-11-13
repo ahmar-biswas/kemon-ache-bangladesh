@@ -109,17 +109,20 @@ export function DetailsPanel({ lang, area, latest, origin, onClose }: Props) {
           const cmpMeta = cmpId ? indicatorMeta(cmpId) : undefined;
           return (
             <div key={id} className="details__item" style={{ ['--i' as string]: i }}>
-              <div className="details__views" role="group" aria-label={t(lang, 'measure.views', { name: indicatorName(id, lang) })}>
-                {compareIdFor(meta) && (
-                  <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'compare', e.currentTarget)}>
-                    {t(lang, 'measure.compare')}
-                  </button>
-                )}
-                <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'trend', e.currentTarget)}>
-                  {t(lang, 'measure.trend')}
-                </button>
-              </div>
               <Tile
+                actions={
+                  // Inside the tile, top right (Ahmar, M5 review).
+                  <div className="details__views" role="group" aria-label={t(lang, 'measure.views', { name: indicatorName(id, lang) })}>
+                    {compareIdFor(meta) && (
+                      <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'compare', e.currentTarget)}>
+                        {t(lang, 'measure.compare')}
+                      </button>
+                    )}
+                    <button type="button" className="story__open details__view" onClick={(e) => openMeasure(id, 'trend', e.currentTarget)}>
+                      {t(lang, 'measure.trend')}
+                    </button>
+                  </div>
+                }
                 lang={lang}
                 meta={meta}
                 records={records}

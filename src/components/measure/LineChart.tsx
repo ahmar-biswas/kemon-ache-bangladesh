@@ -3,7 +3,7 @@
 // Pointer or arrow keys move a crosshair with a glass tooltip (year, value, notes).
 // Event markers (only once the list is approved): hollow circles for elections and changes
 // of government, small diamonds for shocks. They are context only; the chart claims no cause.
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
+import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
 import { matchNote } from '../../data/notes.ts';
 import { niceTicks, segments, tickDecimals, yearFraction } from '../../data/picker.ts';
 import type { DataRecord, EventItem, Unit } from '../../data/types.ts';
@@ -45,6 +45,7 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
   const W = useWidth(wrap);
   const [active, setActive] = useState<number | null>(null);
   const [openEvent, setOpenEvent] = useState<string | null>(null);
+  const fillId = `line-fill-${useId().replace(/:/g, '')}`;
 
   const sorted = useMemo(() => [...points].sort((a, b) => a.year - b.year), [points]);
   if (sorted.length === 0) return null;
@@ -135,6 +136,33 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
         onKeyDown={onKey}
         onBlur={() => setActive(null)}
       >
+        {/* Soft wash under the line (Ahmar, M5 review): the line's colour, fading to nothing
+            downwards from the line itself. One smooth area per run of consecutive years (a gap
+            stays a gap), faded by a mask made of one slice per pair of years. Each slice carries
+            its own copy of the fade, so it starts right at the line everywhere. In a mask the
+            slices paint over each other instead of adding up, so their overlaps leave no seams.
+            The mask's white and black are brightness levels for the fade, not colours shown. */}
+        <defs>
+          <linearGradient id={`${fillId}-fade`} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="white" />
+            <stop offset="100%" stopColor="black" />
+          </linearGradient>
+          <mask id={`${fillId}-mask`} maskUnits="userSpaceOnUse" x="0" y="0" width={W} height={H}>
+            {segs.flatMap((seg) =>
+              seg.slice(1).map((p, i) => {
+                const a = seg[i]!;
+                const bottom = (m.t + plotH).toFixed(1);
+                return (
+                  <path
+                    key={p.year}
+                    fill={`url(#${fillId}-fade)`}
+                    d={`M${(x(a.year) - 0.5).toFixed(1)} ${y(a.value).toFixed(1)} L${(x(p.year) + 0.5).toFixed(1)} ${y(p.value).toFixed(1)} L${(x(p.year) + 0.5).toFixed(1)} ${bottom} L${(x(a.year) - 0.5).toFixed(1)} ${bottom} Z`}
+                  />
+                );
+              }),
+            )}
+          </mask>
+        </defs>
         {ticks.map((v, i) => (
           <g key={v}>
             <line className="line-chart__grid" x1={m.l} x2={m.l + plotW} y1={y(v)} y2={y(v)} />
@@ -151,6 +179,16 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
         {marks.map(({ e, px }) => (
           <line key={e.id} className="line-chart__event-line" x1={px} x2={px} y1={m.t - 6} y2={m.t + plotH} />
         ))}
+        {segs.map((seg) =>
+          seg.length > 1 ? (
+            <path
+              key={`fill-${seg[0]!.year}`}
+              className="line-chart__area"
+              mask={`url(#${fillId}-mask)`}
+              d={`${seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${x(p.year).toFixed(1)} ${y(p.value).toFixed(1)}`).join(' ')} L${x(seg[seg.length - 1]!.year).toFixed(1)} ${(m.t + plotH).toFixed(1)} L${x(seg[0]!.year).toFixed(1)} ${(m.t + plotH).toFixed(1)} Z`}
+            />
+          ) : null,
+        )}
         {segs.map((seg) =>
           seg.length > 1 ? (
             <path key={seg[0]!.year} className="line-chart__line" d={seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${x(p.year).toFixed(1)} ${y(p.value).toFixed(1)}`).join(' ')} />
