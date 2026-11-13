@@ -107,6 +107,10 @@ for (const config of INDICATORS.filter((c) => c.scope === 'compare')) {
 const targets = readJson<{ targets: Target[] }>(targetsPath())?.targets ?? [];
 problems.push(...validateTargets(targets, metas));
 for (const t of targets) if (!hasKey(t.label_key)) problems.push(`targets.json ${t.indicator_id}: no translation for ${t.label_key}`);
+for (const t of targets) {
+  const key = t.label_key.replace('target.short.', 'target.source.');
+  if (!hasKey(key)) problems.push(`targets.json ${t.indicator_id}: no translated source name ${key}`);
+}
 const latest = readJson<LatestFile>(latestPath());
 if (!latest) problems.push('data/processed/latest.json is missing');
 else for (const m of metas) if (!latest.indicators[m.id]) problems.push(`latest.json: no entry for ${m.id}`);

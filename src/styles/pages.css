@@ -1,0 +1,225 @@
+/* Milestone 6: menu, breadcrumbs, area, subsection, indicator and compare pages.
+   Tokens only (rule 10). Calm and spacious (Ahmar's taste): paper tiles, soft green lift,
+   plain headings with stitch dividers, colour only in the chart data. */
+
+/* ---------- Header menu ---------- */
+.site-nav { display: none; }
+.site-nav ul, .mobile-menu ul { list-style: none; margin: 0; padding: 0; }
+.site-nav a, .mobile-menu a { color: var(--kali-2); text-decoration: none; }
+.site-nav a[aria-current="page"], .mobile-menu a[aria-current="page"] { color: var(--kali); font-weight: 600; }
+.site-nav a:focus-visible, .mobile-menu a:focus-visible, .menu-button:focus-visible { outline: var(--focus-ring); outline-offset: 2px; border-radius: var(--r-chip); }
+
+@media (min-width: 900px) {
+  .site-nav { display: block; flex: 1; min-width: 0; }
+  .site-nav ul { display: flex; gap: var(--s-4); justify-content: center; }
+  .site-nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 var(--s-12);
+    border-radius: var(--r-pill);
+    font-size: var(--fs-16);
+    transition: background-color 200ms ease;
+  }
+  .site-nav a:hover { background: var(--dhan-tint); color: var(--kali); }
+  /* The current page: a short green thread under its name. */
+  .site-nav a[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--dhan); border-radius: 0; }
+  .menu-button, .mobile-menu { display: none !important; }
+}
+
+.menu-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-8);
+  min-height: 44px;
+  padding: 0 var(--s-12);
+  border: 1px solid var(--sutaa);
+  border-radius: var(--r-pill);
+  background: var(--muslin);
+  color: var(--kali);
+  font: inherit;
+  font-size: var(--fs-14);
+  cursor: pointer;
+}
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--muslin);
+  border-bottom: 1px solid var(--sutaa);
+  box-shadow: var(--tile-lift);
+}
+.mobile-menu[hidden] { display: none; }
+.mobile-menu ul { width: 100%; max-width: var(--content-max); margin-inline: auto; padding: var(--s-8) var(--s-16) var(--s-16); }
+.mobile-menu li + li { border-top: 1px solid var(--sutaa); }
+.mobile-menu a { display: flex; align-items: center; min-height: 48px; font-size: var(--fs-18); }
+/* On phones the header holds the wordmark, the flag switch and the menu button (8.14). */
+@media (max-width: 899px) {
+  .site-header__row { flex-wrap: nowrap; }
+  .site-header__row .lang-toggle { margin-left: auto; }
+}
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: var(--s-4) 0; list-style: none; margin: 0 0 var(--s-16); padding: 0; font-size: var(--fs-14); color: var(--kali-3); }
+.breadcrumbs li { display: inline-flex; align-items: center; }
+.breadcrumbs li + li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  margin: 0 var(--s-12);
+  border-top: 1.4px solid var(--kali-3);
+  border-right: 1.4px solid var(--kali-3);
+  transform: rotate(45deg);
+}
+.breadcrumbs a { color: var(--kali-2); }
+.breadcrumbs [aria-current="page"] { color: var(--kali); }
+
+/* ---------- Page head ---------- */
+.page { padding-bottom: var(--s-48); }
+.page-head { max-width: 46rem; margin-bottom: var(--s-24); }
+.page-head h1 { display: flex; align-items: center; gap: var(--s-12); font-size: clamp(2rem, 5vw, 3rem); line-height: 1.2; }
+.page-head h1:lang(bn) { line-height: 1.4; }
+.page-head h1 .area-icon { width: 28px; height: 28px; color: var(--dhan); }
+.page-head__lede { margin-top: var(--s-8); font-size: var(--fs-18); color: var(--kali-2); }
+.page-head__intro { margin-top: var(--s-12); }
+
+/* ---------- Snapshot sentences ---------- */
+.snapshot { display: grid; gap: var(--s-16); max-width: 46rem; margin-bottom: var(--s-48); }
+.snapshot--loading { min-height: 120px; }
+.snapshot__text { font-size: var(--fs-18); color: var(--kali); }
+.snapshot__item .source-line { margin-top: 2px; }
+
+/* ---------- Area groups and tiles ---------- */
+.area-group { margin-bottom: var(--s-48); }
+.area-group__head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--s-8) var(--s-16); }
+.area-group__head h2 { display: flex; align-items: center; gap: var(--s-8); font-size: var(--fs-28); }
+.area-group__head h2 .area-icon { width: 24px; height: 24px; color: var(--area-equality); }
+.area-group__open { display: inline-flex; align-items: center; min-height: 44px; font-size: var(--fs-16); }
+.area-group > .stitch { margin: var(--s-8) 0 var(--s-16); }
+.area-group__lede { margin-bottom: var(--s-16); max-width: 46rem; }
+.area-group__pending { padding: var(--s-16); border: 1px dashed var(--sutaa); border-radius: var(--r-tile); color: var(--kali-2); background: var(--muslin); max-width: 46rem; }
+
+.area-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-16); }
+.area-grid__cell { display: grid; }
+@media (min-width: 768px) {
+  .area-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .area-grid__cell.is-wide { grid-column: span 2; }
+}
+@media (min-width: 1100px) {
+  .area-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .area-grid__cell.is-wide { grid-column: span 2; }
+}
+.area-grid .tile { box-shadow: var(--tile-lift); }
+.tile__name a { color: inherit; text-decoration: none; background-image: linear-gradient(var(--dhan), var(--dhan)); background-size: 0 1.5px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size 260ms var(--soothe); }
+.tile__name a:hover, .tile__name a:focus-visible { background-size: 100% 1.5px; }
+
+/* Poverty and inequality: the large card at the top of /economy (section 10, 8.8). */
+.area-group--feature {
+  padding: var(--s-24) var(--s-16);
+  border-radius: var(--r-hero);
+  background: var(--muslin);
+  box-shadow: var(--tile-lift);
+  border: 1px solid var(--sutaa);
+}
+@media (min-width: 768px) { .area-group--feature { padding: var(--s-32); } }
+.area-group--feature .area-group__head { margin-bottom: var(--s-8); }
+.area-group--feature .area-group__head h2 { font-size: clamp(1.75rem, 3.6vw, 2.25rem); }
+.area-group--feature .tile { box-shadow: var(--paper-shadow); background: var(--chal); }
+@media (min-width: 1100px) {
+  .area-group--feature .area-grid { grid-template-columns: 2fr 1fr; }
+  .area-group--feature .area-grid__cell.is-wide { grid-column: auto; }
+}
+
+/* ---------- Subsection page ---------- */
+.sub-page > .stitch { margin-bottom: var(--s-32); }
+.sub-measure { margin-bottom: var(--s-72); }
+.sub-measure__name { font-size: var(--fs-28); margin-bottom: var(--s-8); }
+.sub-measure__name a { color: var(--kali); text-decoration-color: var(--sutaa); text-underline-offset: 6px; }
+.sub-measure__name a:hover { text-decoration-color: var(--dhan); }
+.sub-measure__value { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-8); margin-bottom: var(--s-8); }
+.sub-measure__value .display { font-size: clamp(2rem, 4vw, 2.75rem); font-family: var(--font-display-en); color: var(--kali); line-height: 1.1; }
+.sub-measure__value .display:lang(bn) { font-family: var(--font-display-bn); }
+.sub-measure__explain { max-width: 46rem; margin-bottom: var(--s-16); }
+.sub-measure__more { margin-top: var(--s-12); color: var(--kali-2); }
+.sub-page__others { padding-top: var(--s-24); border-top: 1px dashed var(--sutaa); }
+.sub-page__others h2 { font-size: var(--fs-22); margin-bottom: var(--s-8); }
+.sub-page__others ul { display: flex; flex-wrap: wrap; gap: var(--s-8) var(--s-24); list-style: none; margin: 0; padding: 0; }
+.sub-page__others a { display: inline-flex; min-height: 44px; align-items: center; }
+
+/* Peer chart marks (8.9): Bangladesh 3 px green, peers thin grey, open/lone dots small. */
+.peer-chart__line { fill: none; stroke: var(--peer-grey); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; transition: stroke 160ms ease, stroke-width 160ms ease, opacity 160ms ease; }
+.peer-chart__hit { fill: none; stroke: transparent; stroke-width: 14; pointer-events: stroke; }
+.peer-chart__dot { fill: var(--muslin); stroke: var(--peer-grey); stroke-width: 1.5; }
+.peer-chart__series.is-bgd .peer-chart__line { stroke: var(--dhan-chart); stroke-width: 3; }
+.peer-chart__series.is-bgd .peer-chart__dot { fill: var(--dhan-chart); stroke: var(--muslin); stroke-width: 2; }
+.peer-chart.has-focus .peer-chart__series:not(.is-bgd):not(.is-focus) .peer-chart__line { opacity: .45; }
+.peer-chart__series.is-focus .peer-chart__line { stroke: var(--kali-2); stroke-width: 2.25; }
+.peer-chart__series.is-focus .peer-chart__dot { stroke: var(--kali-2); }
+.peer-chart__label { fill: var(--kali-3); font-size: 12px; cursor: default; }
+.peer-chart__label.is-bgd { fill: var(--kali); font-weight: 600; font-size: 13px; }
+.peer-chart__label.is-focus { fill: var(--kali); }
+.peer-chart__tip-bgd { font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { .peer-chart__line { transition: none; } }
+
+/* ---------- Indicator page ---------- */
+.indicator-page__jump { display: flex; flex-wrap: wrap; gap: var(--s-8) var(--s-24); list-style: none; margin: var(--s-12) 0 0; padding: 0; }
+.indicator-page__jump a { display: inline-flex; align-items: center; min-height: 44px; }
+.indicator-page__tile { display: grid; max-width: 52rem; margin-bottom: var(--s-48); }
+.indicator-page__tile .tile { box-shadow: var(--tile-lift); }
+.indicator-page__section { margin-bottom: var(--s-72); scroll-margin-top: 90px; }
+.indicator-page__section > h2 { font-size: var(--fs-28); }
+.indicator-page__section > .stitch { margin: var(--s-8) 0 var(--s-24); }
+.indicator-page__where dl { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-4) var(--s-24); max-width: 52rem; margin: 0 0 var(--s-16); }
+.indicator-page__where dt { font-weight: 600; color: var(--kali-2); margin-top: var(--s-8); }
+.indicator-page__where dd { margin: 0; overflow-wrap: anywhere; }
+@media (min-width: 768px) {
+  .indicator-page__where dl { grid-template-columns: 14rem minmax(0, 1fr); }
+  .indicator-page__where dt { margin-top: 0; }
+}
+
+/* ---------- Compare page ---------- */
+.compare-page__pick {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-8) var(--s-16);
+  max-width: 40rem;
+  margin-bottom: var(--s-32);
+  padding: var(--s-16);
+  border-radius: var(--r-tile);
+}
+.compare-page__pick label { font-weight: 600; }
+.compare-page__pick select {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 0 var(--s-12);
+  border: 1px solid var(--sutaa);
+  border-radius: var(--r-chip);
+  background: var(--muslin);
+  color: var(--kali);
+  font: inherit;
+}
+.compare-page__pick select:focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+
+/* ---------- Homepage: area name links to the area page ---------- */
+.story__page { color: inherit; text-decoration: none; background-image: linear-gradient(var(--dhan), var(--dhan)); background-size: 0 1.5px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size 260ms var(--soothe); }
+.story__page:hover, .story__page:focus-visible { background-size: 100% 1.5px; }
+.story__page:focus-visible { outline: var(--focus-ring); outline-offset: 3px; border-radius: 2px; }
+
+/* ---------- Phone header (8.14): wordmark, flag switch and menu button in one row ---------- */
+.wordmark__last { white-space: nowrap; }
+@media (max-width: 599px) {
+  .site-header__row { gap: var(--s-8); }
+  /* The name sits on two lines: "Kemon Ache / Bangladesh?". */
+  .wordmark { max-width: 6.4em; line-height: 1.1; }
+  .wordmark:lang(bn) { line-height: 1.25; }
+  .site-header .flag-switch__option { font-size: var(--fs-14); padding-inline: 8px; }
+  .site-header .flag-switch__option:first-of-type { padding-right: 20px; }
+  .site-header .flag-switch__option:last-of-type { padding-left: 20px; }
+  /* Icon only; the word stays for screen readers. */
+  .menu-button { width: 44px; padding: 0; justify-content: center; }
+  .menu-button__text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}

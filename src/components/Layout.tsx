@@ -6,6 +6,7 @@ import { isLang, t } from '../i18n/index.ts';
 import { formatDate } from '../lib/format.ts';
 import { Backdrop } from './Backdrop.tsx';
 import { LanguageToggle } from './LanguageToggle.tsx';
+import { MobileMenu, SiteNav } from './SiteNav.tsx';
 import { Jamdani } from './Motifs.tsx';
 import { Wordmark } from './Wordmark.tsx';
 
@@ -32,9 +33,9 @@ export function Layout() {
       <header className="site-header glass">
         <div className="wrap site-header__row">
           <Wordmark lang={lang} />
-          {/* Pages may place a control here (the homepage puts its country slicer here on wide screens). */}
-          <div className="site-header__slot" id="header-slot" />
+          <SiteNav lang={lang} />
           <LanguageToggle lang={lang} />
+          <MobileMenu lang={lang} />
         </div>
         <Jamdani />
       </header>

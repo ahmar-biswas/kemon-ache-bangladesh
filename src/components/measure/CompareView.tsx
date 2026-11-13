@@ -239,7 +239,7 @@ export function CompareView({ lang, meta, compare, target }: Props) {
                   <span className="measure__key measure__key--goal" aria-hidden="true" />
                   {t(lang, goal.label_key as never, { value: formatValue({ value: goal.value, unit: goal.unit }, lang) })}{' '}
                   <a href={goal.source_url} target="_blank" rel="noopener noreferrer">
-                    {goal.source_name}
+                    {t(lang, goal.label_key.replace('target.short.', 'target.source.') as never)}
                   </a>
                 </li>
               )}

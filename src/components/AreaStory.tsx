@@ -5,6 +5,8 @@
 // The whole tile opens Details (bigger target, Fitts's law), except its own links and switch.
 // Hovering or focusing the tile quietly preloads the Details code, so opening feels instant.
 import type { MouseEvent } from 'react';
+import { Link } from 'react-router';
+import { HOME_AREA_PATH } from '../data/site.ts';
 import type { AreaConfig } from '../data/dashboard.ts';
 import type { LatestFile } from '../data/types.ts';
 import { t, type Lang } from '../i18n/index.ts';
@@ -58,7 +60,10 @@ export function AreaStory({ lang, area, latest, selected, open, onOpen, onPrefet
         <h2 id={`story-${area.icon}`} className="story__title">
           <span className="story__disc" aria-hidden="true" />
           <AreaIcon area={area.icon} />
-          {t(lang, area.label)}
+          {/* Area card → the area page (section 10). The rest of the tile opens the full picture. */}
+          <Link className="story__page" to={`/${lang}/${HOME_AREA_PATH[area.icon]}`}>
+            {t(lang, area.label)}
+          </Link>
         </h2>
         {/* One clear action (Ahmar, M4 review 3): open the full picture of this area. */}
         <button

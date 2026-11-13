@@ -8,6 +8,10 @@ import { Home } from './pages/Home.tsx';
 import { NotFound } from './pages/NotFound.tsx';
 
 // Loaded only when visited, so its data stays out of the first page load (R10).
+const AreaPage = lazy(() => import('./pages/AreaPage.tsx').then((m) => ({ default: m.AreaPage })));
+const SubsectionPage = lazy(() => import('./pages/SubsectionPage.tsx').then((m) => ({ default: m.SubsectionPage })));
+const IndicatorPage = lazy(() => import('./pages/IndicatorPage.tsx').then((m) => ({ default: m.IndicatorPage })));
+const ComparePage = lazy(() => import('./pages/ComparePage.tsx').then((m) => ({ default: m.ComparePage })));
 const DesignPreview = lazy(() => import('./pages/DesignPreview.tsx').then((m) => ({ default: m.DesignPreview })));
 
 /** "/" → "/bn/" or "/en/" (saved choice, then browser language, then English). */
@@ -26,6 +30,12 @@ export function App() {
       <Route path="/" element={<RootRedirect />} />
       <Route path="/:lang" element={<Layout />}>
         <Route index element={<Home />} />
+        {(['economy', 'education', 'health'] as const).map((slug) => (
+          <Route key={slug} path={slug} element={<LazyPage><AreaPage slug={slug} /></LazyPage>} />
+        ))}
+        <Route path="economy/:sub" element={<LazyPage><SubsectionPage /></LazyPage>} />
+        <Route path="indicator/:id" element={<LazyPage><IndicatorPage /></LazyPage>} />
+        <Route path="compare" element={<LazyPage><ComparePage /></LazyPage>} />
         <Route
           path="design-preview"
           element={

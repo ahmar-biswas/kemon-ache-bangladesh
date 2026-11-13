@@ -127,3 +127,13 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 - trend.rebased_note: "{year} সালের দামে দেখানো হয়েছে: এতে দাম বাড়া-কমার প্রভাব ছাড়া বছরগুলো তুলনা করা যায়, আর {year} সালের মানটি টাইলের সংখ্যার সঙ্গে মিলে যায়।"
 - trend.rebased_formula: "প্রতি বছরের প্রকাশিত স্থির মূল্যের টাকার মান × {factor}। …" ("স্থির মূল্য" for constant prices: OK?)
 - trend.input_constant / trend.input_current: "ইনপুট: {name}"
+
+## Milestone 6: pages, menu and snapshot (2026-11-14)
+Please check especially:
+- nav.home "প্রথম পাতা", nav.compare "তুলনা", nav.breadcrumbs "আপনি এখানে আছেন"
+- sub.growth-and-prices "দাম ও প্রবৃদ্ধি", sub.jobs "কাজ", sub.money-and-reserves "বিদেশ থেকে আসা অর্থ ও রিজার্ভ"
+- group.living_conditions "জীবনযাত্রার অবস্থা"
+- snapshot.up / down: "{name}: {year} সালে {value}, {old_year} সালের {old} থেকে বেড়েছে / কমেছে।"
+- sub.*.intro paragraphs (five, all definitions only); "খানা জরিপ" for household survey
+- target.source.*: "জাতিসংঘ টেকসই উন্নয়ন লক্ষ্যমাত্রা, লক্ষ্য ৩.২"; "বিশ্ব স্বাস্থ্য সংস্থা, বায়ুমান নির্দেশিকা (২০২১)"
+- indicator.where "এই তথ্য কোথা থেকে এসেছে?", indicator.api "যেভাবে নামানো হয়েছে"

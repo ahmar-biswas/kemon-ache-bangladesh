@@ -24,3 +24,15 @@ export async function loadTrend(id: string): Promise<DataRecord[] | null> {
 export function approvedEvents(file: EventsFile = eventsJson as EventsFile): EventItem[] {
   return file.approved === true ? file.events : [];
 }
+
+// Every year for Bangladesh and the default peers (data/processed/<id>.json), for the
+// subsection charts (DECISIONS.md 105). One file per measure, loaded when its chart appears.
+const seriesFiles = import.meta.glob<DataRecord[]>(
+  ['../../data/processed/*.json', '!**/countries.json', '!**/indicators.json', '!**/meta.json', '!**/latest.json', '!**/details.json'],
+  { import: 'default' },
+);
+
+export async function loadSeries(id: string): Promise<DataRecord[] | null> {
+  const load = seriesFiles[`../../data/processed/${id}.json`];
+  return load ? load() : null;
+}

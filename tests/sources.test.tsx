@@ -1,30 +1,19 @@
 // Source check (hard rules R1, R2, R7): renders every page in both languages and fails
 // if any shown value lacks a source line with a real link, data year and retrieved date.
 import { afterEach, describe, expect, it } from 'vitest';
-import { cleanup, render, waitFor } from '@testing-library/react';
-import { MemoryRouter } from 'react-router';
-import { App } from '../src/App.tsx';
+import { cleanup, render } from '@testing-library/react';
 import { Figure } from '../src/components/Figure.tsx';
 import type { DataRecord } from '../src/data/types.ts';
 import { LANGS } from '../src/i18n/index.ts';
+import { SITE_PATHS, renderAt } from './site-paths.tsx';
 
 afterEach(cleanup);
 
 /** Every page in the site. Add new routes here as they are built. */
-const PAGES = ['/', '/design-preview'];
+const PAGES = ['/', '/design-preview', ...SITE_PATHS.filter((p) => p !== '/economy/money-and-reserves')];
 /** Pages with no figures, checked for language and placeholders only. */
-const TEXT_ONLY_PAGES = ['/no-such-page'];
+const TEXT_ONLY_PAGES = ['/no-such-page', '/economy/money-and-reserves'];
 
-/** Renders a page and waits until it has finished loading (some pages are loaded lazily). */
-async function renderAt(path: string) {
-  const result = render(
-    <MemoryRouter initialEntries={[path]}>
-      <App />
-    </MemoryRouter>,
-  );
-  await waitFor(() => expect(result.container.querySelector('main h1')).not.toBeNull(), { timeout: 5000 });
-  return result;
-}
 
 describe.each(LANGS)('pages in %s', (lang) => {
   it.each(PAGES)('%s: every value has a full source line', async (page) => {
@@ -51,10 +40,23 @@ describe.each(LANGS)('pages in %s', (lang) => {
   });
 });
 
+/**
+ * Text with English digits, leaving out what is shown as published on purpose: series codes,
+ * text marked lang="en" (the publisher's own source description), and the publisher terms
+ * the M5 views already allow (PA.NUS.ATLS, CY/FY; survey titles after the Source label).
+ */
+function englishDigits(container: HTMLElement): string {
+  const clone = container.cloneNode(true) as HTMLElement;
+  for (const el of clone.querySelectorAll('[lang="en"]:not(.site), [data-code]')) el.remove();
+  // Survey titles are shown as published, after a translated label (DECISIONS.md, M2).
+  for (const el of clone.querySelectorAll('.ranked__tip-note, .measure__caveat, .data-table__notes, .line-chart__tip-note')) if (el.textContent!.includes('উৎস (প্রকাশিত শিরোনাম অনুযায়ী)')) el.remove();
+  return (clone.textContent!.replace(/PA.NUS.ATLS|((CY|FY))/g, '').match(/.{0,30}[0-9].{0,30}/g) ?? []).join(' | ');
+}
+
 describe('Bangla pages', () => {
   it.each([...PAGES, ...TEXT_ONLY_PAGES])('%s: shows no English digits', async (page) => {
     const { container } = await renderAt(`/bn${page}`);
-    expect(container.textContent).not.toMatch(/[0-9]/);
+    expect(englishDigits(container)).toBe('');
   });
 });
 

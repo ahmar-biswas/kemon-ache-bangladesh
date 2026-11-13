@@ -282,3 +282,23 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - **Labelling:** "Calculated by this site", with the formula, both inputs and both source lines shown under the chart (R4). The CSV carries the calculated value, the published constant value and the formula for every year. The base year follows the data: always the latest year with both values (`src/data/rebase.ts`).
     - **Checked everywhere:** every other measure already showed the same Bangladesh value and year on the tile, in "The full picture", in the compare view and at the end of the over-time line. A new CI test (`tests/consistency.test.ts`) now fails the build if any of them disagree.
     - **Expected differences:** the compare view of GDP per person is in international dollars (PPP), as rule 7 requires for comparing countries. It is labelled as a different unit.
+
+### Milestone 6, built (2026-11-14)
+
+107. **Site map in one file** (`src/data/site.ts`): the area pages, their groups, the four Economy subsections, and every measure with its own page. A measure fetched in M7 is added there. A test checks that every listed measure has data.
+108. **Snapshot sentences:** "Inflation: 8.8% in 2025, up from 6.2% in 2015."
+    - Each sentence states Bangladesh's latest published value and the published value about ten years earlier: the newest year at least ten years back, never an estimate.
+    - Its source line names both data years.
+    - Money in current taka gets the latest value only, because current taka rises partly from price changes (same reason as 106).
+109. **Subsection charts:** Bangladesh plus the seven default peers. Peer names are spread so they never overlap, and hovering a line or its name lifts it. The arrow keys pick a year (left/right) and a country (up/down). The tooltip shows Bangladesh, plus the lifted country or all of them. When countries differ in measuring income vs spending, a note says so (R8).
+    - The chart's source link lists every country shown.
+    - GDP per person in taka is published for Bangladesh only, so its section shows "Bangladesh over time" in 2025 prices (106), with a link to the international-dollar comparison.
+    - Series names in the chart are not links. The measure's heading above the chart links to its page instead, which keeps the chart calm.
+110. **Indicator page:** the full tile, then "Compare with other countries", "Bangladesh over time" and "Where does this come from?" (source, definition, the exact API request, retrieved date), with jump links at the top. The publisher's own "originally from" text is shown as published, in English (marked `lang="en"`).
+111. **Compare page:** a measure picker (grouped by area; kept in the address as `?m=`) above the M5 compare view.
+112. **Phone header (8.14):** the wordmark, the flag switch and the menu button now share one row at 360 px.
+    - The wordmark sits on two lines, its last word kept together with the red-dot question mark.
+    - The menu button shows its icon only; the word "Menu" stays for screen readers.
+    - The flag switch labels are 14 px on phones.
+    - Before this, the wordmark (172 px) and the switch (189 px) already needed more than a 360 px phone's width.
+113. **Goal source names are now translated** (`target.source.*`; the data check requires them). The new Bangla page test found "UN Sustainable Development Goals, target 3.2" printed in English on Bangla pages, in the tiles and the compare view.

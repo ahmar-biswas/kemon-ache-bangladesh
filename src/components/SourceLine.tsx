@@ -12,6 +12,8 @@ interface Props {
   lang: Lang;
   /** Smaller, one-line version for dashboard rows. Same three parts (R1). */
   compact?: boolean;
+  /** For a sentence that states two years of the same series: the earlier year. */
+  fromYear?: number;
 }
 
 /**
@@ -45,7 +47,7 @@ export function CompactSources({ records, lang, linkLabels }: { records: Props['
   );
 }
 
-export function SourceLine({ record, lang, compact }: Props) {
+export function SourceLine({ record, lang, compact, fromYear }: Props) {
   // No source, no display (R2).
   if (!record.source_url) return null;
   const nameKey = (compact ? SOURCE_SHORT_KEYS : SOURCE_KEYS)[record.source_name];
@@ -59,7 +61,11 @@ export function SourceLine({ record, lang, compact }: Props) {
           {t(lang, nameKey)}
         </a>
         {', '}
-        <span data-source-year="">{t(lang, 'source.compact_year', { year: formatYear(record.year, lang) })}</span>
+        <span data-source-year="">
+          {fromYear !== undefined
+            ? t(lang, 'source.compact_years', { from: formatYear(fromYear, lang), to: formatYear(record.year, lang) })
+            : t(lang, 'source.compact_year', { year: formatYear(record.year, lang) })}
+        </span>
         {', '}
         <span data-source-retrieved="">{t(lang, 'source.compact_retrieved', { date: formatDateShort(record.retrieved_at, lang) })}</span>
       </p>
@@ -74,7 +80,11 @@ export function SourceLine({ record, lang, compact }: Props) {
           {t(lang, nameKey)}
         </a>
       </span>{' '}
-      <span data-source-year="">{t(lang, 'source.data_year', { year: formatYear(record.year, lang) })}</span>{' '}
+      <span data-source-year="">
+        {fromYear !== undefined
+          ? t(lang, 'source.data_years', { from: formatYear(fromYear, lang), to: formatYear(record.year, lang) })
+          : t(lang, 'source.data_year', { year: formatYear(record.year, lang) })}
+      </span>{' '}
       <span data-source-retrieved="">
         {t(lang, 'source.retrieved', { date: formatDate(record.retrieved_at, lang) })}
       </span>

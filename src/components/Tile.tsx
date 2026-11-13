@@ -2,6 +2,7 @@
 // official definition link, the peer strip, the position badge (or the neutral note), and the
 // source line. The source line is never hidden (R1).
 import type { ReactNode } from 'react';
+import { Link } from 'react-router';
 import type { CountriesFile, DataRecord, IndicatorMeta, MedianRecord, RankSummary, Target } from '../data/types.ts';
 import { latestMedian, latestRecent } from '../data/compare.ts';
 import { t, type Lang } from '../i18n/index.ts';
@@ -31,9 +32,11 @@ interface Props extends TileData {
   target?: Target | null;
   /** Controls shown in the tile's top-right corner, beside the name (e.g. the M5 view buttons). */
   actions?: ReactNode;
+  /** The measure's own page: the name becomes a link to it (section 10). */
+  href?: string;
 }
 
-export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target, actions }: Props) {
+export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target, actions, href }: Props) {
   const own = latestRecent(records, ['BGD'], 0).get('BGD');
   const cmp = compare ?? (meta.scope === 'compare' ? { meta, records, medians } : undefined);
   const peerIds = countries.default_peers;
@@ -52,16 +55,17 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
   const text = explanation(meta, own, lang);
   const parts = own ? valueParts(own, lang) : null;
   const n = (v: number) => formatNumber(v, lang, 0);
+  const name = href ? <Link to={href}>{indicatorName(meta.id, lang)}</Link> : indicatorName(meta.id, lang);
 
   return (
     <article className={`tile${wide ? ' tile--wide' : ''}`} data-figure="">
       {actions ? (
         <div className="tile__head">
-          <h3 className="tile__name">{indicatorName(meta.id, lang)}</h3>
+          <h3 className="tile__name">{name}</h3>
           {actions}
         </div>
       ) : (
-        <h3 className="tile__name">{indicatorName(meta.id, lang)}</h3>
+        <h3 className="tile__name">{name}</h3>
       )}
 
       {own && own.source_url ? (
@@ -114,7 +118,7 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
             <p className="tile__goal">
               {t(lang, target.label_key as never, { value: formatValue({ value: target.value, unit: target.unit }, lang) })}{' '}
               <a href={target.source_url} target="_blank" rel="noopener noreferrer">
-                {target.source_name}
+                {t(lang, target.label_key.replace('target.short.', 'target.source.') as never)}
               </a>
             </p>
           )}
