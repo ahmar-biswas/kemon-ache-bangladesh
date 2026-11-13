@@ -396,7 +396,7 @@
   row-gap: 2px;
   margin-top: var(--s-8);
   padding-top: var(--s-12);
-  font-size: var(--fs-14);
+  font-size: 0.78125rem;          /* 12.5 px: smaller than explanations (Ahmar, M3 review) */
   line-height: 1.5;
   color: var(--kali-3);
   background-image: linear-gradient(to right, var(--sutaa) 0 6px, transparent 6px 11px);
@@ -406,7 +406,7 @@
   max-width: none;
 }
 .source-line + .source-line { margin-top: 0; padding-top: var(--s-4); background: none; }
-.source-line:lang(bn), :lang(bn) .source-line { font-size: 0.9375rem; }
+.source-line:lang(bn), :lang(bn) .source-line { font-size: 0.8125rem; }  /* 13 px */
 
 /* ---------- Chart frame and table ---------- */
 .chart-frame {

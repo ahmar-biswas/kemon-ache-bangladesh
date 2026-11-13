@@ -113,3 +113,14 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
 57. **The palette validator was run by hand, not in CI.** Its output is saved in `docs/palette-validation.md`. The script has no licence notice, so it was not copied into the repository. To decide with Ahmar.
 58. **`--peer-grey` (#9AA39D) is about 2.5:1 on paper,** below the 3:1 that WCAG asks of meaningful graphics. It is kept as specified because peers are also told apart by shape (open circles) and are listed for screen readers and in the table. A slightly darker grey would fix it: to decide with Ahmar.
 59. **404 page** shows only the alpona ornaments (no jamdani band): the "remove one accessory" test, and 8.7 lists jamdani only for header, footer and empty states.
+60. **Ahmar's M3 review, first round (2026-11-13):**
+    - "জীবিত" is removed from every "per 1,000 (live) births" phrase in Bangla, including the under-5 and maternal explanations and the Bangla version of SDG target 3.2.
+    - The money switch reads "Taka | Dollars" / "টাকা | ডলার". Elsewhere the unit stays "international dollars", because PPP dollars are not US dollars (rule 7). This is to confirm with Ahmar.
+    - Source lines are now smaller than explanations: 12.5 px in English and 13 px in Bangla, below the spec's 14 px floor, at Ahmar's request.
+    - The background is rougher, at Ahmar's request. This changes 8.4 and 8.7:
+      - a 6.3 KB muslin-fibre texture over the grain (16% multiply)
+      - faint uneven threads across the page (CSS)
+      - a faint alpona lotus and vine in two corners
+      - two faint jamdani lines across the page
+
+      All of it is hidden for data savers, reduced data, forced colours and low-end phones.

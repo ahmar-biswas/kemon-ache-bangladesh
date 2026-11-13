@@ -52,7 +52,7 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `badge.ahead` / `badge.behind` | {m}টি তুলনার দেশের মধ্যে {n}টির চেয়ে এগিয়ে / পিছিয়ে | Natural word order? |
 | `badge.level` | মাঝামাঝি অবস্থানে | OK for "Level with the middle"? |
 | `badge.formula_*` | Long sentences explaining the count | Clear at class-8 level? |
-| `unit.per_1000_live_births.label` | ৩০.৫ প্রতি ১,০০০ জীবিত জন্মে (number first, then the unit) | Reads well, or should the number come after the unit? |
+| `unit.per_1000_live_births.label` | ৩০.৫ প্রতি ১,০০০ জন্মে | **Changed by Ahmar:** "জীবিত" removed everywhere (also in the under-5 and maternal explanations and the SDG 3.2 target). |
 | `unit.dollar_amount` | ৩.০০ ডলার | OK for the poverty line "$3.00"? |
 | `caveat.consumption` / `caveat.income` | ব্যয় (ভোগ) দিয়ে মাপা / আয় দিয়ে মাপা | Natural? |
 | `caveat.gross` | মোট হিসাব: এটি ১০০%-এর বেশি হতে পারে | OK? |
@@ -61,3 +61,4 @@ least sure of. The key points to the entry in `src/i18n/bn.json` unless stated o
 | `design.*` | Design preview page text | Low priority: the page is for review only. |
 | `nav.skip` | মূল লেখায় যান | OK for "Skip to content"? |
 | `notfound.*` | এই পাতাটি নেই … হোম পেজে যান | Natural? |
+| `money.intl` | ডলার (English: Dollars) | **Changed by Ahmar:** short label on the switch. |

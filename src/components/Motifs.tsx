@@ -41,6 +41,53 @@ export function Alpona({ className }: { className?: string }) {
   );
 }
 
+/**
+ * Faint alpona streaks for the page background (Ahmar's M3 review): a lotus rosette in the
+ * bottom-left and a curling vine across the top-right, in thin line only. Decorative.
+ */
+export function AlponaField() {
+  const petals = Array.from({ length: 16 }, (_, i) => (i * 360) / 16);
+  const dots = Array.from({ length: 48 }, (_, i) => (i * 2 * Math.PI) / 48);
+  return (
+    <svg className="backdrop__alpona" viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+      <g fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" vectorEffect="non-scaling-stroke">
+        {/* Lotus rosette, bottom-left */}
+        <g transform="translate(230 780) scale(0.8)">
+          <circle r="34" />
+          <circle r="22" strokeDasharray="2 6" />
+          {petals.map((a) => (
+            <path key={a} transform={`rotate(${a})`} d="M0 -40 C18 -62 18 -96 0 -128 C-18 -96 -18 -62 0 -40 Z" />
+          ))}
+          {petals.map((a) => (
+            <path key={`o${a}`} transform={`rotate(${a + 11.25})`} d="M0 -136 C10 -150 10 -166 0 -178 C-10 -166 -10 -150 0 -136 Z" />
+          ))}
+          <circle r="196" strokeDasharray="1 9" />
+          {dots.map((a, i) => (
+            <circle key={i} cx={Math.cos(a) * 214} cy={Math.sin(a) * 214} r="2" fill="currentColor" stroke="none" />
+          ))}
+          <circle r="232" />
+        </g>
+        {/* Curling vine streak, top-right */}
+        <path d="M820 70 C930 20 1040 40 1110 110 C1160 160 1240 170 1300 130 C1350 96 1400 100 1460 140" />
+        <path d="M840 92 C950 48 1050 66 1112 132 C1166 188 1250 196 1316 154 C1360 126 1410 126 1460 160" strokeDasharray="2 7" />
+        {[
+          [960, 46, -30],
+          [1060, 66, 20],
+          [1150, 150, 40],
+          [1260, 160, -20],
+          [1360, 112, 10],
+        ].map(([x, y, r], i) => (
+          <g key={i} transform={`translate(${x} ${y}) rotate(${r})`}>
+            <path d="M0 0 C10 -16 26 -18 34 -10 C26 -2 12 2 0 0 Z" />
+            <path d="M0 0 C-6 14 -2 28 8 34" />
+            <circle cx="10" cy="40" r="3.5" />
+          </g>
+        ))}
+      </g>
+    </svg>
+  );
+}
+
 /** Rickshaw wheel loader: 12 spokes, 1.5 px lines, turns slowly; static under reduced motion. */
 export function RickshawWheel({ size = 40 }: { size?: number }) {
   const spokes = Array.from({ length: 12 }, (_, i) => (i * Math.PI) / 6);

@@ -116,10 +116,68 @@ export function grainPng(size = 64, seed = 1952): Buffer {
   ]);
 }
 
+// ---------- Muslin fibres (greyscale PNG) ----------
+/**
+ * A rough, hand-made paper / muslin look: a light flat tile with a few hundred short,
+ * slightly curved darker fibres, mostly running across (like threads in muslin) with a
+ * few running down. Mostly flat colour, so it compresses well. Tiles seamlessly (wraps).
+ */
+export function fibresPng(size = 256, seed = 1757): Buffer {
+  const r = rng(seed);
+  const base = 236;
+  const px = new Uint8Array(size * size).fill(base);
+  const plot = (x: number, y: number, v: number) => {
+    const xi = ((Math.round(x) % size) + size) % size;
+    const yi = ((Math.round(y) % size) + size) % size;
+    const i = yi * size + xi;
+    px[i] = Math.min(px[i]!, v);
+  };
+  for (let f = 0; f < 420; f++) {
+    const across = r() < 0.78;
+    let x = r() * size;
+    let y = r() * size;
+    let a = across ? (r() - 0.5) * 0.5 : Math.PI / 2 + (r() - 0.5) * 0.5;
+    const len = 6 + r() * 26;
+    const shade = 150 + Math.floor(r() * 70); // darker = more visible
+    for (let s = 0; s < len; s++) {
+      plot(x, y, shade);
+      x += Math.cos(a);
+      y += Math.sin(a);
+      a += (r() - 0.5) * 0.18; // gentle curl
+    }
+  }
+  // A few soft flecks, like specks in hand-made paper.
+  for (let k = 0; k < 60; k++) {
+    const x = r() * size, y = r() * size, v = 170 + Math.floor(r() * 50);
+    plot(x, y, v); plot(x + 1, y, v); plot(x, y + 1, v);
+  }
+  const rows: Buffer[] = [];
+  for (let y = 0; y < size; y++) {
+    const row = Buffer.alloc(size + 1);
+    for (let x = 0; x < size; x++) row[x + 1] = px[y * size + x]!;
+    rows.push(row);
+  }
+  const ihdr = Buffer.alloc(13);
+  ihdr.writeUInt32BE(size, 0);
+  ihdr.writeUInt32BE(size, 4);
+  ihdr[8] = 8;
+  ihdr[9] = 0;
+  return Buffer.concat([
+    Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]),
+    chunk('IHDR', ihdr),
+    chunk('IDAT', deflateSync(Buffer.concat(rows), { level: 9 })),
+    chunk('IEND', Buffer.alloc(0)),
+  ]);
+}
+
 if (process.argv[1] && /generate-background/.test(process.argv[1])) {
   const svg = deltaSvg();
   const png = grainPng();
+  const fibres = fibresPng();
   writeFileSync(resolve(ROOT, 'src/assets/delta.svg'), svg);
   writeFileSync(resolve(ROOT, 'src/assets/grain.png'), png);
-  console.log(`delta.svg ${(svg.length / 1024).toFixed(1)} KB, grain.png ${(png.length / 1024).toFixed(1)} KB`);
+  writeFileSync(resolve(ROOT, 'src/assets/fibres.png'), fibres);
+  console.log(
+    `delta.svg ${(svg.length / 1024).toFixed(1)} KB, grain.png ${(png.length / 1024).toFixed(1)} KB, fibres.png ${(fibres.length / 1024).toFixed(1)} KB`,
+  );
 }

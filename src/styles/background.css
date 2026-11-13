@@ -1,6 +1,6 @@
 /* The layered background (8.4), back to front:
    1. base --chal (body)   2. hue wash   3. delta contours   4. paper grain.
-   (5. the jamdani weave is not here: it lives only in the header, footer and empty states.)
+   5. muslin threads and fibres   6. alpona streaks and two faint jamdani lines (Ahmar, M3 review).
    One fixed layer behind the page; no background-attachment: fixed (slow on phones). */
 .backdrop {
   position: fixed;
@@ -30,33 +30,61 @@
 }
 .backdrop__delta svg { width: 100%; height: 100%; display: block; }
 
-/* 4. Paper grain: tiny tiling PNG, multiplied at about 3.5%. */
+/* 4. Paper: muslin fibres (256 px tile) over fine grain (64 px tile), multiplied.
+   Rougher than the spec's 3.5% grain at Ahmar's request (M3 review), still quiet. */
 .backdrop::after {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('../assets/grain.png');
-  background-size: 64px 64px;
-  opacity: .035;
+  background-image: url('../assets/fibres.png'), url('../assets/grain.png');
+  background-size: 256px 256px, 64px 64px;
+  opacity: .16;
   mix-blend-mode: multiply;
 }
 
+/* Muslin threads: faint hairlines running across at uneven spacing (no grid). CSS only. */
+.backdrop__weave {
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, var(--weave-thread) 0 1px, transparent 1px 5px, var(--weave-thread) 5px 6px, transparent 6px 13px, var(--weave-thread) 13px 14px, transparent 14px 17px);
+}
+
+/* Alpona streaks: line ornament in two corners. */
+.backdrop__alpona {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--alpona-stroke);
+}
+
+/* Two faint jamdani lines across the page. */
+.backdrop__jamdani {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: .5;
+}
+.backdrop__jamdani.is-upper { top: 31%; }
+.backdrop__jamdani.is-lower { top: 74%; }
+
 /* Data savers and low-end phones: plain paper, no contours, no grain. */
 @media (prefers-reduced-data: reduce) {
-  .backdrop__delta, .backdrop::after { display: none; }
+  .backdrop__delta, .backdrop::after, .backdrop__weave, .backdrop__alpona, .backdrop__jamdani { display: none; }
 }
-.save-data .backdrop__delta, .save-data .backdrop::after,
-.lite .backdrop__delta, .lite .backdrop::after { display: none; }
+.save-data :is(.backdrop__delta, .backdrop__weave, .backdrop__alpona, .backdrop__jamdani), .save-data .backdrop::after,
+.lite :is(.backdrop__delta, .backdrop__weave, .backdrop__alpona, .backdrop__jamdani), .lite .backdrop::after { display: none; }
 
 @media (forced-colors: active) {
-  .backdrop::before, .backdrop::after, .backdrop__delta { display: none; }
+  .backdrop::before, .backdrop::after, .backdrop__delta, .backdrop__weave, .backdrop__alpona, .backdrop__jamdani { display: none; }
 }
 
 @media print {
   .backdrop { display: none; }
 }
 
-/* 5. Jamdani weave band: header, footer and empty states only. Drawn by <Jamdani />. */
+/* 5. Jamdani weave band: header, footer, empty states, and (since the M3 review) two faint lines in the background. Drawn by <Jamdani />. */
 .jamdani {
   display: block;
   width: 100%;
