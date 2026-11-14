@@ -584,44 +584,4 @@
 @media (prefers-reduced-motion: reduce) { .curtain { display: none; } }
 @media print { .curtain { display: none; } }
 
-/* Curtain variants to try (DECISIONS.md 126–127). Each: 0.35 s in, a hold of at least 0.3 s, 0.35 s out. */
-.curtain--stitch, .curtain--alpona { transform: none; transition: none; }
-.curtain--stitch.is-covering, .curtain--alpona.is-covering,
-.curtain--stitch.is-revealing, .curtain--alpona.is-revealing { transform: none; }
-
-/* 2. Kantha stitch: a red running stitch is sewn across the middle; the paper opens from that seam and closes back into it. */
-.curtain--stitch { clip-path: inset(calc(50% - 3px) 0 calc(50% - 3px) 0); }
-.curtain--stitch.is-covering { clip-path: inset(0); transition: clip-path 290ms cubic-bezier(.3, .7, .2, 1) 60ms; }
-.curtain--stitch.is-holding { clip-path: inset(0); }
-.curtain--stitch.is-revealing { clip-path: inset(calc(50% - 3px) 0 calc(50% - 3px) 0); transition: clip-path 350ms cubic-bezier(.6, 0, .8, .4); }
-.curtain__stitch {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(50% - 1px);
-  height: 2px;
-  z-index: 1;
-  background: repeating-linear-gradient(90deg, var(--lal-thread) 0 10px, transparent 10px 17px);
-  transform: scaleX(0);
-  transform-origin: left center;
-}
-.curtain--stitch.is-covering .curtain__stitch { transform: scaleX(1); transition: transform 350ms ease-out; }
-.curtain--stitch.is-holding .curtain__stitch { transform: scaleX(1); }
-.curtain--stitch.is-revealing .curtain__stitch { transform: scaleX(0); transform-origin: right center; transition: transform 350ms ease-in; }
-.curtain--stitch .curtain__centre { padding-top: 72px; }
-
-/* 3. Alpona bloom: plain paper fades in, a rosette draws itself in green thread, everything fades out. */
-.curtain--alpona { opacity: 0; }
-.curtain--alpona.is-covering { opacity: 1; transition: opacity 350ms ease-out; }
-.curtain--alpona.is-holding { opacity: 1; }
-.curtain--alpona.is-revealing { opacity: 0; transition: opacity 350ms ease-in; }
-.curtain__rosette { color: var(--dhan); }
-.curtain__rosette :is(path, circle) { stroke-dasharray: 1; stroke-dashoffset: 1; }
-.curtain__rosette .curtain__rosette-dots { stroke-dasharray: 0.01 0.04; stroke-dashoffset: 0; opacity: 0; }
-.curtain--alpona:not(.is-idle) .curtain__rosette :is(path, circle):not(.curtain__rosette-dots) { animation: rosette-draw 600ms ease-out forwards; }
-.curtain--alpona:not(.is-idle) .curtain__rosette-dots { animation: rosette-dots 400ms ease-out 250ms forwards; }
-.curtain--alpona:not(.is-idle) .curtain__rosette { animation: rosette-turn 1000ms ease-out forwards; }
-@keyframes rosette-draw { to { stroke-dashoffset: 0; } }
-@keyframes rosette-dots { to { opacity: 1; } }
-@keyframes rosette-turn { from { transform: rotate(-30deg) scale(.85); } to { transform: none; } }
 

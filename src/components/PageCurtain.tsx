@@ -1,7 +1,7 @@
-// Page change curtain (Ahmar, 2026-11-14; DECISIONS.md 125): when the reader goes to another page
-// or switches language, a sheet of muslin paper slides up over the screen (about 0.2 s), the
-// rickshaw wheel turns while the new page gets ready (at least about 0.15 s), and the sheet lifts
-// off the top (about 0.2 s). Switching language also changes the name shown on the sheet.
+// Page change curtain (Ahmar, 2026-11-14; DECISIONS.md 125–128): when the reader goes to another
+// page or switches language, a sheet of muslin paper slides up over the screen (0.35 s), the
+// rickshaw wheel turns while the new page gets ready (at least 0.3 s), and the sheet lifts off the
+// top (0.35 s). Switching language also changes the name shown on the sheet.
 //
 // Only a new address starts it: links to the same page with a different #part or ?choice (The full
 // picture, Chart/Table, countries, /sources sections) do not. Back/forward buttons, new tabs and
@@ -13,23 +13,6 @@ import { t, type Lang } from '../i18n/index.ts';
 import { Jamdani, RickshawWheel } from './Motifs.tsx';
 
 type Phase = 'idle' | 'covering' | 'holding' | 'revealing';
-
-// Three looks to try (DECISIONS.md 126–127). Pick one by adding ?curtain=stitch (or muslin,
-// alpona) to any address; the choice is remembered in this browser only. Default: muslin.
-const VARIANTS = ['muslin', 'stitch', 'alpona'] as const;
-type Variant = (typeof VARIANTS)[number];
-const isVariant = (v: unknown): v is Variant => VARIANTS.includes(v as Variant);
-
-function chosenVariant(): Variant {
-  try {
-    const asked = new URLSearchParams(location.search).get('curtain');
-    if (isVariant(asked)) localStorage.setItem('kab-curtain', asked);
-    const saved = localStorage.getItem('kab-curtain');
-    return isVariant(saved) ? saved : 'muslin';
-  } catch {
-    return 'muslin';
-  }
-}
 
 // About one second in all, long enough to notice (Ahmar, DECISIONS.md 127): cover, a hold
 // (longer only if the page is still loading), reveal. The CSS transitions use the same lengths.
@@ -62,9 +45,6 @@ export function PageCurtain() {
   const { pathname } = useLocation();
   const [phase, setPhase] = useState<Phase>('idle');
   const [names, setNames] = useState<{ from: Lang; to: Lang } | null>(null);
-  const [variant, setVariant] = useState<Variant>('muslin');
-  // Read the ?curtain= choice on the first page too, not only on the first click.
-  useEffect(() => setVariant(chosenVariant()), []);
   const busy = useRef(false);
   const here = useRef(pathname);
   here.current = pathname;
@@ -73,7 +53,6 @@ export function PageCurtain() {
     async function run(to: string) {
       busy.current = true;
       const from = langOf(here.current);
-      setVariant(chosenVariant());
       setNames({ from, to: langOf(to) });
       setPhase('covering');
       await wait(COVER_MS);
@@ -115,12 +94,10 @@ export function PageCurtain() {
   const shown = names ? (phase === 'covering' ? names.from : names.to) : null;
 
   return (
-    <div className={`curtain curtain--${variant} is-${phase}`} aria-hidden="true">
-      {variant === 'muslin' && <Jamdani />}
-      {variant === 'stitch' && <span className="curtain__stitch" />}
+    <div className={`curtain is-${phase}`} aria-hidden="true">
+      <Jamdani />
       <div className="curtain__centre">
-        {variant === 'muslin' && <RickshawWheel size={44} />}
-        {variant === 'alpona' && <Rosette />}
+        <RickshawWheel size={44} />
         {shown && (
           <p key={shown} className={`curtain__name${switching ? ' is-switch' : ''}`} lang={shown}>
             {t(shown, 'site.title')}
@@ -131,19 +108,3 @@ export function PageCurtain() {
   );
 }
 
-/** A small alpona rosette whose lines draw themselves (each path has length 1 for the CSS). */
-function Rosette() {
-  const petals = Array.from({ length: 8 }, (_, i) => i * 45);
-  return (
-    <svg className="curtain__rosette" viewBox="-60 -60 120 120" width="96" height="96" aria-hidden="true" focusable="false">
-      <g fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round">
-        <circle r="10" pathLength={1} />
-        <circle r="3" pathLength={1} />
-        {petals.map((a) => (
-          <path key={a} transform={`rotate(${a})`} d="M0 -14 C10 -26 10 -42 0 -54 C-10 -42 -10 -26 0 -14 Z" pathLength={1} />
-        ))}
-        <circle r="34" strokeDasharray="0.01 0.04" pathLength={1} className="curtain__rosette-dots" />
-      </g>
-    </svg>
-  );
-}
