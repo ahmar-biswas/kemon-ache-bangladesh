@@ -11,10 +11,12 @@ import './styles/dashboard.css';
 import './styles/measure.css';
 import './styles/pages.css';
 
+import { BASE, stripBase } from './lib/base.ts';
+
 const root = document.getElementById('root')!;
 const app = (
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={BASE || undefined}>
       <App />
     </BrowserRouter>
   </StrictMode>
@@ -25,8 +27,9 @@ const trim = (p: string) => p.replace(/\/+$/, '');
 const pre = root.dataset.prerendered;
 // The page's own code is fetched first, so React never swaps the pre-rendered page for the
 // loading line while it arrives (DECISIONS 136). If the fetch fails, React draws as before.
-if (pre && trim(pre) === trim(location.pathname) && !location.search) {
-  preloadPage(location.pathname)
+const here = stripBase(location.pathname);
+if (pre && trim(pre) === trim(here) && !location.search) {
+  preloadPage(here)
     .catch(() => {})
     .then(() => hydrateRoot(root, app));
 } else createRoot(root).render(app);

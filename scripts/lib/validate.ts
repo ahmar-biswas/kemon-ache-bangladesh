@@ -81,7 +81,9 @@ export function compareWithPrevious(
     const n = nextByKey.get(`${r.country}-${r.year}`);
     if (!n || n.value !== r.value) changedCount++;
   }
-  if (changedCount / previous.length > MAX_CHANGED_SHARE) {
+  // KAB_ACCEPT_LARGE_CHANGES=1: a person has looked at the change and allows it (the refresh workflow
+  // has a tick box for this, M9, DECISIONS 140). Every other check still applies.
+  if (changedCount / previous.length > MAX_CHANGED_SHARE && process.env.KAB_ACCEPT_LARGE_CHANGES !== '1') {
     problems.push(
       `${config.id}: ${changedCount} of ${previous.length} existing values changed or disappeared ` +
         `(over ${MAX_CHANGED_SHARE * 100}%). Needs a human to review before publishing.`,

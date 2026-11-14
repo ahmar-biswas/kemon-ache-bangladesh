@@ -1,0 +1,46 @@
+# Publishes the site to GitHub Pages (M9, DECISIONS 140).
+# Not started on its own: CI calls it after every check passes on main, and the weekly refresh
+# calls it after committing. It can also be started by hand (Actions → Deploy → Run workflow).
+#
+# The site lives in a folder named after the repository (https://<user>.github.io/<repository>/),
+# so the build is told that folder with BASE_PATH.
+name: Deploy
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; a newer one waits instead of cancelling a deploy halfway.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Always the newest main: after a refresh, that is the commit the refresh just pushed.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+      - name: Build for the repository's folder
+        run: BASE_PATH="/${GITHUB_REPOSITORY#*/}/" npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

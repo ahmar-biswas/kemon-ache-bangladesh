@@ -8,6 +8,7 @@ import { StaticRouter } from 'react-router';
 import { App, preloadPage } from './App.tsx';
 import { AREA_PAGES, PAGE_MEASURES, SUBSECTIONS, path } from './data/site.ts';
 import { LANGS } from './i18n/index.ts';
+import { BASE } from './lib/base.ts';
 
 /** Every page address the site has, in both languages. */
 export function routes(): string[] {
@@ -30,7 +31,7 @@ export async function render(url: string): Promise<string> {
   await preloadPage(url);
   const { prelude } = await prerender(
     <StrictMode>
-      <StaticRouter location={url}>
+      <StaticRouter location={BASE + url} basename={BASE || undefined}>
         <App />
       </StaticRouter>
     </StrictMode>,

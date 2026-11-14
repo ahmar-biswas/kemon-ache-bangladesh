@@ -10,6 +10,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router';
 import { t, type Lang } from '../i18n/index.ts';
+import { stripBase } from '../lib/base.ts';
 import { Jamdani, RickshawWheel } from './Motifs.tsx';
 
 type Phase = 'idle' | 'covering' | 'holding' | 'revealing';
@@ -76,12 +77,14 @@ export function PageCurtain() {
       if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
       const url = new URL(a.href, location.href);
       if (url.origin !== location.origin) return;
+      // The router's addresses leave out the folder the site lives in (DECISIONS 140).
+      const to = stripBase(url.pathname);
       // Same page, another #part or ?choice: no curtain (only a new page or language starts it).
-      if (url.pathname.replace(/\/+$/, '') === here.current.replace(/\/+$/, '')) return;
+      if (to.replace(/\/+$/, '') === here.current.replace(/\/+$/, '')) return;
       if (!curtainAllowed()) return;
       e.preventDefault();
       if (busy.current) return;
-      void run(url.pathname + url.search + url.hash);
+      void run(to + url.search + url.hash);
     }
 
     // Capture phase: runs before the router's own link handler, which then sees the click handled.

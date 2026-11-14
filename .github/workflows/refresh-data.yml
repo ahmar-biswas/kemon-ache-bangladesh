@@ -1,0 +1,156 @@
+# Weekly data refresh (section 5.4; M9, DECISIONS 140).
+#
+#   1. Download every measure again from the World Bank (and the six published rankings).
+#   2. Check it (scripts/refresh.ts: all or nothing), then run every CI check on the new data.
+#   3. All good: commit the new data and publish the site.
+#      Anything failed: put the last good data back, record only "Last checked" with a note that
+#      the check failed (shown on every page), publish that, and open an issue saying what failed.
+#
+# Nothing that failed a check is ever committed or published.
+name: Weekly data refresh
+
+on:
+  schedule:
+    # Sundays 21:30 UTC = Mondays 03:30 in Dhaka. (GitHub may start scheduled runs a little late.)
+    - cron: '30 21 * * 0'
+  workflow_dispatch:
+    inputs:
+      accept_large_changes:
+        description: 'I have looked at the issue and allow a measure where more than 20% of the old values changed'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    # The World Bank server can take minutes per request when its cache is cold.
+    timeout-minutes: 180
+    outputs:
+      pushed: ${{ steps.commit.outputs.pushed }}
+      ok: ${{ steps.result.outputs.ok }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: npm
+      - run: npm ci
+
+      # Asking for the slow "every country" answers in parallel first makes the refresh that follows
+      # quick (DECISIONS 23). A failure here is fine: the refresh asks again, with retries.
+      - name: Warm up the World Bank answers
+        continue-on-error: true
+        run: npx tsx scripts/warm-cache.ts
+
+      - name: Download and check the data
+        id: refresh
+        continue-on-error: true
+        env:
+          KAB_ACCEPT_LARGE_CHANGES: ${{ inputs.accept_large_changes && '1' || '0' }}
+        run: |
+          set -o pipefail
+          npm run data:refresh 2>&1 | tee refresh.log
+
+      - name: Run every CI check on the new data
+        id: checks
+        if: steps.refresh.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          {
+            npm run typecheck &&
+            npm run check:i18n &&
+            npm run check:data &&
+            npm test &&
+            npm run build &&
+            npm run check:crawl
+          } 2>&1 | tee checks.log
+
+      - name: Result
+        id: result
+        run: |
+          if [ "${{ steps.refresh.outcome }}" = success ] && [ "${{ steps.checks.outcome }}" = success ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # The refresh changed no data file if it failed itself (it records only the failed check).
+      # If a later check failed, the new data is thrown away here, so nothing unchecked is kept.
+      - name: On failure, keep the last good data
+        if: steps.result.outputs.ok != 'true'
+        run: |
+          git checkout -- data
+          git clean -fdq data
+          TODAY=$(TZ=Asia/Dhaka date +%F) node -e "
+            const fs = require('fs'); const f = 'data/processed/meta.json';
+            const m = JSON.parse(fs.readFileSync(f, 'utf8'));
+            m.last_checked = process.env.TODAY; m.last_check_ok = false;
+            fs.writeFileSync(f, JSON.stringify(m, null, 2) + '\n');"
+
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if git diff --cached --quiet; then
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "${{ steps.result.outputs.ok }}" = true ]; then
+            if git diff --cached --name-only | grep -qv '^data/processed/meta.json$'; then
+              MSG="Data refresh $(TZ=Asia/Dhaka date +%F): new figures"
+            else
+              MSG="Data refresh $(TZ=Asia/Dhaka date +%F): no new figures"
+            fi
+          else
+            MSG="Data refresh $(TZ=Asia/Dhaka date +%F): check failed, last good data kept"
+          fi
+          git commit -q -m "$MSG"
+          git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open an issue on failure
+        if: steps.result.outputs.ok != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RUN_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          {
+            echo "The weekly data refresh found a problem, so the site still shows the last good data."
+            echo "Every page now says the latest check could not be completed."
+            echo
+            echo "Run: $RUN_URL"
+            echo
+            echo "What failed (last lines):"
+            echo '```'
+            grep -E '^\s+- |FAILED|Error|✗|×' refresh.log checks.log 2>/dev/null | tail -40 || true
+            echo '```'
+            echo
+            echo "What to do: see \"If a refresh fails\" in README.md."
+          } > issue.md
+          TITLE="Data refresh failed ($(TZ=Asia/Dhaka date +%F))"
+          gh issue create --title "$TITLE" --body-file issue.md
+
+      - name: Mark the run as failed
+        if: steps.result.outputs.ok != 'true'
+        run: exit 1
+
+  # Publish whatever was committed: new figures, or only the new "Last checked" date and note.
+  deploy:
+    needs: refresh
+    if: always() && needs.refresh.outputs.pushed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

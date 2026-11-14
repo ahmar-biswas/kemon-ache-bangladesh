@@ -3,13 +3,15 @@
 //   dist/en/economy/index.html, dist/bn/indicator/inflation/index.html, …
 //   dist/404.html   the "page does not exist" page, for hosts that serve it for unknown addresses
 //   dist/index.html sends people without JavaScript to the English homepage
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 // The production React build: quicker, and the same HTML the browser build expects.
 process.env.NODE_ENV = 'production';
 const DIST = resolve('dist');
+// The folder the site lives in on the host, e.g. "/kemon-ache-bangladesh" (DECISIONS 140); "" at the root.
+const BASE = process.env.BASE_PATH ? `/${process.env.BASE_PATH.replace(/^\/+|\/+$/g, '')}` : '';
 const SSR = resolve('dist-ssr/entry-server.js');
 
 const { render, routes } = (await import(pathToFileURL(SSR).href)) as {
@@ -68,7 +70,26 @@ write(join(DIST, '404.html'), page('/en/', await render('/en/this-page-does-not-
 // "/": JavaScript picks the reader's language; without it, go to English.
 write(
   join(DIST, 'index.html'),
-  template.replace('</head>', '    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>\n  </head>'),
+  template.replace('</head>', '    <noscript><meta http-equiv="refresh" content="0; url=${BASE}/en/" /></noscript>\n  </head>'),
 );
 
-console.log(`Pre-rendered ${count} pages and 404.html.`);
+// With a folder, every address inside the site must start with it, or the link leads off the site.
+if (BASE) {
+  const bad = new Set<string>();
+  const walk = (dir: string) => {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      if (statSync(p).isDirectory()) walk(p);
+      else if (name.endsWith('.html')) {
+        for (const m of readFileSync(p, 'utf8').matchAll(/(?:href|src|content)="(?:0; url=)?(\/[^"]*)"/g)) {
+          const u = m[1]!;
+          if (!u.startsWith('//') && u !== BASE && !u.startsWith(`${BASE}/`)) bad.add(`${p.slice(DIST.length)}: ${u}`);
+        }
+      }
+    }
+  };
+  walk(DIST);
+  if (bad.size) throw new Error(`Links outside ${BASE}/:\n${[...bad].slice(0, 20).join('\n')}`);
+}
+
+console.log(`Pre-rendered ${count} pages and 404.html${BASE ? ` for ${BASE}/` : ''}.`);

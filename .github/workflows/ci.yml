@@ -30,3 +30,13 @@ jobs:
         run: npm run build
       - name: Site crawl (every page in both languages; uses the runner's Chrome)
         run: npm run check:crawl
+
+  # Only a push to main that passed every check above is published (M9).
+  deploy:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
