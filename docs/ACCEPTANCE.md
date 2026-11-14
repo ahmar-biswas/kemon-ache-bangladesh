@@ -59,7 +59,7 @@ All 225 distinct outside links were tried (`npm run check:crawl -- --external`; 
 `docs/crawl/external-links.json`).
 
 - **Every link outside the World Bank data site answers normally** (UN, WHO, UNDP, RSF, GHI, Transparency, SDSN, World Happiness, the World Bank API, Databank and data help desk: 103 links, all 200).
-- **data.worldbank.org** (122 links, the "exact dataset page" links): on the first run most answered 429 "too many requests" or 5xx, because the checker asked too fast; the checker now asks one at a time with pauses. The slow re-run was still going at commit time (125 of 225 checked); its result will be added here. (The indicator codes in these links are the same ones the API answered for in the 20-value check.)
+- **data.worldbank.org** (122 links, the "exact dataset page" links): on the first run most answered 429 "too many requests" or 5xx, because the checker asked too fast; the checker now asks one at a time with pauses. The slow re-run was stopped after 150 of 225 links (over an hour, mostly waiting on the World Bank rate limit). Checking these links is left for M9, where the hosted site can run it as a scheduled job. (The indicator codes in these links are the same ones the API answered for in the 20-value check.)
 
 ## Found and fixed during M8 (beyond the checklist)
 
