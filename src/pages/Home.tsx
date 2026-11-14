@@ -52,7 +52,18 @@ function Dashboard({ lang }: { lang: Lang }) {
     const id = openArea;
     setOpenArea(null);
     // Back to the tile the reader came from.
-    if (id) requestAnimationFrame(() => tileRefs.current[id]?.querySelector<HTMLElement>('.story__open')?.focus({ preventScroll: true }));
+    if (id) {
+      requestAnimationFrame(() => {
+        const tile = tileRefs.current[id];
+        tile?.querySelector<HTMLElement>('.story__open')?.focus({ preventScroll: true });
+        // Phones: after reading far down the panel, bring the tile back into view.
+        const top = tile?.getBoundingClientRect().top ?? 0;
+        if (tile && (top < 0 || top > window.innerHeight)) {
+          const still = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+          tile.scrollIntoView({ block: 'start', behavior: still ? 'auto' : 'smooth' });
+        }
+      });
+    }
   }, [openArea]);
 
   // Narrow screens (stacked tiles; Ahmar, M8): the panel lies over the tiles from the top of the
@@ -117,13 +128,20 @@ function Dashboard({ lang }: { lang: Lang }) {
             <Suspense
               fallback={
                 // While the code loads (first open only), stay in the tile's place, so the
-                // sideways opening still starts from the tile.
-                <div
-                  className="details"
-                  style={origin && window.matchMedia?.('(min-width: 900px)').matches ? { clipPath: `inset(${origin.top}px ${origin.right}px ${origin.bottom}px ${origin.left}px round 14px)` } : undefined}
-                >
-                  <Loading lang={lang} />
-                </div>
+                // sideways opening still starts from the tile. Narrow screens: show nothing over
+                // the tile, so the panel grows straight out of it once ready (Ahmar, M8).
+                window.matchMedia?.('(min-width: 900px)').matches ? (
+                  <div
+                    className="details"
+                    style={origin ? { clipPath: `inset(${origin.top}px ${origin.right}px ${origin.bottom}px ${origin.left}px round 14px)` } : undefined}
+                  >
+                    <Loading lang={lang} />
+                  </div>
+                ) : (
+                  <span className="visually-hidden" role="status">
+                    {t(lang, 'state.loading')}
+                  </span>
+                )
               }
             >
               <DetailsPanel key={open.icon} lang={lang} area={open} latest={LATEST} origin={origin} onClose={close} />
@@ -156,6 +174,16 @@ export function Home() {
   useEffect(() => {
     document.documentElement.classList.add('is-home');
     return () => document.documentElement.classList.remove('is-home');
+  }, []);
+  // Phones have no hover to fetch "The full picture" ahead of the tap, so fetch it (about 29 KB)
+  // once the page is idle, unless the reader saves data or the phone is low-end (R10; M8).
+  useEffect(() => {
+    const root = document.documentElement;
+    if (root.classList.contains('save-data') || root.classList.contains('lite')) return;
+    const idle = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 1500));
+    const cancel = window.cancelIdleCallback ?? window.clearTimeout;
+    const id = idle(prefetchDetails);
+    return () => cancel(id);
   }, []);
   return (
     <CompareProvider peers={LATEST.default_peers}>

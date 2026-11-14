@@ -15,8 +15,15 @@ export interface Origin {
   height?: number;
 }
 
-/** Narrow screens: just the tile's rectangle at the panel's top (top and sides fixed). */
-const tileOnly = (el: HTMLElement, o: Origin) => `inset(0px 0px ${Math.max(0, el.offsetHeight - (o.height ?? 0))}px 0px round ${RADIUS}px)`;
+/** Narrow screens: the panel showing only its top `h` px (top and sides fixed). */
+const topPart = (el: HTMLElement, h: number) => `inset(0px 0px ${Math.max(0, el.offsetHeight - h)}px 0px round ${RADIUS}px)`;
+/**
+ * How far down the panel reaches on screen. On a phone the panel is several screens long; growing
+ * it to its full length meant the part you can see was uncovered in the first few frames. So the
+ * slide covers only the screen (tile → screen bottom) over the whole duration, like the sideways
+ * opening on a laptop; the part below the screen is uncovered unseen (Ahmar, M8).
+ */
+const onScreen = (el: HTMLElement, tile: number) => Math.max(tile, Math.min(el.offsetHeight, window.innerHeight - el.getBoundingClientRect().top));
 
 const OPEN_MS = 640;
 const CLOSE_MS = 420;
@@ -42,8 +49,12 @@ export function useSideways(ref: RefObject<HTMLElement | null>, origin: Origin |
     if (origin && overlays()) {
       el.animate([{ clipPath: clipOf(origin) }, { clipPath: FULL }], { duration: OPEN_MS, easing: SOOTHE });
     } else if (origin?.height) {
-      // Narrow: the panel lies over the tapped tile and grows downward from it.
-      el.animate([{ clipPath: tileOnly(el, origin) }, { clipPath: FULL }], { duration: OPEN_MS, easing: SOOTHE });
+      // Narrow: the panel lies over the tapped tile and grows downward from it. Held at the tile's
+      // size until the first frame is on screen: drawing the whole panel takes a while on a phone,
+      // and a clock already running would skip the start of the slide.
+      const anim = el.animate([{ clipPath: topPart(el, origin.height) }, { clipPath: topPart(el, onScreen(el, origin.height)) }], { duration: OPEN_MS, easing: SOOTHE });
+      anim.pause();
+      requestAnimationFrame(() => requestAnimationFrame(() => anim.play()));
     } else {
       el.animate([{ opacity: 0, transform: 'translateX(-24px)' }, { opacity: 1, transform: 'none' }], { duration: OPEN_MS, easing: SOOTHE });
     }
@@ -60,7 +71,7 @@ export function useSideways(ref: RefObject<HTMLElement | null>, origin: Origin |
       origin && overlays()
         ? el.animate([{ clipPath: FULL }, { clipPath: clipOf(origin) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
         : origin?.height
-        ? el.animate([{ clipPath: FULL }, { clipPath: tileOnly(el, origin) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
+        ? el.animate([{ clipPath: topPart(el, onScreen(el, origin.height)) }, { clipPath: topPart(el, origin.height) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
         : el.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-24px)' }], { duration: CLOSE_MS, easing: 'ease-in', fill: 'forwards' });
     // Finish once, whichever comes first: the animation's end, or a timer (animations pause
     // in hidden tabs, and the panel must still close).
