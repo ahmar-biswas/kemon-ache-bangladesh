@@ -363,3 +363,9 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - **When it doesn't play:** same-page links (#parts, ?choices, "The full picture", Chart/Table, picking countries, /sources sections); back/forward buttons; new-tab or modified clicks; reduced motion, data saver, low-end phones (R10); print.
     - Code: `src/components/PageCurtain.tsx`. It catches link clicks before the router does, covers, then navigates.
     - Still to try: kantha stitch, alpona bloom, rising sun.
+126. **Three more curtains to try, each about 0.5 s (Ahmar, 2026-11-14).** All use 0.2 s in, a hold of at least 0.1 s (longer only while the page is still loading), and 0.2 s out. All show the language-switch name change.
+    - **Choosing one:** add `?curtain=muslin`, `?curtain=stitch`, `?curtain=alpona` or `?curtain=sun` to any address. The choice is remembered in that browser only (a per-viewer convenience); the default is muslin.
+    - **stitch:** a red running stitch (`--lal-thread`, the heading-stitch colour) is sewn across the middle; the paper opens from that seam and closes back into it.
+    - **alpona:** plain paper fades in; a green alpona rosette draws itself and turns slightly; everything fades out.
+    - **sun:** the flag green sweeps in from the left; the red disc rises in the middle (the disc is the one allowed use of the flag red); both move on to the right.
+    - Once Ahmar picks one, the others and the switch are removed.
