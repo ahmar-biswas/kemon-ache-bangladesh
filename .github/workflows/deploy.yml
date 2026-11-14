@@ -25,13 +25,13 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.again.outputs.page_url }}
     steps:
       # Always the newest main: after a refresh, that is the commit the refresh just pushed.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 26
           cache: npm
@@ -42,5 +42,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      # GitHub sometimes cannot find the file it was just given ("No artifacts named github-pages",
+      # first refresh, 2026-11-14). Wait a minute and try once more.
       - id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.deployment.outcome != 'success'
+        run: sleep 60
+      - id: again
+        if: steps.deployment.outcome != 'success'
         uses: actions/deploy-pages@v4
