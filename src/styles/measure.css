@@ -136,7 +136,7 @@
   height: 14px;
   margin-top: -7px;
   border-radius: 0 4px 4px 0;
-  background: var(--peer-grey);
+  background: var(--peer, var(--peer-grey));
   transition: width 460ms var(--soothe), left 460ms var(--soothe);
 }
 .ranked__bar.is-negative { border-radius: 4px 0 0 4px; }
@@ -148,10 +148,13 @@
   height: 12px;
   margin: -6px 0 0 -6px;
   border-radius: 50%;
-  border: 2px solid var(--peer-grey);
+  border: 2px solid var(--peer, var(--peer-grey));
   background: var(--muslin);
   box-shadow: 0 0 0 2px var(--muslin);
 }
+/* Sixth country on: the colour repeats, so the mark changes (DECISIONS.md 123). */
+.ranked__row.is-repeat .ranked__dot { background: var(--peer, var(--peer-grey)); }
+.ranked__row.is-repeat .ranked__bar { background: repeating-linear-gradient(90deg, var(--peer, var(--peer-grey)) 0 6px, transparent 6px 9px); }
 .ranked__row.is-bgd .ranked__dot { width: 14px; height: 14px; margin: -7px 0 0 -7px; border-color: var(--dhan-chart); background: var(--dhan-chart); }
 .ranked__value { padding-left: var(--s-8); font-size: 0.875rem; white-space: nowrap; }
 .ranked__row.is-bgd .ranked__value { font-weight: 600; }
@@ -189,9 +192,9 @@
 .measure__legend li { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-4) var(--s-8); }
 .measure__key { display: inline-block; flex: 0 0 auto; }
 .measure__key--bgd-bars, .measure__key--peer-bars { width: 18px; height: 10px; border-radius: 0 3px 3px 0; background: var(--dhan-chart); }
-.measure__key--peer-bars { background: var(--peer-grey); }
+.measure__key--peer-bars { background: linear-gradient(90deg, var(--series-2) 0 20%, var(--series-3) 20% 40%, var(--series-4) 40% 60%, var(--series-5) 60% 80%, var(--series-6) 80%); }
 .measure__key--bgd-dots, .measure__key--peer-dots { width: 12px; height: 12px; border-radius: 50%; background: var(--dhan-chart); }
-.measure__key--peer-dots { background: var(--muslin); border: 2px solid var(--peer-grey); }
+.measure__key--peer-dots { background: var(--muslin); border: 2px solid var(--series-3); }
 .measure__key--median { width: 0; height: 14px; border-left: 2px dotted var(--kali-2); }
 .measure__key--goal { width: 0; height: 14px; border-left: 2px dashed var(--kali); }
 

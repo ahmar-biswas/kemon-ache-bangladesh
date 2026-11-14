@@ -22,4 +22,6 @@ export const AREAS: AreaConfig[] = [
 ];
 
 /** "Bangladesh at a glance": the six measures Ahmar kept (M4 review 2). */
-export const GLANCE: string[] = ['gdp_total_taka', 'gdp_pc_taka', 'life_expectancy', 'hdi_rank', 'whr_rank', 'cpi_rank'];
+// Six published world rankings (Ahmar, 2026-11-14; DECISIONS.md 124). GDP, GDP per person and
+// life expectancy left this list: they are already on the homepage tiles.
+export const GLANCE: string[] = ['sdg_rank', 'rsf_rank', 'ghi_rank', 'hdi_rank', 'whr_rank', 'cpi_rank'];

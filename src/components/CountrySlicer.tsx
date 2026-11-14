@@ -7,6 +7,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState, type Keyboar
 import { t, type Lang } from '../i18n/index.ts';
 import { countryLabel } from '../lib/names.ts';
 import { useCompare } from './CompareContext.tsx';
+import { slotStyle } from '../lib/peerColours.ts';
 
 interface Props {
   lang: Lang;
@@ -146,6 +147,7 @@ export function CountrySlicer({ lang, peers, names }: Props) {
             aria-checked={i === index}
             tabIndex={i === index ? 0 : -1}
             className={`slicer__chip${i === index ? ' is-selected' : ''}`}
+            style={c ? slotStyle(peers.indexOf(c)) : undefined}
             onClick={() => select(c)}
           >
             {c && <span className="slicer__dot" aria-hidden="true" />}

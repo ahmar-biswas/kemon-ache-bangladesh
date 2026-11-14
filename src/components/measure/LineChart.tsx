@@ -5,7 +5,7 @@
 // of government, small diamonds for shocks. They are context only; the chart claims no cause.
 import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
 import { matchNote } from '../../data/notes.ts';
-import { niceTicks, segments, tickDecimals, yearFraction } from '../../data/picker.ts';
+import { hasGaps, niceTicks, segments, tickDecimals, yearFraction } from '../../data/picker.ts';
 import type { DataRecord, EventItem, Unit } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
 import { formatDate, formatTaka, formatYear } from '../../lib/format.ts';
@@ -81,7 +81,7 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
 
   const segs = segments(sorted);
   const sparse = sorted.length <= 30;
-  const gaps = segs.length > 1;
+  const gaps = hasGaps(sorted);
 
   const shown = events
     .map((e) => ({ e, at: yearFraction(e.date) }))

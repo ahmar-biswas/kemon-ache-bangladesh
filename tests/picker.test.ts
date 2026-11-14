@@ -14,6 +14,8 @@ import {
   presetCountries,
   rankHighestFirst,
   segments,
+  runs,
+  gapEdgeYears,
   shownRows,
   toCsv,
   toggleCountry,
@@ -107,7 +109,10 @@ describe('chart rules', () => {
   });
   it('breaks the line at a missing year and never bridges it', () => {
     const pts = [2000, 2001, 2002, 2005, 2006, 2009].map((year) => ({ year }));
-    expect(segments(pts).map((s) => s.map((p) => p.year))).toEqual([[2000, 2001, 2002], [2005, 2006], [2009]]);
+    expect(runs(pts).map((s) => s.map((p) => p.year))).toEqual([[2000, 2001, 2002], [2005, 2006], [2009]]);
+    // Drawn as one line through every published value (DECISIONS.md 122); values next to a gap get a dot.
+    expect(segments(pts).map((s) => s.map((p) => p.year))).toEqual([[2000, 2001, 2002, 2005, 2006, 2009]]);
+    expect([...gapEdgeYears(pts)].sort()).toEqual([2000, 2002, 2005, 2006, 2009]);
   });
   it('places a date within its year', () => {
     expect(yearFraction('2024-01-01')).toBe(2024);

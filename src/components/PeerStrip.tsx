@@ -7,6 +7,7 @@ import { t, type Lang } from '../i18n/index.ts';
 import { countryName } from '../lib/display.ts';
 import { formatNumber, formatYear } from '../lib/format.ts';
 import { formatValue, valueParts } from '../lib/formatValue.ts';
+import { isRepeat, listSlots, slotStyle } from '../lib/peerColours.ts';
 
 interface Props {
   lang: Lang;
@@ -25,6 +26,7 @@ interface Props {
 
 export function PeerStrip({ lang, bangladesh, peers, missing, since, median, target, direction, countries, size = 'small' }: Props) {
   const name = (id: string) => countryName(id, lang, countries);
+  const slots = listSlots(countries.default_peers);
   const values = [
     ...peers.map((p) => p.value),
     ...(bangladesh ? [bangladesh.value] : []),
@@ -76,7 +78,7 @@ export function PeerStrip({ lang, bangladesh, peers, missing, since, median, tar
           </span>
         )}
         {dots.map((r) => (
-          <button key={r.country} type="button" tabIndex={-1} className={`peer-strip__dot is-${align(x(r.value))}`} style={{ left: `${x(r.value)}%` }} aria-label={label(r)}>
+          <button key={r.country} type="button" tabIndex={-1} className={`peer-strip__dot is-${align(x(r.value))}${isRepeat(slots.get(r.country)) ? ' is-repeat' : ''}`} style={{ left: `${x(r.value)}%`, ...slotStyle(slots.get(r.country)) }} aria-label={label(r)}>
             <span className="peer-strip__tip glass" role="tooltip">
               {label(r)}
             </span>

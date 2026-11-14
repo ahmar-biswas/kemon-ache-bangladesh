@@ -336,3 +336,24 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     The other P1 measures stay "context" (no badge). The lower-middle-income poverty line is not named by any goal. For DPT vaccination, doctors and unemployment, the goals do not state a direction in words for these exact measures. Ahmar may want to decide on youth unemployment and unemployment (SDG 8.5), as already listed.
 120. **Units added:** months of imports, US dollars (as published, never converted), taka per US dollar, per 100,000 live births, per 1,000 people, students per teacher, and a 0–100 index (Gini). Exchange rate and national poverty are Bangladesh-only (no compare view): each country's exchange rate is in its own currency, and each country sets its own poverty line.
 121. **Page titles** are now set by each page, not by the layout. The layout's title used to overwrite the page's own title right after loading.
+
+## After Milestone 7 (Ahmar's changes, 2026-11-14)
+
+122. **Lines join published values across missing years (Ahmar's choice: one solid line).** This replaces "gaps stay gaps" (DECISIONS 105, 109; section 13 allows lines over gaps only with markers).
+    - Every over-time chart (Bangladesh over time, subsection charts) draws one straight line through the published values in year order.
+    - A value next to a missing year keeps a dot, so the joining line is not read as data. A lone value is a dot.
+    - A note under any chart with gaps says: "Some years have no published value. A straight line joins the published values on either side of those years; the dots next to a gap are published values."
+    - Nothing is calculated or stored: tables, CSV files and tooltips still show only published years (R3).
+123. **Each comparison country has its own colour (Ahmar's choice: fixed palette colours).** This replaces grey peers (8.2).
+    - Bangladesh stays chart green. Other countries take the next of the five other approved chart colours (paat, padma, rickshaw, nil, sindoor), in list order: the default peers in their fixed order, and countries picked in "Compare with other countries" in the order picked.
+    - A picked country keeps its colour while it stays picked; a new pick takes the lowest free colour (`src/lib/peerColours.ts`).
+    - From the sixth country, colours repeat, and the mark changes: dashed line, filled dot, striped bar.
+    - Used on the tile peer strips, the homepage goal strips and country slicer, the subsection charts and the compare chart. Colours tell countries apart only (R5). The chart note now says each country has its own colour.
+124. **"Bangladesh at a glance" shows six published world rankings (Ahmar's choice).** GDP, GDP per person and life expectancy left the glance row; they are already on the homepage tiles. They are replaced by three new rankings, all checked on 2026-11-14:
+    - **SDG Index rank:** SDSN, Sustainable Development Report 2026. The `SDR2026 Data` sheet of database_2026.xlsx, by ISO3. Bangladesh 110 of 169. Licence CC BY-NC-ND 4.0 (stated in the file; non-commercial, credited, unchanged).
+    - **World Press Freedom Index rank:** RSF 2026 CSV, by ISO3. Bangladesh 152 of 180. No licence in the file; shown with credit.
+    - **Global Hunger Index rank:** GHI 2026 spreadsheet, sheet "GHI Ranking 2026", by country name (14 names mapped to World Bank codes). Bangladesh 84 of 122.
+      - "Out of" counts the 122 countries the GHI ranked: 24 lowest-hunger countries share a collective rank and get no single rank here, and rows marked "*" (not ranked for lack of data) are not counted.
+      - Rank 1 is the lowest hunger score. No licence in the file; shown with credit.
+
+    Each rank is shown as published with its own source line, data year and retrieved date. The GHI ranks only about 120 countries, so its minimum check is 80 single ranks, not 100.

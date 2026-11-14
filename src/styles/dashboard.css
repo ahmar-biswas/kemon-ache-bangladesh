@@ -146,13 +146,13 @@
   height: 12px;
   margin: -6px 0 0 -6px;
   border-radius: 50%;
-  border: 2px solid var(--peer-grey);
+  border: 2px solid var(--peer, var(--peer-grey));
   background: var(--muslin);
   box-shadow: 0 0 0 2px var(--muslin);
   transition: transform 450ms var(--overshoot), background-color 450ms var(--soothe), border-color 450ms var(--soothe);
 }
 .goal-strip__dot.is-bgd::before { width: 17px; height: 17px; margin: -8.5px 0 0 -8.5px; border-color: var(--dhan-chart); background: var(--dhan-chart); }
-.goal-strip__dot.is-selected::before { border-color: var(--series-2); background: var(--series-2); transform: scale(1.25); }
+.goal-strip__dot.is-selected::before { border-color: var(--peer, var(--series-2)); background: var(--peer, var(--series-2)); transform: scale(1.25); }
 .goal-strip__tip {
   display: none;
   position: absolute;
@@ -344,10 +344,10 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 1.5px solid var(--peer-grey);
+  border: 1.5px solid var(--peer, var(--peer-grey));
   transition: background-color 400ms var(--soothe), border-color 400ms var(--soothe), transform 400ms var(--overshoot);
 }
-.slicer__chip.is-selected .slicer__dot { background: var(--series-2); border-color: var(--series-2); transform: scale(1.25); }
+.slicer__chip.is-selected .slicer__dot { background: var(--peer, var(--series-2)); border-color: var(--peer, var(--series-2)); transform: scale(1.25); }
 @media (pointer: coarse) { .slicer__chip { min-height: 44px; } }
 @media (forced-colors: active) { .slicer__thumb { border: 2px solid CanvasText; } }
 

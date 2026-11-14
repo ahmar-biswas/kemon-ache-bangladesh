@@ -1,7 +1,8 @@
 // "Compare with other countries" for one measure (section 12, 4b; DECISIONS.md 87).
 // Picker, ranked chart (or table), the rank among the countries shown, the goal and median
 // lines, CSV, how to read it, and a source line whose link carries every country shown (R1).
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { keepSlots } from '../../lib/peerColours.ts';
 import { COUNTRIES, MEDIANS } from '../../data/details.ts';
 import { loadWorld } from '../../data/measure.ts';
 import { matchNote } from '../../data/notes.ts';
@@ -48,6 +49,9 @@ export function CompareView({ lang, meta, compare, target }: Props) {
   const [picked, setPicked] = useState<string[]>([]);
   const [preset, setPreset] = useState<Preset | null>('default');
   const [view, setView] = useState<0 | 1>(0);
+  // Each picked country keeps its colour while it stays picked; a new pick takes a free colour.
+  const slotsRef = useRef(new Map<string, number>());
+  const slots = useMemo(() => (slotsRef.current = keepSlots(slotsRef.current, picked)), [picked]);
 
   useEffect(() => {
     let alive = true;
@@ -181,7 +185,7 @@ export function CompareView({ lang, meta, compare, target }: Props) {
             {rows.length === 1 && <p className="measure__rank muted">{t(lang, 'compare.none_picked')}</p>}
 
             {view === 0 ? (
-              <RankedChart lang={lang} rows={rows} form={form} unit={world.unit} median={median} target={goal} name={name} />
+              <RankedChart lang={lang} rows={rows} slots={slots} form={form} unit={world.unit} median={median} target={goal} name={name} />
             ) : (
               <div className="table-wrap">
                 <table className="data-table">

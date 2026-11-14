@@ -48,6 +48,36 @@ export const EXTERNAL: ExternalSource[] = [
     licence: 'No licence stated; shown with the report\'s suggested citation (DECISIONS.md 66)',
     kind: 'xlsx',
   },
+  // Added at Ahmar's request (2026-11-14; DECISIONS.md 124): three more published world rankings
+  // for "Bangladesh at a glance", in place of GDP, GDP per person and life expectancy, which are
+  // already on the homepage tiles.
+  {
+    id: 'sdg_rank',
+    url: 'https://dashboards.sdgindex.org/static/downloads/database_2026.xlsx',
+    source_name: 'SDSN, Sustainable Development Report 2026 (SDG Index)',
+    page_url: 'https://dashboards.sdgindex.org/profiles/bangladesh',
+    definition_url: 'https://dashboards.sdgindex.org/chapters',
+    licence: 'CC BY-NC-ND 4.0 (stated in the file)',
+    kind: 'xlsx',
+  },
+  {
+    id: 'rsf_rank',
+    url: 'https://rsf.org/sites/default/files/import_classement/2026.csv',
+    source_name: 'Reporters Without Borders, World Press Freedom Index 2026',
+    page_url: 'https://rsf.org/en/country/bangladesh',
+    definition_url: 'https://rsf.org/en/methodology-used-compiling-world-press-freedom-index-2026',
+    licence: 'No licence stated in the file; shown with credit to RSF (DECISIONS.md 124)',
+    kind: 'csv',
+  },
+  {
+    id: 'ghi_rank',
+    url: 'https://www.globalhungerindex.org/xlsx/2026.xlsx',
+    source_name: 'Global Hunger Index 2026 (Welthungerhilfe, Concern Worldwide, IFHV)',
+    page_url: 'https://www.globalhungerindex.org/bangladesh.html',
+    definition_url: 'https://www.globalhungerindex.org/methodology.html',
+    licence: 'No licence stated in the file; shown with credit to the publishers (DECISIONS.md 124)',
+    kind: 'xlsx',
+  },
 ];
 
 /** One published rank for one country and year. */
@@ -159,11 +189,94 @@ async function parseWhr(bytes: Buffer, countries: CountryInfo[]): Promise<RankRo
     .map((r) => ({ country: r.id, year, rank: r.rank, out_of: latest.length }));
 }
 
+/** SDSN: sheet "SDR<year> Data", columns "Country Code ISO3" and "<year> SDG Index Rank". */
+async function parseSdr(bytes: Buffer, valid: Set<string>): Promise<RankRow[]> {
+  const sheets = (await readXlsx(bytes)) as unknown as { sheet: string; data: unknown[][] }[];
+  const sheet = sheets.find((s) => /^SDR\d{4} Data$/.test(s.sheet));
+  need(sheet, 'SDR: no "SDR<year> Data" sheet');
+  const head = sheet!.data[0]!.map(String);
+  const iso = head.indexOf('Country Code ISO3');
+  const rk = head.findIndex((h) => /^\d{4} SDG Index Rank$/.test(h));
+  need(iso >= 0 && rk >= 0, `SDR: unexpected columns ${head.slice(0, 5).join(',')}`);
+  const year = Number(head[rk]!.slice(0, 4));
+  const ranked = sheet!.data.slice(1).filter((r) => typeof r[rk] === 'number' && typeof r[iso] === 'string');
+  return ranked.filter((r) => valid.has(r[iso] as string)).map((r) => ({ country: r[iso] as string, year, rank: r[rk] as number, out_of: ranked.length }));
+}
+
+/** RSF: semicolon-separated, columns ISO, Rank and "Year (N)". */
+function parseRsf(bytes: Buffer, valid: Set<string>): RankRow[] {
+  const lines = bytes
+    .toString('latin1')
+    .split(/\r?\n/)
+    .filter(Boolean)
+    .map((l) => l.split(';'));
+  const [head, ...rows] = lines;
+  need(head, 'RSF: empty file');
+  const iso = head!.indexOf('ISO');
+  const rk = head!.indexOf('Rank');
+  const yr = head!.indexOf('Year (N)');
+  need(iso >= 0 && rk >= 0 && yr >= 0, `RSF: unexpected columns ${head!.slice(0, 4).join(',')}`);
+  const ranked = rows.filter((r) => /^\d+$/.test(r[rk] ?? '') && /^[A-Z]{3}$/.test(r[iso] ?? ''));
+  return ranked.filter((r) => valid.has(r[iso]!)).map((r) => ({ country: r[iso]!, year: Number(r[yr]), rank: Number(r[rk]), out_of: ranked.length }));
+}
+
+/** GHI names that differ from the World Bank's. */
+const GHI_NAMES: Record<string, string> = {
+  Vietnam: 'VNM',
+  'Moldova (Rep. of)': 'MDA',
+  'Iran (Islamic Republic of)': 'IRN',
+  Kyrgyzstan: 'KGZ',
+  'Venezuela (Boliv. Rep. of)': 'VEN',
+  Egypt: 'EGY',
+  'Trinidad & Tobago': 'TTO',
+  'Bolivia (Plurinat. State of)': 'BOL',
+  Gambia: 'GMB',
+  "Côte d'Ivoire": 'CIV',
+  'Tanzania (United Rep. of)': 'TZA',
+  'Congo (Republic of)': 'COG',
+  'Dem. Rep. of the Congo': 'COD',
+  Somalia: 'SOM',
+};
+
+/**
+ * Global Hunger Index: sheet "GHI Ranking <year>", columns Rank, Country. Countries with very
+ * low hunger share one collective rank (e.g. "ranked 1-24") and get no single rank here; they
+ * still count in "out of".
+ */
+async function parseGhi(bytes: Buffer, countries: CountryInfo[]): Promise<RankRow[]> {
+  const sheets = (await readXlsx(bytes)) as unknown as { sheet: string; data: unknown[][] }[];
+  const sheet = sheets.find((s) => /^GHI Ranking \d{4}$/.test(s.sheet.trim()));
+  need(sheet, 'GHI: no "GHI Ranking <year>" sheet');
+  const year = Number(sheet!.sheet.trim().slice(-4));
+  const h = sheet!.data.findIndex((r) => r[2] === 'Country' && /^Rank/.test(String(r[1])));
+  need(h >= 0, 'GHI: header row with Rank and Country not found');
+  const body = sheet!.data.slice(h + 1).filter((r) => typeof r[2] === 'string' && (r[2] as string).trim() !== '');
+  const byName = new Map(countries.map((c) => [c.name, c.id]));
+  // Rows marked "*" are countries the GHI could not rank (too little data): not counted.
+  const outOf = body.filter((r) => r[1] !== '*').length;
+  return body
+    .filter((r) => typeof r[1] === 'number')
+    .map((r) => {
+      const name = (r[2] as string).trim();
+      return { id: byName.get(name) ?? GHI_NAMES[name], rank: r[1] as number };
+    })
+    .filter((r): r is { id: string; rank: number } => !!r.id)
+    .map((r) => ({ country: r.id, year, rank: r.rank, out_of: outOf }));
+}
+
 export async function fetchExternal(src: ExternalSource, countries: CountryInfo[]): Promise<ExternalRaw> {
   const { bytes, retrievedAt } = await fetchFile(src.url);
   const valid = new Set(countries.map((c) => c.id));
-  const rows =
-    src.id === 'hdi_rank' ? parseHdi(bytes, valid) : src.id === 'cpi_rank' ? await parseCpi(bytes, valid) : await parseWhr(bytes, countries);
+  const parsers: Record<string, () => RankRow[] | Promise<RankRow[]>> = {
+    hdi_rank: () => parseHdi(bytes, valid),
+    cpi_rank: () => parseCpi(bytes, valid),
+    whr_rank: () => parseWhr(bytes, countries),
+    sdg_rank: () => parseSdr(bytes, valid),
+    rsf_rank: () => parseRsf(bytes, valid),
+    ghi_rank: () => parseGhi(bytes, countries),
+  };
+  need(parsers[src.id], `No parser for ${src.id}`);
+  const rows = await parsers[src.id]!();
   return {
     url: src.url,
     retrieved_at: retrievedAt,
@@ -198,7 +311,10 @@ export function rankRecords(src: ExternalSource, raw: ExternalRaw, keep: readonl
 /** Checks a published-rank file before anything is written. Returns problems (empty = fine). */
 export function validateExternal(src: ExternalSource, raw: ExternalRaw, keep: readonly string[]): string[] {
   const p: string[] = [];
-  if (raw.rows.length < 100) p.push(`${src.id}: only ${raw.rows.length} countries ranked`);
+  // The GHI ranks only low- and middle-income countries, and gives the lowest-hunger ones a
+  // shared rank, so fewer single ranks are expected.
+  const min = src.id === 'ghi_rank' ? 80 : 100;
+  if (raw.rows.length < min) p.push(`${src.id}: only ${raw.rows.length} countries ranked`);
   for (const id of keep) if (!raw.rows.some((r) => r.country === id)) p.push(`${src.id}: no rank for ${id}`);
   for (const r of raw.rows) {
     if (!Number.isInteger(r.rank) || r.rank < 1 || r.rank > r.out_of) p.push(`${src.id} ${r.country}: rank ${r.rank} of ${r.out_of}`);

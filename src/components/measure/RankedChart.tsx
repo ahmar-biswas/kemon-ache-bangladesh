@@ -10,6 +10,7 @@ import type { DataRecord, Target, Unit } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
 import { formatLargeWords, formatNumber, formatYear } from '../../lib/format.ts';
 import { formatValue, valueParts } from '../../lib/formatValue.ts';
+import { isRepeat, slotStyle } from '../../lib/peerColours.ts';
 import { noteText } from '../../lib/noteText.ts';
 
 export type Ranked = DataRecord & { rank: number };
@@ -18,6 +19,8 @@ interface Props {
   lang: Lang;
   rows: Ranked[];
   form: 'dots' | 'bars';
+  /** Colour slot of each country shown (src/lib/peerColours.ts). */
+  slots?: Map<string, number>;
   unit: Unit;
   median?: { value: number; year: number } | null;
   target?: Target | null;
@@ -62,7 +65,7 @@ function useFlip(ref: React.RefObject<HTMLOListElement | null>, signature: strin
   }, [ref, signature]);
 }
 
-export function RankedChart({ lang, rows, form, unit, median, target, name }: Props) {
+export function RankedChart({ lang, rows, form, unit, median, target, name, slots }: Props) {
   const listRef = useRef<HTMLOListElement>(null);
   useFlip(listRef, rows.map((r) => r.country).join(','));
 
@@ -101,7 +104,7 @@ export function RankedChart({ lang, rows, form, unit, median, target, name }: Pr
             const width = Math.abs(x(r.value) - x(0));
             const notes = r.notes.filter((note) => matchNote(note));
             return (
-              <li key={r.country} data-country={r.country} className={`ranked__row${bgd ? ' is-bgd' : ''}`} tabIndex={0} aria-label={label}>
+              <li key={r.country} data-country={r.country} className={`ranked__row${bgd ? ' is-bgd' : ''}${isRepeat(slots?.get(r.country)) ? ' is-repeat' : ''}`} style={slotStyle(slots?.get(r.country))} tabIndex={0} aria-label={label}>
                 <span className="ranked__name">
                   <span className="ranked__rank num">{n(r.rank)}</span>
                   {name(r.country)}

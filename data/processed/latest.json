@@ -3479,6 +3479,240 @@
         "source_url": "https://worldhappiness.report/ed/2026/",
         "retrieved_at": "2026-11-13"
       }
+    },
+    "sdg_rank": {
+      "id": "sdg_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "sdg_rank",
+        "country": "BGD",
+        "year": 2026,
+        "value": 110,
+        "unit": "rank",
+        "source_name": "SDSN, Sustainable Development Report 2026 (SDG Index)",
+        "original_source": "SDSN, Sustainable Development Report 2026 (SDG Index)",
+        "source_url": "https://dashboards.sdgindex.org/profiles/bangladesh",
+        "definition_url": "https://dashboards.sdgindex.org/chapters",
+        "api_url": "https://dashboards.sdgindex.org/static/downloads/database_2026.xlsx",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 169
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2026,
+          "value": 110
+        },
+        {
+          "country": "IND",
+          "year": 2026,
+          "value": 94
+        },
+        {
+          "country": "PAK",
+          "year": 2026,
+          "value": 131
+        },
+        {
+          "country": "LKA",
+          "year": 2026,
+          "value": 92
+        },
+        {
+          "country": "NPL",
+          "year": 2026,
+          "value": 90
+        },
+        {
+          "country": "VNM",
+          "year": 2026,
+          "value": 58
+        },
+        {
+          "country": "PHL",
+          "year": 2026,
+          "value": 80
+        },
+        {
+          "country": "KHM",
+          "year": 2026,
+          "value": 108
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "sdg_rank",
+        "kind": "published",
+        "year": 2026,
+        "rank": 110,
+        "out_of": 169,
+        "order": null,
+        "source_name": "SDSN, Sustainable Development Report 2026 (SDG Index)",
+        "source_url": "https://dashboards.sdgindex.org/profiles/bangladesh",
+        "retrieved_at": "2026-11-14"
+      }
+    },
+    "rsf_rank": {
+      "id": "rsf_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "rsf_rank",
+        "country": "BGD",
+        "year": 2026,
+        "value": 152,
+        "unit": "rank",
+        "source_name": "Reporters Without Borders, World Press Freedom Index 2026",
+        "original_source": "Reporters Without Borders, World Press Freedom Index 2026",
+        "source_url": "https://rsf.org/en/country/bangladesh",
+        "definition_url": "https://rsf.org/en/methodology-used-compiling-world-press-freedom-index-2026",
+        "api_url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 180
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2026,
+          "value": 152
+        },
+        {
+          "country": "IND",
+          "year": 2026,
+          "value": 157
+        },
+        {
+          "country": "PAK",
+          "year": 2026,
+          "value": 153
+        },
+        {
+          "country": "LKA",
+          "year": 2026,
+          "value": 134
+        },
+        {
+          "country": "NPL",
+          "year": 2026,
+          "value": 87
+        },
+        {
+          "country": "VNM",
+          "year": 2026,
+          "value": 174
+        },
+        {
+          "country": "PHL",
+          "year": 2026,
+          "value": 114
+        },
+        {
+          "country": "KHM",
+          "year": 2026,
+          "value": 151
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "rsf_rank",
+        "kind": "published",
+        "year": 2026,
+        "rank": 152,
+        "out_of": 180,
+        "order": null,
+        "source_name": "Reporters Without Borders, World Press Freedom Index 2026",
+        "source_url": "https://rsf.org/en/country/bangladesh",
+        "retrieved_at": "2026-11-14"
+      }
+    },
+    "ghi_rank": {
+      "id": "ghi_rank",
+      "unit": "rank",
+      "favourable_direction": "context",
+      "bangladesh": {
+        "indicator_id": "ghi_rank",
+        "country": "BGD",
+        "year": 2026,
+        "value": 84,
+        "unit": "rank",
+        "source_name": "Global Hunger Index 2026 (Welthungerhilfe, Concern Worldwide, IFHV)",
+        "original_source": "Global Hunger Index 2026 (Welthungerhilfe, Concern Worldwide, IFHV)",
+        "source_url": "https://www.globalhungerindex.org/bangladesh.html",
+        "definition_url": "https://www.globalhungerindex.org/methodology.html",
+        "api_url": "https://www.globalhungerindex.org/xlsx/2026.xlsx",
+        "retrieved_at": "2026-11-14",
+        "notes": [],
+        "measured_by": null,
+        "out_of": 122
+      },
+      "compare_id": null,
+      "points": [
+        {
+          "country": "BGD",
+          "year": 2026,
+          "value": 84
+        },
+        {
+          "country": "IND",
+          "year": 2026,
+          "value": 100
+        },
+        {
+          "country": "PAK",
+          "year": 2026,
+          "value": 106
+        },
+        {
+          "country": "LKA",
+          "year": 2026,
+          "value": 53
+        },
+        {
+          "country": "NPL",
+          "year": 2026,
+          "value": 72
+        },
+        {
+          "country": "VNM",
+          "year": 2026,
+          "value": 58
+        },
+        {
+          "country": "PHL",
+          "year": 2026,
+          "value": 67
+        },
+        {
+          "country": "KHM",
+          "year": 2026,
+          "value": 70
+        }
+      ],
+      "compare_bangladesh": null,
+      "median": null,
+      "target": null,
+      "rank": {
+        "indicator_id": "ghi_rank",
+        "kind": "published",
+        "year": 2026,
+        "rank": 84,
+        "out_of": 122,
+        "order": null,
+        "source_name": "Global Hunger Index 2026 (Welthungerhilfe, Concern Worldwide, IFHV)",
+        "source_url": "https://www.globalhungerindex.org/bangladesh.html",
+        "retrieved_at": "2026-11-14"
+      }
     }
   }
 }

@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import { COUNTRIES, indicatorMeta, trendIdFor } from '../../data/details.ts';
 import { loadSeries } from '../../data/measure.ts';
-import { multiCountryUrl, toCsv } from '../../data/picker.ts';
+import { multiCountryUrl, toCsv, hasGaps } from '../../data/picker.ts';
 import { path } from '../../data/site.ts';
 import type { DataRecord, IndicatorMeta } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
@@ -162,6 +162,7 @@ function PeerChart({ lang, meta }: { lang: Lang; meta: IndicatorMeta }) {
         )}
 
         <p className="measure__caveat muted">{t(lang, 'peerchart.read')}</p>
+        {withData.some((s) => hasGaps(s.points)) && <p className="measure__caveat muted">{t(lang, 'trend.gaps')}</p>}
         {measuredBy.size > 1 && <p className="measure__caveat">{t(lang, 'peerchart.measured_by_differs')}</p>}
         {none.length > 0 && <p className="measure__caveat muted">{t(lang, 'peerchart.no_data', { list: none.join(lang === 'bn' ? ', ' : ', ') })}</p>}
         {last && (

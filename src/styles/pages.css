@@ -147,13 +147,14 @@
 .sub-page__others a { display: inline-flex; min-height: 44px; align-items: center; }
 
 /* Peer chart marks (8.9): Bangladesh 3 px green, peers thin grey, open/lone dots small. */
-.peer-chart__line { fill: none; stroke: var(--peer-grey); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; transition: stroke 160ms ease, stroke-width 160ms ease, opacity 160ms ease; }
+.peer-chart__line { fill: none; stroke: var(--peer, var(--peer-grey)); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; transition: stroke 160ms ease, stroke-width 160ms ease, opacity 160ms ease; }
 .peer-chart__hit { fill: none; stroke: transparent; stroke-width: 14; pointer-events: stroke; }
-.peer-chart__dot { fill: var(--muslin); stroke: var(--peer-grey); stroke-width: 1.5; }
+.peer-chart__dot { fill: var(--muslin); stroke: var(--peer, var(--peer-grey)); stroke-width: 1.5; }
 .peer-chart__series.is-bgd .peer-chart__line { stroke: var(--dhan-chart); stroke-width: 3; }
 .peer-chart__series.is-bgd .peer-chart__dot { fill: var(--dhan-chart); stroke: var(--muslin); stroke-width: 2; }
 .peer-chart.has-focus .peer-chart__series:not(.is-bgd):not(.is-focus) .peer-chart__line { opacity: .45; }
-.peer-chart__series.is-focus .peer-chart__line { stroke: var(--kali-2); stroke-width: 2.25; }
+.peer-chart__series.is-focus .peer-chart__line { stroke-width: 2.75; }
+.peer-chart__series.is-repeat .peer-chart__line { stroke-dasharray: 5 3; }
 .peer-chart__series.is-focus .peer-chart__dot { stroke: var(--kali-2); }
 .peer-chart__label { fill: var(--kali-3); font-size: 12px; cursor: default; }
 .peer-chart__label.is-bgd { fill: var(--kali); font-weight: 600; font-size: 13px; }

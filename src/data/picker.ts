@@ -188,10 +188,9 @@ export function tickDecimals(ticks: number[]): number {
 }
 
 /**
- * Line segments for a yearly series: consecutive years are joined; a missing year breaks the
- * line (section 12: gaps stay gaps, never bridged). A year with no neighbour is a lone point.
+ * Runs of consecutive years in a yearly series (a missing year starts a new run).
  */
-export function segments<T extends { year: number }>(points: T[]): T[][] {
+export function runs<T extends { year: number }>(points: T[]): T[][] {
   const sorted = [...points].sort((a, b) => a.year - b.year);
   const out: T[][] = [];
   for (const p of sorted) {
@@ -200,6 +199,26 @@ export function segments<T extends { year: number }>(points: T[]): T[][] {
     else out.push([p]);
   }
   return out;
+}
+
+/**
+ * Line segments to draw (Ahmar, 2026-11-14; DECISIONS.md 122): one line through every
+ * published value, in year order, so a straight line joins the values on either side of
+ * missing years. Nothing is added: the line only connects published points, each value next to
+ * a gap is marked with a dot (section 13), and a note under the chart says so.
+ */
+export function segments<T extends { year: number }>(points: T[]): T[][] {
+  const sorted = [...points].sort((a, b) => a.year - b.year);
+  return sorted.length > 0 ? [sorted] : [];
+}
+
+/** Whether a series has missing years between its first and last published value. */
+export const hasGaps = (points: { year: number }[]) => runs(points).length > 1;
+
+/** Years whose value sits next to a missing year (or alone): drawn as dots so real values stay visible. */
+export function gapEdgeYears(points: { year: number }[]): Set<number> {
+  const years = new Set(points.map((p) => p.year));
+  return new Set([...years].filter((y) => !years.has(y - 1) || !years.has(y + 1)));
 }
 
 /** A date as a position on a year axis: 2024-07-01 is about 2024.5. */

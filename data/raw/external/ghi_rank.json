@@ -1,0 +1,596 @@
+{
+  "url": "https://www.globalhungerindex.org/xlsx/2026.xlsx",
+  "retrieved_at": "2026-11-14",
+  "sha256": "289ecb890a6beeb45d070c6f1057b83177b764f59f3e2b9df451790da81fb2be",
+  "licence": "No licence stated in the file; shown with credit to the publishers (DECISIONS.md 124)",
+  "rows": [
+    {
+      "country": "AFG",
+      "year": 2026,
+      "rank": 108,
+      "out_of": 122
+    },
+    {
+      "country": "AGO",
+      "year": 2026,
+      "rank": 102,
+      "out_of": 122
+    },
+    {
+      "country": "ALB",
+      "year": 2026,
+      "rank": 40,
+      "out_of": 122
+    },
+    {
+      "country": "ARG",
+      "year": 2026,
+      "rank": 27,
+      "out_of": 122
+    },
+    {
+      "country": "AZE",
+      "year": 2026,
+      "rank": 27,
+      "out_of": 122
+    },
+    {
+      "country": "BEN",
+      "year": 2026,
+      "rank": 102,
+      "out_of": 122
+    },
+    {
+      "country": "BFA",
+      "year": 2026,
+      "rank": 93,
+      "out_of": 122
+    },
+    {
+      "country": "BGD",
+      "year": 2026,
+      "rank": 84,
+      "out_of": 122
+    },
+    {
+      "country": "BOL",
+      "year": 2026,
+      "rank": 69,
+      "out_of": 122
+    },
+    {
+      "country": "BRA",
+      "year": 2026,
+      "rank": 27,
+      "out_of": 122
+    },
+    {
+      "country": "BWA",
+      "year": 2026,
+      "rank": 83,
+      "out_of": 122
+    },
+    {
+      "country": "CAF",
+      "year": 2026,
+      "rank": 115,
+      "out_of": 122
+    },
+    {
+      "country": "CIV",
+      "year": 2026,
+      "rank": 86,
+      "out_of": 122
+    },
+    {
+      "country": "CMR",
+      "year": 2026,
+      "rank": 77,
+      "out_of": 122
+    },
+    {
+      "country": "COD",
+      "year": 2026,
+      "rank": 121,
+      "out_of": 122
+    },
+    {
+      "country": "COG",
+      "year": 2026,
+      "rank": 91,
+      "out_of": 122
+    },
+    {
+      "country": "COL",
+      "year": 2026,
+      "rank": 33,
+      "out_of": 122
+    },
+    {
+      "country": "COM",
+      "year": 2026,
+      "rank": 78,
+      "out_of": 122
+    },
+    {
+      "country": "CPV",
+      "year": 2026,
+      "rank": 38,
+      "out_of": 122
+    },
+    {
+      "country": "DJI",
+      "year": 2026,
+      "rank": 96,
+      "out_of": 122
+    },
+    {
+      "country": "DOM",
+      "year": 2026,
+      "rank": 30,
+      "out_of": 122
+    },
+    {
+      "country": "DZA",
+      "year": 2026,
+      "rank": 43,
+      "out_of": 122
+    },
+    {
+      "country": "ECU",
+      "year": 2026,
+      "rank": 54,
+      "out_of": 122
+    },
+    {
+      "country": "EGY",
+      "year": 2026,
+      "rank": 55,
+      "out_of": 122
+    },
+    {
+      "country": "ETH",
+      "year": 2026,
+      "rank": 100,
+      "out_of": 122
+    },
+    {
+      "country": "FJI",
+      "year": 2026,
+      "rank": 51,
+      "out_of": 122
+    },
+    {
+      "country": "GAB",
+      "year": 2026,
+      "rank": 80,
+      "out_of": 122
+    },
+    {
+      "country": "GHA",
+      "year": 2026,
+      "rank": 65,
+      "out_of": 122
+    },
+    {
+      "country": "GIN",
+      "year": 2026,
+      "rank": 94,
+      "out_of": 122
+    },
+    {
+      "country": "GMB",
+      "year": 2026,
+      "rank": 82,
+      "out_of": 122
+    },
+    {
+      "country": "GNB",
+      "year": 2026,
+      "rank": 99,
+      "out_of": 122
+    },
+    {
+      "country": "GTM",
+      "year": 2026,
+      "rank": 81,
+      "out_of": 122
+    },
+    {
+      "country": "GUY",
+      "year": 2026,
+      "rank": 37,
+      "out_of": 122
+    },
+    {
+      "country": "HND",
+      "year": 2026,
+      "rank": 62,
+      "out_of": 122
+    },
+    {
+      "country": "HTI",
+      "year": 2026,
+      "rank": 118,
+      "out_of": 122
+    },
+    {
+      "country": "IDN",
+      "year": 2026,
+      "rank": 71,
+      "out_of": 122
+    },
+    {
+      "country": "IND",
+      "year": 2026,
+      "rank": 100,
+      "out_of": 122
+    },
+    {
+      "country": "IRN",
+      "year": 2026,
+      "rank": 41,
+      "out_of": 122
+    },
+    {
+      "country": "IRQ",
+      "year": 2026,
+      "rank": 61,
+      "out_of": 122
+    },
+    {
+      "country": "JAM",
+      "year": 2026,
+      "rank": 44,
+      "out_of": 122
+    },
+    {
+      "country": "JOR",
+      "year": 2026,
+      "rank": 48,
+      "out_of": 122
+    },
+    {
+      "country": "KAZ",
+      "year": 2026,
+      "rank": 31,
+      "out_of": 122
+    },
+    {
+      "country": "KEN",
+      "year": 2026,
+      "rank": 105,
+      "out_of": 122
+    },
+    {
+      "country": "KGZ",
+      "year": 2026,
+      "rank": 45,
+      "out_of": 122
+    },
+    {
+      "country": "KHM",
+      "year": 2026,
+      "rank": 70,
+      "out_of": 122
+    },
+    {
+      "country": "LAO",
+      "year": 2026,
+      "rank": 85,
+      "out_of": 122
+    },
+    {
+      "country": "LBN",
+      "year": 2026,
+      "rank": 48,
+      "out_of": 122
+    },
+    {
+      "country": "LBR",
+      "year": 2026,
+      "rank": 113,
+      "out_of": 122
+    },
+    {
+      "country": "LBY",
+      "year": 2026,
+      "rank": 64,
+      "out_of": 122
+    },
+    {
+      "country": "LKA",
+      "year": 2026,
+      "rank": 53,
+      "out_of": 122
+    },
+    {
+      "country": "MAR",
+      "year": 2026,
+      "rank": 47,
+      "out_of": 122
+    },
+    {
+      "country": "MDA",
+      "year": 2026,
+      "rank": 25,
+      "out_of": 122
+    },
+    {
+      "country": "MDG",
+      "year": 2026,
+      "rank": 119,
+      "out_of": 122
+    },
+    {
+      "country": "MEX",
+      "year": 2026,
+      "rank": 35,
+      "out_of": 122
+    },
+    {
+      "country": "MLI",
+      "year": 2026,
+      "rank": 88,
+      "out_of": 122
+    },
+    {
+      "country": "MMR",
+      "year": 2026,
+      "rank": 72,
+      "out_of": 122
+    },
+    {
+      "country": "MNG",
+      "year": 2026,
+      "rank": 26,
+      "out_of": 122
+    },
+    {
+      "country": "MOZ",
+      "year": 2026,
+      "rank": 107,
+      "out_of": 122
+    },
+    {
+      "country": "MRT",
+      "year": 2026,
+      "rank": 90,
+      "out_of": 122
+    },
+    {
+      "country": "MUS",
+      "year": 2026,
+      "rank": 66,
+      "out_of": 122
+    },
+    {
+      "country": "MWI",
+      "year": 2026,
+      "rank": 104,
+      "out_of": 122
+    },
+    {
+      "country": "MYS",
+      "year": 2026,
+      "rank": 68,
+      "out_of": 122
+    },
+    {
+      "country": "NAM",
+      "year": 2026,
+      "rank": 97,
+      "out_of": 122
+    },
+    {
+      "country": "NER",
+      "year": 2026,
+      "rank": 116,
+      "out_of": 122
+    },
+    {
+      "country": "NGA",
+      "year": 2026,
+      "rank": 117,
+      "out_of": 122
+    },
+    {
+      "country": "NPL",
+      "year": 2026,
+      "rank": 72,
+      "out_of": 122
+    },
+    {
+      "country": "OMN",
+      "year": 2026,
+      "rank": 57,
+      "out_of": 122
+    },
+    {
+      "country": "PAK",
+      "year": 2026,
+      "rank": 106,
+      "out_of": 122
+    },
+    {
+      "country": "PAN",
+      "year": 2026,
+      "rank": 41,
+      "out_of": 122
+    },
+    {
+      "country": "PER",
+      "year": 2026,
+      "rank": 36,
+      "out_of": 122
+    },
+    {
+      "country": "PHL",
+      "year": 2026,
+      "rank": 67,
+      "out_of": 122
+    },
+    {
+      "country": "PNG",
+      "year": 2026,
+      "rank": 111,
+      "out_of": 122
+    },
+    {
+      "country": "RWA",
+      "year": 2026,
+      "rank": 92,
+      "out_of": 122
+    },
+    {
+      "country": "SAU",
+      "year": 2026,
+      "rank": 33,
+      "out_of": 122
+    },
+    {
+      "country": "SEN",
+      "year": 2026,
+      "rank": 74,
+      "out_of": 122
+    },
+    {
+      "country": "SLB",
+      "year": 2026,
+      "rank": 98,
+      "out_of": 122
+    },
+    {
+      "country": "SLE",
+      "year": 2026,
+      "rank": 109,
+      "out_of": 122
+    },
+    {
+      "country": "SLV",
+      "year": 2026,
+      "rank": 39,
+      "out_of": 122
+    },
+    {
+      "country": "SOM",
+      "year": 2026,
+      "rank": 122,
+      "out_of": 122
+    },
+    {
+      "country": "SUR",
+      "year": 2026,
+      "rank": 59,
+      "out_of": 122
+    },
+    {
+      "country": "SWZ",
+      "year": 2026,
+      "rank": 76,
+      "out_of": 122
+    },
+    {
+      "country": "SYR",
+      "year": 2026,
+      "rank": 111,
+      "out_of": 122
+    },
+    {
+      "country": "TCD",
+      "year": 2026,
+      "rank": 120,
+      "out_of": 122
+    },
+    {
+      "country": "TGO",
+      "year": 2026,
+      "rank": 78,
+      "out_of": 122
+    },
+    {
+      "country": "THA",
+      "year": 2026,
+      "rank": 51,
+      "out_of": 122
+    },
+    {
+      "country": "TJK",
+      "year": 2026,
+      "rank": 63,
+      "out_of": 122
+    },
+    {
+      "country": "TKM",
+      "year": 2026,
+      "rank": 48,
+      "out_of": 122
+    },
+    {
+      "country": "TLS",
+      "year": 2026,
+      "rank": 114,
+      "out_of": 122
+    },
+    {
+      "country": "TTO",
+      "year": 2026,
+      "rank": 55,
+      "out_of": 122
+    },
+    {
+      "country": "TUN",
+      "year": 2026,
+      "rank": 31,
+      "out_of": 122
+    },
+    {
+      "country": "TZA",
+      "year": 2026,
+      "rank": 87,
+      "out_of": 122
+    },
+    {
+      "country": "UGA",
+      "year": 2026,
+      "rank": 88,
+      "out_of": 122
+    },
+    {
+      "country": "UKR",
+      "year": 2026,
+      "rank": 60,
+      "out_of": 122
+    },
+    {
+      "country": "VEN",
+      "year": 2026,
+      "rank": 46,
+      "out_of": 122
+    },
+    {
+      "country": "VNM",
+      "year": 2026,
+      "rank": 58,
+      "out_of": 122
+    },
+    {
+      "country": "ZAF",
+      "year": 2026,
+      "rank": 74,
+      "out_of": 122
+    },
+    {
+      "country": "ZMB",
+      "year": 2026,
+      "rank": 110,
+      "out_of": 122
+    },
+    {
+      "country": "ZWE",
+      "year": 2026,
+      "rank": 94,
+      "out_of": 122
+    }
+  ]
+}

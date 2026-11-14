@@ -278,10 +278,11 @@
   height: 12px;
   margin: -6px 0 0 -6px;
   border-radius: 50%;
-  border: 2px solid var(--peer-grey);
+  border: 2px solid var(--peer, var(--peer-grey));
   background: var(--muslin);
   box-shadow: 0 0 0 2px var(--muslin);
 }
+.peer-strip__dot.is-repeat::before { background: var(--peer, var(--peer-grey)); }
 .peer-strip__dot.is-bgd::before {
   width: 14px;
   height: 14px;

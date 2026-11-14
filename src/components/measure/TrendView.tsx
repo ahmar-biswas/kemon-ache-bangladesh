@@ -7,7 +7,7 @@ import { COUNTRIES } from '../../data/details.ts';
 import { approvedEvents, loadTrend } from '../../data/measure.ts';
 import { matchNote } from '../../data/notes.ts';
 import { rebaseToLatestPrices, rebasedCsv, type Rebased } from '../../data/rebase.ts';
-import { segments, toCsv } from '../../data/picker.ts';
+import { hasGaps, toCsv } from '../../data/picker.ts';
 import type { DataRecord, EventKind, IndicatorMeta } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
 import { countryName, indicatorName } from '../../lib/display.ts';
@@ -71,7 +71,7 @@ export function TrendView({ lang, meta, trend }: Props) {
     ? t(lang, 'trend.in_prices_name', { name: t(lang, `indicator.${meta.id}.short` as never), year: formatYear(rebased.year, lang) })
     : indicatorName(trend.id, lang);
   const events = all.filter((e) => kinds[e.kind]);
-  const gaps = segments(points).length > 1;
+  const gaps = hasGaps(points);
   const range = { from: formatYear(first.year, lang), to: formatYear(last.year, lang) };
   // A note carried by every year (e.g. the fiscal-year basis) is said once, under the chart.
   const shared = last.notes.filter((note) => matchNote(note) && points.every((p) => p.notes.includes(note)));

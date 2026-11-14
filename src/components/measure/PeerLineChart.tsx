@@ -2,14 +2,16 @@
 // peers. Bangladesh is the 3 px green line with filled dots; the peers are thin --peer-grey
 // lines (more than six countries, 8.2), each named at its own line end. Pointer or arrow keys
 // pick a year (crosshair and glass tooltip); hovering a line or its name, or Up/Down, picks a
-// peer and lifts its line. Gaps stay gaps (R3); a year with no neighbour is a lone dot.
+// peer and lifts its line. A straight line joins values across missing years; the values next
+// to a gap keep a dot (DECISIONS.md 122).
 import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
-import { niceTicks, segments, tickDecimals } from '../../data/picker.ts';
+import { gapEdgeYears, niceTicks, segments, tickDecimals } from '../../data/picker.ts';
 import type { DataRecord, Unit } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
 import { formatTaka, formatYear } from '../../lib/format.ts';
 import { formatValue } from '../../lib/formatValue.ts';
 import { tickLabel } from './RankedChart.tsx';
+import { isRepeat, listSlots, slotStyle } from '../../lib/peerColours.ts';
 
 export interface Series {
   id: string;
@@ -98,6 +100,7 @@ export function PeerLineChart({ lang, series, unit, label }: Props) {
   for (let yr = Math.ceil(y0 / step) * step; yr <= y1; yr += step) xTicks.push(yr);
 
   const ends = shown.map((s) => s.points[s.points.length - 1]!);
+  const slots = useMemo(() => listSlots(series.map((s) => s.id)), [series]);
   const labelY = spreadLabels(ends.map((p) => y(p.value)), 15, m.t, m.t + plotH + 8);
 
   const nearestYear = (clientX: number) => {
@@ -175,8 +178,9 @@ export function PeerLineChart({ lang, series, unit, label }: Props) {
           const bgd = s.id === 'BGD';
           const cls = `peer-chart__series${bgd ? ' is-bgd' : ''}${s.id === focus ? ' is-focus' : ''}`;
           const segs = segments(s.points);
+          const edge = gapEdgeYears(s.points);
           return (
-            <g key={s.id} className={cls} onPointerEnter={() => !bgd && setFocus(s.id)}>
+            <g key={s.id} className={`${cls}${isRepeat(slots.get(s.id)) ? ' is-repeat' : ''}`} style={slotStyle(slots.get(s.id))} onPointerEnter={() => !bgd && setFocus(s.id)}>
               {segs.map((seg) =>
                 seg.length > 1 ? (
                   <g key={seg[0]!.year}>
@@ -188,6 +192,12 @@ export function PeerLineChart({ lang, series, unit, label }: Props) {
                   <circle key={seg[0]!.year} className="peer-chart__dot" cx={x(seg[0]!.year)} cy={y(seg[0]!.value)} r={bgd ? 4.5 : 3} />
                 ),
               )}
+              {/* Published values next to a missing year keep a dot, so the joining line is not read as data. */}
+              {s.points
+                .filter((p) => edge.has(p.year) && segs[0]!.length > 1)
+                .map((p) => (
+                  <circle key={`e${p.year}`} className="peer-chart__dot" cx={x(p.year)} cy={y(p.value)} r={bgd ? 3.5 : 2.5} />
+                ))}
               {bgd && segs.every((seg) => seg.length > 1) && (
                 <circle className="peer-chart__dot" cx={x(ends[0]!.year)} cy={y(ends[0]!.value)} r={5} />
               )}

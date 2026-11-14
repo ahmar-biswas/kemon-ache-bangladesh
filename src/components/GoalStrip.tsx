@@ -12,6 +12,10 @@ import { t, type Lang } from '../i18n/index.ts';
 import { countryLabel } from '../lib/names.ts';
 import { formatLargeWords, formatNumber, formatYear } from '../lib/format.ts';
 import { formatValue } from '../lib/formatValue.ts';
+import { LATEST } from '../data/latest.ts';
+import { listSlots, slotStyle } from '../lib/peerColours.ts';
+
+const SLOTS = listSlots(LATEST.default_peers);
 
 interface Props {
   lang: Lang;
@@ -73,7 +77,7 @@ export function GoalStrip({ lang, unit, points, names, selected, direction, medi
         {order.map((p) => {
           const cls = p.country === 'BGD' ? ' is-bgd' : p.country === selected ? ' is-selected' : '';
           return (
-            <span key={p.country} className={`goal-strip__dot${cls}${edge(x(p.value))}`} style={{ left: `${x(p.value)}%` }} title={label(p)}>
+            <span key={p.country} className={`goal-strip__dot${cls}${edge(x(p.value))}`} style={{ left: `${x(p.value)}%`, ...slotStyle(SLOTS.get(p.country)) }} title={label(p)}>
               <span className="goal-strip__tip glass">{label(p)}</span>
             </span>
           );

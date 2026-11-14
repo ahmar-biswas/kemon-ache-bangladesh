@@ -148,3 +148,9 @@ All new; drafts. Please check especially:
 - **Sources page** (sources.*): "উৎস পাতা", "বাংলাদেশ, প্রতি বছর", "তুলনার দেশগুলো, প্রতি বছর", "প্রতিটি দেশের সর্বশেষ মান, {year} বা তার পরের", "{n}টি দেশের মানের মিডিয়ান"
 - **States** (state.*): old data "সর্বশেষ প্রকাশিত সংখ্যাটি {year} সালের।", offline, failed refresh, "আবার চেষ্টা করুন", no-JavaScript note
 - **About and How to read** (about.*, how.*): about 40 paragraphs. Long; please read them as pages at /bn/about and /bn/how-to-read rather than here.
+
+## After Milestone 7: rankings, chart notes (2026-11-14)
+- indicator.sdg_rank / rsf_rank / ghi_rank names and explanations: "এসডিজি সূচক", "বিশ্ব মুক্ত গণমাধ্যম সূচক", "বৈশ্বিক ক্ষুধা সূচক"
+- source.name / source.short for SDSN, RSF, GHI (e.g. "ভেল্টহুঙ্গারহিলফে" spelling)
+- trend.gaps: "সেই বছরগুলোর দুই পাশের প্রকাশিত মান একটি সরল রেখা দিয়ে যুক্ত করা হয়েছে…"
+- peerchart.read: "প্রতিটি তুলনার দেশের নিজস্ব রং…"
