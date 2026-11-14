@@ -572,28 +572,28 @@
 }
 .curtain .jamdani { opacity: .22; height: 18px; }
 .curtain.is-covering, .curtain.is-holding, .curtain.is-revealing { visibility: visible; pointer-events: auto; }
-.curtain.is-covering { transform: translateY(0); transition: transform 200ms cubic-bezier(.2, .7, .2, 1); }
+.curtain.is-covering { transform: translateY(0); transition: transform 350ms cubic-bezier(.2, .7, .2, 1); }
 .curtain.is-holding { transform: translateY(0); }
-.curtain.is-revealing { transform: translateY(-100%); transition: transform 220ms cubic-bezier(.6, 0, .8, .3); }
+.curtain.is-revealing { transform: translateY(-100%); transition: transform 350ms cubic-bezier(.6, 0, .8, .3); }
 .curtain__centre { display: grid; place-items: center; align-content: center; gap: var(--s-12); }
 .curtain .rickshaw-wheel { animation-duration: 900ms; }
 .curtain__name { margin: 0; font-family: var(--font-display-en); font-size: 1.25rem; color: var(--kali-2); }
 .curtain__name[lang='bn'] { font-family: var(--font-display-bn); }
-.curtain__name.is-switch { animation: curtain-name 200ms ease-out; }
+.curtain__name.is-switch { animation: curtain-name 300ms ease-out; }
 @keyframes curtain-name { from { opacity: 0; transform: translateY(6px); } }
 @media (prefers-reduced-motion: reduce) { .curtain { display: none; } }
 @media print { .curtain { display: none; } }
 
-/* Curtain variants to try (DECISIONS.md 126). Each: about 0.2 s in, a short hold, 0.2 s out. */
-.curtain--stitch, .curtain--alpona, .curtain--sun { transform: none; transition: none; }
-.curtain--stitch.is-covering, .curtain--alpona.is-covering, .curtain--sun.is-covering,
-.curtain--stitch.is-revealing, .curtain--alpona.is-revealing, .curtain--sun.is-revealing { transform: none; }
+/* Curtain variants to try (DECISIONS.md 126–127). Each: 0.35 s in, a hold of at least 0.3 s, 0.35 s out. */
+.curtain--stitch, .curtain--alpona { transform: none; transition: none; }
+.curtain--stitch.is-covering, .curtain--alpona.is-covering,
+.curtain--stitch.is-revealing, .curtain--alpona.is-revealing { transform: none; }
 
 /* 2. Kantha stitch: a red running stitch is sewn across the middle; the paper opens from that seam and closes back into it. */
 .curtain--stitch { clip-path: inset(calc(50% - 3px) 0 calc(50% - 3px) 0); }
-.curtain--stitch.is-covering { clip-path: inset(0); transition: clip-path 200ms cubic-bezier(.3, .7, .2, 1) 60ms; }
+.curtain--stitch.is-covering { clip-path: inset(0); transition: clip-path 290ms cubic-bezier(.3, .7, .2, 1) 60ms; }
 .curtain--stitch.is-holding { clip-path: inset(0); }
-.curtain--stitch.is-revealing { clip-path: inset(calc(50% - 3px) 0 calc(50% - 3px) 0); transition: clip-path 200ms cubic-bezier(.6, 0, .8, .4); }
+.curtain--stitch.is-revealing { clip-path: inset(calc(50% - 3px) 0 calc(50% - 3px) 0); transition: clip-path 350ms cubic-bezier(.6, 0, .8, .4); }
 .curtain__stitch {
   position: absolute;
   left: 0;
@@ -605,43 +605,23 @@
   transform: scaleX(0);
   transform-origin: left center;
 }
-.curtain--stitch.is-covering .curtain__stitch { transform: scaleX(1); transition: transform 200ms ease-out; }
+.curtain--stitch.is-covering .curtain__stitch { transform: scaleX(1); transition: transform 350ms ease-out; }
 .curtain--stitch.is-holding .curtain__stitch { transform: scaleX(1); }
-.curtain--stitch.is-revealing .curtain__stitch { transform: scaleX(0); transform-origin: right center; transition: transform 200ms ease-in; }
+.curtain--stitch.is-revealing .curtain__stitch { transform: scaleX(0); transform-origin: right center; transition: transform 350ms ease-in; }
 .curtain--stitch .curtain__centre { padding-top: 72px; }
 
 /* 3. Alpona bloom: plain paper fades in, a rosette draws itself in green thread, everything fades out. */
 .curtain--alpona { opacity: 0; }
-.curtain--alpona.is-covering { opacity: 1; transition: opacity 200ms ease-out; }
+.curtain--alpona.is-covering { opacity: 1; transition: opacity 350ms ease-out; }
 .curtain--alpona.is-holding { opacity: 1; }
-.curtain--alpona.is-revealing { opacity: 0; transition: opacity 200ms ease-in; }
+.curtain--alpona.is-revealing { opacity: 0; transition: opacity 350ms ease-in; }
 .curtain__rosette { color: var(--dhan); }
 .curtain__rosette :is(path, circle) { stroke-dasharray: 1; stroke-dashoffset: 1; }
 .curtain__rosette .curtain__rosette-dots { stroke-dasharray: 0.01 0.04; stroke-dashoffset: 0; opacity: 0; }
-.curtain--alpona:not(.is-idle) .curtain__rosette :is(path, circle):not(.curtain__rosette-dots) { animation: rosette-draw 300ms ease-out forwards; }
-.curtain--alpona:not(.is-idle) .curtain__rosette-dots { animation: rosette-dots 300ms ease-out 120ms forwards; }
-.curtain--alpona:not(.is-idle) .curtain__rosette { animation: rosette-turn 500ms ease-out forwards; }
+.curtain--alpona:not(.is-idle) .curtain__rosette :is(path, circle):not(.curtain__rosette-dots) { animation: rosette-draw 600ms ease-out forwards; }
+.curtain--alpona:not(.is-idle) .curtain__rosette-dots { animation: rosette-dots 400ms ease-out 250ms forwards; }
+.curtain--alpona:not(.is-idle) .curtain__rosette { animation: rosette-turn 1000ms ease-out forwards; }
 @keyframes rosette-draw { to { stroke-dashoffset: 0; } }
 @keyframes rosette-dots { to { opacity: 1; } }
 @keyframes rosette-turn { from { transform: rotate(-30deg) scale(.85); } to { transform: none; } }
 
-/* 4. Rising sun: the flag's green sweeps across, the red disc rises in the middle, then both move on. */
-.curtain--sun { background: var(--dhan); clip-path: inset(0 100% 0 0); }
-.curtain--sun::after { opacity: .1; }
-.curtain--sun.is-covering { clip-path: inset(0); transition: clip-path 200ms cubic-bezier(.3, .7, .2, 1); }
-.curtain--sun.is-holding { clip-path: inset(0); }
-.curtain--sun.is-revealing { clip-path: inset(0 0 0 100%); transition: clip-path 200ms cubic-bezier(.6, 0, .8, .4); }
-.curtain__disc {
-  display: block;
-  width: 26vmin;
-  height: 26vmin;
-  max-width: 180px;
-  max-height: 180px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 38% 34%, var(--disc-highlight), transparent 42%), var(--lal);
-  transform: scale(0);
-}
-.curtain--sun.is-covering .curtain__disc { transform: scale(1); transition: transform 220ms cubic-bezier(.3, 1.4, .5, 1) 80ms; }
-.curtain--sun.is-holding .curtain__disc { transform: scale(1); }
-.curtain--sun.is-revealing .curtain__disc { transform: scale(0); transition: transform 160ms ease-in; }
-.curtain--sun .curtain__name { color: var(--muslin); }

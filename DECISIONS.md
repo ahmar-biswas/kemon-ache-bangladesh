@@ -369,3 +369,4 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - **alpona:** plain paper fades in; a green alpona rosette draws itself and turns slightly; everything fades out.
     - **sun:** the flag green sweeps in from the left; the red disc rises in the middle (the disc is the one allowed use of the flag red); both move on to the right.
     - Once Ahmar picks one, the others and the switch are removed.
+127. **Sun curtain dropped; the others last about one second (Ahmar, 2026-11-14).** Ahmar wants the curtain long enough to notice. Timing: 0.35 s in, a hold of at least 0.3 s, 0.35 s out (about 1.0 s with a page that is ready). The alpona rosette now draws over 0.6 s and turns over 1 s. Left to choose between: muslin, stitch, alpona (`?curtain=`). A browser that had saved "sun" falls back to muslin.

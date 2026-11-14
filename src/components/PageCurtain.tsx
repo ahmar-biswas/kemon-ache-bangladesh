@@ -14,9 +14,9 @@ import { Jamdani, RickshawWheel } from './Motifs.tsx';
 
 type Phase = 'idle' | 'covering' | 'holding' | 'revealing';
 
-// Four looks to try (DECISIONS.md 126). Pick one by adding ?curtain=stitch (or muslin, alpona,
-// sun) to any address; the choice is remembered in this browser only. Default: muslin.
-const VARIANTS = ['muslin', 'stitch', 'alpona', 'sun'] as const;
+// Three looks to try (DECISIONS.md 126–127). Pick one by adding ?curtain=stitch (or muslin,
+// alpona) to any address; the choice is remembered in this browser only. Default: muslin.
+const VARIANTS = ['muslin', 'stitch', 'alpona'] as const;
 type Variant = (typeof VARIANTS)[number];
 const isVariant = (v: unknown): v is Variant => VARIANTS.includes(v as Variant);
 
@@ -31,11 +31,12 @@ function chosenVariant(): Variant {
   }
 }
 
-// About half a second in all: cover, a short hold (longer only if the page is still loading), reveal.
-const COVER_MS = 200;
-const HOLD_MIN_MS = 100;
+// About one second in all, long enough to notice (Ahmar, DECISIONS.md 127): cover, a hold
+// (longer only if the page is still loading), reveal. The CSS transitions use the same lengths.
+const COVER_MS = 350;
+const HOLD_MIN_MS = 300;
 const HOLD_MAX_MS = 4000;
-const REVEAL_MS = 200;
+const REVEAL_MS = 350;
 
 const langOf = (path: string): Lang => (path.startsWith('/bn') ? 'bn' : 'en');
 
@@ -120,7 +121,6 @@ export function PageCurtain() {
       <div className="curtain__centre">
         {variant === 'muslin' && <RickshawWheel size={44} />}
         {variant === 'alpona' && <Rosette />}
-        {variant === 'sun' && <span className="curtain__disc" />}
         {shown && (
           <p key={shown} className={`curtain__name${switching ? ' is-switch' : ''}`} lang={shown}>
             {t(shown, 'site.title')}
