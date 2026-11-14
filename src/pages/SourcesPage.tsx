@@ -18,6 +18,7 @@ import { downloadCsv } from '../lib/download.ts';
 import { formatDate, formatNumber, formatYear } from '../lib/format.ts';
 import { formatValue } from '../lib/formatValue.ts';
 import { noteText } from '../lib/noteText.ts';
+import { aboveFormula, abovePct } from '../lib/rankShare.ts';
 import { usePageTitle } from './AreaPage.tsx';
 
 /** Sections in reading order: each area's measures as on the area pages, then everything else in the data. */
@@ -139,7 +140,8 @@ function Tables({ meta, lang }: { meta: IndicatorMeta; lang: Lang }) {
           <h4>{t(lang, 'derived.calculated_by_site')}</h4>
           {data.rank && (
             <p>
-              {t(lang, 'rank.calculated', { rank: n(data.rank.rank), n: n(data.rank.out_of), year: formatYear(data.rank.year, lang) })}{' '}
+              {t(lang, 'rank.calculated', { pct: abovePct(data.rank.rank, data.rank.out_of, lang), rank: n(data.rank.rank), n: n(data.rank.out_of), year: formatYear(data.rank.year, lang) })}{' '}
+              <span className="secondary">{aboveFormula(data.rank.rank, data.rank.out_of, lang)}</span>{' '}
               <span className="secondary">{t(lang, 'rank.formula', { year: formatYear(data.rank.year, lang) })}</span>{' '}
               <a href={data.rank.source_url} target="_blank" rel="noopener noreferrer">
                 {t(lang, 'sources.inputs')}

@@ -376,3 +376,8 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
     - the name changing language on a language switch
 
     Browsers that saved a choice under `kab-curtain` are unaffected; the value is no longer read.
+129. **World ranks shown as a share (Ahmar, 2026-11-14).** Rankings cover different numbers of countries (122 to 217), so every world rank is now shown first as "Ranked above X% of countries", with "yth of z" underneath.
+    - **Formula:** X = (z − y) ÷ z × 100, rounded down so it never overstates. It is "Calculated by this site" (R4), and the formula is shown with both inputs.
+    - **Wording (Ahmar's choice):** "Ranked above", not "better than" (R5). For this site's own value ranks, 1 = highest value, so "ranked above" can mean a higher inflation or unemployment figure; the line says "1 = highest value".
+    - **Where:** the six "Bangladesh at a glance" cards (the big figure is now the percentage; the position bar and "yth of z" stay), the homepage area tiles, the measure tiles and /sources.
+    - Ties are not adjusted for: the formula counts the places after Bangladesh in the list.

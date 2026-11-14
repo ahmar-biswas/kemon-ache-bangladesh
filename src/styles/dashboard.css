@@ -423,3 +423,7 @@
 .story__open:focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
 @media (pointer: coarse) { .story__open { min-height: 44px; } }
 @media (prefers-reduced-motion: reduce) { .story__open, .story__open svg { transition: none; } }
+
+/* Rank as a share (DECISIONS.md 129): the formula line under the yth-of-z line. */
+.glance__formula { font-size: 0.75rem; margin: 0; }
+.tile__rank-formula { display: block; font-size: 0.75rem; }

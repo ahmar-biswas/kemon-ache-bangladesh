@@ -17,6 +17,7 @@ import { indicatorMeta } from '../data/latestMeta.ts';
 import { GoalStrip } from './GoalStrip.tsx';
 import { AreaIcon } from './Motifs.tsx';
 import { CompactSources } from './SourceLine.tsx';
+import { abovePct } from '../lib/rankShare.ts';
 
 interface Props {
   lang: Lang;
@@ -108,7 +109,7 @@ export function AreaStory({ lang, area, latest, selected, open, onOpen, onPrefet
         target={d.target}
       />
       {d.compare_id && <p className="story__note">{t(lang, 'peers.compared_in_ppp')}</p>}
-      {rank && <p className="story__rank">{t(lang, 'rank.world', { rank: n(rank.rank), n: n(rank.out_of) })}</p>}
+      {rank && <p className="story__rank">{t(lang, 'rank.above_short', { pct: abovePct(rank.rank, rank.out_of, lang), rank: n(rank.rank), n: n(rank.out_of) })}</p>}
 
       {text && <p className="story__text">{text}</p>}
 

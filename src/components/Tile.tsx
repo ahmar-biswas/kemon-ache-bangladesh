@@ -9,6 +9,7 @@ import { t, type Lang } from '../i18n/index.ts';
 import { explanation, indicatorName } from '../lib/display.ts';
 import { formatValue, valueParts } from '../lib/formatValue.ts';
 import { formatNumber, formatYear } from '../lib/format.ts';
+import { aboveFormula, abovePct } from '../lib/rankShare.ts';
 import { PeerStrip } from './PeerStrip.tsx';
 import { PositionBadge } from './PositionBadge.tsx';
 import { SourceLine } from './SourceLine.tsx';
@@ -139,8 +140,9 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
           {rank && (
             <p className="tile__rank">
               {rank.kind === 'calculated'
-                ? `${t(lang, 'rank.calculated', { rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}. ${t(lang, 'derived.calculated_by_site')}.`
-                : t(lang, 'rank.published', { rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}
+                ? `${t(lang, 'rank.calculated', { pct: abovePct(rank.rank, rank.out_of, lang), rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}. ${t(lang, 'derived.calculated_by_site')}.`
+                : t(lang, 'rank.published', { pct: abovePct(rank.rank, rank.out_of, lang), rank: n(rank.rank), n: n(rank.out_of), year: formatYear(rank.year, lang) })}
+              <span className="tile__rank-formula muted"> {aboveFormula(rank.rank, rank.out_of, lang)}</span>
             </p>
           )}
         </div>

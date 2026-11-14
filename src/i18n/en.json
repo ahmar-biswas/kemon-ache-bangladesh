@@ -182,8 +182,8 @@
   "explain.hdi_rank": "The UN Development Programme's ranking of countries by its Human Development Index, which combines life expectancy, years of schooling and income. 1 is the highest index value.",
   "explain.cpi_rank": "Transparency International's ranking of countries by how corrupt experts and business people see their public sector to be. 1 is seen as the least corrupt.",
   "explain.whr_rank": "The World Happiness Report's ranking of countries by how people rate their own lives on a scale from 0 to 10, averaged over three years. 1 is the highest average.",
-  "rank.calculated": "Global rank: {rank} of {n} countries with data for {year} (1 = highest value)",
-  "rank.published": "Global rank: {rank} of {n} countries ({year}), as published",
+  "rank.calculated": "Ranked above {pct} of the {n} countries with data for {year} ({rank} of {n}; 1 = highest value)",
+  "rank.published": "Ranked above {pct} of the {n} countries ranked ({rank} of {n}, {year}, as published)",
   "rank.none": "No global rank: fewer than {min} countries have data for {year}.",
   "rank.list": "See every country in this ranking",
   "target.short.sdg_3_2": "UN goal for 2030: {value}",
@@ -593,5 +593,8 @@
   "source.name.rsf2026": "Reporters Without Borders, World Press Freedom Index 2026",
   "source.short.rsf2026": "RSF 2026",
   "source.name.ghi2026": "Global Hunger Index 2026 (Welthungerhilfe, Concern Worldwide, IFHV)",
-  "source.short.ghi2026": "GHI 2026"
+  "source.short.ghi2026": "GHI 2026",
+  "rank.above_short": "Ranked above {pct} of countries ({rank} of {n})",
+  "rank.pct_formula": "Percentage calculated by this site: ({n} − {rank}) ÷ {n}, rounded down.",
+  "rank.above": "Ranked above {pct} of countries"
 }
