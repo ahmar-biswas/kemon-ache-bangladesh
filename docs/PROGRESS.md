@@ -14,6 +14,7 @@
 | M9 Launch and scheduled refresh | not started | |
 
 ## Open items carried forward
+- **No GitHub remote yet (2026-11-14):** nothing has been pushed. Ahmar will create an empty GitHub repository and send its URL, or it is set up in M9. The GitHub CLI (gh) is not installed on this PC.
 - **World Bank server is slow for requests Cloudflare has no copy of** (DECISIONS.md 17–21, 23, 34). In M2 each 50-country request took 100–150 s uncached; warming the cache in parallel first worked. Decide in M9 whether the refresh does this itself.
 - **Response cache is set to 7 days** (DECISIONS 24): set back to same day before the weekly refresh (M9).
 - **Publisher notes (rule R8):** every note in the data is translated (M7, sentence by sentence). A new note from the World Bank makes the data check fail until a pattern is added.
