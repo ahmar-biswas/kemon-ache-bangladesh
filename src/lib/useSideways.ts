@@ -1,7 +1,8 @@
 // The sideways opening shared by "The full picture" and a measure's own view (Ahmar, M4
 // review 3; DECISIONS.md 86, 87). The panel opens from the clicked tile and widens SIDEWAYS
 // ONLY until it fills the width: its clip animates, so the content does not move. Closing
-// shrinks it back. On narrow screens (stacked tiles) it slides in from the side instead.
+// shrinks it back. On narrow screens (stacked tiles) the panel lies over the tapped tile and
+// grows downward from it (Ahmar, M8); a measure's own view slides in from the side.
 // Reduced motion: no animation. Escape closes (unless `paused`).
 import { useCallback, useEffect, useLayoutEffect, useRef, type RefObject } from 'react';
 
@@ -10,7 +11,12 @@ export interface Origin {
   right: number;
   bottom: number;
   left: number;
+  /** The tile's own height: on narrow screens the panel grows down from it (Ahmar, M8). */
+  height?: number;
 }
+
+/** Narrow screens: just the tile's rectangle at the panel's top (top and sides fixed). */
+const tileOnly = (el: HTMLElement, o: Origin) => `inset(0px 0px ${Math.max(0, el.offsetHeight - (o.height ?? 0))}px 0px round ${RADIUS}px)`;
 
 const OPEN_MS = 640;
 const CLOSE_MS = 420;
@@ -35,6 +41,9 @@ export function useSideways(ref: RefObject<HTMLElement | null>, origin: Origin |
     if (reduced() || typeof el.animate !== 'function') return;
     if (origin && overlays()) {
       el.animate([{ clipPath: clipOf(origin) }, { clipPath: FULL }], { duration: OPEN_MS, easing: SOOTHE });
+    } else if (origin?.height) {
+      // Narrow: the panel lies over the tapped tile and grows downward from it.
+      el.animate([{ clipPath: tileOnly(el, origin) }, { clipPath: FULL }], { duration: OPEN_MS, easing: SOOTHE });
     } else {
       el.animate([{ opacity: 0, transform: 'translateX(-24px)' }, { opacity: 1, transform: 'none' }], { duration: OPEN_MS, easing: SOOTHE });
     }
@@ -50,6 +59,8 @@ export function useSideways(ref: RefObject<HTMLElement | null>, origin: Origin |
     const anim =
       origin && overlays()
         ? el.animate([{ clipPath: FULL }, { clipPath: clipOf(origin) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
+        : origin?.height
+        ? el.animate([{ clipPath: FULL }, { clipPath: tileOnly(el, origin) }], { duration: CLOSE_MS, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' })
         : el.animate([{ opacity: 1, transform: 'none' }, { opacity: 0, transform: 'translateX(-24px)' }], { duration: CLOSE_MS, easing: 'ease-in', fill: 'forwards' });
     // Finish once, whichever comes first: the animation's end, or a timer (animations pause
     // in hidden tabs, and the panel must still close).

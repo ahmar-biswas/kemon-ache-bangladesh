@@ -427,3 +427,9 @@
 /* Rank as a share (DECISIONS.md 129): the formula line under the yth-of-z line. */
 .glance__formula { font-size: 0.75rem; margin: 0; }
 .tile__rank-formula { display: block; font-size: 0.75rem; }
+
+/* Narrow screens (Ahmar, M8): "The full picture" lies over the tiles from the top of the tapped
+   tile (--details-top, set by Home) and grows downward; the stage grows to fit it. */
+@media (max-width: 899px) {
+  .home-areas__stage > .details { position: absolute; top: var(--details-top, 0px); left: 0; right: 0; z-index: 10; margin-top: 0; }
+}

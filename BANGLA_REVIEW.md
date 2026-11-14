@@ -53,7 +53,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 | ⚑ | `side.title` | Bangladesh at a glance | এক নজরে বাংলাদেশ |
 |  | `details.close_hint` | Switch to Summary, or press Escape, to close. | বন্ধ করতে সারসংক্ষেপে যান অথবা Escape চাপুন। |
 | ⚑ | `home.title` | How is Bangladesh doing? | কেমন আছে বাংলাদেশ? |
-| ⚑ | `home.lede` | Four parts of everyday life, each set beside seven neighbouring and similar countries. | দৈনন্দিন জীবনের চারটি দিক, প্রতিটি পাশের ও কাছাকাছি ধরনের সাতটি দেশের পাশে রেখে। |
+| ⚑ | `home.lede` | Four parts of everyday life, each set beside seven neighbouring and similar countries. | দৈনন্দিন জীবনের চারটি দিক, প্রতিটি পার্শ্ববর্তী ও কাছাকাছি ধরনের সাতটি দেশের পাশে রেখে। |
 | ⚑ | `glance.lede` | Where Bangladesh stands in the world on six widely used measures. | বহুল ব্যবহৃত ছয়টি মাপকাঠিতে বিশ্বে বাংলাদেশের অবস্থান। |
 | ⚑ | `strip.toward_goal` | Toward the goal | লক্ষ্যের দিকে |
 | ⚑ | `strip.lower` | Lower | কম |
@@ -62,7 +62,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 |  | `details.open` | Details | বিস্তারিত |
 | ⚑ | `details.close` | Back to the summary | সারসংক্ষেপে ফিরুন |
 | ⚑ | `details.status` | Measures here with an official goal: Bangladesh is ahead of most comparison countries on {a} of {m}. | এখানকার অফিশিয়াল লক্ষ্যওয়ালা {m}টি মাপকাঠির {a}টিতে বাংলাদেশ বেশিরভাগ তুলনার দেশের চেয়ে এগিয়ে। |
-| ⚑ | `view.full_picture` | The full picture | পুরো ছবিটা |
+| ⚑ | `view.full_picture` | The full picture | পুরো ছবি |
 | ⚑ | `nav.home` | Home | প্রথম পাতা |
 | ⚑ | `nav.compare` | Compare | তুলনা |
 |  | `nav.label` | Main menu | প্রধান মেনু |
@@ -318,7 +318,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 |  | `rank.track` | Rank 1 | ১ নম্বর |
 | ⚑ | `measure.compare` | Compare with other countries | অন্য দেশের সঙ্গে তুলনা |
 | ⚑ | `measure.trend` | Bangladesh over time | সময়ের সঙ্গে বাংলাদেশ |
-| ⚑ | `measure.back` | Back to the full picture | পুরো ছবিটায় ফিরুন |
+| ⚑ | `measure.back` | Back to the full picture | পুরো ছবিতে ফিরুন |
 |  | `measure.views` | More on {name} | {name}: আরও দেখুন |
 |  | `picker.title` | Countries to compare | যেসব দেশের সঙ্গে তুলনা |
 |  | `picker.presets` | Ready-made groups | তৈরি করা দল |
@@ -335,8 +335,8 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 |  | `picker.search` | Search for a country | দেশ খুঁজুন |
 |  | `picker.no_match` | No country matches this search. | এই নামে কোনো দেশ পাওয়া যায়নি। |
 |  | `picker.no_data` | No data since {year} | {year} সালের পর থেকে কোনো তথ্য নেই |
-| ⚑ | `picker.note_untranslated` | The source's note for this value is not yet available in Bangla, so it is not shown | এই মানের সঙ্গে উৎসের যে টীকা আছে তা এখনো বাংলায় নেই, তাই মানটি দেখানো হচ্ছে না |
-|  | `picker.note_untranslated_list` | Not shown, because the source's note for their value is not yet available in Bangla: {countries}. | দেখানো হচ্ছে না, কারণ এদের মানের সঙ্গে উৎসের টীকা এখনো বাংলায় নেই: {countries}। |
+| ⚑ | `picker.note_untranslated` | The source's note for this value is not yet available in Bangla, so it is not shown | এই মানের সঙ্গে উৎসের যে নোট আছে তা এখনো বাংলায় নেই, তাই মানটি দেখানো হচ্ছে না |
+|  | `picker.note_untranslated_list` | Not shown, because the source's note for their value is not yet available in Bangla: {countries}. | দেখানো হচ্ছে না, কারণ এদের মানের সঙ্গে উৎসের নোট এখনো বাংলায় নেই: {countries}। |
 |  | `picker.why` | Why these countries? | কেন এই দেশগুলো? |
 | ⚑ | `picker.why_text` | They are this site's fixed set of comparison countries in South and South-East Asia, so every measure is compared with the same countries. Their World Bank income groups differ, and can change each year. | এগুলো দক্ষিণ ও দক্ষিণ-পূর্ব এশিয়ার কয়েকটি দেশ, যাদের সঙ্গে এই সাইট সব মাপকাঠিতে একইভাবে তুলনা করে। বিশ্বব্যাংকের হিসাবে এদের আয়ের স্তর এক নয়, আর প্রতি বছর বদলাতে পারে। |
 |  | `picker.classification_link` | World Bank income groups | বিশ্বব্যাংকের আয়ভিত্তিক শ্রেণি |
@@ -458,7 +458,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 |  | `chart.how_to_read` | How to read this chart | চার্টটি কীভাবে পড়বেন |
 |  | `chart.axis_unit` | Values in {unit} | মান: {unit} |
 |  | `table.rank` | Rank | ক্রম |
-|  | `table.notes` | Notes from the source | উৎসের টীকা |
+|  | `table.notes` | Notes from the source | উৎসের নোট |
 |  | `unit.taka.label` | taka | টাকা |
 |  | `unit.per_100000_live_births.value` | {value} per 100,000 live births | প্রতি ১,০০,০০০ জন্মে {value} |
 |  | `unit.per_100000_live_births.label` | per 100,000 live births | প্রতি ১,০০,০০০ জন্মে |
@@ -484,7 +484,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 |  | `source.data_year` | Data year: {year} | তথ্যের বছর: {year} |
 | ⚑ | `source.retrieved` | Retrieved: {date} | সংগ্রহের তারিখ: {date} |
 |  | `source.original` | Originally from: {name} | মূল উৎস: {name} |
-| ⚑ | `source.notes` | Note from the source: {note} | উৎসের টীকা: {note} |
+| ⚑ | `source.notes` | Note from the source: {note} | উৎসের নোট: {note} |
 | ⚑ | `source.name.wb_wdi` | World Bank, World Development Indicators | বিশ্বব্যাংক, ওয়ার্ল্ড ডেভেলপমেন্ট ইন্ডিকেটরস |
 |  | `source.name.undp_hdr2025` | UNDP, Human Development Report 2025 | ইউএনডিপি, মানব উন্নয়ন প্রতিবেদন ২০২৫ |
 |  | `source.name.ti_cpi2025` | Transparency International, Corruption Perceptions Index 2025 | ট্রান্সপারেন্সি ইন্টারন্যাশনাল, দুর্নীতির ধারণা সূচক ২০২৫ |
@@ -620,7 +620,7 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 | ⚑ | `about.data.p2` | Three published rankings are shown as their publishers give them: the UNDP Human Development Report, Transparency International's Corruption Perceptions Index, and the World Happiness Report. | তিনটি প্রকাশিত র‍্যাংকিং প্রকাশকরা যেভাবে দিয়েছেন সেভাবেই দেখানো হয়: ইউএনডিপির মানব উন্নয়ন প্রতিবেদন, ট্রান্সপারেন্সি ইন্টারন্যাশনালের দুর্নীতির ধারণা সূচক, এবং বিশ্ব সুখ প্রতিবেদন। |
 | ⚑ | `about.data.p3` | The figures are downloaded from the sources by a program and checked before they are published here. The date each figure was retrieved is under it, and the date of the latest check is at the foot of every page. The Sources page lists every figure with its links. | একটি প্রোগ্রাম উৎস থেকে সংখ্যাগুলো নামায় এবং এখানে প্রকাশের আগে যাচাই করে। প্রতিটি সংখ্যার নিচে লেখা থাকে কবে সংগ্রহ করা হয়েছে, আর প্রতিটি পাতার নিচে থাকে সর্বশেষ যাচাইয়ের তারিখ। উৎস পাতায় প্রতিটি সংখ্যা তার লিংকসহ তালিকা করা আছে। |
 | ⚑ | `about.lang.h` | English and Bangla | ইংরেজি ও বাংলা |
-| ⚑ | `about.lang.p1` | Every page is in both languages; the switch at the top changes between them. The sources publish in English, so names of reports and some notes from the sources are shown as published. | প্রতিটি পাতা দুই ভাষাতেই আছে; ওপরের সুইচ দিয়ে ভাষা বদলানো যায়। উৎসগুলো ইংরেজিতে প্রকাশ করে, তাই প্রতিবেদনের নাম ও উৎসের কিছু টীকা প্রকাশিত অবস্থাতেই দেখানো হয়। |
+| ⚑ | `about.lang.p1` | Every page is in both languages; the switch at the top changes between them. The sources publish in English, so names of reports and some notes from the sources are shown as published. | প্রতিটি পাতা দুই ভাষাতেই আছে; ওপরের সুইচ দিয়ে ভাষা বদলানো যায়। উৎসগুলো ইংরেজিতে প্রকাশ করে, তাই প্রতিবেদনের নাম ও উৎসের কিছু নোট প্রকাশিত অবস্থাতেই দেখানো হয়। |
 | ⚑ | `how.lede` | A short guide to the parts of each page. | প্রতিটি পাতার অংশগুলো বোঝার ছোট নির্দেশিকা। |
 | ⚑ | `how.tile.h` | A measure's tile | একটি পরিমাপের টাইল |
 | ⚑ | `how.tile.p1` | Each measure has a tile: its name, Bangladesh's latest figure, a short line saying what the figure means with a link to the official definition, and the source line. | প্রতিটি পরিমাপের একটি টাইল আছে: তার নাম, বাংলাদেশের সর্বশেষ সংখ্যা, সংখ্যাটির মানে কী তা নিয়ে একটি ছোট লাইন ও অফিশিয়াল সংজ্ঞার লিংক, এবং উৎস লাইন। |
@@ -638,8 +638,8 @@ Words in `{curly brackets}` are filled in from the data (a number, a year, a cou
 | ⚑ | `how.missing.h` | Missing and older figures | না-থাকা ও পুরোনো সংখ্যা |
 | ⚑ | `how.missing.p1` | "Data not available" means the source has not published that figure. The site never fills the gap or shows a zero. | "তথ্য পাওয়া যায়নি" মানে উৎস সংখ্যাটি প্রকাশ করেনি। সাইটটি কখনো ফাঁক পূরণ করে না বা শূন্য দেখায় না। |
 | ⚑ | `how.missing.p2` | When the newest published figure is more than five years old, a note under it gives its year. | সর্বশেষ প্রকাশিত সংখ্যাটি পাঁচ বছরের বেশি পুরোনো হলে, তার নিচের একটি টীকায় বছরটি বলা থাকে। |
-| ⚑ | `how.caveats.h` | Notes from the source | উৎসের টীকা |
-| ⚑ | `how.caveats.p1` | Some figures come with a note from their source: for example, that a figure is a modelled estimate, or that a country measures income while another measures spending. These notes are shown next to the figure. | কিছু সংখ্যার সঙ্গে উৎসের টীকা থাকে: যেমন, সংখ্যাটি মডেলভিত্তিক হিসাব, অথবা কোনো দেশ আয় মাপে আর অন্য দেশ ব্যয়। এই টীকাগুলো সংখ্যার পাশে দেখানো হয়। |
+| ⚑ | `how.caveats.h` | Notes from the source | উৎসের নোট |
+| ⚑ | `how.caveats.p1` | Some figures come with a note from their source: for example, that a figure is a modelled estimate, or that a country measures income while another measures spending. These notes are shown next to the figure. | কিছু সংখ্যার সঙ্গে উৎসের নোট থাকে: যেমন, সংখ্যাটি মডেলভিত্তিক হিসাব, অথবা কোনো দেশ আয় মাপে আর অন্য দেশ ব্যয়। এই নোটগুলো সংখ্যার পাশে দেখানো হয়। |
 | ⚑ | `how.charts.h` | Charts and tables | চার্ট ও টেবিল |
 | ⚑ | `how.charts.p1` | Every chart can be switched to a table with the Chart \| Table switch, and its figures downloaded as a CSV file. In "Compare with other countries" you can add or remove countries, or pick a ready-made group. | প্রতিটি চার্ট "চার্ট \| টেবিল" সুইচ দিয়ে টেবিলে বদলানো যায়, আর এর সংখ্যাগুলো CSV ফাইল হিসেবে নামানো যায়। "অন্য দেশের সঙ্গে তুলনা"-য় আপনি দেশ যোগ বা বাদ দিতে পারেন, অথবা তৈরি করা কোনো দল বেছে নিতে পারেন। |
 | ⚑ | `how.money.h` | Taka and dollars | টাকা ও ডলার |

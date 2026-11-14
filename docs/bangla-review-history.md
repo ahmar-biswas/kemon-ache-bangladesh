@@ -156,3 +156,9 @@ All new; drafts. Please check especially:
 - source.name / source.short for SDSN, RSF, GHI (e.g. "ভেল্টহুঙ্গারহিলফে" spelling)
 - trend.gaps: "সেই বছরগুলোর দুই পাশের প্রকাশিত মান একটি সরল রেখা দিয়ে যুক্ত করা হয়েছে…"
 - peerchart.read: "প্রতিটি তুলনার দেশের নিজস্ব রং…"
+
+## Milestone 8: Ahmar's review (2026-11-14)
+- **Changed by Ahmar:** "উৎসের টীকা" → "উৎসের নোট" everywhere (source.notes, table.notes, how.caveats.h/p1, picker.note_untranslated_list). The builder also changed the three other places that mean the source's notes to "নোট" (picker.note_untranslated, about.lang.p1, how.caveats.p1 "এই নোটগুলো"); "টীকা" stays where it means the site's own short note (how.peers.p1, how.missing.p2).
+- **Changed by Ahmar:** home.lede "প্রতিটি পাশের ও কাছাকাছি ধরনের…" → "প্রতিটি পার্শ্ববর্তী ও কাছাকাছি ধরনের…" (neighbouring).
+- **Changed by Ahmar:** view.full_picture "পুরো ছবিটা" → "পুরো ছবি"; measure.back "পুরো ছবিটায় ফিরুন" → "পুরো ছবিতে ফিরুন".
+- Everything else in BANGLA_REVIEW.md: accepted by Ahmar ("everything else looks good").

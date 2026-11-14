@@ -6,7 +6,7 @@
 //   3. Below the fold: Bangladesh at a glance, six cards with a world-position bar each.
 // Every figure has its source line directly under it (R1). Data: latest.json only (R10);
 // the Details code and full data load on demand (preloaded on hover or focus).
-import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useOutletContext } from 'react-router';
 import { AreaStory } from '../components/AreaStory.tsx';
 import { CompareProvider, useCompare } from '../components/CompareContext.tsx';
@@ -19,6 +19,7 @@ import { LATEST } from '../data/latest.ts';
 import { t, type Lang } from '../i18n/index.ts';
 import { useFirstVisitDrawIn } from '../lib/drawIn.ts';
 import { usePageTitle } from '../lib/usePageTitle.ts';
+import type { Origin } from '../lib/useSideways.ts';
 
 const loadDetails = () => import('../components/DetailsPanel.tsx');
 const DetailsPanel = lazy(() => loadDetails().then((m) => ({ default: m.DetailsPanel })));
@@ -30,25 +31,21 @@ const prefetchDetails = () => {
 };
 
 /** Where the clicked tile sits inside the four-tile area: the panel starts clipped to it. */
-export interface Origin {
-  top: number;
-  right: number;
-  bottom: number;
-  left: number;
-}
+export type { Origin };
 
 function Dashboard({ lang }: { lang: Lang }) {
   const { selected } = useCompare();
   const [openArea, setOpenArea] = useState<string | null>(null);
   const [origin, setOrigin] = useState<Origin | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
+  const stageRef = useRef<HTMLDivElement>(null);
   const tileRefs = useRef<Record<string, HTMLElement | null>>({});
   const open = AREAS.find((a) => a.icon === openArea);
 
   const openFrom = useCallback((id: string, tile: HTMLElement) => {
     const grid = gridRef.current?.getBoundingClientRect();
     const r = tile.getBoundingClientRect();
-    setOrigin(grid ? { top: r.top - grid.top, right: grid.right - r.right, bottom: grid.bottom - r.bottom, left: r.left - grid.left } : null);
+    setOrigin(grid ? { top: r.top - grid.top, right: grid.right - r.right, bottom: grid.bottom - r.bottom, left: r.left - grid.left, height: r.height } : null);
     setOpenArea(id);
   }, []);
   const close = useCallback(() => {
@@ -57,6 +54,36 @@ function Dashboard({ lang }: { lang: Lang }) {
     // Back to the tile the reader came from.
     if (id) requestAnimationFrame(() => tileRefs.current[id]?.querySelector<HTMLElement>('.story__open')?.focus({ preventScroll: true }));
   }, [openArea]);
+
+  // Narrow screens (stacked tiles; Ahmar, M8): the panel lies over the tiles from the top of the
+  // tapped tile and grows downward, so it opens where the reader is looking. The area below grows
+  // with it, so the panel never covers "Bangladesh at a glance". Wide screens: unchanged (it
+  // covers the four tiles, see .details in dashboard.css).
+  useLayoutEffect(() => {
+    const stage = stageRef.current;
+    if (!stage || !open) return;
+    stage.style.setProperty('--details-top', `${origin?.top ?? 0}px`);
+    const panels = () => [...stage.querySelectorAll<HTMLElement>(':scope > .details')];
+    const fit = () => {
+      if (window.matchMedia?.('(min-width: 900px)').matches) return void (stage.style.minHeight = '');
+      const bottom = Math.max(0, ...panels().map((d) => d.offsetTop + d.offsetHeight));
+      stage.style.minHeight = bottom ? `${bottom}px` : '';
+    };
+    const ro = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(fit);
+    const watch = () => {
+      ro?.disconnect();
+      for (const d of panels()) ro?.observe(d);
+      fit();
+    };
+    const mo = new MutationObserver(watch);
+    mo.observe(stage, { childList: true });
+    watch();
+    return () => {
+      ro?.disconnect();
+      mo.disconnect();
+      stage.style.minHeight = '';
+    };
+  }, [open, origin]);
 
   return (
     <div className={`home${open ? ' has-open' : ''}`}>
@@ -70,7 +97,7 @@ function Dashboard({ lang }: { lang: Lang }) {
       </section>
 
       <section className="home-areas wrap" aria-label={t(lang, 'home.title')}>
-        <div className="home-areas__stage">
+        <div className="home-areas__stage" ref={stageRef}>
           <div className="home-areas__grid" ref={gridRef}>
             {AREAS.map((area) => (
               <div key={area.icon} ref={(el) => { tileRefs.current[area.icon] = el; }} className="home-areas__cell">
@@ -93,7 +120,7 @@ function Dashboard({ lang }: { lang: Lang }) {
                 // sideways opening still starts from the tile.
                 <div
                   className="details"
-                  style={origin ? { clipPath: `inset(${origin.top}px ${origin.right}px ${origin.bottom}px ${origin.left}px round 14px)` } : undefined}
+                  style={origin && window.matchMedia?.('(min-width: 900px)').matches ? { clipPath: `inset(${origin.top}px ${origin.right}px ${origin.bottom}px ${origin.left}px round 14px)` } : undefined}
                 >
                   <Loading lang={lang} />
                 </div>

@@ -70,9 +70,9 @@ All 225 distinct outside links were tried (`npm run check:crawl -- --external`; 
 
 1. **Peers over time on every measure page** (item 9): needs Ahmar's yes; the chart already exists (Economy subsections).
 2. **Scheduled refresh** (item 11): M9.
-3. **Event markers on phones** (DECISIONS 135): they no longer overlap, but stack up to seven rows high on a 360 px phone. Keep, or merge close events into one marker?
-4. **Bangla review**: BANGLA_REVIEW.md lists all 847 strings; Ahmar's corrections still to come. The milestone is not "done" until then.
-5. **Three rankings to check by eye** (SDG Index, HDI, happiness): docs/VALUE_CHECK.md.
+3. **Event markers on phones** (DECISIONS 135): stacked lanes accepted by Ahmar after checking on a phone (2026-11-14).
+4. **Bangla review**: done (Ahmar, 2026-11-14): four changes applied, everything else accepted.
+5. **Three rankings to check by eye** (SDG Index, HDI, happiness): checked by Ahmar (2026-11-14).
 6. **Real screen reader pass** (NVDA on Windows, TalkBack on a phone): not done.
 7. **Bangla font swap on text-heavy Bangla pages** (/bn/sources: layout shift 0.18, first visit only): the long Bangla paragraphs are drawn in the phone's own Bangla font first and re-wrap when Anek Bangla arrives. Same decision as the open "Bangla font size" question: preload the Bangla body font on /bn pages, drop Anek Bangla 600, or subset the fonts.
 8. **Lighthouse best practices 81** on this PC only: the Kaspersky antivirus injects a script over plain http into every page. Not a site problem; re-check on the hosted site in M9.
