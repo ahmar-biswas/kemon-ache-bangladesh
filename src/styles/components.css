@@ -585,3 +585,19 @@
 @media print { .curtain { display: none; } }
 
 
+
+/* Forced colours (Windows high contrast) replace backgrounds with the page colour, which would turn
+   Bangladesh's filled dot into an open one like every other country. Keep it filled (8.9: the
+   filled/open shape is the cue that does not depend on colour). */
+@media (forced-colors: active) {
+  .peer-strip__dot.is-bgd::before,
+  .goal-strip__dot.is-bgd::before,
+  .ranked__row.is-bgd .ranked__dot,
+  .ranked__row.is-bgd .ranked__bar,
+  .measure__key--bgd-bars,
+  .measure__key--bgd-dots {
+    forced-color-adjust: none;
+    background: CanvasText !important; /* dashboard.css loads later */
+    border-color: CanvasText !important;
+  }
+}

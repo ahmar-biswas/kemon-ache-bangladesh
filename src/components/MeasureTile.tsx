@@ -5,7 +5,7 @@ import { LATEST } from '../data/latest.ts';
 import type { Lang } from '../i18n/index.ts';
 import { Tile } from './Tile.tsx';
 
-export function MeasureTile({ lang, id, wide, href }: { lang: Lang; id: string; wide?: boolean; href?: string }) {
+export function MeasureTile({ lang, id, wide, href, headingLevel }: { lang: Lang; id: string; wide?: boolean; href?: string; headingLevel?: 2 | 3 }) {
   const meta = indicatorMeta(id);
   const records = RECORDS[id];
   if (!meta || !records) return null;
@@ -22,6 +22,7 @@ export function MeasureTile({ lang, id, wide, href }: { lang: Lang; id: string; 
       since={LATEST.since}
       wide={wide}
       href={href}
+      headingLevel={headingLevel}
       rank={LATEST.indicators[id]?.rank ?? null}
       target={LATEST.indicators[id]?.target ?? null}
     />

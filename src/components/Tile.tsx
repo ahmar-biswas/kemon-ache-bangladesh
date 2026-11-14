@@ -33,11 +33,14 @@ interface Props extends TileData {
   target?: Target | null;
   /** Controls shown in the tile's top-right corner, beside the name (e.g. the M5 view buttons). */
   actions?: ReactNode;
+  /** Heading level of the name: 3 inside a section (default), 2 when the tile sits right under the page heading. */
+  headingLevel?: 2 | 3;
   /** The measure's own page: the name becomes a link to it (section 10). */
   href?: string;
 }
 
-export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target, actions, href }: Props) {
+export function Tile({ meta, records, compare, medians, lang, countries, since, wide, rank, target, actions, href, headingLevel = 3 }: Props) {
+  const H = headingLevel === 2 ? 'h2' : 'h3';
   const own = latestRecent(records, ['BGD'], 0).get('BGD');
   const cmp = compare ?? (meta.scope === 'compare' ? { meta, records, medians } : undefined);
   const peerIds = countries.default_peers;
@@ -62,11 +65,11 @@ export function Tile({ meta, records, compare, medians, lang, countries, since, 
     <article className={`tile${wide ? ' tile--wide' : ''}`} data-figure="">
       {actions ? (
         <div className="tile__head">
-          <h3 className="tile__name">{name}</h3>
+          <H className="tile__name">{name}</H>
           {actions}
         </div>
       ) : (
-        <h3 className="tile__name">{name}</h3>
+        <H className="tile__name">{name}</H>
       )}
 
       {own && own.source_url ? (

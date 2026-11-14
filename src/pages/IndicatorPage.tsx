@@ -56,7 +56,7 @@ export function IndicatorPage() {
       </header>
 
       <div className="indicator-page__tile">
-        <MeasureTile lang={lang} id={meta.id} wide />
+        <MeasureTile lang={lang} id={meta.id} wide headingLevel={2} />
       </div>
 
       {cmp && (

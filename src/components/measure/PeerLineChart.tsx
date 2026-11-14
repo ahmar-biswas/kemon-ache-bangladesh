@@ -4,7 +4,7 @@
 // pick a year (crosshair and glass tooltip); hovering a line or its name, or Up/Down, picks a
 // peer and lifts its line. A straight line joins values across missing years; the values next
 // to a gap keep a dot (DECISIONS.md 122).
-import { useEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
 import { gapEdgeYears, niceTicks, segments, tickDecimals } from '../../data/picker.ts';
 import type { DataRecord, Unit } from '../../data/types.ts';
 import { t, type Lang } from '../../i18n/index.ts';
@@ -27,11 +27,15 @@ interface Props {
   label: string;
 }
 
+// Measured before the first paint (layout effect): drawn at the fallback width first, a chart was
+// briefly wider than a phone screen, and the phone zoomed out and back (M8, DECISIONS 137).
 function useWidth(ref: React.RefObject<HTMLDivElement | null>, fallback = 640) {
   const [width, setWidth] = useState(fallback);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = ref.current;
-    if (!el || typeof ResizeObserver === 'undefined') return;
+    if (!el) return;
+    if (el.clientWidth > 0) setWidth(Math.round(el.clientWidth));
+    if (typeof ResizeObserver === 'undefined') return;
     const ro = new ResizeObserver(() => {
       const w = Math.round(el.clientWidth);
       if (w > 0) setWidth(w);
@@ -220,7 +224,7 @@ export function PeerLineChart({ lang, series, unit, label }: Props) {
       </svg>
 
       {year !== null && tipRows.length > 0 && (
-        <div className={`line-chart__tip glass ${tipSide}`} style={{ left: ax, top: tipTop }} role="status">
+        <div className={`line-chart__tip glass ${tipSide}${tipTop < H / 2 ? ' is-below' : ''}`} style={{ left: ax, top: tipTop < H / 2 ? tipTop + 12 : tipTop }} role="status">
           <strong className="num">{formatYear(year, lang)}</strong>
           {tipRows.map(({ s, p }) => (
             <span key={s.id} className={s.id === 'BGD' ? 'peer-chart__tip-bgd' : undefined}>

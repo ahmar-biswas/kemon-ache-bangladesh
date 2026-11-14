@@ -16,10 +16,15 @@
     "check:i18n": "tsx scripts/check-i18n.ts",
     "check:sources": "vitest run tests/sources.test.tsx",
     "check:data": "tsx scripts/validate-data.ts",
+    "check:crawl": "tsx scripts/crawl.ts",
+    "check:a11y": "tsx scripts/a11y.ts",
+    "check:lighthouse": "tsx scripts/lighthouse.ts",
+    "check:keyboard": "tsx scripts/keyboard.ts",
     "check": "npm run typecheck && npm run check:i18n && npm run check:data && npm test",
     "data:refresh": "tsx scripts/refresh.ts",
     "data:availability": "tsx scripts/data-availability.ts",
-    "assets": "tsx scripts/generate-background.ts"
+    "assets": "tsx scripts/generate-background.ts",
+    "bangla:review": "tsx scripts/bangla-review.ts"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
@@ -36,7 +41,10 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.3.0",
+    "axe-core": "^4.14.0",
     "jsdom": "^31.0.0",
+    "lighthouse": "^13.6.0",
+    "playwright-core": "^1.65.1",
     "read-excel-file": "^9.3.15",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",

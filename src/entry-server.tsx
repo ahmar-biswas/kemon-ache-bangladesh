@@ -5,7 +5,7 @@
 import { StrictMode } from 'react';
 import { prerender } from 'react-dom/static';
 import { StaticRouter } from 'react-router';
-import { App } from './App.tsx';
+import { App, preloadPage } from './App.tsx';
 import { AREA_PAGES, PAGE_MEASURES, SUBSECTIONS, path } from './data/site.ts';
 import { LANGS } from './i18n/index.ts';
 
@@ -24,6 +24,10 @@ export function routes(): string[] {
 }
 
 export async function render(url: string): Promise<string> {
+  // Load the page's code first. Otherwise React writes the page as a hidden block plus a script that
+  // swaps it in, with the loading line in its place: readers without JavaScript saw only the
+  // loading line, and everyone saw the page jump when it was swapped (M8, DECISIONS 136).
+  await preloadPage(url);
   const { prelude } = await prerender(
     <StrictMode>
       <StaticRouter location={url}>

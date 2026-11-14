@@ -8,7 +8,7 @@ A bilingual (English/Bangla) well-being dashboard for Bangladesh. Economy (with 
 3. **Derived numbers** are simple arithmetic only, labelled "Calculated by this site", with formula and inputs linked. **No scores, indices or composites.**
 4. **Neutral language.** No good/bad/better/worse. "Ahead of / behind" only through the position badge for indicators with a sourced favourable direction (docs/reference/08-design-system.md, 8.10). Never signal good/bad with colour.
 5. **Explanations are definitions only** and link to the official definition.
-6. **Bilingual everywhere.** Every string in English and Bangla; toggle on every page; Bangla numerals and lakh/crore grouping in Bangla mode; CI fails on a missing Bangla string. Bangla text is a draft until Ahmar reviews it: list unsure strings in BANGLA_REVIEW.md.
+6. **Bilingual everywhere.** Every string in English and Bangla; toggle on every page; Bangla numerals and lakh/crore grouping in Bangla mode; CI fails on a missing Bangla string. Bangla text is a draft until Ahmar reviews it: list unsure strings in docs/bangla-review-history.md, then run `npm run bangla:review` (BANGLA_REVIEW.md is the generated full list).
 7. **Taka** for domestic money where a taka series is published (never convert dollars ourselves); international dollars (PPP) for cross-country comparison; dollar-only series shown in dollars as published.
 8. **No hard-coded data** in components or translation files. Numbers come from the generated JSON.
 9. **Mobile-first and light.** 360 px phone first; homepage JS under about 300 KB gzipped; glass, grain and animation must degrade gracefully.

@@ -3,7 +3,7 @@
 // Pointer or arrow keys move a crosshair with a glass tooltip (year, value, notes).
 // Event markers (only once the list is approved): hollow circles for elections and changes
 // of government, small diamonds for shocks. They are context only; the chart claims no cause.
-import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
+import { useId, useLayoutEffect, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
 import { matchNote } from '../../data/notes.ts';
 import { hasGaps, niceTicks, segments, tickDecimals, yearFraction } from '../../data/picker.ts';
 import type { DataRecord, EventItem, Unit } from '../../data/types.ts';
@@ -22,11 +22,15 @@ interface Props {
   label: string;
 }
 
+// Measured before the first paint (layout effect): drawn at the fallback width first, a chart was
+// briefly wider than a phone screen, and the phone zoomed out and back (M8, DECISIONS 137).
 function useWidth(ref: React.RefObject<HTMLDivElement | null>, fallback = 640) {
   const [width, setWidth] = useState(fallback);
-  useEffect(() => {
+  useLayoutEffect(() => {
     const el = ref.current;
-    if (!el || typeof ResizeObserver === 'undefined') return;
+    if (!el) return;
+    if (el.clientWidth > 0) setWidth(Math.round(el.clientWidth));
+    if (typeof ResizeObserver === 'undefined') return;
     const ro = new ResizeObserver(() => {
       const w = Math.round(el.clientWidth);
       if (w > 0) setWidth(w);
@@ -57,18 +61,36 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
   const yLabels = ticks.map((v) => yLabel(v, unit, decimals, lang));
   const endLabel = valueParts(last, lang, true).number;
 
-  const H = W < 480 ? 260 : 340;
   const m = {
     l: Math.max(36, Math.max(...yLabels.map((s) => s.length)) * 7.4 + 14),
     r: Math.min(W * 0.28, endLabel.length * 8 + 22),
-    t: events.length > 0 ? 48 : 16,
+    t: 16,
     b: 30,
   };
   const plotW = Math.max(40, W - m.l - m.r);
-  const plotH = H - m.t - m.b;
   const y0 = first.year;
   const y1 = last.year;
   const x = (year: number) => (y1 === y0 ? m.l + plotW / 2 : m.l + ((year - y0) / (y1 - y0)) * plotW);
+
+  const shown = events
+    .map((e) => ({ e, at: yearFraction(e.date) }))
+    .filter(({ at }) => at >= y0 && at <= y1 + 0.999)
+    .sort((a, b) => a.at - b.at);
+  // Event markers are 24 px targets. Each goes in the first lane where it is at least 24 px from the
+  // marker before it, so no two touch (WCAG target spacing); a narrow phone may need three or four lanes.
+  const LANE = 24;
+  const laneEnds: number[] = [];
+  const marks = shown.map(({ e, at }) => {
+    const px = x(Math.min(at, y1));
+    let lane = laneEnds.findIndex((end) => px - end >= LANE);
+    if (lane === -1) lane = laneEnds.length;
+    laneEnds[lane] = px;
+    return { e, px, lane };
+  });
+  if (marks.length) m.t = 4 + laneEnds.length * LANE + 20;
+  // Extra lanes make the chart taller rather than the plot shorter.
+  const H = (W < 480 ? 260 : 340) + Math.max(0, m.t - 48);
+  const plotH = H - m.t - m.b;
   const vMin = ticks[0]!;
   const vMax = ticks[ticks.length - 1]!;
   const y = (v: number) => m.t + plotH - ((v - vMin) / (vMax - vMin)) * plotH;
@@ -82,19 +104,6 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
   const segs = segments(sorted);
   const sparse = sorted.length <= 30;
   const gaps = hasGaps(sorted);
-
-  const shown = events
-    .map((e) => ({ e, at: yearFraction(e.date) }))
-    .filter(({ at }) => at >= y0 && at <= y1 + 0.999)
-    .sort((a, b) => a.at - b.at);
-  // Markers that would touch go on a second lane.
-  let lastLane0 = -Infinity;
-  const marks = shown.map(({ e, at }) => {
-    const px = x(Math.min(at, y1));
-    const lane = px - lastLane0 < 16 ? 1 : 0;
-    if (lane === 0) lastLane0 = px;
-    return { e, px, lane };
-  });
 
   const nearest = (clientX: number) => {
     const box = wrap.current?.getBoundingClientRect();
@@ -214,7 +223,7 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
         <div
           key={e.id}
           className={`event event--${e.kind}${openEvent === e.id ? ' is-open' : ''}${px > W * 0.6 ? ' is-end' : px < W * 0.4 ? ' is-start' : ''}`}
-          style={{ left: px, top: m.t - 44 + lane * 20 }}
+          style={{ left: px, top: 4 + lane * LANE }}
           onPointerEnter={(ev) => ev.pointerType === 'mouse' && setOpenEvent(e.id)}
           onPointerLeave={(ev) => ev.pointerType === 'mouse' && setOpenEvent(null)}
         >
@@ -246,7 +255,7 @@ export function LineChart({ lang, points, unit, events, label }: Props) {
       ))}
 
       {a && (
-        <div className={`line-chart__tip glass ${tipSide}`} style={{ left: ax, top: Math.max(4, y(a.value) - 12) }} role="status">
+        <div className={`line-chart__tip glass ${tipSide}${y(a.value) < H / 2 ? ' is-below' : ''}`} style={{ left: ax, top: y(a.value) < H / 2 ? y(a.value) : Math.max(4, y(a.value) - 12) }} role="status">
           <span>
             <strong className="num">{formatYear(a.year, lang)}</strong>: {formatValue(a, lang)}
           </span>

@@ -22,6 +22,11 @@ if (!template.includes('<div id="root"></div>')) throw new Error('dist/index.htm
 
 const SITE_TITLE = 'Kemon Ache Bangladesh?';
 const SITE_TITLE_BN = 'কেমন আছে বাংলাদেশ?';
+// The page description for search results: the site tagline in the page's language.
+const TAGLINE = {
+  en: (JSON.parse(readFileSync('src/i18n/en.json', 'utf8')) as Record<string, string>)['site.tagline']!,
+  bn: (JSON.parse(readFileSync('src/i18n/bn.json', 'utf8')) as Record<string, string>)['site.tagline']!,
+};
 
 const decode = (s: string) => s.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').trim();
 const escapeHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
@@ -35,6 +40,7 @@ function page(url: string, body: string, prerenderedPath: string | null): string
   const attr = prerenderedPath ? ` data-prerendered="${prerenderedPath}"` : '';
   return template
     .replace('<html lang="en"', `<html lang="${lang}"`)
+    .replace(/<meta name="description" content="[^"]*"/, `<meta name="description" content="${escapeHtml(TAGLINE[lang])}"`)
     .replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(title)}</title>`)
     .replace('<div id="root"></div>', `<div id="root"${attr}>${body}</div>`);
 }

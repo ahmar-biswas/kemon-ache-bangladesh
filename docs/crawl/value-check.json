@@ -1,0 +1,302 @@
+{
+ "seed": 20261114,
+ "checked_at": "2026-11-14T07:34:57.358Z",
+ "results": [
+  {
+   "group": "Bangladesh",
+   "indicator": "gdp_pc_taka",
+   "code": "NY.GDP.PCAP.CN",
+   "country": "BGD",
+   "year": 1986,
+   "site_value": 6364.46981559181,
+   "published": 6364.46981559181,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.CN?date=1986&format=json",
+   "page_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CN?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "inflation",
+   "code": "FP.CPI.TOTL.ZG",
+   "country": "BGD",
+   "year": 1988,
+   "site_value": 7.41276595744666,
+   "published": 7.41276595744666,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/FP.CPI.TOTL.ZG?date=1988&format=json",
+   "page_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "primary_completion",
+   "code": "SE.PRM.CMPT.ZS",
+   "country": "BGD",
+   "year": 2021,
+   "site_value": 109.869193724542,
+   "published": 109.869193724542,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.PRM.CMPT.ZS?date=2021&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SE.PRM.CMPT.ZS?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "beds",
+   "code": "SH.MED.BEDS.ZS",
+   "country": "BGD",
+   "year": 2016,
+   "site_value": 0.79,
+   "published": 0.79,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.MED.BEDS.ZS?date=2016&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "gdp_pc_ppp",
+   "code": "NY.GDP.PCAP.PP.CD",
+   "country": "BGD",
+   "year": 2000,
+   "site_value": 1511.90500583586,
+   "published": 1511.90500583586,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.PP.CD?date=2000&format=json",
+   "page_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "physicians",
+   "code": "SH.MED.PHYS.ZS",
+   "country": "BGD",
+   "year": 2012,
+   "site_value": 0.39,
+   "published": 0.39,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.MED.PHYS.ZS?date=2012&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "share_low20",
+   "code": "SI.DST.FRST.20",
+   "country": "BGD",
+   "year": 2010,
+   "site_value": 8.9,
+   "published": 8.9,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.DST.FRST.20?date=2010&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SI.DST.FRST.20?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "gini",
+   "code": "SI.POV.GINI",
+   "country": "BGD",
+   "year": 2000,
+   "site_value": 33.4,
+   "published": 33.4,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.POV.GINI?date=2000&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "secondary_enrol",
+   "code": "SE.SEC.ENRR",
+   "country": "BGD",
+   "year": 1989,
+   "site_value": 19.3137493133545,
+   "published": 19.3137493133545,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.SEC.ENRR?date=1989&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "youth_unemployment",
+   "code": "SL.UEM.1524.ZS",
+   "country": "BGD",
+   "year": 2022,
+   "site_value": 10.985,
+   "published": 10.985,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SL.UEM.1524.ZS?date=2022&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "dpt",
+   "code": "SH.IMM.IDPT",
+   "country": "BGD",
+   "year": 1998,
+   "site_value": 77,
+   "published": 77,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.IMM.IDPT?date=1998&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=BD"
+  },
+  {
+   "group": "Bangladesh",
+   "indicator": "gdp_pc_growth",
+   "code": "NY.GDP.PCAP.KD.ZG",
+   "country": "BGD",
+   "year": 1968,
+   "site_value": 6.313411168743,
+   "published": 6.313411168743,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.KD.ZG?date=1968&format=json",
+   "page_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=BD"
+  },
+  {
+   "group": "Comparison country",
+   "indicator": "beds",
+   "code": "SH.MED.BEDS.ZS",
+   "country": "KHM",
+   "year": 1960,
+   "site_value": 0.746548891067505,
+   "published": 0.746548891067505,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/KHM/indicator/SH.MED.BEDS.ZS?date=1960&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=KH"
+  },
+  {
+   "group": "Comparison country",
+   "indicator": "under5_mortality",
+   "code": "SH.DYN.MORT",
+   "country": "IND",
+   "year": 1997,
+   "site_value": 102.7,
+   "published": 102.7,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/IND/indicator/SH.DYN.MORT?date=1997&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.DYN.MORT?locations=IN"
+  },
+  {
+   "group": "Comparison country",
+   "indicator": "pm25",
+   "code": "EN.ATM.PM25.MC.M3",
+   "country": "LKA",
+   "year": 2001,
+   "site_value": 32.8129875379596,
+   "published": 32.8129875379596,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/LKA/indicator/EN.ATM.PM25.MC.M3?date=2001&format=json",
+   "page_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=LK"
+  },
+  {
+   "group": "Comparison country",
+   "indicator": "dpt",
+   "code": "SH.IMM.IDPT",
+   "country": "NPL",
+   "year": 1994,
+   "site_value": 54,
+   "published": 54,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/NPL/indicator/SH.IMM.IDPT?date=1994&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=NP"
+  },
+  {
+   "group": "Newest value, other country",
+   "indicator": "inflation",
+   "code": "FP.CPI.TOTL.ZG",
+   "country": "BLZ",
+   "year": 2025,
+   "site_value": 1.06281547952896,
+   "published": 1.06281547952896,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BLZ/indicator/FP.CPI.TOTL.ZG?date=2025&format=json",
+   "page_url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BZ"
+  },
+  {
+   "group": "Newest value, other country",
+   "indicator": "gdp_pc_growth",
+   "code": "NY.GDP.PCAP.KD.ZG",
+   "country": "TUV",
+   "year": 2025,
+   "site_value": 3.28836017215532,
+   "published": 3.28836017215532,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/TUV/indicator/NY.GDP.PCAP.KD.ZG?date=2025&format=json",
+   "page_url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=TV"
+  },
+  {
+   "group": "Newest value, other country",
+   "indicator": "pm25",
+   "code": "EN.ATM.PM25.MC.M3",
+   "country": "ROU",
+   "year": 2023,
+   "site_value": 16.007729806639,
+   "published": 16.007729806639,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/ROU/indicator/EN.ATM.PM25.MC.M3?date=2023&format=json",
+   "page_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=RO"
+  },
+  {
+   "group": "Newest value, other country",
+   "indicator": "beds",
+   "code": "SH.MED.BEDS.ZS",
+   "country": "BRA",
+   "year": 2021,
+   "site_value": 2.52,
+   "published": 2.52,
+   "status": "match",
+   "check_url": "https://api.worldbank.org/v2/country/BRA/indicator/SH.MED.BEDS.ZS?date=2021&format=json",
+   "page_url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=BR"
+  }
+ ],
+ "eye": [
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "cpi_rank",
+   "country": "BGD",
+   "year": 2025,
+   "site_value": 150,
+   "out_of": 182,
+   "page_url": "https://www.transparency.org/en/cpi/2025"
+  },
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "ghi_rank",
+   "country": "BGD",
+   "year": 2026,
+   "site_value": 84,
+   "out_of": 122,
+   "page_url": "https://www.globalhungerindex.org/bangladesh.html"
+  },
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "hdi_rank",
+   "country": "BGD",
+   "year": 2023,
+   "site_value": 130,
+   "out_of": 193,
+   "page_url": "https://hdr.undp.org/data-center/specific-country-data#/countries/BGD"
+  },
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "rsf_rank",
+   "country": "BGD",
+   "year": 2026,
+   "site_value": 152,
+   "out_of": 180,
+   "page_url": "https://rsf.org/en/country/bangladesh"
+  },
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "sdg_rank",
+   "country": "BGD",
+   "year": 2026,
+   "site_value": 110,
+   "out_of": 169,
+   "page_url": "https://dashboards.sdgindex.org/profiles/bangladesh"
+  },
+  {
+   "group": "Ranking (check by eye)",
+   "indicator": "whr_rank",
+   "country": "BGD",
+   "year": 2025,
+   "site_value": 127,
+   "out_of": 147,
+   "page_url": "https://worldhappiness.report/ed/2026/"
+  }
+ ]
+}

@@ -268,3 +268,7 @@
   .no-js .menu-button { display: none; }
   .no-js .mobile-menu[hidden] { display: block; position: static; }
 }
+
+/* While a measure's charts load, keep roughly their space (they are 700–1,400 px tall), so the
+   page does not jump and the footer does not flash up the screen (Lighthouse layout shift, M8). */
+.indicator-page__section > .loading { display: flex; align-items: flex-start; min-height: 40rem; padding-top: var(--s-16); }

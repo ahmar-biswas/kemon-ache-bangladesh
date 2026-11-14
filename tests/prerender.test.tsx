@@ -36,5 +36,14 @@ describe('pre-rendered pages', () => {
       const html = await render(`/${lang}/about`);
       expect(html).toContain(t(lang, 'about.rules.h').replace(/"/g, '&quot;'));
     });
+
+    // DECISIONS 136: the page's content is in place, not a hidden block swapped in by a script
+    // (without JavaScript that showed only the loading line, and the page jumped when swapped).
+    it.each(['/economy', '/economy/poverty-and-inequality', '/indicator/stunting', '/compare', '/sources', '/about'])('%s has no hidden or pending block', async (p) => {
+      const html = await render(`/${lang}${p}`);
+      expect(html).not.toContain('<!--$?-->');
+      expect(html).not.toMatch(/<div hidden id="S:/);
+      expect(html).not.toMatch(/<main[^>]*>\s*<div class="wrap"><div class="loading"/);
+    });
   });
 });

@@ -37,3 +37,13 @@ describe('t()', () => {
     expect(() => t('en', 'unit.years.value')).toThrow();
   });
 });
+
+describe('BANGLA_REVIEW.md', () => {
+  it('lists every Bangla string as it is now (run `npm run bangla:review` after changing bn.json)', async () => {
+    const { readFileSync } = await import('node:fs');
+    const review = readFileSync('BANGLA_REVIEW.md', 'utf8');
+    const cell = (s: string) => s.replace(/\|/g, '\\|').replace(/\n+/g, ' ').trim();
+    const stale = Object.entries(bn as Record<string, string>).filter(([k, v]) => !review.includes(`\`${k}\` |`) || !review.includes(cell(v)));
+    expect(stale.map(([k]) => k)).toEqual([]);
+  });
+});

@@ -1,0 +1,90 @@
+{
+ "checked_at": "2026-11-14T11:09:52.396Z",
+ "profile": "Lighthouse default mobile (slow 4G, 4x CPU slowdown)",
+ "pages": [
+  {
+   "page": "/en/",
+   "performance": 94,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.6,
+   "cls": 0,
+   "tbt_ms": 259,
+   "js_kb": 152.8,
+   "fonts_kb": 145.7,
+   "total_without_fonts_kb": 249.3,
+   "failing_a11y": []
+  },
+  {
+   "page": "/bn/",
+   "performance": 92,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.7,
+   "cls": 0,
+   "tbt_ms": 325,
+   "js_kb": 152.8,
+   "fonts_kb": 255.8,
+   "total_without_fonts_kb": 258.9,
+   "failing_a11y": []
+  },
+  {
+   "page": "/en/economy",
+   "performance": 86,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.7,
+   "cls": 0,
+   "tbt_ms": 508,
+   "js_kb": 197.4,
+   "fonts_kb": 145.7,
+   "total_without_fonts_kb": 329,
+   "failing_a11y": []
+  },
+  {
+   "page": "/bn/indicator/gdp_pc_taka",
+   "performance": 88,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.6,
+   "cls": 0,
+   "tbt_ms": 442,
+   "js_kb": 222.9,
+   "fonts_kb": 289.2,
+   "total_without_fonts_kb": 296.9,
+   "failing_a11y": []
+  },
+  {
+   "page": "/en/indicator/stunting",
+   "performance": 96,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.4,
+   "cls": 0.001,
+   "tbt_ms": 216,
+   "js_kb": 227.2,
+   "fonts_kb": 145.7,
+   "total_without_fonts_kb": 297.6,
+   "failing_a11y": []
+  },
+  {
+   "page": "/bn/sources",
+   "performance": 79,
+   "accessibility": 100,
+   "best_practices": 81,
+   "seo": 100,
+   "lcp_s": 1.9,
+   "cls": 0.288,
+   "tbt_ms": 255,
+   "js_kb": 202.4,
+   "fonts_kb": 289.2,
+   "total_without_fonts_kb": 336.6,
+   "failing_a11y": []
+  }
+ ]
+}

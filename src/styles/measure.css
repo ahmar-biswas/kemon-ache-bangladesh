@@ -221,6 +221,7 @@
   z-index: 6;
   display: grid;
   gap: 2px;
+  width: max-content;
   max-width: min(320px, 80vw);
   padding: var(--s-8) var(--s-12);
   border-radius: var(--r-chip);
@@ -230,8 +231,16 @@
   pointer-events: none;
   transform: translate(-50%, -100%);
 }
-.line-chart__tip.is-start { transform: translate(12px, -100%); }
-.line-chart__tip.is-end { transform: translate(calc(-100% - 12px), -100%); }
+/* Above the point; below it when the point is in the top half (so a long note stays inside the chart). */
+.line-chart__tip { --tip-y: -100%; }
+.line-chart__tip.is-below { --tip-y: 24px; }
+.line-chart__tip.is-middle { transform: translate(-50%, var(--tip-y)); }
+.line-chart__tip.is-start { transform: translate(12px, var(--tip-y)); }
+.line-chart__tip.is-end { transform: translate(calc(-100% - 12px), var(--tip-y)); }
+/* Phones: the chart is too narrow to put a note beside the point; it spans the chart instead. */
+@media (max-width: 599px) {
+  .line-chart__tip.is-start, .line-chart__tip.is-middle, .line-chart__tip.is-end { left: var(--s-8) !important; right: var(--s-8); width: auto; max-width: none; transform: translateY(var(--tip-y)); }
+}
 .line-chart__tip-note { font-size: 0.8125rem; color: var(--kali-2); }
 
 /* Event markers: shape is the cue (8.9), never colour. */

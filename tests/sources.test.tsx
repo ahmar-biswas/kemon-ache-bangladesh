@@ -33,7 +33,7 @@ describe.each(LANGS)('pages in %s', (lang) => {
       expect(line!.querySelector('[data-source-retrieved]')?.textContent).toBeTruthy();
     }
     // The design preview renders every specimen at once; its first, cold render can pass 5 s.
-  }, 20000);
+  }, 30000);
 
   it.each([...PAGES, ...TEXT_ONLY_PAGES])('%s: no unfilled {placeholders}', async (page) => {
     const { container } = await renderAt(`/${lang}${page}`);

@@ -26,5 +26,7 @@ jobs:
         run: npm run check:data
       - name: Unit tests and source check (every shown value has a source line)
         run: npm test
-      - name: Build
-        run: npx vite build
+      - name: Build (with pre-rendered pages)
+        run: npm run build
+      - name: Site crawl (every page in both languages; uses the runner's Chrome)
+        run: npm run check:crawl

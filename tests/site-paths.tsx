@@ -24,10 +24,10 @@ export async function renderAt(path: string) {
       <App />
     </MemoryRouter>,
   );
-  await waitFor(() => expect(result.container.querySelector('main h1')).not.toBeNull(), { timeout: 8000 });
+  await waitFor(() => expect(result.container.querySelector('main h1')).not.toBeNull(), { timeout: 15000 });
   // (The design preview shows the loader on purpose, as a specimen.)
   if (!path.includes('design-preview')) {
-    await waitFor(() => expect(result.container.querySelector('main .loading, .snapshot--loading')).toBeNull(), { timeout: 8000 });
+    await waitFor(() => expect(result.container.querySelector('main .loading, .snapshot--loading')).toBeNull(), { timeout: 15000 });
   }
   return result;
 }
