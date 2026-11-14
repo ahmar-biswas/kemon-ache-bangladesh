@@ -7,6 +7,7 @@ import { Link } from 'react-router';
 import { path } from '../data/site.ts';
 import { Backdrop } from './Backdrop.tsx';
 import { LastChecked, OfflineNotice } from './PageStates.tsx';
+import { PageCurtain } from './PageCurtain.tsx';
 import { LanguageToggle } from './LanguageToggle.tsx';
 import { MobileMenu, SiteNav } from './SiteNav.tsx';
 import { Jamdani } from './Motifs.tsx';
@@ -64,6 +65,7 @@ export function Layout() {
           </ul>
         </div>
       </footer>
+      <PageCurtain />
     </div>
   );
 }

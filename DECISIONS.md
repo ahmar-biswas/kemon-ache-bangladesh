@@ -357,3 +357,9 @@ Every choice that the spec left open, with the reason. Newest at the bottom.
       - Rank 1 is the lowest hunger score. No licence in the file; shown with credit.
 
     Each rank is shown as published with its own source line, data year and retrieved date. The GHI ranks only about 120 countries, so its minimum check is 80 single ranks, not 100.
+125. **Page change curtain (Ahmar's choice: muslin curtain first; the other three ideas to try later).**
+    - **When it plays:** only when the address changes to another page, or the language changes. A sheet of the site's muslin paper (same faint texture as the background, jamdani band on its top edge) slides up over the screen in about 0.2 s. The rickshaw wheel turns while the new page loads (at least 0.15 s, at most 4 s), then the sheet lifts off the top in about 0.2 s.
+    - **Language switch:** the name on the sheet changes from "Kemon Ache Bangladesh?" to "কেমন আছে বাংলাদেশ?" (or back) while the screen is covered. This stays whichever curtain is used later.
+    - **When it doesn't play:** same-page links (#parts, ?choices, "The full picture", Chart/Table, picking countries, /sources sections); back/forward buttons; new-tab or modified clicks; reduced motion, data saver, low-end phones (R10); print.
+    - Code: `src/components/PageCurtain.tsx`. It catches link clicks before the router does, covers, then navigates.
+    - Still to try: kantha stitch, alpona bloom, rising sun.

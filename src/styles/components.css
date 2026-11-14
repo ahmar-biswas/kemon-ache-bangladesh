@@ -544,3 +544,42 @@
   details.sources-measure > :not(summary) { display: block; }
   * { animation: none !important; transition: none !important; }
 }
+
+/* ---------- Page change curtain (DECISIONS.md 125) ---------- */
+/* A sheet of the site's own muslin paper: slides up over the page, the wheel turns, lifts off the top. */
+.curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: radial-gradient(120% 80% at 50% 45%, var(--muslin) 0 55%, var(--chal) 100%);
+  box-shadow: var(--paper-shadow);
+  transform: translateY(100%);
+  visibility: hidden;
+  pointer-events: none;
+}
+/* The page's own paper texture, as faint as on the background (background.css, layer 4). */
+.curtain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/fibres.png'), url('../assets/grain.png');
+  background-size: 256px 256px, 64px 64px;
+  opacity: .16;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+.curtain .jamdani { opacity: .22; height: 18px; }
+.curtain.is-covering, .curtain.is-holding, .curtain.is-revealing { visibility: visible; pointer-events: auto; }
+.curtain.is-covering { transform: translateY(0); transition: transform 200ms cubic-bezier(.2, .7, .2, 1); }
+.curtain.is-holding { transform: translateY(0); }
+.curtain.is-revealing { transform: translateY(-100%); transition: transform 220ms cubic-bezier(.6, 0, .8, .3); }
+.curtain__centre { display: grid; place-items: center; align-content: center; gap: var(--s-12); }
+.curtain .rickshaw-wheel { animation-duration: 900ms; }
+.curtain__name { margin: 0; font-family: var(--font-display-en); font-size: 1.25rem; color: var(--kali-2); }
+.curtain__name[lang='bn'] { font-family: var(--font-display-bn); }
+.curtain__name.is-switch { animation: curtain-name 200ms ease-out; }
+@keyframes curtain-name { from { opacity: 0; transform: translateY(6px); } }
+@media (prefers-reduced-motion: reduce) { .curtain { display: none; } }
+@media print { .curtain { display: none; } }
